@@ -1,0 +1,85 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum TaskStatus {
+  PENDENT
+  CURS
+  FET
+}
+
+enum Priority {
+  ALTA
+  MITJA
+  BAIXA
+}
+
+enum AttachmentType {
+  IMAGE
+  FILE
+  AUDIO
+}
+
+model User {
+  id           String   @id @default(cuid())
+  name         String
+  email        String   @unique
+  passwordHash String
+  avatarUrl    String?
+  color        String   @default("#3E7C74")
+  createdAt    DateTime @default(now())
+
+  tasksAssigned Task[]    @relation("AssignedTasks")
+  tasksCreated  Task[]    @relation("CreatedTasks")
+  comments      Comment[]
+  messages      Message[]
+}
+
+model Task {
+  id          String     @id @default(cuid())
+  title       String
+  description String?
+  status      TaskStatus @default(PENDENT)
+  priority    Priority   @default(MITJA)
+  dueDate     DateTime?
+
+  assignee   User?   @relation("AssignedTasks", fields: [assigneeId], references: [id])
+  assigneeId String?
+
+  creator   User   @relation("CreatedTasks", fields: [creatorId], references: [id])
+  creatorId String
+
+  comments  Comment[]
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+model Comment {
+  id     String @id @default(cuid())
+  text   String
+  task   Task   @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  taskId String
+
+  author   User   @relation(fields: [authorId], references: [id])
+  authorId String
+
+  createdAt DateTime @default(now())
+}
+
+model Message {
+  id             String          @id @default(cuid())
+  text           String?
+  attachmentUrl  String?
+  attachmentType AttachmentType?
+  attachmentName String?
+
+  author   User   @relation(fields: [authorId], references: [id])
+  authorId String
+
+  createdAt DateTime @default(now())
+}
