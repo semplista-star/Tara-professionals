@@ -10,14 +10,14 @@ export const authOptions: AuthOptions = {
     CredentialsProvider({
       name: "Credencials",
       credentials: {
-        email: { label: "Correu", type: "email" },
+        username: { label: "Usuari", type: "text" },
         password: { label: "Contrasenya", type: "password" }
       },
       async authorize(credentials) {
-        if (!credentials?.email || !credentials?.password) return null;
+        if (!credentials?.username || !credentials?.password) return null;
 
         const user = await prisma.user.findUnique({
-          where: { email: credentials.email.toLowerCase().trim() }
+          where: { username: credentials.username.toLowerCase().trim() }
         });
         if (!user) return null;
 
@@ -27,7 +27,7 @@ export const authOptions: AuthOptions = {
         return {
           id: user.id,
           name: user.name,
-          email: user.email,
+          username: user.username,
           image: user.avatarUrl ?? undefined,
           color: user.color
         } as any;
@@ -39,6 +39,7 @@ export const authOptions: AuthOptions = {
       if (user) {
         token.id = (user as any).id;
         token.color = (user as any).color;
+        token.username = (user as any).username;
       }
       return token;
     },
@@ -46,6 +47,7 @@ export const authOptions: AuthOptions = {
       if (session.user) {
         (session.user as any).id = token.id;
         (session.user as any).color = token.color;
+        (session.user as any).username = token.username;
       }
       return session;
     }

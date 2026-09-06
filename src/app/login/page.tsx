@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 
 export default function LoginPage() {
   const router = useRouter();
-  const [email, setEmail] = useState("");
+  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
@@ -17,14 +17,14 @@ export default function LoginPage() {
     setError("");
 
     const res = await signIn("credentials", {
-      email: email.trim().toLowerCase(),
+      username: username.trim().toLowerCase(),
       password,
       redirect: false
     });
 
     setLoading(false);
     if (res?.error) {
-      setError("Correu o contrasenya incorrectes.");
+      setError("Usuari o contrasenya incorrectes.");
     } else {
       router.push("/dashboard");
       router.refresh();
@@ -39,14 +39,14 @@ export default function LoginPage() {
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <label className="block text-xs text-muted mb-1">Correu</label>
+            <label className="block text-xs text-muted mb-1">Usuari</label>
             <input
-              type="email"
+              type="text"
               required
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
               className="w-full border border-line rounded px-3 py-2 bg-white text-sm"
-              placeholder="tu@tara-project.com"
+              placeholder="marky"
             />
           </div>
           <div>

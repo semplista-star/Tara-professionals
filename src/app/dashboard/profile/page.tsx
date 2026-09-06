@@ -60,8 +60,8 @@ export default function ProfilePage() {
           <input value={name} onChange={(e) => setName(e.target.value)} className="w-full border border-line rounded px-3 py-2 text-sm bg-white" />
         </div>
         <div>
-          <label className="block text-xs text-muted mb-1">Correu</label>
-          <input value={user?.email || ""} disabled className="w-full border border-line rounded px-3 py-2 text-sm bg-linesoft text-muted" />
+          <label className="block text-xs text-muted mb-1">Usuari</label>
+          <input value={user?.username || ""} disabled className="w-full border border-line rounded px-3 py-2 text-sm bg-linesoft text-muted" />
         </div>
         <div>
           <label className="block text-xs text-muted mb-1">Nova contrasenya (opcional)</label>
