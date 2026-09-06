@@ -38,6 +38,7 @@ model User {
   tasksCreated  Task[]    @relation("CreatedTasks")
   comments      Comment[]
   messages      Message[]
+  personalFiles PersonalFile[]
 }
 
 model Task {
@@ -67,6 +68,18 @@ model Comment {
 
   author   User   @relation(fields: [authorId], references: [id])
   authorId String
+
+  createdAt DateTime @default(now())
+}
+
+model PersonalFile {
+  id       String @id @default(cuid())
+  name     String
+  url      String
+  mimeType String
+
+  owner   User   @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  ownerId String
 
   createdAt DateTime @default(now())
 }

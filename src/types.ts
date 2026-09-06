@@ -25,6 +25,14 @@ export type TaskT = {
   createdAt: string;
 };
 
+export type PersonalFileT = {
+  id: string;
+  name: string;
+  url: string;
+  mimeType: string;
+  createdAt: string;
+};
+
 export type MessageT = {
   id: string;
   text: string | null;
