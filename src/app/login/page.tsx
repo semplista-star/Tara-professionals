@@ -32,10 +32,10 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-6">
-      <div className="w-full max-w-sm">
+    <div className="min-h-screen bg-canvas flex items-center justify-center px-6">
+      <div className="w-full max-w-sm bg-panel border border-border rounded-xl p-8">
         <h1 className="font-display text-3xl mb-1">Tara</h1>
-        <p className="text-muted text-sm mb-8">Entra con tu cuenta del equipo.</p>
+        <p className="text-muted mb-8">Entra con tu cuenta del equipo.</p>
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
@@ -45,7 +45,7 @@ export default function LoginPage() {
               required
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              className="w-full border border-line rounded px-3 py-2 bg-white text-sm"
+              className="w-full border border-border rounded-lg px-3 py-2 bg-canvas focus:outline-none focus:ring-2 focus:ring-accent-light focus:border-accent"
               placeholder="marky"
             />
           </div>
@@ -56,7 +56,7 @@ export default function LoginPage() {
               required
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="w-full border border-line rounded px-3 py-2 bg-white text-sm"
+              className="w-full border border-border rounded-lg px-3 py-2 bg-canvas focus:outline-none focus:ring-2 focus:ring-accent-light focus:border-accent"
               placeholder="••••••••"
             />
           </div>
@@ -66,7 +66,7 @@ export default function LoginPage() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-ink text-canvas rounded py-2.5 text-sm disabled:opacity-60"
+            className="w-full bg-accent text-white rounded-lg py-2.5 disabled:opacity-60"
           >
             {loading ? "Entrando…" : "Entrar"}
           </button>
