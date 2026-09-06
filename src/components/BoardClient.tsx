@@ -10,9 +10,9 @@ function celebrate() {
   confetti({ particleCount: 90, spread: 70, origin: { y: 0.7 }, colors: ["#3E7C74", "#C97B3C", "#A85751", "#5B7A9D"] });
 }
 
-const STATUS_LABEL: Record<string, string> = { PENDENT: "Pendent", CURS: "En curs", FET: "Fet" };
+const STATUS_LABEL: Record<string, string> = { PENDENT: "Pendiente", CURS: "En curso", FET: "Hecho" };
 const STATUS_COLOR: Record<string, string> = { PENDENT: "bg-pendent", CURS: "bg-curs", FET: "bg-fet" };
-const PRIORITY_LABEL: Record<string, string> = { ALTA: "Alta", MITJA: "Mitjana", BAIXA: "Baixa" };
+const PRIORITY_LABEL: Record<string, string> = { ALTA: "Alta", MITJA: "Media", BAIXA: "Baja" };
 const PRIORITY_CLASS: Record<string, string> = {
   ALTA: "bg-[#F3E3E0] text-danger",
   MITJA: "bg-[#F5EAD3] text-[#8A6A1F]",
@@ -27,7 +27,7 @@ function isOverdue(t: TaskT) {
   return d < today;
 }
 function fmtDate(iso: string) {
-  return new Date(iso).toLocaleDateString("ca-ES", { day: "numeric", month: "short" });
+  return new Date(iso).toLocaleDateString("es-ES", { day: "numeric", month: "short" });
 }
 
 export default function BoardClient() {
@@ -106,9 +106,9 @@ export default function BoardClient() {
     <div>
       <div className="flex justify-between items-start mb-6 gap-4">
         <div>
-          <h2 className="font-display text-2xl mb-0.5">Tauler complet</h2>
+          <h2 className="font-display text-2xl mb-0.5">Tablero completo</h2>
           <p className="text-muted text-sm">
-            Totes les tasques de l'equip. Pots assignar-ne una a qualsevol company sense entrar al seu perfil.
+            Todas las tareas del equipo. Puedes asignar una a cualquier compañero sin entrar en su perfil.
           </p>
         </div>
         <button
@@ -118,17 +118,17 @@ export default function BoardClient() {
           }}
           className="bg-ink text-canvas rounded px-4 py-2.5 text-sm whitespace-nowrap"
         >
-          + Nova tasca
+          + Nueva tarea
         </button>
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 mb-6">
         {[
           ["Total", tasks.length, ""],
-          ["Pendents", tasks.filter((t) => t.status === "PENDENT").length, ""],
-          ["En curs", tasks.filter((t) => t.status === "CURS").length, ""],
-          ["Fetes", tasks.filter((t) => t.status === "FET").length, ""],
-          ["Vençudes", tasks.filter(isOverdue).length, "text-danger"]
+          ["Pendientes", tasks.filter((t) => t.status === "PENDENT").length, ""],
+          ["En curso", tasks.filter((t) => t.status === "CURS").length, ""],
+          ["Hechas", tasks.filter((t) => t.status === "FET").length, ""],
+          ["Vencidas", tasks.filter(isOverdue).length, "text-danger"]
         ].map(([label, num, cls]) => (
           <div key={label as string} className="bg-panel border border-line rounded-md px-4 py-3">
             <div className={`font-display text-2xl ${cls}`}>{num as number}</div>
@@ -144,7 +144,7 @@ export default function BoardClient() {
             filter === "all" ? "border-ink text-ink" : "border-line text-muted"
           }`}
         >
-          Tots <span className="bg-linesoft rounded-full px-1.5 text-[10px]">{tasks.length}</span>
+          Todos <span className="bg-linesoft rounded-full px-1.5 text-[10px]">{tasks.length}</span>
         </button>
         {users.map((u) => (
           <button
@@ -173,7 +173,7 @@ export default function BoardClient() {
                 {STATUS_LABEL[col]}
                 <span className="ml-auto">{colTasks.length}</span>
               </div>
-              {colTasks.length === 0 && <p className="text-xs text-muted italic">Sense tasques aquí.</p>}
+              {colTasks.length === 0 && <p className="text-xs text-muted italic">Sin tareas aquí.</p>}
               {colTasks.map((t) => (
                 <div
                   key={t.id}
@@ -192,18 +192,18 @@ export default function BoardClient() {
                   <div className="flex items-center justify-between text-[11px]">
                     <span className="flex items-center gap-1.5 text-muted">
                       <span className="w-1.5 h-1.5 rounded-full" style={{ background: t.assignee?.color || "#999" }} />
-                      {t.assignee?.name || "Sense assignar"}
+                      {t.assignee?.name || "Sin asignar"}
                     </span>
                     {t.dueDate && (
                       <span className={isOverdue(t) ? "text-danger font-medium" : "text-muted"}>
-                        {isOverdue(t) ? "Vençuda " : ""}
+                        {isOverdue(t) ? "Vencida " : ""}
                         {fmtDate(t.dueDate)}
                       </span>
                     )}
                   </div>
                   {t.comments.length > 0 && (
                     <p className="text-[11px] text-muted mt-1.5">
-                      {t.comments.length} comentari{t.comments.length > 1 ? "s" : ""}
+                      {t.comments.length} comentario{t.comments.length > 1 ? "s" : ""}
                     </p>
                   )}
                 </div>
@@ -221,18 +221,18 @@ export default function BoardClient() {
             onClick={(e) => e.stopPropagation()}
             className="bg-panel rounded-lg p-6 w-full max-w-md border border-line space-y-3"
           >
-            <h3 className="font-display text-lg mb-1">{editingId ? "Editar tasca" : "Nova tasca"}</h3>
+            <h3 className="font-display text-lg mb-1">{editingId ? "Editar tarea" : "Nueva tarea"}</h3>
             <div>
-              <label className="block text-xs text-muted mb-1">Títol</label>
+              <label className="block text-xs text-muted mb-1">Título</label>
               <input name="title" defaultValue={editing?.title} required className="w-full border border-line rounded px-3 py-2 text-sm bg-canvas" />
             </div>
             <div>
-              <label className="block text-xs text-muted mb-1">Descripció</label>
+              <label className="block text-xs text-muted mb-1">Descripción</label>
               <textarea name="description" defaultValue={editing?.description || ""} className="w-full border border-line rounded px-3 py-2 text-sm bg-canvas min-h-[60px]" />
             </div>
             <div className="grid grid-cols-2 gap-3">
               <div>
-                <label className="block text-xs text-muted mb-1">Assignat a</label>
+                <label className="block text-xs text-muted mb-1">Asignado a</label>
                 <select name="assigneeId" defaultValue={editing?.assignee?.id || myId} className="w-full border border-line rounded px-3 py-2 text-sm bg-canvas">
                   {users.map((u) => (
                     <option key={u.id} value={u.id}>{u.name}</option>
@@ -240,34 +240,34 @@ export default function BoardClient() {
                 </select>
               </div>
               <div>
-                <label className="block text-xs text-muted mb-1">Prioritat</label>
+                <label className="block text-xs text-muted mb-1">Prioridad</label>
                 <select name="priority" defaultValue={editing?.priority || "MITJA"} className="w-full border border-line rounded px-3 py-2 text-sm bg-canvas">
                   <option value="ALTA">Alta</option>
-                  <option value="MITJA">Mitjana</option>
-                  <option value="BAIXA">Baixa</option>
+                  <option value="MITJA">Media</option>
+                  <option value="BAIXA">Baja</option>
                 </select>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-3">
               <div>
-                <label className="block text-xs text-muted mb-1">Estat</label>
+                <label className="block text-xs text-muted mb-1">Estado</label>
                 <select name="status" defaultValue={editing?.status || "PENDENT"} className="w-full border border-line rounded px-3 py-2 text-sm bg-canvas">
-                  <option value="PENDENT">Pendent</option>
-                  <option value="CURS">En curs</option>
-                  <option value="FET">Fet</option>
+                  <option value="PENDENT">Pendiente</option>
+                  <option value="CURS">En curso</option>
+                  <option value="FET">Hecho</option>
                 </select>
               </div>
               <div>
-                <label className="block text-xs text-muted mb-1">Data límit</label>
+                <label className="block text-xs text-muted mb-1">Fecha límite</label>
                 <input type="date" name="dueDate" defaultValue={editing?.dueDate?.slice(0, 10) || ""} className="w-full border border-line rounded px-3 py-2 text-sm bg-canvas" />
               </div>
             </div>
             <div className="flex justify-end gap-2 pt-2">
               <button type="button" onClick={() => setFormOpen(false)} className="border border-line text-muted rounded px-4 py-2 text-sm">
-                Cancel·lar
+                Cancelar
               </button>
               <button type="submit" className="bg-ink text-canvas rounded px-4 py-2 text-sm">
-                Desar
+                Guardar
               </button>
             </div>
           </form>
@@ -281,7 +281,7 @@ export default function BoardClient() {
             <h3 className="font-display text-lg mb-2">{detail.title}</h3>
             <div className="flex flex-wrap gap-4 text-xs text-muted mb-3">
               <span className="flex items-center gap-1.5">
-                <Avatar user={detail.assignee} size={18} /> {detail.assignee?.name || "Sense assignar"}
+                <Avatar user={detail.assignee} size={18} /> {detail.assignee?.name || "Sin asignar"}
               </span>
               <span className={`px-2 py-0.5 rounded ${PRIORITY_CLASS[detail.priority]}`}>{PRIORITY_LABEL[detail.priority]}</span>
               {detail.dueDate && <span className={isOverdue(detail) ? "text-danger" : ""}>{fmtDate(detail.dueDate)}</span>}
@@ -289,22 +289,22 @@ export default function BoardClient() {
             {detail.description && <p className="text-sm text-inksoft mb-4 whitespace-pre-wrap">{detail.description}</p>}
 
             <div className="mb-4">
-              <label className="block text-xs text-muted mb-1">Estat</label>
+              <label className="block text-xs text-muted mb-1">Estado</label>
               <select
                 value={detail.status}
                 onChange={(e) => moveTask(detail.id, e.target.value)}
                 className="border border-line rounded px-3 py-1.5 text-sm bg-canvas"
               >
-                <option value="PENDENT">Pendent</option>
-                <option value="CURS">En curs</option>
-                <option value="FET">Fet</option>
+                <option value="PENDENT">Pendiente</option>
+                <option value="CURS">En curso</option>
+                <option value="FET">Hecho</option>
               </select>
             </div>
 
             <div className="border-t border-linesoft pt-3">
-              <p className="text-xs text-muted mb-2">Comentaris</p>
+              <p className="text-xs text-muted mb-2">Comentarios</p>
               <div className="space-y-2 mb-3">
-                {detail.comments.length === 0 && <p className="text-xs text-muted italic">Encara no hi ha comentaris.</p>}
+                {detail.comments.length === 0 && <p className="text-xs text-muted italic">Todavía no hay comentarios.</p>}
                 {detail.comments.map((c) => (
                   <div key={c.id} className="bg-canvas rounded px-3 py-2 text-sm">
                     <div className="flex justify-between text-[11px] text-muted mb-0.5">
@@ -320,7 +320,7 @@ export default function BoardClient() {
                   value={commentText}
                   onChange={(e) => setCommentText(e.target.value)}
                   onKeyDown={(e) => e.key === "Enter" && addComment()}
-                  placeholder="Escriu un comentari…"
+                  placeholder="Escribe un comentario…"
                   className="flex-1 border border-line rounded px-3 py-2 text-sm bg-canvas"
                 />
                 <button onClick={addComment} className="bg-ink text-canvas rounded px-4 text-sm">
@@ -331,11 +331,11 @@ export default function BoardClient() {
 
             <div className="flex justify-between items-center mt-5 pt-3 border-t border-linesoft">
               <button onClick={() => deleteTask(detail.id)} className="text-danger text-xs">
-                Eliminar tasca
+                Eliminar tarea
               </button>
               <div className="flex gap-2">
                 <button onClick={() => setDetailId(null)} className="border border-line text-muted rounded px-4 py-2 text-sm">
-                  Tancar
+                  Cerrar
                 </button>
                 <button
                   onClick={() => {

@@ -6,12 +6,12 @@ import { signOut, useSession } from "next-auth/react";
 import Avatar from "./Avatar";
 
 const NAV = [
-  { href: "/dashboard", label: "Tauler" },
-  { href: "/dashboard/chat", label: "Xat" },
-  { href: "/dashboard/calendar", label: "Calendari" },
+  { href: "/dashboard", label: "Tablero" },
+  { href: "/dashboard/chat", label: "Chat" },
+  { href: "/dashboard/calendar", label: "Calendario" },
   { href: "/dashboard/kudos", label: "Kudos" },
-  { href: "/dashboard/personal", label: "Lloc personal" },
-  { href: "/dashboard/profile", label: "El meu perfil" }
+  { href: "/dashboard/personal", label: "Espacio personal" },
+  { href: "/dashboard/profile", label: "Mi perfil" }
 ];
 
 export default function Sidebar() {
@@ -22,7 +22,7 @@ export default function Sidebar() {
   return (
     <aside className="hidden md:flex w-[210px] flex-shrink-0 bg-sidebar text-[#CFD6CE] p-5 flex-col h-full overflow-y-auto">
       <p className="font-display font-semibold text-white text-lg mb-0.5">Tara</p>
-      <p className="text-[11px] text-[#8B9389] mb-6">Taulell de l'equip</p>
+      <p className="text-[11px] text-[#8B9389] mb-6">Panel del equipo</p>
 
       <nav className="space-y-1">
         {NAV.map((item) => (
@@ -48,7 +48,7 @@ export default function Sidebar() {
             onClick={() => signOut({ callbackUrl: "/login" })}
             className="text-[11px] text-[#8B9389] hover:text-white"
           >
-            Tancar sessió
+            Cerrar sesión
           </button>
         </div>
       </div>

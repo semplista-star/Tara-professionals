@@ -5,8 +5,8 @@ import { usePathname } from "next/navigation";
 import { signOut } from "next-auth/react";
 
 const NAV = [
-  { href: "/dashboard", label: "Tauler", icon: "📋" },
-  { href: "/dashboard/chat", label: "Xat", icon: "💬" },
+  { href: "/dashboard", label: "Tablero", icon: "📋" },
+  { href: "/dashboard/chat", label: "Chat", icon: "💬" },
   { href: "/dashboard/calendar", label: "Agenda", icon: "📅" },
   { href: "/dashboard/kudos", label: "Kudos", icon: "🌱" },
   { href: "/dashboard/personal", label: "Personal", icon: "🗂" },
@@ -18,7 +18,7 @@ export function MobileTopBar() {
     <header className="md:hidden flex items-center justify-between px-4 py-2 bg-sidebar text-white flex-shrink-0">
       <span className="font-display font-semibold text-base">Tara</span>
       <button onClick={() => signOut({ callbackUrl: "/login" })} className="text-xs text-[#CFD6CE]">
-        Sortir
+        Salir
       </button>
     </header>
   );

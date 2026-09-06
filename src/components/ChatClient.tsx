@@ -8,7 +8,7 @@ import { MessageT, UserLite } from "@/types";
 type PresenceEntry = { online: boolean; typing: boolean };
 
 function fmtTime(iso: string) {
-  return new Date(iso).toLocaleString("ca-ES", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+  return new Date(iso).toLocaleString("es-ES", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
 }
 
 const EMOJIS = [
@@ -164,8 +164,8 @@ export default function ChatClient() {
         const blob = new Blob(chunksRef.current, { type: "audio/webm" });
         setUploading(true);
         try {
-          const { url } = await uploadFile(blob, `nota-de-veu-${Date.now()}.webm`);
-          await sendMessage({ attachmentUrl: url, attachmentType: "AUDIO", attachmentName: "Nota de veu" } as any);
+          const { url } = await uploadFile(blob, `nota-de-voz-${Date.now()}.webm`);
+          await sendMessage({ attachmentUrl: url, attachmentType: "AUDIO", attachmentName: "Nota de voz" } as any);
         } finally {
           setUploading(false);
         }
@@ -174,14 +174,14 @@ export default function ChatClient() {
       mr.start();
       setRecording(true);
     } catch {
-      alert("Cal donar permís al micròfon per gravar una nota de veu.");
+      alert("Hay que dar permiso al micrófono para grabar una nota de voz.");
     }
   }
 
   return (
     <div className="flex flex-col h-full min-h-0">
       <div className="mb-2 md:mb-4 flex items-center justify-between gap-3 flex-wrap">
-        <h2 className="font-display text-lg md:text-2xl">Xat de l'equip</h2>
+        <h2 className="font-display text-lg md:text-2xl">Chat del equipo</h2>
         <div className="flex items-center gap-1.5">
           {users.map((u) => (
             <Avatar key={u.id} user={u} size={18} online={!!presence[u.id]?.online} />
@@ -190,7 +190,7 @@ export default function ChatClient() {
       </div>
 
       <div ref={listRef} className="flex-1 overflow-y-auto bg-panel border border-line rounded-md p-3 md:p-5 space-y-3 md:space-y-4">
-        {messages.length === 0 && <p className="text-muted text-sm italic">Encara no hi ha missatges. Comença tu.</p>}
+        {messages.length === 0 && <p className="text-muted text-sm italic">Todavía no hay mensajes. Empieza tú.</p>}
         {messages.map((m) => (
           <div key={m.id} className="flex gap-3">
             <Avatar user={m.author} size={32} online={!!presence[m.author.id]?.online} />
@@ -206,7 +206,7 @@ export default function ChatClient() {
 
               {m.attachmentType === "IMAGE" && m.attachmentUrl && (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img src={m.attachmentUrl} alt={m.attachmentName || "imatge"} className="mt-1.5 max-w-xs rounded-md border border-line" />
+                <img src={m.attachmentUrl} alt={m.attachmentName || "imagen"} className="mt-1.5 max-w-xs rounded-md border border-line" />
               )}
               {m.attachmentType === "AUDIO" && m.attachmentUrl && (
                 <audio controls src={m.attachmentUrl} className="mt-1.5 h-9" />
@@ -218,7 +218,7 @@ export default function ChatClient() {
                   rel="noreferrer"
                   className="mt-1.5 inline-block text-sm underline text-inksoft"
                 >
-                  {m.attachmentName || "Fitxer adjunt"}
+                  {m.attachmentName || "Archivo adjunto"}
                 </a>
               )}
             </div>
@@ -226,7 +226,7 @@ export default function ChatClient() {
         ))}
       </div>
 
-      {uploading && <p className="text-xs text-muted mt-2">Pujant fitxer…</p>}
+      {uploading && <p className="text-xs text-muted mt-2">Subiendo archivo…</p>}
 
       <div className="h-4 mt-1.5">
         {(() => {
@@ -236,8 +236,8 @@ export default function ChatClient() {
           if (typingNames.length === 0) return null;
           const label =
             typingNames.length === 1
-              ? `${typingNames[0]} està escrivint…`
-              : `${typingNames.join(", ")} estan escrivint…`;
+              ? `${typingNames[0]} está escribiendo…`
+              : `${typingNames.join(", ")} están escribiendo…`;
           return <p className="text-xs text-muted italic">{label}</p>;
         })()}
       </div>
@@ -257,17 +257,17 @@ export default function ChatClient() {
         >
           😀
         </button>
-        <label className="cursor-pointer border border-line rounded px-2 py-2 md:px-3 md:py-2.5 text-sm text-muted hover:text-ink flex-shrink-0" title="Adjuntar imatge">
+        <label className="cursor-pointer border border-line rounded px-2 py-2 md:px-3 md:py-2.5 text-sm text-muted hover:text-ink flex-shrink-0" title="Adjuntar imagen">
           🖼
           <input type="file" accept="image/*" className="hidden" onChange={(e) => handleFile(e, "IMAGE")} />
         </label>
-        <label className="cursor-pointer border border-line rounded px-2 py-2 md:px-3 md:py-2.5 text-sm text-muted hover:text-ink flex-shrink-0" title="Adjuntar arxiu">
+        <label className="cursor-pointer border border-line rounded px-2 py-2 md:px-3 md:py-2.5 text-sm text-muted hover:text-ink flex-shrink-0" title="Adjuntar archivo">
           📎
           <input type="file" className="hidden" onChange={(e) => handleFile(e, "FILE")} />
         </label>
         <button
           onClick={toggleRecording}
-          title="Nota de veu"
+          title="Nota de voz"
           className={`border rounded px-2 py-2 md:px-3 md:py-2.5 text-sm flex-shrink-0 ${recording ? "border-danger text-danger" : "border-line text-muted hover:text-ink"}`}
         >
           {recording ? "■" : "🎙"}
@@ -276,7 +276,7 @@ export default function ChatClient() {
           value={text}
           onChange={(e) => handleTyping(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && handleSend()}
-          placeholder="Escriu un missatge…"
+          placeholder="Escribe un mensaje…"
           className="flex-1 min-w-0 border border-line rounded px-2.5 py-2 md:px-3 md:py-2.5 text-sm bg-canvas"
         />
         <button onClick={handleSend} className="bg-ink text-canvas rounded px-3 md:px-5 py-2 md:py-2.5 text-sm flex-shrink-0">

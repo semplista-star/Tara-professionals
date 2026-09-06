@@ -5,7 +5,7 @@ import { prisma } from "@/lib/prisma";
 
 export async function GET() {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const meeting = await prisma.meeting.findFirst({
     where: {

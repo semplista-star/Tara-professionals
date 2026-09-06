@@ -26,7 +26,7 @@ export default function ProfilePage() {
       const { url } = await res.json();
       await fetch("/api/users/me", { method: "PATCH", body: JSON.stringify({ avatarUrl: url }) });
       await update({ image: url });
-      setSavedMsg("Foto actualitzada.");
+      setSavedMsg("Foto actualizada.");
     } finally {
       setUploading(false);
     }
@@ -39,49 +39,49 @@ export default function ProfilePage() {
     await fetch("/api/users/me", { method: "PATCH", body: JSON.stringify(payload) });
     await update({ name });
     setNewPassword("");
-    setSavedMsg("Perfil desat.");
+    setSavedMsg("Perfil guardado.");
   }
 
   return (
     <div className="max-w-md">
-      <h2 className="font-display text-2xl mb-0.5">El meu perfil</h2>
-      <p className="text-muted text-sm mb-6">Només tu pots veure i canviar això.</p>
+      <h2 className="font-display text-2xl mb-0.5">Mi perfil</h2>
+      <p className="text-muted text-sm mb-6">Solo tú puedes ver y cambiar esto.</p>
 
       <div className="flex items-center gap-4 mb-6">
         <Avatar user={user ? { id: user.id, name: user.name, color: user.color, avatarUrl: user.image } : null} size={60} />
         <label className="cursor-pointer border border-line rounded px-3 py-2 text-sm text-muted hover:text-ink">
-          {uploading ? "Pujant…" : "Canviar foto"}
+          {uploading ? "Subiendo…" : "Cambiar foto"}
           <input type="file" accept="image/*" className="hidden" onChange={uploadAvatar} />
         </label>
       </div>
 
       <form onSubmit={saveProfile} className="space-y-4">
         <div>
-          <label className="block text-xs text-muted mb-1">Nom</label>
+          <label className="block text-xs text-muted mb-1">Nombre</label>
           <input value={name} onChange={(e) => setName(e.target.value)} className="w-full border border-line rounded px-3 py-2 text-sm bg-white" />
         </div>
         <div>
-          <label className="block text-xs text-muted mb-1">Usuari</label>
+          <label className="block text-xs text-muted mb-1">Usuario</label>
           <input value={user?.username || ""} disabled className="w-full border border-line rounded px-3 py-2 text-sm bg-linesoft text-muted" />
         </div>
         <div>
-          <label className="block text-xs text-muted mb-1">Nova contrasenya (opcional)</label>
+          <label className="block text-xs text-muted mb-1">Nueva contraseña (opcional)</label>
           <input
             type="password"
             value={newPassword}
             onChange={(e) => setNewPassword(e.target.value)}
-            placeholder="Deixa-ho buit per no canviar-la"
+            placeholder="Déjalo en blanco para no cambiarla"
             className="w-full border border-line rounded px-3 py-2 text-sm bg-white"
           />
         </div>
         {savedMsg && <p className="text-sm text-fet">{savedMsg}</p>}
         <button type="submit" className="bg-ink text-canvas rounded px-5 py-2.5 text-sm">
-          Desar canvis
+          Guardar cambios
         </button>
       </form>
 
       <div className="border-t border-linesoft mt-8 pt-6">
-        <h3 className="font-display text-lg mb-2">Notificacions</h3>
+        <h3 className="font-display text-lg mb-2">Notificaciones</h3>
         <NotificationSetup />
       </div>
     </div>

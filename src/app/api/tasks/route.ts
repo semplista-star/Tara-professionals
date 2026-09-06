@@ -6,7 +6,7 @@ import { sendPushToUsers } from "@/lib/push";
 
 export async function GET() {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const tasks = await prisma.task.findMany({
     include: {
@@ -25,15 +25,15 @@ export async function GET() {
 
 export async function POST(req: Request) {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const body = await req.json();
   if (!body.title || typeof body.title !== "string") {
-    return NextResponse.json({ error: "Falta el títol" }, { status: 400 });
+    return NextResponse.json({ error: "Falta el título" }, { status: 400 });
   }
 
-  // Qualsevol membre pot crear una tasca i assignar-la a un altre membre
-  // directament, sense entrar al perfil de ningú.
+  // Cualquier miembro puede crear una tarea y asignarla a otro miembro
+  // directamente, sin entrar en el perfil de nadie.
   const task = await prisma.task.create({
     data: {
       title: body.title.trim(),
@@ -53,8 +53,8 @@ export async function POST(req: Request) {
 
   if (task.assigneeId && task.assigneeId !== task.creatorId) {
     sendPushToUsers([task.assigneeId], {
-      title: "Nova tasca assignada",
-      body: `${task.creator.name} t'ha assignat: ${task.title}`,
+      title: "Nueva tarea asignada",
+      body: `${task.creator.name} te ha asignado: ${task.title}`,
       url: "/dashboard"
     }).catch(() => {});
   }

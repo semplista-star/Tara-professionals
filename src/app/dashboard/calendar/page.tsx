@@ -10,12 +10,12 @@ function dayLabel(iso: string) {
   const today = new Date();
   const tomorrow = new Date();
   tomorrow.setDate(today.getDate() + 1);
-  if (d.toDateString() === today.toDateString()) return "Avui";
-  if (d.toDateString() === tomorrow.toDateString()) return "Demà";
-  return d.toLocaleDateString("ca-ES", { weekday: "long", day: "numeric", month: "long" });
+  if (d.toDateString() === today.toDateString()) return "Hoy";
+  if (d.toDateString() === tomorrow.toDateString()) return "Mañana";
+  return d.toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long" });
 }
 function timeLabel(iso: string) {
-  return new Date(iso).toLocaleTimeString("ca-ES", { hour: "2-digit", minute: "2-digit" });
+  return new Date(iso).toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" });
 }
 function groupByDay(meetings: MeetingT[]) {
   const groups: { key: string; label: string; items: MeetingT[] }[] = [];
@@ -86,7 +86,7 @@ export default function CalendarPage() {
   }
 
   async function deleteMeeting(id: string) {
-    if (!confirm("Segur que vols cancel·lar aquesta reunió?")) return;
+    if (!confirm("¿Seguro que quieres cancelar esta reunión?")) return;
     await fetch(`/api/meetings/${id}`, { method: "DELETE" });
     load();
   }
@@ -109,7 +109,7 @@ export default function CalendarPage() {
           </div>
           {!isPast && m.creator.id === myId && (
             <button onClick={() => deleteMeeting(m.id)} className="text-danger text-xs flex-shrink-0">
-              Cancel·lar
+              Cancelar
             </button>
           )}
         </div>
@@ -120,7 +120,7 @@ export default function CalendarPage() {
             ))}
           </div>
           <span className="text-[11px] text-muted ml-1">
-            {m.participants.length === users.length ? "Tot l'equip" : m.participants.map((p) => p.name).join(", ")}
+            {m.participants.length === users.length ? "Todo el equipo" : m.participants.map((p) => p.name).join(", ")}
           </span>
         </div>
       </div>
@@ -131,15 +131,15 @@ export default function CalendarPage() {
     <div className="max-w-2xl">
       <div className="flex justify-between items-start mb-6 gap-4">
         <div>
-          <h2 className="font-display text-2xl mb-0.5">Calendari</h2>
-          <p className="text-muted text-sm">Reunions de l'equip, agrupades per dia.</p>
+          <h2 className="font-display text-2xl mb-0.5">Calendario</h2>
+          <p className="text-muted text-sm">Reuniones del equipo, agrupadas por día.</p>
         </div>
         <button onClick={() => setFormOpen(true)} className="bg-ink text-canvas rounded px-4 py-2.5 text-sm whitespace-nowrap">
-          + Nova reunió
+          + Nueva reunión
         </button>
       </div>
 
-      {upcoming.length === 0 && <p className="text-muted text-sm italic mb-6">No hi ha cap reunió agendada.</p>}
+      {upcoming.length === 0 && <p className="text-muted text-sm italic mb-6">No hay ninguna reunión agendada.</p>}
 
       <div className="space-y-5 mb-8">
         {groupByDay(upcoming).map((group) => (
@@ -157,7 +157,7 @@ export default function CalendarPage() {
       {past.length > 0 && (
         <div className="border-t border-linesoft pt-4">
           <button onClick={() => setShowPast((v) => !v)} className="text-sm text-muted hover:text-ink mb-3">
-            {showPast ? "▾" : "▸"} Historial de reunions passades ({past.length})
+            {showPast ? "▾" : "▸"} Historial de reuniones pasadas ({past.length})
           </button>
           {showPast && (
             <div className="space-y-2">
@@ -176,14 +176,14 @@ export default function CalendarPage() {
             onClick={(e) => e.stopPropagation()}
             className="bg-panel rounded-lg p-6 w-full max-w-md border border-line space-y-3 max-h-[88vh] overflow-y-auto"
           >
-            <h3 className="font-display text-lg mb-1">Nova reunió</h3>
+            <h3 className="font-display text-lg mb-1">Nueva reunión</h3>
             <div>
-              <label className="block text-xs text-muted mb-1">Títol</label>
+              <label className="block text-xs text-muted mb-1">Título</label>
               <input name="title" required className="w-full border border-line rounded px-3 py-2 text-sm bg-canvas" />
             </div>
             <div className="grid grid-cols-2 gap-3">
               <div>
-                <label className="block text-xs text-muted mb-1">Data</label>
+                <label className="block text-xs text-muted mb-1">Fecha</label>
                 <input type="date" name="date" required className="w-full border border-line rounded px-3 py-2 text-sm bg-canvas" />
               </div>
               <div>
@@ -193,33 +193,33 @@ export default function CalendarPage() {
             </div>
             <div className="grid grid-cols-2 gap-3">
               <div>
-                <label className="block text-xs text-muted mb-1">Durada</label>
+                <label className="block text-xs text-muted mb-1">Duración</label>
                 <select name="durationMinutes" defaultValue="30" className="w-full border border-line rounded px-3 py-2 text-sm bg-canvas">
                   <option value="15">15 min</option>
                   <option value="30">30 min</option>
                   <option value="45">45 min</option>
                   <option value="60">1 hora</option>
-                  <option value="90">1,5 hores</option>
+                  <option value="90">1,5 horas</option>
                 </select>
               </div>
               <div>
-                <label className="block text-xs text-muted mb-1">Lloc o enllaç</label>
+                <label className="block text-xs text-muted mb-1">Lugar o enlace</label>
                 <input name="location" placeholder="Meet, oficina…" className="w-full border border-line rounded px-3 py-2 text-sm bg-canvas" />
               </div>
             </div>
             <div>
-              <label className="block text-xs text-muted mb-1">Notes</label>
+              <label className="block text-xs text-muted mb-1">Notas</label>
               <textarea name="description" className="w-full border border-line rounded px-3 py-2 text-sm bg-canvas min-h-[60px]" />
             </div>
             <div>
               <div className="flex items-center justify-between mb-1.5">
-                <label className="block text-xs text-muted">Assistents</label>
+                <label className="block text-xs text-muted">Asistentes</label>
                 <button
                   type="button"
                   onClick={() => setParticipantIds(users.map((u) => u.id))}
                   className="text-[11px] text-muted underline"
                 >
-                  Tot l'equip
+                  Todo el equipo
                 </button>
               </div>
               <div className="flex flex-wrap gap-2">
@@ -240,7 +240,7 @@ export default function CalendarPage() {
             </div>
             <div className="flex justify-end gap-2 pt-2">
               <button type="button" onClick={() => setFormOpen(false)} className="border border-line text-muted rounded px-4 py-2 text-sm">
-                Cancel·lar
+                Cancelar
               </button>
               <button type="submit" className="bg-ink text-canvas rounded px-4 py-2 text-sm">
                 Agendar

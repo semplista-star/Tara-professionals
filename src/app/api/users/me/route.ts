@@ -6,7 +6,7 @@ import { prisma } from "@/lib/prisma";
 
 export async function PATCH(req: Request) {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const body = await req.json();
   const data: Record<string, any> = {};

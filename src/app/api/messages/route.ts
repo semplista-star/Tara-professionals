@@ -6,7 +6,7 @@ import { sendPushToUsers } from "@/lib/push";
 
 export async function GET(req: Request) {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const { searchParams } = new URL(req.url);
   const after = searchParams.get("after");
@@ -23,11 +23,11 @@ export async function GET(req: Request) {
 
 export async function POST(req: Request) {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const body = await req.json();
   if (!body.text && !body.attachmentUrl) {
-    return NextResponse.json({ error: "Missatge buit" }, { status: 400 });
+    return NextResponse.json({ error: "Mensaje vacío" }, { status: 400 });
   }
 
   const message = await prisma.message.create({
@@ -46,8 +46,8 @@ export async function POST(req: Request) {
     select: { id: true }
   });
   sendPushToUsers(others.map((u) => u.id), {
-    title: `${message.author.name} al xat`,
-    body: message.text || "Ha enviat un fitxer adjunt",
+    title: `${message.author.name} en el chat`,
+    body: message.text || "Ha enviado un archivo adjunto",
     url: "/dashboard/chat"
   }).catch(() => {});
 

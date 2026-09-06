@@ -32,7 +32,7 @@ export async function sendPushToUsers(userIds: string[], payload: PushPayload) {
           JSON.stringify(payload)
         );
       } catch (err: any) {
-        // Subscripció caducada o revocada: l'esborrem perquè no torni a fallar.
+        // Suscripción caducada o revocada: la borramos para que no vuelva a fallar.
         if (err?.statusCode === 404 || err?.statusCode === 410) {
           await prisma.pushSubscription.delete({ where: { id: sub.id } }).catch(() => {});
         }

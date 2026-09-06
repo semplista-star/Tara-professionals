@@ -71,12 +71,12 @@ export default function NotificationSetup() {
   }
 
   if (status === "unsupported") {
-    return <p className="text-xs text-muted">El teu navegador no suporta notificacions push.</p>;
+    return <p className="text-xs text-muted">Tu navegador no soporta notificaciones push.</p>;
   }
   if (status === "denied") {
     return (
       <p className="text-xs text-muted">
-        Has bloquejat les notificacions per aquest lloc. Per activar-les, canvia-ho als permisos del navegador.
+        Has bloqueado las notificaciones para este sitio. Para activarlas, cámbialo en los permisos del navegador.
       </p>
     );
   }
@@ -84,15 +84,15 @@ export default function NotificationSetup() {
   return (
     <div>
       <p className="text-xs text-muted mb-2">
-        Rep un avís al mòbil o l'ordinador quan et toqui alguna cosa: una tasca assignada, un comentari o un missatge nou al xat.
+        Recibe un aviso en el móvil o el ordenador cuando te toque algo: una tarea asignada, un comentario o un mensaje nuevo en el chat.
       </p>
       {status === "on" ? (
         <button onClick={disable} className="border border-line text-muted rounded px-4 py-2 text-sm hover:text-ink">
-          Desactivar notificacions
+          Desactivar notificaciones
         </button>
       ) : (
         <button onClick={enable} disabled={status === "loading"} className="bg-ink text-canvas rounded px-4 py-2 text-sm disabled:opacity-60">
-          {status === "loading" ? "…" : "Activar notificacions"}
+          {status === "loading" ? "…" : "Activar notificaciones"}
         </button>
       )}
     </div>

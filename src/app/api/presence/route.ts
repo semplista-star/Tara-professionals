@@ -8,7 +8,7 @@ const TYPING_MS = 6_000;
 
 export async function GET() {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const rows = await prisma.presence.findMany();
   const now = Date.now();
@@ -22,7 +22,7 @@ export async function GET() {
 
 export async function POST(req: Request) {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const body = await req.json().catch(() => ({}));
   const userId = (session.user as any).id;

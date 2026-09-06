@@ -6,12 +6,12 @@ import { sendPushToUsers } from "@/lib/push";
 
 export async function POST(req: Request, { params }: { params: Promise<{ id: string }> }) {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const { id } = await params;
   const body = await req.json();
   if (!body.text || typeof body.text !== "string") {
-    return NextResponse.json({ error: "Comentari buit" }, { status: 400 });
+    return NextResponse.json({ error: "Comentario vacío" }, { status: 400 });
   }
 
   const myId = (session.user as any).id;
@@ -31,8 +31,8 @@ export async function POST(req: Request, { params }: { params: Promise<{ id: str
     (uid): uid is string => !!uid && uid !== myId
   );
   sendPushToUsers([...new Set(notify)], {
-    title: "Nou comentari",
-    body: `${comment.author.name} ha comentat a "${comment.task.title}"`,
+    title: "Nuevo comentario",
+    body: `${comment.author.name} ha comentado en "${comment.task.title}"`,
     url: "/dashboard"
   }).catch(() => {});
 

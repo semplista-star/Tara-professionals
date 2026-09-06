@@ -1,7 +1,7 @@
 {
-  "name": "Tara — Taulell de l'equip",
+  "name": "Tara — Panel del equipo",
   "short_name": "Tara",
-  "description": "Tasques, xat i perfils de l'equip",
+  "description": "Tareas, chat y perfiles del equipo",
   "start_url": "/dashboard",
   "scope": "/",
   "display": "standalone",

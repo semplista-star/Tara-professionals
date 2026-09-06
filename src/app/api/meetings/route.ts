@@ -8,7 +8,7 @@ const participantSelect = { select: { id: true, name: true, color: true } };
 
 export async function GET() {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const meetings = await prisma.meeting.findMany({
     include: {
@@ -22,11 +22,11 @@ export async function GET() {
 
 export async function POST(req: Request) {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const body = await req.json();
   if (!body.title || typeof body.title !== "string" || !body.startsAt) {
-    return NextResponse.json({ error: "Falta el títol o la data" }, { status: 400 });
+    return NextResponse.json({ error: "Falta el título o la fecha" }, { status: 400 });
   }
   const participantIds: string[] = Array.isArray(body.participantIds) ? body.participantIds : [];
 
@@ -49,8 +49,8 @@ export async function POST(req: Request) {
 
   const notify = meeting.participants.map((p) => p.id).filter((id) => id !== creatorId);
   sendPushToUsers(notify, {
-    title: "Nova reunió agendada",
-    body: `${meeting.title} — ${new Date(meeting.startsAt).toLocaleString("ca-ES", {
+    title: "Nueva reunión agendada",
+    body: `${meeting.title} — ${new Date(meeting.startsAt).toLocaleString("es-ES", {
       day: "numeric",
       month: "short",
       hour: "2-digit",

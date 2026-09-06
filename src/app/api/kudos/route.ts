@@ -6,7 +6,7 @@ import { sendPushToUsers } from "@/lib/push";
 
 export async function GET() {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const kudos = await prisma.kudo.findMany({
     include: {
@@ -21,11 +21,11 @@ export async function GET() {
 
 export async function POST(req: Request) {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const body = await req.json();
   if (!body.text || typeof body.text !== "string" || !body.receiverId) {
-    return NextResponse.json({ error: "Falta el text o la persona" }, { status: 400 });
+    return NextResponse.json({ error: "Falta el texto o la persona" }, { status: 400 });
   }
 
   const giverId = (session.user as any).id;
@@ -43,7 +43,7 @@ export async function POST(req: Request) {
 
   if (kudo.receiverId !== giverId) {
     sendPushToUsers([kudo.receiverId], {
-      title: "T'han reconegut 🌱",
+      title: "Te han reconocido 🌱",
       body: `${kudo.giver.name}: ${kudo.text}`,
       url: "/dashboard/kudos"
     }).catch(() => {});

@@ -8,9 +8,9 @@ function relativeLabel(startsAt: string) {
   const diffMs = new Date(startsAt).getTime() - Date.now();
   const diffMin = Math.round(diffMs / 60000);
   const date = new Date(startsAt);
-  const time = date.toLocaleTimeString("ca-ES", { hour: "2-digit", minute: "2-digit" });
+  const time = date.toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" });
 
-  if (diffMin <= 0) return `ara mateix, ${time}`;
+  if (diffMin <= 0) return `ahora mismo, ${time}`;
   if (diffMin < 60) return `en ${diffMin} min, ${time}`;
 
   const isToday = date.toDateString() === new Date().toDateString();
@@ -18,9 +18,9 @@ function relativeLabel(startsAt: string) {
   tomorrow.setDate(tomorrow.getDate() + 1);
   const isTomorrow = date.toDateString() === tomorrow.toDateString();
 
-  if (isToday) return `avui a les ${time}`;
-  if (isTomorrow) return `demà a les ${time}`;
-  return `${date.toLocaleDateString("ca-ES", { weekday: "long", day: "numeric", month: "short" })} a les ${time}`;
+  if (isToday) return `hoy a las ${time}`;
+  if (isTomorrow) return `mañana a las ${time}`;
+  return `${date.toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "short" })} a las ${time}`;
 }
 
 export default function NextMeetingBanner() {
@@ -51,7 +51,7 @@ export default function NextMeetingBanner() {
   return (
     <div className="flex items-center gap-3 px-4 py-2 bg-[#EFE9D8] border-b border-line text-sm">
       <span className={`w-2 h-2 rounded-full flex-shrink-0 ${soon ? "bg-danger animate-pulse" : "bg-[#8A6A1F]"}`} />
-      <span className="text-muted flex-shrink-0 hidden sm:inline">📅 Pròxima reunió:</span>
+      <span className="text-muted flex-shrink-0 hidden sm:inline">📅 Próxima reunión:</span>
       <span className="font-medium truncate">{meeting.title}</span>
       <span className="text-muted flex-shrink-0">{relativeLabel(meeting.startsAt)}</span>
       {meeting.location && (

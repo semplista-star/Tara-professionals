@@ -5,10 +5,10 @@ import { prisma } from "@/lib/prisma";
 
 export async function POST(req: Request) {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const { endpoint } = await req.json();
-  if (!endpoint) return NextResponse.json({ error: "Falta l'endpoint" }, { status: 400 });
+  if (!endpoint) return NextResponse.json({ error: "Falta el endpoint" }, { status: 400 });
 
   await prisma.pushSubscription.deleteMany({
     where: { endpoint, userId: (session.user as any).id }

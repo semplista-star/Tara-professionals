@@ -5,7 +5,7 @@ import { prisma } from "@/lib/prisma";
 
 export async function GET() {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const users = await prisma.user.findMany({
     select: { id: true, name: true, username: true, avatarUrl: true, color: true }

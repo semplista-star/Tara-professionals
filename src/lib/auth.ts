@@ -8,10 +8,10 @@ export const authOptions: AuthOptions = {
   pages: { signIn: "/login" },
   providers: [
     CredentialsProvider({
-      name: "Credencials",
+      name: "Credenciales",
       credentials: {
-        username: { label: "Usuari", type: "text" },
-        password: { label: "Contrasenya", type: "password" }
+        username: { label: "Usuario", type: "text" },
+        password: { label: "Contraseña", type: "password" }
       },
       async authorize(credentials) {
         if (!credentials?.username || !credentials?.password) return null;

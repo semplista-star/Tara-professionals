@@ -6,7 +6,7 @@ import { sendPushToUsers } from "@/lib/push";
 
 export async function PATCH(req: Request, { params }: { params: Promise<{ id: string }> }) {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const { id } = await params;
   const body = await req.json();
@@ -34,8 +34,8 @@ export async function PATCH(req: Request, { params }: { params: Promise<{ id: st
   const myId = (session.user as any).id;
   if (task.assigneeId && task.assigneeId !== before?.assigneeId && task.assigneeId !== myId) {
     sendPushToUsers([task.assigneeId], {
-      title: "Nova tasca assignada",
-      body: `Se t'ha assignat: ${task.title}`,
+      title: "Nueva tarea asignada",
+      body: `Se te ha asignado: ${task.title}`,
       url: "/dashboard"
     }).catch(() => {});
   }
@@ -45,7 +45,7 @@ export async function PATCH(req: Request, { params }: { params: Promise<{ id: st
 
 export async function DELETE(_req: Request, { params }: { params: Promise<{ id: string }> }) {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const { id } = await params;
   await prisma.task.delete({ where: { id } });

@@ -24,7 +24,7 @@ export default function LoginPage() {
 
     setLoading(false);
     if (res?.error) {
-      setError("Usuari o contrasenya incorrectes.");
+      setError("Usuario o contraseña incorrectos.");
     } else {
       router.push("/dashboard");
       router.refresh();
@@ -35,11 +35,11 @@ export default function LoginPage() {
     <div className="min-h-screen flex items-center justify-center px-6">
       <div className="w-full max-w-sm">
         <h1 className="font-display text-3xl mb-1">Tara</h1>
-        <p className="text-muted text-sm mb-8">Entra amb el teu compte de l'equip.</p>
+        <p className="text-muted text-sm mb-8">Entra con tu cuenta del equipo.</p>
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <label className="block text-xs text-muted mb-1">Usuari</label>
+            <label className="block text-xs text-muted mb-1">Usuario</label>
             <input
               type="text"
               required
@@ -50,7 +50,7 @@ export default function LoginPage() {
             />
           </div>
           <div>
-            <label className="block text-xs text-muted mb-1">Contrasenya</label>
+            <label className="block text-xs text-muted mb-1">Contraseña</label>
             <input
               type="password"
               required
@@ -68,12 +68,12 @@ export default function LoginPage() {
             disabled={loading}
             className="w-full bg-ink text-canvas rounded py-2.5 text-sm disabled:opacity-60"
           >
-            {loading ? "Entrant…" : "Entrar"}
+            {loading ? "Entrando…" : "Entrar"}
           </button>
         </form>
 
         <p className="text-xs text-muted mt-6">
-          Els comptes els crea qui administri el projecte (script de seed). Parla amb ell/a si no tens accés.
+          Las cuentas las crea quien administra el proyecto (script de seed). Habla con esa persona si no tienes acceso.
         </p>
       </div>
     </div>

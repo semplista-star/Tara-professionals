@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { PersonalFileT } from "@/types";
 
 function fmtDate(iso: string) {
-  return new Date(iso).toLocaleString("ca-ES", { day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" });
+  return new Date(iso).toLocaleString("es-ES", { day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" });
 }
 
 function fileIcon(mimeType: string) {
@@ -49,35 +49,35 @@ export default function PersonalFilesPage() {
       if (!saveRes.ok) throw new Error();
       await load();
     } catch {
-      setError("No s'ha pogut pujar el fitxer.");
+      setError("No se ha podido subir el archivo.");
     } finally {
       setUploading(false);
     }
   }
 
   async function handleDelete(id: string) {
-    if (!confirm("Segur que vols esborrar aquest fitxer?")) return;
+    if (!confirm("¿Seguro que quieres borrar este archivo?")) return;
     setFiles((prev) => prev.filter((f) => f.id !== id));
     await fetch(`/api/personal-files/${id}`, { method: "DELETE" });
   }
 
   return (
     <div className="max-w-2xl">
-      <h2 className="font-display text-2xl mb-0.5">Lloc personal</h2>
+      <h2 className="font-display text-2xl mb-0.5">Espacio personal</h2>
       <p className="text-muted text-sm mb-6">
-        Fitxers privats teus. Ningú més de l'equip els pot veure.
+        Archivos privados tuyos. Nadie más del equipo puede verlos.
       </p>
 
       <label className="inline-flex items-center gap-2 cursor-pointer border border-line rounded px-4 py-2.5 text-sm text-inksoft hover:bg-linesoft mb-6">
-        {uploading ? "Pujant…" : "＋ Pujar fitxer (PDF o imatge)"}
+        {uploading ? "Subiendo…" : "＋ Subir archivo (PDF o imagen)"}
         <input type="file" accept="application/pdf,image/*" className="hidden" onChange={handleUpload} disabled={uploading} />
       </label>
 
       {error && <p className="text-danger text-sm mb-4">{error}</p>}
 
-      {loading && <p className="text-muted text-sm italic">Carregant…</p>}
+      {loading && <p className="text-muted text-sm italic">Cargando…</p>}
       {!loading && files.length === 0 && (
-        <p className="text-muted text-sm italic">Encara no has pujat cap fitxer.</p>
+        <p className="text-muted text-sm italic">Todavía no has subido ningún archivo.</p>
       )}
 
       <div className="space-y-2">
@@ -96,7 +96,7 @@ export default function PersonalFilesPage() {
               <span className="text-[11px] text-muted">{fmtDate(f.createdAt)}</span>
             </div>
             <button onClick={() => handleDelete(f.id)} className="text-xs text-danger hover:underline flex-shrink-0">
-              Esborrar
+              Borrar
             </button>
           </div>
         ))}

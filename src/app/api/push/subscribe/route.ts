@@ -5,12 +5,12 @@ import { prisma } from "@/lib/prisma";
 
 export async function POST(req: Request) {
   const session = await getServerSession(authOptions);
-  if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
+  if (!session) return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 
   const body = await req.json();
   const { endpoint, keys } = body || {};
   if (!endpoint || !keys?.p256dh || !keys?.auth) {
-    return NextResponse.json({ error: "Subscripció invàlida" }, { status: 400 });
+    return NextResponse.json({ error: "Suscripción inválida" }, { status: 400 });
   }
 
   await prisma.pushSubscription.upsert({

@@ -3,8 +3,8 @@ import "./globals.css";
 import Providers from "@/components/Providers";
 
 export const metadata: Metadata = {
-  title: "Tara — Taulell de l'equip",
-  description: "Tasques i xat de l'equip del projecte Tara",
+  title: "Tara — Panel del equipo",
+  description: "Tareas y chat del equipo del proyecto Tara",
   manifest: "/manifest.json",
   icons: {
     icon: [{ url: "/icon-192.png", sizes: "192x192", type: "image/png" }],
@@ -25,7 +25,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ca">
+    <html lang="es">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
