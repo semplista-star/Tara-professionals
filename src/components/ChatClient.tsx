@@ -9,6 +9,42 @@ function fmtTime(iso: string) {
   return new Date(iso).toLocaleString("ca-ES", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
 }
 
+const EMOJIS = [
+  "😀", "😂", "😍", "😉", "😎", "🤔", "😅", "😢", "😡", "😱",
+  "👍", "👎", "🙏", "👏", "🙌", "💪", "🤝", "✌️", "🤞", "👋",
+  "❤️", "🔥", "🎉", "✅", "❌", "⭐", "💡", "⏰", "📌", "🚀"
+];
+
+function EmojiPicker({ onPick, onClose }: { onPick: (emoji: string) => void; onClose: () => void }) {
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function onClickOutside(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) onClose();
+    }
+    document.addEventListener("mousedown", onClickOutside);
+    return () => document.removeEventListener("mousedown", onClickOutside);
+  }, [onClose]);
+
+  return (
+    <div
+      ref={ref}
+      className="absolute bottom-full mb-2 left-0 bg-white border border-line rounded-md shadow-lg p-2 grid grid-cols-6 gap-1 z-10"
+    >
+      {EMOJIS.map((emoji) => (
+        <button
+          key={emoji}
+          type="button"
+          onClick={() => onPick(emoji)}
+          className="text-lg hover:bg-linesoft rounded p-1"
+        >
+          {emoji}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 async function uploadFile(file: File | Blob, filename: string) {
   const fd = new FormData();
   fd.append("file", file, filename);
@@ -25,6 +61,7 @@ export default function ChatClient() {
   const [text, setText] = useState("");
   const [recording, setRecording] = useState(false);
   const [uploading, setUploading] = useState(false);
+  const [showEmojiPicker, setShowEmojiPicker] = useState(false);
   const listRef = useRef<HTMLDivElement>(null);
   const lastTsRef = useRef<string | null>(null);
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
@@ -151,7 +188,21 @@ export default function ChatClient() {
 
       {uploading && <p className="text-xs text-muted mt-2">Pujant fitxer…</p>}
 
-      <div className="flex items-center gap-2 mt-3">
+      <div className="flex items-center gap-2 mt-3 relative">
+        {showEmojiPicker && (
+          <EmojiPicker
+            onPick={(emoji) => setText((t) => t + emoji)}
+            onClose={() => setShowEmojiPicker(false)}
+          />
+        )}
+        <button
+          type="button"
+          onClick={() => setShowEmojiPicker((v) => !v)}
+          title="Emojis"
+          className="border border-line rounded px-3 py-2.5 text-sm text-muted hover:text-ink"
+        >
+          😀
+        </button>
         <label className="cursor-pointer border border-line rounded px-3 py-2.5 text-sm text-muted hover:text-ink" title="Adjuntar imatge">
           🖼
           <input type="file" accept="image/*" className="hidden" onChange={(e) => handleFile(e, "IMAGE")} />
