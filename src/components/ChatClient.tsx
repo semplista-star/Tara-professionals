@@ -11,6 +11,10 @@ function fmtTime(iso: string) {
   return new Date(iso).toLocaleString("es-ES", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
 }
 
+function downloadUrl(url: string, name: string) {
+  return `/api/download?url=${encodeURIComponent(url)}&name=${encodeURIComponent(name)}`;
+}
+
 const EMOJIS = [
   "😀", "😂", "😍", "😉", "😎", "🤔", "😅", "😢", "😡", "😱",
   "👍", "👎", "🙏", "👏", "🙌", "💪", "🤝", "✌️", "🤞", "👋",
@@ -219,21 +223,47 @@ export default function ChatClient() {
               {m.text && <p className="text-sm text-inksoft whitespace-pre-wrap">{m.text}</p>}
 
               {m.attachmentType === "IMAGE" && m.attachmentUrl && (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img src={m.attachmentUrl} alt={m.attachmentName || "imagen"} className="mt-1.5 max-w-xs rounded-md border border-line" />
+                <div className="mt-1.5">
+                  <a href={m.attachmentUrl} target="_blank" rel="noreferrer">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={m.attachmentUrl} alt={m.attachmentName || "imagen"} className="max-w-xs rounded-md border border-line" />
+                  </a>
+                  <a
+                    href={downloadUrl(m.attachmentUrl, m.attachmentName || "imagen.jpg")}
+                    className="block text-xs underline text-muted hover:text-ink mt-1"
+                  >
+                    Descargar
+                  </a>
+                </div>
               )}
               {m.attachmentType === "AUDIO" && m.attachmentUrl && (
-                <audio controls src={m.attachmentUrl} className="mt-1.5 h-9" />
+                <div className="mt-1.5">
+                  <audio controls src={m.attachmentUrl} className="h-9" />
+                  <a
+                    href={downloadUrl(m.attachmentUrl, m.attachmentName || "nota-de-voz.webm")}
+                    className="block text-xs underline text-muted hover:text-ink mt-1"
+                  >
+                    Descargar
+                  </a>
+                </div>
               )}
               {m.attachmentType === "FILE" && m.attachmentUrl && (
-                <a
-                  href={m.attachmentUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="mt-1.5 inline-block text-sm underline text-inksoft"
-                >
-                  {m.attachmentName || "Archivo adjunto"}
-                </a>
+                <div className="mt-1.5 flex items-center gap-2">
+                  <a
+                    href={m.attachmentUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-sm underline text-inksoft"
+                  >
+                    {m.attachmentName || "Archivo adjunto"}
+                  </a>
+                  <a
+                    href={downloadUrl(m.attachmentUrl, m.attachmentName || "archivo")}
+                    className="text-xs underline text-muted hover:text-ink"
+                  >
+                    Descargar
+                  </a>
+                </div>
               )}
             </div>
           </div>
