@@ -14,9 +14,9 @@ const STATUS_LABEL: Record<string, string> = { PENDENT: "Pendiente", CURS: "En c
 const STATUS_COLOR: Record<string, string> = { PENDENT: "bg-pendent", CURS: "bg-curs", FET: "bg-fet" };
 const PRIORITY_LABEL: Record<string, string> = { ALTA: "Alta", MITJA: "Media", BAIXA: "Baja" };
 const PRIORITY_CLASS: Record<string, string> = {
-  ALTA: "bg-[#F3E3E0] text-danger",
-  MITJA: "bg-[#F5EAD3] text-[#8A6A1F]",
-  BAIXA: "bg-[#E6EDEC] text-[#6F8B87]"
+  ALTA: "bg-danger-light text-[#712B13]",
+  MITJA: "bg-accent-light text-accent",
+  BAIXA: "bg-surface text-inksoft"
 };
 
 function isOverdue(t: TaskT) {
@@ -29,6 +29,9 @@ function isOverdue(t: TaskT) {
 function fmtDate(iso: string) {
   return new Date(iso).toLocaleDateString("es-ES", { day: "numeric", month: "short" });
 }
+
+const inputClass =
+  "w-full border border-border rounded-lg px-3 py-2 text-sm bg-canvas focus:outline-none focus:ring-2 focus:ring-accent-light focus:border-accent";
 
 export default function BoardClient() {
   const { data: session } = useSession();
@@ -106,8 +109,8 @@ export default function BoardClient() {
     <div>
       <div className="flex justify-between items-start mb-6 gap-4">
         <div>
-          <h2 className="font-display text-2xl mb-0.5">Tablero completo</h2>
-          <p className="text-muted text-sm">
+          <h2 className="text-[22px] font-medium mb-0.5">Tablero completo</h2>
+          <p className="text-muted">
             Todas las tareas del equipo. Puedes asignar una a cualquier compañero sin entrar en su perfil.
           </p>
         </div>
@@ -116,7 +119,7 @@ export default function BoardClient() {
             setEditingId(null);
             setFormOpen(true);
           }}
-          className="bg-ink text-canvas rounded px-4 py-2.5 text-sm whitespace-nowrap"
+          className="bg-accent text-white rounded-lg px-4 py-2.5 text-sm whitespace-nowrap"
         >
           + Nueva tarea
         </button>
@@ -130,8 +133,8 @@ export default function BoardClient() {
           ["Hechas", tasks.filter((t) => t.status === "FET").length, ""],
           ["Vencidas", tasks.filter(isOverdue).length, "text-danger"]
         ].map(([label, num, cls]) => (
-          <div key={label as string} className="bg-panel border border-line rounded-md px-4 py-3">
-            <div className={`font-display text-2xl ${cls}`}>{num as number}</div>
+          <div key={label as string} className="bg-surface border border-border rounded-xl px-4 py-3">
+            <div className={`text-[22px] font-medium ${cls}`}>{num as number}</div>
             <div className="text-[11px] text-muted mt-1">{label}</div>
           </div>
         ))}
@@ -141,22 +144,22 @@ export default function BoardClient() {
         <button
           onClick={() => setFilter("all")}
           className={`flex items-center gap-1.5 border rounded-full px-3 py-1 text-xs ${
-            filter === "all" ? "border-ink text-ink" : "border-line text-muted"
+            filter === "all" ? "border-accent text-accent" : "border-border-strong text-muted hover:bg-surface"
           }`}
         >
-          Todos <span className="bg-linesoft rounded-full px-1.5 text-[10px]">{tasks.length}</span>
+          Todos <span className="bg-surface rounded-full px-1.5 text-[10px]">{tasks.length}</span>
         </button>
         {users.map((u) => (
           <button
             key={u.id}
             onClick={() => setFilter(u.id)}
             className={`flex items-center gap-1.5 border rounded-full px-3 py-1 text-xs ${
-              filter === u.id ? "border-ink text-ink" : "border-line text-muted"
+              filter === u.id ? "border-accent text-accent" : "border-border-strong text-muted hover:bg-surface"
             }`}
           >
             <span className="w-2 h-2 rounded-full" style={{ background: u.color }} />
             {u.name}
-            <span className="bg-linesoft rounded-full px-1.5 text-[10px]">
+            <span className="bg-surface rounded-full px-1.5 text-[10px]">
               {tasks.filter((t) => t.assignee?.id === u.id).length}
             </span>
           </button>
@@ -167,7 +170,7 @@ export default function BoardClient() {
         {columns.map((col) => {
           const colTasks = filtered.filter((t) => t.status === col);
           return (
-            <div key={col} className="bg-white/40 border border-linesoft rounded-md p-3.5 min-h-[100px]">
+            <div key={col} className="bg-surface border border-border rounded-xl p-3.5 min-h-[100px]">
               <div className="flex items-center gap-2 text-xs text-muted mb-3">
                 <span className={`w-2 h-2 rounded-full ${STATUS_COLOR[col]}`} />
                 {STATUS_LABEL[col]}
@@ -178,7 +181,7 @@ export default function BoardClient() {
                 <div
                   key={t.id}
                   onClick={() => setDetailId(t.id)}
-                  className="bg-panel border border-line rounded p-3 mb-2.5 cursor-pointer hover:border-inksoft"
+                  className="bg-panel border border-border rounded-xl p-3 mb-2.5 cursor-pointer hover:border-border-strong"
                 >
                   <div className="flex justify-between gap-2 mb-1">
                     <p className="text-sm font-medium leading-snug">{t.title}</p>
@@ -219,21 +222,21 @@ export default function BoardClient() {
           <form
             onSubmit={submitForm}
             onClick={(e) => e.stopPropagation()}
-            className="bg-panel rounded-lg p-6 w-full max-w-md border border-line space-y-3"
+            className="bg-panel rounded-xl p-6 w-full max-w-md border border-border-strong space-y-3"
           >
-            <h3 className="font-display text-lg mb-1">{editingId ? "Editar tarea" : "Nueva tarea"}</h3>
+            <h3 className="text-base font-medium mb-1">{editingId ? "Editar tarea" : "Nueva tarea"}</h3>
             <div>
               <label className="block text-xs text-muted mb-1">Título</label>
-              <input name="title" defaultValue={editing?.title} required className="w-full border border-line rounded px-3 py-2 text-sm bg-canvas" />
+              <input name="title" defaultValue={editing?.title} required className={inputClass} />
             </div>
             <div>
               <label className="block text-xs text-muted mb-1">Descripción</label>
-              <textarea name="description" defaultValue={editing?.description || ""} className="w-full border border-line rounded px-3 py-2 text-sm bg-canvas min-h-[60px]" />
+              <textarea name="description" defaultValue={editing?.description || ""} className={`${inputClass} min-h-[60px]`} />
             </div>
             <div className="grid grid-cols-2 gap-3">
               <div>
                 <label className="block text-xs text-muted mb-1">Asignado a</label>
-                <select name="assigneeId" defaultValue={editing?.assignee?.id || myId} className="w-full border border-line rounded px-3 py-2 text-sm bg-canvas">
+                <select name="assigneeId" defaultValue={editing?.assignee?.id || myId} className={inputClass}>
                   {users.map((u) => (
                     <option key={u.id} value={u.id}>{u.name}</option>
                   ))}
@@ -241,7 +244,7 @@ export default function BoardClient() {
               </div>
               <div>
                 <label className="block text-xs text-muted mb-1">Prioridad</label>
-                <select name="priority" defaultValue={editing?.priority || "MITJA"} className="w-full border border-line rounded px-3 py-2 text-sm bg-canvas">
+                <select name="priority" defaultValue={editing?.priority || "MITJA"} className={inputClass}>
                   <option value="ALTA">Alta</option>
                   <option value="MITJA">Media</option>
                   <option value="BAIXA">Baja</option>
@@ -251,7 +254,7 @@ export default function BoardClient() {
             <div className="grid grid-cols-2 gap-3">
               <div>
                 <label className="block text-xs text-muted mb-1">Estado</label>
-                <select name="status" defaultValue={editing?.status || "PENDENT"} className="w-full border border-line rounded px-3 py-2 text-sm bg-canvas">
+                <select name="status" defaultValue={editing?.status || "PENDENT"} className={inputClass}>
                   <option value="PENDENT">Pendiente</option>
                   <option value="CURS">En curso</option>
                   <option value="FET">Hecho</option>
@@ -259,14 +262,18 @@ export default function BoardClient() {
               </div>
               <div>
                 <label className="block text-xs text-muted mb-1">Fecha límite</label>
-                <input type="date" name="dueDate" defaultValue={editing?.dueDate?.slice(0, 10) || ""} className="w-full border border-line rounded px-3 py-2 text-sm bg-canvas" />
+                <input type="date" name="dueDate" defaultValue={editing?.dueDate?.slice(0, 10) || ""} className={inputClass} />
               </div>
             </div>
             <div className="flex justify-end gap-2 pt-2">
-              <button type="button" onClick={() => setFormOpen(false)} className="border border-line text-muted rounded px-4 py-2 text-sm">
+              <button
+                type="button"
+                onClick={() => setFormOpen(false)}
+                className="border border-border-strong text-inksoft rounded-lg px-4 py-2 text-sm hover:bg-surface"
+              >
                 Cancelar
               </button>
-              <button type="submit" className="bg-ink text-canvas rounded px-4 py-2 text-sm">
+              <button type="submit" className="bg-accent text-white rounded-lg px-4 py-2 text-sm">
                 Guardar
               </button>
             </div>
@@ -277,8 +284,8 @@ export default function BoardClient() {
       {/* Modal detall + comentaris */}
       {detail && (
         <div className="fixed inset-0 bg-ink/40 flex items-center justify-center p-5 z-20" onClick={() => setDetailId(null)}>
-          <div onClick={(e) => e.stopPropagation()} className="bg-panel rounded-lg p-6 w-full max-w-lg border border-line max-h-[88vh] overflow-y-auto">
-            <h3 className="font-display text-lg mb-2">{detail.title}</h3>
+          <div onClick={(e) => e.stopPropagation()} className="bg-panel rounded-xl p-6 w-full max-w-lg border border-border-strong max-h-[88vh] overflow-y-auto">
+            <h3 className="text-base font-medium mb-2">{detail.title}</h3>
             <div className="flex flex-wrap gap-4 text-xs text-muted mb-3">
               <span className="flex items-center gap-1.5">
                 <Avatar user={detail.assignee} size={18} /> {detail.assignee?.name || "Sin asignar"}
@@ -293,7 +300,7 @@ export default function BoardClient() {
               <select
                 value={detail.status}
                 onChange={(e) => moveTask(detail.id, e.target.value)}
-                className="border border-line rounded px-3 py-1.5 text-sm bg-canvas"
+                className="border border-border rounded-lg px-3 py-1.5 text-sm bg-canvas focus:outline-none focus:ring-2 focus:ring-accent-light focus:border-accent"
               >
                 <option value="PENDENT">Pendiente</option>
                 <option value="CURS">En curso</option>
@@ -301,12 +308,12 @@ export default function BoardClient() {
               </select>
             </div>
 
-            <div className="border-t border-linesoft pt-3">
+            <div className="border-t border-border pt-3">
               <p className="text-xs text-muted mb-2">Comentarios</p>
               <div className="space-y-2 mb-3">
                 {detail.comments.length === 0 && <p className="text-xs text-muted italic">Todavía no hay comentarios.</p>}
                 {detail.comments.map((c) => (
-                  <div key={c.id} className="bg-canvas rounded px-3 py-2 text-sm">
+                  <div key={c.id} className="bg-surface rounded-lg px-3 py-2 text-sm">
                     <div className="flex justify-between text-[11px] text-muted mb-0.5">
                       <span>{c.author.name}</span>
                       <span>{fmtDate(c.createdAt)}</span>
@@ -321,20 +328,23 @@ export default function BoardClient() {
                   onChange={(e) => setCommentText(e.target.value)}
                   onKeyDown={(e) => e.key === "Enter" && addComment()}
                   placeholder="Escribe un comentario…"
-                  className="flex-1 border border-line rounded px-3 py-2 text-sm bg-canvas"
+                  className={`flex-1 ${inputClass}`}
                 />
-                <button onClick={addComment} className="bg-ink text-canvas rounded px-4 text-sm">
+                <button onClick={addComment} className="bg-accent text-white rounded-lg px-4 text-sm">
                   Enviar
                 </button>
               </div>
             </div>
 
-            <div className="flex justify-between items-center mt-5 pt-3 border-t border-linesoft">
+            <div className="flex justify-between items-center mt-5 pt-3 border-t border-border">
               <button onClick={() => deleteTask(detail.id)} className="text-danger text-xs">
                 Eliminar tarea
               </button>
               <div className="flex gap-2">
-                <button onClick={() => setDetailId(null)} className="border border-line text-muted rounded px-4 py-2 text-sm">
+                <button
+                  onClick={() => setDetailId(null)}
+                  className="border border-border-strong text-inksoft rounded-lg px-4 py-2 text-sm hover:bg-surface"
+                >
                   Cerrar
                 </button>
                 <button
@@ -343,7 +353,7 @@ export default function BoardClient() {
                     setDetailId(null);
                     setFormOpen(true);
                   }}
-                  className="bg-ink text-canvas rounded px-4 py-2 text-sm"
+                  className="bg-accent text-white rounded-lg px-4 py-2 text-sm"
                 >
                   Editar
                 </button>
