@@ -60,9 +60,20 @@ export default function FloatingAiChat() {
           <div className="p-3 border-b border-linesoft flex-shrink-0">
             <div className="flex items-center justify-between mb-2">
               <span className="font-display text-sm">Asistente</span>
-              <button onClick={() => setOpen(false)} className="text-muted hover:text-ink text-sm">
-                ✕
-              </button>
+              <div className="flex items-center gap-3">
+                {messages.length > 0 && (
+                  <button
+                    onClick={() => setMessages([])}
+                    title="Borrar esta conversación"
+                    className="text-muted hover:text-danger text-xs"
+                  >
+                    Borrar chat
+                  </button>
+                )}
+                <button onClick={() => setOpen(false)} className="text-muted hover:text-ink text-sm">
+                  ✕
+                </button>
+              </div>
             </div>
             <div className="flex bg-linesoft rounded-full p-0.5 text-xs">
               {(["tara", "team"] as ChatMode[]).map((m) => (
