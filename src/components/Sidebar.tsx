@@ -8,6 +8,8 @@ import Avatar from "./Avatar";
 const NAV = [
   { href: "/dashboard", label: "Tauler" },
   { href: "/dashboard/chat", label: "Xat" },
+  { href: "/dashboard/calendar", label: "Calendari" },
+  { href: "/dashboard/kudos", label: "Kudos" },
   { href: "/dashboard/personal", label: "Lloc personal" },
   { href: "/dashboard/profile", label: "El meu perfil" }
 ];

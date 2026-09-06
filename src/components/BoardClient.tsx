@@ -2,8 +2,13 @@
 
 import { useEffect, useState, useCallback } from "react";
 import { useSession } from "next-auth/react";
+import confetti from "canvas-confetti";
 import Avatar from "./Avatar";
 import { TaskT, UserLite } from "@/types";
+
+function celebrate() {
+  confetti({ particleCount: 90, spread: 70, origin: { y: 0.7 }, colors: ["#3E7C74", "#C97B3C", "#A85751", "#5B7A9D"] });
+}
 
 const STATUS_LABEL: Record<string, string> = { PENDENT: "Pendent", CURS: "En curs", FET: "Fet" };
 const STATUS_COLOR: Record<string, string> = { PENDENT: "bg-pendent", CURS: "bg-curs", FET: "bg-fet" };
@@ -66,6 +71,7 @@ export default function BoardClient() {
     if (!payload.title.trim()) return;
 
     if (editingId) {
+      if (payload.status === "FET" && editing?.status !== "FET") celebrate();
       await fetch(`/api/tasks/${editingId}`, { method: "PATCH", body: JSON.stringify(payload) });
     } else {
       await fetch("/api/tasks", { method: "POST", body: JSON.stringify(payload) });
@@ -76,6 +82,8 @@ export default function BoardClient() {
   }
 
   async function moveTask(id: string, status: string) {
+    const current = tasks.find((t) => t.id === id);
+    if (status === "FET" && current?.status !== "FET") celebrate();
     await fetch(`/api/tasks/${id}`, { method: "PATCH", body: JSON.stringify({ status }) });
     load();
   }

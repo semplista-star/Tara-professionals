@@ -7,6 +7,8 @@ import { signOut } from "next-auth/react";
 const NAV = [
   { href: "/dashboard", label: "Tauler", icon: "📋" },
   { href: "/dashboard/chat", label: "Xat", icon: "💬" },
+  { href: "/dashboard/calendar", label: "Agenda", icon: "📅" },
+  { href: "/dashboard/kudos", label: "Kudos", icon: "🌱" },
   { href: "/dashboard/personal", label: "Personal", icon: "🗂" },
   { href: "/dashboard/profile", label: "Perfil", icon: "👤" }
 ];
@@ -33,11 +35,11 @@ export function MobileBottomNav() {
           <Link
             key={item.href}
             href={item.href}
-            className={`flex-1 flex flex-col items-center gap-0.5 py-2.5 text-[10px] ${
+            className={`flex-1 flex flex-col items-center gap-0.5 py-2 text-[9px] ${
               active ? "text-white" : "text-[#8B9389]"
             }`}
           >
-            <span className="text-base leading-none">{item.icon}</span>
+            <span className="text-sm leading-none">{item.icon}</span>
             {item.label}
           </Link>
         );

@@ -40,6 +40,39 @@ model User {
   messages      Message[]
   personalFiles PersonalFile[]
   pushSubscriptions PushSubscription[]
+  kudosGiven    Kudo[]    @relation("KudosGiven")
+  kudosReceived Kudo[]    @relation("KudosReceived")
+  meetingsCreated Meeting[] @relation("MeetingsCreated")
+  meetings        Meeting[] @relation("MeetingParticipants")
+}
+
+model Kudo {
+  id     String @id @default(cuid())
+  text   String
+
+  giver   User   @relation("KudosGiven", fields: [giverId], references: [id], onDelete: Cascade)
+  giverId String
+
+  receiver   User   @relation("KudosReceived", fields: [receiverId], references: [id], onDelete: Cascade)
+  receiverId String
+
+  createdAt DateTime @default(now())
+}
+
+model Meeting {
+  id              String    @id @default(cuid())
+  title           String
+  description     String?
+  location        String?
+  startsAt        DateTime
+  durationMinutes Int       @default(30)
+
+  creator   User   @relation("MeetingsCreated", fields: [creatorId], references: [id], onDelete: Cascade)
+  creatorId String
+
+  participants User[] @relation("MeetingParticipants")
+
+  createdAt DateTime @default(now())
 }
 
 model PushSubscription {

@@ -33,6 +33,18 @@ export type PersonalFileT = {
   createdAt: string;
 };
 
+export type MeetingT = {
+  id: string;
+  title: string;
+  description: string | null;
+  location: string | null;
+  startsAt: string;
+  durationMinutes: number;
+  creator: UserLite;
+  participants: UserLite[];
+  createdAt: string;
+};
+
 export type MessageT = {
   id: string;
   text: string | null;
