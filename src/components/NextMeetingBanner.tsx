@@ -49,8 +49,8 @@ export default function NextMeetingBanner() {
   const soon = startsAt - Date.now() < 10 * 60000;
 
   return (
-    <div className="flex items-center gap-3 px-4 py-2 bg-[#EFE9D8] border-b border-line text-sm">
-      <span className={`w-2 h-2 rounded-full flex-shrink-0 ${soon ? "bg-danger animate-pulse" : "bg-[#8A6A1F]"}`} />
+    <div className="flex items-center gap-3 px-4 py-2 bg-accent-light border-b border-border text-sm">
+      <span className={`w-2 h-2 rounded-full flex-shrink-0 ${soon ? "bg-danger animate-pulse" : "bg-accent"}`} />
       <span className="text-muted flex-shrink-0 hidden sm:inline">📅 Próxima reunión:</span>
       <span className="font-medium truncate">{meeting.title}</span>
       <span className="text-muted flex-shrink-0">{relativeLabel(meeting.startsAt)}</span>

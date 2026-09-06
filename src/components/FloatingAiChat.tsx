@@ -56,10 +56,10 @@ export default function FloatingAiChat() {
   return (
     <>
       {open && (
-        <div className="fixed z-40 bottom-[152px] right-4 md:bottom-24 md:right-6 w-[calc(100vw-2rem)] max-w-sm bg-panel border border-line rounded-lg shadow-xl flex flex-col h-[70vh] max-h-[520px]">
-          <div className="p-3 border-b border-linesoft flex-shrink-0">
+        <div className="fixed z-40 bottom-[152px] right-4 md:bottom-24 md:right-6 w-[calc(100vw-2rem)] max-w-sm bg-panel border border-border-strong rounded-xl flex flex-col h-[70vh] max-h-[520px]">
+          <div className="p-3 border-b border-border flex-shrink-0">
             <div className="flex items-center justify-between mb-2">
-              <span className="font-display text-sm">Asistente</span>
+              <span className="text-sm font-medium">Asistente</span>
               <div className="flex items-center gap-3">
                 {messages.length > 0 && (
                   <button
@@ -75,14 +75,14 @@ export default function FloatingAiChat() {
                 </button>
               </div>
             </div>
-            <div className="flex bg-linesoft rounded-full p-0.5 text-xs">
+            <div className="flex bg-surface rounded-full p-0.5 text-xs">
               {(["tara", "team"] as ChatMode[]).map((m) => (
                 <button
                   key={m}
                   type="button"
                   onClick={() => switchMode(m)}
                   className={`flex-1 rounded-full py-1.5 transition-colors ${
-                    mode === m ? "bg-ink text-canvas" : "text-muted"
+                    mode === m ? "bg-accent text-white" : "text-muted"
                   }`}
                 >
                   {MODE_LABEL[m]}
@@ -111,7 +111,7 @@ export default function FloatingAiChat() {
                 )}
                 <div
                   className={`text-sm rounded-lg px-3 py-2 max-w-[80%] whitespace-pre-wrap ${
-                    m.role === "user" ? "bg-ink text-canvas" : "bg-canvas text-inksoft border border-linesoft"
+                    m.role === "user" ? "bg-accent text-white" : "bg-canvas text-inksoft border border-border"
                   }`}
                 >
                   {m.content}
@@ -121,18 +121,18 @@ export default function FloatingAiChat() {
             {loading && <p className="text-muted text-xs italic">Escribiendo…</p>}
           </div>
 
-          <div className="p-2.5 border-t border-linesoft flex gap-2 flex-shrink-0">
+          <div className="p-2.5 border-t border-border flex gap-2 flex-shrink-0">
             <input
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && send()}
               placeholder="Escribe un mensaje…"
-              className="flex-1 min-w-0 border border-line rounded px-2.5 py-2 text-sm bg-canvas"
+              className="flex-1 min-w-0 border border-border rounded-lg px-2.5 py-2 text-sm bg-canvas focus:outline-none focus:ring-2 focus:ring-accent-light focus:border-accent"
             />
             <button
               onClick={send}
               disabled={loading || !input.trim()}
-              className="bg-ink text-canvas rounded px-3 py-2 text-sm disabled:opacity-60 flex-shrink-0"
+              className="bg-accent text-white rounded-lg px-3 py-2 text-sm disabled:opacity-60 flex-shrink-0"
             >
               Enviar
             </button>
@@ -142,7 +142,7 @@ export default function FloatingAiChat() {
 
       <button
         onClick={() => setOpen((v) => !v)}
-        className="fixed z-40 bottom-20 right-4 md:bottom-6 md:right-6 w-14 h-14 rounded-full bg-ink text-canvas shadow-lg flex items-center justify-center text-xl"
+        className="fixed z-40 bottom-20 right-4 md:bottom-6 md:right-6 w-14 h-14 rounded-full bg-accent text-white flex items-center justify-center text-xl"
         title="Asistente"
       >
         {open ? "✕" : "💬"}

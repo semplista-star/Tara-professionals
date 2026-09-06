@@ -35,6 +35,7 @@ export default function LoginPage() {
     <div className="min-h-screen bg-canvas flex items-center justify-center px-6">
       <div className="w-full max-w-sm bg-panel border border-border rounded-xl p-8">
         <h1 className="font-display text-3xl mb-1">Tara</h1>
+        <p className="text-inksoft text-sm italic mb-3">De la pantalla a la vida.</p>
         <p className="text-muted mb-8">Entra con tu cuenta del equipo.</p>
 
         <form onSubmit={handleSubmit} className="space-y-4">

@@ -48,9 +48,9 @@ function fmtRelative(iso: string) {
 }
 
 const PRIORITY_CLASS: Record<string, string> = {
-  ALTA: "bg-[#F3E3E0] text-danger",
-  MITJA: "bg-[#F5EAD3] text-[#8A6A1F]",
-  BAIXA: "bg-[#E6EDEC] text-[#6F8B87]"
+  ALTA: "bg-danger-light text-[#712B13]",
+  MITJA: "bg-accent-light text-accent",
+  BAIXA: "bg-surface text-inksoft"
 };
 
 export default function TodayClient() {
@@ -130,16 +130,16 @@ export default function TodayClient() {
     <div>
       <div className="flex justify-between items-start mb-6 gap-4">
         <div>
-          <h2 className="font-display text-2xl mb-0.5">
+          <h2 className="text-[22px] font-medium mb-0.5">
             {greeting()}{myName ? `, ${myName.split(" ")[0]}` : ""}
           </h2>
-          <p className="text-muted text-sm">Esto es lo que te toca hoy.</p>
+          <p className="text-muted">Esto es lo que te toca hoy.</p>
         </div>
 
         <div className="relative" ref={bellRef}>
           <button
             onClick={openBell}
-            className="relative border border-line rounded-full w-10 h-10 flex items-center justify-center bg-panel hover:border-inksoft"
+            className="relative border border-border rounded-full w-10 h-10 flex items-center justify-center bg-panel hover:bg-surface"
             title="Notificaciones"
           >
             🔔
@@ -148,12 +148,12 @@ export default function TodayClient() {
             )}
           </button>
           {bellOpen && (
-            <div className="absolute right-0 mt-2 w-72 max-h-80 overflow-y-auto bg-panel border border-line rounded-md shadow-lg z-20 p-2">
+            <div className="absolute right-0 mt-2 w-72 max-h-80 overflow-y-auto bg-panel border border-border-strong rounded-xl z-20 p-2">
               {notifications.length === 0 && (
                 <p className="text-muted text-xs italic p-2">No tienes notificaciones.</p>
               )}
               {notifications.map((n) => (
-                <div key={n.id} className="text-sm px-2 py-2 border-b border-linesoft last:border-0">
+                <div key={n.id} className="text-sm px-2 py-2 border-b border-border last:border-0">
                   <p className="text-inksoft">{n.text}</p>
                   <p className="text-[11px] text-muted mt-0.5">{fmtRelative(n.createdAt)}</p>
                 </div>
@@ -164,18 +164,18 @@ export default function TodayClient() {
       </div>
 
       <div className="grid grid-cols-2 gap-3 mb-6 max-w-md">
-        <div className="bg-panel border border-line rounded-md px-4 py-3">
-          <div className="font-display text-2xl">{dueToday.length}</div>
+        <div className="bg-surface border border-border rounded-xl px-4 py-3">
+          <div className="text-[28px] font-medium">{dueToday.length}</div>
           <div className="text-[11px] text-muted mt-1">Tareas para ti hoy</div>
         </div>
-        <div className="bg-panel border border-line rounded-md px-4 py-3">
-          <div className="font-display text-2xl text-danger">{overdue.length}</div>
+        <div className="bg-surface border border-border rounded-xl px-4 py-3">
+          <div className="text-[28px] font-medium text-danger">{overdue.length}</div>
           <div className="text-[11px] text-muted mt-1">Vencidas</div>
         </div>
       </div>
 
       <div className="mb-8">
-        <h3 className="font-display text-lg mb-3">Para hoy</h3>
+        <h3 className="text-base font-medium mb-3">Para hoy</h3>
         {relevant.length === 0 && (
           <p className="text-muted text-sm italic">No tienes tareas para hoy ni vencidas. Todo al día.</p>
         )}
@@ -184,7 +184,7 @@ export default function TodayClient() {
             <Link
               key={t.id}
               href="/dashboard/board"
-              className="flex items-center justify-between gap-3 bg-panel border border-line rounded-md p-3 hover:border-inksoft"
+              className="flex items-center justify-between gap-3 bg-panel border border-border rounded-xl p-3 hover:bg-surface"
             >
               <div className="min-w-0">
                 <p className="text-sm font-medium truncate">{t.title}</p>
@@ -201,10 +201,10 @@ export default function TodayClient() {
       </div>
 
       <div>
-        <h3 className="font-display text-lg mb-3">El equipo ahora mismo</h3>
+        <h3 className="text-base font-medium mb-3">El equipo ahora mismo</h3>
         <div className="flex flex-wrap gap-3">
           {users.map((u) => (
-            <div key={u.id} className="flex items-center gap-2 bg-panel border border-line rounded-full pl-1 pr-3 py-1">
+            <div key={u.id} className="flex items-center gap-2 bg-panel border border-border rounded-full pl-1 pr-3 py-1">
               <Avatar user={u} size={26} online={!!presence[u.id]?.online} />
               <span className="text-xs text-inksoft">{u.name}</span>
             </div>

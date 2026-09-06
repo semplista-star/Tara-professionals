@@ -26,7 +26,7 @@ export default function Avatar({
   if (!user) {
     return (
       <div
-        className="rounded-full bg-line flex items-center justify-center text-muted flex-shrink-0"
+        className="rounded-full bg-surface flex items-center justify-center text-muted flex-shrink-0"
         style={{ width: size, height: size, fontSize: size * 0.38 }}
       >
         ?
@@ -46,8 +46,8 @@ export default function Avatar({
         />
       ) : (
         <div
-          className="rounded-full flex items-center justify-center text-white font-display"
-          style={{ width: size, height: size, background: user.color, fontSize: size * 0.38 }}
+          className="rounded-full flex items-center justify-center font-medium"
+          style={{ width: size, height: size, background: `${user.color}26`, color: user.color, fontSize: size * 0.38 }}
         >
           {initials(user.name)}
         </div>
