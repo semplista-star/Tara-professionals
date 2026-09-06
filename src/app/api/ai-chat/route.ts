@@ -28,7 +28,7 @@ export async function POST(req: Request) {
 
   if (!process.env.ANTHROPIC_API_KEY) {
     return NextResponse.json(
-      { error: "Falta configurar ANTHROPIC_API_KEY en el servidor." },
+      { error: "El asistente no está disponible en este momento. Próximamente." },
       { status: 503 }
     );
   }
