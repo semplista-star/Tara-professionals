@@ -18,7 +18,7 @@ export default function Sidebar() {
   const user = session?.user as any;
 
   return (
-    <aside className="w-[210px] flex-shrink-0 bg-sidebar text-[#CFD6CE] p-5 flex flex-col min-h-screen">
+    <aside className="hidden md:flex w-[210px] flex-shrink-0 bg-sidebar text-[#CFD6CE] p-5 flex-col h-full overflow-y-auto">
       <p className="font-display font-semibold text-white text-lg mb-0.5">Tara</p>
       <p className="text-[11px] text-[#8B9389] mb-6">Taulell de l'equip</p>
 

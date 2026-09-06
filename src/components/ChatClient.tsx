@@ -143,7 +143,7 @@ export default function ChatClient() {
   }
 
   return (
-    <div className="flex flex-col h-[calc(100vh-56px)]">
+    <div className="flex flex-col h-full min-h-0">
       <div className="mb-4">
         <h2 className="font-display text-2xl mb-0.5">Xat de l'equip</h2>
         <p className="text-muted text-sm">Un sol canal compartit per tots cinc.</p>
