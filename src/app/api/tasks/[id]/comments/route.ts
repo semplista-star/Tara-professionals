@@ -3,6 +3,7 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 import { sendPushToUsers } from "@/lib/push";
+import { notifyUsers } from "@/lib/notify";
 
 export async function POST(req: Request, { params }: { params: Promise<{ id: string }> }) {
   const session = await getServerSession(authOptions);
@@ -33,7 +34,10 @@ export async function POST(req: Request, { params }: { params: Promise<{ id: str
   sendPushToUsers([...new Set(notify)], {
     title: "Nuevo comentario",
     body: `${comment.author.name} ha comentado en "${comment.task.title}"`,
-    url: "/dashboard"
+    url: "/dashboard/board"
+  }).catch(() => {});
+  notifyUsers([...new Set(notify)], `${comment.author.name} ha comentado en "${comment.task.title}"`, {
+    taskId: id
   }).catch(() => {});
 
   return NextResponse.json(comment, { status: 201 });

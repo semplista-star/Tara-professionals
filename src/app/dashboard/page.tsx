@@ -1,5 +1,5 @@
-import BoardClient from "@/components/BoardClient";
+import TodayClient from "@/components/TodayClient";
 
-export default function DashboardPage() {
-  return <BoardClient />;
+export default function TodayPage() {
+  return <TodayClient />;
 }

@@ -3,6 +3,7 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 import { sendPushToUsers } from "@/lib/push";
+import { notifyUsers } from "@/lib/notify";
 
 export async function GET(req: Request) {
   const session = await getServerSession(authOptions);
@@ -43,13 +44,23 @@ export async function POST(req: Request) {
 
   const others = await prisma.user.findMany({
     where: { id: { not: message.authorId } },
-    select: { id: true }
+    select: { id: true, name: true, username: true }
   });
   sendPushToUsers(others.map((u) => u.id), {
     title: `${message.author.name} en el chat`,
     body: message.text || "Ha enviado un archivo adjunto",
     url: "/dashboard/chat"
   }).catch(() => {});
+
+  if (message.text) {
+    const lowerText = message.text.toLowerCase();
+    const mentioned = others.filter(
+      (u) => lowerText.includes(`@${u.username.toLowerCase()}`) || lowerText.includes(`@${u.name.toLowerCase()}`)
+    );
+    if (mentioned.length > 0) {
+      notifyUsers(mentioned.map((u) => u.id), `${message.author.name} te ha mencionado en el chat`).catch(() => {});
+    }
+  }
 
   return NextResponse.json(message, { status: 201 });
 }

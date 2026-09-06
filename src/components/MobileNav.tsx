@@ -5,7 +5,8 @@ import { usePathname } from "next/navigation";
 import { signOut } from "next-auth/react";
 
 const NAV = [
-  { href: "/dashboard", label: "Tablero", icon: "📋" },
+  { href: "/dashboard", label: "Hoy", icon: "☀️" },
+  { href: "/dashboard/board", label: "Tablero", icon: "📋" },
   { href: "/dashboard/chat", label: "Chat", icon: "💬" },
   { href: "/dashboard/calendar", label: "Agenda", icon: "📅" },
   { href: "/dashboard/kudos", label: "Kudos", icon: "🌱" },

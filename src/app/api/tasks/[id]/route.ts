@@ -3,6 +3,7 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 import { sendPushToUsers } from "@/lib/push";
+import { notifyUsers } from "@/lib/notify";
 
 export async function PATCH(req: Request, { params }: { params: Promise<{ id: string }> }) {
   const session = await getServerSession(authOptions);
@@ -36,8 +37,9 @@ export async function PATCH(req: Request, { params }: { params: Promise<{ id: st
     sendPushToUsers([task.assigneeId], {
       title: "Nueva tarea asignada",
       body: `Se te ha asignado: ${task.title}`,
-      url: "/dashboard"
+      url: "/dashboard/board"
     }).catch(() => {});
+    notifyUsers([task.assigneeId], `Se te ha asignado: ${task.title}`, { taskId: task.id }).catch(() => {});
   }
 
   return NextResponse.json(task);

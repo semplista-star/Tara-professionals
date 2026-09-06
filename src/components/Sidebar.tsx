@@ -6,7 +6,8 @@ import { signOut, useSession } from "next-auth/react";
 import Avatar from "./Avatar";
 
 const NAV = [
-  { href: "/dashboard", label: "Tablero" },
+  { href: "/dashboard", label: "Hoy" },
+  { href: "/dashboard/board", label: "Tablero" },
   { href: "/dashboard/chat", label: "Chat" },
   { href: "/dashboard/calendar", label: "Calendario" },
   { href: "/dashboard/kudos", label: "Kudos" },

@@ -3,6 +3,7 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 import { sendPushToUsers } from "@/lib/push";
+import { notifyUsers } from "@/lib/notify";
 
 export async function GET() {
   const session = await getServerSession(authOptions);
@@ -55,8 +56,9 @@ export async function POST(req: Request) {
     sendPushToUsers([task.assigneeId], {
       title: "Nueva tarea asignada",
       body: `${task.creator.name} te ha asignado: ${task.title}`,
-      url: "/dashboard"
+      url: "/dashboard/board"
     }).catch(() => {});
+    notifyUsers([task.assigneeId], `${task.creator.name} te ha asignado: ${task.title}`, { taskId: task.id }).catch(() => {});
   }
 
   return NextResponse.json(task, { status: 201 });
