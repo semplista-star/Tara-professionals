@@ -119,6 +119,12 @@ export default function ChatClient() {
     load(true);
   }
 
+  async function deleteMessage(id: string) {
+    if (!confirm("¿Borrar este mensaje?")) return;
+    setMessages((prev) => prev.filter((m) => m.id !== id));
+    await fetch(`/api/messages/${id}`, { method: "DELETE" });
+  }
+
   function handleTyping(value: string) {
     setText(value);
     const now = Date.now();
@@ -200,6 +206,14 @@ export default function ChatClient() {
                   {m.author.id === myId ? "Tu" : m.author.name}
                 </span>
                 <span className="text-[11px] text-muted">{fmtTime(m.createdAt)}</span>
+                {m.author.id === myId && (
+                  <button
+                    onClick={() => deleteMessage(m.id)}
+                    className="text-[11px] text-muted hover:text-danger"
+                  >
+                    Borrar
+                  </button>
+                )}
               </div>
 
               {m.text && <p className="text-sm text-inksoft whitespace-pre-wrap">{m.text}</p>}
