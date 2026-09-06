@@ -3,10 +3,11 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 
-export async function PATCH(req: Request, { params }: { params: { id: string } }) {
+export async function PATCH(req: Request, { params }: { params: Promise<{ id: string }> }) {
   const session = await getServerSession(authOptions);
   if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
 
+  const { id } = await params;
   const body = await req.json();
   const data: Record<string, any> = {};
 
@@ -18,7 +19,7 @@ export async function PATCH(req: Request, { params }: { params: { id: string } }
   if ("dueDate" in body) data.dueDate = body.dueDate ? new Date(body.dueDate) : null;
 
   const task = await prisma.task.update({
-    where: { id: params.id },
+    where: { id },
     data,
     include: {
       assignee: { select: { id: true, name: true, color: true } },
@@ -30,10 +31,11 @@ export async function PATCH(req: Request, { params }: { params: { id: string } }
   return NextResponse.json(task);
 }
 
-export async function DELETE(_req: Request, { params }: { params: { id: string } }) {
+export async function DELETE(_req: Request, { params }: { params: Promise<{ id: string }> }) {
   const session = await getServerSession(authOptions);
   if (!session) return NextResponse.json({ error: "No autoritzat" }, { status: 401 });
 
-  await prisma.task.delete({ where: { id: params.id } });
+  const { id } = await params;
+  await prisma.task.delete({ where: { id } });
   return NextResponse.json({ ok: true });
 }
