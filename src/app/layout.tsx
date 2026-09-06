@@ -1,10 +1,24 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Providers from "@/components/Providers";
 
 export const metadata: Metadata = {
   title: "Tara — Taulell de l'equip",
-  description: "Tasques i xat de l'equip del projecte Tara"
+  description: "Tasques i xat de l'equip del projecte Tara",
+  manifest: "/manifest.json",
+  icons: {
+    icon: [{ url: "/icon-192.png", sizes: "192x192", type: "image/png" }],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }]
+  },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "Tara"
+  }
+};
+
+export const viewport: Viewport = {
+  themeColor: "#1F2A22"
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -39,6 +39,19 @@ model User {
   comments      Comment[]
   messages      Message[]
   personalFiles PersonalFile[]
+  pushSubscriptions PushSubscription[]
+}
+
+model PushSubscription {
+  id       String @id @default(cuid())
+  endpoint String @unique
+  p256dh   String
+  auth     String
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId String
+
+  createdAt DateTime @default(now())
 }
 
 model Task {

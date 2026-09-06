@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
+import { sendPushToUsers } from "@/lib/push";
 
 export async function GET(req: Request) {
   const session = await getServerSession(authOptions);
@@ -39,6 +40,16 @@ export async function POST(req: Request) {
     },
     include: { author: { select: { id: true, name: true, color: true, avatarUrl: true } } }
   });
+
+  const others = await prisma.user.findMany({
+    where: { id: { not: message.authorId } },
+    select: { id: true }
+  });
+  sendPushToUsers(others.map((u) => u.id), {
+    title: `${message.author.name} al xat`,
+    body: message.text || "Ha enviat un fitxer adjunt",
+    url: "/dashboard/chat"
+  }).catch(() => {});
 
   return NextResponse.json(message, { status: 201 });
 }

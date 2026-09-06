@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useSession } from "next-auth/react";
 import Avatar from "@/components/Avatar";
+import NotificationSetup from "@/components/NotificationSetup";
 
 export default function ProfilePage() {
   const { data: session, update } = useSession();
@@ -78,6 +79,11 @@ export default function ProfilePage() {
           Desar canvis
         </button>
       </form>
+
+      <div className="border-t border-linesoft mt-8 pt-6">
+        <h3 className="font-display text-lg mb-2">Notificacions</h3>
+        <NotificationSetup />
+      </div>
     </div>
   );
 }

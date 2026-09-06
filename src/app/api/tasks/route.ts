@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
+import { sendPushToUsers } from "@/lib/push";
 
 export async function GET() {
   const session = await getServerSession(authOptions);
@@ -49,6 +50,14 @@ export async function POST(req: Request) {
       comments: true
     }
   });
+
+  if (task.assigneeId && task.assigneeId !== task.creatorId) {
+    sendPushToUsers([task.assigneeId], {
+      title: "Nova tasca assignada",
+      body: `${task.creator.name} t'ha assignat: ${task.title}`,
+      url: "/dashboard"
+    }).catch(() => {});
+  }
 
   return NextResponse.json(task, { status: 201 });
 }
