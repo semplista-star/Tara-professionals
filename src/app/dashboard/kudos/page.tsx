@@ -57,8 +57,11 @@ export default function KudosPage() {
   return (
     <div className="max-w-2xl">
       <h2 className="font-display text-2xl mb-0.5">Muro de reconocimientos</h2>
-      <p className="text-muted text-sm mb-6">
+      <p className="text-muted text-sm mb-2">
         Un lugar para deciros "bien hecho" cuando alguien hace algo bien, sin que tenga que ser una tarea.
+      </p>
+      <p className="inline-flex items-center gap-1.5 bg-[#E6EDEC] text-[#4F6B67] rounded-full px-3 py-1 text-xs mb-6">
+        🌱 Ley 6 de Tara: reconocer el progreso — aplicada a vosotros mismos.
       </p>
 
       <form onSubmit={submit} className="bg-panel border border-line rounded-md p-4 mb-6 space-y-3">
