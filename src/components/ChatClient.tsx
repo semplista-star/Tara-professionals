@@ -35,14 +35,14 @@ function EmojiPicker({ onPick, onClose }: { onPick: (emoji: string) => void; onC
   return (
     <div
       ref={ref}
-      className="absolute bottom-full mb-2 left-0 bg-white border border-line rounded-md shadow-lg p-2 grid grid-cols-6 gap-1 z-10"
+      className="absolute bottom-full mb-2 left-0 bg-panel border border-border-strong rounded-xl p-2 grid grid-cols-6 gap-1 z-10"
     >
       {EMOJIS.map((emoji) => (
         <button
           key={emoji}
           type="button"
           onClick={() => onPick(emoji)}
-          className="text-lg hover:bg-linesoft rounded p-1"
+          className="text-lg hover:bg-surface rounded-lg p-1"
         >
           {emoji}
         </button>
@@ -191,7 +191,7 @@ export default function ChatClient() {
   return (
     <div className="flex flex-col h-full min-h-0">
       <div className="mb-2 md:mb-4 flex items-center justify-between gap-3 flex-wrap">
-        <h2 className="font-display text-lg md:text-2xl">Chat del equipo</h2>
+        <h2 className="text-base md:text-[22px] font-medium">Chat del equipo</h2>
         <div className="flex items-center gap-1.5">
           {users.map((u) => (
             <Avatar key={u.id} user={u} size={18} online={!!presence[u.id]?.online} />
@@ -199,7 +199,7 @@ export default function ChatClient() {
         </div>
       </div>
 
-      <div ref={listRef} className="flex-1 overflow-y-auto bg-panel border border-line rounded-md p-3 md:p-5 space-y-3 md:space-y-4">
+      <div ref={listRef} className="flex-1 overflow-y-auto bg-panel border border-border rounded-xl p-3 md:p-5 space-y-3 md:space-y-4">
         {messages.length === 0 && <p className="text-muted text-sm italic">Todavía no hay mensajes. Empieza tú.</p>}
         {messages.map((m) => (
           <div key={m.id} className="flex gap-3">
@@ -226,7 +226,7 @@ export default function ChatClient() {
                 <div className="mt-1.5">
                   <a href={m.attachmentUrl} target="_blank" rel="noreferrer">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={m.attachmentUrl} alt={m.attachmentName || "imagen"} className="max-w-xs rounded-md border border-line" />
+                    <img src={m.attachmentUrl} alt={m.attachmentName || "imagen"} className="max-w-xs rounded-xl border border-border" />
                   </a>
                   <a
                     href={downloadUrl(m.attachmentUrl, m.attachmentName || "imagen.jpg")}
@@ -297,22 +297,22 @@ export default function ChatClient() {
           type="button"
           onClick={() => setShowEmojiPicker((v) => !v)}
           title="Emojis"
-          className="border border-line rounded px-2 py-2 md:px-3 md:py-2.5 text-sm text-muted hover:text-ink flex-shrink-0"
+          className="border border-border-strong rounded-lg px-2 py-2 md:px-3 md:py-2.5 text-sm text-muted hover:bg-surface flex-shrink-0"
         >
           😀
         </button>
-        <label className="cursor-pointer border border-line rounded px-2 py-2 md:px-3 md:py-2.5 text-sm text-muted hover:text-ink flex-shrink-0" title="Adjuntar imagen">
+        <label className="cursor-pointer border border-border-strong rounded-lg px-2 py-2 md:px-3 md:py-2.5 text-sm text-muted hover:bg-surface flex-shrink-0" title="Adjuntar imagen">
           🖼
           <input type="file" accept="image/*" className="hidden" onChange={(e) => handleFile(e, "IMAGE")} />
         </label>
-        <label className="cursor-pointer border border-line rounded px-2 py-2 md:px-3 md:py-2.5 text-sm text-muted hover:text-ink flex-shrink-0" title="Adjuntar archivo">
+        <label className="cursor-pointer border border-border-strong rounded-lg px-2 py-2 md:px-3 md:py-2.5 text-sm text-muted hover:bg-surface flex-shrink-0" title="Adjuntar archivo">
           📎
           <input type="file" className="hidden" onChange={(e) => handleFile(e, "FILE")} />
         </label>
         <button
           onClick={toggleRecording}
           title="Nota de voz"
-          className={`border rounded px-2 py-2 md:px-3 md:py-2.5 text-sm flex-shrink-0 ${recording ? "border-danger text-danger" : "border-line text-muted hover:text-ink"}`}
+          className={`border rounded-lg px-2 py-2 md:px-3 md:py-2.5 text-sm flex-shrink-0 ${recording ? "border-danger text-danger" : "border-border-strong text-muted hover:bg-surface"}`}
         >
           {recording ? "■" : "🎙"}
         </button>
@@ -321,9 +321,9 @@ export default function ChatClient() {
           onChange={(e) => handleTyping(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && handleSend()}
           placeholder="Escribe un mensaje…"
-          className="flex-1 min-w-0 border border-line rounded px-2.5 py-2 md:px-3 md:py-2.5 text-sm bg-canvas"
+          className="flex-1 min-w-0 border border-border rounded-lg px-2.5 py-2 md:px-3 md:py-2.5 text-sm bg-canvas focus:outline-none focus:ring-2 focus:ring-accent-light focus:border-accent"
         />
-        <button onClick={handleSend} className="bg-ink text-canvas rounded px-3 md:px-5 py-2 md:py-2.5 text-sm flex-shrink-0">
+        <button onClick={handleSend} className="bg-accent text-white rounded-lg px-3 md:px-5 py-2 md:py-2.5 text-sm flex-shrink-0">
           Enviar
         </button>
       </div>
