@@ -3,7 +3,9 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { useSession } from "next-auth/react";
 import Avatar from "./Avatar";
-import { MessageT } from "@/types";
+import { MessageT, UserLite } from "@/types";
+
+type PresenceEntry = { online: boolean; typing: boolean };
 
 function fmtTime(iso: string) {
   return new Date(iso).toLocaleString("ca-ES", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
@@ -62,10 +64,13 @@ export default function ChatClient() {
   const [recording, setRecording] = useState(false);
   const [uploading, setUploading] = useState(false);
   const [showEmojiPicker, setShowEmojiPicker] = useState(false);
+  const [users, setUsers] = useState<UserLite[]>([]);
+  const [presence, setPresence] = useState<Record<string, PresenceEntry>>({});
   const listRef = useRef<HTMLDivElement>(null);
   const lastTsRef = useRef<string | null>(null);
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const chunksRef = useRef<Blob[]>([]);
+  const lastTypingPingRef = useRef(0);
 
   const load = useCallback(async (poll: boolean) => {
     const url = poll && lastTsRef.current ? `/api/messages?after=${encodeURIComponent(lastTsRef.current)}` : "/api/messages";
@@ -84,12 +89,43 @@ export default function ChatClient() {
   }, [load]);
 
   useEffect(() => {
+    fetch("/api/users")
+      .then((r) => r.json())
+      .then(setUsers)
+      .catch(() => {});
+  }, []);
+
+  const loadPresence = useCallback(async () => {
+    const res = await fetch("/api/presence");
+    if (!res.ok) return;
+    const rows: Array<{ userId: string; online: boolean; typing: boolean }> = await res.json();
+    const map: Record<string, PresenceEntry> = {};
+    for (const r of rows) map[r.userId] = { online: r.online, typing: r.typing };
+    setPresence(map);
+  }, []);
+
+  useEffect(() => {
+    loadPresence();
+    const interval = setInterval(loadPresence, 3000);
+    return () => clearInterval(interval);
+  }, [loadPresence]);
+
+  useEffect(() => {
     listRef.current?.scrollTo({ top: listRef.current.scrollHeight, behavior: "smooth" });
   }, [messages.length]);
 
   async function sendMessage(payload: Partial<MessageT>) {
     await fetch("/api/messages", { method: "POST", body: JSON.stringify(payload) });
     load(true);
+  }
+
+  function handleTyping(value: string) {
+    setText(value);
+    const now = Date.now();
+    if (now - lastTypingPingRef.current > 3000) {
+      lastTypingPingRef.current = now;
+      fetch("/api/presence", { method: "POST", body: JSON.stringify({ typing: true }) }).catch(() => {});
+    }
   }
 
   async function handleSend() {
@@ -144,16 +180,20 @@ export default function ChatClient() {
 
   return (
     <div className="flex flex-col h-full min-h-0">
-      <div className="mb-4">
-        <h2 className="font-display text-2xl mb-0.5">Xat de l'equip</h2>
-        <p className="text-muted text-sm">Un sol canal compartit per tots cinc.</p>
+      <div className="mb-2 md:mb-4 flex items-center justify-between gap-3 flex-wrap">
+        <h2 className="font-display text-lg md:text-2xl">Xat de l'equip</h2>
+        <div className="flex items-center gap-1.5">
+          {users.map((u) => (
+            <Avatar key={u.id} user={u} size={18} online={!!presence[u.id]?.online} />
+          ))}
+        </div>
       </div>
 
-      <div ref={listRef} className="flex-1 overflow-y-auto bg-panel border border-line rounded-md p-5 space-y-4">
+      <div ref={listRef} className="flex-1 overflow-y-auto bg-panel border border-line rounded-md p-3 md:p-5 space-y-3 md:space-y-4">
         {messages.length === 0 && <p className="text-muted text-sm italic">Encara no hi ha missatges. Comença tu.</p>}
         {messages.map((m) => (
           <div key={m.id} className="flex gap-3">
-            <Avatar user={m.author} size={32} />
+            <Avatar user={m.author} size={32} online={!!presence[m.author.id]?.online} />
             <div className="min-w-0">
               <div className="flex items-baseline gap-2 mb-0.5">
                 <span className="text-[13px] font-medium" style={{ color: m.author.color }}>
@@ -188,7 +228,21 @@ export default function ChatClient() {
 
       {uploading && <p className="text-xs text-muted mt-2">Pujant fitxer…</p>}
 
-      <div className="flex items-center gap-2 mt-3 relative">
+      <div className="h-4 mt-1.5">
+        {(() => {
+          const typingNames = users
+            .filter((u) => u.id !== myId && presence[u.id]?.typing)
+            .map((u) => u.name);
+          if (typingNames.length === 0) return null;
+          const label =
+            typingNames.length === 1
+              ? `${typingNames[0]} està escrivint…`
+              : `${typingNames.join(", ")} estan escrivint…`;
+          return <p className="text-xs text-muted italic">{label}</p>;
+        })()}
+      </div>
+
+      <div className="flex items-center gap-1 md:gap-2 relative">
         {showEmojiPicker && (
           <EmojiPicker
             onPick={(emoji) => setText((t) => t + emoji)}
@@ -199,33 +253,33 @@ export default function ChatClient() {
           type="button"
           onClick={() => setShowEmojiPicker((v) => !v)}
           title="Emojis"
-          className="border border-line rounded px-3 py-2.5 text-sm text-muted hover:text-ink"
+          className="border border-line rounded px-2 py-2 md:px-3 md:py-2.5 text-sm text-muted hover:text-ink flex-shrink-0"
         >
           😀
         </button>
-        <label className="cursor-pointer border border-line rounded px-3 py-2.5 text-sm text-muted hover:text-ink" title="Adjuntar imatge">
+        <label className="cursor-pointer border border-line rounded px-2 py-2 md:px-3 md:py-2.5 text-sm text-muted hover:text-ink flex-shrink-0" title="Adjuntar imatge">
           🖼
           <input type="file" accept="image/*" className="hidden" onChange={(e) => handleFile(e, "IMAGE")} />
         </label>
-        <label className="cursor-pointer border border-line rounded px-3 py-2.5 text-sm text-muted hover:text-ink" title="Adjuntar arxiu">
+        <label className="cursor-pointer border border-line rounded px-2 py-2 md:px-3 md:py-2.5 text-sm text-muted hover:text-ink flex-shrink-0" title="Adjuntar arxiu">
           📎
           <input type="file" className="hidden" onChange={(e) => handleFile(e, "FILE")} />
         </label>
         <button
           onClick={toggleRecording}
           title="Nota de veu"
-          className={`border rounded px-3 py-2.5 text-sm ${recording ? "border-danger text-danger" : "border-line text-muted hover:text-ink"}`}
+          className={`border rounded px-2 py-2 md:px-3 md:py-2.5 text-sm flex-shrink-0 ${recording ? "border-danger text-danger" : "border-line text-muted hover:text-ink"}`}
         >
-          {recording ? "■ Aturar" : "🎙"}
+          {recording ? "■" : "🎙"}
         </button>
         <input
           value={text}
-          onChange={(e) => setText(e.target.value)}
+          onChange={(e) => handleTyping(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && handleSend()}
           placeholder="Escriu un missatge…"
-          className="flex-1 border border-line rounded px-3 py-2.5 text-sm bg-canvas"
+          className="flex-1 min-w-0 border border-line rounded px-2.5 py-2 md:px-3 md:py-2.5 text-sm bg-canvas"
         />
-        <button onClick={handleSend} className="bg-ink text-canvas rounded px-5 py-2.5 text-sm">
+        <button onClick={handleSend} className="bg-ink text-canvas rounded px-3 md:px-5 py-2 md:py-2.5 text-sm flex-shrink-0">
           Enviar
         </button>
       </div>

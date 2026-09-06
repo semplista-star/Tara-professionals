@@ -34,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="stylesheet"
         />
       </head>
-      <body className="bg-canvas text-ink font-sans min-h-screen">
+      <body className="bg-canvas text-ink font-sans">
         <Providers>{children}</Providers>
       </body>
     </html>

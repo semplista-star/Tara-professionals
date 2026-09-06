@@ -44,6 +44,14 @@ model User {
   kudosReceived Kudo[]    @relation("KudosReceived")
   meetingsCreated Meeting[] @relation("MeetingsCreated")
   meetings        Meeting[] @relation("MeetingParticipants")
+  presence        Presence?
+}
+
+model Presence {
+  user       User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId     String    @id
+  lastSeenAt DateTime  @default(now())
+  typingAt   DateTime?
 }
 
 model Kudo {
