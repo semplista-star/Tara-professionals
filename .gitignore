@@ -4,3 +4,7 @@ node_modules
 .env.local
 .vercel
 .env*
+.agents
+.claude/skills
+skills-lock.json
+*.tsbuildinfo
