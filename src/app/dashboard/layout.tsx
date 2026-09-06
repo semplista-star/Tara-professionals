@@ -2,6 +2,7 @@ import Sidebar from "@/components/Sidebar";
 import { MobileTopBar, MobileBottomNav } from "@/components/MobileNav";
 import NextMeetingBanner from "@/components/NextMeetingBanner";
 import PresenceHeartbeat from "@/components/PresenceHeartbeat";
+import FloatingAiChat from "@/components/FloatingAiChat";
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -16,6 +17,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
         </main>
         <MobileBottomNav />
       </div>
+      <FloatingAiChat />
     </div>
   );
 }
