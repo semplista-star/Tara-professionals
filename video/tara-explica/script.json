@@ -1,0 +1,157 @@
+{
+  "title": "TARA · Qué es TARA (vídeo explicativo, ~5 min)",
+  "note": "Cada escena tiene sus frases de narración. Cada frase es una línea de subtítulo. Los textos siguen la web aprobada (Documento único, 29-oct-2026): sin resultados demostrados, alumnado solo en actividades del centro, pilotaje 2027.",
+  "scenes": [
+    {
+      "id": "manana",
+      "es": [
+        "Son las ocho y cuarto de un martes cualquiera.",
+        "Laura es tutora de segundo de ESO.",
+        "Antes de entrar en clase, ya sabe que hoy no será un día fácil.",
+        "Ayer hubo un conflicto en el patio, y esta tarde se reúne con la familia de uno de sus alumnos.",
+        "Lo ha hecho otras veces. Aun así, no sabe muy bien cómo empezar."
+      ],
+      "ca": [
+        "Són dos quarts de nou d'un dimarts qualsevol.",
+        "La Laura és tutora de segon d'ESO.",
+        "Abans d'entrar a classe, ja sap que avui no serà un dia fàcil.",
+        "Ahir hi va haver un conflicte al pati, i aquesta tarda es reuneix amb la família d'un dels seus alumnes.",
+        "Ho ha fet altres vegades. Tot i així, no sap ben bé com començar."
+      ]
+    },
+    {
+      "id": "reto",
+      "es": [
+        "Como Laura, miles de docentes acompañan cada día la convivencia de sus grupos.",
+        "Tienen vocación, conocimiento y protocolos.",
+        "Lo que muchas veces falta es tiempo, estructura y apoyo.",
+        "Según el último informe de la Fundación ANAR y la Fundación Mutua Madrileña, el 84,6 % del profesorado señala la falta de recursos como una barrera para intervenir ante el acoso.",
+        "Casi la mitad señala la falta de formación.",
+        "Son cifras que describen un problema educativo. Y es ahí donde nace TARA."
+      ],
+      "ca": [
+        "Com la Laura, milers de docents acompanyen cada dia la convivència dels seus grups.",
+        "Tenen vocació, coneixement i protocols.",
+        "El que sovint falta és temps, estructura i suport.",
+        "Segons l'últim informe de la Fundació ANAR i la Fundació Mutua Madrileña, el 84,6 % del professorat assenyala la manca de recursos com una barrera per intervenir davant l'assetjament.",
+        "Gairebé la meitat assenyala la manca de formació.",
+        "Són xifres que descriuen un problema educatiu. I és aquí on neix TARA."
+      ]
+    },
+    {
+      "id": "que_es",
+      "es": [
+        "TARA es un ecosistema educativo para la convivencia y la cultura de paz.",
+        "Integra formación, estructuras de centro y un componente conversacional basado en inteligencia artificial.",
+        "No es una app más, ni un sistema paralelo.",
+        "Se integra en el plan de convivencia, la tutoría y la orientación que el centro ya tiene.",
+        "Y parte de una idea sencilla: la tecnología acompaña y facilita. Las personas valoran, deciden y actúan."
+      ],
+      "ca": [
+        "TARA és un ecosistema educatiu per a la convivència i la cultura de pau.",
+        "Integra formació, estructures de centre i un component conversacional basat en intel·ligència artificial.",
+        "No és una app més, ni un sistema paral·lel.",
+        "S'integra en el pla de convivència, la tutoria i l'orientació que el centre ja té.",
+        "I parteix d'una idea senzilla: la tecnologia acompanya i facilita. Les persones valoren, decideixen i actuen."
+      ]
+    },
+    {
+      "id": "demo",
+      "es": [
+        "Volvamos con Laura.",
+        "En el espacio del profesorado, escribe lo que le preocupa: mañana se reúne con una familia por un conflicto en el patio, y no sabe cómo empezar.",
+        "TARA no le da una receta.",
+        "Le propone separar lo que se ha observado de lo que se interpreta.",
+        "Le pregunta qué ocurrió exactamente, qué puede necesitar cada parte y cómo abrir la conversación con respeto.",
+        "La inteligencia artificial funciona como un andamio: ayuda a parar, a comprender y a preparar la acción.",
+        "La decisión sigue siendo de Laura."
+      ],
+      "ca": [
+        "Tornem amb la Laura.",
+        "A l'espai del professorat, escriu el que la preocupa: demà es reuneix amb una família per un conflicte al pati, i no sap com començar.",
+        "TARA no li dona una recepta.",
+        "Li proposa separar el que s'ha observat del que s'interpreta.",
+        "Li pregunta què va passar exactament, què pot necessitar cada part i com obrir la conversa amb respecte.",
+        "La intel·ligència artificial funciona com una bastida: ajuda a aturar-se, a comprendre i a preparar l'acció.",
+        "La decisió continua sent de la Laura."
+      ]
+    },
+    {
+      "id": "comunidad",
+      "es": [
+        "TARA está pensada para toda la comunidad educativa.",
+        "Para el profesorado, que prepara tutorías, gestiona conflictos en el aula o, simplemente, necesita una pausa antes de responder.",
+        "Y, si el centro lo decide, también para las familias.",
+        "Como Marta, que cada tarde discute con su hija por el móvil y quiere llegar a un acuerdo sin que todo acabe en gritos.",
+        "TARA no sustituye al tutor, al orientador ni a la familia. Les abre la puerta para que su acompañamiento llegue antes."
+      ],
+      "ca": [
+        "TARA està pensada per a tota la comunitat educativa.",
+        "Per al professorat, que prepara tutories, gestiona conflictes a l'aula o, simplement, necessita una pausa abans de respondre.",
+        "I, si el centre ho decideix, també per a les famílies.",
+        "Com la Marta, que cada tarda discuteix amb la seva filla pel mòbil i vol arribar a un acord sense que tot acabi en crits.",
+        "TARA no substitueix el tutor, l'orientador ni la família. Els obre la porta perquè el seu acompanyament arribi abans."
+      ]
+    },
+    {
+      "id": "niveles",
+      "es": [
+        "La implementación es progresiva: cinco niveles, siempre con preparación previa.",
+        "Empieza por los profesionales del centro. Después, si el centro lo decide, las familias.",
+        "Más adelante, actividades pedagógicas con el grupo-clase, siempre dirigidas por el docente.",
+        "Y a partir del curso 2027-28, en secundaria, el trabajo guiado en pequeños grupos y el uso individual supervisado, este solo desde los catorce años.",
+        "Ningún nivel se activa de forma automática."
+      ],
+      "ca": [
+        "La implementació és progressiva: cinc nivells, sempre amb preparació prèvia.",
+        "Comença pels professionals del centre. Després, si el centre ho decideix, les famílies.",
+        "Més endavant, activitats pedagògiques amb el grup-classe, sempre dirigides pel docent.",
+        "I a partir del curs 2027-28, a secundària, el treball guiat en petits grups i l'ús individual supervisat, aquest només a partir dels catorze anys.",
+        "Cap nivell no s'activa de manera automàtica."
+      ]
+    },
+    {
+      "id": "proteccion",
+      "es": [
+        "Porque en TARA, la protección forma parte del diseño educativo.",
+        "TARA no diagnostica, no evalúa a las personas y no decide sanciones.",
+        "Trabaja con lo que la persona expresa, y lo que propone lo plantea como una hipótesis que se puede confirmar o descartar.",
+        "Y reconoce cuándo una situación va más allá del uso educativo, para orientar hacia las personas responsables del centro y sus protocolos."
+      ],
+      "ca": [
+        "Perquè a TARA, la protecció forma part del disseny educatiu.",
+        "TARA no diagnostica, no avalua les persones i no decideix sancions.",
+        "Treballa amb el que la persona expressa, i el que proposa ho planteja com una hipòtesi que es pot confirmar o descartar.",
+        "I reconeix quan una situació va més enllà de l'ús educatiu, per orientar cap a les persones responsables del centre i els seus protocols."
+      ]
+    },
+    {
+      "id": "pilotaje",
+      "es": [
+        "En 2027 creamos la Red de Centros Colaboradores TARA: hasta veinte centros pioneros que explorarán, evaluarán y codiseñarán TARA con nosotros.",
+        "Con formación del equipo, materiales, acompañamiento durante la implementación y una evaluación de lo que funciona y de lo que no.",
+        "Detrás hay un equipo que une pedagogía, psicología, tecnología y estrategia."
+      ],
+      "ca": [
+        "El 2027 creem la Xarxa de Centres Col·laboradors TARA: fins a vint centres pioners que exploraran, avaluaran i codissenyaran TARA amb nosaltres.",
+        "Amb formació de l'equip, materials, acompanyament durant la implementació i una avaluació del que funciona i del que no.",
+        "Al darrere hi ha un equip que uneix pedagogia, psicologia, tecnologia i estratègia."
+      ]
+    },
+    {
+      "id": "cierre",
+      "es": [
+        "Son las seis de la tarde. Laura sale de la reunión.",
+        "No todo está resuelto, pero la conversación ha sido posible.",
+        "Eso es TARA: pedagogía e inteligencia artificial para aprender a convivir.",
+        "Si quieres que tu centro forme parte del pilotaje 2027, escríbenos en soytara.com."
+      ],
+      "ca": [
+        "Són les sis de la tarda. La Laura surt de la reunió.",
+        "No tot està resolt, però la conversa ha estat possible.",
+        "Això és TARA: pedagogia i intel·ligència artificial per aprendre a conviure.",
+        "Si vols que el teu centre formi part del pilotatge 2027, escriu-nos a soctara.com."
+      ]
+    }
+  ]
+}
