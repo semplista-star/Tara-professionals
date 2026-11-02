@@ -37,7 +37,9 @@ SR = 44100
 AGENTS = {"es": "agent_2301m20j5c1xe45s37k8drwrhzek", "ca": "agent_5301m231a21nert8r5bd2e20nadv"}
 # eleven_multilingual_v2 no incluye el catalán; eleven_v3 sí
 MODELS = {"es": os.environ.get("ELEVEN_MODEL_ES", "eleven_multilingual_v2"), "ca": os.environ.get("ELEVEN_MODEL_CA", "eleven_v3")}
-SETTINGS = {"stability": 0.55, "similarity_boost": 0.8, "style": 0.25, "use_speaker_boost": True, "speed": 0.95}
+# eleven_v3 no admite «speed»: el catalán se ralentiza después (sin cambiar el tono)
+TEMPO = {"es": 1.0, "ca": 0.87}
+SETTINGS = {"stability": 0.55, "similarity_boost": 0.8, "style": 0.25, "use_speaker_boost": True, "speed": 0.8}
 
 
 def key():
@@ -87,6 +89,14 @@ def trim(x, thr=0.01):
     return x[a:b]
 
 
+def stretch(a, f):
+    if abs(f - 1) < 1e-3:
+        return a
+    p = subprocess.run(["ffmpeg", "-loglevel", "error", "-f", "f32le", "-ar", str(SR), "-ac", "1", "-i", "pipe:0",
+                        "-af", f"atempo={f}", "-f", "f32le", "pipe:1"], input=a.astype("<f4").tobytes(), capture_output=True, check=True)
+    return np.frombuffer(p.stdout, "<f4").copy()
+
+
 def tts(text, lang, vid, prev, nxt):
     body = {"text": text, "model_id": MODELS[lang], "voice_settings": SETTINGS}
     if MODELS[lang] != "eleven_v3":
@@ -115,7 +125,7 @@ def build(lang):
                 a = tts(text, lang, vid, " ".join(flat[max(0, k - 2):k]), " ".join(flat[k + 1:k + 2]))
                 np.save(f, a)
                 print(f"  {k + 1}/{len(flat)} · {len(a) / SR:4.1f}s · {text[:60]}", flush=True)
-            cs.append(a)
+            cs.append(stretch(a, TEMPO[lang]))
             k += 1
         clips.append(cs)
 

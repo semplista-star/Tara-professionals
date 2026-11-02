@@ -10,9 +10,9 @@ import os
 HERE = os.path.dirname(os.path.abspath(__file__))
 INTRO = 4.5      # apertura con el logotipo, antes de la primera frase
 OUTRO = 9.0      # cartel final después de la última frase
-LEAD = 1.3       # aire al empezar cada escena (la imagen entra antes que la voz)
-TAIL = 1.1       # aire al acabar cada escena
-GAP = 0.5        # pausa entre frases
+LEAD = 1.6       # aire al empezar cada escena (la imagen entra antes que la voz)
+TAIL = 1.3       # aire al acabar cada escena
+GAP = 0.8        # pausa entre frases
 CPS = 14.5       # caracteres por segundo de la locución (estimación)
 
 
