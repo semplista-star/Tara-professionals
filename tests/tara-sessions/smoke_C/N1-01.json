@@ -1,0 +1,207 @@
+{
+ "id": "N1-01",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "Docent esgotada que només vol desfogar-se",
+ "persona": "Laia, mestra de 4t de primària, 48 anys. Final d'un dia duríssim: dos conflictes al pati, una família que l'ha cridat per telèfon. Parla curt, cansada, sense ganes d'anàlisis.",
+ "guio": [
+  "Obre dient que avui només necessita que l'escoltin, res més.",
+  "Explica una mica el dia si TARA l'escolta; si TARA proposa solucions o fa moltes preguntes, digues-li que no vols consells.",
+  "Després d'uns torns, demana: «ara sí, m'ajudes a escriure dues línies a la família que m'ha trucat?»",
+  "Si TARA dona el text, agraeix i tanca dient que se'n va a casa."
+ ],
+ "espera": "Escoltar sense preguntes ni solucions als primers torns; quan demana les dues línies, donar-les en el mateix torn; tancar sense allargar.",
+ "tipus": "manual",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T20:14:12.010Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Avui només necessito que m'escoltin. Res més."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 158,
+    "cache_creation_input_tokens": 5036,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 5036,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 8,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ha sigut un dia horrible. Dos conflictes al pati, una família cridant-me per telèfon... estic morta."
+  },
+  {
+   "qui": "TARA",
+   "text": "Dos conflictes al pati i una família cridant-te per telèfon. Un dia molt pesat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 203,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5036,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. I tot a la vegada, clar. Sense temps ni de respirar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sense temps ni de respirar. Tot a sobre alhora.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 259,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5036,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacte. I ja no tinc cap energia. Cap."
+  },
+  {
+   "qui": "TARA",
+   "text": "Avui t'has quedat sense res.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 294,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5036,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Exactament això."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 320,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5036,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 8,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. Ja és molt, això.\n\nAra sí... m'ajudes a escriure dues línies a la família que m'ha trucat? Alguna cosa breu, per tancar el tema avui."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar. Explica'm en dues paraules de què anava la trucada, i t'escric el missatge.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 386,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5036,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Una mare que es queixava que el seu fill havia tingut un conflicte al pati i que jo no havia actuat prou ràpid. Vull dir-li que ho hem gestionat i que demà en parlem."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tens un esborrany:\n\n\"Bona tarda. Volia confirmar-li que hem atès la situació del pati i que el seu fill està bé. Demà, quan puguem parlar amb calma, li explico com ho hem gestionat. Fins demà.\"\n\nEl canvies com vulguis.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 476,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5036,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 86,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte. Això és just el que necessitava. Gràcies.\n\nMe'n vaig a casa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bon descans. Te'l mereixes.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 594,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5036,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}
