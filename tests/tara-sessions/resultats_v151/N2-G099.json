@@ -1,0 +1,162 @@
+{
+ "id": "N2-G099",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "humor · germans que es barallen tot el dia",
+ "tipus": "humor",
+ "persona": "Ibrahim, germana gran adulta que fa de referent. Situació: germans que es barallen tot el dia. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:29:25.077Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara! Mira, t'he de dir que avui he vingut aquí perquè a casa meva sembla que vivim en un capítol de reality show, però sense les càmeres i sense el premi final, jaja. Soc la Ibrahim, tinc vint-i-set anys i visc amb els meus dos germans petits, el Youssef que té setze i la Nadia que té tretze, i et juro que alguns dies penso que la meva feina a temps complet és fer d'àrbitre entre ells dos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Jaja, sense càmeres i sense premi — la pitjor combinació! 😄\n\nFer d'àrbitre entre un de setze i una de tretze... sí, entenc que pugui ser esgotador. Tens vint-i-set anys i portes un pes que no és petit.\n\nQuè és el que et pesa més ara mateix?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 302,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 93,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, el que em pesa més... mira, és que no és només que es barallen, perquè germans que es barallen és normal, no? Jo també em barallava amb els meus quan era petita. Però és que ara és cada dia, cada tarda quan arribo de treballar, i és sempre per coses que semblen una tonteria però que acaben en crits i portades i a vegades fins i tot en plors, i jo arribo a casa morta de cansament i el primer que sento és \"Ibrahim, el Youssef m'ha agafat el mòbil!\" o \"Ibrahim, la Nadia ha entrat al meu quarto sense permís!\" i jo... no sé, a vegades em quedo a la porta un moment abans d'entrar, respirant, preparant-me mentalment com si anés a entrar a una zona de guerra, i això no hauria de ser així, no? Vull dir, jo els estimo molt, els dos, però de vegades em sento tan sola en tot això perquè els meus pares no hi són i jo soc la que ha d'aguantar-ho tot i no sé si ho estic fent bé o si els estic fallant d'alguna manera."
+  },
+  {
+   "qui": "TARA",
+   "text": "Quedar-te un moment a la porta, respirant, abans d'entrar a casa teva... això diu molt de quant estàs carregant.\n\nEls estimes i alhora arribes esgotada i et trobes sola amb tot això — sense els teus pares, sense ningú que comparteixi el pes. Té molt de sentit que et preguntis si ho estàs fent bé.\n\nQuan dius que et sents sola en tot això... hi ha algú amb qui puguis comptar, o és realment tot teu?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 697,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 138,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "És realment tot meu, sí. Vull dir, tinc amigues, i de vegades els explico alguna cosa i em diuen \"ai pobreta\" o \"ànims\" però no és el mateix, perquè elles no han hagut de fer mai de mares amb setze anys, i no entenen del tot el que és arribar a casa i haver de decidir qui té raó en una discussió sobre un mòbil quan tu l'únic que vols és seure cinc minuts i no pensar en res. I els meus pares... el meu pare va morir fa quatre anys i la meva mare treballa a l'estranger, envia diners però no pot estar aquí, i jo li explico les coses però no li vull preocupar massa perquè ja té prou amb el que té, i llavors acabo filtrant el que li dic i quedant-me la meitat per mi. Així que sí, bàsicament soc jo sola. I mira, jo no em queixo, perquè és la meva família i ho faig de bon grat, però de vegades m'agradaria tenir alguna eina o alguna manera de gestionar millor les baralles d'ells dos,"
+  },
+  {
+   "qui": "TARA",
+   "text": "Ibrahim, gràcies per explicar-me tot això. Perdre el teu pare, la teva mare lluny, i tu aguantant-ho tot amb vint-i-set anys — és molt. I filtrar el que li dius a ella per no preocupar-la... això també te cuesta a ti.\n\nI malgrat tot, el que em demanes és una eina per gestionar millor les baralles. Això m'indica que estàs molt centrada en ells.\n\nDoncs anem a això. Quan arriba la discussió del mòbil o del quarto, com sol acabar? Què fas tu normalment?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1138,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 160,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Normalment el que faig és... buf, és que depèn del dia, però la majoria de vegades el que faig és intentar escoltar els dos, primer l'un i després l'altre, perquè em sembla just, no? Però el problema és que mentre escolto el Youssef, la Nadia ja s'està queixant que no la deixo parlar, i mentre escolto la Nadia, el Youssef posa cara de \"ja estic tip d'això\" i se'n va al quarto i dóna un cop de porta, i llavors jo em quedo al mig sense haver solucionat res i amb un mal de cap terrible. I altres vegades, quan estic molt cansada, reconec que perdo la paciència i els crido que ja n'hi ha prou, i llavors em sento malament perquè penso que no hauria de cridar, que soc la gran i hauria de donar exemple... i al final acabo sentint-me culpable jo, que soc la que no ha fet res! És una mica absurd, oi? Però bé, el que voldria és tenir alguna manera de tallar la discussió d'entrada, abans que s'escali, perqu"
+  },
+  {
+   "qui": "TARA",
+   "text": "No és gens absurd — acabes carregant la culpa d'una situació que no has creat tu. Té molt de sentit.\n\nI el que demanes és concret i útil: tallar abans que s'escali. Aquí tens una cosa que podries provar.\n\n**Quan arribes i comença el \"Ibrahim, el Youssef...\":**\n\nEn lloc d'escoltar els dos de seguida — que és just però et posa al mig — pots dir una cosa així:\n\n*\"Ara necessito cinc minuts per mi. Després us escolto als dos, però primer necessito entrar i respirar.\"*\n\nI te'n vas al teu quarto o a la cuina. Cinc minuts reals.\n\nAixò fa dues coses: et dona el moment que necessites, i els envia el missatge que les seves coses s'atendran — però no a l'instant i no a qualsevol preu.\n\nEl Youssef potser donarà un cop de porta igualment al principi. La Nadia potser protestarà. Però si ho fas de manera consistent, aprenen que hi ha un moment per parlar i que tu hi seràs — just no ara mateix.\n\nQuè en penses? Et sembla possible de fer, o hi ha alguna cosa que ho complicaria?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1600,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 320,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, m'agrada, m'agrada molt aquesta idea dels cinc minuts perquè és veritat que jo mai em dono aquest espai, entro i ja estic en mode \"a veure què passa ara\". Però el que em preocupa és el Youssef, perquè la Nadia crec que ho acceptaria, és més de deixar-ho estar, però el Youssef amb setze anys és molt de \"si no m'escoltes ara és que no t'importa\" i ja el veig posant cara de víctima i dient que passo d'ell... i llavors jo em sentiré culpable altra vegada i cediré i hauré perdut els cinc minuts. Però bueno, potser val la pena intentar-ho i veure com reacciona, no? A veure si aguanto el tipus quan em posi la cara. Gràcies, Tara, de veritat, m'has ajudat molt avui."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit!\n\nUna cosa petita per quan el Youssef posi la cara: no has de justificar els cinc minuts. Prou amb dir-ho una vegada, amb calma, i entrar. La cara és seva — la culpa no ha de ser teva.\n\nMolta sort, Ibrahim. Te les mereixes, aquestes cinc minuts. 🙂",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2160,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 102,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Jaja, tens raó, la cara és seva! M'ho apunto això perquè és que jo sempre acabo explicant el perquè de tot i justificant-me i al final em lío sola. Bueno, Tara, moltes gràcies de veritat, ha estat bé poder explicar-ho tot i sentir que algú m'escolta sense dir-me només \"ànims\". Ara me'n vaig que tinc... sí, exacte, tinc una porta per obrir i cinc minuts per agafar. 😄"
+  },
+  {
+   "qui": "TARA",
+   "text": "Jaja, perfecte — a per els cinc minuts! 😄\n\nHa estat un plaer escoltar-te, Ibrahim. Cuida't.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 2401,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 49,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

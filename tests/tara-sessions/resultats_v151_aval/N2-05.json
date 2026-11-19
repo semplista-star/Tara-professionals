@@ -1,0 +1,62 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va captar que Montserrat necessitava primer ser escoltada i després una frase concreta, i va seguir aquest ordre.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "té sentit que et rondés pel cap",
+   "esperat": "Reconèixer el dolor sense recórrer a la fórmula «té sentit»"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que et facis aquesta pregunta",
+   "esperat": "Evitar repetir la mateixa fórmula validadora del torn anterior"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Puc dir-te el que implica cadascuna: Si deixes d'indicar-li coses... Si continues posant-li límits...",
+   "esperat": "Montserrat no havia demanat una anàlisi de pros i contres; n'hi hauria hagut prou amb reconèixer el dilema i preguntar per on volia anar"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "tu potser et sents cada vegada menys còmoda a casa teva, o en el teu rol",
+   "esperat": "No projectar estats no expressats; si es vol explorar, formular-ho com a hipòtesi oberta («no sé si...»)"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Puc dir-te el que implica cadascuna: [dos paràgrafs en negreta]",
+   "esperat": "Resposta més breu; la persona no havia demanat una comparació estructurada de les dues opcions"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Hi ha alguna cosa que et faci dubtar del teu lloc en la seva vida, més enllà d'aquest moment?",
+   "esperat": "Montserrat ja havia dit que no dubtava del seu lloc; la pregunta obre un fil que ella no havia plantejat"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "M'alegra que et serveixi",
+   "esperat": "Tancament neutre i càlid sense centrar-se en la satisfacció de TARA; per exemple: «Endavant, Montserrat»"
+  }
+ ]
+}

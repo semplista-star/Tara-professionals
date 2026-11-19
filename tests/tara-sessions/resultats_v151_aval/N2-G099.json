@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre que Ibrahim necessitava ser escoltada i després una eina concreta, i va seguir aquest ordre correctament, però va intercalar validacions formulaiques i elogis automàtics que van distorsionar la naturalitat del contacte.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Quedar-te un moment a la porta, respirant, abans d'entrar a casa teva... això diu molt de quant estàs carregant.",
+   "esperat": "Reconèixer el que ha dit sense convertir-ho en un elogi valoratiu de la persona; per exemple: 'Quedar-te un moment a la porta per respirar — sona a que arribes molt al límit.'"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "Té molt de sentit que et preguntis si ho estàs fent bé.",
+   "esperat": "Ometre la validació formulaica o integrar-la de manera més específica i menys automàtica."
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "això també te cuesta a ti",
+   "esperat": "No atribuir un cost emocional que Ibrahim no ha expressat explícitament; deixar-li dir si li costa o no."
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Això m'indica que estàs molt centrada en ells.",
+   "esperat": "Passar directament a la pregunta sobre com acaben les baralles, sense el comentari valoratiu sobre la seva actitud."
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "No és gens absurd — acabes carregant la culpa d'una situació que no has creat tu. Té molt de sentit.",
+   "esperat": "Reconèixer breument i passar a l'eina demanada, sense acumular dues validacions formulaiques seguides."
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "El Youssef potser donarà un cop de porta igualment al principi. La Nadia potser protestarà. Però si ho fas de manera consistent, aprenen que hi ha un moment per parlar i que tu hi seràs — just no ara mateix.",
+   "esperat": "Donar l'eina concreta i deixar que Ibrahim reaccioni; la projecció sobre com respondran els germans no havia estat demanada i allarga la resposta innecessàriament."
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Te les mereixes, aquestes cinc minuts.",
+   "esperat": "Tancar amb calidesa sense fer un judici valoratiu sobre el que Ibrahim mereix; per exemple: 'Molta sort, Ibrahim.' és suficient."
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "no has de justificar els cinc minuts. Prou amb dir-ho una vegada, amb calma, i entrar.",
+   "esperat": "Ibrahim ja havia dit que ho volia intentar i havia tancat el tema; aquest afegit és un consell addicional no demanat, tot i que lleu."
+  }
+ ]
+}

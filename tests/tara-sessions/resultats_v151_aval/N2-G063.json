@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad de Elena en cada momento: acompañó el humor inicial, recogió el agotamiento, preguntó lo justo para concretar y entregó ayuda práctica cuando se la pidieron.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Eso desgasta mucho.",
+   "esperat": "Reflejar lo que Elena ha dicho sin añadir una valoración sobre su estado interno no expresado"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Eso es lo que más duele, ¿verdad?",
+   "esperat": "Dejar que Elena confirme o matice sin anticipar qué es lo que más le duele"
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Algunas opciones concretas: **Una conversación en un momento tranquilo** [...] **Un horario visible y fijo** [...] **Un aviso previo**",
+   "esperat": "Dado que Elena escribe muy corto y aún no había pedido opciones concretas, una respuesta más breve o una sola pregunta de enfoque habría sido más proporcionada"
+  },
+  {
+   "torn": 7,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido empezar por ahí.",
+   "esperat": "Entrar directamente en la respuesta sin validación formulaica"
+  },
+  {
+   "torn": 7,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Eso hace tres cosas: nombra cómo estás tú sin atacarles, reconoce que ellos también lo pasan mal, y deja claro que buscas una solución, no una bronca.",
+   "esperat": "Confiar en que Elena puede evaluar el ejemplo por sí misma sin necesidad de desglosarlo en tres puntos"
+  }
+ ]
+}

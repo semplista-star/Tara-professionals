@@ -1,0 +1,163 @@
+{
+ "id": "N2-G128",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "desfogar-demanda · els diners i la paga",
+ "tipus": "desfogar-demanda",
+ "persona": "Ana, padre. Situació: els diners i la paga. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:30:30.166Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues mira, hoy solo quiero que alguien me escuche, sin consejos ni nada de eso. ¿Puedes hacer eso?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Aquí estoy, escuchándote.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 204,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es que estoy harta de discutir siempre con mi hijo por lo mismo. La paga. Que si es poco, que si sus amigos tienen más, que si necesita más para esto y para lo otro... Y yo haciendo malabares para llegar a fin de mes, ¿sabes? Me siento fatal porque me gustaría darle más, pero no puedo, y encima me siento culpable. Es agotador."
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué agotador, sí. Haciendo malabares para llegar a fin de mes y encima sintiéndote culpable por no poder darle más. Las dos cosas a la vez pesan mucho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 329,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 56,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto. Y lo peor es que él no lo entiende, claro, tiene 13 años... pero a veces me saca de quicio. Ayer me dijo que era la única madre del mundo que no le daba suficiente dinero. ¡La única del mundo! Me quedé sin palabras."
+  },
+  {
+   "qui": "TARA",
+   "text": "«La única del mundo»... con 13 años saben dónde apuntar, ¿verdad? Quedarte sin palabras tiene todo el sentido.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 467,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 42,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, justo. Me dejó bloqueada. Y luego me fui a la cama pensando que igual tenía razón, que soy mala madre... que tendría que buscarme la vida de otra manera para darle más. Y eso es lo que no quiero, ¿sabes? Ese bucle mental de por la noche."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ese bucle de noche es muy duro. Irse a la cama con eso dando vueltas, cuestionándote...\n\nTe escucho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 596,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 42,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... gracias. La verdad es que solo con contarlo ya me siento un poco mejor. Oye, y ya que estás, ¿me podrías ayudar con una cosa concreta? Necesito saber cómo decirle a mi hijo, en una frase o dos, que la paga no va a cambiar sin que acabe en bronca."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que contarlo haya ayudado un poco.\n\nPara decirle que la paga no cambia, podrías probar algo así:\n\n*«La paga se queda como está, no porque no quiera darte más, sino porque no puedo. Eso no cambia, pero si tienes algo concreto que necesitas, cuéntamelo y lo miramos juntos.»*\n\nDeja claro el límite, sin culpa y sin cerrar la puerta del todo.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 121,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso está bien. Es directo pero no es un portazo. Me lo apunto. Gracias, de verdad, me ha venido bien hablar hoy."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Que descanses esta noche.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 897,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

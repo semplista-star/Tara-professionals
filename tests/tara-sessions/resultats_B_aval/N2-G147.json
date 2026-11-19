@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat final (frases concretes), però va trigar dos torns a arribar-hi perquè va oferir primer consells no demanats i després va repetir el missatge de 'ser ferma' quan la persona ja havia dit que no li calia.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Una cosa que podria ajudar és tenir una norma clara i acordada abans que arribi l'hora",
+   "esperat": "La persona no havia demanat cap consell encara; TARA hauria pogut preguntar primer què necessitava o simplement escoltar més abans de proposar res"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "tens suport dels seus pares per posar aquest límit, o estàs portant-ho sola?",
+   "esperat": "La persona ja havia dit prou per entendre la situació; la pregunta sobre els pares no era necessària per ajudar-la"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "El que em dius, que et quedes malament quan pateix — això és normal en qui estima. Però aguantar la seva queixa uns minuts és diferent de fer-li mal.",
+   "esperat": "La persona havia demanat com dir les paraules per evitar el drama, no una validació del seu sentiment de culpa ni una explicació sobre la diferència entre queixa i mal"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Que es queixi o plori no vol dir que ho estiguis fent malament. Vol dir que li importa, i que tu estàs posant un límit real.",
+   "esperat": "TARA atribueix un significat intern al comportament del nét ('vol dir que li importa') sense base en el que la persona ha dit; hauria d'haver-se limitat a la conducta observable"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "El que demanes té sentit",
+   "esperat": "Fórmula de validació automàtica que no afegeix res; millor suprimir-la o integrar-la de manera més específica"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "El que sí pot ajudar és dir-ho curt i tranquil, sense entrar en discussió [...] aguantar la seva queixa uns minuts és diferent de fer-li mal.",
+   "esperat": "La persona havia demanat les paraules exactes; TARA torna a explicar el principi de 'ser ferma' que la persona ja havia dit que sabia, allargant innecessàriament la resposta"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Te les saps.",
+   "esperat": "Judici valoratiu sobre la persona no demanat; TARA hauria d'evitar avaluar les capacitats de l'Ana"
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "id": "N2-G067",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "nomes-desfogar · germans que es barallen tot el dia",
+ "tipus": "nomes-desfogar",
+ "persona": "Dolors, padre separado con custodia de fines de semana alternos. Situació: germans que es barallen tot el dia. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:27:00.869Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, hoy no necesito que me ayudes a preparar nada ni a solucionar nada. Solo necesito desahogarme un poco, ¿vale? Es que vengo de un fin de semana que ha sido un infierno y necesito contárselo a alguien."
+  },
+  {
+   "qui": "TARA",
+   "text": "Vale. Aquí estoy, escuchando.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 238,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues mira, es que mis hijos... el mayor tiene 12 años y la pequeña tiene 9, y no paran de pelearse. Todo el fin de semana. Todo. Desde el viernes por la noche que los recogí hasta hoy que los he llevado de vuelta con su madre. Y no es que se peleen por cosas importantes, no. Es por el mando de la tele, es porque uno ha mirado al otro, es porque uno ha respirado más fuerte que el otro... literalmente cualquier cosa es motivo. Y yo que solo los tengo los fines de semana alternos, que ya de por sí me sabe fatal tenerlos tan poco tiempo, pues encima me paso esos dos días de árbitro. Que no disfruto nada, vamos. Que llego el lunes al trabajo hecho polvo, más cansado que si hubiera trabajado."
+  },
+  {
+   "qui": "TARA",
+   "text": "Un fin de semana entero de árbitro, con el tiempo que ya de por sí sientes que es poco... eso agota de una manera especial.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 470,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacto, eso es exactamente. Porque claro, tú cuando los ves poco, pues quieres que sea bonito, ¿sabes? Quieres hacer cosas con ellos, quieres que haya buen rollo, quieres que cuando se vayan piensen \"qué bien lo hemos pasado con papá\". Y en cambio lo que pasa es que el sábado por la mañana ya estaba yo con un dolor de cabeza tremendo porque llevaban desde las ocho gritándose por quién usaba el baño primero. El baño. Que hay uno solo en mi piso, sí, pero es que tampoco es para tanto. Y luego por la tarde intentamos ir al parque y allí también, que si él me ha empujado, que si ella me ha quitado el sitio en el columpio... con 12 años en el columpio, fíjate. Y yo intentando respirar y no explotar. Que a veces lo consigo y a veces no, te lo digo sinceramente."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te lo agradezco, esa sinceridad. Querías que fuera bonito y se convirtió en aguantar desde las ocho de la mañana. Eso duele.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 766,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 49,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, duele, sí. Y luego te sientes mal por sentirte así, ¿sabes? Porque dices, son mis hijos, los quiero con locura, pero es que hay momentos en que piensas \"dios mío, que se acabe ya el fin de semana\" y luego te odias por haberlo pensado. Que es una contradicción enorme. Porque al mismo tiempo cuando los dejo el domingo por la noche me entra una tristeza... buf. Que el piso se queda en silencio y piensas en que hasta dentro de dos semanas no los ves. Y entonces te arrepientes de haber pensado que querías que se acabara. Es agotador emocionalmente, no solo físicamente. Que el cuerpo aguanta, pero la cabeza... la cabeza es la que más sufre, creo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Esa contradicción que describes —querer que se acabe y luego echar de menos el silencio que tanto pedías— no dice nada malo de ti. Dice que estás muy cargado.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1028,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 52,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... sí, tienes razón. Oye, pues mira, ya me encuentro mejor, ¿sabes? A veces solo necesitas contárselo a alguien y ya. Que no hace falta solución ni nada, solo soltar un poco. Así que gracias, de verdad, y me voy que tengo cosas que hacer."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que hayas podido soltarlo un poco. Cuídate. Hasta cuando quieras.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1172,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 39,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

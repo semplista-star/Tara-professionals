@@ -1,0 +1,141 @@
+{
+ "id": "N1-G136",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "correccio · conflictes constants al pati entre dos grups",
+ "tipus": "correccio",
+ "persona": "Luis, mestra de música. Situació: conflictes constants al pati entre dos grups. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:20:30.654Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara, sí, mira, t'explico perquè tinc el cap una mica explotat amb tot plegat. Soc en Luis, soc mestre de música a l'escola, i fa unes setmanes que estic veient una cosa al pati que em preocupa bastant. Hi ha dos grups de nens, de cinquè, que no es poden ni veure. Vull dir, literalment cada vegada que coincideixen en un espai hi ha tensió, hi ha empentes, hi ha crits... ahir mateix va haver-hi un incident bastant gros prop de les porteries, que va acabar amb un nen plorant i dos mestres més hagut d'intervenir. I jo hi era, i vaig intentar calmar la situació però és que no sé, sento que cada vegada que ho apaguem en un lloc s'encén en un altre. És com un foc, saps? I el pitjor és que alguns d'aquests nens els tinc a música i a classe estan bé, es porten bé, però en el moment que surten al pati i es troben amb l'altre grup... és com si s'activés alguna cosa. No sé ben bé d'on ve tot"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens el cap explotat, i s'entén: portes setmanes veient com s'encén i s'apaga sense que res acabi de resoldre's.\n\nAllò que dius dels nens a música m'sembla important: a classe estan bé. Això vol dir que no és un problema \"d'aquests nens\" — és alguna cosa que passa en aquell context concret del pati, entre els dos grups.\n\nAbans d'intentar apagar el foc una altra vegada, potser val la pena entendre una mica millor d'on ve. Tens alguna hipòtesi de quan va començar tot plegat, o ha anat creixent tan a poc a poc que és difícil de situar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 442,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 182,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacte, és difícil de situar perquè no hi va haver un moment concret tipus \"ah, aquí va passar alguna cosa i des d'aleshores malament\". Va ser més gradual. Però si ho penso bé, crec que va coincidir més o menys amb el canvi de grups que es va fer a principi de curs. Saps que a quart havien estat tots junts en dues classes bastant barrejades, i enguany a cinquè van recompondre els grups i van quedar dues classes amb dinàmiques molt diferents. I clar, hi ha nens que eren amics i ara estan separats, i n'hi ha d'altres que potser no s'havien de trobar tant i ara coincideixen més. I al pati és l'únic moment del dia que tots es barregen lliurement, sense estructura, sense un adult que marqui el ritme. I crec que és per això que explota allà i no a classe, perquè a classe hi ha una activitat, hi ha un rol clar per a tothom... però al pati cadascú va a la seva i els grups es tanquen i es posen en mode... no sé com dir-ho, en mode territori,"
+  },
+  {
+   "qui": "TARA",
+   "text": "«Mode territori» — és una bona descripció del que estàs veient.\n\nEl que expliques té molta coherència: el canvi de grups va trencar aliances i va crear friccions noves, i el pati és l'únic espai sense estructura on tot això aflora. No és un misteri, és una dinàmica bastant reconeixible.\n\nAra, una pregunta que crec que canviaria molt com enfocar-ho: saps si l'equip docent o la direcció ja té una lectura compartida d'això, o cadascú ho està gestionant per la seva banda quan li toca?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 927,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 153,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, aquesta és la pregunta del milió. Mira, hi ha hagut alguna conversa a la sala de professors, sí, però molt de passada, del tipus \"ostres, avui han tornat a barallar-se\" i ja. No hi ha hagut cap reunió específica per parlar-ne, cap moment on ens hàgim assegut a dir \"bé, com ho enfoquem això\". Cadascú ho apaga quan li toca i prou. La directora ho sap, evidentment, perquè alguns incidents han arribat fins a ella, però tampoc he vist que hagi impulsat res concret. I jo, sincerament, no sé si és el meu lloc fer-ho, perquè soc el mestre de música, no soc tutor de cap dels dos grups. Els tutors són la Marta i en Jordi, que són bona gent, però estan molt enfeinats i crec que ho viuen més com una cosa de \"ja passarà\" que no pas com un problema que cal abordar activament. I a mi em sap greu perquè veig que no passa, que no passa sol. Però clar, no vull trepitjar ningú ni ficar-me on no"
+  },
+  {
+   "qui": "TARA",
+   "text": "Estàs veient alguna cosa que els altres potser no estan prioritzant, i no saps si tens lloc per dir-ho. Això és incòmode.\n\nPerò el fet que siguis mestre de música i no tutor no et treu legitimitat — et dona una perspectiva diferent, precisament perquè els veus en un context distint i sense la pressió del dia a dia de l'aula.\n\nLa pregunta pràctica és: com ho portes a una conversa real sense que sembli que estàs jutjant la Marta i en Jordi, o saltant-te la directora?\n\nUna opció seria parlar primer amb un dels tutors, de manera informal, no per proposar res senseó per compartir el que estàs observant i preguntar com ho viuen ells. Sense agenda, sense solució preparada. Sovint això obre una porta que una reunió formal tancaria.\n\nUna altra opció seria anar directament a la directora, no per queixar-te senseó per proposar que es faci un espai conjunt — i oferir-te a participar-hi, no a liderar-ho.\n\nQuina de les dues et sembla més natural per a tu, o hi ha alguna altra via que estàs considerant?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1383,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 309,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. No he dit que no sàpiga com parlar amb la Marta o en Jordi sense jutjar-los. Vull dir, tinc una relació decent amb tots dos, no és que em faci por la conversa en si. El que m'estava demanant és una cosa més concreta, més de... no sé, d'eines. De què faig jo quan soc al pati i veig que s'està encenent la cosa. Perquè una cosa és la reunió, que sí, que potser cal, però mentrestant cada dia hi ha pati i cada dia pot passar alguna cosa. Necessito saber com actuo jo en aquell moment, en calent, quan veig els dos grups que s'estan posant en mode territori. Això és el que no sé com gestionar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, m'he avançat. Anem a allò que necessites.\n\nQuan veus que s'està encenent, abans que exploti, hi ha tres moviments que solen funcionar:\n\n**Interrompre el patró físic.** No esperar que arribi l'incident. Apropar-te al grup, posar-te físicament a l'espai entre ells, saludar, preguntar alguna cosa banal. La teva presència sola canvia la dinàmica sense que calgui dir res de l'escalada.\n\n**No nomenar el conflicte en aquell moment.** \"Ei, que us esteu posant nerviosos\" sovint accelera les coses. Millor redirigir l'atenció cap a una altra cosa: una pregunta, un encàrrec, qualsevol cosa que trenqui el focus.\n\n**Si ja ha esclatat: separar abans de parlar.** Primer distància física entre els grups, sense pressa i sense dramatisme. Després, quan els cossos s'hagin calmat una mica, és quan té sentit parlar. En calent no s'arriba a res.\n\nUna cosa que potser ja fas: hi ha algun nen o nena de cada grup que funcioni com a punt de calma, algú que els altres escolten? Si el localitzes, tenir-lo a prop en moments de tensió pot ajudar molt.\n\nAlguna d'aquestes coses ja la fas, o hi ha alguna situació concreta on no saps com moure't?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1897,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 381,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, el de posar-me físicament enmig ja ho faig, és quasi instintiu. I el de no nomenar el conflicte en calent també, perquè he après per les males que dir \"ei, us esteu posant nerviosos\" és tirar gasolina. Però el que m'has dit del nen o nena que funciona com a punt de calma... això m'ha fet pensar. Perquè sí, hi ha una nena, la Júlia, que és del grup A diguem-ne, i quan ella és present les coses solen anar diferent. Però clar, no puc dependre de si la Júlia és al pati o no aquell dia. I a més no vull posar-li a ella la responsabilitat de gestionar el grup, que ja té prou amb ser una nena de deu anys. Però sí que m'ha fet pensar. Mira, crec que amb això ja tinc algunes coses per rumiar. Gràcies, Tara, de veritat, que a vegades necessites explicar-ho en veu alta per veure-ho una mica més clar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó amb la Júlia — veure-ho i no carregar-li-ho a ella és exactament el criteri correcte.\n\nM'alegra que hagi servit per ordenar una mica el cap. Ja saps on soc si vols preparar aquella conversa amb la Marta o en Jordi, o qualsevol altra cosa.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2564,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 90,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

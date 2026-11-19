@@ -1,0 +1,184 @@
+{
+ "id": "N2-G184",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "desfogar-demanda · discussions cada nit per les pantalles",
+ "tipus": "desfogar-demanda",
+ "persona": "Elena, padrastro. Situació: discussions cada nit per les pantalles. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:33:46.415Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Hoy solo necesito que me escuchen, si no le importa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estoy. Cuéntame.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 186,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. Es sobre las pantallas. Cada noche es lo mismo: mi hijastra no quiere apagar el móvil, yo le digo que ya es hora, ella se enfada, y acabamos los dos mal. Llevo semanas así y estoy agotada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Semanas de lo mismo cada noche, y acabas agotada. Te escucho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 270,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactamente. Y lo que más me pesa es que no sé si lo estoy haciendo bien. Me pregunto si soy demasiado estricta, o si al contrario soy demasiado blanda. Es una sensación muy incómoda."
+  },
+  {
+   "qui": "TARA",
+   "text": "Esa incertidumbre sobre si estás haciendo lo correcto, encima del agotamiento de cada noche... es mucho peso.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 362,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 37,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, es mucho. Y gracias por decirlo así, porque a veces siento que nadie lo ve. Mi pareja intenta ayudar, pero no siempre estamos de acuerdo en cómo manejarlo, y eso complica más las cosas."
+  },
+  {
+   "qui": "TARA",
+   "text": "Que encima no tengáis siempre la misma línea lo hace más difícil todavía. Cargando con la duda, el cansancio, y sin sentirte del todo acompañada en esto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 469,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 58,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacto. Eso es. Bueno... creo que ya me ha ayudado solo el contarlo. Ahora sí me gustaría pedirle algo concreto, si puede ser. ¿Me podría dar solo un primer paso, algo pequeño, para esta noche?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Esta noche, antes de que llegue el momento del móvil, dile en un momento tranquilo: *\"Esta noche voy a avisarte diez minutos antes de que toque apagar. Solo para que puedas ir terminando.\"*\n\nSin negociar nada más. Solo ese aviso previo.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 599,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 82,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Eso me parece razonable. Es sencillo y no requiere una gran conversación. Lo voy a intentar esta noche. Muchas gracias, de verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Suerte esta noche.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. Ha sido una buena conversación. Hasta otra."
+  },
+  {
+   "qui": "TARA",
+   "text": "Hasta otra. Cuídate.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 22,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

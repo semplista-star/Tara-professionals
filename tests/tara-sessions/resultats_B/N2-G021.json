@@ -1,0 +1,184 @@
+{
+ "id": "N2-G021",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "desfogar-demanda · les xarxes socials i el que hi publica",
+ "tipus": "desfogar-demanda",
+ "persona": "Aina, abuela que cuida a los nietos. Situació: les xarxes socials i el que hi publica. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:39:55.749Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Hoy solo necesito que me escuchen, si no le importa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estoy. Cuéntame.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 186,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. Es sobre mi nieta mayor. Tiene catorce años y publica cosas en las redes sociales que me preocupan. Fotos suyas, comentarios de personas que no conozco... y cuando le digo algo, me dice que no entiendo nada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te preocupa lo que ves, y cuando intentas decírselo, sientes que se cierra. Eso es duro.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 271,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 35,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactamente. Me siento un poco sola con esto. Sus padres trabajan mucho y yo soy quien está con ella por las tardes. Y no sé cómo hablarle sin que se enfade."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cargas con esa preocupación casi sola, y encima sin saber cómo acercarte sin que se aleje más. Te escucho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 362,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 41,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Y lo que más me pesa es que yo la quiero proteger, pero ella lo vive como si yo fuera su enemiga. No es eso. Solo quiero que esté bien."
+  },
+  {
+   "qui": "TARA",
+   "text": "Quieres protegerla, y ella lo recibe como una amenaza. Eso duele, cuando el amor llega al revés.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 453,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 36,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacto. Eso es justo lo que siento. Que mi amor no le llega bien. \n\nBueno... ahora que me ha escuchado... ¿me podría ayudar con una cosa concreta? Solo una cosa pequeña, para empezar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Dime qué necesitas.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 558,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "¿Cómo podría empezar una conversación con ella sin que se ponga a la defensiva? Solo las primeras palabras, algo sencillo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Podrías empezar por algo que no suene a crítica ni a problema. Por ejemplo: \"Oye, ¿me cuentas un poco cómo va eso de las redes? Yo no entiendo mucho y me gustaría entenderte mejor.\"\n\nAsí le dices que quieres acercarte, no corregirla.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 615,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 88,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Eso me gusta. Es sencillo y no suena a regañina. Lo voy a intentar. Muchas gracias, de verdad. Me ha ayudado mucho poder contarlo y tener ese primer paso."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Suerte con esa conversación.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 760,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

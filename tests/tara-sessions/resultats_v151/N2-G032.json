@@ -1,0 +1,184 @@
+{
+ "id": "N2-G032",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "desfogar-demanda · un adolescent que ja no explica res",
+ "tipus": "desfogar-demanda",
+ "persona": "Luis, tutora legal. Situació: un adolescent que ja no explica res. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:25:25.895Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, avui no vull preparar res ni que em donin consells. Només vull que m'escoltin una estona, si pot ser."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'escolto. Explica'm el que vulguis.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 204,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs mira, és el meu fill, en Marc, té 15 anys. Abans m'explicava tot, fins i tot coses que jo no volia saber, ja saps com són... i ara res. Zero. Arriba a casa, va directe a l'habitació, i si li pregunto alguna cosa em respon amb monosíl·labs. \"Bé.\" \"Res.\" \"No sé.\" Sembla que li he fet alguna cosa terrible però no sé el què. I el pitjor és que ni sé si preocupar-me o si és simplement que ara soc el pare més avorrit del món. Probablement les dues coses."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquell fill que t'explicava fins i tot el que no volies saber... i ara monosíl·labs. Deu ser estrany, trobar-lo tan lluny sense saber ben bé per què.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 389,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 56,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacte. Estrany és la paraula. Perquè no ha passat res concret, cap baralla grossa, cap incident... simplement un dia era el meu fill xerraire i l'endemà era un adolescent misteriós de sèrie de Netflix. I jo aquí, intentant no semblar desesperada mentre li pregunto si vol berenar com si fos la cosa més casual del món."
+  },
+  {
+   "qui": "TARA",
+   "text": "«Si vols berenar» com a missatge secret de «estic aquí i t'estimo». Té molt de sentit.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 550,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 34,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exactament! El berenar és el meu llenguatge de l'amor, clarament. Hauria de posar-ho al perfil. \"Luis, 43 anys, comunica afecte mitjançant entrepans.\" Però sí, en el fons és això. Que segueixo aquí, que no m'he mogut, que quan vulgui parlar jo seré al sofà amb cara de no-passa-res."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ets al sofà amb cara de no-passa-res, i ell ho sap. Potser no ho diu, però ho sap.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 691,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... espero que sí. A vegades m'ho dic per convèncer-me, ja saps. Però bé, m'ha anat bé explicar-ho. Oye, ja que hi som... hi ha una cosa concreta que em ronda pel cap. Tens alguna idea de com podria obrir una mica la porta sense que sembli que li estic fent una entrevista de feina?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí. Algunes coses que solen funcionar amb adolescents: fer alguna cosa junts sense que la conversa sigui l'objectiu —una sèrie, cuinar, un trajecte en cotxe— on parlar sigui possible però no obligatori. El cotxe és especialment bo perquè no us mireu als ulls i això ho fa tot menys intens.\n\nUna altra: comentar alguna cosa teva, sense preguntar-li res. \"Avui m'ha passat una cosa curiosa al feina.\" Deixar-ho anar i veure si pica.\n\nI la tercera: si un dia nota que estàs bé i relaxat —no a l'aguait— és més fàcil que s'acosti ell sol.\n\nJa fas la del berenar, que no és poca cosa.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 833,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 204,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "El cotxe! Això té molt de sentit, i a més ja tenim excusa perquè l'he de portar a futbol els dimecres. Ho provaré. Gràcies, de veritat, m'ha anat bé parlar. I saber que el berenar compta, és clar."
+  },
+  {
+   "qui": "TARA",
+   "text": "El berenar sempre compta. Bona sort el dimecres.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1117,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 19,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies! Ja t'explicaré si funciona... o si torno aquí derrotat amb un entrepà a la mà. Fins aviat!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Fins aviat, Luis. Sigui com sigui el dimecres, l'entrepà sempre serà una bona idea.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1180,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 44,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

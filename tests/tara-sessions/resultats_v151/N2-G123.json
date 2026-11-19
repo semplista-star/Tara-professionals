@@ -1,0 +1,119 @@
+{
+ "id": "N2-G123",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "mixta · les xarxes socials i el que hi publica",
+ "tipus": "mixta",
+ "persona": "Mercè, padrastro. Situació: les xarxes socials i el que hi publica. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:30:14.484Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, perdona que moleste... es que estoy un poco agobiado con una cosa de mi hijastra Mercè. Lleva unos días publicando cosas en redes que me preocupan bastante, fotos y comentarios que no me parecen apropiados para su edad, y no sé cómo decírselo sin que se enfade conmigo o piense que me estoy metiendo donde no me llaman. ¿Me podrías ayudar a encontrar las palabras para hablar con ella?"
+  },
+  {
+   "qui": "TARA",
+   "text": "No molestas, para eso estoy.\n\nEntiendo la preocupación — quieres hablar con ella pero sin que lo viva como una intromisión o un ataque.\n\nAntes de ofrecerte unas palabras, una sola pregunta que me ayudaría: ¿tienes una relación de confianza con Mercè, o está en un momento en que cualquier cosa que le digas tú tiende a cerrarse?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 291,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 112,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, pues... más o menos, ¿sabes? A veces nos llevamos bien y podemos hablar, pero otras veces nota que no soy su padre de verdad y se cierra bastante. Ahora mismo no sé muy bien en qué punto estamos, la verdad. Perdona que no te dé una respuesta más clara."
+  },
+  {
+   "qui": "TARA",
+   "text": "No hay nada que perdonar, eso ya me dice bastante.\n\nUna relación que va por rachas, donde a veces hay conexión y otras se cierra — tiene sentido que no sepas muy bien cómo va a recibirlo ahora.\n\nCon eso en mente, te propongo un enfoque que parte de tu preocupación, no de lo que ella ha hecho mal. Algo así:\n\n---\n\n*\"Mercè, he visto algunas cosas que has publicado últimamente y me ha entrado preocupación. No te lo digo para meterte en líos ni para controlarte — te lo digo porque me importas. ¿Podemos hablar un momento?\"*\n\n---\n\nSi dice que sí, puedes ir a lo concreto: qué viste, qué te preocupa, y escuchar lo que ella piensa.\n\nSi se cierra o se pone a la defensiva, no pasa nada por dejar la puerta abierta: *\"No tienes que hablar ahora. Pero sé que estoy aquí si quieres.\"*\n\n¿Esto se acerca a lo que necesitabas, o quieres ajustar algo — el tono, la situación, cómo empezar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 490,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 306,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mmm... no sé, perdona. Es que me parece que quizás suena demasiado serio y ella puede ponerse en guardia enseguida. ¿Podrías hacerlo un poco más informal, más de pasada, como si no fuera tan gran cosa? A ver si así lo recibe mejor."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido, sí. Algo más de pasada puede bajar la guardia.\n\nPrueba con algo así:\n\n---\n\n*\"Oye, Mercè, he visto alguna cosa que has puesto últimamente y me ha quedado dando vueltas. No es nada grave, pero me gustaría comentártelo cuando tengas un momento.\"*\n\n---\n\nInformal, sin dramatismo, y le dejas a ella elegir cuándo. Eso también le da un poco de control, que a veces ayuda.\n\n¿Te encaja más esto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 877,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 139,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, esto me gusta mucho más. Así suena más natural y menos a bronca. Muchas gracias, de verdad, perdona por haber pedido el cambio... es que quiero hacerlo bien. Me quedo con esta versión."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Y no tienes nada que perdonar — pediste lo que necesitabas, eso está bien.\n\nSuerte con la conversación. Espero que vaya bien.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1084,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 53,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

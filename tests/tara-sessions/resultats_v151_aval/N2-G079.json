@@ -1,0 +1,20 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA identificó de inmediato que la persona pedía algo concreto y rápido, y respondió en consecuencia sin desviarse.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Hay alguno que quieras que te ayude a preparar mejor?",
+   "esperat": "Cerrar sin preguntar, dado que la persona había pedido algo rápido y la respuesta ya era completa"
+  }
+ ]
+}

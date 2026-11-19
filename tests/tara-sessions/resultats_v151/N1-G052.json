@@ -1,0 +1,118 @@
+{
+ "id": "N1-G052",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "nomes-desfogar · una família que l'ha cridat per telèfon",
+ "tipus": "nomes-desfogar",
+ "persona": "Li Wei, orientadora. Situació: una família que l'ha cridat per telèfon. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:14:14.714Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ui, mira... necessitava desfogar-me una mica, res més. Avui ha sigut un dia de merda i necessito explicar-ho a algú."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'escolto. Explica'm com ha anat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 185,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 17,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "És que... la família dels Martínez m'ha trucat tres vegades seguides, saps? I cada vegada amb una cosa nova. Primer el nen, després la mare, després el pare... i jo intentant gestionar-ho tot i sense poder acabar cap conversa. Estic esgotada, tia."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tres trucades seguides, cadascuna amb una cosa diferent, sense poder acabar cap. Té sentit que estiguis esgotada.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 281,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacte. I el pitjor és que sento que no he ajudat a ningú del tot, saps? Com que he anat apagant focs però sense resoldre res de veritat. Em queda aquella sensació de... no sé, de feina a mitges. I això em mata."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquella sensació de feina a mitges quan has donat molt és especialment dura. T'has quedat amb això.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 398,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... sí, exactament. Buf. Mira, ja m'ha anat bé explicar-ho. Ja estic una mica millor, crec que ja en tinc prou per avui. Gràcies, eh!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Me n'alegro que t'hagi anat bé tenir un espai. Descansa. Fins aviat.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 495,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 41,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió el núcleo de la demanda pero tardó tres turnos en llegar a ella, haciendo preguntas de exploración que la persona no pidió y que retrasaron la ayuda concreta.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿qué ha pasado con las notas de Rubén y qué es lo que más te cuesta de hablar con él sobre eso?",
+   "esperat": "La persona ya había explicado el problema y pedido ayuda para preparar qué decirle; bastaba recoger la emoción brevemente y ofrecer la ayuda o pedir solo lo imprescindible para darla"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "No estás exagerando. Lo que describes tiene mucho sentido: quieres ayudar y a la vez no quieres que él lo viva como una intromisión. Eso es cuidado, no exageración.",
+   "esperat": "Una frase de acogida sin reformular ni etiquetar la actitud de la persona como 'cuidado'"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Lo que describes tiene mucho sentido",
+   "esperat": "Acogida más directa y menos formulaica, sin validar con etiqueta fija"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿convivís juntos en el día a día, o es una relación más de visitas?",
+   "esperat": "Con la información ya dada era posible ofrecer un primer esquema de conversación; si se necesitaba este dato, podría haberse pedido junto con la ayuda concreta"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Vivís juntos, le conoces, te importa",
+   "esperat": "No atribuir 'te importa' como hecho; la persona no lo expresó en esos términos en ese turno"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "alta",
+   "cita": "¿Sabes más o menos cómo está él con el tema? ¿Lo lleva con angustia, con indiferencia, ya lo ha hablado con su padre...?",
+   "esperat": "La persona había pedido explícitamente ayuda para preparar qué decirle; esta segunda ronda de preguntas retrasó la entrega y la persona tuvo que redirigir a TARA en el turno siguiente"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Con alguien que tiende a cerrarse, a veces eso abre más que cualquier pregunta directa sobre las notas.",
+   "esperat": "No presentar como hecho el patrón de comportamiento de Rubén; era una hipótesis de la madrastra, no un dato confirmado"
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "no has dado ninguna vuelta de más, has ido afinando hasta que sonara a ti, que es exactamente lo que necesitabas",
+   "esperat": "Cierre cálido y breve sin reformular el proceso de la persona como mérito o logro"
+  }
+ ]
+}

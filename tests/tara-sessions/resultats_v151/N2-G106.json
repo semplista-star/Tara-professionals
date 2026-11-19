@@ -1,0 +1,118 @@
+{
+ "id": "N2-G106",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "mixta · germans que es barallen tot el dia",
+ "tipus": "mixta",
+ "persona": "Ibrahim, pare separat que té els fills cap de setmana sí cap de setmana no. Situació: germans que es barallen tot el dia. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:29:08.502Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bona tarda. Miri, estic bastant frustrat perquè cada cap de setmana que tinc els nens acaben barallant-se constantment, i no sé com gestionar-ho. El que necessito és que m'ajudi a preparar una conversa amb ells per explicar-los per què han de tractar-se amb més respecte."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona tarda. Entenc la frustració — arribar al cap de setmana amb ganes d'estar bé amb ells i que acabi en baralles constants és esgotador.\n\nAbans de preparar la conversa, una cosa que m'ajudaria a fer-la més útil per a tu: quines edats tenen els nens?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 251,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 88,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tenen onze i vuit anys. El gran és el que sol provocar, però el petit tampoc no ajuda gaire."
+  },
+  {
+   "qui": "TARA",
+   "text": "Amb onze i vuit anys ja es pot tenir una conversa real amb ells, sí.\n\nUna cosa que et pot ajudar: en lloc d'explicar-los *per què* han de tractar-se amb respecte —que sovint sona a sermó i tanca la conversa—, pots partir del que tu observes i del que necessites tu com a pare. Això sol obrir més.\n\nPer exemple, podries dir-los alguna cosa com:\n\n*«Quan us veig barallant-vos, em poso trist i em costa gaudir del temps que estem junts. M'agradaria que trobéssim una manera d'estar millor quan som aquí els tres.»*\n\nI després deixar que parlin ells: què els molesta, què necessiten cadascun.\n\nAixò et sembla un bon punt de partida, o hi ha alguna cosa concreta de les baralles que voldries abordar diferent?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 371,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 231,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, entenc el que em diu. Però trobo que aquest exemple sona una mica massa... suau, potser. Necessito alguna cosa que transmeti que la situació és seriosa, sense que sembli un atac cap a ells. Podria fer-me una versió una mica més ferma?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Té tot el sentit. Aquí tens una versió més ferma, però sense atacar:\n\n*«Vull parlar-vos d'una cosa important. Cada cap de setmana acabo veient-vos barallant-vos, i això no pot continuar així. No us ho dic per renyar-vos, us ho dic perquè m'importa com estem junts. Necessito que els tres trobem una manera diferent d'estar, i compto amb vosaltres per fer-ho possible.»*\n\nEl que fa aquesta versió: posa la situació sobre la taula amb claredat, marca que hi ha d'haver un canvi, i alhora els col·loca com a part de la solució, no com a culpables.\n\nSi vols, també pots afegir una conseqüència concreta per si les baralles continuen — això reforça que va de debò. Vols que ho treballem?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 683,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 235,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, amb això ja en tinc prou. Moltes gràcies, m'ha estat molt útil."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit. Sort amb la conversa — espero que el proper cap de setmana sigui millor per a tots tres.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 948,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 50,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

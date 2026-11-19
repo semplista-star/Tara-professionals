@@ -1,0 +1,185 @@
+{
+ "id": "N2-G050",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "jerga · les xarxes socials i el que hi publica",
+ "tipus": "jerga",
+ "persona": "Aina, germana gran adulta que fa de referent. Situació: les xarxes socials i el que hi publica. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:26:19.345Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tinc un problema amb la meva germana petita. Publica coses a l'Instagram que no m'agraden gens."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc que el que publica et preocupa.\n\nPots explicar-me una mica més? Quin tipus de coses publica que et generen malestar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 202,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 46,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Publica fotos molt provocadores. I quan li dic algo, m'ignora completament. Em sento invisible."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sentir-se ignorada per algú proper fa mal.\n\nQuina edat té la teva germana?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 278,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "15 anys. És que jo intento ajudar-la i ella ni cas. Em toreja totalment."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té 15 anys i tu veus coses que et preocupen per ella. I a sobre, quan intentes dir-li alguna cosa, et quedes amb la sensació que no existeixes per a ella. Té sentit que et costi.\n\nUna cosa que m'ajudaria a entendre millor: a casa hi ha una persona adulta —pare, mare, o algú altre— que estigui al cas del que publica?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 337,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 107,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, els pares ho saben una mica però passen. Per això ho porto jo. Però clar, ella em veu com la pesada de la germana gran, no com algú que l'ajuda."
+  },
+  {
+   "qui": "TARA",
+   "text": "Estàs carregant amb una preocupació que hauria de ser dels pares, i a sobre la teva germana et rep com l'enemic. És molt frustrant.\n\nPuc dir-te una cosa? No perquè vulgui treure-li importància al que sents, senseó perquè crec que et pot ajudar: quan una germana gran intenta fer de \"responsable\" d'una cosa que els pares no gestionen, sovint la dinàmica es complica — ella et veu com qui la controla, no com qui la cuida.\n\nAixò no vol dir que la teva preocupació no sigui legítima. Ho és.\n\nPerò et pregunto: on voldries posar l'energia? En convèncer la teva germana, en moure als teus pares perquè s'impliquin més, o en alguna altra cosa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 499,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 216,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ostres, para. Estàs parlant com un llibre. Jo només vull saber com dir-li alguna cosa sense que em tanqui la porta a la cara."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, m'he allargat massa. Anem al gra.\n\nQuan li dius alguna cosa ara, com li ho dius normalment?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 761,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 42,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs li dic \"això que publiques no està bé\" i ella ja desconnecta. Necessito una frase millor, algo que no la faci fugir."
+  },
+  {
+   "qui": "TARA",
+   "text": "Prova alguna cosa així:\n\n*«Quan veig el que publiques, em preocupo per tu. No vull controlar-te, però t'estimo i no puc no dir-t'ho.»*\n\nCurta, sense jutjar el que fa, i deixa clar que ve de l'afecte, no del control.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 847,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 87,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, això sona millor. Menys de germana gran pesada. Gràcies, ho provaré."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. Espero que vagi bé.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 967,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

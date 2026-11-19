@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien lo que pedía la persona en cada momento: opciones con implicaciones en el turno 1, y cómo iniciar la conversación en el turno 2.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "quieres ayudar, pero no sabes si es tu lugar o si interferirías",
+   "esperat": "Pasar directamente a las opciones sin reformular el estado interno de la persona, que no lo había expresado en esos términos"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que sea la más difícil",
+   "esperat": "Omitir la validación formulaica e ir directamente al guion de conversación que la persona pedía"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Esto abre la conversación desde tu duda, no desde un reproche hacia él. Le da espacio para decirte qué necesita, y a ti para escuchar antes de decidir qué papel tomar.",
+   "esperat": "El guion ya era suficiente; el párrafo explicativo añade longitud sin valor adicional para una persona que escribe mensajes muy cortos"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Te ves diciéndole algo así, o hay algo que te frena?",
+   "esperat": "La persona había pedido cómo empezar la conversación, no una exploración de sus bloqueos; cerrar con una pregunta abierta alarga innecesariamente la sesión"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entendió desde el primer turno que la madre pedía un mensaje concreto y lo entregó de inmediato, ajustándolo sin rodejos cuando se le pidió.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Si quieres, puedo ajustarlo a cómo habláis vosotras normalmente, o prepararte también para lo que venga después de que ella responda.",
+   "esperat": "Entregar el mensaje y callar; ofrecer más solo si la persona lo pide, no anticipar servicios no solicitados"
+  },
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Lo que describes tiene sentido",
+   "esperat": "Ir directamente al mensaje pedido sin validación formulaica previa"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Es breve, no acusa, y le deja a ella elegir el momento. Eso último suele ayudar bastante a que no se ponga a la defensiva.",
+   "esperat": "Entregar el mensaje sin explicar por qué funciona; la madre no pidió justificación"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Y si luego quieres preparar lo que viene después de que ella responda, aquí estoy.",
+   "esperat": "Cerrar con calidez sin reofrecer servicios; la persona ya había dicho que volvería si lo necesitaba"
+  }
+ ]
+}

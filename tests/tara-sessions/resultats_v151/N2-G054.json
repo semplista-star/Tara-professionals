@@ -1,0 +1,206 @@
+{
+ "id": "N2-G054",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "rebuig · la mort recent de l'avi",
+ "tipus": "rebuig",
+ "persona": "Marta, pare separat que té els fills cap de setmana sí cap de setmana no. Situació: la mort recent de l'avi. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:26:55.360Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola... bé, no sé si és el lloc adequat per dir-ho, però... el meu pare va morir fa uns dies i no sé com explicar-ho als meus fills. Perdona si no m'expresso bé."
+  },
+  {
+   "qui": "TARA",
+   "text": "No cal que et disculpis. T'expresses molt bé, i el que portes és molt pesat.\n\nPerdre el teu pare i alhora haver de trobar les paraules per als teus fills... és molt.\n\nQuan vulguis, pots explicar-me una mica com són ells —les edats, per exemple— i t'ajudo a pensar com dir-los-ho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 222,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 101,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tenen vuit i onze anys. La gran potser ja s'imagina alguna cosa, però el petit... no sé. I a més els tinc només els caps de setmana, o sigui que no hi soc cada dia per si necessiten alguna cosa. Això em fa sentir molt malament, la veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Vuit i onze anys, i tu no hi ets cada dia per acompanyar-los si ho necessiten. Té sentit que això et pesi tant, ara.\n\nUna cosa cada vegada: primer, com explicar-los-ho. Tens pensat quan ho faràs —si aquest cap de setmana, per exemple?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 402,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 82,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, els tinc aquest cap de setmana. Havia pensat... no sé, potser seure amb ells i explicar-los que l'avi ha mort i que és normal estar tristos. Però no sé si és suficient o si ho faré malament. Perdona, és que no sé per on començar."
+  },
+  {
+   "qui": "TARA",
+   "text": "No ho faràs malament. El que has descrit —seure amb ells, dir-los la veritat, deixar-los estar tristos— és exactament el que necessiten.\n\nUna cosa que pot ajudar: dir-ho amb paraules senzilles i directes. \"L'avi ha mort\" és millor que \"s'ha anat\" o \"ja no hi és\", perquè els nens de vegades entenen les metàfores de manera literal i es confonen.\n\nPodries dir alguna cosa així:\n\n*\"Tinc una cosa trista que explicar-vos. L'avi ha mort. Això vol dir que ja no el tornarem a veure. Jo estic molt trist/a, i és normal que vosaltres també ho estigueu. Podeu preguntar-me tot el que vulgueu.\"*\n\nI després... deixar que passi el que passi. Que plorin, que preguntin, que es quedin callats. Tot és vàlid.\n\nHi ha alguna cosa d'aquesta conversa que et preocupa especialment? Alguna pregunta que creus que et podrien fer i no saps com respondre?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 568,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 284,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... la pregunta que em fa més por és si em pregunten on és l'avi ara. No sé què dir. A casa no som gaire religiosos i no vull inventar-me res, però tampoc vull dir alguna cosa que els faci por. Perdona, potser és una tonteria preocupar-se per això."
+  },
+  {
+   "qui": "TARA",
+   "text": "No és cap tonteria. És una de les preguntes més difícils que existeixen, i el fet que hi pensis demostra que te'ls estimes molt.\n\nNo cal tenir una resposta perfecta. De fet, dir la veritat —que no ho saps del cert— és una resposta honesta i vàlida. Els nens sovint accepten millor la incertesa del que pensem, si se'ls diu amb calma.\n\nPodries dir alguna cosa com:\n\n*\"Això és una pregunta molt gran, i la veritat és que ningú no ho sap del cert. El que sí que sé és que l'avi era una persona molt estimada, i que el recordarem sempre.\"*\n\nSi el petit insisteix, pots afegir: *\"Què creus tu?\"* De vegades els nens ja tenen les seves pròpies idees, i escoltar-los obre una conversa molt més rica que qualsevol resposta que puguis donar tu.\n\nCom et queda això?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 940,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 248,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mmm... el \"què creus tu?\" no sé si em sortirà natural, la veritat. Soc molt de quedar-me en blanc quan estic nerviosa i crec que si em fa la pregunta m'encallaré i no sabré reaccionar. Ho he provat altres vegades i no em funciona gaire bé, això de tornar la pregunta."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit. Si quan estàs nerviosa et quedes en blanc, una frase que has de construir en el moment és l'últim que necessites.\n\nUna alternativa més senzilla, que no requereix improvisar:\n\n*\"Ui, és una pregunta molt gran. No ho sé del cert. Però l'avi sabia que l'estimàvem, i nosaltres el recordarem sempre.\"*\n\nI si et quedes en blanc igualment —que pot passar— no passa res. Pots dir simplement: *\"No sé respondre això ara mateix, però m'alegro que m'ho hagis preguntat.\"* Això també és una resposta. Els teus fills no necessiten que tinguis totes les respostes; necessiten veure que pots estar amb ells en la incertesa.\n\nEt serveix més tenir dues o tres frases curtes preparades, per si t'encalles?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1282,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 228,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, això sí que m'ajudaria més. Tenir algunes frases curtes preparades per si em quedo en blanc... això sí que ho veig més possible. Gràcies, de veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí van, per tenir-les a mà:\n\n**Si et pregunten on és l'avi:**\n*\"No ho sé del cert. Però l'estimàvem molt, i sempre el recordarem.\"*\n\n**Si es queden en silenci o ploren:**\n*\"És normal estar tristos. Jo també ho estic.\"*\n\n**Si et fan una pregunta i no saps respondre:**\n*\"No sé respondre això ara, però m'alegro que m'ho hagis preguntat.\"*\n\n**Si pregunten si tu també moriràs:**\n*\"Tothom mor algun dia, però jo tinc previst estar molt de temps amb vosaltres.\"*\n\nGuarda-les on vulguis. I recorda: no cal que surti perfecte. El que els arribarà és que hi eres, que els ho vas dir tu, i que els vas deixar estar tristos sense intentar arreglar-ho.\n\nTens alguna cosa més que et preocupi d'aquest cap de setmana?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1566,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 253,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, crec que no... o sigui, segur que sí que tinc coses però ara mateix no se m'acudeix res més. Gràcies, de veritat. M'has ajudat molt. Perdona si he estat una mica... no sé, desordenada."
+  },
+  {
+   "qui": "TARA",
+   "text": "No has estat desordenada. Has estat una persona que porta molt i que alhora pensa en els seus fills. Això no és poc.\n\nMolta força aquest cap de setmana.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1893,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 48,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. De veritat. Necessitava això."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me n'alegro. Cuida't.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1960,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

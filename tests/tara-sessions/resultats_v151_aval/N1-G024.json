@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad de escucha inicial y respondió a la demanda concreta, pero intercaló un elogio valorativo y una atribución no expresada antes de llegar a la ayuda.",
+ "problemes": [
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Eso que dices lo dice todo de ti.",
+   "esperat": "Reflejar la tensión entre querer que el alumno vaya y sentir la responsabilidad sin apoyo, sin valorar a la persona."
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Cargas con el peso de todos, aunque nadie lo diga en voz alta.",
+   "esperat": "Devolver lo que la persona ha dicho sin añadir la inferencia sobre los otros profesores ('aunque nadie lo diga en voz alta' ya lo dijo Luis)."
+  },
+  {
+   "torn": 7,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Sabes ya qué protocolo tiene el alumno —qué medicación lleva, si hay pauta de actuación del médico o de la familia?",
+   "esperat": "Luis había pedido cómo explicar a los otros profes qué hacer; TARA podía ofrecer directamente el esquema y preguntar solo si el protocolo era necesario para personalizarlo, no como verificación previa."
+  },
+  {
+   "torn": 8,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Perfecto, ese protocolo es la base. Con él en mano, puedo ayudarte a preparar una explicación clara y breve para el equipo, que recoja los pasos esenciales: qué hacer, qué no hacer, y cuándo llamar al 112. ¿Quieres que te redacte un esquema que puedas adaptar a lo que pone el protocolo?",
+   "esperat": "Ofrecer directamente el esquema o redactarlo sin anunciarlo con tanto preámbulo; la pregunta final alarga innecesariamente cuando la demanda ya era clara."
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 2,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA escoltà sense intervenir fins que Ibrahim demanà ajuda concreta, llavors la lliurà de forma directa i tancà sense allargar.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "La rabia tiene mucho sentido.",
+   "esperat": "Reflectir el contingut sense validar amb fórmula; p. ex. ometre la frase o integrar-la en el reflex anterior"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "esforzarte igual y sentir que no te ven igual",
+   "esperat": "Ibrahim havia dit 'parece que no pinto nada' i 'me da rabia'; TARA reformula 'no te ven igual' com a fet intern no expressat explícitament, tot i que és una inferència molt propera"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Y dejas que sea él quien tome las riendas de lo que corresponde hacer institucionalmente, que es su responsabilidad, no la tuya.",
+   "esperat": "Ibrahim demanà com formular el missatge, no una explicació del repartiment de responsabilitats; suprimir la frase explicativa"
+  }
+ ]
+}

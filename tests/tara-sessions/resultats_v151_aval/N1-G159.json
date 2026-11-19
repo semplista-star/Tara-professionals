@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la demanda general però va retardar la lliurança del guió demanant informació prèvia no estrictament necessària i va afegir un esquema intermedi no sol·licitat abans d'arribar al guió concret.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "m'ajudaria saber una cosa: quan dius que no lliura res, és una situació recent o ve d'abans? I tens alguna idea de si la família ja en té alguna noció, o serà una sorpresa per a ells?",
+   "esperat": "Amb la informació donada (família, fill que no lliura, risc de defensivitat) era suficient per oferir directament un primer esbós de guió o missatge"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Et proposo un esquema per a la conversa, i després, si vols, podem treballar el llenguatge concret.",
+   "esperat": "La persona no havia demanat un esquema sinó ajuda per parlar amb la família; TARA hauria pogut preguntar directament si volia un guió escrit o per a reunió presencial sense intercalar un esquema intermedi"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Et proposo un esquema per a la conversa [...] Vols que et redacti un missatge escrit per enviar, o estàs pensant en una reunió presencial?",
+   "esperat": "Un torn més breu que demanés el format (missatge o reunió) sense desplegar tot l'esquema previ"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Un consell pràctic: si la reunió es tensa, la pregunta final sol reorientar-la, perquè els situa com a part de la solució.",
+   "esperat": "Lliurar el guió sense afegir consells no sol·licitats"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Si tens una relació prèvia amb ells, fins i tot pots afegir alguna cosa concreta i positiva del nen abans d'entrar en el tema. Això canvia molt el to des del principi.",
+   "esperat": "Donar la frase d'obertura revisada sense afegir consells addicionals no demanats"
+  }
+ ]
+}

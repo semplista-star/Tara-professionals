@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat pràctica però va afegir un marc interpretatiu no demanat (sentir-se injustament tractats) i va fer preguntes de detall no sempre necessàries; un cop corregida, es va reajustar bé.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit el que fas",
+   "esperat": "Ometre la validació formulaica i passar directament a la resposta pràctica"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "donar-los espai primer és una bona idea",
+   "esperat": "No avaluar la conducta del pare; limitar-se a descriure el que ha dit"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Potser no cal trobar qui té raó. El que solen necessitar a aquesta edat és que algú posi ordre, no que faci de jutge.",
+   "esperat": "Esperar la confirmació de la persona abans d'oferir el marc interpretatiu; la persona no havia demanat una explicació del perquè"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Una cosa important: no has de ser justa en el sentit de donar-los el mateix. Has de ser clara. Ells necessiten que algú prengui les regnes, no que els donis la raó.",
+   "esperat": "Eliminar aquest paràgraf: introdueix un marc sobre la justícia que la persona no havia plantejat i que va provocar la correcció del torn 5"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Aquí tens uns passos concrets per a aquell moment: [...] Vols que practiquem com dir alguna d'aquestes frases amb les teves paraules?",
+   "esperat": "Resposta més breu i centrada; la persona havia demanat 'alguna cosa pràctica', no un protocol de quatre passos amb subtítols en negreta"
+  },
+  {
+   "torn": 5,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Com sol ser el moment just quan hi entres — hi ha crits, es diuen coses, s'empenten...? Descriu-m'ho una mica perquè la frase s'ajusti al que et trobes de veritat.",
+   "esperat": "La persona ja havia descrit prou la situació (crits, versions simultànies, caos); demanar més detall allarga innecessàriament"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Sona molt bé. És clar, és teu, i no pren partit per ningú.",
+   "esperat": "Confirmar sense avaluar: per exemple, 'Sí, funciona' o simplement validar sense el judici de valor"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "La segona frase és especialment bona perquè no és una amenaça",
+   "esperat": "Ometre l'elogi i limitar-se a confirmar l'efecte pràctic de la frase"
+  }
+ ]
+}

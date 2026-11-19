@@ -1,0 +1,73 @@
+{
+ "id": "N2-G086",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "breu · la mort recent de l'avi",
+ "tipus": "breu",
+ "persona": "Jordi, mare. Situació: la mort recent de l'avi. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:27:41.250Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, perdona que molesti... és que tinc molt poc temps ara mateix i necessito una sola cosa. Em podries dir com explicar-li a un nen de 6 anys que l'avi ha mort? Alguna frase curta, senzilla... no sé com fer-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "No molestes gens.\n\nUna cosa que sol ajudar amb nens d'aquesta edat: dir-ho amb paraules directes i senzilles, sense eufemismes com \"se n'ha anat\" o \"s'ha quedat adormit\", que poden confondre.\n\nPodries dir-li, per exemple:\n\n*«L'avi ha mort. Això vol dir que el seu cos ha deixat de funcionar i que no el tornarem a veure. Estic molt trist/a, i és normal que tu també ho estiguis.»*\n\nDues coses que solen ajudar molt:\n- **Dir-li que ell no ha fet res malament.** Els nens de vegades ho pensen.\n- **Deixar-li espai per preguntar** el que vulgui, sense pressa.\n\nÀnims. Estàs fent el que pots en un moment molt difícil.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 236,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 227,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies, això m'ajuda molt. Ho intentaré. Perdona, he de marxar ja. Gràcies de veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ànims. Cuida't.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 503,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

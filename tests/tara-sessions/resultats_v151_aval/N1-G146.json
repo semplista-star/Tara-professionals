@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la situació però en el torn 3 es va avançar a recomanar una acció (escalar a jefatura) que Elena no havia demanat, i va assumir que no sabia com plantejar-ho; va acceptar la correcció i va lliurar l'ajuda concreta demanada.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Eso cansa, y también puede generar incertidumbre sobre cómo está el alumno o la alumna.",
+   "esperat": "Reflectir el que Elena ha dit sense atribuir-li cansament ni incertesa que ella no ha expressat"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que hayas querido resolverlo tú primero. Y también tiene sentido que ahora, después de semanas, empiece a pesar.",
+   "esperat": "Evitar la fórmula «tiene sentido» repetida; si cal validar, fer-ho amb les paraules concretes d'Elena"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Creo que ya es momento de dar un paso más, no porque sea una crisis, sino porque has agotado los canales que tenías a mano y el centro tiene recursos para esto. Informar a jefatura o a orientación no es hacer una montaña: es hacer lo que corresponde cuando los cauces ordinarios no funcionan.",
+   "esperat": "Elena no havia demanat consell sobre si escalar o no; TARA hauria d'haver preguntat directament en què podia ajudar o esperar que Elena concretés la seva necessitat"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Creo que ya es momento de dar un paso más, no porque sea una crisis, sino porque has agotado los canales que tenías a mano y el centro tiene recursos para esto. Informar a jefatura o a orientación no es hacer una montaña: es hacer lo que corresponde cuando los cauces ordinarios no funcionan.",
+   "esperat": "Un torn més breu que no justifiqui ni argumenti una recomanació no sol·licitada"
+  }
+ ]
+}

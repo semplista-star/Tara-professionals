@@ -1,0 +1,140 @@
+{
+ "id": "N2-G060",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "jerga · la mort recent de l'avi",
+ "tipus": "jerga",
+ "persona": "Jordi, padre. Situació: la mort recent de l'avi. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:26:57.768Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues mira, es que tengo un tema con mi hijo. Tiene doce años y desde que murió el abuelo hace dos semanas está como... no sé, muy cerrado. Le pregunto cómo está y me suelta un \"bien\" y ya. Como si le hubiera preguntado si quiere kétchup. Me siento un poco ignorado, la verdad. O sea, yo también lo estoy pasando mal, que era mi padre, pero él ni caso. No sé si es normal o si tengo que preocuparme."
+  },
+  {
+   "qui": "TARA",
+   "text": "Dos semanas después de perder a tu padre, y encima sintiéndote solo en eso con tu hijo. Es mucho.\n\nLo que describes en él —ese \"bien\" que no dice nada— es muy frecuente a los doce años, especialmente con el duelo. A esa edad muchos chicos no saben qué hacer con algo tan grande, y cerrarse es una manera de manejarlo, no de ignorarte.\n\nQue tú también lo estés pasando mal complica todo. Es difícil estar disponible para él cuando tú mismo estás de duelo.\n\n¿Hay algo concreto que te gustaría poder decirle o preguntarle, o más bien necesitabas poder contarlo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 294,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 176,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, o sea, lo que dices tiene sentido, que se cierra porque no sabe gestionarlo... pero es que a veces siento que me toreja, ¿sabes? Le digo \"oye, ¿quieres hablar del abuelo?\" y me mira como si le hubiera propuesto hacer la declaración de la renta. Y claro, yo tampoco sé muy bien cómo sacar el tema sin que parezca que le estoy haciendo una entrevista. Así que sí, me vendría bien saber qué decirle. Algo que no suene a psicólogo de película americana."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Algo que suene a ti, no a manual.\n\nUna cosa que suele funcionar mejor que preguntar directamente es **hacer algo juntos y dejar que el tema aparezca solo**, sin forzarlo. Un paseo, preparar algo de comer, ver un partido. Sin pregunta, sin \"¿cómo estás?\". Solo estar ahí.\n\nY si quieres abrir algo, en vez de preguntarle a él, puedes **contarle tú primero algo pequeño**. No un discurso, algo concreto:\n\n> *\"Hoy he pensado en el abuelo porque he visto [lo que sea]. Me ha dado un palo.\"*\n\nY ya. Sin preguntarle nada después. A veces eso abre más que cualquier pregunta, porque no le pone en el foco a él.\n\nSi dice algo, bien. Si no dice nada, también está bien. Le has mostrado que el tema existe y que se puede nombrar.\n\n¿Te ves diciéndole algo así, o hay algo que te frena?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 627,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 262,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. Que me has dicho \"hacer algo juntos y dejar que el tema aparezca solo\" y luego me has dado una frase en negrita con formato y todo. Eso ya no suena a consejo de padre a padre, suena al folleto del cole. Que yo te pedía algo natural, tío."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, me he puesto en modo folleto. Perdona.\n\nLo que te decía es esto: en vez de preguntarle a él, cuéntale tú algo primero. \"Hoy he pensado en el abuelo porque he visto no sé qué. Me ha jodido.\" Y ya, sin esperar nada. A veces eso abre más que cualquier pregunta.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 973,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 102,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, así sí. Eso ya suena más a algo que yo podría decir sin que me mire raro. Oye, pues me lo apunto. A ver si mañana vemos el fútbol o algo y le suelto algo así, sin hacer un drama. Gracias, en serio. Me has ayudado."
+  },
+  {
+   "qui": "TARA",
+   "text": "De nada. Suerte mañana con el fútbol.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1160,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 19,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. Lo voy a necesitar, que además juega el Barça y si pierden ya tenemos dos temas de duelo en casa. Hasta luego."
+  },
+  {
+   "qui": "TARA",
+   "text": "Jaja. Doble duelo, sí. Hasta luego.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1222,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "id": "N1-G173",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "nomes-desfogar · conflictes constants al pati entre dos grups",
+ "tipus": "nomes-desfogar",
+ "persona": "Sara, maestra de infantil. Situació: conflictes constants al pati entre dos grups. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:21:57.482Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Necesito desahogarme un poco, nada más. No busco soluciones."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te escucho. Cuéntame lo que necesites.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 164,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es que los niños del patio... madre mía. Cada día igual. Dos grupos que no paran de pelearse y yo en medio."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cada día en medio de eso. Agota.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 219,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Muchísimo. Y encima sola, porque mi compañera siempre está con los de dentro. Me siento muy sola gestionando todo esto."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sola fuera, cargando con los dos grupos, sin nadie al lado. Tiene mucho peso eso.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 275,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto. Y llegas a casa y sigues dándole vueltas. No desconectas nunca."
+  },
+  {
+   "qui": "TARA",
+   "text": "Se va contigo a casa. No hay descanso real.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 339,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 17,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No. Y hoy ha sido especialmente duro. Ha habido un momento que casi me echo a llorar en el patio. De agotamiento, no de tristeza."
+  },
+  {
+   "qui": "TARA",
+   "text": "De agotamiento puro. Que el cuerpo ya no puede más.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 398,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 21,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacto. Pero bueno, ya me siento mejor de haberlo dicho. Me voy, gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que hayas podido decirlo. Cuídate.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 450,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la demanda però va anteposar una pregunta de clarificació innecessària al primer torn en lloc de lliurar directament el missatge demanat, cosa que va endarrerir l'ajuda un torn sencer.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Abans de redactar, necessito saber una cosa que canviaria el to del missatge: les teves notes ja estan vinculades a adaptacions curriculars documentades (ACI, PI o similar), o és una pràctica que fins ara no ha quedat reflectida formalment?",
+   "esperat": "Lliurar directament un primer esborrany del missatge, ja que la persona havia donat prou context per redactar-lo; si calia, demanar ajust a posteriori."
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Gràcies per compartir la teva preocupació. Volia explicar-te breument com estic treballant les qualificacions d'aquest grup. Les notes de l'alumnat amb pla individualitzat estan vinculades als objectius específics de cada PI, tal com estableix la normativa d'atenció a la diversitat. Modificar-les per ajustar-les als criteris del grup ordinari implicaria desconnectar-les del marc que hem documentat per a cada alumne, cosa que podria generar inconsistències en el seu seguiment i en la justificació de les mesures d'atenció.",
+   "esperat": "Un missatge més breu i en to directe des del primer intent, evitant que la persona hagués de demanar explícitament que l'escurcés i l'informalitzés."
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (cómo iniciar la conversación sin que Marc se cierre) y se reajustó cuando la persona rechazó la primera propuesta, aunque en varios turnos añadió observaciones y preguntas no pedidas.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Que te preocupe hacerlo mal ya dice mucho del cuidado que le tienes.",
+   "esperat": "Reconocer la situación y preguntar directamente qué necesita, sin el elogio valorativo inicial"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Lo has observado muy bien.",
+   "esperat": "Omitir el juicio valorativo y pasar directamente a la propuesta o pregunta"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Lo has observado muy bien. Las notas de entrada como tema = cierre inmediato. El reproche en el tono = se va por dentro aunque siga sentado.",
+   "esperat": "Resumir brevemente sin reformular lo que la persona acaba de decir como si fuera un hallazgo propio"
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Eso es muy valioso.",
+   "esperat": "Omitir la validación formulaica y pasar directamente a la propuesta"
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "La ventaja es que no hay señal de alarma porque no hay escenario de 'conversación seria'. El riesgo es que puede que no salga nada ese día, y necesitas estar bien con eso.",
+   "esperat": "Dar la propuesta concreta sin añadir análisis de ventajas/riesgos no pedido"
+  },
+  {
+   "torn": 6,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Crees que podrías sostener esa incertidumbre, o necesitas que en esa conversación pase algo concreto?",
+   "esperat": "La persona ya había dicho que podía sostener que no saliera nada; la pregunta anticipa una duda que no existía"
+  },
+  {
+   "torn": 7,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Y si un día entra un poco, aunque sea una frase suelta, eso ya es algo. No tienes que resolver las notas en esa conversación.",
+   "esperat": "La persona ya había aceptado la propuesta; este añadido no fue pedido y reitera lo que ella misma acababa de expresar"
+  }
+ ]
+}

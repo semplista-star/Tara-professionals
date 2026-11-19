@@ -1,0 +1,97 @@
+{
+ "id": "N1-G082",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "mixta · molta burocràcia i sensació de no arribar",
+ "tipus": "mixta",
+ "persona": "Ana, professor de FP. Situació: molta burocràcia i sensació de no arribar. Estil: escriu missatges molt curts.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:16:13.309Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Estic fins als nassos de paperassa. Pots fer-me un correu per demanar una pròrroga al cap d'estudis? Curt i directe."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí el tens:\n\n---\n\n**Assumpte:** Sol·licitud de pròrroga per al lliurament de documentació\n\nBona tarda,\n\nEt faig arribar aquesta nota per demanar una pròrroga per al lliurament de [nom del document]. La càrrega de feina d'aquests dies no m'ha permès acabar-lo amb la qualitat que vull.\n\nPodria tenir-lo llest per al [data proposta]?\n\nGràcies per la comprensió.\n\n[Nom]\n\n---\n\nCanvia els claudàtors i ja el tens. Vols ajustar el to o algun detall?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 185,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 165,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Massa formal. Fem-lo més natural, com si li escrivís per WhatsApp."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí va:\n\n---\n\nEi, [nom], com estàs? Et volia demanar si em pots donar uns dies més per al [document]. Estic una mica desbordada/desbordат i vull fer-ho bé. Et va bé fins al [data]?\n\nGràcies!\n\n---\n\nAjusta el gènere i els claudàtors, i llest.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 375,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 104,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, això sí. Gràcies!"
+  },
+  {
+   "qui": "TARA",
+   "text": "De res! Sort amb la paperassa. 😄",
+   "tags": [],
+   "usage": {
+    "input_tokens": 496,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

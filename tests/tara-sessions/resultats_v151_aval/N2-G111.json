@@ -1,0 +1,111 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre que Sara necessitava una resposta concreta per al moment del bloqueig, però va prioritzar l'exploració emocional per sobre de la petició directa, i va lliurar l'ajuda pràctica de manera tardana i indirecta.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "deu ser molt desgastant",
+   "esperat": "No atribuir estats no expressats; esperar que Sara descrigui com se sent"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "imagino que amb un nen acollit hi ha una capa afegida",
+   "esperat": "No projectar complexitat afegida no expressada per Sara; preguntar o esperar"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "T'expliques molt bé, Sara",
+   "esperat": "Ometre l'elogi i anar directament al contingut"
+  },
+  {
+   "torn": 2,
+   "categoria": "ajuda_tardana",
+   "gravetat": "alta",
+   "cita": "no puc dir-te quina sanció és la correcta [...] El que sí puc fer és ajudar-te a trobar la teva resposta",
+   "esperat": "Explicar el límit del canal de manera breu i oferir immediatament una alternativa concreta i aplicable, sense redirigir cap a exploració emocional no demanada"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Què passa per dins teu en aquell moment?",
+   "esperat": "Sara havia demanat una resposta pràctica; la pregunta sobre estats interns no era el que necessitava en aquell torn"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "tens molt més clar el que passa del que creus",
+   "esperat": "Ometre el judici valoratiu sobre la persona"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "és molt humà",
+   "esperat": "Evitar fórmules de validació genèriques"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "és normal quedar-se paralitzada. No és que no sàpigues fer la teva feina — és que estàs intentant fer-la bé, i això pesa",
+   "esperat": "No interpretar ni reencuadrar estats interns no expressats com a fets; si cal, formular-ho com a hipòtesi oberta"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "en el fons crec que tampoc no és el que necessites — el que necessites és sentir-te segura quan li respons tu",
+   "esperat": "No decidir el que la persona necessita; limitar-se a explicar el límit del canal i oferir l'alternativa"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Resposta ferma, sense cridar, i curiositat per entendre'l. Això no és poc",
+   "esperat": "Ometre el judici valoratiu; reconèixer el contingut sense avaluar la persona"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "de vegades mentir ha estat una manera de protegir-se — no necessàriament una tàctica per aprofitar-se",
+   "esperat": "Formular-ho com a hipòtesi oberta («de vegades pot ser...») sense afirmar com a fet un estat intern o intenció del menor"
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Sona bé, Sara. De debò.",
+   "esperat": "Ometre l'elogi automàtic i anar directament a l'observació concreta"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "has pensat en veu alta, has provat una frase i has vist tu sola per què funcionava. Això no és inseguretat — és treballar bé",
+   "esperat": "Tancar sense avaluar la persona ni reencuadrar la seva manera de ser"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "la connexió que has fet [...] l'has feta tu. Jo no te l'he donada",
+   "esperat": "Tancament breu i càlid sense atribuir mèrits ni fer pedagogia sobre el procés"
+  }
+ ]
+}

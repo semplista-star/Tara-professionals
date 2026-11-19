@@ -1,0 +1,163 @@
+{
+ "id": "N2-G020",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "jerga · un fill que diu que a l'escola el molesten",
+ "tipus": "jerga",
+ "persona": "Luis, mare sola amb tres fills. Situació: un fill que diu que a l'escola el molesten. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:24:36.987Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, és el meu fill petit, que em diu que a l'escola hi ha un nen que el molesta. Però quan ho explico a la tutora, em sembla que no m'escolta gaire."
+  },
+  {
+   "qui": "TARA",
+   "text": "Dues coses alhora, i les dues pesen: el que viu el teu fill, i la sensació que quan ho portes a l'escola no arribes a ser escoltada.\n\nQuè és el que més t'agobia ara mateix — el que li passa a ell, o com fer que la tutora t'escolti de debò?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 220,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 85,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Les dues coses, però ara mateix el que més m'agobia és la tutora. Em sento ignorada. Li explico i em fa cara de \"sí sí\" i ja està. No canvia res."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquella cara de \"sí sí\" i res canvia... és molt frustrant, sobretot quan el que portes és una cosa que t'importa de debò.\n\nQuan li ho expliques, com li ho dius, més o menys? Això m'ajudaria a pensar amb tu com fer-ho d'una manera que sigui més difícil d'ignorar.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 357,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 95,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs li dic que el meu fill em diu que un nen el molesta. I ella em diu que ho vigilarà. I prou. Cada vegada el mateix."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc. Li portes una preocupació i reps una resposta que no va a cap lloc.\n\nUna cosa que de vegades ajuda és passar de descriure el problema en general a demanar alguna cosa concreta i amb data. Per exemple, en lloc de \"el meu fill diu que el molesta\", dir:\n\n*\"Vull que parlem de tres situacions concretes que ha viscut el meu fill aquesta setmana. Necessito saber què fareu i quan em donareu una resposta.\"*\n\nAixí és més difícil respondre amb un \"ho vigilaré\" i tancar.\n\nTens alguna situació concreta recent que puguis portar a la conversa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 498,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 169,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, que m'estàs donant un guió com si fos una classe. Jo vull una frase, no un manual."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, perdona.\n\n\"Necessito que quedem per parlar d'això en concret, no de passada.\"",
+   "tags": [],
+   "usage": {
+    "input_tokens": 703,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 34,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Això sí, gràcies. Això ho puc dir."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bé. I si et diu que sí, ja tens el moment per explicar-li el que portes.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 757,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, ja veurem. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sort. Espero que vagi bé.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 805,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

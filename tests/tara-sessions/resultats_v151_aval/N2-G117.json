@@ -1,0 +1,76 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén bé la necessitat pràctica quan la persona la formula explícitament, però en els primers torns anticipa reformulacions i fa preguntes que la persona no ha demanat, i en el torn 5 atribueix un mecanisme conductual al Marc com si fos un fet establert.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "quin és el que et pesa més ara mateix?",
+   "esperat": "La persona ja havia dit el que li pesava (no saber quan li diu la veritat, la mentida continuada); la pregunta retarda l'ajuda sense afegir informació nova"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "no poder fiar-te del que et diu, i a sobre sentir que t'has tornat a creure'l. Això fa mal.",
+   "esperat": "Reflectir el que la persona ha dit sense afegir 'Això fa mal', que és una atribució d'estat emocional no expressada per ella"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Quants anys té, el Marc?",
+   "esperat": "L'edat no era necessària per a l'ajuda demanada en aquest punt; si era rellevant, podia esperar o integrar-se més endavant"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "No ets tonta. Creure el teu fill és el més natural del món — és el que fan les mares i els pares.",
+   "esperat": "Acceptar el que la persona diu sense convertir-ho en una validació avaluativa ni generalitzar sobre 'les mares i els pares'"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "potser la pregunta que et pesa de veritat és una altra: com recuperes una mica d'aquella confiança que ara sents que s'ha trencat?",
+   "esperat": "La persona no havia demanat que TARA reformulés la seva pregunta; TARA substitueix el marc de la persona pel seu propi sense que li ho hagin demanat"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "té sentit que vulguis entendre per què ho fa abans de parlar-hi",
+   "esperat": "Evitar la fórmula 'té sentit' com a validació automàtica; reflectir el contingut concret si cal"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "ell aprèn que si puja la pressió, la cosa s'acaba. No perquè sigui mala persona, senseó perquè li funciona.",
+   "esperat": "Això és una interpretació del comportament del Marc presentada com a fet; TARA hauria de formular-ho com a hipòtesi ('pot ser que hagi après que…') o centrar-se en el que la mare observa"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Tres fills sola — és molt, sí. I no és queixar-se, és la realitat. Anem a lo pràctic…",
+   "esperat": "La resposta és substancialment més llarga del que la situació requeria; les dues tècniques podrien haver-se ofert d'una en una, deixant que la persona triés continuar"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Creus que podries provar alguna cosa així?",
+   "esperat": "La pregunta de tancament és innecessària i pot semblar que TARA busca aprovació; millor deixar que la persona respongui lliurement"
+  }
+ ]
+}

@@ -1,0 +1,204 @@
+{
+ "id": "N2-G044",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "rebuig · un fill que diu que a l'escola el molesten",
+ "tipus": "rebuig",
+ "persona": "Àlex, abuelo. Situació: un fill que diu que a l'escola el molesten. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:26:11.253Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, mi nieto me ha dicho que en el cole le están haciendo la vida imposible. Que le molestan, que se meten con él. Y yo no sé qué hacer con esto. ¿Me puedes ayudar o no?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué peso tan grande escuchar eso de tu nieto. Que venga a contártelo a ti dice mucho de la confianza que tiene en ti.\n\nPara ayudarte bien, necesito saber una cosa: ¿vives con él o estás en contacto con sus padres o la persona adulta que está a su cargo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 224,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 84,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Vivo con él, sí. Con mi hijo y mi nuera. Pero ellos trabajan todo el día y el chico me lo cuenta a mí. Y yo qué sé, yo no estoy acostumbrado a estas cosas. En mis tiempos esto se resolvía de otra manera. Pero bueno, necesito saber qué hacer."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entiendo. Él te lo cuenta a ti, y tú quieres responderle bien aunque no tengas un manual para esto. Eso ya es mucho.\n\nAntes de pensar en qué hacer, una pregunta: ¿sabes algo más de lo que pasa? ¿Qué te ha contado él exactamente, aunque sea poco?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 395,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 88,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues me dijo que hay un grupo de chicos que siempre le buscan, que le dicen cosas, que se ríen de él. No sé si le pegan o qué, eso no me lo ha dicho. Pero le veo triste, eso sí lo veo yo. Llega a casa y se encierra en su cuarto. Eso no es normal."
+  },
+  {
+   "qui": "TARA",
+   "text": "No, no es normal. Y tú lo estás viendo: llega triste, se encierra. Eso importa mucho.\n\nLo que describes —un grupo que le busca, le dice cosas, se ríe de él— es algo que necesita que los adultos responsables del cole lo sepan y lo atiendan. No es algo que tu nieto tenga que resolver solo, ni tú tampoco.\n\nLo más importante ahora es que sus padres estén al tanto, para que puedan hablar con el colegio. Tú puedes ser el puente: contarles esta noche lo que él te ha dicho.\n\n¿Crees que puedes hacer eso, o hay algo que lo complica?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 581,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 175,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hombre, contárselo a mis hijos no es problema. Pero es que yo quiero hacer algo yo también, ¿sabes? No quedarme solo de mensajero. El chico confía en mí y no quiero fallarle."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso se nota, y tiene mucho valor. No quieres solo pasar el mensaje, quieres estar ahí para él.\n\nHay algo muy concreto que puedes hacer tú, que no puede hacer nadie más: ser la persona con quien él se siente seguro para hablar. Eso ya lo estás haciendo.\n\nY puedes seguir haciéndolo. Cuando llegue hoy, podrías decirle algo sencillo, como: \"Me alegra que me lo contaras. Estoy de tu lado. Y vamos a hacer algo con esto, no te voy a dejar solo.\"\n\nNo tienes que tener todas las respuestas. Con eso le estás diciendo que no está solo, que le crees, y que los adultos van a moverse. Para un chico en esa situación, eso es enorme.\n\n¿Te ves diciéndole algo así, o quieres que busquemos otras palabras?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 818,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 232,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uf, eso de decirle \"estoy de tu lado\" y esas cosas... yo no hablo así. En mi casa nunca hemos hablado así. Me saldría raro y él lo notaría, ¿no?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, si no sale natural, él lo nota. No hace falta que uses esas palabras.\n\n¿Cómo habláis normalmente tú y él? ¿Hay algo que hagáis juntos, algún momento del día que sea vuestro?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1112,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 70,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues sí, por las tardes a veces vemos el fútbol juntos. O le ayudo con algo en casa, no sé, cosas así. Sin mucho rollo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Pues ahí está. No necesitas un discurso. Puedes sentarte con él a ver el fútbol como siempre, y en algún momento, sin forzarlo, decirle algo como: \"Oye, lo que me contaste el otro día... no se me ha olvidado. Vamos a arreglarlo.\"\n\nPoco, directo, a tu manera. Y luego dejar que él hable si quiere, o no. Sin presión.\n\n¿Eso te suena más a ti?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1230,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 128,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso sí me sale más natural. Algo corto, sin montarle un drama. Vale, eso puedo hacerlo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecto. Corto, sin drama, a tu manera. Eso es lo que él necesita de ti.\n\nY esta noche, cuando lleguen tus hijos, cuéntales lo que sabes. Ellos tendrán que hablar con el colegio, eso es importante que no se quede solo en casa.\n\n¿Tienes claro cómo contárselo a ellos, o quieres pensar un momento cómo hacerlo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1396,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 114,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, eso ya me lo apaño yo. Con mis hijos sé hablar. Gracias, la verdad es que me has ayudado."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Tu nieto tiene suerte de tenerte.\n\nMucho ánimo con la conversación de esta noche.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1549,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

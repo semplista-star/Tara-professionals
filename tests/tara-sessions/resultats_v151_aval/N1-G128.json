@@ -1,0 +1,27 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 2,
+ "C4": 1,
+ "C5": 2,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat central (una frase contundent per al xat) i es va reajustar ràpidament quan Ibrahim la va corregir, tot i que en el torn 2 va fer una pregunta sobre el tipus de grup que no li havia estat demanada.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "un grupo de WhatsApp de clase con el director dentro es un canal un poco peculiar. ¿Es un grupo oficial del centro, o es algo que surgió de forma más informal entre familias o alumnado?",
+   "esperat": "Centrar-se en com respondre al xaval, sense desviar-se a classificar el grup; Ibrahim no havia demanat orientació sobre el canal"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿los insultos son hacia otros alumnos, hacia ti, o hacia ambos?",
+   "esperat": "Ibrahim ja havia dit que el problema era que el xaval l'ignorava quan ell intervenia; la distinció de destinatari dels insults no era necessària per redactar la frase demanada"
+  }
+ ]
+}

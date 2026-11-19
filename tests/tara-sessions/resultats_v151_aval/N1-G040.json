@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va escoltar bé els primers torns i va lliurar l'ajuda concreta quan es va demanar, però va afegir judicis valoratius i atribucions no expressades en els torns finals.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Que sembla que ella mateixa ja s'ho ha cregut.",
+   "esperat": "Reflectir el que la persona ha dit sense afegir una interpretació sobre l'estat intern de la Laia"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que no te'n puguis desfer.",
+   "esperat": "Una resposta que acompanyi sense recórrer a la fórmula validadora «té sentit»"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "La Laia té sort que algú ho hagi vist avui.",
+   "esperat": "Tancar sense jutjar ni elogiar; per exemple un simple «De res» o silenci de tancament"
+  },
+  {
+   "torn": 8,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "No és tard. Ho has vist, i ara fas alguna cosa.",
+   "esperat": "Acceptar el comiat sense rebatre ni reassegurar; la persona no havia demanat ser tranquil·litzada sobre si era tard o no"
+  }
+ ]
+}

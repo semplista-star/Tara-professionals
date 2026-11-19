@@ -1,0 +1,206 @@
+{
+ "id": "N1-G034",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "correccio · la preparació d'unes colònies amb un alumne amb crisis freqüents",
+ "tipus": "correccio",
+ "persona": "Elena, directora. Situació: la preparació d'unes colònies amb un alumne amb crisis freqüents. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:13:58.372Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, tengo un problema bastante gordo con las colonias de fin de curso. Hay un alumno, Martí, que tiene crisis epilépticas frecuentes. Y los maestros no quieren ir. Dicen que no están preparados, que es demasiada responsabilidad. Y yo entiendo que tienen miedo, pero también tengo que sacar esto adelante. No sé por dónde empezar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Estás en medio de dos cosas legítimas a la vez: el miedo real de tu equipo y la necesidad de que Martí pueda ir a las colonias como el resto.\n\nAntes de pensar en cómo moverlo, ¿qué tienes ya? Es decir: ¿hay un protocolo médico de Martí, contacto con la familia, algún tipo de apoyo sanitario previsto, o estás empezando desde cero?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 238,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 115,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Protocolo médico sí tenemos, la familia nos lo dio al principio de curso. Pero de ahí a que los maestros se sientan seguros hay un trecho enorme. Y apoyo sanitario... nada. No tenemos nada previsto. Eso es justo lo que no sé cómo gestionar. ¿Cómo consigo que haya alguien con formación que pueda venir?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien, entonces el protocolo existe — eso es una base importante. El salto que necesitas dar es de \"tenemos el papel\" a \"hay una persona formada presente\". Eso cambia mucho la ecuación para los maestros también.\n\nAlgunas vías concretas para conseguir apoyo sanitario:\n\n**Dentro del sistema educativo**\n- El equipo de atención a la diversidad o el EAP de tu zona puede orientarte sobre si hay figura de enfermería escolar o apoyo sanitario vinculado al centro. En algunas comunidades existe, en otras no.\n- La inspección educativa puede indicarte qué cobertura corresponde legalmente para actividades fuera del centro con alumnado con necesidades de salud.\n\n**Con la familia**\n- Preguntar directamente si estarían dispuestos a participar en las colonias, o si conocen a alguien (enfermera, familiar sanitario) que pudiera acompañar. Algunas familias lo proponen ellas mismas si se les abre esa puerta.\n\n**Con el sistema sanitario**\n- El pediatra o neurólogo de Martí puede emitir un informe con pautas claras de actuación y, a veces, indicar si el perfil de sus crisis permite que personal no sanitario actúe con formación básica. Eso puede ser clave para que los maestros se sientan respaldados.\n- En algunos territorios, Cruz Roja u otras entidades ofrecen acompañamiento sanitario en actividades de tiempo libre.\n\n**Lo que suele desbloquear a los equipos**\nNo es solo tener a alguien — es saber exactamente qué hacer en los primeros minutos. Una sesión de formación breve, con el protocolo de Martí en mano, puede transformar el miedo en competencia.\n\n¿Por dónde te parece más viable empezar, o hay alguna de estas vías que ya descartaste?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 458,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. Yo no he dicho que los maestros tengan miedo. He dicho que dicen que no están preparados. No es lo mismo. Y tampoco he dicho que quiera convencerles de nada. Lo que necesito es saber si legalmente puedo obligarles a ir."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, he ido demasiado lejos con lo que no dijiste. Te escucho.\n\nSobre la pregunta legal: es una pregunta importante y la respuesta honesta es que no tengo acceso a la normativa específica de tu comunidad ni a los convenios colectivos aplicables, y eso importa mucho aquí. Lo que puedo decirte con seguridad es que **la inspección educativa y el servicio jurídico de tu administración educativa son quienes pueden darte una respuesta vinculante** sobre si puedes asignar esta actividad como parte de las obligaciones del puesto.\n\nLo que sí puedo decirte en términos generales:\n\n- Las actividades complementarias y extraescolares tienen un régimen específico en los convenios docentes, y la obligatoriedad varía.\n- La presencia de un alumno con necesidades de salud puede añadir una capa adicional, porque los maestros pueden alegar falta de formación específica como argumento ante una posible negativa.\n\nAntes de ir a inspección, ¿tienes claro si la negativa es de todo el equipo o de personas concretas? Eso puede cambiar cómo planteas la consulta.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1008,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 300,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "De momento son dos los que se han negado. El resto no ha dicho nada todavía. Pero si esos dos no van, el ratio no sale y las colonias no salen. Así que necesito que vayan esos dos, o encontrar a alguien más. Y no sé qué es más rápido."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Dos caminos en paralelo, y el tiempo apremia.\n\n**Sobre los dos que se han negado**\nLa consulta a inspección o al servicio jurídico sigue siendo el paso que te da base para actuar. Sin saber si puedes asignarles la actividad, no sabes si estás negociando o ejerciendo una facultad directiva. Esa llamada puede ser rápida.\n\n**Sobre encontrar a alguien más**\nDepende de qué figura admite tu centro para cubrir ratio en una actividad así. Algunas opciones que no requieren semanas:\n- Otro docente del centro que no haya dicho nada todavía — a veces basta con preguntar directamente antes de que la situación se enquiste.\n- Personal de apoyo o monitor con habilitación, si tu normativa lo permite para colonias.\n- Un maestro de otro centro, si hay acuerdo entre direcciones y la administración lo autoriza.\n\n**Lo más rápido probablemente**\nHacer las dos cosas hoy o mañana: llamar a inspección para saber qué margen tienes con los dos que se negaron, y preguntar al resto del equipo antes de que la negativa de los dos se convierta en el relato dominante.\n\n¿Tienes acceso directo a inspección o necesitas ir por otra vía?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1388,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 337,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, tengo contacto directo. Eso no es el problema. El problema es que no sé qué decirles exactamente. No quiero llamar y quedar como que no sé lo que hago."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido. Llamar con la pregunta bien formulada es muy distinto a llamar a ver qué te dicen.\n\nUna forma de plantearlo que transmite que tienes el control de la situación:\n\n---\n\n*\"Tengo una actividad de colonias de fin de curso. Hay un alumno con epilepsia con protocolo médico en vigor. Dos docentes han manifestado que no se consideran preparados para acompañar la actividad y han declinado participar. Necesito saber si, en el marco de sus obligaciones, puedo asignarles esta actividad, y qué respaldo tiene esa decisión si la impugnan.\"*\n\n---\n\nEso sitúa el problema con precisión: tienes el protocolo, tienes la actividad, tienes una negativa concreta, y quieres saber qué margen tienes. No es una consulta de alguien que no sabe lo que hace — es una directora que quiere actuar con base.\n\n¿Te encaja ese tono, o lo ajustamos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1780,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 254,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, más o menos. Pero lo de \"han declinado participar\" suena demasiado suave. Han dicho que no van. Punto."
+  },
+  {
+   "qui": "TARA",
+   "text": "Mejor así, sí. Más directo:\n\n---\n\n*\"Tengo una actividad de colonias de fin de curso. Hay un alumno con epilepsia con protocolo médico en vigor. Dos docentes se han negado a participar. Necesito saber si puedo asignarles la actividad en el marco de sus obligaciones, y qué respaldo tiene esa decisión si la impugnan.\"*\n\n---\n\n¿Así está bien, o cambias algo más?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2076,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 119,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Así está mejor. Esto ya me sirve. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Suerte con la llamada. Espero que salgan las colonias.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2214,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 21,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, yo también. Adiós."
+  },
+  {
+   "qui": "TARA",
+   "text": "Adiós.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 2250,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "id": "N1-G041",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "desfogar-demanda · insults en el grup de WhatsApp de la classe",
+ "tipus": "desfogar-demanda",
+ "persona": "Ibrahim, profesora sustituta. Situació: insults en el grup de WhatsApp de la classe. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:13:48.395Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hoy solo necesito que alguien me escuche, sin consejos ni nada. ¿Puedes hacer eso?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Aquí estoy. Cuéntame lo que necesites.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 170,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es que hoy ha sido un día horrible. Soy profesora sustituta en un instituto y me he enterado de que los alumnos tienen un grupo de WhatsApp donde me están insultando. Cosas muy feas. Y lo peor es que no sé desde cuándo lleva pasando esto, ni si los otros profes lo saben. Me siento fatal."
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué golpe tan duro. Enterarte de eso, sin saber desde cuándo ni quién más lo sabe... es muy difícil de sostener.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 283,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 43,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto. Y encima como soy sustituta parece que no pinto nada, ¿sabes? Como que no tengo el mismo peso que los otros profes. Me da rabia porque yo me esfuerzo igual que cualquiera."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso duele especialmente: esforzarte igual y sentir que no te ven igual. La rabia tiene mucho sentido.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 391,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 35,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Y me siento un poco sola con esto también. No sé si contárselo a alguien del centro o si van a pensar que no sé manejar a los alumnos. Es un lío."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cargarlo sola, sin saber si te van a entender o juzgar... eso añade mucho peso a algo que ya es difícil de por sí.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 482,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 44,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, justo. Bueno... oye, ya que estás aquí, ¿me puedes ayudar con una cosa concreta? Solo necesito saber cómo empezar, un primer paso. ¿Cómo le digo esto al jefe de estudios sin que parezca que estoy quejándome o que no controlo la clase?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Una forma de empezar podría ser ir a los hechos, sin interpretaciones:\n\n*\"Quiero contarte algo que me he enterado hoy. Hay un grupo de WhatsApp donde algunos alumnos están publicando insultos hacia mí. No sé desde cuándo ni el alcance. Quería que lo supieras.\"*\n\nAsí informas, no te quejas. Y dejas que sea él quien tome las riendas de lo que corresponde hacer institucionalmente, que es su responsabilidad, no la tuya.\n\n¿Te encaja ese tono, o hay algo que cambiarías?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 618,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 151,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, me encaja. Es directo y no parece que esté dramatizando. Me lo apunto. Gracias, de verdad, me ha ayudado hablar un poco y tener ese primer paso claro."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te haya servido. Suerte mañana con esa conversación.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 825,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. Lo voy a necesitar. Hasta luego."
+  },
+  {
+   "qui": "TARA",
+   "text": "Hasta luego. Cuídate.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 869,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

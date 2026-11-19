@@ -1,0 +1,185 @@
+{
+ "id": "N1-G076",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "desfogar-demanda · un alumne que es riu dels companys amb necessitats educatives",
+ "tipus": "desfogar-demanda",
+ "persona": "Rosa, directora. Situació: un alumne que es riu dels companys amb necessitats educatives. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:16:03.549Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, hoy solo necesito que me escuchen, ¿vale? No quiero consejos ni nada de eso. Solo... que estén aquí."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estoy.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 182,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 9,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es que tengo un alumno, de sexto, que se ríe de los compañeros con necesidades. Y no es una risa tonta de crío, ¿sabes? Es con mala leche. Y me ha llegado hoy y... joder, me ha removido mucho."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te ha removido de verdad. No es fácil ver eso, y menos cuando sabes que detrás hay algo más que una risa.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 264,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 37,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacto. Porque claro, tú ves eso y piensas... ¿qué está pasando en casa? ¿Qué ha aprendido este niño? Y a la vez te da rabia, porque los otros chavales lo están pasando mal. Es que no sé, es una mezcla rara de rabia y pena a la vez."
+  },
+  {
+   "qui": "TARA",
+   "text": "Rabia por los que lo están pasando mal, y pena cuando te preguntas qué hay detrás de ese niño. Las dos cosas a la vez, sin que se anulen.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 392,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 49,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, justo eso. Y encima tienes que gestionar las dos cosas a la vez, ¿no? Que no se te note demasiado la rabia delante del crío, pero tampoco puedes ignorar lo que ha pasado. Es agotador. Hoy ha sido un día largo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Un día largo, con eso encima. Tiene sentido que estés agotada.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 520,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... gracias por decirlo. Oye, y ya que estás aquí... ¿me podrías ayudar con una cosa concreta? Solo un primer paso, algo pequeño, para mañana cuando hable con el alumno."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. ¿Qué tienes en mente para ese momento, cómo lo imaginas?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 607,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues no sé, por eso te lo pregunto. Algo sencillo, una frase o por dónde empezar la conversación con él, sin que se ponga a la defensiva desde el minuto uno."
+  },
+  {
+   "qui": "TARA",
+   "text": "Podrías empezar por lo que viste, sin juicios todavía. Algo como:\n\n«Hoy he visto algo que quiero entender mejor. ¿Me cuentas qué pasó desde tu punto de vista?»\n\nAsí le das espacio para hablar antes de que sienta que ya has decidido algo sobre él.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 692,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 86,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Eso está bien. Es sencillo y no le pones en modo defensa desde el principio. Me lo apunto. Gracias, de verdad, que hoy necesitaba esto."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido. Descansa, que hoy lo has llevado bien.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 826,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

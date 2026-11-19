@@ -1,0 +1,27 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 2,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va entendre des del primer torn que Rosa volia desfogar-se sense consells i es va mantenir en mode escolta fins al tancament natural.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Quina càrrega has portat sola tots aquests dies, sabent-ho però sense poder dir res.",
+   "esperat": "Reflectir el que Rosa havia dit explícitament sense afegir 'sola' ni 'sense poder dir res', que són inferències no expressades per ella"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "intentant no trair ningú… és molt per portar",
+   "esperat": "Reflectir la tensió de bàndols que Rosa havia descrit sense afegir el marc moral de 'trair', que és una interpretació de TARA"
+  }
+ ]
+}

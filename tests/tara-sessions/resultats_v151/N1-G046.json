@@ -1,0 +1,119 @@
+{
+ "id": "N1-G046",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "mixta · un grup disruptiu a última hora",
+ "tipus": "mixta",
+ "persona": "Xavi, orientadora. Situació: un grup disruptiu a última hora. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:14:20.860Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, estoy hasta las narices. Tengo un grupo de 4º que a última hora es imposible, hoy han estado fatal y encima el tutor me dice que \"algo habrá pasado\" como si yo tuviera la culpa. Necesito una estrategia concreta para la próxima sesión, algo que funcione de verdad, no teoría."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Grupo difícil a última hora, y encima sintiéndote cuestionada por el tutor. Vamos a lo concreto.\n\nPara darte algo que realmente encaje, necesito una cosa: ¿qué pasa exactamente en esa última hora? ¿Se dispersan, hay conflictos entre ellos, te desafían directamente, no hacen nada...?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 227,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 102,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Se dispersan, hablan entre ellos, se levantan sin pedir permiso... y cuando intento reconducirlo se hacen los graciosos. No me faltan el respeto de forma grave, pero es un desgaste constante. Y yo llego ya cansada también, claro."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene todo el sentido que sea agotador, ese desgaste sostenido es muy real.\n\nAquí van tres estrategias concretas para la próxima sesión. No son teoría, son palancas que suelen mover algo en ese perfil de grupo:\n\n---\n\n**1. Ritual de entrada de dos minutos**\nAntes de empezar, algo breve y predecible que marque el cambio de modo. Puede ser: escriben en silencio una frase (lo que recuerdan de la sesión anterior, o una pregunta sobre el tema), o simplemente 90 segundos con una tarea visible en la pizarra desde que entran. El objetivo es cortar la inercia del recreo o del pasillo antes de que se instale.\n\n**2. Estructura en bloques cortos con cambio de actividad**\nA última hora la atención cae. Si tienes 50 minutos, plantea dos o tres bloques distintos (10-15 min cada uno) con transiciones claras. Cuando saben que \"esto acaba pronto y viene otra cosa\", la dispersión baja.\n\n**3. Gestión de los momentos de gracia sin entrar al juego**\nCuando se hacen los graciosos, responder o reconducir en voz alta les da el escenario que buscan. Una alternativa: nombrar lo que ves sin dramatismo (\"Veo que estáis activados, damos un minuto y arrancamos\") y seguir. Si hay uno o dos que lideran esa dinámica, una palabra en privado antes o después de clase suele ser más efectiva que la corrección pública.\n\n---\n\n¿Cuánto tiempo dura la sesión y qué materia es? Con eso puedo ayudarte a concretar más si quieres.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 401,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 437,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, lo del ritual de entrada me suena bien, eso sí lo puedo probar. Pero lo de \"veo que estáis activados\" no me convence, me parece demasiado blando para cómo están ellos. ¿Tienes algo más directo para esos momentos?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido. Hay momentos en que esa formulación suena a que estás cediendo terreno, y con este grupo igual no es lo que necesitas.\n\nAlgo más directo, sin entrar al juego:\n\n**Pausa con coste.** Paras la clase en seco, en silencio, y esperas. Sin explicar, sin negociar. Cuando pregunten qué pasa, dices con calma: \"Cuando estéis listos, seguimos.\" Es incómodo para ellos, no para ti. La clave es que no te muevas hasta que el grupo reencaje, aunque tarde un minuto.\n\n**Nombrar la conducta, no el estado.** En vez de \"estáis activados\", algo como: \"Lleváis tres minutos sin escuchar. Paramos aquí hasta que cambie eso.\" Concreto, sin dramatismo, sin subir el tono. No es blando ni agresivo, es preciso.\n\n**Redirigir a uno, no al grupo.** Si hay alguien que está tirando del hilo gracioso, te diriges a esa persona directamente con una tarea concreta: \"Tú, lee el siguiente párrafo\" o \"Explícame lo que acabo de decir.\" Saca a esa persona del rol sin confrontación pública.\n\n---\n\nLo que tienen en común estas tres: no suben la tensión, pero tampoco la evitan. Tú mantienes el control sin desgastarte en una batalla de palabras.\n\n¿Alguna de estas encaja mejor con tu estilo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 917,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 385,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, lo de parar en seco y esperar me gusta más, eso sí lo veo. Bueno, voy a probar esto la semana que viene. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Suerte la semana que viene. Si quieres contarme cómo ha ido, aquí estaré.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1352,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

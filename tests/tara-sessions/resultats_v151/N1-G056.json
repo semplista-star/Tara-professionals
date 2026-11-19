@@ -1,0 +1,118 @@
+{
+ "id": "N1-G056",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "mixta · molta burocràcia i sensació de no arribar",
+ "tipus": "mixta",
+ "persona": "Carmen, coordinador de convivencia. Situació: molta burocràcia i sensació de no arribar. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:15:00.383Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, estoy bastante agotada. Llevo semanas acumulando informes, actas, protocolos... y siento que no llego a nada de lo que realmente importa, que es estar con los alumnos y las familias. Necesito que me ayudes a redactar un correo para mi equipo directivo explicando que necesito reducir la carga burocrática o al menos reorganizarla. Algo serio, que se note que la situación es insostenible, pero sin sonar a queja vacía."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ese agotamiento de fondo, cuando la burocracia se come justo lo que te hizo elegir este trabajo, es muy real.\n\nAquí tienes un borrador. Lo he escrito en tono profesional y directo, con datos que tú puedes concretar:\n\n---\n\n**Asunto: Propuesta de reorganización de la carga administrativa — solicitud de reunión**\n\nEstimado/a [nombre o equipo directivo]:\n\nMe dirijo a vosotros para trasladar una situación que considero necesario abordar de forma conjunta.\n\nEn las últimas semanas, una parte significativa de mi tiempo de trabajo se está destinando a tareas administrativas —informes, actas, protocolos y registros— que, aunque necesarias, están reduciendo de manera considerable el tiempo disponible para la atención directa al alumnado y a las familias. Concretamente, calculo que [X horas semanales / X% de mi jornada] se dedican actualmente a estas tareas.\n\nNo planteo eliminar estos procedimientos, sino explorar si es posible reorganizarlos, priorizarlos o distribuirlos de otra manera para que no comprometan la función principal del puesto.\n\nMe gustaría proponer una reunión breve para compartir esta situación con más detalle y escuchar si hay margen de actuación desde el equipo directivo.\n\nQuedo a vuestra disposición.\n\n[Nombre y cargo]\n\n---\n\nDos cosas que puedes ajustar antes de enviarlo:\n\n- **El dato concreto de horas o porcentaje** le da peso real. Si puedes estimarlo, aunque sea aproximado, cambia mucho el tono.\n- **Si tienes alguna propuesta ya pensada** —delegar algo, cambiar plazos, usar plantillas— puedes añadirla. Llegar con una idea concreta suele facilitar que la conversación avance.\n\n¿Quieres que lo ajustemos, o te sirve así para empezar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 273,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias, está bien estructurado. Pero me queda un poco frío, demasiado neutro. Necesito que se note más el impacto real, que no es solo un problema de gestión del tiempo sino que está afectando a mi capacidad de hacer bien mi trabajo. Sin dramatizar, pero que se sienta."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Aquí va una versión con más peso en el impacto real:\n\n---\n\n**Asunto: Propuesta de reorganización de la carga administrativa — solicitud de reunión**\n\nEstimado/a [nombre o equipo directivo]:\n\nOs escribo porque hay algo que necesito poner sobre la mesa.\n\nEn las últimas semanas, la acumulación de tareas administrativas —informes, actas, protocolos, registros— ha llegado a un punto en que está afectando directamente a mi capacidad de hacer bien mi trabajo. No es una cuestión de organización personal: es que el tiempo y la energía que requieren estas tareas son los mismos que necesito para atender al alumnado y a las familias con la calidad que el puesto exige.\n\nHay situaciones concretas que me preocupan: [aquí puedes añadir uno o dos ejemplos reales, sin identificar a nadie — una tutoría que no pudo hacerse, una familia que esperó más de lo razonable, una intervención que llegó tarde].\n\nNo vengo a quejarme sin más. Vengo a pedir que busquemos juntos si hay margen para reorganizar, priorizar o redistribuir parte de esta carga, porque creo que hay algo que mejorar y que vale la pena intentarlo.\n\nMe gustaría poder hablar de esto en una reunión breve cuando tengáis disponibilidad.\n\nGracias por leerlo.\n\n[Nombre y cargo]\n\n---\n\nEl cambio clave está en ese hueco de los ejemplos concretos. Si puedes poner aunque sea uno, sin nombres, es lo que convierte el correo de una queja general en algo que el equipo directivo puede ver y tomar en serio.\n\n¿Tienes algún ejemplo así que quieras incluir, o prefieres dejarlo abierto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 836,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 453,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, esto ya se acerca más. Me sirve. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Suerte con la conversación — parece que ya sabes bien lo que quieres decir.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1311,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. A ver si sirve de algo. Hasta luego."
+  },
+  {
+   "qui": "TARA",
+   "text": "Hasta luego. Espero que abra algo. Cuídate.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1361,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

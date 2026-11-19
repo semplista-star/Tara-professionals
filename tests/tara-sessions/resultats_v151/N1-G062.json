@@ -1,0 +1,73 @@
+{
+ "id": "N1-G062",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "breu · una reunió de claustre molt tensa",
+ "tipus": "breu",
+ "persona": "Dolors, educador social del centro. Situació: una reunió de claustre molt tensa. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:14:36.849Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tengo dos minutos. Necesito una frase para calmar el ambiente en el claustro, que está muy tenso. Algo concreto."
+  },
+  {
+   "qui": "TARA",
+   "text": "Prueba con algo así:\n\n**«Antes de seguir, necesito pediros un momento de pausa. Hay cosas importantes que decir, y quiero que podamos escucharnos.»**\n\nBreve, sin señalar a nadie, y abre espacio sin imponer.\n\n¿Te sirve o ajustamos el tono?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 174,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 86,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecto, gracias. Me voy."
+  },
+  {
+   "qui": "TARA",
+   "text": "Suerte.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 274,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

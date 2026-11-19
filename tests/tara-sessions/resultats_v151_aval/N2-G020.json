@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat central (com parlar amb la tutora), però al torn 3 va passar a mode instructiu i va lliurar un guió llarg que la persona no havia demanat, cosa que va provocar una correcció directa.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Una cosa que de vegades ajuda és passar de descriure el problema en general a demanar alguna cosa concreta i amb data. Per exemple, en lloc de \"el meu fill diu que el molesta\", dir: \"Vull que parlem de tres situacions concretes...\"",
+   "esperat": "Lliurar directament una frase concreta i breu, sense el marc explicatiu ni la pregunta final sobre situacions recents"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Tens alguna situació concreta recent que puguis portar a la conversa?",
+   "esperat": "No calia obrir un nou fil; la persona havia demanat ajuda per parlar amb la tutora, no per preparar contingut"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Una cosa que de vegades ajuda és passar de descriure el problema en general a demanar alguna cosa concreta i amb data. Per exemple, en lloc de \"el meu fill diu que el molesta\", dir: \"Vull que parlem de tres situacions concretes que ha viscut el meu fill aquesta setmana. Necessito saber què fareu i quan em donareu una resposta.\"",
+   "esperat": "Una sola frase directa, sense explicació del perquè ni exemple extens"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "I si et diu que sí, ja tens el moment per explicar-li el que portes.",
+   "esperat": "Res o un tancament breu; la persona ja havia dit «gràcies» i no havia demanat orientació sobre el pas següent"
+  }
+ ]
+}

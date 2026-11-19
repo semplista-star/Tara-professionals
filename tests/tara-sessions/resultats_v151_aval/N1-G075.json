@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat principal (opcions concretes) però va afegir preguntes i validacions no demanades en moments en què la persona ja havia donat prou informació per actuar.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Qué te ha dicho el alumno sobre por qué quiere cambiarse?",
+   "esperat": "La persona ja havia dit que l'alumne 'no encaja'; amb això n'hi havia prou per oferir opcions o demanar una sola cosa concreta sense convertir-ho en un interrogatori previ"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Esa duda tiene mucho sentido, y es una distinción importante.",
+   "esperat": "Ometre la validació formulaica i anar directament a les opcions, que és el que la persona havia demanat"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "La mayoría de profesionales en tu lugar elegirían esta tercera opción antes de decidir.",
+   "esperat": "Presentar les tres opcions de manera neutral sense inclinar la balança; la persona havia demanat opcions, no una recomanació"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Hay algo que ya hayas observado en el grupo que te haga inclinar hacia alguna de estas opciones?",
+   "esperat": "La persona havia demanat opcions concretes; un cop donades, el torn podia tancar-se o deixar que ella respongués lliurement sense una nova pregunta"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "¿Quieres que preparemos juntos cómo conducir esa conversación, o con esto ya tienes suficiente para empezar?",
+   "esperat": "La resposta ja era completa; la pregunta final allarga el torn i obre una nova negociació que la persona no havia demanat"
+  }
+ ]
+}

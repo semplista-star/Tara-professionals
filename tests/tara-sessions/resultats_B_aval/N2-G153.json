@@ -1,0 +1,34 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entendió que Óscar pedía ser escuchada primero y solo en el turno 4 pidió ayuda concreta, y respondió en consecuencia en cada momento.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "no es solo el enfado — es el querer y el cansancio a la vez, y las dos cosas son verdad",
+   "esperat": "Reflejar lo que la persona ha expresado sin añadir ni confirmar estados internos no formulados explícitamente; p.ej. quedarse con 'el querer y el cansancio' sin el juicio 'las dos cosas son verdad'"
+  },
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "que lo has dicho muy bien",
+   "esperat": "Evitar el elogio evaluativo; la persona no necesita que TARA valide su forma de expresarse"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "El niño tiene ocho años y ya nota que algo no cuadra — no necesita que le des una respuesta perfecta, solo que no le añadas más confusión encima",
+   "esperat": "Dar la frase pedida y parar; la explicación sobre lo que el niño necesita o no es un añadido no solicitado que roza el sermón"
+  }
+ ]
+}

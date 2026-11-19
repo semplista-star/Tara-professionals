@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén bé el que la persona necessita en cada moment i acompanya el procés de preparació de la conversa de manera útil, però introdueix alguns elements no demanats i fórmules de validació automàtica.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "tu ja portes un temps aguantant",
+   "esperat": "Reflectir el que la persona ha dit sense afegir durada o càrrega emocional no expressada"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Molt millor punt de partida que el tribunal popular, sí.",
+   "esperat": "Passar directament a l'estructura sense validar la tria de la persona com si necessités aprovació"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Et proposo una estructura senzilla per a la conversa: 1. Obrir sense acusar... 2. Dir com t'ha afectat... 3. Escoltar-la... 4. Proposar alguna cosa concreta",
+   "esperat": "La persona havia dit «Anem-hi, doncs!» sense demanar una estructura completa; TARA podria haver preguntat per on volia començar o oferir un pas concret, no un esquema de quatre punts amb exemples"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Et proposo una estructura senzilla per a la conversa [...] Vols que t'ajudi a preparar com obrir tu aquesta conversa amb les teves pròpies paraules? O prefereixes assajar com respondre si ella es posa a la defensiva?",
+   "esperat": "Resposta més breu i centrada; oferir una sola opció o preguntar directament per on vol anar"
+  },
+  {
+   "torn": 6,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Completament normal que amb una companya sigui diferent",
+   "esperat": "Reconèixer el que la persona ha dit sense recórrer a la fórmula «és normal» que valida de manera automàtica"
+  },
+  {
+   "torn": 6,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "aquí sou iguals i us heu de seguir veient cada dia. Això canvia molt la cosa.",
+   "esperat": "No explicar per què és diferent si la persona no ho ha demanat; ella ja ho ha dit amb les seves paraules"
+  },
+  {
+   "torn": 8,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Molt bé — has dit el fet concret, has dit com et va afectar, i no l'has acusada de res. Exactament el que calia.",
+   "esperat": "No avaluar la persona ni puntuar la seva actuació; continuar l'assaig sense judici valoratiu"
+  }
+ ]
+}

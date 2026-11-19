@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entendió desde el primer turno que Fàtima necesitaba una frase concreta para usar de inmediato y la entregó sin rodeos, ajustándola cuando se pidió.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Reconoce su preocupación, no entra en el debate de a quién culpar, y abre la puerta a una conversación real.",
+   "esperat": "La frase ya se explica sola; el comentario meta no era necesario y alarga la respuesta"
+  },
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Si en ese momento insisten en los profesores, puedes añadir: «Eso es exactamente lo que queremos revisar juntos...»",
+   "esperat": "Fàtima solo pidió una frase para abrir el diálogo, no variantes para objeciones; ofrecerlas sin que las pidiera añade carga innecesaria"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "y tiene todo el sentido",
+   "esperat": "Validación convertida en fórmula; mejor omitirla o integrarla de forma más natural en la frase propuesta"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "¡Ánimo!",
+   "esperat": "Cierre neutro o simplemente ninguno; la exclamación animadora roza el apego simulado sin aportar nada"
+  }
+ ]
+}

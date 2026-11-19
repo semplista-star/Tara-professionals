@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé el que necessitava Marc en cada moment i va gestionar correctament el límit del canal, però va incórrer en atribucions no expressades, elogis automàtics i respostes llargues que no sempre eren proporcionals al que es demanava.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Entenc que estàs en una situació complicada, amb la pressió de la família a sobre",
+   "esperat": "Reconèixer breument sense formular una atribució d'estat no expressada; Marc no havia dit que sentia pressió"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Entenc la pressió que sents — la família insisteix i tu necessites respondre'ls amb alguna cosa.",
+   "esperat": "Reflectir el que Marc ha dit explícitament sense afirmar com a fet un estat intern no declarat"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Les conductes que describes necessiten una mirada més àmplia que la que cap mestre pot tenir tot sol dins l'aula.",
+   "esperat": "Confirmar el pas que Marc ja ha decidit sense afegir una valoració pedagògica no sol·licitada"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Per explicar un cas a orientació de manera útil, normalment ajuda tenir clar quatre coses: 1. Què has observat exactament... 2. Des de quan... 3. En quins contextos passa més... 4. Què has provat fins ara.",
+   "esperat": "Estructura útil però podria ser més concisa; el format amb negretes i quatre apartats és lleugerament excessiu per a un canal N1"
+  },
+  {
+   "torn": 7,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "Que es quedi parat i li surtin llàgrimes diu que no és indiferent al que passa — que hi ha alguna cosa que el desborda i que ell mateix no acaba d'entendre o de controlar.",
+   "esperat": "Registrar l'observació sense interpretar l'estat intern del nen com a fet; és una hipòtesi que s'hauria de formular com a tal o ometre"
+  },
+  {
+   "torn": 8,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "el fet que ho vegis així ja és molt",
+   "esperat": "Ometre el judici valoratiu sobre la persona i anar directament a ajudar-lo a preparar la conversa"
+  },
+  {
+   "torn": 8,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "sovint el que més necessiten no és una solució immediata, senseó saber que el seu fill està en bones mans i que algú s'ho està prenent seriosament.",
+   "esperat": "No atribuir necessitats a la família sense base en el que Marc ha dit; formular-ho com a hipòtesi o ometre-ho"
+  },
+  {
+   "torn": 8,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Això transmet tres coses: que els has escoltat, que estàs actuant, i que no vas sol. Sense prometre res que no puguis complir.",
+   "esperat": "El guió ja és suficient; el comentari explicatiu posterior és innecessari i allarga la resposta"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad de Óscar en cada momento: primero escuchar, luego explicar el límite, luego preparar la conversación paso a paso.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "hay trabajo que no se está repartiendo como debería, y tú estás cargando con más de lo que te toca. Eso es real",
+   "esperat": "Reflejar lo que Óscar ha descrito sin validar como hecho objetivo que la compañera no cumple su parte"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Lo que hiciste tiene sentido",
+   "esperat": "Omitir la validación formulaica o reformularla de modo más específico y menos automático"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Qué es lo que más te preocupa ahora mismo — que el proyecto salga mal, la relación con ella, o las dos cosas?",
+   "esperat": "Óscar ya había mencionado ambas preocupaciones implícitamente; la pregunta retrasa la ayuda sin añadir información nueva"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "lo que resolvería la situación a largo plazo es que puedas tenerla tú esa conversación, porque vais a seguir trabajando juntos",
+   "esperat": "Explicar el límite sin añadir el argumento pedagógico de por qué es mejor que lo resuelva él; eso no le fue pedido"
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Tienes razón en algo importante: no sabes qué está pasando en su lado, y eso es honesto reconocerlo.",
+   "esperat": "Evitar el elogio valorativo; basta con reflejar la observación sin calificarla de honesta o correcta"
+  },
+  {
+   "torn": 7,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Fíjate: no la acusas de nada, no dices que no está haciendo su parte. Solo dices que estás agobiado y que quieres verlo juntos. Eso abre la puerta sin ponerla a la defensiva.",
+   "esperat": "Ofrecer la frase modelo y preguntar si le suena bien, sin el párrafo explicativo que Óscar no pidió"
+  },
+  {
+   "torn": 8,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Me gusta que lo estés ajustando a tu estilo",
+   "esperat": "Omitir el elogio automático y pasar directamente al siguiente paso que Óscar pidió"
+  }
+ ]
+}

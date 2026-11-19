@@ -1,0 +1,162 @@
+{
+ "id": "N2-G097",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "correccio · arribar tard els caps de setmana",
+ "tipus": "correccio",
+ "persona": "Marta, familia de acogida. Situació: arribar tard els caps de setmana. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:28:40.916Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara. Mira, tengo un tema con el chico que tenemos en acogida, el Dani. Tiene 15 años y los fines de semana llega tarde, más de lo acordado. No es que sea un desastre, pero ya va siendo la tercera o cuarta vez y no sé muy bien cómo hablar con él sin que se convierta en un drama de telenovela."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entiendo, ya empieza a ser un patrón y quieres cortarlo antes de que se enquiste, pero sin que la conversación se convierta en un choque.\n\n¿Qué suele pasar cuando lo sacas el tema — se cierra, se pone a la defensiva, lo minimiza?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 266,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 78,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues la verdad es que se encoge de hombros y dice \"ya, ya\" pero con esa cara de \"me estás aburriendo\". No se pone agresivo ni nada, simplemente... desaparece un poco. Como si bajara una persiana. Y yo me quedo ahí hablando sola, que es un poco ridículo, la verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, hablar con una persiana bajada es agotador. Y encima con la sensación de que el discurso se lo sabe de memoria antes de que empieces.\n\nA veces con esa respuesta —el \"ya, ya\" y el encogerse— lo que funciona es ir más corto y más concreto, sin dar margen a que baje la persiana. Algo así como plantear una sola cosa y esperar su respuesta de verdad, en lugar de explicar.\n\nPor ejemplo, podrías decirle algo como:\n\n*\"Dani, el sábado llegaste una hora tarde. Necesito que me digas qué pasó.\"*\n\nSin más por delante. Y luego esperar, aunque haya silencio. El silencio a veces hace más que el discurso.\n\n¿Te ves diciéndole algo así, o hay algo que te frena?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 437,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 220,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. No he dicho que no me vea capaz de decírselo. Lo que me preocupa no es arrancar la conversación, es qué hago cuando me suelta el \"ya, ya\" y punto. Ahí es donde me quedo sin saber cómo seguir sin acabar yo dando el sermón de veinte minutos que precisamente quiero evitar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, me adelanté. Vamos a lo que te preocupa de verdad.\n\nCuando suelta el \"ya, ya\" y punto, una opción es no seguir hacia adelante sino quedarte justo ahí:\n\n*\"Ya, ya... ¿qué significa eso para ti?\"*\n\nO más directo todavía:\n\n*\"¿Eso es un 'lo entiendo' o un 'me da igual'?\"*\n\nNo es agresivo, pero le devuelve la pelota. Él tiene que decir algo más que dos sílabas, y tú no has tenido que dar ningún sermón.\n\nLa clave es que después de esa pregunta, tú te callas. Lo que venga —aunque sea otro silencio o un gruñido— ya es más información que el \"ya, ya\".",
+   "tags": [],
+   "usage": {
+    "input_tokens": 754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 206,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, eso me gusta más. Lo del \"¿eso es un 'lo entiendo' o un 'me da igual'?\" tiene gracia, porque es difícil no contestar algo a eso. Oye, y una cosa práctica: ¿me puedes ayudar a preparar cómo empezar la conversación? O sea, las primeras frases, que es donde siempre me lío y acabo haciendo el discurso sin querer."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Te propongo una apertura corta, en tres movimientos:\n\n**1. El hecho, sin adornos**\n*\"Dani, esta semana llegaste tarde otra vez.\"*\n\n**2. Lo que necesitas, en una frase**\n*\"Necesito que cumplamos el horario que acordamos, o que me avises si hay un problema.\"*\n\n**3. La pregunta que le da turno a él**\n*\"¿Qué ha pasado estas veces?\"*\n\nY ahí te paras. Sin explicar por qué es importante, sin recordarle las otras veces, sin anticipar sus excusas. Ya lo sabe todo eso.\n\nSi quieres puedes ajustar el tono o las palabras a como hablas tú normalmente con él, que eso también cuenta.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1077,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 200,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, así está bien. Es lo suficientemente corto como para que no me dé tiempo a irme por las ramas. Lo del \"¿qué ha pasado estas veces?\" me gusta porque no le estoy acusando de nada, solo le pregunto. Creo que con esto ya tengo bastante para intentarlo. Muchas gracias, Tara."
+  },
+  {
+   "qui": "TARA",
+   "text": "De nada. Tienes el arranque, tienes la pregunta para cuando baje la persiana. Ya está todo lo que necesitas para intentarlo.\n\nSuerte con Dani.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1370,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 47,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. A ver si esta vez la persiana sube un poco. ¡Hasta luego!"
+  },
+  {
+   "qui": "TARA",
+   "text": "¡Hasta luego! Ojalá suba aunque sea un centímetro.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1445,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 35,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

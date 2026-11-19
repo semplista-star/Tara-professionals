@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va seguir bé el fil general però va anticipar necessitats no demanades i va atribuir estats interns al fill sense base expressa.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "quan penses en parlar amb ell, què t'importa més — entendre per què li ha anat així, o deixar clar el que esperes d'ell a partir d'ara?",
+   "esperat": "La persona ja havia dit clarament que volia preparar la conversa; TARA podia oferir directament un primer enfocament sense demanar que triés entre dues opcions."
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit.",
+   "esperat": "Ometre la validació formulaica i passar directament a l'ajuda pràctica."
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "sovint no és que no vulgui parlar — és que no sap per on agafar-ho, o que té por de la reacció",
+   "esperat": "Formular-ho com a hipòtesi oberta: «pot ser que no sàpiga per on agafar-ho, o que tingui alguna preocupació» en lloc d'afirmar-ho com a explicació."
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Jo sé que ets capaç de fer-ho millor.",
+   "esperat": "Evitar posar en boca de la mare una afirmació valorativa sobre el fill que pot sonar a pressió encoberta; proposar una frase que expressi confiança sense jutjar la capacitat."
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Tens alguna idea de quan vols tenir aquesta conversa?",
+   "esperat": "La persona no havia demanat ajuda per decidir el moment; la pregunta allarga el torn sense valor afegit."
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "És una pregunta pràctica i té diverses respostes possibles. 1) Professor particular… 2) Reforç escolar… 3) Un company… 4) Recursos en línia… Hi ha alguna d'aquestes opcions que et sembli més realista per la vostra situació?",
+   "esperat": "Llistar les opcions de manera més breu i no afegir una pregunta de seguiment quan la persona no l'havia demanat; el tancament posterior confirma que ja tenia prou."
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Una cosa que pots fer és deixar que ell participi en la decisió. Si li preguntes «com creus que t'aniria millor rebre ajuda?», li dones responsabilitat i és més probable que s'hi impliqui.",
+   "esperat": "La mare havia demanat opcions de suport acadèmic, no consell sobre com implicar el fill en la decisió; aquest afegit no havia estat sol·licitat."
+  }
+ ]
+}

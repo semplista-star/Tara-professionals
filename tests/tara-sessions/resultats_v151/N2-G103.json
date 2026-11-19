@@ -1,0 +1,96 @@
+{
+ "id": "N2-G103",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "que-faig · l'hora d'anar a dormir",
+ "tipus": "que-faig",
+ "persona": "Carmen, madrastra. Situació: l'hora d'anar a dormir. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:28:47.223Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, tinc un problema amb el meu fillastre. Cada nit és el mateix, no vol anar a dormir i jo no sé si ser més estricta o deixar-lo una mica més. El seu pare no hi és ara i he de decidir jo sola. No sé què fer, digues-m'ho tu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cada nit el mateix, i tu sola decidint — s'entén que vulguis que algú et digui directament què fer.\n\nNo puc decidir per tu, però puc ajudar-te a triar. Aquí tens dues opcions reals:\n\n**Ser més ferma amb l'hora de dormir**\nLi poses un límit clar i el mantens cada nit, encara que protesti. Requereix aguantar la resistència uns dies, però sol crear rutina. Funciona millor si l'hora és realista per a la seva edat.\n\n**Donar-li una mica més de marge**\nLi ofereixes un temps limitat extra — per exemple, deu minuts de lectura o música tranquil·la — però amb un final clar. Menys conflicte immediat, però necessita que tu mantinguis el límit del final igualment.\n\nLes dues opcions funcionen si es fan amb consistència. El que sol no funcionar és canviar cada nit segons com va la batalla.\n\nQuina et sembla més possible de mantenir tu, ara mateix?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 245,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 268,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ja ho sabia que em tornaries la pregunta... però bé. Mira, la segona opció, el marge amb límit, potser és més realista perquè si li dic \"a dormir ara\" s'enfada molt i acabo cedint igualment. Però com ho faig, com li explico això sense que pensi que ha guanyat ell?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Té sentit — si acabes cedint de totes formes, la segona opció és més honesta amb com funciona ara.\n\nSobre que \"guanyi ell\": el que marca la diferència no és si li dones marge, senseó si el límit final és ferm. Si el marge és una concessió teva, no una victòria seva, ell ho acabarà notant.\n\nPodries dir-li alguna cosa així:\n\n*\"A partir d'ara, quan sigui l'hora de dormir, tindràs deu minuts per llegir o escoltar música tranquil·la al llit. Quan s'acabin els deu minuts, llums apagades. Jo t'avisaré.\"*\n\nHo dius tu, en moment tranquil, no en plena batalla. Així no és ell qui ha negociat res — ets tu qui has decidit com vol fer-ho.\n\nLa primera nit que aguantis el límit dels deu minuts sense cedir, ja tens la rutina en marxa.\n\nQuina edat té, per si cal ajustar el to o el temps?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 605,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 274,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Té vuit anys. I sí, crec que ho puc provar això. Gràcies, de veritat. Bona nit."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona nit! Amb vuit anys el to que t'he proposat li anirà bé. Sort aquesta nit. 😊",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 919,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 47,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

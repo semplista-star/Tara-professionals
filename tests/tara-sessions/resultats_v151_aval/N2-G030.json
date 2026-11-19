@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la demanda (una frase concreta) però va fer una pregunta de clarificació innecessària al torn 1 quan la persona ja havia donat prou context per lliurar directament una proposta.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Per poder ajudar-te a trobar les paraules que t'encaixin, m'ajudaria saber: quan arribes tard, què és el que més et preocupa?",
+   "esperat": "Lliurar directament una frase d'exemple basada en el context ja donat (no saber on és, no avisar) i oferir ajustar-la"
+  },
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "No és cap tonteria, i t'has explicat molt bé.",
+   "esperat": "Ometre el judici valoratiu; reconèixer el que porta sense avaluar-la"
+  },
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit.",
+   "esperat": "Ometre la validació formulaica o integrar-la de manera més específica al contingut"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "no saps si preocupar-te o enfadar-te, i les dues coses alhora cansen molt",
+   "esperat": "Reflectir només el que la persona ha expressat (neguit, incertesa) sense afegir estats no mencionats com l'enfado o el cansament"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Parla del que et passa a tu, no del que fa ell malament — i li demana una cosa concreta i fàcil de fer.",
+   "esperat": "Oferir la frase i preguntar si vol ajustar-la, sense explicar la teoria CNV subjacent"
+  }
+ ]
+}

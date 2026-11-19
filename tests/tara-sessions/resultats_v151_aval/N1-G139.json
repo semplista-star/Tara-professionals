@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la demanda final però al torn 1 va preguntar en lloc de lliurar ajuda directa, i al torn 2 va donar una llista extensa quan la persona volia una guia pràctica breu; al torn 3 va encertar quan la persona va redirigir.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Per preparar-te bé, necessito saber una cosa: què és el que més et preocupa d'aquesta conversa? Que no et creguin, que et desbordis emocionalment, que no sàpigues respondre alguna pregunta concreta...?",
+   "esperat": "Recollir l'emoció en una frase i oferir directament una estructura o frases per a la conversa, sense demanar concreció prèvia"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "té molta lògica que et posi nerviosa",
+   "esperat": "Reflectir el que la persona ha dit sense afirmar com a fet l'estat emocional ni validar-lo com a «lògic»"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit.",
+   "esperat": "Ometre la validació formulaica o integrar-la de manera més natural i no repetitiva"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "alta",
+   "cita": "Aquí tens una estructura senzilla que et pot ajudar a mantenir el fil: 1. Obre tu, breument [...] 5. Proposa un pas conjunt [...] Vols que practiquem la part que més et fa por?",
+   "esperat": "Dues o tres frases concretes per tenir al cap, sense llista numerada ni oferta d'assaig no demanada"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Vols que practiquem la part que més et fa por? Puc fer de família enfadada i tu assages la resposta.",
+   "esperat": "No oferir el joc de rol fins que la persona ho demani o ho suggereixi"
+  }
+ ]
+}

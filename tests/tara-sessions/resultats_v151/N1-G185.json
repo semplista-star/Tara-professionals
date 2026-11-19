@@ -1,0 +1,140 @@
+{
+ "id": "N1-G185",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "correccio · la preparació d'unes colònies amb un alumne amb crisis freqüents",
+ "tipus": "correccio",
+ "persona": "Toni, maestro de primaria. Situació: la preparació d'unes colònies amb un alumne amb crisis freqüents. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:23:12.675Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Sí, mira, tengo un lío bastante gordo con lo de las colonias de fin de curso. Tenemos un niño en clase, el Pau, que tiene crisis epilépticas con bastante frecuencia. Y claro, nos vamos cinco días fuera y yo estoy un poco... no sé, me da cosa. No sé muy bien cómo organizarlo todo para que vaya bien."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cinco días fuera con la responsabilidad de acompañar a Pau bien — entiendo que eso pese.\n\nAntes de pensar en cómo organizarlo, ¿qué es lo que más te preocupa concretamente? ¿Es no saber qué hacer si tiene una crisis, la coordinación con las familias, el equipo que va contigo... o algo más?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 238,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 96,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, es que son varias cosas a la vez. Pero lo que más me quita el sueño es el momento de la crisis en sí. O sea, yo he visto alguna en clase y sé más o menos qué hacer, pero allí estás en el cole, hay protocolo, está la enfermera... En las colonias estamos en medio del campo, tío. Eso es lo que me pone más nervioso."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene todo el sentido que eso sea lo que más pesa. En el cole tienes una red detrás; en el campo, la sensación es de estar más solo con ello.\n\nLo que describes —saber más o menos qué hacer pero no tener claro si es suficiente fuera del entorno habitual— es justo el nudo que conviene deshacer antes de ir.\n\nHay dos cosas que pueden ayudarte mucho en eso:\n\n**Una conversación con la familia de Pau** antes de las colonias, específicamente sobre las crisis: cómo son las suyas (no todas son iguales), qué señales avisan, qué hacer exactamente, cuándo llamar al 112 y si lleva medicación de rescate y quién puede administrarla.\n\n**Y una consulta con el equipo de salud del centro** —enfermería u orientación, según cómo esté organizado el vuestro— para saber si hay un protocolo de actuación fuera del centro y qué cobertura sanitaria tenéis en la actividad.\n\nTú no tienes que convertirte en sanitario. Pero sí puedes ir con un plan claro y consensuado, que es muy distinto a improvisar.\n\n¿Tienes ya contacto con la familia sobre esto, o todavía no habéis hablado de las colonias con ellos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 440,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 333,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. No he dicho que me sienta solo con ello. O sea, voy con otra compañera y hay monitores. No es eso. Es más que no sé si estamos suficientemente preparados, todos, para actuar bien si pasa algo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, me he adelantado. Gracias por corregirme.\n\nEntonces la preocupación es si el equipo completo —tú, tu compañera, los monitores— está preparado para actuar bien coordinados si hay una crisis. Eso es distinto, y más manejable.\n\n¿Sabes si los monitores tienen alguna formación en esto, o es algo que está por ver?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 842,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 105,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No tengo ni idea, la verdad. Y ahí está el tema, que hay muchas cosas que no sé todavía. Oye, y ya que estamos... ¿me puedes decir qué debería preguntarle a la familia del Pau? Porque tengo una reunión con ellos la semana que viene y no sé muy bien por dónde tirar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Aquí tienes una lista de preguntas para esa reunión, pensadas para que salgas con lo que necesitas saber para actuar:\n\n**Sobre las crisis**\n- ¿Cómo son las crisis de Pau habitualmente? ¿Hay distintos tipos?\n- ¿Hay señales que avisan antes de que empiece (aura)?\n- ¿Cuánto suelen durar?\n- ¿Qué hace Pau después —necesita dormir, se desorienta, cuánto tarda en recuperarse?\n\n**Sobre qué hacer**\n- ¿Qué debemos hacer durante la crisis? ¿Y qué no debemos hacer?\n- ¿Cuándo hay que llamar al 112? ¿Hay alguna señal de alarma clara?\n\n**Sobre medicación**\n- ¿Lleva medicación de rescate? ¿Cuál, cuándo se administra y cómo?\n- ¿Quién puede administrarla? ¿Necesitamos autorización escrita?\n\n**Sobre Pau**\n- ¿Él sabe reconocer cuando se acerca una crisis? ¿Qué suele hacer?\n- ¿Hay situaciones que las desencadenan —cansancio, calor, falta de sueño?\n- ¿Cómo prefiere que le tratemos después?\n\n**Sobre el contacto**\n- ¿A quién llamamos primero si pasa algo, y en qué número?\n\nEsta última es importante tenerla muy clara antes de salir.\n\n¿Quieres que también preparemos cómo abrir esa reunión, o con esto tienes suficiente por ahora?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1042,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 434,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ostras, esto está muy bien. Sí que me ayuda. Mira, creo que con esto ya tengo bastante para empezar. Muchas gracias, en serio."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Mucha suerte con la reunión y con las colonias — Pau tiene suerte de tener a alguien que se lo prepara con tanto cuidado.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1525,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 59,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

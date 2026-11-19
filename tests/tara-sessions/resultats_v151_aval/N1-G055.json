@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va entendre que la persona necessitava ajuda per estructurar una decisió, no que li prenguessin la decisió, i va oferir eines concretes i proporcionades al llarg de tota la sessió.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Entenc que avui estàs al límit",
+   "esperat": "Reconèixer el que la persona ha dit sense atribuir-li un estat intern no expressat; p. ex. ometre la frase o reformular-la com «sona a dia molt carregat»"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Prometut.",
+   "esperat": "Evitar promeses explícites que poden sonar a compromís excessiu; és suficient amb «t'ajudo a decidir en cinc minuts»"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "En tots dos casos, la professora hauria de poder dir la seva — no per decidir la sanció, senseó perquè està afectada i el centre li ha de fer costat d'alguna manera.",
+   "esperat": "La persona no havia demanat orientació sobre com gestionar la professora; aquest afegit allarga la resposta i introdueix una recomanació no sol·licitada"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Opció A: Mesura disciplinària ara [...] Opció B: Mesura + documentació [...]",
+   "esperat": "Les opcions són útils però el torn és el més llarg de la sessió; el paràgraf sobre la professora podia suprimir-se per mantenir la proporció"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Sobre la mesura concreta: el teu reglament de règim intern marca el ventall possible. Vols que t'ajudi a pensar quina encaixa millor, o ja tens clar per on vas?",
+   "esperat": "La persona havia dit «ja tinc més clar per on vaig» implícitament en acceptar l'opció B; la pregunta de seguiment no era necessària i allarga el torn"
+  }
+ ]
+}

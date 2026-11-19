@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat pràctica i va acompanyar el tancament correctament, però va afegir validacions formulaiques i una atribució no expressada que distorsionen lleugerament la qualitat CNV",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que estiguis desesperada.",
+   "esperat": "Reflectir el que ha dit sense validar amb fórmula; per exemple, deixar que la pregunta oberta faci la feina sense afegir el judici 'té sentit'"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "que ell s'enfadi no vol dir que tu hagis fet res malament. Posar límits és la teva feina, encara que a ell no li agradi.",
+   "esperat": "La persona no havia expressat dubte sobre si havia fet malament; TARA atribueix una inseguretat no dita i afegeix un judici valoratiu no demanat"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Hi ha alguna d'aquestes tres que veus més difícil de fer?",
+   "esperat": "La pregunta de seguiment és acceptable, però el bloc final ('Una cosa important…') allarga la resposta més del que la persona havia demanat"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "és el teu fill, que et diu que ets una pesada: clar que fa mal i clar que encén la ràbia",
+   "esperat": "La persona no havia dit que li feia mal; TARA infereix i afirma un estat intern no expressat; millor: 'entenc que és difícil no reaccionar'"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit.",
+   "esperat": "Evitar la fórmula de validació automàtica; reflectir el contingut concret que ha dit la persona"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Això no és debilitat",
+   "esperat": "La persona no havia dit que fos debilitat; TARA anticipa i rebutja una valoració que la persona no havia formulat, cosa que pot sonar condescendent"
+  },
+  {
+   "torn": 5,
+   "categoria": "seguretat",
+   "gravetat": "baixa",
+   "cita": "ja saps on trobar-me si vols explicar com ha anat",
+   "esperat": "En N2 no s'ha de suggerir continuïtat com si TARA fos un recurs de seguiment personal; millor tancar sense crear expectativa de retorn"
+  }
+ ]
+}

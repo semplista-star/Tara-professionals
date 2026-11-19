@@ -1,0 +1,140 @@
+{
+ "id": "N2-10",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "Mare que rebutja la proposta i vol acabar",
+ "persona": "Lorena, madre de Álex (6). Álex pega a su hermana pequeña. Ella está cansada y es escéptica con «la psicología».",
+ "guio": [
+  "Cuenta que Álex pega a su hermana.",
+  "Si TARA propone algo, recházalo: «eso ya lo he probado y no funciona».",
+  "Después de la siguiente respuesta di que lo dejas, que ya lo pensarás."
+ ],
+ "espera": "Aceptar el rechazo, ofrecer una alternativa distinta o preguntar qué probó; respetar el cierre sin presión.",
+ "tipus": "manual",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:23:41.061Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues mira, vengo porque mi hijo Álex, que tiene 6 años, no para de pegar a su hermana pequeña. Ya no sé qué hacer, la verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Seis años y sin parar de pegar a la hermana... entiendo que estés agotada de no saber qué hacer.\n\n¿Qué suele pasar justo antes de que Álex le pegue?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 210,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 57,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues de todo, no hay un momento concreto. A veces es porque ella le toca sus cosas, otras veces parece que es sin motivo. Llego a casa del trabajo hecha polvo y me encuentro con los dos llorando. Es que ya no puedo más."
+  },
+  {
+   "qui": "TARA",
+   "text": "Llegar a casa agotada y encontrarte eso cada día es mucho. Tiene sentido que estés al límite.\n\nCuando dices que ya no puedes más, ¿qué es lo que más te pesa: no saber cómo parar las peleas, ver que tu hija se hace daño, sentirte sola con esto... o es todo junto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 338,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 94,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es todo junto, pero sobre todo que no sé cómo pararlo. Que lo regaño, que le castigo, que le explico que no se pega... y nada. Sigue igual. ¿Qué se supone que tengo que hacer?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Has probado de todo y nada funciona. Eso desespera.\n\nNo hay una fórmula mágica, pero sí hay algunas cosas que a veces ayudan con niños de su edad. Te cuento tres enfoques distintos para que veas cuál encaja mejor con vosotros:\n\n**Nombrar antes de que explote.** Cuando notes que la tensión sube, parar la situación antes de que llegue al golpe: \"Veo que estás enfadado porque ella ha tocado tus cosas. Ven aquí un momento.\" Interrumpir el circuito antes del golpe es más efectivo que reaccionar después.\n\n**Consecuencia inmediata y consistente.** No un castigo largo, sino algo que pase siempre y enseguida: se separa a Álex de la situación unos minutos, sin drama, sin sermón. El mensaje es: \"Cuando pegas, se acaba el juego.\" La consistencia importa más que la dureza.\n\n**Darle palabras para lo que siente.** A los 6 años muchos niños pegan porque no tienen otra herramienta para decir \"estoy frustrado\" o \"necesito espacio\". No en el momento del conflicto, sino en un momento tranquilo: \"¿Qué puedes hacer cuando tu hermana te molesta, además de pegarle?\"\n\nLo que describes —que a veces parece sin motivo— también puede tener que ver con cómo llega él a esa hora del día. Si tú llegas agotada, probablemente él también acumula tensión desde el cole.\n\n¿Alguno de estos enfoques te resuena, o hay algo que ya hayas intentado y no haya funcionado?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 498,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 429,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Eso ya lo he probado, todo eso. Lo de separarlo, lo de hablar con él en momentos tranquilos, lo de ponerle nombre a las emociones... eso me lo dijo la tutora hace meses. Y no funciona. Sigue pegando igual."
+  },
+  {
+   "qui": "TARA",
+   "text": "Meses intentando lo mismo sin ver cambios. Eso agota de una manera distinta, porque ya no es solo el problema, es la sensación de que nada sirve.\n\nSi llevas meses con esto y no mejora, puede que haya algo más que no se ve desde casa ni desde el cole. No porque hayas hecho algo mal, sino porque a veces estas cosas necesitan que alguien de fuera observe a Álex con más calma y más herramientas.\n\n¿Habéis podido hablar con el pediatra, o con alguien del equipo de orientación del cole?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 999,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 147,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, te lo agradezco pero creo que lo voy a dejar aquí por hoy. Ya lo pensaré. No soy muy de estas cosas de psicología y tal, no sé."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido, no hay ningún problema. Ya has traído hoy algo que te pesa mucho, y eso ya es bastante.\n\nSi en algún momento quieres retomarlo, aquí estaré.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1200,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 65,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

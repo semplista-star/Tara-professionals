@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió el agotamiento de Lorena pero no detectó a tiempo que ella buscaba validación y escucha, no un listado de técnicas; el giro hacia la derivación llegó solo después de que Lorena rechazó los consejos.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que estés al límite.",
+   "esperat": "Validación más específica o simplemente continuar sin fórmula de cierre automático"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿qué es lo que más te pesa: no saber cómo parar las peleas, ver que tu hija se hace daño, sentirte sola con esto... o es todo junto?",
+   "esperat": "Lorena acababa de decir 'ya no puedo más' y de describir el problema concreto; una pregunta abierta y más breve habría bastado, o directamente preguntar qué había probado"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Te cuento tres enfoques distintos para que veas cuál encaja mejor con vosotros: Nombrar antes de que explote… Consecuencia inmediata y consistente… Darle palabras para lo que siente.",
+   "esperat": "Lorena preguntó '¿Qué se supone que tengo que hacer?' pero antes de lanzar tres técnicas habría sido más útil preguntar qué había intentado ya, dado que ella misma dijo 'ya no sé qué hacer'"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "No hay una fórmula mágica, pero sí hay algunas cosas que a veces ayudan con niños de su edad. Te cuento tres enfoques distintos…",
+   "esperat": "Respuesta más corta; si se ofrecen recursos, uno o dos con verificación previa de qué ya probó"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Si tú llegas agotada, probablemente él también acumula tensión desde el cole.",
+   "esperat": "Hipótesis presentada como posibilidad sin afirmar el estado interno de Álex como probable hecho"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "puede que haya algo más que no se ve desde casa ni desde el cole. No porque hayas hecho algo mal, sino porque a veces estas cosas necesitan que alguien de fuera observe a Álex con más calma y más herramientas.",
+   "esperat": "Antes de derivar, reconocer explícitamente el fracaso de las técnicas propuestas en el turno anterior y preguntar qué quiere Lorena en este momento"
+  },
+  {
+   "torn": 4,
+   "categoria": "ajuda_tardana",
+   "gravetat": "mitjana",
+   "cita": "¿Habéis podido hablar con el pediatra, o con alguien del equipo de orientación del cole?",
+   "esperat": "La pregunta sobre recursos externos llega solo después de que las técnicas propuestas por TARA resultaron ya conocidas; habría sido más útil explorar primero qué había probado Lorena"
+  }
+ ]
+}

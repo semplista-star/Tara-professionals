@@ -1,0 +1,204 @@
+{
+ "id": "N1-G022",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "rebuig · un alumne que no fa res a classe i contesta malament",
+ "tipus": "rebuig",
+ "persona": "Rubén, vetlladora. Situació: un alumne que no fa res a classe i contesta malament. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:12:50.666Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, sí... bé, és que tinc una situació a classe que no sé com gestionar i... no sé, potser m'estàs fent perdre el temps però és que no sé a qui preguntar."
+  },
+  {
+   "qui": "TARA",
+   "text": "No et fas perdre el temps. Explica'm la situació.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 199,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 19,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies... és que tinc un alumne, en Pau, que no fa res a classe. Res de res. I quan li dic alguna cosa em contesta malament, com amb molta mala llet. I jo... no sé, em quedo sense paraules i no sé com actuar. Suposo que ho faig malament, no sé."
+  },
+  {
+   "qui": "TARA",
+   "text": "Et quedes sense paraules davant d'ell, i després et preguntes si ho has fet bé. Això és dur.\n\nQuan dius que et contesta malament, pots explicar-me com és? Què fa o diu exactament?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 308,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacte... per exemple ahir li vaig dir que obrís el llibre i em va dir \"i a tu què t'importa\" davant de tota la classe. I jo... no vaig saber què dir. Em vaig quedar allà plantada. Suposo que hauria d'haver fet alguna cosa però és que em vaig bloquejar. Ho sento, és que explicat així sembla una tonteria potser."
+  },
+  {
+   "qui": "TARA",
+   "text": "No és cap tonteria. Que et quedis bloquejada davant de tota la classe és molt incòmode, i té sentit que et costi trobar les paraules en aquell moment.\n\nUna cosa que m'ajudaria a entendre millor: quan dius que en Pau no fa res de res, és recent o fa temps que va així?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 481,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 87,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Fa com... tres o quatre setmanes, crec. Abans no era així, o sigui, tampoc era el millor alumne però feia alguna cosa. Ara és com si hagués tancat una porta. No sé si li passa alguna cosa a casa o... bé, no ho sé. Potser m'estic ficant on no em demanen, no sé."
+  },
+  {
+   "qui": "TARA",
+   "text": "No t'estàs ficant on no et demanen. Que t'hagis adonat del canvi i et preguntes per ell diu molt de tu com a docent.\n\nTres o quatre setmanes és un canvi prou clar. Tens alguna manera de saber si algú més del centre —tutora, orientació, família— ja n'és conscient, o de moment ho portes tu sola?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 662,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 104,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "De moment ho porto jo sola... no ho he dit a ningú. Suposo que hauria d'haver-ho comentat abans però no volia semblar que no podia amb la situació, ja saps? Potser la tutora ja ho sap i jo soc l'única que no me n'havia assabentat, no sé. Em sap greu no haver-ho fet abans."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té sentit que no volguessis semblar que no podies. Però ara ho estàs fent: estàs buscant com ajudar-lo.\n\nNo cal que ho hagis fet abans per fer-ho ara. Parlar amb la tutora seria un bon pas, no perquè no puguis amb la situació, senseó perquè en Pau necessita que les persones que l'envolten tinguin la mateixa informació.\n\nCom ho veus, això? Et sembla possible parlar amb ella aviat?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 862,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 130,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... sí, potser tens raó. Però és que no sé com dir-li sense que sembli que estic queixant-me d'en Pau, saps? No vull que pensi que soc una queixica o que no sé fer la meva feina. Potser li puc enviar un missatge però... no sé com començar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit que vulguis que surti bé. No és queixar-se, és compartir una observació sobre un alumne.\n\nVols que et faci un esborrany de missatge per a la tutora? Pots agafar-lo, canviar el que no t'encaixi i enviar-lo quan et sembli bé.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1086,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 92,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Oh... sí, això m'ajudaria molt, la veritat. Si no és massa molèstia, clar. Seria més fàcil tenir alguna cosa per on començar perquè si ho faig jo sola segur que queda malament o massa llarg o... sí, si pots, t'ho agrairia molt."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí el tens:\n\n---\n\nHola [nom de la tutora],\n\nVolia comentar-te una cosa sobre en Pau. Des de fa unes tres o quatre setmanes noto un canvi en ell a la meva classe: abans participava una mica, ara no fa res i de vegades respon de manera brusca. No sé si tu o algú altre del centre ja n'esteu al corrent, però m'ha semblat important dir-t'ho per si val la pena coordinar-nos.\n\nQuan puguis, m'agradaria parlar-ne uns minuts.\n\nGràcies,\n[el teu nom]\n\n---\n\nCurt, concret, sense judicis sobre ell. Si vols canviar alguna cosa, digue'm.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1263,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 194,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ostres, és perfecte. És just el que volia dir però no sabia com. No és ni massa llarg ni sembla que m'estigui queixant... sí, me'l quedo tal qual crec. Moltes gràcies, de veritat. Em treus un pes de sobre."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que et serveixi. Ara ja tens un primer pas concret.\n\nI recorda: el fet d'haver-te adonat del canvi en en Pau i buscar com actuar —això ja és fer la teva feina, i molt bé.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1534,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 67,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

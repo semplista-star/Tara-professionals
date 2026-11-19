@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va entendre des del primer torn que la persona volia desfogar-se i va mantenir el rol d'escolta fins al tancament natural.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Quants anys té, si em pots dir?",
+   "esperat": "La persona no havia demanat cap anàlisi ni preparació; l'edat no era necessària per escoltar-la i introdueix un fil informatiu que no aporta res al desfogament."
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que et faci cosa.",
+   "esperat": "Una reformulació més viva o simplement silenci actiu; 'té sentit' és una validació de fórmula que ja havia aparegut implícitament al torn 2."
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "Que et dolgui té molt de sentit.",
+   "esperat": "Reformular el contingut concret que la persona ha expressat ('sentir-se fora d'una part de la seva vida') sense recórrer de nou a la mateixa fórmula validadora."
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Me n'alegro que t'hagi anat bé desfogar-te una mica.",
+   "esperat": "Un tancament breu i càlid sense avaluar el resultat de la sessió ('que vagis bé' hauria estat suficient)."
+  }
+ ]
+}

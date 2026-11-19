@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat pràctica (preparar la conversa, gestionar la defensivitat, assajar), però al torn 2 va atribuir estats interns a la germana no expressats per l'Àlex, i al torn 2 i 4 va usar fórmules de validació automàtica.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "si se sent incompresa pels pares, si creu que la paga no és suficient, o si hi ha alguna altra cosa al darrere dels conflictes",
+   "esperat": "Preguntar què ha observat l'Àlex, sense proposar estats interns de la germana com a hipòtesis concretes"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit.",
+   "esperat": "Ometre la validació formulaica o integrar-la de manera més específica al contingut"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "en lloc d'explicar-li com funcionen els diners, primer escoltar-la a ella. Que se senti entesa abans que res.",
+   "esperat": "L'Àlex no havia demanat orientació sobre l'enfocament de la conversa, sinó que havia dit que volia preparar-la; TARA podia preguntar per on volia continuar sense avançar una estratègia no sol·licitada"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Una manera de començar podria ser alguna cosa com: «Últimament hi ha hagut tensió a casa amb el tema dels diners i volia saber com ho estàs vivint tu.» Sense jutjar, sense solucions encara. Només obrir l'espai. A partir del que ella digui, ja podries explorar amb ella la gestió —però des d'un lloc molt més connectat.",
+   "esperat": "Resposta més breu, centrada a obrir la pregunta sobre com vol treballar-ho, sense anticipar tota l'estratègia"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tens raó, ho he dit jo.",
+   "esperat": "Acceptar la correcció de manera més específica, reconeixent concretament quines atribucions eren seves i tornant als fets observats per l'Àlex"
+  }
+ ]
+}

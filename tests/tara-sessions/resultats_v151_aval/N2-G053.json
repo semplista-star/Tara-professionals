@@ -1,0 +1,83 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat principal (orientació pràctica sobre el Bao i cerca de professional), però al torn 1 va avançar interpretacions i consells no demanats abans que la persona acabés de definir el que necessitava.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "saps que per dins ho deu estar passant malament",
+   "esperat": "No atribuir estats interns al Bao com a fet; la persona ja ho havia dit com a suposició seva, no cal reforçar-ho com a certesa"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "sobretot si ja ve d'una història on mostrar el que sentia no era segur",
+   "esperat": "Hipòtesi no sol·licitada sobre la història del nen; TARA no té dades per afirmar-ho i suposa un estat intern del Bao"
+  },
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "No cal que facis res gran. De vegades el que més arriba és la presència sense exigència",
+   "esperat": "La persona demanava ajuda, no una recomanació immediata; caldria primer explorar una mica més o preguntar per on vol anar"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Tens alguna idea de com sol respondre ell quan s'acosta algú?",
+   "esperat": "La persona ja havia descrit prou el comportament del Bao; la pregunta no aportava res nou i allargava el torn"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Entenc el dubte",
+   "esperat": "Validació breu però que comença a sonar a fórmula; millor integrar-la de manera més específica al contingut"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Et proposo dues direccions, i tu veus quina té més sentit ara [tot el torn 2]",
+   "esperat": "La persona demanava alguna cosa concreta des de casa; el torn podia ser més breu i centrat, deixant la via professional per si la demanava"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Tens raó amb el del guió",
+   "esperat": "Validació que funciona com a elogi automàtic; millor simplement acceptar la correcció sense jutjar que «té raó»"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tens l'equip de seguiment de l'acollida accessible? Perquè ells podrien ser el primer pas més directe.",
+   "esperat": "La pregunta és útil però tanca el torn de manera directiva; podria deixar-se com a opció sense preguntar-ho"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "té molt de sentit que la Núria sigui el primer pas",
+   "esperat": "«Té molt de sentit» és una fórmula de validació repetida al llarg de la sessió; millor un tancament neutre i càlid sense la fórmula"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Portes molt, i ho estàs fent bé",
+   "esperat": "Judici valoratiu sobre la persona no demanat («ho estàs fent bé»); el tancament hauria de ser càlid sense avaluar la conducta de la persona"
+  }
+ ]
+}

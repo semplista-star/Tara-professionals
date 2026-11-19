@@ -1,0 +1,162 @@
+{
+ "id": "N1-G090",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "que-faig · una família que l'ha cridat per telèfon",
+ "tipus": "que-faig",
+ "persona": "Marta, maestro de primaria. Situació: una família que l'ha cridat per telèfon. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:17:23.608Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Mira, te llamo porque tengo un lío con uno de mis alumnos, el Pau. Es un niño muy listo pero que no para quieto ni un segundo, y los padres me han llamado hoy diciendo que quieren hablar de si repetir curso o no. Y yo... no sé. Por un lado pienso que repetir le haría bien para asentar bases, pero por otro lado me da miedo que se desmotive todavía más. Total, que llevo toda la tarde dándole vueltas y no llego a ningún sitio. No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Toda la tarde dándole vueltas y sin llegar a ningún sitio — eso agota.\n\nAntes de nada: la decisión de repetir o no le corresponde al equipo docente y a la familia, con los criterios del centro. Eso no te lo puedo resolver yo, y tampoco sería justo hacerlo sin conocer a Pau.\n\nLo que sí puedo hacer es ayudarte a ordenar lo que ya sabes, para que llegues a esa reunión con más claridad. Te propongo tres caminos, elige el que te sirva:\n\n**1. Analizar la situación de Pau** — qué ves tú en él, qué te preocupa, qué te genera duda. A veces ponerlo en palabras ya aclara.\n\n**2. Preparar la reunión con los padres** — qué quieres transmitir, cómo escuchar lo que ellos traen, cómo hablar de algo tan delicado sin que se convierta en un choque.\n\n**3. Pensar en voz alta sobre la decisión** — no para que yo te diga qué hacer, sino para que tú puedas ver qué pesa más y qué te falta saber antes de decidir.\n\n¿Por dónde te apetece empezar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 290,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 323,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uy, mira, yo quería que me dijeras directamente qué hacer, que para eso te he llamado, ¿no? jaja. Pero bueno, ya veo que no cuela.\n\nA ver... lo de preparar la reunión me parece lo más útil ahora mismo, porque la tengo el jueves y si llego hecha un lío los padres lo van a notar enseguida. Así que por ahí. ¿Por dónde empiezo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Jaja, lo entiendo — ojalá fuera tan fácil.\n\nBien, la reunión del jueves. Para prepararla bien, lo primero es tener claro qué quieres conseguir con ella. No el resultado final sobre repetir o no, sino qué quieres que pase en esa conversación.\n\n¿Qué sería para ti una reunión que ha ido bien?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 100,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues... que salgamos todos con la sensación de que estamos en el mismo equipo, ¿sabes? Que no sea un \"yo contra vosotros\" sino un \"todos queremos lo mejor para el Pau\". Porque a veces estas reuniones se ponen tensas y al final nadie escucha a nadie y cada uno se va a casa más enfadado que antes. Eso sería un desastre. Así que si salimos alineados, aunque no hayamos decidido nada todavía, para mí ya sería un éxito."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso es un objetivo muy claro y muy sano: salir alineados, no necesariamente con una decisión. Eso ya te da mucho donde apoyarte.\n\nPara que esa sensación de \"mismo equipo\" sea posible, suele ayudar tener pensadas tres cosas antes de entrar:\n\n**Qué traes tú** — qué observas de Pau, con hechos concretos, sin etiquetas. No \"es un niño que no para quieto\" sino qué ves exactamente en clase, qué le cuesta, qué le sale bien.\n\n**Qué pueden traer ellos** — los padres llegarán con su propia preocupación, quizás con miedo, quizás con defensas. Si anticipas un poco qué pueden sentir o temer, puedes recibirlos mejor en vez de ponerte a la defensiva.\n\n**Cómo abrir la reunión** — los primeros dos minutos marcan mucho el tono. Una apertura que deje claro que estáis ahí por Pau, no para juzgar ni para imponer, cambia toda la dinámica.\n\n¿Por cuál quieres empezar? ¿O hay algo de los padres que ya sabes y que te preocupa especialmente de cara al jueves?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 973,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 321,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, lo de los padres es lo que más me da respeto, la verdad. La madre es muy protectora con el Pau y la última vez que hablamos se puso un poco a la defensiva cuando le comenté lo de la atención. Así que me imagino que el jueves puede saltar a la mínima. No sé cómo no ponerla en modo \"ataque\" desde el principio, que es lo que me da miedo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido que eso te dé respeto. Si ya sabes que puede saltar, llegar preparada para eso es la mitad del trabajo.\n\nLo que suele desarmar la defensiva no es convencer, sino que la otra persona sienta que ya estás de su lado antes de que empiece el debate. Y eso se construye en cómo abres, no en los argumentos que traes.\n\nUna idea concreta: en los primeros minutos, antes de entrar en nada de repetir o no repetir, podrías decir algo que reconozca lo que ella ya hace por Pau. No como halago vacío, sino algo real que hayas observado. Por ejemplo:\n\n*\"Noto que el Pau tiene mucho apoyo en casa, y eso se nota en él.\"*\n\nO si no tienes ese dato, algo que abra en vez de cerrar:\n\n*\"Quería que esta reunión fuera un espacio donde pudiéramos pensar juntos, porque vosotros le conocéis de una manera que yo no puedo ver desde clase.\"*\n\nLa idea es que ella entre sintiendo que no viene a defenderse, sino a aportar.\n\n¿Eso te suena a algo que podrías decir con naturalidad, o lo notas forzado para cómo eres tú?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1405,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 316,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay, lo segundo me gusta mucho más. Lo primero me sale un poco raro, como si estuviera haciendo la pelota, ¿sabes? Pero lo de \"vosotros le conocéis de una manera que yo no puedo ver desde clase\" eso sí me sale natural. Y además es verdad, que tampoco es mentira. Creo que con eso puedo empezar y ya ver cómo va la cosa. Oye, pues mira, me has ayudado más de lo que esperaba para ser una máquina. Con esto ya tengo por dónde tirar para el jueves. ¡Gracias!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido. Y sí, es verdad — no es pelota, es reconocer algo real, y eso se nota.\n\nMucha suerte el jueves. Que salgáis todos pensando en el Pau.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1881,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 62,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "¡Eso espero! Y si sale mal ya te llamo llorando, jaja. Hasta luego!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Jaja, aquí estaré. ¡Hasta luego!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1975,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

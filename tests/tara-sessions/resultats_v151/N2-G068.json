@@ -1,0 +1,141 @@
+{
+ "id": "N2-G068",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "rebuig · l'arribada d'un nou germà",
+ "tipus": "rebuig",
+ "persona": "Fàtima, germana gran adulta que fa de referent. Situació: l'arribada d'un nou germà. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:27:18.324Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Mira, necessito ajuda perquè la meva mare està embarassada i aviat tindrà un altre fill. Jo ja tinc 19 anys i... no sé com parlar amb els meus germans petits d'això. Estan una mica perduts i em pregunten coses rares. L'altre dia el petit em va preguntar si ara ja no l'estimaríem igual 😅 I jo no sabia què dir-li sense posar-me a plorar o dir alguna tonteria."
+  },
+  {
+   "qui": "TARA",
+   "text": "Quina pregunta tan gran per a un nen petit... i quina responsabilitat que sents tu de respondre-li bé.\n\nQue et quedis sense paraules davant d'això no és cap tonteria — és que la pregunta toca alguna cosa important, per a ell i potser també per a tu.\n\nQuants anys té el petit, més o menys? Així et puc ajudar a trobar unes paraules que li arribin de veritat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 293,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 117,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Té 6 anys. És molt llest però també molt dramàtic, eh 😂 Si li dius alguna cosa que no li agrada es posa a plorar i ja no hi ha manera. Per això tinc por d'encertar-la, perquè si la cago... drama total a casa. I ja tenim prou drama amb la panxa de la mama creixent cada dia 😅"
+  },
+  {
+   "qui": "TARA",
+   "text": "Amb 6 anys i molt llest... sí, les paraules han d'anar just al punt 😄\n\nLa bona notícia és que la seva pregunta en realitat té una resposta fàcil d'entendre per a ell: l'amor no es divideix, es multiplica. Però amb 6 anys millor concret que filosòfic.\n\nPodries dir-li alguna cosa com:\n\n*«Quan arribi el bebè, no et quedaran menys abraçades. Les abraçades no s'acaben — n'hi haurà per a tots.»*\n\nO si li agrada ser el gran:\n\n*«Tu sempre seràs el meu germà petit. Ningú et pot treure això.»*\n\nVols que busquem també com respondre alguna altra pregunta \"rara\" que t'hagin fet? 😊",
+   "tags": [],
+   "usage": {
+    "input_tokens": 510,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 215,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, el rotllo de \"l'amor es multiplica\" ja li he dit i em va mirar com si li estigués venent una moto 😂 No se la va creixent gens. I el de les abraçades... no sé, el veig molt abstracte per a ell. Necessito alguna cosa més concreta, més del seu món, saps?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Jajaja, la mirada de \"m'estàs prenent el pèl\" amb 6 anys és inconfusible 😂\n\nTens raó, necessita alguna cosa del seu món. Digue'm: té alguna cosa que li encanti molt — una joguina, un menjar, un superheroi, una sèrie...? Amb això et faig una frase que li arribi de veritat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 818,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 105,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Està obsessionat amb les pizzes 🍕 És el seu amor més gran, per davant de tots nosaltres, t'ho juro 😂 Si li pots fer alguna cosa amb pizzes... et guanyo per sempre."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecte, amb les pizzes ho tenim! 🍕\n\nProva això:\n\n*«Quan t'agrada molt una pizza, vols menjar-ne més, oi? No menys. Doncs l'amor és igual: quan arriba algú nou a la família, no et toca menys — et toca més.»*\n\nO si vols anar encara més al gra:\n\n*«La mama no té un cor de pizza que es talla en trossos. Té un cor que creix com quan afegeixes més formatge.»* 🧀\n\nAquesta segona és una mica absurda però amb un nen dramàtic i pizzer... pot funcionar precisament perquè el fa riure i baixa la guàrdia.\n\nProva-la i ja m'explicaràs si funciona o si et mira pitjor que abans 😄",
+   "tags": [],
+   "usage": {
+    "input_tokens": 984,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 216,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Jajaja el del formatge que creix!! Això és una genialitat o una bogeria, no sé 😂 Però sí, crec que amb ell pot funcionar perquè li farà gràcia i deixarà de posar-se en mode catàstrofe. Me la quedo aquesta. Gràcies, en serio, que ja estava una mica desesperada!"
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra molt! 🍕\n\nI mira, que t'importi tant trobar les paraules justes per a ell... ja diu molt de tu com a germana gran.\n\nSi surten més preguntes \"rares\" dels germans, ja saps on soc. Bona sort amb el formatge! 😄",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1301,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 82,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "id": "N2-G066",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "breu · com explicar una separació",
+ "tipus": "breu",
+ "persona": "Luis, abuela que cuida a los nietos. Situació: com explicar una separació. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:26:35.901Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, tengo muy poco tiempo, que ahora vienen los niños del cole. Solo necesito saber cómo explicarles que su mamá y su papá ya no van a vivir juntos. Algo cortito que pueda decirles hoy."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Algo sencillo y directo que puedan entender:\n\n---\n\n**\"Mamá y papá hemos decidido que ya no vamos a vivir juntos. Vamos a vivir en casas diferentes. Eso no cambia nada de lo que os queremos — los dos os queremos igual que siempre, y eso no va a cambiar nunca.\"**\n\n---\n\nPuedes añadir, si ya lo sabes: *\"Vais a estar con los dos. Os lo iremos explicando poco a poco.\"*\n\nY si preguntan por qué: *\"Es una decisión de adultos. No es culpa vuestra para nada.\"*\n\nEsa última parte suele ser la más importante.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 226,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 180,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay, perfecto, justo lo que necesitaba. Muchas gracias, hija. Me voy corriendo que ya están llegando. ¡Hasta otra!"
+  },
+  {
+   "qui": "TARA",
+   "text": "¡Mucha fuerza para este momento! Hasta cuando quieras.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 450,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

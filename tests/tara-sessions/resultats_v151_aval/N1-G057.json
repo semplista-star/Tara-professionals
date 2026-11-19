@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén el problema pràctic però tendeix a anticipar-se i a oferir més del que la persona demana en cada torn, especialment als torns 2, 3 i 8",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Alguns elements que veig en el que describes: Conducta observable... Dinàmica de grup... Què t'agradaria fer primer? Puc ajudar-te amb coses com: 1. Parlar amb l'alumne 2. Treballar amb el grup 3. Coordinar amb el tutor 4. Redactar un registre",
+   "esperat": "La persona ja havia dit que volia parlar amb l'alumne; TARA hauria pogut preguntar directament com vol enfocar aquella conversa, sense el menú de quatre opcions ni l'anàlisi prèvia"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit començar per aquí.",
+   "esperat": "Entrar directament a l'ajuda sense validació formulaica; «té molt de sentit» és la mateixa estructura que «té sentit» del torn anterior"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Una cosa a tenir en compte: l'edat i l'etapa de l'alumne canvien molt el to. De quina etapa estem parlant?",
+   "esperat": "La persona no havia demanat adaptar l'esquema per edat; si calia saber-ho, era millor preguntar-ho abans de lliurar l'esquema sencer"
+  },
+  {
+   "torn": 6,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Veig que t'ha molestat que t'ho digui. Puc entendre-ho.",
+   "esperat": "Proposar una frase que atribueix un estat intern (molestar) a l'alumne com a fet, sense marcar-ho com a hipòtesi; hauria d'incloure «potser» o «sembla que»"
+  },
+  {
+   "torn": 8,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Només una cosa a considerar: el despatx a vegades reforça la sensació de «m'han cridat per un problema». Si tens l'opció, un espai una mica més neutral...",
+   "esperat": "La persona no havia demanat valoració del lloc; havia respost una pregunta de TARA i no esperava una nova recomanació sobre l'espai"
+  },
+  {
+   "torn": 8,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Crec que tens prou per fer la conversa. Vols que et faci un resum breu dels punts clau per tenir-lo a mà, o ja en tens prou amb el que hem treballat?",
+   "esperat": "Tancament adequat en contingut, però la frase inicial («Crec que tens prou») és un judici valoratiu no demanat; millor preguntar directament si vol el resum"
+  }
+ ]
+}

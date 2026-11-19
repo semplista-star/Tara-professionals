@@ -1,0 +1,204 @@
+{
+ "id": "N2-G063",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "humor · discussions cada nit per les pantalles",
+ "tipus": "humor",
+ "persona": "Elena, tutora legal. Situació: discussions cada nit per les pantalles. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:27:07.528Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Jaja, pues mira, en casa ya me llaman \"la ogresa de las pantallas\". 📱"
+  },
+  {
+   "qui": "TARA",
+   "text": "Jaja, vaya título. ¿Te lo han puesto con cariño o ya pica un poco?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 191,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Las dos cosas 😅 Pero bueno, lo que me pica de verdad es que cada noche acabamos mal por lo mismo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cada noche lo mismo, y encima con mal sabor de boca. ¿Qué suele pasar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 257,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Que llega la hora de apagar y se monta el drama. Discusiones, portazos... ya estoy agotada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Agotada de repetir la misma batalla cada noche. Eso desgasta mucho.\n\n¿Qué edad tienen?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 324,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 36,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "12 y 15. Los dos igual de resistentes 😂"
+  },
+  {
+   "qui": "TARA",
+   "text": "Dos frentes a la vez, con energía renovada cada noche. Entiendo el agotamiento.\n\n¿Qué pasa exactamente cuando llega ese momento? ¿Cómo suele empezar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 379,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 57,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues yo digo \"venga, apagad\" y ahí empieza todo. El de 15 se pone borde y el pequeño llora. Y yo acabo gritando, que es lo que menos quiero."
+  },
+  {
+   "qui": "TARA",
+   "text": "Y al final acabas haciendo justo lo que no querías. Eso es lo que más duele, ¿verdad?\n\n¿Hay algún acuerdo previo sobre la hora de apagar, o cada noche se negocia desde cero?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 494,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 65,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Desde cero cada noche, que es el problema. ¿Cómo se pone un límite que funcione de verdad?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Buena pregunta. Lo que suele marcar la diferencia es que el acuerdo se haga antes del momento del conflicto, no en medio de él.\n\nAlgunas opciones concretas:\n\n**Una conversación en un momento tranquilo** — no a la hora de apagar, sino en otro momento del día — donde ellos también puedan decir algo. No para negociarlo todo, sino para que sientan que han sido escuchados. Tú decides el límite; ellos pueden opinar sobre cómo.\n\n**Un horario visible y fijo** — que no dependa de que tú lo digas cada noche. La norma existe sola, no la pones tú en ese momento. Eso te saca del papel de \"ogresa\" y pone la responsabilidad en el acuerdo.\n\n**Un aviso previo** — diez o quince minutos antes, para que no sea un corte en seco. A veces el drama viene más del \"ahora de golpe\" que del límite en sí.\n\n¿Alguna de estas te encaja con cómo funciona tu casa, o hay algo que ya hayas probado?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 595,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 279,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Lo del aviso lo he intentado pero se olvidan. Lo de hablar en calma me parece lo más útil. ¿Cómo empiezo esa conversación sin que se pongan a la defensiva?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido empezar por ahí. La clave es que no parezca que vas a \"darles la charla\", sino que quieres resolver algo que os afecta a todos.\n\nPodrías empezar con algo así:\n\n*\"Quiero hablar de las pantallas, pero no para reñir. Cada noche acabamos mal y estoy harta de eso. Vosotros también, supongo. Quiero ver si podemos encontrar algo que funcione mejor para todos.\"*\n\nEso hace tres cosas: nombra cómo estás tú sin atacarles, reconoce que ellos también lo pasan mal, y deja claro que buscas una solución, no una bronca.\n\nLuego puedes preguntarles qué es lo que más les cuesta de apagar. No para ceder, sino para entender. A veces hay algo concreto — una partida a medias, un mensaje pendiente — que con un pequeño ajuste se resuelve.\n\n¿Te ves diciéndoles algo así, o hay algo que crees que lo complicaría?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 930,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 269,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, me veo. Gracias, esto me ayuda. Lo intento esta semana."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecto. Suerte esta semana, y ya sabes dónde estoy si quieres contar cómo ha ido.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1226,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 36,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

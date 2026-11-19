@@ -1,0 +1,96 @@
+{
+ "id": "N2-G141",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "demanda-directa · un adolescent que ja no explica res",
+ "tipus": "demanda-directa",
+ "persona": "Xavi, padre. Situació: un adolescent que ja no explica res. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:31:06.152Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, mira, te explico rápido aunque ya verás que no sé resumir... Mi hijo tiene 15 años, se llama Marc, y antes me contaba todo, en serio todo, desde lo que pasaba en el cole hasta tonterías del recreo. Pero desde hace como unos seis meses, nada. Llegas a casa, \"hola\", se mete en su cuarto, auriculares, y ya está. Le preguntas qué tal el día y te dice \"bien\" o \"normal\" y punto. Mi mujer dice que es la edad y que lo deje, pero yo no puedo quedarme tan tranquilo, ¿sabes? Me preocupa. No sé si le pasa algo, si tiene algún problema, si está triste... El caso es que quiero intentar hablar con él este fin de semana, algo tranquilo, sin presión. ¿Me puedes ayudar a preparar algo? Como un mensaje, o una frase para empezar la conversación, algo que no suene a interrogatorio pero que abra la puerta, que él vea que estoy ahí sin agobiarle."
+  },
+  {
+   "qui": "TARA",
+   "text": "Se nota que lo echas de menos, y que quieres estar ahí sin que él lo viva como presión. Eso ya es mucho.\n\nAquí tienes una frase para empezar, algo sencillo y sin trampa:\n\n---\n\n**\"Marc, no te voy a preguntar nada. Solo quería decirte que me alegra estar contigo.\"**\n\n---\n\nY ya. Sin seguir. Dejas que él decida si abre algo o no.\n\nSi en ese momento hay un contexto natural —un paseo, ver algo juntos, lo que sea que a él le guste— mejor todavía. A veces las conversaciones llegan solas cuando no hay cara a cara forzado.\n\nSi luego quieres tener algo preparado por si él sí abre la puerta, dímelo y lo trabajamos.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 438,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 204,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, me gusta, me gusta bastante... pero quizás es demasiado corta, ¿no? O sea, me da miedo que él diga \"vale\" y ya, y se acabe ahí. ¿Puedes añadir algo más, como una pequeña continuación, algo que deje la puerta más abierta pero que siga sin sonar a interrogatorio? Algo cálido, que note que de verdad me importa, no solo que \"estoy ahí\" en plan formal."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Algo así:\n\n---\n\n**\"Marc, no te voy a preguntar nada. Solo quería decirte que me alegra estar contigo. Y que si algún día quieres contarme algo, o simplemente estar, aquí estoy. Sin prisa.\"**\n\n---\n\nEl \"sin prisa\" hace bastante trabajo: le dice que no hay urgencia, que no tiene que responder ahora ni darte nada a cambio.\n\nSi él dice \"vale\" y punto, también está bien. Lo ha escuchado. A veces eso tarda unos días en aterrizar.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 770,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 147,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecto, esto ya me convence. El \"sin prisa\" es justo lo que necesitaba, sí. Muchas gracias, de verdad, me has ayudado un montón. Lo voy a intentar este fin de semana, a ver qué pasa. Gracias, Tara."
+  },
+  {
+   "qui": "TARA",
+   "text": "Suerte este fin de semana. Espero que vaya bien.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 994,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

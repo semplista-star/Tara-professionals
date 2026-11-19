@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 1,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió que Joan necesitaba opciones concretas, pero en el torn 1 antepuso una pregunta de diagnóstico cuando Joan ya había dado información suficiente para empezar a responder, y en el torn 2 añadió una pregunta final no pedida tras entregar las opciones.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Para orientarte bien, necesito entender un poco más la situación. ¿Qué es lo que has observado tú directamente, o lo que tienes documentado, sobre lo que está pasando entre los dos chicos?",
+   "esperat": "Joan ya había descrito la situación con suficiente detalle (incidentes, acoso, petición de expulsión); TARA podría haber ofrecido directamente las opciones o haber pedido solo lo estrictamente imprescindible para diferenciarlas"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Entiendo que estás en un momento de presión, con los padres encima",
+   "esperat": "Joan no expresó sentirse presionado ni agobiado; reflejar el contenido factual sin atribuir estado emocional no verbalizado"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Eso complica la decisión, y tiene sentido que no lo veas claro.",
+   "esperat": "Validación breve o directamente pasar a las opciones, sin fórmula de normalización"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿qué nivel de riesgo real crees que corre el alumno que sufre ahora mismo, mientras se abre cualquier proceso?",
+   "esperat": "Joan había pedido opciones con implicaciones y ya había elegido la tercera; la pregunta sobre riesgo, aunque relevante, no fue pedida y llegó después de que Joan ya tenía lo que necesitaba, convirtiéndose en una carga añadida"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Tienes incidentes registrados y a la vez una situación que no es en blanco y negro. Eso complica la decisión, y tiene sentido que no lo veas claro.\n\nTe doy tres opciones con lo que implica cada una: [...]",
+   "esperat": "El desarrollo de las tres opciones es adecuado en contenido, pero el párrafo introductorio de validación alarga innecesariamente la respuesta antes de entrar en materia"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Si en algún momento quieres preparar la conversación con las familias o con los chicos, aquí estoy.",
+   "esperat": "Joan había cerrado con un agradecimiento; ofrecer continuación es razonable, pero podría haberse omitido o formulado de forma más neutra sin proyectar próximos pasos no pedidos"
+  }
+ ]
+}

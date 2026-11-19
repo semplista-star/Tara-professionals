@@ -1,0 +1,20 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entén que la persona vol una solució ràpida i concreta, la lliura de seguida i tanca sense afegir res quan la persona s'acomiada.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Si ya lo has intentado y no cuela, dime qué edad tiene y te ajusto más.",
+   "esperat": "La persona ha demanat 'Qué hago?' i ja ha rebut la resposta; obrir una nova pregunta condicional allarga el torn i pot semblar que TARA vol continuar quan la persona ha dit que té cinc minuts"
+  }
+ ]
+}

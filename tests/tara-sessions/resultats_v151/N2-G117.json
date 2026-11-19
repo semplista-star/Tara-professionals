@@ -1,0 +1,185 @@
+{
+ "id": "N2-G117",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "correccio · un fill que menteix sovint",
+ "tipus": "correccio",
+ "persona": "Carmen, mare sola amb tres fills. Situació: un fill que menteix sovint. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:30:13.634Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Buf, no sé ni per on començar, perdona. És que tinc un fill, el Marc, que... menteix molt. Contínuament. Coses petites, coses grans, tot. I jo no sé com gestionar-ho, la veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "No cal demanar perdona — ja has començat, i amb una cosa ben concreta.\n\nQuan dius que menteix contínuament, coses petites i grans... quin és el que et pesa més ara mateix?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 232,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 57,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs... el que em pesa més és que ja no sé quan em diu la veritat. Ahir em va dir que havia fet els deures i resulta que no. Però no és només això, és que passa sempre. I jo li pregunto i em mira als ulls i em diu que sí, i jo me'l crec, i després... res. Perdona, potser estic exagerant."
+  },
+  {
+   "qui": "TARA",
+   "text": "No estàs exagerant. El que describes és esgotador: no poder fiar-te del que et diu, i a sobre sentir que t'has tornat a creure'l. Això fa mal.\n\nQuants anys té, el Marc?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 391,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Té onze anys. I sí, és exactament això, que em sento una mica... tonta, no sé. Com si fos culpa meva per creure-me'l. Però és el meu fill, li haig de creure, no?"
+  },
+  {
+   "qui": "TARA",
+   "text": "No ets tonta. Creure el teu fill és el més natural del món — és el que fan les mares i els pares. El problema no és que tu et creguis, és que ell menteix. Això és diferent.\n\nI entenc que et preguntis si hauries de creure'l o no, però potser la pregunta que et pesa de veritat és una altra: com recuperes una mica d'aquella confiança que ara sents que s'ha trencat?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 521,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 120,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... sí, és això. Però mira, no vull que penseu que el Marc és mala persona ni res, eh. No he dit que sigui mala persona. És que no sé per què ho fa, i no sé com parlar-hi sense que s'enfadi o sense que jo acabi cedint i ja està."
+  },
+  {
+   "qui": "TARA",
+   "text": "Queda clar que l'estimes molt i que no el vols jutjar. I té sentit que vulguis entendre per què ho fa abans de parlar-hi.\n\nQuan dius que acabes cedint, com sol anar, aquesta conversa? Què passa normalment?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 70,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs... ell s'enfada, o es posa a plorar, i jo no suporto veure'l així i acabo dient \"bé, bé, deixa-ho estar\". I després em sento malament perquè sé que no hauria de fer-ho. Però és que sola amb tres fills... és molt. Perdona, no volia queixar-me.\n\nNo cal demanar perdó per res. Però mira, el que necessito és... com li puc dir les coses sense que acabi així? Tens alguna cosa pràctica que pugui fer?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tres fills sola — és molt, sí. I no és queixar-se, és la realitat.\n\nAnem a lo pràctic. Quan el Marc s'enfada o plora i tu cedeixes, ell aprèn que si puja la pressió, la cosa s'acaba. No perquè sigui mala persona, senseó perquè li funciona. Trencar aquest cercle vol dir aguantar una mica aquell moment incòmode sense cedir — i això és difícil, però es pot preparar.\n\nUna cosa concreta que pots provar: separar el moment de la conversa. Quan descobreixes una mentida, no cal resoldre-ho tot en aquell instant. Pots dir-li:\n\n*\"Marc, sé que els deures no estaven fets. Ara no em cal que m'expliquis res. Demà al vespre en parlem.\"*\n\nAixò et dona temps a tu per estar tranquil·la, i a ell per no sentir-se acorralat. Les converses importants van millor quan ningú està al límit.\n\nI quan parleu, una sola cosa: no busquis la confessió ni l'explicació. Digues el que has vist i com et fa sentir tu:\n\n*\"Quan em dius que has fet els deures i després veig que no, em costa saber quan creure't. I això em fa mal.\"*\n\nSense acusació, sense \"per què m'has mentit\". Només el que és real per a tu.\n\nCreus que podries provar alguna cosa així?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 942,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 389,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, això de separar el moment... no hi havia pensat mai. Potser sí que podria provar-ho. Però quan dius \"demà al vespre en parlem\"... i si ell ja ho ha oblidat o fa veure que no sap de què li parlo? Perquè li passa molt, això."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona pregunta. Si fa veure que no recorda, no cal entrar al debat de si recorda o no — perquè aquí també perdries.\n\nPots tenir una cosa escrita. No com a càstig, senseó com a ancla. Quan descobreixes la mentida, apuntes en un paper o al mòbil: *\"Dimarts, deures de mates.\"* I quan parleu, ho tens davant:\n\n*\"Marc, el dimarts em vas dir que havies fet els deures de mates. Jo ho tinc apuntat aquí.\"*\n\nSense dramatisme. Només un fet. Ell sap que tu saps, i que no ho pots perdre.\n\nL'altra cosa és que \"demà al vespre\" sigui real — que ho diguis i ho facis. No cal que sigui llarg. Cinc minuts, asseguts, sense mòbil. Que ell vegi que quan tu dius alguna cosa, passa. Això també és un missatge.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1416,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 250,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, això d'apuntar-ho... és molt senzill però no se m'havia acudit. Potser sí que ho puc fer. Gràcies, de veritat. Crec que ja tinc coses per provar, no sé si ho faré bé però... ho intentaré. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ja tens prou per començar. I \"fer-ho bé\" no vol dir que surti perfecte — vol dir provar-ho i veure què passa.\n\nSort amb el Marc.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1753,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 47,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

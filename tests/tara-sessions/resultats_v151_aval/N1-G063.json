@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entendió desde el primer turno que Toni pedía opciones concretas con implicaciones, no que le devolvieran la pregunta, y se mantuvo en ese registro hasta el cierre.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Lo que me pregunto, y solo tú puedes saberlo: ¿tienes idea de cómo lo está viviendo Laia? ¿Ella lo muestra, lo calla, lo normaliza?",
+   "esperat": "Toni había pedido opciones directas; la pregunta sobre cómo vive Laia la situación no era necesaria tras haber dado ya tres opciones completas y puede percibirse como devolver la pelota."
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "intervenir demasiado puede quitarle a Laia la oportunidad de encontrar su lugar",
+   "esperat": "Presentar esta implicación como posibilidad o hipótesis («podría ocurrir que…»), no como efecto establecido."
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿cuándo es la próxima vez que toca hacer grupos? ¿Tienes margen para prepararlo antes?",
+   "esperat": "Toni ya había dicho que quería empezar; la pregunta sobre el cuándo no añade opciones ni implicaciones y alarga el turno sin necesidad."
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "tú ya tenías las piezas, solo necesitabas ponerlas en fila",
+   "esperat": "Cierre cálido sin atribuir mérito ni hacer juicio valorativo sobre la persona; bastaría con desearle suerte sin el comentario sobre «ya tenías las piezas»."
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Una cosa que puede ayudar: la primera vez que uses los roles, dedica cinco minutos a explicar qué hace cada uno. Que el foco esté en los roles, no en quién está con quién.",
+   "esperat": "Toni solo preguntó cómo presentar el cambio a los niños; el consejo sobre los cinco minutos de explicación de roles es información no solicitada que alarga la respuesta."
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat pràctica i va lliurar ajuda concreta i útil, però al torn 2 va atribuir un estat no expressat ('la sensació és d'estar més sol') i al tancament va fer un elogi valoratiu no demanat.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "la sensación es de estar más solo con ello",
+   "esperat": "descriure el que Toni havia dit (no tenir la xarxa del cole) sense afegir-hi una interpretació emocional no expressada"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene todo el sentido que eso sea lo que más pesa",
+   "esperat": "una resposta que reconegui el que Toni ha dit sense recórrer a una fórmula de validació automàtica"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Pau tiene suerte de tener a alguien que se lo prepara con tanto cuidado",
+   "esperat": "un tancament breu i càlid sense judicis valoratius sobre la persona ni sobre el seu comportament"
+  }
+ ]
+}

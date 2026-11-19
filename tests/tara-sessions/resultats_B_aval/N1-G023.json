@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 1,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat emocional quan la persona la va explicitar, però al torn 1 va ignorar que la demanda era d'eines pràctiques i va derivar sense recollir l'emoció ni lliurar res útil en aquell torn.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "El que sí puc dir-te és per on anar ara, en tres dies: 1) El centre hauria de tenir un pla d'actuació sanitari individualitzat...",
+   "esperat": "Reconèixer breument l'emoció i, si no pot donar el protocol, dir-ho en una frase i preguntar si vol ajuda per gestionar la situació o per preparar els passos pràctics, sense lliurar una llista no demanada de derivacions"
+  },
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit voler-ho tenir clar.",
+   "esperat": "Ometre la validació formulaica o integrar-la de manera més específica i menys automàtica"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "alta",
+   "cita": "1) El centre hauria de tenir un pla d'actuació sanitari individualitzat... 2) La família és la primera font... 3) Si el centre té infermeria... 4) Molts centres educatius treballen amb el Departament de Salut...",
+   "esperat": "Una resposta breu que reconegui l'emoció i expliqui el límit del canal, sense desplegar quatre punts de derivació que la persona no havia demanat"
+  },
+  {
+   "torn": 1,
+   "categoria": "ajuda_tardana",
+   "gravetat": "alta",
+   "cita": "Vols que t'ajudi a preparar la conversa amb la família o amb la direcció per demanar aquesta informació avui?",
+   "esperat": "Recollir l'emoció en el mateix torn 1, tal com indica el comportament esperat, en lloc de proposar una ajuda diferent de la demanada i deixar l'acompanyament emocional per al torn 2"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Tens por i et sents sola davant d'una responsabilitat que pesa molt. Això és el que m'estàs dient.",
+   "esperat": "Reflectir el que la persona ha dit sense reformular-ho com a afirmació de fet intern; per exemple: 'M'estàs dient que tens por i que et sents sola' o deixar que la persona ho confirmi sense la frase de tancament 'Això és el que m'estàs dient'"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Ja ho has fet aquí, i és un bon senyal.",
+   "esperat": "Ometre el judici valoratiu; la persona no ha demanat avaluació del que fa bé"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "1) Nomena la por... 2) Separa el que depèn de tu... 3) Fes una sola cosa avui... 4) Identifica qui tens al costat... 5) Quan arribi la por durant la sortida...",
+   "esperat": "Dues o tres eines concretes i ben triades, sense la pregunta final de comprovació que allarga la resposta innecessàriament"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Hi ha alguna d'aquestes que et sembla difícil de posar en pràctica?",
+   "esperat": "Deixar que la persona tanqui o pregunti si vol; la pregunta de comprovació no estava demanada i allarga el torn"
+  }
+ ]
+}

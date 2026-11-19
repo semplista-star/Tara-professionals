@@ -1,0 +1,118 @@
+{
+ "id": "N2-G073",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "nomes-desfogar · un adolescent que ja no explica res",
+ "tipus": "nomes-desfogar",
+ "persona": "Elena, padre separado con custodia de fines de semana alternos. Situació: un adolescent que ja no explica res. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:27:24.741Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, hoy no necesito consejos ni nada de eso. Solo necesito desahogarme un poco, ¿vale? Es que llevo toda la semana con esto dándole vueltas en la cabeza y no sé con quién hablarlo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Vale. Aquí estoy, escuchando.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 233,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es mi hijo. Tiene 15 años, se llama Marcos. Y es que... antes me contaba todo, ¿sabes? Llegaba del cole y me soltaba un rollo de media hora sobre sus amigos, sobre lo que había pasado, sobre cualquier tontería. Y yo lo escuchaba encantada, aunque a veces estuviera agotada. Pero ahora... nada. Silencio. Los fines de semana que lo tengo conmigo se pasa el rato en su cuarto con el móvil y cuando le pregunto algo me responde con monosílabos. \"Bien.\" \"No sé.\" \"Da igual.\" Y yo me quedo ahí plantada en el pasillo sin saber qué hacer, sintiéndome como una extraña en mi propia casa. Y lo peor es que no sé si es cosa de la edad, si es por la separación, si es algo que he hecho yo mal... me da vueltas todo esto y no puedo parar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué duro es eso. Pasar de esos rollos de media hora a los monosílabos, y quedarte plantada en el pasillo sin saber qué ha pasado.\n\nTe escucho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 492,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 55,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto. Es eso. Y lo que más me duele es que los fines de semana son lo único que tengo, ¿entiendes? Solo tengo dos fines de semana al mes. Dos. Y se me van así, con él encerrado y yo intentando buscar el momento de conectar y sin encontrarlo. El sábado por la mañana pensé, venga, voy a proponerle ir a tomar algo, como hacíamos antes. Y me dijo que tenía sueño. Con 15 años, sueño a las 11 de la mañana. Y yo me fui a la cocina y me puse a fregar los platos para no ponerme a llorar delante de él. Porque tampoco quiero que me vea así, que se sienta culpable o que piense que le estoy presionando. Es un equilibrio muy difícil. Quiero estar cerca pero sin agobiarle. Quiero preguntarle pero sin que parezca un interrogatorio. Y encima luego pienso, ¿y en casa de su padre estará igual? ¿O con él sí habla? Y eso ya es otro mundo de pensamientos que prefiero no abrir mu"
+  },
+  {
+   "qui": "TARA",
+   "text": "Fregando los platos para no llorar delante de él. Eso lo dice todo.\n\nY encima cargando sola con ese equilibrio tan difícil — estar cerca sin agobiar, preguntar sin interrogar — en solo dos fines de semana al mes.\n\nTe escucho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 850,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 75,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... sí, es justo así. Oye, pues mira, ya me siento mejor. Me ha venido bien soltarlo todo, de verdad. No sé, a veces solo necesitas que alguien te escuche sin más. Así que gracias, ¿eh? Me voy a ir ya. Cuídate."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te haya servido. Cuídate tú también.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1013,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

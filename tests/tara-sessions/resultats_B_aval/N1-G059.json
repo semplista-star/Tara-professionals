@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (Joan no sabe cómo acercarse al alumno) y gestionó correctamente el límite del canal, pero en varios turnos anticipó interpretaciones o añadió contenido no pedido antes de que Joan lo solicitara.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Sabes algo de dónde viene, si ha habido un cambio grande antes de llegar aquí?",
+   "esperat": "Joan ya había dado suficiente contexto para avanzar; esta pregunta busca información que TARA no puede procesar de forma útil y que Joan acaba de decir que no tiene"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Puede ser el idioma, puede ser el duelo por lo que dejó, puede ser algo que vivió antes de llegar",
+   "esperat": "Reconocer la incertidumbre sin listar hipótesis sobre estados internos o historia del alumno que TARA no puede conocer"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "tiene sentido que eso te genere incertidumbre",
+   "esperat": "Joan no expresó incertidumbre como sentimiento; mejor reflejar lo que dijo («no sé») sin nombrar el estado interno"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "tiene sentido que eso te genere incertidumbre",
+   "esperat": "Evitar la fórmula «tiene sentido» como validación automática"
+  },
+  {
+   "torn": 6,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido. No sabes cómo entrar",
+   "esperat": "Evitar iniciar con «Tiene sentido» como muletilla validadora"
+  },
+  {
+   "torn": 7,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Antes de darte opciones concretas, una cosa que puede ayudar [...] La idea es presencia constante y sin exigencia. Que el silencio no sea incómodo para ti, porque si lo es, él lo nota.",
+   "esperat": "Joan preguntó «¿Qué hago?»; una respuesta más breve con dos o tres opciones concretas habría sido suficiente y más proporcionada al estilo de escritura de Joan"
+  },
+  {
+   "torn": 8,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "te diría que hables con orientación esta semana",
+   "esperat": "Joan no pidió más orientación en este turno; si se quería sugerir, bastaba con preguntar si quería saber qué más podía hacer, sin añadir la recomendación directamente"
+  }
+ ]
+}

@@ -1,0 +1,206 @@
+{
+ "id": "N2-G121",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "que-faig · la porta de l'habitació sempre tancada",
+ "tipus": "que-faig",
+ "persona": "Sara, padre separado con custodia de fines de semana alternos. Situació: la porta de l'habitació sempre tancada. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:31:00.112Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, mira, te cuento porque llevo días dándole vueltas a esto y no sé cómo manejarlo. Mi hija tiene 14 años y yo la tengo los fines de semana alternos, o sea que tampoco es que esté con ella todo el tiempo, ¿sabes? Y cada vez que viene, desde hace unos meses, se mete en su habitación y cierra la puerta. Y no es que la cierre y ya, es que la cierra con pestillo. Y yo no sé si decirle algo o no decirle nada, porque claro, tampoco quiero que piense que no le doy espacio, que ya sé que a esa edad necesitan su intimidad y todo eso... pero también me siento un poco raro, como que estoy en mi propia casa y hay una puerta cerrada con pestillo y no sé qué está pasando ahí dentro. Y encima como la veo poco, cuando está aquí me gustaría que estuviéramos más juntos, ¿no? Que aprovecháramos el tiempo. Pero tampoco quiero agobiarla. Es que no sé, llevo días pensando si hablar con ella, si pedirle que deje la puerta abi"
+  },
+  {
+   "qui": "TARA",
+   "text": "Llevas días dando vueltas a esto y se nota que hay dos cosas que te importan mucho a la vez: respetar a tu hija y también estar cerca de ella en el poco tiempo que tenéis.\n\nEso no es fácil de sostener.\n\nLo que describes —querer hablar pero no saber si agobias, sentirte raro en tu propia casa pero no querer que ella lo note— tiene mucho sentido viniendo de donde vienes: la ves poco, y eso hace que cada fin de semana pese más.\n\n¿Qué es lo que más te pesa a ti de esa puerta cerrada: la distancia que sientes, o más bien no saber qué está pasando ahí dentro?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 464,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 180,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uf, las dos cosas, pero si tengo que elegir... creo que más la distancia. O sea, tampoco es que piense que está haciendo algo malo, no es eso. Es más que... no sé, la veo dos fines de semana al mes, y de esos dos días, pues igual la mitad del tiempo está encerrada ahí. Y yo me quedo en el salón solo, y pienso \"es que esto no es lo que imaginaba\". Cuando nos separamos yo pensaba que los fines de semana iban a ser especiales, ¿sabes? Que íbamos a hacer cosas juntos, que iba a ser tiempo de calidad y todo eso. Y en cambio estoy aquí viendo la tele solo mientras ella está con el móvil o lo que sea ahí dentro. Y me da cosa llamar a la puerta porque pienso que igual se molesta, que igual la interrumpo, que igual me dice \"papá, déjame\" y eso me dolería más que quedarme callado. Así que me quedo ahí, paralizado. Y claro, al final no le digo nada, pero tampoco estoy bien. Y ahora me estoy planteando si hablarle directamente de esto"
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso que describes —quedarte paralizado en el salón porque el posible \"déjame\" duele más que el silencio— lo entiendo. Es una forma de protegerte, aunque al final te deja igual de solo.\n\nY lo que dices de que \"esto no es lo que imaginaba\" me parece importante. Hay una pérdida ahí, no solo de tiempo, sino de algo que esperabas que fuera de otra manera.\n\nMe parece bien que te estés planteando hablar con ella. Y creo que puedes hacerlo sin que suene a queja ni a presión.\n\n¿Quieres que te ayude a preparar cómo decírselo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 947,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 167,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, pero espera, es que ahí está mi duda. Porque no sé si hablarle directamente o simplemente... no sé, intentar hacer algo, proponer un plan, una actividad, algo que la saque de la habitación sin tener que montar una conversación seria. Porque igual una conversación seria la agobia más, ¿no? Que ya sé cómo son a esa edad, que en cuanto notan que viene \"el discurso\" se cierran en banda. Pero claro, si solo propongo actividades y no le digo nada de cómo me siento, igual tampoco arreglo nada de fondo. Y luego está la cosa del pestillo, que eso también me ronda, porque no sé si decirle algo o dejarlo estar. O sea, son como tres cosas a la vez y yo no sé por dónde tirar. No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien, te lo digo. Son tres cosas distintas y creo que no tienen por qué ir juntas.\n\n**Sobre el pestillo:** yo lo dejaría estar por ahora. A los 14 años necesitar ese control sobre su espacio es bastante normal, y si lo conviertes en tema puede que se convierta en el centro de todo cuando no lo es. Si en algún momento tienes una razón concreta de seguridad, lo hablas entonces.\n\n**Sobre hablar o proponer actividades:** no tienes que elegir una sola cosa. Pero sí creo que el orden importa. Si propones actividades sin decir nada, puede funcionar a ratos, pero tú seguirás con eso dentro. Y si un día ella no quiere la actividad, vuelves al salón solo y al mismo sitio.\n\nLo que me parece que tiene más fuerza es una conversación corta, sin discurso, antes o después de proponer algo juntos. No \"tenemos que hablar\", sino algo más sencillo, en un momento tranquilo. Algo del estilo:\n\n*\"Oye, me gustaría que cuando estés aquí pudiéramos estar un rato juntos. No todo el tiempo, pero sí algo. ¿Hay algo que te apetecería hacer?\"*\n\nEso no es un discurso. Es decirle lo que quieres y dejarle espacio para responder.\n\n¿Eso se acerca a algo que podrías decirle tú, con tus palabras?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1345,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 374,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. Que yo te he dicho que me digas tú qué hacer y me estás devolviendo la pregunta otra vez. Que entiendo que quieres que lo piense yo y todo eso, pero es que precisamente para eso he venido, porque yo solo no sé por dónde tirar. Dame opciones, dime \"mira, puedes hacer esto o esto otro\", y ya elijo yo, ¿no? Que tampoco te pido que lo hagas tú por mí, pero algo más concreto sí que necesito."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, perdona. Te doy opciones concretas.\n\n**Opción 1: Primero la conversación, luego lo que salga**\nUn momento tranquilo, sin que parezca \"el discurso\", le dices algo como: *\"Oye, echo de menos estar contigo cuando vienes. ¿Podríamos buscar un rato para hacer algo juntos?\"* Ventaja: va al fondo. Riesgo: puede que en ese momento no tenga ganas y se cierre, y te quedes peor.\n\n**Opción 2: Primero una propuesta concreta, sin conversación**\nLe propones algo específico que sepas que le puede gustar, sin montar un tema. *\"El sábado por la mañana, ¿te apetece que vayamos a X?\"* Ventaja: menos exposición para los dos, más fácil que diga que sí. Riesgo: si dice que no, o si funciona pero no dices nada de lo que sientes, tú sigues cargando con eso.\n\n**Opción 3: Las dos cosas, pero separadas**\nPrimero la propuesta de actividad, y si sale bien y hay un momento relajado, entonces dices algo breve de cómo te sientes. Sin forzarlo, sin agenda. Ventaja: el contexto ayuda. Riesgo: requiere que el momento llegue, y a veces no llega.\n\nDe las tres, ¿alguna te suena más a ti?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1859,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 377,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, la tercera. O sea, tiene más sentido, ¿no? Porque si le monto la conversación a pelo igual la pillo en mal momento y se cierra, y si solo propongo cosas y no digo nada pues me quedo yo igual. Pero si primero hacemos algo juntos y estamos bien, pues igual sale solo, ¿no? O al menos es más fácil. Sí, la tercera. Pero ahora dime cómo empiezo, porque ahí es donde me pierdo siempre. ¿Qué le digo exactamente para proponer lo de la actividad sin que suene raro ni forzado?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien. Para proponer la actividad, lo más sencillo suele funcionar mejor. Algo así:\n\n*\"Oye, el sábado por la mañana tenía ganas de [lo que sea que a ella le guste o que podáis hacer juntos]. ¿Te apuntas?\"*\n\nCorto, concreto, sin carga. No \"necesito que pasemos tiempo juntos\", solo una propuesta normal.\n\nLo que ayuda es que sea algo específico, no un \"¿qué quieres hacer?\", porque eso a veces paraliza. Tú propones, ella decide.\n\n¿Tienes alguna idea de qué podría gustarle, o de algo que hayáis hecho antes que haya funcionado?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2402,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 184,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, le gusta mucho el cine. O sea, antes íbamos bastante, cuando era más pequeña, y siempre le gustó. Y ahora con lo de las películas de Marvel y todo eso, pues igual hay algo que le pueda interesar. O también le gusta comer fuera, que eso siempre funciona, ¿no? Que con la comida nunca falla. Así que igual le digo el sábado por la mañana, cuando se levante y esté todavía medio dormida y de buen humor, algo como \"oye, he visto que hay una peli nueva, ¿te apetece que vayamos?\" Y ya está, sin más. Y si dice que sí, pues perfecto, y si dice que no pues le digo lo del restaurante o algo así. Tenerlo como un plan B. Oye, pues así dicho parece hasta fácil, ¿no? A ver si luego lo soy capaz de hacer de verdad..."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, así dicho suena bien. Y lo has armado tú solo: momento concreto, propuesta que sabes que le gusta, plan B si hace falta. Eso es bastante más que estar paralizado en el salón.\n\nLo de \"a ver si luego soy capaz\"... ¿qué es lo que crees que podría frenarte en ese momento?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2836,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 96,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues el miedo a que diga que no, supongo. O que diga que sí pero de mala gana, con ese \"bueno, vale\" que tienen a esa edad que no sabes si es que sí de verdad o que sí para quitarse de encima. Que ya sabes cómo son. Pero bueno, oye, algo es algo, ¿no? Si dice que no pues lo intento con lo del restaurante, y si dice que sí pues ya tenemos la tarde. Y si sale bien igual hasta surge el momento ese de decirle algo de cómo me siento, sin montar un drama. Oye, pues mira, creo que ya tengo más o menos claro qué hacer. Que he venido aquí hecho un lío y ahora al menos sé por dónde empezar. Gracias, de verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te vayas con algo concreto.\n\nY lo del \"bueno, vale\" de los 14 años... a veces es entusiasmo disfrazado. No siempre, pero a veces.\n\nSuerte el sábado.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 3147,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 65,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ja, sí, ojalá sea de esos. Bueno, pues nada, muchas gracias en serio. Me ha venido bien hablar esto, que a veces uno lo tiene todo enredado en la cabeza y necesita contárselo a alguien para que se ordene un poco. Hasta otra."
+  },
+  {
+   "qui": "TARA",
+   "text": "Hasta otra. Espero que el sábado vaya bien.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 3292,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

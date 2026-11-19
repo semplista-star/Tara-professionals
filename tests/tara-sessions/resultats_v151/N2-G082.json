@@ -1,0 +1,140 @@
+{
+ "id": "N2-G082",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "nomes-desfogar · les xarxes socials i el que hi publica",
+ "tipus": "nomes-desfogar",
+ "persona": "Sara, mare. Situació: les xarxes socials i el que hi publica. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:27:40.454Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, avui no necessito preparar res, només necessito desfogar-me una mica si no et fa res. És que estic una mica fins als nassos amb la meva filla i el tema de les xarxes."
+  },
+  {
+   "qui": "TARA",
+   "text": "Endavant, t'escolto. Explica'm.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 224,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "És que publica coses que... ostres, no sé. Fotos, comentaris... i jo les veig i em poso de molt mala llet. Sento que no la conec, que hi ha una versió d'ella a internet que jo no sé ni qui és."
+  },
+  {
+   "qui": "TARA",
+   "text": "Això de veure una versió de la teva filla que no reconèixes... entenc que pot ser molt desconcertant. Quants anys té, si em pots dir?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 312,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 46,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Té tretze. I és que a casa és una nena, saps? Però allà es posa... no sé, com més gran, com més... ai, no sé com explicar-ho. Em fa cosa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tretze anys i dues versions que no encaixen. Té sentit que et faci cosa.\n\nQuan dius que et fa cosa, és més aviat preocupació pel que pugui passar, o és que et sents una mica fora de la seva vida?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 413,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 66,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Les dues coses, crec. O sigui, m'espanta el que pugui veure o qui la pugui veure a ella, però també... sí, em sento una mica fora. Com si hi hagués una part seva on jo no hi soc benvinguda. I això em dol, eh. No t'ho negaré."
+  },
+  {
+   "qui": "TARA",
+   "text": "Que et dolgui té molt de sentit. No és poca cosa sentir-se fora d'una part de la vida de la teva filla.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 564,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 39,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... buf. Però bé, ja m'he desfogar una mica i em trobo millor. Gràcies per escoltar-me, de veritat. Ara me'n vaig que tinc coses a fer!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Me n'alegro que t'hagi anat bé desfogar-te una mica. Que vagis bé!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 664,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 43,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

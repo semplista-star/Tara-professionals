@@ -1,0 +1,141 @@
+{
+ "id": "N1-G170",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "jerga · un grup disruptiu a última hora",
+ "tipus": "jerga",
+ "persona": "Toni, maestro de primaria. Situació: un grup disruptiu a última hora. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:22:12.272Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uf, pues mira, es que tengo un grupo de sexto que me está volviendo loco. La última hora es un desastre total. Están a su bola, no me hacen ni caso, y hay uno en especial, Marcos, que me torea pero bien. Le digo algo y me mira como si no existiera, o peor, se ríe con los de al lado. Me siento completamente ignorado, tío. Como si no estuviera ahí. Y ya no sé qué hacer la verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso de estar ahí y sentir que no existes para ellos... es agotador. Y con Marcos encima, que lo convierte en algo casi público.\n\nCuéntame un poco más: cuando dices que te torea, ¿qué hace exactamente? ¿Qué ves tú que pasa en esos momentos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 266,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 88,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues mira, por ejemplo, ayer le dije \"Marcos, para\" porque estaba dando golpecitos en la mesa sin parar, y él... nada. Me miró un segundo y siguió. Y los otros se empezaron a reír. Es como un jueguecito, ¿sabes? A ver hasta dónde llega el profe. Y yo ahí plantado como un idiota delante de todos. Me quedé sin saber qué decir, la verdad. Me bloqueé. Y eso es lo que más me fastidia, que luego me voy a casa y pienso en todo lo que podría haber dicho y no dije."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ese bloqueo en el momento, y luego el bucle en casa dándole vueltas... eso sí que desgasta.\n\nLo que describes es bastante concreto: le dices que pare, él te mira y sigue, el grupo se ríe, y tú te quedas sin respuesta. Un momento muy incómodo delante de todos.\n\n¿Qué quieres trabajar hoy? ¿Cómo responder en ese momento cuando pasa? ¿O hay algo más detrás de la situación con Marcos que quieras entender primero?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 519,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 145,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No no, lo que quiero es algo práctico. O sea, está bien reflexionar y todo eso pero yo lo que necesito es saber qué le digo la próxima vez que me la juegue delante de todos. Una frase, algo concreto. Porque si vuelvo a quedarme en blanco me va a comer la moral del todo, ¿sabes?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Algo que puedas tener preparado y que no te deje en blanco.\n\nTe propongo tres opciones, según el tono que te salga más natural:\n\n---\n\n**Opción 1 — Calma y distancia:**\n*(Sin subir el tono, mirándole directamente)*\n«Marcos, los golpes en la mesa me dificultan explicar. Para, por favor.»\nY si sigue: silencio de tres o cuatro segundos, sin apartar la mirada. Luego continúas la clase como si nada.\n\n---\n\n**Opción 2 — Nombrar lo que pasa, sin dramatizar:**\n«Marcos, veo que sigues. Ahora no voy a competir con eso. Hablamos al salir.»\nY te giras. Le quitas el público.\n\n---\n\n**Opción 3 — Más directa, si ya estás harto:**\n«Marcos, esto lo resolvemos tú y yo después de clase. Ahora seguimos.»\nPunto. Sin esperar respuesta.\n\n---\n\nLas tres evitan el intercambio delante del grupo, que es donde él gana. La clave en todas es no quedarte esperando que obedezca en ese momento: dices lo tuyo y sigues tú.\n\n¿Alguna te encaja? ¿O quieres ajustar el tono?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 345,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera espera. Esto parece el manual del buen maestro, tío. Yo no hablo así en clase, si le digo \"me dificultan explicar\" me van a mirar todos como si fuera un robot. Necesito algo más... normal, ¿sabes? Como lo diría una persona de verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, sonaba a manual. Vamos a lo natural.\n\nAlgo así:\n\n---\n\n**En el momento, sin pararte:**\n«Marcos, para.» — y sigues hablando. Sin esperar, sin mirarle fijo. Como si ya estuviera hecho.\n\nSi sigue y el grupo se ríe:\n«Bien, esperamos.» — te callas, miras al grupo, no a él. El silencio lo pone incómodo a él, no a ti.\n\nY si quieres cerrar sin montar un drama:\n«Marcos, al salir te quedas un momento.» — dicho de pasada, como algo rutinario, y continúas.\n\n---\n\nLa diferencia con ayer no es la frase, es que no te quedas plantado esperando que reaccione. Dices lo tuyo y te mueves. Él se queda sin juego.\n\n¿Esto te suena más a ti?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1186,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 235,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, esto ya mola más. Lo de \"esperamos\" me gusta, que le das la vuelta y el incómodo es él. Me lo apunto. Gracias tío, en serio, que lo necesitaba."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Suerte mañana con Marcos.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1479,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 21,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

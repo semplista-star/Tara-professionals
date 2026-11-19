@@ -1,0 +1,118 @@
+{
+ "id": "N1-G108",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "demanda-directa · la pressió de direcció per les notes",
+ "tipus": "demanda-directa",
+ "persona": "Xavi, tutora de 1r d'ESO. Situació: la pressió de direcció per les notes. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:17:51.270Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Necessito ajuda per redactar un missatge breu per enviar a la direcció. Vull explicar per què algunes notes del meu grup de 1r d'ESO són baixes aquest trimestre, sense que sembli una excusa. Pots ajudar-me amb això?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar. Per redactar-lo bé, necessito saber una cosa: quina és la raó principal que vols explicar? (Per exemple, un canvi metodològic, dificultats del grup, una situació concreta...)",
+   "tags": [],
+   "usage": {
+    "input_tokens": 216,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 60,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "El grup té moltes dificultats d'adaptació al nou etapa. Venen de primària i el canvi és molt gran. No és que no hagin treballat, és que necessiten més temps. Això és el que vull transmetre."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tens un esborrany:\n\n---\n\n**Assumpte: Notes del grup de 1r d'això — context del primer trimestre**\n\nBon dia,\n\nVolia compartir una reflexió sobre els resultats d'aquest trimestre al grup de 1r d'això.\n\nLes notes reflecteixen un grup que encara s'està adaptant al canvi d'etapa. La transició de primària a secundària implica un salt important en autonomia, ritme i exigència, i molts alumnes necessiten més temps per consolidar aquests nous hàbits. L'esforç i la implicació han estat presents, però els resultats encara no ho mostren del tot.\n\nSeguiré acompanyant el grup i confio que el segon trimestre reflectirà millor el seu progrés real.\n\nQuedo a disposició per comentar-ho amb més detall si és necessari.\n\nSalutacions,\n[Nom]\n\n---\n\nVols canviar el to, afegir alguna cosa o deixar-lo així?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 338,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 257,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Està bé, però el trobaria una mica més ferm. Vull que quedi clar que no estic demanant disculpes, sinó donant context. Pots ajustar-ho en aquest sentit?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tens la versió revisada:\n\n---\n\n**Assumpte: Notes del grup de 1r d'això — context del primer trimestre**\n\nBon dia,\n\nUs faig arribar una valoració sobre els resultats d'aquest trimestre al grup de 1r d'això.\n\nLes notes responen a una realitat observable: el grup es troba en ple procés d'adaptació al canvi d'etapa. La transició de primària a secundària exigeix un salt significatiu en autonomia, ritme i organització, i aquest procés requereix temps. L'alumnat ha treballat; els resultats actuals reflecteixen on són ara, no el sostre del que poden assolir.\n\nContinuo fent el seguiment del grup amb aquest marc en ment. Prevejo que el segon trimestre mostrarà una evolució clara.\n\nQuedo disponible si voleu comentar-ho.\n\nSalutacions,\n[Nom]\n\n---\n\nMillor així?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 650,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 242,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, molt millor. Això és el que necessitava. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. Sort amb el trimestre que ve.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 916,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

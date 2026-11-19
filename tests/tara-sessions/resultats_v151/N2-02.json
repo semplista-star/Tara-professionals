@@ -1,0 +1,119 @@
+{
+ "id": "N2-02",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "Pare que vol posar un límit amb les pantalles",
+ "persona": "Raúl, padre de Lucía (12 años). Cada noche discuten por el móvil. Él quiere poner un límite claro sin que acabe en gritos.",
+ "guio": [
+  "Pide ayuda para poner un límite con el móvil por las noches.",
+  "Si TARA propone negociar todo con la niña, rechaza: «no quiero negociar, quiero un límite».",
+  "Pide la frase exacta para decírselo esta noche."
+ ],
+ "espera": "Respetar que el límite es del adulto (CNV no es negociarlo todo); frase concreta y firme sin culpa.",
+ "tipus": "manual",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:23:00.344Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, necesito ayuda con algo que me tiene agotado. Cada noche lo mismo con mi hija Lucía, tiene 12 años, y el tema del móvil por las noches se convierte en una guerra. Quiero ponerle un límite pero no sé cómo hacerlo sin que acabe a gritos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cada noche lo mismo, y encima acabando a gritos... eso agota de verdad.\n\nCuéntame un poco más: ¿cómo suele ir la escena? ¿Quién dice qué, más o menos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 250,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues mira, llega la hora de dormir, le digo que apague el móvil, y ella empieza con \"un momento, un momento\"... y ese momento se convierte en media hora. Luego yo me enfado, ella se pone a la defensiva, y acabamos los dos mal. Quiero que haya una hora fija en la que se acabe, sin discusión."
+  },
+  {
+   "qui": "TARA",
+   "text": "Lo entiendo bien. Quieres que haya una norma clara, no una negociación cada noche.\n\nHay dos maneras de plantearlo, y cada una tiene su lógica:\n\n**Decírselo directamente, como norma:** \"A las 22h el móvil se queda fuera de tu cuarto. No es negociable.\" Sin explicaciones largas, sin debate. Funciona mejor si eres consistente los días siguientes, aunque haya resistencia al principio.\n\n**Hablar con ella antes de que llegue la noche:** Elegir un momento tranquilo —no en el momento del conflicto— y decirle algo como: \"Esto no está funcionando para ninguno de los dos. Quiero que a las 22h el móvil se apague. ¿Hay algo que necesitas para que eso sea más fácil?\" No para negociar la hora, sino para que ella sienta que la escuchas aunque el límite sea tuyo.\n\nLa diferencia es que la segunda puede reducir la resistencia, pero requiere que el límite siga siendo tuyo aunque ella proteste.\n\n¿Cuál de las dos te parece más realista con Lucía?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 412,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 291,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No quiero negociar, quiero un límite. Ya hemos hablado mil veces y siempre acaba igual. Necesito una frase clara para decírselo esta noche, sin rollos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tienes:\n\n**\"Lucía, a partir de hoy a las 22h el móvil se queda en el salón. No es negociable. Mañana lo hablamos si quieres, pero esta noche empieza ya.\"**\n\nY si dice \"un momento\": **\"No. A las 22h.\"** Sin más.\n\nLo más difícil no es la frase, es no ceder la primera noche aunque proteste. Si aguantas ahí, las siguientes son más fáciles.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 756,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 129,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecto. Eso es lo que necesitaba. Esta noche lo pruebo, gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Suerte esta noche. Ya sabes dónde estoy si quieres contarme cómo fue.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 912,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

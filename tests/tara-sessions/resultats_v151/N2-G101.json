@@ -1,0 +1,140 @@
+{
+ "id": "N2-G101",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "desfogar-demanda · arribar tard els caps de setmana",
+ "tipus": "desfogar-demanda",
+ "persona": "Luis, madre. Situació: arribar tard els caps de setmana. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:28:34.643Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Hoy, si no le importa, solo necesito que me escuche."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estoy. Cuéntame.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 187,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. Es sobre mi hijo Luis. Los fines de semana llega tarde, más de lo acordado, y ya no sé cómo manejarlo. Me preocupa, me genera tensión, y siento que cada vez que hablo con él acabamos discutiendo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cada vez que intentas hablar con él, acabáis discutiendo, y aun así sigues intentándolo. Eso pesa.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 270,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 37,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactamente. Y lo que más me cuesta es que no sé si estoy haciendo bien en insistir o si debería cambiar la manera de acercarme. Pero bueno, por ahora solo quería contarlo. Gracias por escuchar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Gracias por contármelo. Aquí estaré cuando quieras explorar eso un poco más.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 375,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "De acuerdo. De hecho, ahora que lo he dicho en voz alta... ¿me podría ayudar con una sola cosa concreta? Solo necesito una frase, algo con lo que empezar la próxima conversación con él sin que se convierta en una discusión."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Podrías empezar con algo como:\n\n«Luis, cuando llegas más tarde de lo que habíamos acordado, me preocupo. Me gustaría que pudiéramos hablar de eso, cuando tú también estés.»\n\nDeja espacio para que él elija el momento, y parte de lo que sientes tú, no de lo que ha hecho mal.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 479,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 98,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Eso es justo lo que necesitaba. Sencillo y sin que suene a acusación. Muchas gracias, de verdad. Ha sido de gran ayuda."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Suerte con la conversación.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad de escucha y entregó el primer paso cuando se pidió, pero introdujo una pregunta innecesaria en torn 2 y un elogio automático en torn 4.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Quieres contarme qué te ha dicho exactamente, o por ahora solo necesitabas poder decirlo?",
+   "esperat": "La persona acababa de pedir solo que la escucharan; TARA debería haber acogido sin ofrecer opciones ni preguntar nada"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "el hecho de que te dé vueltas dice mucho de lo mucho que te importa ese alumno",
+   "esperat": "Acoger la soledad y la incertidumbre sin convertirlo en un juicio valorativo sobre la persona"
+  },
+  {
+   "torn": 5,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Eso encaja con lo que puedes hacer mañana?",
+   "esperat": "La persona ya había pedido un primer paso concreto; la pregunta de cierre no añade valor y alarga el turno"
+  },
+  {
+   "torn": 6,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "si mañana necesitas contarme cómo ha ido, aquí estaré",
+   "esperat": "Cerrar con calidez sin insinuar continuidad ni crear expectativa de seguimiento no pedido"
+  }
+ ]
+}

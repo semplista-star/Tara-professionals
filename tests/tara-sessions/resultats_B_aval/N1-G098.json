@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió el problema práctico de Carmen y le dio herramientas útiles, pero en los primeros turnos priorizó recabar información sobre el alumno afectado antes de atender la necesidad de orientación de la profesora.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿qué has visto o escuchado exactamente? Cuéntame lo que ha pasado, con lo que observaste",
+   "esperat": "Carmen ya había descrito la situación con suficiente claridad; pedir más detalle antes de ofrecer nada retrasa la ayuda sin añadir valor"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿tienes idea de cómo está viviendo esto el chico con dislexia? ¿Ha dicho algo, ha cambiado su actitud en clase, ha dejado de participar?",
+   "esperat": "Carmen no pidió explorar el estado del alumno afectado; TARA podría haber pasado directamente a orientar la actuación docente"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Que haya dejado de querer leer dice bastante de cómo lo está pasando.",
+   "esperat": "Afirmar el estado interno del alumno con dislexia como hecho a partir de un comportamiento observable; mejor mantenerlo como hipótesis: «puede indicar que lo está pasando mal»"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que te preocupe.",
+   "esperat": "Validación convertida en fórmula; podría omitirse o integrarse de forma más específica al contexto"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Te propongo un esquema para esa conversación, en privado, fuera del grupo. 1) Empieza por lo que has observado… 6) Cierra con una expectativa concreta…",
+   "esperat": "El esquema de seis pasos es más extenso de lo que Carmen pidió («¿Cómo lo enfoco?»); dos o tres pautas clave habrían sido suficientes y más manejables"
+  }
+ ]
+}

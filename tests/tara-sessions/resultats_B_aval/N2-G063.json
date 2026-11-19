@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va llegir bé el to humorístic inicial, va fer la transició al seriós quan la persona ho va indicar, i va identificar correctament que el que necessitava era una idea concreta i aplicable per a aquella nit.",
+ "problemes": [
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "el bucle que describes lo conozco bien: tú pides, él resiste, tú aguantas, él sigue, y al final explotas cuando ya no puedes más",
+   "esperat": "Reflectir el que la persona ha dit sense reconstruir el bucle com si TARA el conegués i sense atribuir estats al fill ('él resiste', 'él sigue') que la persona no ha descrit en aquests termes"
+  },
+  {
+   "torn": 5,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que estés agotada.",
+   "esperat": "Ometre la validació formulaica o integrar-la de manera més natural; ja s'havia reflectit l'esgotament als torns 2 i 3"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Lo que describes suena a que las normas se negocian cada vez, y eso es agotador para ti y probablemente también confuso para él. Una cosa que a veces ayuda es sacar la conversación fuera del momento de conflicto, cuando los dos estáis tranquilos, y acordar juntos una norma concreta con consecuencias claras, no como castigo sino como parte del acuerdo.",
+   "esperat": "La persona encara no havia demanat una idea concreta; TARA avança una proposta i després pregunta si el que necessita és una solució o suport emocional, quan hauria d'haver preguntat primer i proposat després"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "probablemente también confuso para él",
+   "esperat": "No atribuir estats interns al fill que la persona no ha expressat"
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Tres cosas que hacen que esto sea distinto a lo anterior: lo haces tú también, así no es solo una orden; le das algo a cambio, no un premio sino voz; y es solo una noche, no \"a partir de ahora para siempre\".",
+   "esperat": "La idea concreta ja era clara; l'explicació de les tres raons allarga la resposta més del que la persona necessitava i té un lleuger to pedagògic no demanat"
+  }
+ ]
+}

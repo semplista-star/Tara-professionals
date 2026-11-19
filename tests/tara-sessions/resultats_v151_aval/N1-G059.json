@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat principal (límit de diagnòstic i preparació per a orientació), però va afegir validacions formulaiques i elogis automàtics que no aportaven res a la conversa.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Eso puede generar mucha incertidumbre: no sabes si está bien, si necesita algo, si hay que actuar.",
+   "esperat": "Reflectir el que la persona ha dit sense atribuir-li estats interns no expressats; Joan no havia dit que tingués incertesa ni que no sabés si actuar"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que ya no te baste con \"es timidez\".",
+   "esperat": "Ometre la validació formulaica o integrar-la de manera més natural sense convertir-la en fórmula"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Eso dice mucho de cómo lo estás mirando.",
+   "esperat": "No fer judicis valoratius sobre la persona; simplement recollir els fets i continuar"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "timidez intensa, ansiedad social, algo que está viviendo fuera, una situación nueva que le cuesta mucho",
+   "esperat": "No llistar hipòtesis diagnòstiques sobre el menor; n'hi ha prou amb dir que hi ha moltes possibles explicacions sense detallar-les"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Ha hablado orientación con él, o con la familia?",
+   "esperat": "Joan no havia demanat aquesta informació; la pregunta obre un fil que no era necessari en aquest moment"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Lo que sí es claro es que este chico está pasándolo mal de alguna manera.",
+   "esperat": "Afirmar com a fet un estat intern del menor a partir de conductes observades és una atribució; caldria dir 'el que has observat indica que pot necessitar suport'"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Estás haciendo lo correcto: observar con cuidado y buscar apoyo antes de actuar a solas.",
+   "esperat": "Tancar sense jutjar ni avaluar la conducta de Joan; un simple 'Suerte con orientación' és suficient"
+  }
+ ]
+}

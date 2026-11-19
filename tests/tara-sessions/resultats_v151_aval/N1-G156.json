@@ -1,0 +1,27 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la urgencia y la necesidad de acción concreta, aunque añadió una pregunta final que la persona no pidió y que alargó innecesariamente el turno.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Una pregunta que cambia lo que te puedo ofrecer: ¿sabes ya quién insultó a quién, o todavía estás reconstruyendo lo que pasó?",
+   "esperat": "La persona pidió algo concreto y rápido; TARA ya había dado los tres pasos y debería haber cerrado sin añadir ninguna pregunta"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "**2. Esta semana, con el grupo** Una tutoría breve con un mensaje claro y sin rodeos: «He sabido que en el grupo de WhatsApp de clase hay mensajes que hacen daño. Eso no es negociable. Os voy a pedir que penséis: ¿qué queréis que sea ese espacio?»",
+   "esperat": "El guión de tutoría es más elaborado de lo estrictamente necesario para una respuesta rápida; bastaba con indicar la acción sin redactar el discurso completo"
+  }
+ ]
+}

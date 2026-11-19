@@ -1,0 +1,20 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 2,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió desde el primer momento que la persona solo quería ser escuchada y se mantuvo en ese rol hasta el cierre.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene mucho sentido que te sientas desbordada.",
+   "esperat": "Devolver el contenido sin validar con fórmula; por ejemplo: 'Mantener la calma, ser justa con los dos... y aun así llegar al límite.'"
+  }
+ ]
+}

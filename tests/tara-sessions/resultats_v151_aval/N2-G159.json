@@ -1,0 +1,55 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entengué en cada torn el que Pau necessitava, des de la pregunta de privacitat fins a la preparació de la conversa amb el fill.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Ese agotamiento cuando no sabes si puedes fiarte de lo que te dice... es muy real.",
+   "esperat": "Pau havia dit 'me tiene agotada' però no havia dit que no sabia si podia fiar-se'n; la reformulació afegeix una interpretació no expressada. Millor: recollir el cansament sense ampliar-lo."
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "suelen tener que ver con evitar algo: una reacción, una consecuencia, un conflicto. No porque sea un niño problemático, sino porque ha encontrado que eso le funciona de momento.",
+   "esperat": "Pau no havia demanat explicació de per què menteix el fill; TARA ofereix una hipòtesi explicativa abans que la persona la demani. Podria haver anat directament a preguntar per la reacció de Pau."
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Antes de darte una frase o un enfoque, una sola cosa que me ayudaría a afinar: cuando te enfadas y luego hablas con él, ¿él qué hace?",
+   "esperat": "Pau havia demanat explícitament ajuda per preparar la conversa; TARA podia oferir un primer enfocament directament o fer una pregunta molt més breu sense justificar-la."
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "sin que él haya entendido realmente qué le cuesta ser honesto contigo, ni tú hayas podido decirle qué te pasa a ti cuando te miente",
+   "esperat": "TARA afirma com a fet que el fill 'no ha entès' i que Pau 'no ha pogut dir-li' el que li passa; són interpretacions no confirmades per la persona."
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Lo que describes suena a que la conversación acaba en la promesa, pero sin que él haya entendido realmente qué le cuesta ser honesto contigo [...] ¿Te ves diciéndole algo así, o hay alguna parte que no encaja con cómo sois vosotros?",
+   "esperat": "La resposta és útil però llarga per a una persona que escriu missatges molt curts; la introducció interpretativa podia ser més breu i anar directament a la proposta."
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Me alegra que te sirva. Suerte con la conversación.",
+   "esperat": "Tancament correcte en brevetat, però 'me alegra que te sirva' és una fórmula de validació automàtica; millor un tancament neutre i càlid sense avaluar la utilitat."
+  }
+ ]
+}

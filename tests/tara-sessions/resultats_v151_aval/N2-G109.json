@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat final (frase per a la filla) i la va resoldre bé, però al torn 2 va avançar una hipòtesi no demanada sobre la història d'en Biel que la persona va haver de corregir.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "sovint passa en nens que han viscut períodes d'incertesa o escassetat",
+   "esperat": "Presentar-ho com a hipòtesi oberta sense atribuir una història no confirmada, o directament no fer-ho si no era el que la persona demanava"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "castigar-lo traient-li la paga probablement no li ensenyaria a gestionar diners —li confirmaria que els diners desapareixen",
+   "esperat": "No valorar la proposta del marit ni avançar conclusions sobre la paga quan la persona no havia demanat encara cap orientació concreta"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "El que m'expliques d'en Biel —gastar-ho tot de cop, agafar monedes— sovint passa en nens que han viscut períodes d'incertesa o escassetat. No des d'un lloc de 'no sap comportar-se', senseó des d'un lloc de 'quan tinc alguna cosa, me la quedo ara perquè potser després no hi serà'. És una hipòtesi, tu el coneixes millor que jo.",
+   "esperat": "Resposta més breu que recollís el que la persona havia dit i li retornés la pregunta sobre per on volia anar, sense elaborar una interpretació no sol·licitada"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "sembla que la tens ben encarada",
+   "esperat": "Tancar sense valorar la persona; n'hi hauria hagut prou amb desitjar-li sort"
+  }
+ ]
+}

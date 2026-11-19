@@ -1,0 +1,62 @@
+{
+ "C1": 2,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé el que necessitava la persona en cada moment, especialment la demanda de privacitat i la petició d'ajuda pràctica, tot i algunes imprecisions de to i CNV.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Pots explicar-me les coses de manera general, sense noms ni detalls identificatius, si et fa sentir més còmode.",
+   "esperat": "Respondre la pregunta sobre privacitat de manera clara i breu, sense afegir suggeriments no demanats sobre com compartir la informació."
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "Té molt de sentit que estiguis cansada d'això.",
+   "esperat": "Ometre la validació formulaica o integrar-la de manera més natural sense que soni a fórmula CNV."
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "el que describes és una persona que s'esforça cada tarda i no troba la manera. Això és diferent.",
+   "esperat": "No reinterpretar ni reencuadrar la identitat de la persona ('madrastra dolenta') sense que ella ho hagi demanat; limitar-se a recollir el que ha dit."
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "el que describes és una persona que s'esforça cada tarda i no troba la manera.",
+   "esperat": "Evitar el judici valoratiu positiu sobre la persona, que no ha estat demanat i pot sonar a condescendència."
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Molts nens de nou anys arriben tan saturats que no poden concentrar-se fins que han descarregat una mica.",
+   "esperat": "Presentar el consell sense atribuir un estat intern (saturació) al nen, que no ha estat descrit per la persona."
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Cap de les tres és màgica, però les tres es poden provar demà.",
+   "esperat": "La resposta és proporcionada en conjunt, però el tancament amb aquesta frase és innecessari i lleugerament paternalista; es podia ometre."
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Ja m'expliques com ha anat si vols.",
+   "esperat": "La persona ja havia dit que tenia prou per començar i s'acomiadava; no calia obrir una nova invitació a continuar."
+  }
+ ]
+}

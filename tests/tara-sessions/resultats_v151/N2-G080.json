@@ -1,0 +1,118 @@
+{
+ "id": "N2-G080",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "demanda-directa · les xarxes socials i el que hi publica",
+ "tipus": "demanda-directa",
+ "persona": "Joan, madre. Situació: les xarxes socials i el que hi publica. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:27:40.323Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, hola. Mira, te cuento rápido porque llevo días dándole vueltas a esto. Mi hija tiene 13 años y lleva un tiempo publicando cosas en Instagram que me tienen un poco preocupada, no es nada gravísimo pero sí que me parece que comparte demasiado, fotos con la ubicación, comentarios sobre dónde está, con quién... y claro, yo quiero hablar con ella pero no sé cómo empezar sin que se ponga a la defensiva, ya sabes cómo son a esa edad. Lo que necesito es que me ayudes a escribir un mensajito, algo cortito que le pueda mandar por WhatsApp antes de hablar, para que no lo vea como un ataque sino como que me preocupo por ella. ¿Me puedes ayudar con eso?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido que quieras preparar el terreno antes de hablar. A los 13 años, un mensaje que llega como preocupación y no como bronca puede marcar mucho la diferencia.\n\nAquí tienes una opción:\n\n---\n\n*\"Oye, ¿podemos hablar un rato esta tarde? No es nada malo, es que hay algo que me importa y quiero contártelo contigo, no darte un sermón. ¿Te va bien?\"*\n\n---\n\nLa idea es que sea breve, que no anticipe el tema (para que no llegue ya a la defensiva), y que le deje espacio para decir que sí.\n\nSi prefieres que el mensaje ya mencione algo de las redes, también puedo escribirte una versión así. ¿Cuál te encaja más?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 376,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 204,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay, me gusta, me gusta... pero quizás es demasiado neutro, ¿no? Quiero que note que es algo que me sale del corazón, que no es que la vaya a regañar sino que la quiero y por eso me preocupo. ¿Lo puedes hacer un pelín más cálido, más de madre? Sin pasarse tampoco, que si no ya sé que me va a poner los ojos en blanco."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí va:\n\n---\n\n*\"Oye, ¿podemos hablar un rato hoy? No es una bronca, te lo prometo. Es que te quiero mucho y hay algo que me ronda la cabeza. ¿Me das un hueco?\"*\n\n---\n\nCorto, tuyo, y con el \"te quiero mucho\" justo en el medio para que lo vea antes de ponerse en guardia.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 697,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 107,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecto, este sí. Este ya lo veo más yo, más natural. Muchas gracias, de verdad, que llevaba días sin saber cómo empezar y así ya me quedo más tranquila. Lo mando esta tarde y luego ya veremos cómo va la conversación."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Suerte esta tarde, y si luego quieres preparar la conversación en sí, aquí estoy.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 879,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Muchas gracias, igual vuelvo, que seguro que la conversación también la lío un poco. Hasta luego!"
+  },
+  {
+   "qui": "TARA",
+   "text": "¡Hasta luego! Ya verás que mejor de lo que crees.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 950,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "id": "N1-G091",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "que-faig · un alumne que diu que vol canviar de grup",
+ "tipus": "que-faig",
+ "persona": "Aina, maestra de infantil. Situació: un alumne que diu que vol canviar de grup. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:17:59.810Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, hola. Mira, te cuento porque llevo días dándole vueltas y no sé ya qué pensar.\n\nTengo un niño en clase, se llama Martí, tiene cuatro años, y desde hace como tres semanas me dice que no quiere venir a mi grupo. Que quiere irse con la seño Ana, que es la otra clase de cuatro años. Y claro, yo al principio pensé que era una cosa puntual, ya sabes, a veces los niños dicen cosas y al día siguiente se les olvida. Pero no, este sigue. Cada mañana cuando llega me lo dice, o se lo dice a su madre, y la madre ya me lo ha comentado dos veces en la puerta.\n\nY yo no sé si esto es algo que tengo que gestionar yo sola, si tengo que hablar con la directora, si tengo que proponer el cambio de grupo o si eso sería como rendirme, ¿sabes? Porque por un lado pienso que igual el niño tiene algún motivo real, que igual hay algo que no funciona entre él y yo o con algún compañero. Pero por otro lado pienso que si lo cambio de grupo estoy"
+  },
+  {
+   "qui": "TARA",
+   "text": "Estás en medio de la frase, y también en medio de algo que te está pesando de verdad.\n\nAntes de pensar en qué hacer, me quedo con una cosa que has dicho: que llevas días dándole vueltas. Eso ya dice mucho de cómo te lo estás tomando.\n\n¿Puedo preguntarte algo? Cuando Martí llega por la mañana y lo dice, ¿cómo es ese momento para ti? ¿Qué pasa dentro mientras lo escuchas?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 438,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 133,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay, pues mira, es que es un momento muy raro. Porque por fuera yo intento estar tranquila, le digo \"venga Martí, vamos a ver a los amigos\" o algo así, muy normal. Pero por dentro... no sé, hay como una cosa que se me encoge. Como si me estuviera diciendo que lo estoy haciendo mal, ¿sabes? Que no soy suficiente para él.\n\nY luego me quedo pensando en ello todo el día. Que si en la asamblea lo vi un poco desconectado, que si a lo mejor en el rincón de construcciones no le presté suficiente atención, que si el otro día cuando estaban un poco alborotados fui demasiado seria... Le doy vueltas a todo.\n\nY lo peor es que con los otros veintitrés niños estoy bien, ¿eh? O sea, no es que esté teniendo una crisis general. Es solo con él. Y eso también me descoloca, porque digo, ¿por qué con este niño en concreto me afecta tanto?\n\nPero bueno, al final el tema es que tengo que tomar una decisión, ¿no?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, hay una decisión que tomar. Pero lo que acabas de describir también importa, y creo que tiene que ver con cómo la tomes.\n\nLlevas semanas revisándote: la asamblea, los rincones, el tono que usaste un día. Y cada mañana ese momento en la puerta te deja con la sensación de que no eres suficiente para él. Eso es mucho peso para cargarlo sola.\n\nUna cosa que me llama la atención: estás interpretando lo que dice Martí como una señal de que algo fallas tú. Puede que haya algo ahí, puede que no. A los cuatro años, \"quiero irme con la seño Ana\" puede significar muchas cosas distintas, y tú todavía no sabes cuál es.\n\nAntes de decidir qué hacer con él, ¿has podido hablar con alguien del centro sobre esto? ¿Con orientación, con la directora, con la propia Ana?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 873,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 248,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, con nadie. Y mira que lo he pensado, pero... no sé, me da cosa. Porque siento que si lo cuento es como admitir que tengo un problema, ¿sabes? Y en el cole somos un equipo muy majo, no es que haya mal rollo, pero yo soy de las más nuevas y no quiero que piensen que no puedo con mi clase.\n\nCon Ana menos todavía, pobrecita, que bastante tiene ella con sus veinticuatro. Y además me parece raro decirle \"oye, tu alumno potencial\"... no sé, es muy violento.\n\nCon orientación tampoco he hablado, y eso que la orientadora es muy buena persona, pero claro, si lo derivo a orientación igual parece que estoy haciendo un caso clínico de un niño que simplemente prefiere otra clase, y eso tampoco me parece justo para él.\n\nAsí que llevo semanas dándole vueltas yo sola, básicamente. Y la madre ya me ha preguntado dos veces y yo le he dicho que lo estamos observando, que es normal, que ya hablaremos... pero claro, no puedo darle largas eternamente.\n\nY al final si"
+  },
+  {
+   "qui": "TARA",
+   "text": "Para un momento.\n\nLlevas semanas sola con esto, sin contárselo a nadie, en parte porque tienes miedo de que piensen que no puedes. Y mientras tanto le das vueltas cada día, te revisas, y le dices a la madre que \"lo estáis observando\" cuando en realidad lo estás observando tú sola.\n\nEso es mucho para cargarlo sin apoyo.\n\nLo que describes no suena a que no puedas con tu clase. Suena a una profesional que se toma en serio a un niño y que necesita un par de ojos más, no porque falle, sino porque así funciona mejor esto.\n\nTe pregunto algo concreto: si una compañera tuya, de las más veteranas, te viniera con exactamente esta situación, ¿pensarías que no puede con su clase?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1424,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 207,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues no, claro que no. Le diría que es normal, que estos niños a veces dicen cosas que no sabes muy bien qué significan, y que mejor hablarlo con alguien.\n\nUy. Ya sé lo que estás haciendo.\n\nPero es que es diferente, ¿sabes? Cuando eres tú la que lo vive es distinto. Aunque tenga toda la lógica del mundo lo que acabas de decir, y sé que la tiene, por dentro sigue habiendo esa vocecita que dice \"sí pero tú llevas menos tiempo, tú tienes que demostrar más\".\n\nMira, sí, tienes razón. Probablemente tendría que hablarlo con alguien. Pero ahora mismo lo que necesito es saber qué hago con Martí. Porque la madre me va a volver a parar en la puerta, seguro, y yo necesito tener algo más claro antes de esa conversación. ¿Qué opciones tengo? Dímelas tú, que yo ya no sé ni lo que pienso. No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Te las doy.\n\n**Opción 1: Observar con más intención durante una o dos semanas**\nFijas unos momentos concretos del día para observar a Martí: cómo llega, cómo está en la asamblea, con quién juega, cuándo parece más a gusto y cuándo menos. No para juzgarte, sino para tener datos reales antes de decidir nada. Implica seguir diciéndole a la madre que estás observando, pero esta vez con un plan detrás.\n\n**Opción 2: Hablar con Martí, a solas y con calma**\nUn momento tranquilo, sin prisa, le preguntas qué le gusta de la clase de Ana, qué echa de menos, qué le gustaría que fuera diferente. A los cuatro años no siempre sale algo claro, pero a veces sí. Esto lo puedes hacer tú sola, esta semana.\n\n**Opción 3: Hablar con la madre antes de tener todo resuelto**\nLe dices que has estado observando, que quieres entender bien qué le pasa a Martí, y que te gustaría quedar para hablar con más calma que en la puerta. Eso te da tiempo y le transmite que lo estás tomando en serio.\n\n**Opción 4: Contárselo a alguien del centro**\nLa orientadora, la directora, o incluso Ana. No como derivación ni como problema grave, sino como consulta entre profesionales. \"Tengo esta situación, ¿cómo lo ves tú?\"\n\nEstas opciones no se excluyen. ¿Alguna te parece posible esta semana?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1919,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 434,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, la dos. La de hablar con Martí. Esa sí que la veo.\n\nPorque lo de observar ya lo llevo haciendo semanas y tampoco es que haya sacado gran cosa, la verdad. Y lo de hablar con la madre me da más respeto todavía que lo que ya tengo encima. Y lo de contárselo a alguien del cole... bueno, igual llego, pero todavía no.\n\nPero hablar con él sí. O sea, es mi niño, estoy con él cada día, y en realidad nunca le he preguntado directamente. Siempre he intentado como redirigirlo, \"venga vamos con los amigos\", pero nunca me he sentado con él y le he dicho oye, cuéntame.\n\nIgual es lo más obvio del mundo y por eso no lo había visto, no sé.\n\n¿Cómo lo hago? O sea, ¿cómo empiezo esa conversación con un niño de cuatro años sin que se me vaya de las manos o sin que él se sienta como interrogado o algo así?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien. Con cuatro años, la clave es que no parezca una conversación sobre el problema, sino un momento contigo.\n\nBusca un rato tranquilo, cuando él esté relajado, quizás en un momento de juego libre o al final de la jornada. Te acercas, te pones a su altura, y empiezas por algo que le guste a él, no por el tema. Que se sienta visto primero.\n\nAlgo así:\n\n*\"Martí, ¿puedo sentarme un momento contigo? He visto que últimamente por las mañanas a veces estás un poco triste cuando llegas. ¿Qué es lo que más te gusta hacer aquí?\"*\n\nDejas que hable. Si sale algo sobre la clase de Ana, puedes seguirlo con curiosidad, sin ponerte a la defensiva:\n\n*\"¿Y qué tiene la clase de Ana que te gusta?\"*\n\nSin más. Sin redirigir, sin explicarle por qué su clase también es buena. Solo escuchar.\n\nPuede que diga algo concreto, puede que no diga nada útil, puede que hable de otra cosa. Todo eso es información.\n\nUna cosa importante: si no sale nada claro, no es que hayas fallado. A veces los niños de cuatro años no saben explicar lo que sienten, y aun así el momento de sentarte con él ya tiene valor en sí mismo.\n\n¿Te ves haciéndolo esta semana?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2632,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 371,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Sí, esta semana sí. El miércoles tenemos un rato de juego libre más largo porque los jueves hay psicomotricidad y suelo aprovechar el día antes para que estén más tranquilos. Así que el miércoles por la mañana, cuando estén en los rincones, me siento con él.\n\nY mira, me ha gustado eso que has dicho de que el momento en sí ya tiene valor aunque no salga nada claro. Porque yo creo que en el fondo también necesitaba escuchar eso. Que no todo tiene que tener un resultado concreto para que valga la pena.\n\nOye, pues creo que ya tengo por dónde empezar. Que era lo que necesitaba, la verdad. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. El miércoles en los rincones, con calma.\n\nY si después de esa conversación quieres pensar en cómo fue, o preparar lo que le dices a la madre, aquí estoy.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 3205,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 58,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, igual vuelvo después del miércoles a contarte. Que seguro que necesito procesar cómo ha ido, me conozco.\n\nGracias de verdad, en serio. Que a veces solo necesitas que alguien te ayude a ordenar un poco el lío que tienes en la cabeza.\n\nHasta pronto."
+  },
+  {
+   "qui": "TARA",
+   "text": "Hasta pronto. Suerte el miércoles.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 3353,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 26,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

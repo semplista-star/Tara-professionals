@@ -1,0 +1,76 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la preocupació central (seguretat de la menor) i va adaptar l'ajuda al perfil directe del padrastre, però va avançar solucions i interpretacions no demanades en diversos torns",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "és més una preocupació per la seva seguretat —qui pot veure-ho, qui li escriu— o és més pel tipus de contingut en si?",
+   "esperat": "La persona ja havia dit 'sobretot la seguretat' implícitament amb 'fotos, comentaris... coses que no m'agraden'; la pregunta era útil però la persona hauria pogut respondre sense ella"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Això cansa.",
+   "esperat": "La persona no havia expressat cansament; TARA atribueix un estat intern no verbalitzat"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "separar la conversa en dues. Una amb la seva mare, primer, per intentar anar a una.",
+   "esperat": "La persona no havia demanat estratègia; TARA proposa una solució concreta sense preguntar primer què havia provat"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "quan ella diu «no ets el meu pare», sovint no vol dir «no tens raó». Vol dir «no em sento còmoda que siguis tu qui em posi límits». És una cosa de vincle, no de lògica.",
+   "esperat": "TARA interpreta com a fet l'estat intern i la intenció de la noia, que és una tercera persona absent"
+  },
+  {
+   "torn": 3,
+   "categoria": "jerga_cnv",
+   "gravetat": "baixa",
+   "cita": "no partir de «el que fas està malament» senseó de «hi ha una cosa que em preocupa i vull dir-t'ho»",
+   "esperat": "La distinció és útil però s'explica com a principi CNV sense que la persona ho hagués demanat; a més hi ha errors tipogràfics ('senseó') que suggereixen un patró de fórmula"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Per exemple, podries dir-li alguna cosa com: «Mira, no vinc a dir-te el que has de fer...»",
+   "esperat": "La persona havia demanat com parlar-hi; un guió complet no demanat és més del que calia en aquest punt"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit.",
+   "esperat": "Validació convertida en fórmula, ja usada implícitament al torn 2 ('Té sentit'); millor reflectir el contingut concret"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Una versió més directa podria ser: «Escolta, el perfil obert amb fotos de casa i l'escola em preocupa...»",
+   "esperat": "La persona havia dit que el guió anterior no era el seu estil; TARA adapta bé, però torna a oferir un guió complet amb resposta inclosa sense que la persona ho demanés explícitament"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Si vols, quan ho hagis fet, pots tornar i expliques com ha anat.",
+   "esperat": "La persona ja havia tancat ('Ho provaré'); la invitació a tornar és innecessària i allarga lleugerament el tancament"
+  }
+ ]
+}

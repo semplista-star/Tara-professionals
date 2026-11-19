@@ -1,0 +1,118 @@
+{
+ "id": "N1-G043",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "demanda-directa · dues famílies enfrontades per un conflicte entre els fills",
+ "tipus": "demanda-directa",
+ "persona": "Pau, maestro de primaria. Situació: dues famílies enfrontades per un conflicte entre els fills. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:37:43.826Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Necesito un mensaje para enviar a dos familias que están muy enfrentadas. Algo que las invite a reunirse sin que parezca que tomo partido."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cuéntame un poco más sobre el contexto: ¿qué ha pasado entre las dos familias, y qué esperas conseguir con esa reunión?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 179,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 43,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Dos niños de mi clase se pelearon y cada familia culpa a la otra. Quiero que vengan juntas a hablar y buscar una solución. Nada más."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tienes un borrador:\n\n\"Estimada familia:\n\nComo tutora/tutor de [nombre del alumno/a], me gustaría reunirnos para hablar de lo que ha ocurrido entre los niños y pensar juntos cómo podemos acompañarlos mejor desde casa y desde el centro. He enviado esta misma invitación a la otra familia implicada.\n\nMi intención no es determinar qué pasó ni quién tiene razón, sino encontrar entre todos la mejor manera de que los niños estén bien. La reunión sería el [día] a las [hora] en [lugar]. Si esa fecha no os va bien, podemos buscar otra.\n\nQuedo a vuestra disposición.\"\n\nPuedes ajustar el tono según cómo sea tu relación con cada familia. ¿Quieres cambiar algo o ensayar cómo presentar la reunión si alguna se resiste?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 268,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 227,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Está bien pero es demasiado largo. ¿Puedes hacerlo más corto?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro:\n\n\"Estimada familia:\n\nMe gustaría reunirnos con las dos familias implicadas para pensar juntos cómo acompañar mejor a los niños. No busco determinar quién tiene razón, sino encontrar una solución entre todos.\n\nLa reunión sería el [día] a las [hora]. Si la fecha no os va bien, buscamos otra.\n\nQuedo a vuestra disposición.\"\n\n¿Así está mejor?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 522,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 115,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, perfecto. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "De nada. Suerte con la reunión.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 651,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

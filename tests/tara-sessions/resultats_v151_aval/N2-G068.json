@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat pràctica (paraules concretes per a un nen de 6 anys) i es va adaptar al rebuig de la primera proposta, però va afegir un elogi valoratiu al tancament i algunes fórmules de validació innecessàries.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "és que la pregunta toca alguna cosa important, per a ell i potser també per a tu",
+   "esperat": "No atribuir que la pregunta «toca alguna cosa» per a la Fàtima; ella no ha dit que li afecti personalment, només que no sabia com respondre el germà"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Que et quedis sense paraules davant d'això no és cap tonteria — és que la pregunta toca alguna cosa important, per a ell i potser també per a tu.",
+   "esperat": "Anar directament a la pregunta sobre l'edat del nen sense el paràgraf de validació elaborada"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "La bona notícia és que la seva pregunta en realitat té una resposta fàcil d'entendre per a ell",
+   "esperat": "Oferir les frases concretes sense el marc introductori valoratiu"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "que t'importi tant trobar les paraules justes per a ell... ja diu molt de tu com a germana gran",
+   "esperat": "Tancar sense jutjar la qualitat de la Fàtima com a germana; n'hi ha prou amb desitjar-li sort o deixar la porta oberta per a més preguntes"
+  }
+ ]
+}

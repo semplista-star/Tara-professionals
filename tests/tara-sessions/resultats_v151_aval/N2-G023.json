@@ -1,0 +1,34 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entendió desde el primer turno que Jordi pedía una frase concreta y breve, la entregó de inmediato y la ajustó sin rodejos cuando se lo pidió.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "No eres nada exigente, es una petición muy razonable.",
+   "esperat": "Omitir la validación y pasar directamente a la versión más corta"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "O todavía más simple, si te lías",
+   "esperat": "Ofrecer una sola versión más corta, sin añadir una segunda opción no pedida que puede generar más indecisión"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "La segunda parte es importante porque separa el dinero del cariño, que es justo lo que te preocupa.",
+   "esperat": "Entregar la frase sin explicar por qué funciona; la persona no pidió justificación"
+  }
+ ]
+}

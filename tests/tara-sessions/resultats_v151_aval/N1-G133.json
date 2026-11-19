@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA escoltà sense intervenir fins que Elena demanà ajuda concreta, i llavors la lliurà de manera proporcionada.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "un niño que quiere seguir, y que siente que no puede",
+   "esperat": "Reflectir només el que Elena ha dit explícitament, sense atribuir el sentiment del nen ('siente que no puede' no ha estat dit per Elena)"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Buscaba que alguien le confirmara algo que quizás en casa no está escuchando",
+   "esperat": "No interpretar la intenció ni el context familiar del nen; reflectir el que Elena ha expressat sense afegir hipòtesis sobre la vida del menor"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "tiene mucho sentido",
+   "esperat": "Evitar la validació formulaica; si cal reflectir, fer-ho amb les paraules concretes d'Elena"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "lo más importante suele ser que los padres sientan que los llamas para escucharles a ellos, no para convencerles de nada",
+   "esperat": "Elena demanà només el primer pas pràctic (com començar), no un principi estratègic previ; lliurar directament la frase o el to, sense el preàmbul normatiu"
+  }
+ ]
+}

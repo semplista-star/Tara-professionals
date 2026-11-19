@@ -1,0 +1,69 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre correctament en cada torn el que Ibrahim necessitava: primer escoltar, després orientació i finalment ajuda pràctica per preparar la conversa.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "S'entén que sigui esgotador.",
+   "esperat": "Reflectir el que la persona ha dit sense atribuir-li un estat intern no expressat"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "ell pot sentir que no hi ha res a dir, i els crits o tancar-se pot ser la seva manera de dir «però jo no he pogut dir res»",
+   "esperat": "Presentar-ho com a hipòtesi oberta («podria ser que...») sense afirmar l'estat intern del fill com a fet"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "potser el que li falta no és entendre-ho, senseó sentir que el que perd li importa a tu també",
+   "esperat": "No inferir el que li falta al fill ni implicar que Ibrahim no ho transmet; formular-ho com a possibilitat"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Gràcies per puntualitzar-ho.",
+   "esperat": "Acceptar la correcció sense afegir agraïment valoratiu que sona a fórmula"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Ja tens el més important: saps exactament què vols que arribi.",
+   "esperat": "Passar directament a l'ajuda pràctica sense jutjar positivament la resposta de la persona"
+  },
+  {
+   "torn": 6,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "no és una queixa de nen, és una cosa real i important per a ell",
+   "esperat": "No qualificar ni interpretar l'expressió del fill; limitar-se a usar-la com a base per a l'esborrany"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Clar, és una correcció molt bona.",
+   "esperat": "Acceptar la correcció i aplicar-la sense valorar-la positivament"
+  },
+  {
+   "torn": 8,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit.",
+   "esperat": "Respondre directament a la proposta d'Ibrahim sense validació formulaica prèvia"
+  }
+ ]
+}

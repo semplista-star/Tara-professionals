@@ -1,0 +1,118 @@
+{
+ "id": "N1-G063",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "que-faig · una alumna que queda exclosa a l'hora de fer grups",
+ "tipus": "que-faig",
+ "persona": "Toni, maestra de educación especial. Situació: una alumna que queda exclosa a l'hora de fer grups. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:15:24.417Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Mira, tengo una situación con una alumna mía, la Laia, que cada vez que toca hacer grupos se queda como el último calcetín en el cajón, ya sabes, la que nadie elige. Y yo me pregunto si meterme o dejar que los niños lo resuelvan solos... porque si me meto demasiado tampoco es bueno, pero si no hago nada me siento fatal. No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ese «último calcetín en el cajón» lo dice todo. Y entiendo el dilema: intervenir demasiado puede quitarle a Laia la oportunidad de encontrar su lugar, pero mirar sin hacer nada tampoco es una opción real cuando ves lo que ves.\n\nTe ofrezco tres maneras de situarte, con lo que implica cada una:\n\n**1. Rediseñar cómo se forman los grupos**\nNo intervenir *en* el momento, sino cambiar la estructura para que nadie quede expuesto. Grupos por sorteo, por tarjetas, por criterio tuyo... Laia no es «la última elegida» porque el sistema de elección desaparece. Es la opción menos visible y protege su dignidad sin señalarla.\n\n**2. Intervención discreta y sostenida**\nSigues observando, pero actúas en privado: una conversación con Laia para saber cómo lo vive, conversaciones con otros alumnos para trabajar el clima de aula, quizás coordinación con orientación o familia. No resuelves el momento, trabajas la raíz.\n\n**3. Convertirlo en aprendizaje colectivo**\nUsas la situación —sin nombrar a Laia— para trabajar con el grupo qué significa incluir, qué se siente al quedar fuera. Más lento, pero puede mover algo en el grupo.\n\n---\n\nLo que me pregunto, y solo tú puedes saberlo: ¿tienes idea de cómo lo está viviendo Laia? ¿Ella lo muestra, lo calla, lo normaliza?\n\nEso cambiaría bastante por dónde empezar.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 259,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 420,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uf, tres opciones, qué lujo. Mira, la uno me gusta porque es como hacer trampa al sistema pero de la buena, ¿sabes? Sin que nadie se dé cuenta de nada. Pero la dos también... Ay, las tres me molan. Vale, me quedo con la primera. ¿Y ahora cómo empiezo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien. La primera tiene eso bueno: cambia las reglas del juego sin que nadie tenga que quedar expuesto.\n\nPara empezar, lo más sencillo es decidir **cómo vas a asignar los grupos tú**, antes de que la situación vuelva a ocurrir. Algunas opciones concretas:\n\n- **Tarjetas o números aleatorios**: repartes y los grupos se forman solos. Nadie elige a nadie.\n- **Criterio tuyo silencioso**: tú compones los grupos pensando en quién va con quién, pero lo presentas como si fuera aleatorio o por algún criterio neutro («los que llevan jersey azul», «por orden de lista»...).\n- **Roles rotativos**: cada semana hay un rol diferente por grupo y tú asignas. El foco pasa de «con quién estoy» a «qué hago».\n\nLa clave es **instalarlo como norma de aula**, no como excepción puntual. Si lo haces solo cuando Laia está en apuros, puede notarse. Si es «así es como hacemos los grupos aquí», desaparece el momento incómodo para todos.\n\nUna pregunta práctica: ¿cuándo es la próxima vez que toca hacer grupos? ¿Tienes margen para prepararlo antes?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 773,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 335,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La semana que viene, así que sí, tengo margen. Oye, lo de los roles rotativos me ha gustado mucho porque así además Laia tiene un papel, no es solo \"la que está ahí\". Creo que voy a mezclar eso con el criterio mío silencioso, que ya sé yo con quién la pongo mejor. ¿Cómo lo presento a los niños para que no parezca raro el cambio?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Buena combinación. Y tienes razón: que Laia tenga un papel cambia su posición en el grupo, no solo su sitio.\n\nPara presentarlo sin que chirríe, lo más sencillo es enmarcarlo como una decisión tuya sobre cómo quieres trabajar este trimestre, sin dar más explicaciones de las necesarias. Los niños suelen aceptar bien los cambios cuando vienen con naturalidad y con una razón sencilla.\n\nAlgo así como:\n\n*«Este trimestre vamos a cambiar cómo hacemos los grupos. Yo voy a asignarlos, y cada persona tendrá un rol dentro del equipo. Lo iremos rotando para que todos practiquen cosas distintas.»*\n\nSin drama, sin «a partir de ahora las cosas van a ser diferentes». Solo: así lo hacemos.\n\nSi alguien pregunta por qué, puedes tener preparada una respuesta corta y honesta: *«Porque quiero que todos trabajéis con todos y que cada uno tenga su función.»* Eso es verdad, y no necesita más.\n\nUna cosa que puede ayudar: la primera vez que uses los roles, dedica cinco minutos a explicar qué hace cada uno. Que el foco esté en los roles, no en quién está con quién.\n\n¿Ya tienes pensado qué roles quieres usar, o quieres que te ayude a definirlos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1225,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 349,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, los roles ya los tengo más o menos claros de otras veces. Creo que con esto ya tengo suficiente para arrancar. Muchas gracias, de verdad, que a veces uno necesita que alguien le ordene un poco el caos de la cabeza."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido. Eso que describes —ordenar el caos— muchas veces es lo más difícil, y tú ya tenías las piezas, solo necesitabas ponerlas en fila.\n\nSuerte la semana que viene con Laia y con el grupo.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1645,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 86,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

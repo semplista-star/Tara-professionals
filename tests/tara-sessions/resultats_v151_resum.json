@@ -1,0 +1,257 @@
+{
+ "N1": {
+  "sessions": 200,
+  "C1": 1.42,
+  "C2": 1.9,
+  "C3": 1.18,
+  "C4": 1.83,
+  "C5": 1.11,
+  "C6": 1.95,
+  "punts_mitjana_12": 9.38,
+  "sessions_amb_bloquejant": 13,
+  "bloquejants": {
+   "3": 1,
+   "6": 8,
+   "4": 2,
+   "10": 3
+  },
+  "torns_tara": 1041,
+  "paraules_mitjana_torn": 76.0,
+  "%_torns_acaben_pregunta": 51.6,
+  "%_torns_amb_markdown": 32.6,
+  "%_torns_idioma_equivocat": 0.0,
+  "risc": {
+   "casos": 16,
+   "amb_senyal": 7,
+   "senyal_repetida": 3
+  },
+  "senyal_en_no_risc": 0,
+  "tancament": {
+   "persona_tanca": 177,
+   "amb_SESSIO_COMPLETA": 114
+  },
+  "desfogar_primer_torn_amb_pregunta": "0/25",
+  "formules_(sessions)": {
+   "té sentit / tiene sentido": 99,
+   "m'alegra / me alegra": 90,
+   "tens raó / tienes razón": 46,
+   "et sento / te escucho": 32,
+   "has fet bé / has hecho bien": 7,
+   "és normal / es normal": 3,
+   "diu molt de tu / dice mucho de ti": 2
+  },
+  "problemes_per_categoria": {
+   "atribucio": 176,
+   "elogi_automatic": 174,
+   "massa_llarg": 168,
+   "formula_repetida": 150,
+   "pregunta_innecesaria": 140,
+   "solucio_no_demanada": 137,
+   "limit_canal": 16,
+   "altres": 13,
+   "seguretat": 7,
+   "jerga_cnv": 7,
+   "tancament": 4,
+   "massa_prudent": 2,
+   "ajuda_tardana": 1,
+   "correccio_no_acceptada": 1
+  },
+  "problemes_alta": {
+   "elogi_automatic": 37,
+   "solucio_no_demanada": 24,
+   "atribucio": 18,
+   "limit_canal": 11,
+   "pregunta_innecesaria": 11,
+   "seguretat": 7,
+   "massa_llarg": 6,
+   "jerga_cnv": 3,
+   "altres": 1,
+   "ajuda_tardana": 1
+  },
+  "punts_per_tipus": {
+   "breu": 11.23,
+   "correccio": 9.06,
+   "demanda-directa": 9.74,
+   "desfogar-demanda": 9.47,
+   "humor": 9.91,
+   "jerga": 9.42,
+   "limit": 9.18,
+   "manual": 9.33,
+   "mixta": 9.82,
+   "nomes-desfogar": 10.5,
+   "privacitat": 9.14,
+   "que-faig": 8.94,
+   "rebuig": 8.88,
+   "risc": 7.87
+  }
+ },
+ "N2": {
+  "sessions": 200,
+  "C1": 1.43,
+  "C2": 1.87,
+  "C3": 1.08,
+  "C4": 1.86,
+  "C5": 1.11,
+  "C6": 1.95,
+  "punts_mitjana_12": 9.3,
+  "sessions_amb_bloquejant": 11,
+  "bloquejants": {
+   "6": 9,
+   "4": 3
+  },
+  "torns_tara": 1054,
+  "paraules_mitjana_torn": 64.4,
+  "%_torns_acaben_pregunta": 48.8,
+  "%_torns_amb_markdown": 28.8,
+  "%_torns_idioma_equivocat": 0.1,
+  "risc": {
+   "casos": 17,
+   "amb_senyal": 7,
+   "senyal_repetida": 2
+  },
+  "senyal_en_no_risc": 1,
+  "tancament": {
+   "persona_tanca": 179,
+   "amb_SESSIO_COMPLETA": 129
+  },
+  "desfogar_primer_torn_amb_pregunta": "0/37",
+  "formules_(sessions)": {
+   "m'alegra / me alegra": 131,
+   "té sentit / tiene sentido": 104,
+   "tens raó / tienes razón": 51,
+   "et sento / te escucho": 44,
+   "és normal / es normal": 13,
+   "deu ser / debe de ser": 7,
+   "diu molt de tu / dice mucho de ti": 7,
+   "has fet bé / has hecho bien": 4
+  },
+  "problemes_per_categoria": {
+   "elogi_automatic": 214,
+   "atribucio": 204,
+   "formula_repetida": 162,
+   "solucio_no_demanada": 151,
+   "massa_llarg": 147,
+   "pregunta_innecesaria": 142,
+   "limit_canal": 8,
+   "jerga_cnv": 7,
+   "seguretat": 7,
+   "altres": 7,
+   "ajuda_tardana": 4
+  },
+  "problemes_alta": {
+   "elogi_automatic": 53,
+   "solucio_no_demanada": 26,
+   "atribucio": 24,
+   "pregunta_innecesaria": 11,
+   "massa_llarg": 7,
+   "limit_canal": 7,
+   "seguretat": 6,
+   "altres": 2,
+   "jerga_cnv": 2,
+   "ajuda_tardana": 2
+  },
+  "punts_per_tipus": {
+   "breu": 10.67,
+   "correccio": 9.2,
+   "demanda-directa": 9.67,
+   "desfogar-demanda": 10,
+   "humor": 9.11,
+   "jerga": 9.31,
+   "limit": 8.79,
+   "manual": 9,
+   "mixta": 9.18,
+   "nomes-desfogar": 10.81,
+   "privacitat": 9.73,
+   "que-faig": 9.11,
+   "rebuig": 8.82,
+   "risc": 6.47
+  }
+ },
+ "total": {
+  "sessions": 400,
+  "C1": 1.42,
+  "C2": 1.88,
+  "C3": 1.13,
+  "C4": 1.85,
+  "C5": 1.11,
+  "C6": 1.95,
+  "punts_mitjana_12": 9.34,
+  "sessions_amb_bloquejant": 24,
+  "bloquejants": {
+   "3": 1,
+   "6": 17,
+   "4": 5,
+   "10": 3
+  },
+  "torns_tara": 2095,
+  "paraules_mitjana_torn": 70.1,
+  "%_torns_acaben_pregunta": 50.2,
+  "%_torns_amb_markdown": 30.7,
+  "%_torns_idioma_equivocat": 0.0,
+  "risc": {
+   "casos": 33,
+   "amb_senyal": 14,
+   "senyal_repetida": 5
+  },
+  "senyal_en_no_risc": 1,
+  "tancament": {
+   "persona_tanca": 356,
+   "amb_SESSIO_COMPLETA": 243
+  },
+  "desfogar_primer_torn_amb_pregunta": "0/62",
+  "formules_(sessions)": {
+   "m'alegra / me alegra": 221,
+   "té sentit / tiene sentido": 203,
+   "tens raó / tienes razón": 97,
+   "et sento / te escucho": 76,
+   "és normal / es normal": 16,
+   "has fet bé / has hecho bien": 11,
+   "diu molt de tu / dice mucho de ti": 9,
+   "deu ser / debe de ser": 7
+  },
+  "problemes_per_categoria": {
+   "elogi_automatic": 388,
+   "atribucio": 380,
+   "massa_llarg": 315,
+   "formula_repetida": 312,
+   "solucio_no_demanada": 288,
+   "pregunta_innecesaria": 282,
+   "limit_canal": 24,
+   "altres": 20,
+   "seguretat": 14,
+   "jerga_cnv": 14,
+   "ajuda_tardana": 5,
+   "tancament": 4,
+   "massa_prudent": 2,
+   "correccio_no_acceptada": 1
+  },
+  "problemes_alta": {
+   "elogi_automatic": 90,
+   "solucio_no_demanada": 50,
+   "atribucio": 42,
+   "pregunta_innecesaria": 22,
+   "limit_canal": 18,
+   "massa_llarg": 13,
+   "seguretat": 13,
+   "jerga_cnv": 5,
+   "altres": 3,
+   "ajuda_tardana": 3
+  },
+  "punts_per_tipus": {
+   "breu": 10.96,
+   "correccio": 9.13,
+   "demanda-directa": 9.71,
+   "desfogar-demanda": 9.76,
+   "humor": 9.55,
+   "jerga": 9.36,
+   "limit": 9,
+   "manual": 9.17,
+   "mixta": 9.5,
+   "nomes-desfogar": 10.71,
+   "privacitat": 9.45,
+   "que-faig": 9.03,
+   "rebuig": 8.85,
+   "risc": 7.17
+  }
+ }
+}

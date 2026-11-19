@@ -1,0 +1,97 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén correctament que l'Aina necessita orientació pràctica sobre els àpats, però s'avança a donar consells elaborats abans que la persona els hagi demanat explícitament, i usa fórmules de validació repetides i elogis automàtics.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "entenc que cansaria a qualsevol",
+   "esperat": "Reflectir el que la persona ha dit sense atribuir-li un estat emocional no expressat"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Qui hi és a taula i com comença, normalment?",
+   "esperat": "Una sola pregunta oberta era suficient; demanar qui hi és a taula és un detall que la persona ja donaria sola"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "No, no sembla caòtic. Sembla molt real.",
+   "esperat": "Evitar la validació formulaica que ressona com a resposta automàtica; reconèixer el contingut concret"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "És un cercle que s'alimenta sol, i és esgotador.",
+   "esperat": "No atribuir l'estat d'esgotament com a fet; podria ser «sembla esgotador» o esperar que ella ho digui"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "T'expliques molt bé.",
+   "esperat": "Ometre l'elogi automàtic i anar directament al contingut"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Sobre el metge, no puc dir-te si el Marc necessita una valoració o no — això ho pot veure el pediatre millor que ningú, i si tens el dubte, val la pena preguntar-li.",
+   "esperat": "L'Aina no havia demanat orientació sobre el metge en aquest torn; esmentar-ho és una derivació no sol·licitada"
+  },
+  {
+   "torn": 5,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "Té molt de sentit el que dius.",
+   "esperat": "Tercera validació formulaica en cinc torns; substituir per un reflex concret del contingut"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "ja has vist tu sola una cosa important",
+   "esperat": "Evitar l'elogi avaluatiu; reconèixer l'observació sense jutjar la persona"
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "No és cap bestiesa. És una observació molt precisa.",
+   "esperat": "Ometre el judici valoratiu i respondre directament al contingut de l'observació"
+  },
+  {
+   "torn": 6,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "A 4t de primària, tenir veu en les coses pròpies és molt important per a molts nens. No és caprici — és una necessitat real d'autonomia que va creixent.",
+   "esperat": "L'Aina no havia demanat una explicació del desenvolupament infantil; és informació no sol·licitada que allarga el torn"
+  },
+  {
+   "torn": 7,
+   "categoria": "massa_llarg",
+   "gravetat": "alta",
+   "cita": "Triar dins d'un marc que tu poses. [...] Implicar-lo una vegada a la setmana. [...] Avisar abans, no a taula.",
+   "esperat": "Tres idees desenvolupades en un sol torn és excessiu; hauria estat millor oferir-ne una o dues i preguntar si vol continuar"
+  },
+  {
+   "torn": 8,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "No trobes el problema a tot — estàs pensant en els detalls reals, que és exactament el que cal fer perquè funcioni.",
+   "esperat": "Ometre el judici valoratiu sobre la manera de pensar de la persona"
+  }
+ ]
+}

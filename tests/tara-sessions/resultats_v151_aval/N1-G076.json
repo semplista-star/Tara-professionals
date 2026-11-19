@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 1,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA escoltà primer sense preguntes ni solucions, i lliurà l'ajuda concreta quan Rosa la demanà explícitament.",
+ "problemes": [
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que estés agotada.",
+   "esperat": "Reflectir el contingut sense fórmula validadora: p. ex. «Un día largo, con todo eso encima.»"
+  },
+  {
+   "torn": 5,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Qué tienes en mente para ese momento, cómo lo imaginas?",
+   "esperat": "Rosa ja ha demanat un primer pas concret; TARA hauria d'oferir-lo directament sense retornar la pregunta."
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "hoy lo has llevado bien",
+   "esperat": "Tancar sense judici valoratiu sobre la persona: p. ex. «Descansa.» o simplement res més."
+  },
+  {
+   "torn": 7,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Me alegra que haya servido. Descansa, que hoy lo has llevado bien.",
+   "esperat": "Un tancament breu i neutre, sense avaluació de com ha gestionat el dia."
+  }
+ ]
+}

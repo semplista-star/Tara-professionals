@@ -1,0 +1,27 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entendió desde el primer turno que Rosa necesitaba una frase concreta y lista para usar, la entregó de inmediato y la ajustó sin rodejos cuando se pidió.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Reconoces su estado sin validar el caos, pides algo concreto y pequeño, y dejas abierta la puerta sin ceder el control.",
+   "esperat": "Entregar la frase y, como mucho, ofrecer la variante; la explicación de la lógica pedagógica no fue pedida y alarga la respuesta"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Si quieres una variante más directa o más cercana, dime en dos palabras cómo eres tú en clase y te ajusto.",
+   "esperat": "La oferta de variante es útil, pero añadida a la explicación hace el turno más largo de lo necesario para alguien con diez minutos"
+  }
+ ]
+}

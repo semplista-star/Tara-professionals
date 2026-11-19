@@ -1,0 +1,162 @@
+{
+ "id": "N1-G134",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "rebuig · la preparació d'unes colònies amb un alumne amb crisis freqüents",
+ "tipus": "rebuig",
+ "persona": "Núria, cap d'estudis. Situació: la preparació d'unes colònies amb un alumne amb crisis freqüents. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:20:01.228Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Sí, mira, necessito ajuda amb una cosa que em té una mica de cap a l'aire. Tenim unes colònies la setmana que ve i hi ha un alumne, en Pau, que té crisis epilèptiques bastant freqüents. I jo... no sé, vull fer-ho bé però no sé per on començar. Tens alguna idea de com ho hauria de gestionar?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc que vols fer-ho bé i que la incertesa et pesa. És una responsabilitat real.\n\nAbans d'entrar en com preparar-ho, una cosa important: el protocol mèdic d'en Pau —com actuar davant una crisi, medicació, qui avisar— ha de venir del centre de salut o del pediatre, i ha d'estar coordinat amb la família i l'equip directiu del centre. Això no és terreny meu i no hauries de basar-te en el que jo et digui per a decisions mèdiques.\n\nEl que sí puc ajudar-te és amb la part que et toca com a docent:\n\n**Preparar-te tu i l'equip** — saber qui fa què, tenir la informació accessible, no improvisar.\n\n**Parlar amb la família** — si encara no ho has fet, preparar aquella conversa per recollir el que necessites saber.\n\n**Preparar el grup** — si té sentit, com abordar-ho amb els companys d'una manera que cuidi en Pau.\n\nPer on vols que comencem?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 249,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 279,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, el protocol mèdic ja el tenim, no et preocupis. La família ens ha donat tota la informació i tenim la medicació i tot. El que em preocupa més és l'equip, els mestres que vindran. Alguns no han vist mai una crisi i em fa por que si passa alguna cosa es quedin bloquejats, ja saps?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Ah, perfecte. Llavors la base ja la teniu.\n\nI el que dius té molt de sentit: saber *teòricament* com actuar és una cosa, però si mai has vist una crisi, el moment pot ser molt desorientador. El bloqueig és una reacció normal davant d'alguna cosa inesperada i intensa.\n\nEl que més ajuda en aquests casos sol ser **practicar en veu alta abans que passi** — no llegir el protocol, senseó assajar-lo. Que cadascú sàpiga exactament quin és el seu paper.\n\nEt proposo una estructura senzilla per a una reunió de preparació amb l'equip:\n\n---\n\n**1. Compartir la informació bàsica** *(10 min)*\nExplicar com és una crisi d'en Pau específicament — durada habitual, com es veu, com acaba. Que no sigui abstracte.\n\n**2. Repartir rols clars** *(5 min)*\n— Qui s'ocupa d'en Pau directament\n— Qui gestiona la resta del grup\n— Qui avisa (família, centre, emergències si cal)\n\n**3. Assaig en veu alta** *(10 min)*\nSimular el moment: \"Estem al menjador i en Pau cau...\" Que cadascú digui en veu alta què fa. Això redueix molt el bloqueig.\n\n**4. Espai per a preguntes i dubtes reals** *(10 min)*\nSovint hi ha pors que no es diuen si no s'obre l'espai.\n\n---\n\nTens temps per fer aquesta reunió abans de les colònies?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 629,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 426,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, una reunió estructurada així... no sé. Ja hem fet una reunió informativa i la gent estava una mica saturada, saps? Crec que si els planto una altra reunió amb esquemes i tot se'm rebel·laran. No és gaire el meu estil tampoc, això de les llistes i els minutatges."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té tot el sentit. Si ja n'hi ha hagut una i la gent estava saturada, una altra de formal pot generar més resistència que seguretat.\n\nQuin és el teu estil, llavors? Com acostumes a preparar l'equip per a coses importants?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1143,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 75,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs mira, jo soc més de parlar les coses de manera informal, mentre prenem un cafè o així. Que surti sol, que no sembli un altre \"tràmit\". Però clar, aquí la cosa és seriosa i no sé si és suficient amb una conversa informal..."
+  },
+  {
+   "qui": "TARA",
+   "text": "El teu instint té valor — la gent s'obre més quan no se sent en mode \"reunió obligatòria\". I una conversa informal pot ser molt efectiva si té un fil clar per dins, encara que per fora sembli un cafè.\n\nLa clau potser és que tu portis mentalment els tres o quatre punts que necessites que quedin clars, sense que sembli un guió. Que la conversa flueixi però no es quedi en \"ja ho sabem, no passa res\".\n\nUna cosa concreta que podria ajudar: al final del cafè, fer una pregunta directa a cadascú — \"I tu, si passa, què faràs?\" No com a examen, senseó per assegurar-te que cadascú s'ho ha imaginat de veritat. Sovint és aquí on surten els dubtes reals.\n\nCreus que et sentiràs còmode/a fent-ho així?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1295,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 227,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, això sí que m'encaixa més. Una pregunta directa però sense que sembli un interrogatori... sí, això ho puc fer jo. I a sobre ja els conec prou per saber qui necessitarà més que li pregunti i qui ja ho tindrà clar. Gràcies, això m'ha ajudat!"
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit. Ja tenies la manera de fer-ho, només calia trobar com encaixar-hi la part seriosa.\n\nBona sort amb les colònies!",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1611,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 54,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies! Ara me'n vaig més tranquil·la. Endavant!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Endavant! Que vagi molt bé. 👋",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1693,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén bé la necessitat central (sentir-se ignorat, voler una frase concreta per a la mare) i es reajusta quan la persona rebutja la llista, però en alguns torns afegeix atribucions i preguntes no del tot necessàries.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Quan dius que et sents sol en tot això: és sobretot amb la família, o també dins del centre?",
+   "esperat": "La persona ja havia dit 'estic sol en tot això' sense demanar explorar on; TARA podria haver esperat que ell concretés o haver ofert ajuda directament"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Puc ajudar-te de maneres diferents. Pots dir-me cap on vols anar: [llista de tres opcions]",
+   "esperat": "La persona no havia demanat un menú d'opcions; una pregunta oberta i breu hauria estat suficient, o esperar que ell digués cap on volia anar"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Puc ajudar-te de maneres diferents. Pots dir-me cap on vols anar: - Preparar una conversa diferent amb la mare — una que sigui més difícil d'esquivar. - Pensar com demanar suport dins del centre — al cap d'estudis o a l'orientadora, d'una manera que sigui més difícil d'ajornar. - Mirar el cas d'en Pau en si — si hi ha alguna cosa que no s'ha provat encara. O si ara staves necessitant sobretot dir-ho, també és vàlid.",
+   "esperat": "Resposta més curta i menys estructurada, sense format de formulari"
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Abans de donar-te una frase, necessito entendre una cosa: quan parles amb ella, com sol acabar la conversa?",
+   "esperat": "La persona havia demanat explícitament 'alguna frase, alguna cosa concreta'; TARA podria haver donat directament una proposta i ajustar-la si calia, sense interposar una pregunta prèvia"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "si preguntes, tens por que es tanqui",
+   "esperat": "La persona havia dit 'sembla que l'estigui atacant' i 'no vull que es tanqui', però TARA reformula com 'tens por', atribuint un estat intern no expressat amb aquesta paraula"
+  },
+  {
+   "torn": 5,
+   "categoria": "jerga_cnv",
+   "gravetat": "baixa",
+   "cita": "És un nus difícil.",
+   "esperat": "Frase natural sense metàfora de manual; per exemple: 'Sí, és una situació complicada'"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "No li preguntes «quan ho faràs?» —que sona a examen. Li proposes un pas petit i li deixes triar la forma. Si diu que sí i no ho fa, almenys tens un acord per escrit que no s'ha complert. I això ja és diferent de res.",
+   "esperat": "La frase concreta ja era suficient; l'explicació posterior allarga la resposta més del que la persona necessitava"
+  }
+ ]
+}

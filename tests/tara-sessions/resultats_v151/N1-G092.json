@@ -1,0 +1,163 @@
+{
+ "id": "N1-G092",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "jerga · la pressió de direcció per les notes",
+ "tipus": "jerga",
+ "persona": "Laia, professor novell. Situació: la pressió de direcció per les notes. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:17:07.777Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, estic fins als nassos. La directora em pressiona perquè pugi les notes dels alumnes i jo no sé com gestionar-ho. Em diu que \"els resultats del grup no reflecteixen el potencial dels estudiants\" i jo... ostres, és que em fa sentir com si estigués fent malament la meva feina. I no és just."
+  },
+  {
+   "qui": "TARA",
+   "text": "Quina situació tan incòmoda: sentir que et qüestionen la feina quan tu estàs fent el que creus que és correcte.\n\nQuan diu que \"els resultats no reflecteixen el potencial\", entens que t'està demanant que pugis notes sense que hi hagi una base pedagògica? O hi ha alguna cosa més que no t'ha acabat d'explicar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 233,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 102,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactament això. Em toreja amb paraules boniques però al final el missatge és clar: puja les notes. I jo soc nova, no tinc experiència amb això, però no soc idiota. Sé el que m'està demanant. I el pitjor és que no m'ho diu directament, saps? M'ho diu amb rodeos i jo em quedo allà sense saber com respondre-li."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té sentit que et quedis sense paraules: quan algú et diu una cosa però vol dir una altra, és molt difícil respondre sense saber exactament a què t'estàs enfrontant.\n\nDues coses que vull separar, perquè crec que les tens barrejades i és normal:\n\nUna és **com et fa sentir** — qüestionada, injustament tractada, sense eines per respondre. Això és real i és important.\n\nL'altra és **la decisió en si** — que és teva, i que té implicacions serioses. Modificar notes sense base pedagògica és una irregularitat, sigui qui sigui qui ho demani.\n\nAra mateix, on vols que t'ajudi? A **preparar com respondre-li** la propera vegada que surti el tema? O primer necessites ordenar una mica el que sents per poder pensar amb claredat?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 445,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 224,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Escolta, no m'ho expliquis com si fos un manual, que ja sé que és una irregularitat, no cal que m'ho diguis. El que necessito és una frase, alguna cosa concreta per dir-li a ella la propera vegada que em vingui amb aquests rodeos. Alguna cosa que sigui clara però que no em fiqui en problemes, perquè soc nova i no em puc permetre tenir-la en contra."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès. Alguna cosa com:\n\n*«Les notes reflecteixen l'avaluació que he fet seguint els criteris que tenim. Si vols que revisem els criteris juntes, ho fem.»*\n\nCurta, professional, i no tanca la porta — però tampoc no cedeix.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 782,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 76,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mmm, no està malament. Però sona una mica... freda, no? Com massa formal. Ella és d'aquestes que si li parles així es posa a la defensiva també. Necessito alguna cosa que no sembli un atac però que quedi clar que no cediré."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, entenc. Més propera però igual de ferma. Prova això:\n\n*«Mira, entenc que els resultats preocupen. Jo també vull que els alumnes vagin bé. Però les notes que hi ha són les que reflecteixen el que han fet. Si vols, podem pensar juntes com donar-los més suport d'aquí endavant.»*\n\nReconeix la seva preocupació, mostra que esteu al mateix costat, i redirigeix cap a una solució real — sense moure ni un mil·límetre en el que importa.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 933,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 149,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, això sí. Això m'agrada més. Sona com jo i no sembla que l'estigui atacant. Gràcies, això m'ajuda."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que et serveixi. Ara la tens preparada per quan surti.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1130,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, ara em sento una mica menys perduda. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. Sort amb la conversa.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1179,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 12,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

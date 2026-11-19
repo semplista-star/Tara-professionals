@@ -1,0 +1,74 @@
+{
+ "id": "N1-G044",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "breu · la pressió de direcció per les notes",
+ "tipus": "breu",
+ "persona": "Marta, mestra d'infantil. Situació: la pressió de direcció per les notes. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:13:42.081Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Mira, tinc molt poc temps perquè en cinc minuts tinc reunió amb la directora, precisament per això que et vull explicar... Necessito una cosa ràpida, eh. La directora em pressiona perquè posi notes més altes als nens de P5 i jo no sé com dir-li que no sense que s'enfadi. Tens alguna frase curta que pugui fer servir?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès. Aquí van dues opcions:\n\n**Més directa:**\n«Entenc la pressió, però les notes han de reflectir el que observo. No em sento bé posant-ne d'altres.»\n\n**Més oberta:**\n«Puc explicar-te com he avaluat cada criteri. Si hi ha alguna cosa que no quadra, ho mirem juntes.»\n\nLa segona deixa la porta oberta al diàleg sense cedir en el fons.\n\nMolta sort.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 250,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 128,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, perfecte, la segona m'agrada molt! Gràcies, de veritat, m'has salvat. Ara corro!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Endavant! Ja m'explicaràs com ha anat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 416,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 21,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

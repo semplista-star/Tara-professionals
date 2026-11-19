@@ -1,0 +1,184 @@
+{
+ "id": "N1-G169",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "desfogar-demanda · la preparació d'unes colònies amb un alumne amb crisis freqüents",
+ "tipus": "desfogar-demanda",
+ "persona": "Marc, profesora sustituta. Situació: la preparació d'unes colònies amb un alumne amb crisis freqüents. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:22:03.978Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Gracias. Hoy solo necesito que me escuchen, si no le importa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estoy. Cuéntame lo que necesites.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 164,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 19,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. Es que tengo unas colonias la semana que viene con mi grupo, y hay un alumno que tiene crisis frecuentes. Epilépticas, quiero decir. Y yo soy sustituta, llevo poco tiempo con ellos, y me da mucho respeto la situación. No sé si estoy preparada para gestionarlo sola si pasa algo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene mucho sentido que te dé respeto. Llevas poco tiempo con ellos, vas a estar fuera del centro, y hay una responsabilidad real encima de la mesa.\n\nTe escucho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 275,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 52,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactamente. Y lo peor es que siento que no tengo toda la información que necesitaría. No sé bien cuál es su protocolo, ni quién me tiene que ayudar si ocurre algo durante la noche, por ejemplo. Y no quiero parecer incompetente preguntando, pero tampoco puedo ir así."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso que describes —querer estar preparada y a la vez temer que preguntar te haga quedar mal— es una tensión muy incómoda de sostener.\n\nY tienes razón: no puedes ir sin esa información. No es incompetencia preguntar, es exactamente lo que necesitas hacer para cuidar a ese alumno.\n\n¿Hay alguien en el centro —orientación, jefatura, la tutora titular— a quien puedas acudir antes de la salida?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 412,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 123,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, hay una orientadora. Pero de momento no quería consejos todavía, solo contarlo. Si no le importa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Aquí estoy, escuchándote.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 570,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. Es que es una situación que me pesa mucho. Y encima me siento sola en esto, porque la tutora titular no viene a las colonias y yo no la conozco demasiado. Es todo muy nuevo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Todo muy nuevo, y encima sola con algo que pesa. Te escucho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 647,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Bueno... creo que ya me ha ayudado contarlo. Ahora sí me gustaría pedirle algo concreto, si puede. ¿Me podría decir cuál sería el primer paso más importante que debería dar antes de las colonias?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Hablar con la orientadora y pedirle el protocolo específico de ese alumno: qué hacer si tiene una crisis, cuánto dura normalmente, cuándo llamar al 112, y quién es el referente médico o familiar durante las colonias.\n\nCon eso en la mano, ya tienes la base.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 80,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecto. Eso es justo lo que necesitaba, algo concreto y claro. Muchas gracias por escucharme hoy. Ha sido de ayuda."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido. Mucho ánimo con las colonias.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 866,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

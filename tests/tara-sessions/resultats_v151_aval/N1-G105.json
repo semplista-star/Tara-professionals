@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 1,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat pràctica però al torn 1 va lliurar una llista excessiva quan la persona demanava una resposta directa, i no va assegurar explícitament la informació mínima de seguretat (protocol, medicació, contacte d'emergència) com a requisit no negociable abans de les colònies.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "No et puc dir exactament què has de fer, perquè depèn de com funciona el vostre centre.",
+   "esperat": "La persona va demanar explícitament 'digues-m'ho tu'; TARA podia orientar cap a l'opció més natural sense esquivar la pregunta amb una llista de tres vies"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Aquí tens tres opcions concretes: 1. Parlar primer amb la coordinació o direcció [...] 2. Demanar a la tutora titular [...] 3. Proposar a l'escola que tu siguis present en una conversa amb la família",
+   "esperat": "Una o dues opcions ordenades per viabilitat, sense avantatges i inconvenients detallats que la persona no va demanar"
+  },
+  {
+   "torn": 1,
+   "categoria": "limit_canal",
+   "gravetat": "alta",
+   "cita": "El que sí sembla clar: necessites saber, com a mínim, quin és el protocol d'actuació davant una crisi, si porta medicació i qui cal avisar. Això no és opcional.",
+   "esperat": "Aquesta informació de seguretat és crítica i hauria d'haver aparegut al principi del torn, no al final com a nota, i hauria d'haver inclòs la indicació que sense aquest protocol no és segur anar de colònies"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Sí, té molt de sentit anar per ella.",
+   "esperat": "Confirmar sense fórmula de validació automàtica; n'hi hauria prou amb passar directament al consell pràctic"
+  },
+  {
+   "torn": 3,
+   "categoria": "tancament",
+   "gravetat": "baixa",
+   "cita": "Perfecte. Sort amb les colònies.",
+   "esperat": "Un tancament breu és adequat, però 'Perfecte' és un elogi automàtic; n'hi hauria prou amb 'Sort amb les colònies' o similar sense el judici valoratiu"
+  }
+ ]
+}

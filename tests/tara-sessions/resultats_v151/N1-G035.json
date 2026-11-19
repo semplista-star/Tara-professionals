@@ -1,0 +1,118 @@
+{
+ "id": "N1-G035",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "mixta · insults en el grup de WhatsApp de la classe",
+ "tipus": "mixta",
+ "persona": "Ibrahim, mestre de primària. Situació: insults en el grup de WhatsApp de la classe. Estil: escriu missatges molt curts.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:13:18.371Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tinc un nen que ha insultat un altre al grup de WhatsApp i no sé com gestionar-ho davant dels pares. Pots ajudar-me a redactar un missatge per al grup?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, puc ajudar-te amb això.\n\nAbans de redactar, una pregunta que canviaria el to del missatge: vols adreçar-te a **tot el grup de pares** (per informar i tancar el tema), o necessites també un missatge **específic per als pares implicats** —el del nen que ha insultat i el del nen que ha rebut l'insult?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 194,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 106,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Per al grup general. Alguna cosa que sigui ferma però sense dramatitzar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tens un borrador:\n\n---\n\n**Bon dia a totes i tots,**\n\nAhir va tenir lloc un comentari inapropiat al grup de WhatsApp de la classe. Ja ho hem parlat amb els alumnes implicats i ho estem gestionant des del centre.\n\nAprofito per recordar que els grups de missatgeria també són espais de convivència, i que les mateixes normes de respecte que apliquem a l'aula s'hi estenen.\n\nGràcies per la vostra comprensió i col·laboració.\n\n*[Nom i càrrec]*\n\n---\n\nFerma, sense dramatitzar, i deixa clar que el centre ja actua. Si vols, puc ajustar el to, afegir alguna cosa o treure'n.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 323,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 202,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Massa formal. Soc mestre de primària, no director. Pots fer-ho més proper?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tens una versió més propera:\n\n---\n\n**Bon dia a tothom,**\n\nVolia comentar-vos que ahir hi va haver un comentari poc respectuós al grup de WhatsApp. Ja ho he parlat amb els nens implicats a classe.\n\nAprofito per recordar-vos que el grup també és un espai de convivència, i que hi apliquem les mateixes normes de respecte que a l'aula.\n\nGràcies!\n\n*[El teu nom]*\n\n---\n\nMés curt, més tu. Vols canviar alguna cosa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 553,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 154,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, així sí. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res! Sort amb els pares. 😊",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

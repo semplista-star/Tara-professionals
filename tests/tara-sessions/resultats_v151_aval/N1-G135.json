@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la demanda principal (una frase per obrir la conversa) i va ajustar-la quan la persona va demanar una versió més curta, però al torn 1 va afegir una explicació no demanada i una oferta de continuació que allargava la resposta innecessàriament.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Vols que t'ajudi a preparar també com respondre si es posen molt a la defensiva, o amb això ja tens prou per ara?",
+   "esperat": "Lliurar la frase i tancar, sense oferir extensions no demanades"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Entenc que estàs estressada",
+   "esperat": "La persona ja havia dit que estava estressada; no cal reformular-ho com a validació, o simplement ometre-ho i anar directament a la frase"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Això obre la conversa sense que hagis de tenir totes les respostes, mostra que t'has preparat, i els dona espai per parlar primer — cosa que sol baixar la tensió.",
+   "esperat": "Lliurar la frase sense afegir una explicació de per què funciona, que la persona no havia demanat"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Tres frases, tres idees: agraïment, que t'has preparat, i que els dones la paraula a ells primer.",
+   "esperat": "Lliurar la frase curta i prou, sense desglossar-ne l'estructura"
+  }
+ ]
+}

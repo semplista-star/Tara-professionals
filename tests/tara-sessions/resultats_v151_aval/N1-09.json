@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre l'objectiu pedagògic i va redirigir cap a escenes fictícies, però va dedicar dos torns a justificar el canvi quan la persona ja havia acceptat al segon torn, i va afegir elogis automàtics i fórmules de validació innecessàries.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Bona idea de base — l'escolta activa a 5è pot funcionar molt bé.",
+   "esperat": "Entrar directament en la qüestió de l'exposició sense avaluar la idea del mestre"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Hi ha una manera de treballar la mateixa habilitat — l'escolta activa, reconèixer emocions, entendre l'altre — sense que ningú hagi d'exposar la seva vida privada: fer-ho amb situacions fictícies o inventades.",
+   "esperat": "Exposar el motiu de la redirecció en una o dues frases i oferir directament la variant fictícia sense desplegar dues opcions alternatives"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tens raó que l'autenticitat enganxa més. És un instint pedagògic bo.",
+   "esperat": "Reconèixer la preocupació sense validar-la com a fórmula ni afegir l'elogi 'instint pedagògic bo'"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "O fer-ho en parelles, en privat, on cadascú tria fins on vol compartir.",
+   "esperat": "La persona havia preguntat per casos reals vs. fictícis; oferir una tercera variant (parelles en privat) no havia estat demanada i allarga el torn innecessàriament"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Alguns riscos concrets amb casos reals de casa: Un nen pot explicar alguna cosa que el deixa vulnerable davant dels companys...",
+   "esperat": "Amb un sol argument clar sobre l'exposició n'hi havia prou; la llista de tres riscos és redundant respecte al torn 1"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Molt bé! Espero que vagi bé amb el grup.",
+   "esperat": "Tancament neutre i breu sense exclamació valorativa"
+  }
+ ]
+}

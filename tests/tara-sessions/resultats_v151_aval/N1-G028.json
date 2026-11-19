@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (ayuda para formular la petición al jefe de estudios) pero en el turno 1 hizo una pregunta de diagnóstico de rol que no era necesaria, y en el turno 2 emitió un elogio automático y una interpretación no pedida.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que estés hasta aquí.",
+   "esperat": "Una frase de acogida más natural y específica al relato, sin la fórmula validadora"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿tú tienes alguna responsabilidad formal en esto — guardia de recreo, tutoría, coordinación — o estás actuando más por iniciativa propia porque lo ves y no puedes mirar para otro lado?",
+   "esperat": "La persona ya había dicho suficiente para entender su posición; preguntar por el rol formal no era necesario para ayudarle y suena a diagnóstico previo"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Eso dice mucho de ti",
+   "esperat": "Omitir el juicio valorativo; acoger el hecho sin evaluarlo"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "algo no está funcionando en cómo está repartida la responsabilidad aquí",
+   "esperat": "Devolver lo que la persona ha dicho sin añadir una interpretación estructural no pedida"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Lo que hace este texto: pone el foco en lo que tú necesitas, no en lo que él ha fallado. Le da una salida fácil — venir un momento no es un compromiso enorme. Y cierra con un 'los dos partimos de lo mismo' que le incluye, no le acusa.",
+   "esperat": "Ofrecer el borrador y preguntar si encaja, sin explicar la retórica del texto; la persona puede juzgar sola si le sirve"
+  }
+ ]
+}

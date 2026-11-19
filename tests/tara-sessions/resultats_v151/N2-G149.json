@@ -1,0 +1,140 @@
+{
+ "id": "N2-G149",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "que-faig · la porta de l'habitació sempre tancada",
+ "tipus": "que-faig",
+ "persona": "Joan, abuela que cuida a los nietos. Situació: la porta de l'habitació sempre tancada. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:31:54.184Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara. Mira, te cuento. Mi nieto tiene 15 años y lleva semanas con la puerta del cuarto siempre cerrada con llave. Antes la dejaba abierta, o entornada, y ahora nada, siempre cerrada. Y cuando llamo a la puerta tarda un montón en abrir, o me dice que está ocupado. No sé si decirle algo, si hablar con su madre, si dejarle estar... ostras, no sé qué hacer, dígame usted qué hago."
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué difícil es notar ese cambio y no saber qué hay detrás.\n\nAntes de decirte qué podrías hacer, me ayudaría saber una cosa: ¿vives con él, o lo ves en visitas?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 301,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 66,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Vivo con él, sí. Bueno, él vive aquí conmigo porque su madre trabaja mucho y no puede estar. Así que estoy yo todo el día. Lo veo en el desayuno, cuando vuelve del cole... vamos, que estamos juntos bastante rato. Y por eso me choca más, ¿sabes? Antes me contaba cosas y ahora nada, puerta cerrada y punto."
+  },
+  {
+   "qui": "TARA",
+   "text": "Se nota que le conoces bien, y que precisamente por eso ese cambio duele un poco. Antes había conversación, y ahora hay una puerta.\n\nA los 15 años muchos chicos necesitan más espacio propio, y cerrar la puerta puede ser parte de eso, sin que haya nada malo detrás. Pero también entiendo que cuando convives con alguien y de repente se cierra, la cabeza da vueltas.\n\n¿Hay algo más concreto que te inquiete, además del cambio en sí? ¿Algo que hayas notado en él, en cómo come, cómo duerme, cómo llega del cole?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 477,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 170,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues... come bien, eso sí. Y duerme, vaya que si duerme, que los fines de semana hasta las doce está en la cama el condenado. Llega del cole normal, no lo veo triste ni nada. A veces hasta se ríe con el móvil, de esas cosas que ven los chicos. O sea que tampoco es que lo vea mal, mal. Pero claro, una no sabe qué está haciendo ahí dentro tanto rato, y la cabeza empieza a pensar cosas... ya me entiende. No sé si hablarle yo directamente, si llamar a su madre, o dejarlo estar. No sé qué hacer, dígame usted qué hago."
+  },
+  {
+   "qui": "TARA",
+   "text": "Lo que describe suena a un chico que está bien: come, duerme, se ríe. Eso es importante, y usted lo ha notado.\n\nLo que le pesa es no saber qué hay detrás de esa puerta, y eso es muy humano.\n\nLe doy las tres opciones que me pide, con lo que implica cada una:\n\n**Hablarle usted directamente.** Sin interrogarle, sin hacer de ello un problema. Algo sencillo, en un momento tranquilo: *\"Oye, te noto más en tu cuarto últimamente. Estoy aquí si algún día quieres contarme algo.\"* Y ya. Sin esperar respuesta inmediata. A veces esa frase tarda días en hacer efecto, pero llega.\n\n**Llamar a su madre.** Tiene sentido si usted siente que necesita compartir la preocupación con alguien que también le conoce, o si en algún momento nota algo más concreto que le inquiete. No tiene por qué ser una llamada de alarma, puede ser simplemente ponerla al tanto.\n\n**Dejarlo estar.** También es válido. Si no ve señales de que esté mal, puede que solo necesite ese espacio y que con el tiempo vuelva a abrirse solo.\n\nLas tres opciones son razonables. ¿Alguna le resuena más, o hay algo que le haga dudar de alguna?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 833,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 358,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, lo de hablarle directamente me gusta más. Porque llamar a su madre tampoco quiero alarmarla sin motivo, que bastante tiene. Y dejarlo estar... no, es que no puedo, me quedo con el gusanillo. Así que lo de decirle algo sencillo, sin lío, me parece bien. Pero ¿cómo empiezo? O sea, ¿cuándo le digo algo, en la cena, por la mañana? Que luego me quedo en blanco y no sé cómo salir con ello."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien pensado. Un momento tranquilo, sin prisa, es clave.\n\nEl desayuno puede ser corto y con la cabeza en el cole. La cena, si estáis los dos sin tele ni móvil de por medio, puede ir bien. O ese rato cuando llega del cole y todavía no ha subido a su cuarto, que a veces hay un momento de bajada de guardia.\n\nNo hace falta que sea una conversación. Puede ser casi de pasada, sin que parezca que le vas a sentar a hablar. Algo como:\n\n*\"Oye, te noto más en tu cuarto últimamente. Sin agobios, pero si algún día quieres contarme algo, aquí estoy.\"*\n\nY ya. Sin quedarse mirándole esperando respuesta, sin añadir más. Que lo suelte y siga con lo que estaba haciendo. Eso le quita presión a él y a usted.\n\n¿Le ve posible hacerlo así?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1338,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 246,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, eso me lo puedo imaginar. Lo de cuando llega del cole me parece bien, que es verdad que a veces se para un momento en la cocina a buscar algo de comer y ahí estamos los dos. Lo digo así, de pasada, y ya está. Sin montarlo en un drama, que si no el chico se asusta. Bueno, pues muchas gracias Tara, me has ayudado. Que ya tenía yo ganas de que alguien me dijera algo concreto, que si no me quedo dando vueltas. Hasta luego."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que le haya servido. Ese momento en la cocina suena perfecto, natural y sin presión.\n\nSuerte con la conversación. Hasta luego.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 55,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre el nucli de la necessitat (una frase per dir-li a la néta), però va afegir una pregunta sobre l'edat no necessària i va fer atribucions i reformulacions no demanades abans d'arribar a l'ajuda concreta.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Quina edat té la teva néta?",
+   "esperat": "L'edat no era necessària per donar la frase demanada; podia haver preguntat directament si volia ajuda per preparar com dir-ho"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "sents que no hi ha reciprocitat",
+   "esperat": "Mercè va dir 'em sento ignorat', no va parlar de reciprocitat; millor reflectir el seu vocabulari sense reinterpretar-lo"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Setze anys i et fa sentir invisible. Això fa mal, sobretot venint d'algú a qui estimes i a qui dones sense demanar gaire res a canvi.",
+   "esperat": "Mercè ja havia dit tot això; TARA ho reformula com a interpretació pròpia en lloc de reconèixer-ho breument i passar a l'ajuda"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "El que demanes no és control — és connexió. Saber una mica de la seva vida.",
+   "esperat": "Mercè ja havia dit 'no vull controlar-la'; TARA repeteix i reformula el que la persona ja havia expressat clarament, sense afegir valor"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Diu el que sents, sense acusar-la, i li explica per què t'importa. Deixa la porta oberta perquè ella respongui.",
+   "esperat": "Comentari meta sobre la frase que sona a manual de CNV; la frase ja es defensava sola i Mercè no havia demanat explicació"
+  }
+ ]
+}

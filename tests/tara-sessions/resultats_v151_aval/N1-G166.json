@@ -1,0 +1,97 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 1,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre el problema pràctic però va respondre amb llistes llargues no demanades i va reforçar automàticament la persona en lloc d'escoltar-la",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "quin curs o etapa és el grup, i quan dius que \"no para\" — és una cosa que passa cada dia amb aquest grup, o és més irregular?",
+   "esperat": "Amb la informació donada (grup disruptiu, última hora) ja es podia oferir una primera orientació o preguntar una sola cosa; dues preguntes alhora és excessiu"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "T'has explicat molt bé",
+   "esperat": "Ometre el reforç valoratiu; la persona no ha demanat validació de com s'explica"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "No és mala voluntat, és fisiologia i context",
+   "esperat": "Hipòtesi oberta («pot ser que...») en lloc d'afirmar la causa interna del grup com a fet"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Aquí tens algunes coses concretes que pots provar: [...] Alguna d'aquestes coses ja la fas?",
+   "esperat": "Preguntar primer què ha provat abans de llançar una llista de sis estratègies no demanades"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "alta",
+   "cita": "Abans que s'encenguin [...] Quan ja estan moguts [...] Estructurar la sessió",
+   "esperat": "Una o dues idees concretes i preguntar si vol més; no tres blocs amb sis ítems"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit el que dius",
+   "esperat": "Recollir el contingut concret que ha dit la persona sense fórmula de validació genèrica"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "paradoxalment, des d'aquí de vegades tens més eines que un docent, no menys",
+   "esperat": "Ometre el judici valoratiu sobre el rol de la persona; no se li ha demanat una avaluació del seu perfil professional"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Sovint es desinfla sol quan se senten vistos",
+   "esperat": "Presentar-ho com a hipòtesi («de vegades passa que...») no com a fet sobre l'estat intern del grup"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "No, no compliques res — estàs afinant. Això és útil.",
+   "esperat": "Recollir directament el contingut sense validació formulaica prèvia"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "tens raó: assenyalar-los davant del grup sol sortir malament",
+   "esperat": "Ometre «tens raó»; confirmar el contingut sense judici sobre la persona"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "has anat concretant fins a trobar el que encaixa amb tu i amb el grup. Això és exactament el que calia fer",
+   "esperat": "Tancar sense avaluar el procés de la persona; un «sort» breu és suficient"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Prova-ho i ja veuràs com va",
+   "esperat": "Tancament neutre sense predicció d'èxit no demanada"
+  }
+ ]
+}

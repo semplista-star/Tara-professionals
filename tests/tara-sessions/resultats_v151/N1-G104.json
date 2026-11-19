@@ -1,0 +1,74 @@
+{
+ "id": "N1-G104",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "breu · un alumne que es riu dels companys amb necessitats educatives",
+ "tipus": "breu",
+ "persona": "Ana, tutor de 4t d'ESO. Situació: un alumne que es riu dels companys amb necessitats educatives. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:17:22.667Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, sí, mira, tinc cinc minuts entre classe i classe i necessito una cosa ràpida. Tinc un alumne que es riu dels companys amb necessitats educatives i no sé com abordar-ho, o sigui, sé que ho haig de fer però... no sé per on començar. Perdona si vaig massa directa."
+  },
+  {
+   "qui": "TARA",
+   "text": "No, perfecte, cinc minuts i al gra.\n\nDues opcions ràpides:\n\n**1. Parlar amb ell a soles** — breu, sense jutjar, centrat en el que has observat: *\"He vist que t'has rigut quan en X ha fet Y. Vull entendre què ha passat.\"* Deixa que parli. Sovint hi ha alguna cosa darrere.\n\n**2. Treballar-ho amb el grup** — sense assenyalar ningú, una activitat o reflexió breu sobre el que costa i el que ajuda. Més lent, però arriba a tothom.\n\nLes dues es poden combinar.\n\nQuin creus que és el primer pas que pots fer tu ara?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 232,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 185,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, la primera, crec. Parlar amb ell a soles. Gràcies, això m'ajuda molt. Ara he d'entrar a classe, perdona. Moltes gràcies!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Endavant! Sort amb la conversa.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 473,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

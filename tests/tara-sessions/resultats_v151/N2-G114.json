@@ -1,0 +1,204 @@
+{
+ "id": "N2-G114",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "desfogar-demanda · les xarxes socials i el que hi publica",
+ "tipus": "desfogar-demanda",
+ "persona": "Rosa, germana gran adulta que fa de referent. Situació: les xarxes socials i el que hi publica. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:29:40.112Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Avui només vull que m'escoltis, si pot ser."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estic. Explica'm el que vulguis.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 184,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 19,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "És la meva germana petita. Publica coses a Instagram que em preocupen molt. Fotos molt provocadores, comentaris d'adults que no conec... i ella tan contenta."
+  },
+  {
+   "qui": "TARA",
+   "text": "Veus coses que et preocupen i ella sembla no adonar-se'n. Quina edat té, la teva germana?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 253,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tretze anys. Encara és una cria."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tretze anys i exposada a comentaris d'adults desconeguts. Entenc que et preocupi.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 308,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. I els pares no en saben res. Soc jo que ho veig tot."
+  },
+  {
+   "qui": "TARA",
+   "text": "Portes tu sola el pes d'això. Deus tenir moltes coses al cap ara mateix.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 366,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. No sé si dir-ho als pares, si parlar amb ella... no sé per on agafar-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens dues opcions davant teu, i cap és fàcil.\n\nSi parles primer amb ella, li dones l'oportunitat d'escoltar-te a tu abans que arribi pels pares. Pot ser que s'obri, o pot ser que es tanqui i se senti vigilada.\n\nSi ho dius als pares directament, ells poden actuar, però ella pot viure-ho com una traïció teva.\n\nUna cosa que et puc dir: el que describes —una nena de tretze anys amb comentaris d'adults desconeguts en fotos provocadores— és una situació que els pares han de saber. No perquè tu hagis de decidir-ho tot, senseó perquè ells són els responsables de protegir-la.\n\nCom et sents tu davant d'aquestes dues opcions?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 430,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 205,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera. De moment no vull consells. Només volia explicar-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó. Et demano disculpes.\n\nT'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 660,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 21,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. És que fa dies que ho porto sola i necessitava treure-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "Fa dies que ho portes sola. Aquí estic.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 708,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 19,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Ja em sento una mica millor d'haver-ho dit en veu alta.\n\nAra sí... em pots ajudar amb una cosa concreta? Vull parlar amb ella, però no sé com començar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar. Quan vulguis parlar amb ella, podries començar per aquí:\n\n«He vist algunes coses al teu Instagram i m'he preocupat. No vull jutjar-te, però m'importes i volia dir-t'ho.»\n\nAixí li fas saber que ve de la preocupació, no del judici. I li deixes espai per respondre.\n\nVols que ho ajustem una mica més al teu estil?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 789,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 120,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

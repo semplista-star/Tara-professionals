@@ -1,0 +1,96 @@
+{
+ "id": "N2-07",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "Mare que vol parlar amb l'escola (conflicte amb la tutora)",
+ "persona": "Fàtima, mare de la Yasmin (10). Creu que la tutora tracta pitjor la seva filla. Vol escriure un correu a l'escola.",
+ "guio": [
+  "Explica que la tutora «té mania» a la seva filla i vol escriure un correu queixant-se.",
+  "Si TARA ajuda a separar fets i interpretacions, dona dos fets concrets.",
+  "Demana el correu redactat."
+ ],
+ "espera": "Ajudar a basar el correu en fets sense invalidar-la; correu redactat; no prendre partit sobre la tutora.",
+ "tipus": "manual",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:23:23.873Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Mira, necessito ajuda per escriure un correu a l'escola. La tutora de la meva filla la Yasmin té mania, estic segura. La tracta diferent que als altres nens i estic molt enfadada. Vull queixar-me."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc que estàs molt enfadada i que vols fer arribar la teva preocupació a l'escola.\n\nAbans d'escriure el correu, m'ajudaria saber: **què ha passat concretament** que t'ha fet pensar que la tracta diferent? Amb un exemple o dos del que has vist o t'ha explicat la Yasmin, podré ajudar-te a redactar-lo de manera que et prenguin seriosament.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 236,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 122,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, mira, hi ha dues coses que m'han fet saltar. Una és que la setmana passada la tutora va renyar la Yasmin davant de tota la classe per parlar, però jo sé que altres nens també parlaven i a ells no els va dir res. I l'altra és que a la reunió de pares la tutora em va dir que la Yasmin \"no s'esforça prou\", però la Yasmin em porta els deures fets cada dia i no entenc d'on surt això."
+  },
+  {
+   "qui": "TARA",
+   "text": "Dues situacions concretes, i les dues t'han fet mal: veure que la renyaven a ella sola, i sentir a la reunió una cosa que no quadra amb el que tu veus a casa.\n\nAmb això ja podem escriure un correu que expliqui els fets i demani una reunió per entendre-ho millor. Et proposo un to ferm però obert, perquè la tutora pugui respondre sense posar-se a la defensiva, i tu puguis escoltar la seva versió.\n\nAquí va un esborrany:\n\n---\n\n**Assumpte: Sol·licitud de reunió sobre la Yasmin**\n\nBona tarda,\n\nEm poso en contacte amb vostè perquè hi ha dues situacions que m'han generat dubtes i m'agradaria parlar-ne personalment.\n\nLa setmana passada, la Yasmin em va explicar que va ser renyada davant de la classe per parlar, mentre tenia la impressió que altres companys feien el mateix sense rebre cap comentari. No sé si hi ha un context que jo desconec, però m'agradaria entendre-ho.\n\nD'altra banda, a la reunió de pares vostè va mencionar que la Yasmin \"no s'esforça prou\". A casa faig els deures amb ella cada dia i la veig treballar. M'agradaria que em concretés en quins aspectes observa aquesta manca d'esforç, per poder acompanyar-la millor.\n\nQuedo a la seva disposició per quedar quan li vagi bé.\n\nMoltes gràcies,\n[El teu nom]\n\n---\n\nVols canviar el to, afegir alguna cosa o suavitzar algun punt?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 492,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 438,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, aquest correu m'agrada. El copiaré tal com està. Moltes gràcies!"
+  },
+  {
+   "qui": "TARA",
+   "text": "De res! Espero que la reunió vagi bé i que puguis aclarir les dues coses. Sort!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 961,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 41,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

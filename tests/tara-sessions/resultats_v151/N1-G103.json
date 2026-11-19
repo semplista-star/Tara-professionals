@@ -1,0 +1,204 @@
+{
+ "id": "N1-G103",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "jerga · la preparació d'unes colònies amb un alumne amb crisis freqüents",
+ "tipus": "jerga",
+ "persona": "Laia, orientadora. Situació: la preparació d'unes colònies amb un alumne amb crisis freqüents. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:18:00.974Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Sí, mira, tengo un lío con un alumno que tiene crisis frecuentes y hay unas colonias que se acercan y... no sé, el tutor no me hace ni caso. Le digo cosas, le propongo un protocolo, y como si nada. Me siento un poco ignorada, la verdad. Como que me torea, ¿sabes?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso de proponer algo con intención y que no aterrice... tiene su desgaste. Especialmente cuando hay un alumno con crisis frecuentes y las colonias encima.\n\n¿Qué te preocupa más ahora mismo: el alumno y cómo preparar las colonias, o la situación con el tutor y cómo llegar a él?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 233,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 91,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Las dos cosas están conectadas, ¿no? Pero si tengo que elegir... el tutor. Porque si él no se implica, el protocolo para el alumno no sirve de nada. O sea, yo puedo hacer el mejor plan del mundo, pero si él no lo aplica en las colonias... pues apaga y vámonos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene toda la lógica. El protocolo sin él es papel mojado.\n\n¿Qué ha pasado exactamente cuando le has propuesto cosas? ¿Te dice algo, te esquiva, o simplemente no responde?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 410,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 59,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues un poco de todo. A veces me dice \"sí sí\" y luego nada. Otras veces me esquiva directamente, que si está ocupado, que si ya hablaremos... Y yo ya voy por la tercera vez que le propongo quedar para preparar esto y nada. O sea, las colonias son en dos semanas, tío. Dos semanas. Y tenemos un chaval que puede tener una crisis allí y él como si fuera un problema mío solamente."
+  },
+  {
+   "qui": "TARA",
+   "text": "Dos semanas, un chaval con crisis, y tú cargando sola con la preocupación. Eso agota.\n\nUna cosa que me dices me llama la atención: \"como si fuera un problema mío solamente\". ¿Tienes la sensación de que él no lo ve como un riesgo real, o más bien que lo ve pero prefiere no meterse?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 591,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 96,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uf, buena pregunta. Creo que... no lo ve como un riesgo real. O sea, igual piensa que ya se apañará, que tampoco será para tanto. Que las crisis no son tan frecuentes o que él sabrá manejarlo sobre la marcha. Y eso es lo que más me desespera, porque yo sé que no es así. He visto las crisis de este chico y no son moco de pavo, ¿eh?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Tú tienes información que él no tiene, o no ha procesado todavía.\n\nEso cambia un poco el enfoque: no es que te ignore a ti, es que quizás no ha dimensionado lo que puede pasar. Lo cual no lo excusa, pero sí abre una puerta distinta.\n\n¿Él ha visto alguna vez una crisis de este alumno, o solo lo conoce en días buenos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 802,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 108,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues ahí está la clave, creo. Solo lo conoce en días buenos, o en crisis pequeñas. La gorda gorda no la ha visto nunca. Y claro, si no la has visto... pues no sabes. Pero oye, para eso estoy yo, ¿no? Para contárselo. Y aun así, nada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, para eso estás tú. Y se lo has intentado contar, y no ha entrado.\n\nPuede que el \"sí sí\" y el esquive no sean dejadez, sino que lo que le estás contando no le está llegando con el peso real que tiene. No porque tú lo expliques mal, sino porque sin haberlo vivido, cuesta imaginar.\n\n¿Le has descrito alguna vez una crisis concreta, con detalle, lo que pasa físicamente, cuánto dura, qué necesita el chaval en ese momento? ¿O ha sido más a nivel de \"hay que tener un protocolo\"?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1001,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 158,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mmm. Pues... más lo segundo, la verdad. Le he hablado del protocolo, de los pasos, de que hay que tener esto y lo otro... Pero describírselo así, en plan película, pues no. Igual tienes razón. Igual le he ido con el manual y él no ha conectado con lo que significa de verdad. Joder, no se me había ocurrido enfocarlo así."
+  },
+  {
+   "qui": "TARA",
+   "text": "A veces el protocolo llega antes que la imagen, y sin la imagen el protocolo no pesa.\n\nSi quieres, podemos preparar cómo contárselo. No el manual, sino la película: qué pasa, cómo se ve, qué necesita el chaval, qué pasa si no hay nadie preparado. Algo que le haga sentir que esto es real y que necesita estar listo.\n\n¿Te serviría trabajar eso?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1265,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 115,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí que me serviría. Pero mira, más que preparar todo el discurso... ¿me puedes dar una frase? Una frase para arrancar la conversación con él, que no suene a bronca ni a sermón, pero que le haga ver que esto va en serio. Porque si empiezo mal, se me cierra y adiós."
+  },
+  {
+   "qui": "TARA",
+   "text": "Algo así:\n\n*\"Oye, necesito contarte algo sobre [nombre del alumno] que me tiene preocupada, y quiero que lo tengas en la cabeza antes de las colonias. ¿Tienes cinco minutos ahora?\"*\n\nDirecta, sin acusación, y le pone en modo \"escucho\" en lugar de modo \"me están pidiendo algo\".",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1475,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 96,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, sí. Eso mola. Es sencilla pero entra bien, ¿no? No le estoy atacando, solo le estoy diciendo que tengo algo importante. Y lo de \"¿tienes cinco minutos ahora?\" es bueno porque no le doy opción de escaquearse con el \"ya hablaremos\". Me la apunto. Gracias, en serio."
+  },
+  {
+   "qui": "TARA",
+   "text": "De nada. Y si luego quieres ensayar cómo seguir después de esa frase, aquí estoy.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1669,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 34,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

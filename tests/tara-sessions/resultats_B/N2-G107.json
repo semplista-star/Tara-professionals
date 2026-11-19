@@ -1,0 +1,206 @@
+{
+ "id": "N2-G107",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "jerga · rebequeries a l'hora de sortir de casa",
+ "tipus": "jerga",
+ "persona": "Aina, padrastre. Situació: rebequeries a l'hora de sortir de casa. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:40:53.802Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, porto uns dies que no puc més. La meva filla —bueno, la filla de la meva parella— cada matí és el mateix circ. Li dic que s'ha de preparar per sortir i em fa com si no existís. M'ignora directament. I quan ja porto deu minuts dient-li el mateix, s'enfada ella! Com si jo fos el dolent de la pel·lícula. Em sento com un idiota parlant sol."
+  },
+  {
+   "qui": "TARA",
+   "text": "Deu minuts dient el mateix i al final l'enfadada és ella. Té sentit que et sentis com parlant sol.\n\nQuants anys té, la nena?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 279,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 47,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Set. Set anys té. I ja sé que \"és petita\" i tot això, però és que cada dia és igual. No aprèn. O no vol aprendre, no sé. I jo ja no sé si cridar, si ignorar-la jo també... res funciona. Em toreja, vaja."
+  },
+  {
+   "qui": "TARA",
+   "text": "Set anys i cada matí el mateix bucle. I tu sense saber ja ni per on agafar-ho.\n\nUna cosa que dius m'ha cridat l'atenció: \"no sé si soc jo el dolent de la pel·lícula\". Com és la teva relació amb ella fora dels matins?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 401,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 79,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Fora dels matins bé, més o menys. Juguem, de vegades em busca ella a mi... però quan li dic alguna cosa que no li agrada, ja soc el \"tu no ets el meu pare\". I clar, quan passa això als matins ja estic cremat abans de començar. No sé, potser té raó i no hauria de ser jo qui li digui res. Però la seva mare tampoc pot fer-ho tot sola, no?"
+  },
+  {
+   "qui": "TARA",
+   "text": "No, no pot fer-ho tot sola. I tu hi ets, hi participas, t'importa. Això es nota.\n\nEl \"tu no ets el meu pare\" deu fer mal, sobretot quan ja portes una estona intentant-ho.\n\nUna cosa: quan ella et diu això, tu com reacciones normalment?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 598,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 85,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs... me callo. O me'n vaig. Perquè si no me'n vaig acabo dient alguna cosa que després em sap greu. Però clar, si me'n vaig ella \"guanya\", no? I els matins ja no hi ha temps per res, hem de sortir i punt. És un desastre. Mira, jo el que voldria és saber com dir-li alguna cosa que funcioni, una frase o algo, perquè ja no sé com parlar-li."
+  },
+  {
+   "qui": "TARA",
+   "text": "Marxar quan estàs cremat és una decisió intel·ligent, no una derrota.\n\nI entenc el que busques: alguna cosa concreta per dir-li als matins que no acabi en bloqueig. Et proposo dues opcions, i tu tries la que et sembli més teva:\n\n1) Quan no et fa cas, acostar-te, posar-te al seu nivell i dir-li en veu baixa: \"Necessito que em miris un moment. Hem de sortir en cinc minuts.\" Sense repetir-ho deu vegades, una sola vegada i amb calma. La repetició sovint fa que els nens deixin d'escoltar.\n\n2) Donar-li una tria petita per fer-la partícip: \"Surts amb la jaqueta posada o te la poses a la porta?\" Dues opcions, les dues bones per tu. Amb set anys, tenir una mica de control ajuda molt.\n\nCap de les dues és màgica, però trenquen el bucle de \"jo dic, ella ignora, jo repeteixo\".\n\nVols que preparem com dir-ho, o hi ha alguna cosa d'aquestes que no et quadra?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 813,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 294,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ostres, sembla un manual això. \"Posar-te al seu nivell\", \"donar-li una tria petita\"... jo no parlo així, tio. Jo necessito una frase normal, de les de veritat, no de llibre de psicologia. Algo que pugui dir jo, amb les meves paraules."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, ha sonat a manual. Disculpa.\n\nLlavors, com parles tu normalment amb ella quan les coses van bé?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1190,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 41,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs normal, no sé... \"va, fem això\", \"ei, vine aquí\"... coses així. Directe. Sense floritures. Per això et dic, necessito algo curt, que surti sol, que no sembli que m'ho he après de memòria. Una frase per als matins quan ja estic a punt d'explotar i ella fa com si jo no existís."
+  },
+  {
+   "qui": "TARA",
+   "text": "D'acord. Curt i directe, com tu.\n\nProva amb: \"Ei. Ara.\" I res més. Sense repetir, sense explicar. Si no es mou, t'hi acostes i li poses la mà a l'espatlla.\n\nO si vols una mica més: \"Para un moment. Hem de sortir.\"\n\nLes dues sonen a tu, no a llibre.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1329,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 103,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, això ja és una altra cosa. \"Ei. Ara.\" Sí, això sí que m'ho puc imaginar dient jo. Curt i al gra. Ho provaré demà al matí, a veure com va. Gràcies, de veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bé. Demà al matí, \"Ei. Ara.\" i a veure.\n\nSi vols, ja m'expliques com ha anat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1505,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 41,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, ja t'explicaré. Gràcies, Tara."
+  },
+  {
+   "qui": "TARA",
+   "text": "Fins aviat.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1570,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "id": "N2-G040",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "demanda-directa · rebequeries a l'hora de sortir de casa",
+ "tipus": "demanda-directa",
+ "persona": "Rubén, abuela que cuida a los nietos. Situació: rebequeries a l'hora de sortir de casa. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:39:59.120Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, mira, te cuento. Yo soy Rubén, bueno, me llaman así, y cuido a mis nietos por las mañanas mientras mis hijos trabajan. El pequeño tiene cinco años y la niña siete, y cada día que hay que salir de casa es un drama, pero un drama de los gordos. Que si no encuentro los zapatos, que si el abrigo no me gusta, que si quiero ver cinco minutos más la tele... y yo ya con mis años no tengo la energía de antes, ¿sabes? Me pongo nerviosa, les levanto la voz y luego me siento mal todo el día. \n\nLo que necesito es que me ayudes a tener algo preparado, como una frasecita o un mensajito corto que les pueda decir para que se pongan en marcha sin que acabe todo en lloros y yo con el disgusto. Algo que funcione, vamos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Rubén, entiendo bien lo que buscas: algo concreto que puedas usar mañana mismo.\n\nAquí van tres opciones, según lo que más te encaje:\n\n1) Antes de que empiece el lío, avisas con tiempo: \"En diez minutos nos vamos. Apaga la tele y busca los zapatos.\" Sin negociar, dicho con calma y ya.\n\n2) Si ya están en plena resistencia, prueba a convertirlo en un reto rápido: \"A ver quién está listo primero.\" A los cinco y siete años eso suele arrancarles.\n\n3) Si lo que quieres es algo más directo y sin juegos: \"Sé que no te apetece salir. Aun así, nos vamos. Yo te ayudo con el abrigo.\"\n\nLas tres admiten que digan que no les gusta, pero dejan claro que salir no está en discusión. Tú pones el límite, sin pelea.\n\n¿Alguna te suena a que podría funcionar con ellos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 393,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 267,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay, mira, las tres me gustan, pero creo que la del reto esa de \"a ver quién está listo primero\" me parece la más de ellos, porque el pequeño sobre todo es muy competitivo, si le dices eso se pone a correr. Pero es que me queda un poco fría, ¿sabes lo que te digo? Como muy de manual. ¿Me la puedes poner un poco más cariñosa, más de abuela, que salga de mí de verdad?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Algo así:\n\n\"¡Venga, a ver quién llega primero a la puerta! El que llegue antes se lleva un abrazo de los míos.\"\n\nO si quieres que suene todavía más tuya, puedes añadir algo que solo tú les dices, un apodo, una tontería que les haga gracia. Eso es lo que lo hace de abuela de verdad, no las palabras exactas.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 791,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 115,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay sí, eso ya me gusta más, con lo del abrazo ya tiene más calor. Y tienes razón con lo del apodo, que yo al pequeño le llamo \"campió\" porque le encanta, así que igual le digo \"¡a ver quién llega primero a la puerta, campió!\" y ya está, que tampoco hay que complicarlo más. Muchas gracias, de verdad, que mañana lo pruebo y ya te contaré. Bueno, si puedo, que con estos dos no sé ni la hora que acabaré."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ja, con esos dos seguro que no. Suerte mañana, Rubén, que \"campió\" no sabe lo que le espera.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1047,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 50,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

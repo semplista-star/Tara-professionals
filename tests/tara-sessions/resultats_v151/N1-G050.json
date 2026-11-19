@@ -1,0 +1,141 @@
+{
+ "id": "N1-G050",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "correccio · una alumna que queda exclosa a l'hora de fer grups",
+ "tipus": "correccio",
+ "persona": "Joan, profesora sustituta. Situació: una alumna que queda exclosa a l'hora de fer grups. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:14:28.820Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, sí... bueno, no sé si es tan importante, perdona. Es que hoy en clase ha pasado una cosa y no sé muy bien cómo gestionarlo.\n\nEstaba haciendo grupos con los alumnos y una chica se ha quedado fuera. O sea, nadie la ha elegido. Y yo me he quedado un poco paralizada, no he sabido qué hacer en el momento. Supongo que lo he gestionado fatal, la verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "No tienes que pedir perdón, y no creo que lo hayas gestionado fatal.\n\nQuedarte paralizada en ese momento dice que te importó lo que estaba pasando. Eso no es poco.\n\n¿Qué hiciste al final, aunque fuera sin saber muy bien qué hacer?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 253,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 77,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues... la metí yo en un grupo, simplemente le dije \"venga, tú con estos\". Rápido, para que no se notara tanto. No sé si estuvo bien.\n\nPero lo que me preocupa es la chica. Se la veía... no sé, como si ya lo esperara. Como resignada. Y eso me ha dado mucha vuelta."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso que describes —como si ya lo esperara— es lo que duele de verdad. No fue solo un momento incómodo; fue ver que quizá para ella es algo conocido.\n\nLo que hiciste la sacó del momento sin exponerla más. Eso tiene valor.\n\n¿Qué te gustaría poder hacer ahora, con ella o con el grupo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 426,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 92,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto... es eso, que parecía que ya lo tenía asumido. Y eso es lo que no me deja tranquila.\n\nNo sé, me gustaría hablar con ella, pero no quiero que se sienta señalada tampoco, ¿sabes? Y con el grupo... no sé ni por dónde empezar. Soy sustituta, no los conozco bien, y tampoco quiero meterme donde no me llaman.\n\n¿Tú qué harías? O sea, ¿hay alguna forma concreta de acercarse a ella sin que sea raro?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido que quieras acercarte sin que se sienta señalada. Y siendo sustituta, el equilibrio entre hacer algo y no irrumpir es real.\n\nAlgunas opciones concretas, para que veas cuál encaja con cómo eres tú y con el contexto:\n\n**Con ella:**\n- Un momento breve y natural al salir de clase, o mientras recoge. Algo sencillo: *\"¿Cómo estás?\"*, sin mencionar lo de los grupos. Solo abrirle una puerta pequeña, sin que parezca una intervención.\n- Si hay un momento de trabajo individual, acercarte a su mesa como harías con cualquier otro alumno. Sin hacer nada especial, pero estando.\n\n**Con el grupo** (si decides hacer algo):\n- No hace falta nombrarlo directamente. Una actividad sobre pertenencia o sobre cómo nos sentimos en equipo puede trabajar lo que pasó sin señalar a nadie. Puedo ayudarte a diseñar algo si te interesa.\n\n**Sobre lo de \"meterme donde no me llaman\":**\n- Tiene sentido ser prudente. Pero si hay una tutora o un orientador en el centro, contarles lo que observaste —sin dramatizar, solo lo que viste— puede ser útil. Tú no tienes que resolver esto sola.\n\n¿Cuál de estas direcciones te resuena más, o hay algo que te frena en alguna?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 673,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 359,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, no he dicho que no la conozca a ella... o sea, sí que hemos tenido algún momento en clase. Lo que decía es que no conozco bien la dinámica del grupo en general, que soy nueva.\n\nPero bueno... lo de acercarme de forma natural me parece bien. Eso sí puedo hacerlo. Y lo de la tutora, no lo había pensado, la verdad. ¿Cómo se lo diría sin que parezca que estoy exagerando?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, me he adelantado. Gracias por corregirme.\n\nPara hablar con la tutora, algo sencillo y concreto funciona mejor que cualquier explicación elaborada. Por ejemplo:\n\n*\"Hoy al hacer grupos, [nombre] se quedó sin que nadie la eligiera. Se la veía resignada, como si ya lo esperara. No sé si es algo que ya conocéis, pero quería comentártelo.\"*\n\nEso es todo. Describes lo que viste, sin diagnósticos ni alarmas. La tutora sabrá si encaja con algo que ya tienen en el radar, o si es información nueva.\n\n¿Te parece que puedes decirlo así?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1164,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 173,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, así sí. Es sencillo y no parece que estés montando un drama. Creo que puedo decirlo así.\n\nGracias, en serio. Me ha ayudado hablar de esto. Estaba dándole vueltas sola y ya no sabía ni qué pensar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido. Y que lo hayas contado, porque darle vueltas sola a esto es agotador.\n\nSuerte con la tutora, y con ese momento con ella.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1416,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 51,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

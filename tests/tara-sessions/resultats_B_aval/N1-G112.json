@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat principal (opcions concretes) però va fer una pregunta prèvia innecessària al torn 1 i va tornar la pregunta al final dels torns 2 i 3 quan la persona ja havia dit explícitament 'digues-m'ho tu'.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Abans de dir-te res, necessito saber una cosa: quan dius \"moguts\", parles de dispersió i energia alta, o hi ha conflictes entre ells?",
+   "esperat": "Amb la informació inicial (grup mogut, última hora, dubte entre separar o aguantar) ja era possible oferir opcions concretes o demanar el factor més rellevant en un sol pas, sense bloquejar la resposta amb una pregunta prèvia"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Quin d'aquests factors pesa més ara mateix?",
+   "esperat": "La persona havia demanat dues vegades 'digues-m'ho tu'; retornar la pregunta contradiu el comportament esperat; TARA podia indicar quin factor sol ser decisiu o demanar-li que tries directament entre les tres opcions"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Tens alguna activitat a mà que puguis adaptar així?",
+   "esperat": "La persona havia dit que volia saber com començar; TARA ja havia donat la instrucció concreta i podia tancar o oferir-se a continuar, sense afegir una nova pregunta que allarga el torn innecessàriament"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Cap de les tres és la correcta en abstracte. Depèn de quant marge tens tu avui, de si el grup ha tingut un dia especialment carregat, i de si hi ha algun parell concret que sol encendre la situació.",
+   "esperat": "Amb missatges molt curts de la persona, aquest paràgraf explicatiu és excessiu; n'hi havia prou amb presentar les tres opcions i demanar-li que tries"
+  }
+ ]
+}

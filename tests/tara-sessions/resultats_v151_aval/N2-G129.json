@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entendió en cada turno lo que Marta necesitaba (información sobre privacidad, herramientas concretas para hablar con la niña) y respondió de forma ajustada y aplicable.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "tiene que ser agotador. Y un poco raro también, porque tú no eres parte del conflicto pero estás justo en el centro.",
+   "esperat": "Recoger el tono de Marta y preguntar qué le preocupa, sin atribuirle cansancio ni rareza que ella no ha expresado"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Aunque no lo haya preguntado, a veces lo necesita oír.",
+   "esperat": "Omitir la justificación paternalista; dar el recurso sin explicar por qué la niña lo necesita aunque no lo pida"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "No tienes que tenerlo todo resuelto para ser un apoyo sólido para ella.",
+   "esperat": "El cierre valorativo alarga la respuesta más allá de lo pedido; cortar tras los tres puntos y la oferta de ayuda concreta"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "con eso ya le estás dando mucho, en serio.",
+   "esperat": "Cerrar sin reforzar ni evaluar lo que Marta va a hacer; un cierre cálido y breve sin juicio de valor sobre su actuación"
+  }
+ ]
+}

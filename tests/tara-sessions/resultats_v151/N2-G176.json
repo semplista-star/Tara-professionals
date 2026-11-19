@@ -1,0 +1,140 @@
+{
+ "id": "N2-G176",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "que-faig · un fill que diu que a l'escola el molesten",
+ "tipus": "que-faig",
+ "persona": "Aina, padrastre. Situació: un fill que diu que a l'escola el molesten. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:33:25.164Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, et vull explicar una situació que m'ha preocupat molt aquesta setmana. El meu fillastre, en Marc, té dotze anys, i fa uns dies em va dir que alguns companys de classe el molesten. Em va costar que m'ho expliqués, però al final em va dir que li diuen coses desagradables i que de vegades li agafen les coses sense permís. El problema és que no sé si hauria de parlar directament amb el tutor de l'escola, o si primer hauria de parlar amb la seva mare, que és la meva parella, perquè ella és la mare biològica i potser li correspon a ella fer aquest pas. No vull trepitjar el seu paper, però tampoc vull quedar-me de braços creuats. No sé què fer, digues-m'ho tu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Que en Marc s'hagi obert amb tu diu molt de la confiança que hi ha entre vosaltres. I entenc que ara et trobis en un lloc incòmode: vols actuar, però no vols passar per sobre de la seva mare.\n\nCom que em demanes que et digui jo, t'ofereixo tres opcions concretes amb el que implica cadascuna:\n\n**1. Parlar primer amb la mare (la teva parella)**\nLi expliques el que t'ha dit en Marc i decidiu junts com actuar. Respecta el seu paper i us permet presentar un front comú davant l'escola. Requereix que la conversa entre vosaltres dos vagi bé i que no s'allargui massa, perquè en Marc ja ha esperat.\n\n**2. Parlar amb la mare i proposar-li anar junts al tutor**\nUn pas més: no només l'informes, senseó que li proposes anar-hi plegats. Reforça la coordinació familiar i pot tenir més pes davant l'escola. Depèn que ella estigui disponible i d'acord en el moment.\n\n**3. Demanar-li a en Marc com vol que actueu**\nTé dotze anys i ja t'ho ha explicat. Saber si vol que parleu amb l'escola, i amb qui, li dona agència i pot ajudar-te a decidir el pas següent. No substitueix l'acció adulta, però pot orientar-la.\n\nEl que veig clar és que les tres opcions passen per la mare abans d'anar al tutor — perquè la situació no sembla d'urgència immediata i ella ha de poder participar-hi.\n\nQuina d'aquestes et ressona més?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 377,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 434,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, t'agraeixo les opcions, però jo t'he demanat que em diguessis tu què fer. Necessito que algú em doni una resposta clara, no que em torni la pregunta. Quina és la millor opció, segons tu?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès. Et dic el que penso.\n\n**Parla primer amb la mare.**\n\nEn Marc t'ho ha explicat a tu, però ella és la seva mare i ha de saber-ho. Si vas directament al tutor sense dir-li res, pot sentir que l'has deixat fora d'una decisió important sobre el seu fill — i això pot crear tensió entre vosaltres just quan en Marc necessita que estigueu coordinats.\n\nLa conversa amb ella no ha de ser llarga: \"En Marc m'ha explicat que alguns companys el molesten. Crec que hauríem de parlar amb el tutor. Com ho veus tu?\"\n\nDesprés, aneu junts a l'escola si ella hi està d'acord.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 882,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 180,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "D'acord, em convenç. Parlaré primer amb ella. Però com començo aquesta conversa? Vull fer-ho bé i no posar-la a la defensiva."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona pregunta. Aquí tens una frase per començar:\n\n*\"En Marc m'ha explicat una cosa que m'ha preocupat i volia dir-t'ho de seguida. Alguns companys el molesten — li diuen coses i li agafen les coses sense permís. Crec que hauríem de parlar amb el tutor. Com ho veus tu?\"*\n\nTres coses que ajuden amb aquesta frase:\n\n- Comences pels fets, no per una opinió ni una queixa.\n- Li fas saber que en Marc t'ha tingut confiança — sense que soni a retret cap a ella.\n- Li deixes l'última paraula sobre com actuar, cosa que respecta el seu paper.\n\nSi vols, podem repassar com respondre si ella reacciona d'una manera concreta que et preocupi.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1110,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 214,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies, això m'ajuda molt. Crec que ja tinc prou per poder parlar amb ella aquesta nit. Ho faré tal com m'has dit."
+  },
+  {
+   "qui": "TARA",
+   "text": "Molt bé. Espero que la conversa vagi bé aquesta nit — i que en Marc noti aviat que els adults que l'envolten estan al seu costat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1369,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 47,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. Ho valoro molt. Fins aviat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Fins aviat. Molta sort!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1435,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

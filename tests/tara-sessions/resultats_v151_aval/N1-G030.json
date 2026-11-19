@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va escoltar sense precipitar-se, va esperar que la persona demanés ajuda i va lliurar exactament el que es demanava.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene mucho sentido que estés dando vueltas a las dos cosas a la vez",
+   "esperat": "Reflexió breu sense fórmula validadora; per exemple, repetir o parafrasear el que la persona ha dit sense jutjar-ne el sentit"
+  },
+  {
+   "torn": 5,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene todo el sentido. Y parece que ya ayuda un poco, sí.",
+   "esperat": "Resposta més breu i menys confirmatòria; la fórmula 'tiene sentido' ja ha aparegut al torn 3"
+  },
+  {
+   "torn": 6,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Y si en algún momento sientes que sí quieres decirle algo, podría ser tan sencillo como: «Ayer me quedé con algo de la reunión. ¿Podríamos hablar en algún momento?»",
+   "esperat": "La persona va demanar 'un primer pas, alguna cosa petita'; la frase literal per obrir la porta és un pas addicional no demanat explícitament i pot generar pressió"
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "¿Eso se acerca a lo que necesitabas?",
+   "esperat": "La pregunta de comprovació allarga el torn innecessàriament; la resposta ja era completa i proporcionada sense ella"
+  }
+ ]
+}

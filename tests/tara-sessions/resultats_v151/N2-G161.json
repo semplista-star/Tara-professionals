@@ -1,0 +1,204 @@
+{
+ "id": "N2-G161",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "correccio · l'arribada d'un nou germà",
+ "tipus": "correccio",
+ "persona": "Laia, abuelo. Situació: l'arribada d'un nou germà. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:32:32.472Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bueno. Mi hija acaba de tener un bebé y ahora mi nieta Laia está muy rara conmigo. Antes veníamos muy bien los dos y ahora no me hace ni caso. No sé qué le pasa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué cambio tan grande para toda la familia. Antes ibais muy bien y ahora sientes que Laia se ha alejado, y eso duele.\n\n¿Cuántos años tiene Laia?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 223,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 54,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Siete. Y mira, no he dicho que me duela, he dicho que no sé qué le pasa. Son cosas distintas."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, son cosas distintas. Me he adelantado.\n\nNo sabes qué le pasa. ¿Qué es lo que ves exactamente — cómo se comporta contigo ahora?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 316,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 56,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues que antes cuando venía a casa corría a abrazarme y ahora llega y se va directa a su cuarto. O se queda mirando el móvil. Y si le pregunto algo me contesta con monosílabos. Eso es todo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso es bastante concreto. Antes corría a abrazarte, ahora pasa de largo o contesta lo justo.\n\n¿Esto empezó justo cuando nació el bebé, o ya venía de antes?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 440,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 59,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Justo cuando nació, sí. Antes de eso todo bien. Por eso digo que algo tiene que ver con el bebé, pero no sé el qué."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido que lo relaciones. El bebé llegó y algo cambió.\n\nUna posibilidad —y solo tú puedes saber si encaja— es que Laia esté pasando por un momento difícil con todo este cambio en casa: un hermano nuevo, la atención de sus padres repartida de otra manera, quizás cosas que no sabe cómo decir. Y a veces los niños llevan eso con las personas de confianza, no con los padres.\n\nSi quieres, puedo ayudarte a pensar cómo acercarte a ella sin que se sienta interrogada.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 543,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 152,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. No he dicho que esté pasando un momento difícil ni que no sepa cómo decir las cosas. Eso lo estás poniendo tú. Yo solo sé que cambió de comportamiento. No sé por qué."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón otra vez. Me he ido por delante de lo que sabes. Solo sabes que cambió, y punto.\n\n¿Qué te gustaría poder hacer con eso?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 763,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 50,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues eso, que me digas cómo hablar con ella. Cómo preguntarle qué le pasa sin que se cierre más todavía. Eso es lo que necesito."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Aquí van algunas ideas concretas:\n\n**Evita preguntas directas sobre \"qué te pasa\"** — a los siete años esa pregunta suele cerrar más que abrir. En cambio, puedes estar cerca sin exigir nada: sentarte a su lado mientras hace algo, sin hablar.\n\n**Si surge un momento natural**, una frase como: *\"Oye, echo de menos cuando llegabas corriendo. Me gustaba eso.\"* Dices lo tuyo, sin preguntarle nada. A veces eso abre más que cualquier pregunta.\n\n**Si quieres preguntar algo**, mejor sobre algo concreto y pequeño: *\"¿Qué estás viendo?\"* o *\"¿Me enseñas eso?\"* — entras por donde ella está, no por donde tú quieres llegar.\n\n**Dale tiempo y espacio** para que sea ella quien se acerque, sin que sienta que tiene que explicarse.\n\n¿Alguna de estas te parece posible con ella?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 866,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 261,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Lo de sentarme a su lado sin decir nada me parece bien. Eso lo puedo hacer. Y lo de decirle que echo de menos cuando corría a abrazarme, eso también. Pero necesito que me lo pongas más fácil, ¿cómo se lo digo exactamente? ¿Qué palabras uso?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Algo así:\n\n*\"Laia, sabes que echo de menos cuando llegabas y me dabas ese abrazo. Me gustaba mucho.\"*\n\nY ya. Sin pregunta detrás, sin esperar respuesta. Lo dices y dejas que caiga.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1216,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 66,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Vale, eso lo puedo decir. Es sencillo. Lo probaré a ver qué pasa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien. Ya me contarás si quieres.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1311,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

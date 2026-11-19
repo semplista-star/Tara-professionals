@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la preocupació de fons però al torn 1 va projectar estats emocionals no expressats; a partir de la correcció va reorientar-se bé i va lliurar l'ajuda pràctica demanada.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "entenc que fa mal, i que et preguntes on has quedat tu en tot això",
+   "esperat": "Reflectir el que Jordi ha dit literalment (no sap què passa, preocupació pel nét) sense afegir estats emocionals no expressats"
+  },
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Als setze anys molts nois necessiten molt més espai que abans, fins i tot amb persones que estimen. No vol dir necessàriament que alguna cosa vagi malament",
+   "esperat": "No oferir explicacions ni normalitzacions quan la persona no les ha demanat; limitar-se a explorar la preocupació concreta"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "com et quedes tu en aquell moment?",
+   "esperat": "La pregunta gira cap a l'experiència emocional de l'avi quan ell ha expressat preocupació pel nét, no per ell mateix; no era necessària ni pertinent"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Evita picar a la porta quan saps que és 'el seu moment'... Busca un context de fer, no de parlar... Quan surti, acull sense preguntar... Si vols obrir una mica la porta",
+   "esperat": "Oferir una o dues idees concretes en lloc d'una llista de quatre punts; la persona mateixa ho va confirmar dient que la llista l'aclaparava"
+  },
+  {
+   "torn": 5,
+   "categoria": "altres",
+   "gravetat": "baixa",
+   "cita": "Ja veuràs com va.",
+   "esperat": "Evitar prediccions optimistes no fonamentades; un comiat neutre i càlid és suficient"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la demanda principal (opcions concretes i preparació de la conversa), però va afegir preguntes i comentaris no demanats que allargaven innecessàriament alguns torns.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "La majoria de famílies troben útil combinar la 1 i la 2: primer escoltar-lo a ell per entendre bé la situació, i després decidir si cal parlar amb l'escola i com fer-ho.",
+   "esperat": "Lliurar les tres opcions i deixar que la persona triï, sense afegir una recomanació implícita que orienta la decisió"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit.",
+   "esperat": "Passar directament al contingut útil sense validació formulaica"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Tens una idea de quina edat té i com sol reaccionar quan li preguntes coses? Això em pot ajudar a ajustar una mica més el que et proposo.",
+   "esperat": "La persona no havia demanat més ajust; si la informació era rellevant, TARA podia esperar que la persona la donés voluntàriament o tancar el torn"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "vol dir que el vincle hi és — només necessita el seu espai",
+   "esperat": "No inferir ni afirmar l'estat del vincle a partir d'una dada conductual; descriure el comportament sense interpretar-lo com a fet"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Això és molt valuós que sàpigues d'ell.",
+   "esperat": "Ometre l'elogi i passar directament al consell pràctic"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Sembla que el coneixes bé — això ja és molt.",
+   "esperat": "Tancar amb calidesa sense jutjar les capacitats de la persona («diu molt de tu», «ets molt bona mare»)"
+  }
+ ]
+}

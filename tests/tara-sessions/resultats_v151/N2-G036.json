@@ -1,0 +1,140 @@
+{
+ "id": "N2-G036",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "humor · l'arribada d'un nou germà",
+ "tipus": "humor",
+ "persona": "Jordi, àvia que cuida els néts. Situació: l'arribada d'un nou germà. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:25:54.181Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, hola Tara! Mira, t'he de dir que jo de tecnologia no en sé res de res, eh, que m'ha hagut d'ajudar la meva filla a posar-me aquí... però bé, aquí estic! Soc la Jordi, que sí, ja sé que és nom de noi però a mi m'hi han dit tota la vida i ja m'hi he acostumat. Tinc els néts a casa cada dia perquè els pares treballen, i ara resulta que aviat n'arribarà un altre, de petit! Un germanet nou. I els nens... buf, no sé com ho portaran. L'Emma té set anys i el Pau en té cinc, i ara els diuen que vindrà un bebè i jo els veig una mica rars, saps? No sé si és cosa meva o si realment hi ha alguna cosa que els preocupa. Per aquí volia començar, si et sembla bé!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Jordi, quina alegria que hagis trobat la manera d'arribar fins aquí, amb l'ajuda de la teva filla!\n\nI quin moment tan important a la família — un bebè nou, i tu al mig de tot, veient els néts cada dia. Tens una mirada molt propera a ells.\n\nQuan dius que els veus \"una mica rars\"... què has notat, exactament? Alguna cosa concreta que t'hagi cridat l'atenció?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 409,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 126,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs mira, sí! L'Emma, que normalment és molt xerraire i sempre m'explica tot, ara de vegades es queda callada i em mira com si volgués dir alguna cosa i no s'atrevís. I ahir, que li vaig preguntar si estava contenta pel germanet, em va dir \"sí àvia\" però amb una veu... ai, com t'ho explico... com quan dius que sí però en realitat vols dir no, saps? D'aquella manera. I el Pau, que és més petit i tot li surt directe, em va preguntar si quan arribi el bebè ells hauran d'anar a dormir a una altra casa. Pobret! Que me'l vaig menjar a petons, clar. Però és que em va partir el cor, aquesta pregunta. Vol dir que pensa que el bebè el traurà de casa seva, no? I jo no sabia ben bé què dir-li, perquè no vull dir res que no toqui o que els pares no vulguin... i al final li vaig dir \"no, home, no\" i punt, però em va quedar la sensació que no n'hi havia prou, d'això."
+  },
+  {
+   "qui": "TARA",
+   "text": "Jordi, quina observació més fina la teva. Veus molt bé els dos, cadascun a la seva manera.\n\nEl Pau t'ho ha dit ben clar: té por de perdre el seu lloc. I l'Emma potser sent alguna cosa semblant però encara no sap com posar-hi paraules, o no s'atreveix.\n\nEl \"no, home, no\" era el que necessitava sentir en aquell moment — que no marxarà. Però tens raó que potser li falta una mica més. No perquè hagis fet res malament, senseó perquè la pregunta del Pau és gran de debò.\n\nSi vols, et puc ajudar a pensar com respondre-li la propera vegada que surti el tema — alguna cosa senzilla, amb les teves paraules, que li arribi de veritat. Què et sembla?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 837,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 221,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, sí, això és exactament el que necessito! Perquè jo de psicologia i d'aquestes coses no en sé gaire, eh, que a la meva època els nens ploraven i els deies \"au, va, que no és res\" i ja està, i ara resulta que tot és molt més complicat... o potser sempre ho havia estat i nosaltres no hi paràvem atenció, no sé. Però vull fer-ho bé, amb aquests dos. Que m'importen molt. Així que sí, si em pots donar alguna idea concreta de què dir-li al Pau, alguna frase o alguna manera d'explicar-li que el bebè no li treurà res, que ell seguirà sent ell... doncs t'ho agrairé molt. Però que sigui senzill, eh, que jo de paraules molt rebuscades no en faig gaires!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecte, senzill i directe, com tu!\n\nAquí tens algunes frases que pots dir al Pau, amb les teves paraules:\n\n**Per tranquil·litzar-lo sobre el seu lloc:**\n*\"Tu ets el nostre Pau. Això no canvia mai, arribin els bebès que arribin.\"*\n\n**Si torna a preguntar si haurà d'anar a una altra casa:**\n*\"No, home! La teva casa és la teva casa. El bebè vindrà a la família, no a treure't res.\"*\n\n**Per fer-lo sentir important, no desplaçat:**\n*\"Saps què? Tu seràs el germà gran. Això és una cosa molt especial.\"*\n\nNo cal dir-les totes de cop — una sola, quan surti el moment, ja és molt.\n\nI si el Pau fa més preguntes i tu no saps ben bé què respondre, sempre pots dir: *\"Bona pregunta. Ho preguntem als papes junts, eh?\"* Així no et quedes sola amb res que et pesi.\n\nPel que fa a l'Emma... quan vulguis, també podem pensar com obrir-li una mica la porta, si creus que ella necessita una cosa diferent.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1289,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 318,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, Tara, això és genial! M'agrada molt allò de \"tu ets el nostre Pau, això no canvia mai\" perquè és veritat i és curt i s'entén. I el de preguntar-ho als papes junts també m'ha semblat molt bé, perquè és que a vegades em quedo amb el mort jo sola i no sé si estic dient el que toca... Mira, per avui ja tinc prou feina amb el Pau, que ja és molt! L'Emma ja ho deixem per un altre dia si et sembla, que sinó m'exploto el cap. Moltes gràcies de debò, Tara, que m'has ajudat molt. Ara a veure si me'n recordo quan toqui, que la memòria ja no és el que era... però bé, per això existeixen els papers, oi? Ho apunto!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Apunta-ho, sí! I no t'amoïnis per la memòria — el que ha sortit del cor ja queda una mica dins, encara que el paper ajudi.\n\nHa estat un plaer, Jordi. Tens una mirada molt atenta als teus néts, i això ja és molt.\n\nQuan vulguis parlar de l'Emma, aquí estaré.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1837,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 98,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Moltes gràcies, Tara! Ets molt maca. Au, doncs fins aviat!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Fins aviat, Jordi! Ha estat un gust. Cuida't molt! 😊",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1965,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 37,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

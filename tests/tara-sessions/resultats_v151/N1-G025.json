@@ -1,0 +1,118 @@
+{
+ "id": "N1-G025",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "humor · una família que l'ha cridat per telèfon",
+ "tipus": "humor",
+ "persona": "Xavi, tutor de 4t d'ESO. Situació: una família que l'ha cridat per telèfon. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:13:02.761Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara! Mira, t'he trucat perquè... bé, perquè soc tutor de 4t d'ESO i se suposa que hauria de tenir respostes per a tot, oi? Doncs resulta que avui m'ha trucat una família i m'he quedat una mica en blanc, i això no m'havia passat mai. O sigui, literalment em guanyava un alumne de quinze anys en saber gestionar la situació. Molt bonic, molt professional tot plegat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Quinze anys i et guanyava en calma. Té la seva gràcia, i alhora entenc que et deixa un regust estrany.\n\nExplica'm: què va passar en aquella trucada?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 274,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 56,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacte, el regust estrany és la paraula. Mira, la família m'ha trucat perquè el seu fill, en Marc, porta unes setmanes que no entrega res. Res de res. I jo ja ho sabia, eh, que tenia algunes assignatures fluixes, però no tenia ni idea que la situació era tan grossa a casa. La mare m'ha explicat que hi ha hagut una separació recent, que el nen ho està passant molt malament, que plora a les nits... i jo allà, amb el telèfon a l'orella, pensant \"i ara què li dic?\" Perquè clar, jo soc tutor, no soc psicòleg. I ella m'estava demanant ajuda com si jo tingués la solució màgica, i jo... no sabia per on agafar-ho. Li vaig dir quatre coses generals, que estaríem pendents, que parlaríem amb en Marc... però em va quedar la sensació que no li havia donat res de concret. I ara estic aquí pensant si ho vaig fer malament o si és que la situació simplement és difícil."
+  },
+  {
+   "qui": "TARA",
+   "text": "No crec que ho fessis malament. Crec que la situació és difícil, i que tu la vas rebre de ple sense avisar.\n\nUna mare que t'explica que el seu fill plora a les nits —això no és una consulta sobre notes. És una persona que porta un pes molt gran i que ha trucat al tutor perquè no sap a qui més trucar. Que et quedessis en blanc té sentit.\n\nI el que li vas dir —\"estaríem pendents, parlaríem amb en Marc\"— no és res. És un punt de partida. El problema potser és que tu esperaves tenir més, i ella també.\n\nAra que tens una mica de distància: per on vols anar? Puc ajudar-te a pensar com parlar amb en Marc, com tornar a contactar amb la família amb alguna cosa més concreta, o com coordinar-te amb orientació si creus que cal. Què et sembla més urgent ara mateix?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 619,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 241,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, tens raó que ella esperava més. I jo també m'esperava més de mi mateix, que és el pitjor. Però bueno, el que em ronda ara mateix és la conversa amb en Marc. Perquè amb la família ja tornaré a parlar, això ho tinc clar. Però en Marc... és un nano que no parla gaire, molt tancat, d'aquests que a tutoria et diu \"bé\" a tot i ja està. I jo no vull que la conversa sigui un interrogatori ni que ell senti que la seva mare m'ha explicat coses seves, perquè llavors es tancarà encara més. Però tampoc vull fer veure que no sé res i anar amb rodeos infinits. Com li puc obrir la porta sense que sembli que li estic clavant un focus a la cara?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona pregunta. I ja la planteges bé: no és un interrogatori, és obrir una porta.\n\nAmb un nano tancat com en Marc, sovint el que funciona és no demanar-li que parli de com està —perquè \"com estàs?\" amb un focus a la cara és exactament el que vols evitar. En comptes d'això, pots partir del que tu has observat, sense mencionar la família, i deixar-li espai per decidir si entra o no.\n\nAlguna cosa com:\n\n*\"Marc, t'he volgut veure perquè he notat que les últimes setmanes no estàs entregant feines, i això no és el teu habitual. No t'ho dic per pressionar-te, te l'ho dic perquè m'importa saber com estàs. Si hi ha alguna cosa que t'està pesant, m'agradaria saber-ho. I si ara no tens ganes de parlar, també està bé.\"*\n\nAixò fa tres coses: parteix d'un fet observable que tu pots dir sense trair la mare, li dona una sortida digna si no vol parlar, i li deixa clar que no és una bronca.\n\nEl silenci que vingui després —no l'omplis de seguida. Aguanta'l. Amb nanos tancats, el silenci sovint és quan comencen a decidir si es fien.\n\nVols assajar com podria anar aquesta conversa, o prefereixes ajustar primer el que li diries?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1070,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 381,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, això que m'has dit del silenci m'ha fet clic. Perquè jo soc dels que omplen els silencis, eh, és un defecte professional meu reconegut. Em poso nerviós i parlo i parlo i al final el nano no ha dit res i jo he dit massa. Així que ja tinc la meva feina feta per a la conversa amb en Marc: tancar la boca i esperar. I el que li diria, més o menys com tu ho has plantejat, crec que m'hi trobo còmode. Ho puc fer sonar natural. Bé, doncs crec que ja tinc prou per tirar endavant. Moltes gràcies, Tara, de debò, que m'has ajudat a ordenar el cap. Ara ja sé per on anar."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit. I el que has dit —\"tancar la boca i esperar\"— és exactament el que en Marc necessitarà.\n\nMolta sort amb la conversa. Ja saps per on anar.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1661,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 73,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

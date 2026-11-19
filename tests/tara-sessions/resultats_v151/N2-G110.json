@@ -1,0 +1,97 @@
+{
+ "id": "N2-G110",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "demanda-directa · germans que es barallen tot el dia",
+ "tipus": "demanda-directa",
+ "persona": "Dolors, pare. Situació: germans que es barallen tot el dia. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:29:16.615Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Mira, necessito un missatge curt per enviar als meus fills. Que parin de barallar-se, però sense sonar com un sergent de l'exèrcit, que ja en tinc prou de fer de àrbitre tot el dia 😅"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès 😄 Aquí va una opció:\n\n---\n\n*«Ei, necessito que feu una pausa. Cadascú al seu espai una estona. Després parlem si cal, però ara necessito tranquil·litat — i vosaltres també.»*\n\n---\n\nSona com tu, o vols que ho ajustem una mica?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 233,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 95,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Està bé, però potser una mica massa seriós? Si ho puc dir amb una mica més de gràcia, millor. Que se'ls escapi un somriure mentre llegeixen, no que pensin que els citaré davant d'un jutge 😂"
+  },
+  {
+   "qui": "TARA",
+   "text": "Jaja, entès! Prova amb això:\n\n---\n\n*«Aturada tècnica obligatòria 🚧 Cadascú al seu racó, respireu, i recordeu que us estimeu (o almenys fingiu-ho bé). Gràcies per la vostra col·laboració 🙏»*\n\n---\n\nQuè et sembla?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 399,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 96,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, aquest sí que és! M'encanta el \"fingiu-ho bé\" 😂 Moltes gràcies, això m'ha salvat la tarda!"
+  },
+  {
+   "qui": "TARA",
+   "text": "De res, m'alegra! 😄 Bona sort amb la treva familiar — i que duri almenys fins al sopar 🤞",
+   "tags": [],
+   "usage": {
+    "input_tokens": 543,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

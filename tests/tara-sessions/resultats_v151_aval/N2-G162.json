@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la demanda principal (opcions concretes amb implicacions) i va respondre de manera aplicable, però va afegir elements no demanats i va usar algunes fórmules valoratives lleugeres.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "És una bona pregunta, i té molta molla.",
+   "esperat": "Entrar directament a les opcions sense valorar la pregunta"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Amb dotze anys, la majoria d'especialistes en criança s'inclinen per la paga fixa o la combinació",
+   "esperat": "Presentar les implicacions de cada opció sense inclinar la balança cap a una ni invocar autoritat externa no demanada"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Però la decisió és vostra. Hi ha alguna cosa d'aquestes opcions que encaixi més amb com funciona la vostra família?",
+   "esperat": "Tancar sense tornar la pregunta ni afegir una pregunta de seguiment no demanada; la persona ja havia demanat una resposta directa"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Això la fa sentir reconeguda, no controlada.",
+   "esperat": "Descriure l'acció sense atribuir l'estat intern de la fillastra"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Poseu-ho per escrit, si us va bé. Un paper senzill a la nevera pot ajudar a evitar malentesos després.",
+   "esperat": "Ometre el consell del paper escrit, que no havia estat demanat"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Bona elecció per començar",
+   "esperat": "No valorar l'elecció de la persona; entrar directament als passos concrets"
+  }
+ ]
+}

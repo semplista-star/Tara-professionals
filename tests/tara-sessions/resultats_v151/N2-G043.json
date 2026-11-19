@@ -1,0 +1,73 @@
+{
+ "id": "N2-G043",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "breu · un adolescent que ja no explica res",
+ "tipus": "breu",
+ "persona": "Núria, abuela que cuida a los nietos. Situació: un adolescent que ja no explica res. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:25:37.349Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, mira, tengo muy poco tiempo porque ahora viene mi hija a buscar a los niños y tengo que tenerlos listos. Solo necesito una cosa rápida: ¿cómo puedo hacer para que mi nieto adolescente me cuente algo? Porque últimamente no me dice nada de nada y antes me lo contaba todo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido, rápido:\n\nMás que preguntarle, busca un momento donde estéis haciendo algo juntos —aunque sea pequeño— y comenta algo tuyo, sin esperar que él responda. A veces eso abre más que cualquier pregunta.\n\nY si un día sí te cuenta algo, recíbelo sin consejos inmediatos. Solo escucha.\n\n¡Que salga bien la tarde!",
+   "tags": [],
+   "usage": {
+    "input_tokens": 252,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 107,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay, qué buena idea lo de contarle yo algo primero, eso no se me había ocurrido. Y lo de no dar consejos... uf, eso me va a costar, pero lo intento. Muchas gracias, me has ayudado mucho. ¡Hasta otro día!"
+  },
+  {
+   "qui": "TARA",
+   "text": "¡Me alegra que te sirva! Y lo de los consejos... a todos nos cuesta, no te preocupes. Suerte con los nietos. ¡Hasta otro día!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 436,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 60,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

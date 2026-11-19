@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (opciones concretas con implicaciones), se corrigió al recibir el reproche y entregó ayuda aplicable; el fallo es que en el turno 1 devolvió la pregunta y añadió un elogio automático innecesario.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Se nota que te importa no hacerle daño con la solución misma. Eso ya es mucho.",
+   "esperat": "Entrar directamente en las implicaciones de cada opción, sin validar la actitud de la orientadora"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "alta",
+   "cita": "¿tienes ya alguna idea de cómo está viviendo ella esto? ¿Ha dicho algo, o solo lo ves en su cara?",
+   "esperat": "La persona había pedido opciones, no que le devolvieran una pregunta; TARA debía cerrar con las opciones sin añadir pregunta"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "puede vivir el cambio como algo que simplemente pasó",
+   "esperat": "Presentarlo como posibilidad abierta, no como descripción del estado interno probable de Nadia"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "La razón de este orden: si actúas solo con los profes y ella no sabe que tú la has visto, puede vivir el cambio como algo que simplemente pasó. Si hablas con ella primero, aunque sea brevemente, el cambio tiene otro significado: alguien se fijó.",
+   "esperat": "Una vez dada la recomendación concreta, el razonamiento extendido no había sido pedido; bastaba con la secuencia de acciones"
+  }
+ ]
+}

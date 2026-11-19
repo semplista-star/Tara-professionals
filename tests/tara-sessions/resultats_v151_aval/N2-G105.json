@@ -1,0 +1,55 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén des del primer torn que Fàtima necessita ser escoltada i, quan demana ajuda concreta, la lliura i l'ajusta fins que la persona la sent seva.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "hi ha alguna cosa concreta que t'hagi fet pensar que potser és alguna cosa més que el dol?",
+   "esperat": "Fàtima ja havia dit que sentia que la germana l'evitava a ella específicament; la pregunta empeny a investigar quan la persona no havia demanat ajuda per analitzar la situació sinó per ser escoltada"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que ho llegeixis així.",
+   "esperat": "Una acollida més natural sense la fórmula validadora; per exemple reprendre el que ha dit sense etiquetar-ho"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "com t'agradaria que anés, amb ella? Què necessitaries ara?",
+   "esperat": "Dues preguntes en un sol torn quan una n'hi hauria prou; la segona ja conté la primera"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "És directa, parla del que tu sents i necessites, i li deixa espai per respondre. Com la veus? La canviaries en alguna cosa?",
+   "esperat": "Lliurar la frase i fer una sola pregunta breu; l'explicació metacomunicativa ('parla del que tu sents i necessites') és innecessària i sona a manual de CNV"
+  },
+  {
+   "torn": 6,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Com parles tu normalment amb ella? Potser si em dius una paraula o una manera de dir les coses, ho ajustem més al teu estil.",
+   "esperat": "Fàtima ja havia dit que la frase sonava massa preparada; oferir dues versions i preguntar com parla és una pregunta de més quan la persona ja havia donat prou informació per ajustar"
+  },
+  {
+   "torn": 8,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Molta força per a la conversa — i per tot el que estàs sostenint aquests dies.",
+   "esperat": "Un tancament breu i càlid sense la fórmula d'encoratjament que sona a cloenda de manual"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien lo que necesitaba Carmen en cada momento y se adaptó cuando la petición cambió (límite, luego roleplay).",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Es una situación que puede ser incómoda de gestionar",
+   "esperat": "Recoger lo que Carmen dice sin atribuirle un estado emocional no expresado ('incómoda')."
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿tienes alguna idea de qué hay detrás de esas risas? ¿Es algo que hace solo, delante de otros, buscando reacción del grupo...?",
+   "esperat": "Carmen pidió cómo enfocar la conversación; TARA podría haber ofrecido directamente una estructura básica o una sola pregunta de contexto mínima, no una lista de hipótesis."
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "hay compañeros que se sienten solos o humillados",
+   "esperat": "Describir el impacto observable sin afirmar como hecho los estados internos de terceros no presentes."
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Una posible estructura para la conversación: Empezar con lo observado… Explorar sin acusar… Conectar su necesidad con el impacto… Cerrar con algo concreto",
+   "esperat": "La estructura es útil pero podría ser más concisa; Carmen escribe muy corto y no pidió un guion tan desarrollado."
+  },
+  {
+   "torn": 3,
+   "categoria": "jerga_cnv",
+   "gravetat": "baixa",
+   "cita": "qué necesitas tú y cómo lo estás consiguiendo",
+   "esperat": "Formular la idea en lenguaje cotidiano sin usar el marco de necesidades de CNV de forma explícita."
+  }
+ ]
+}

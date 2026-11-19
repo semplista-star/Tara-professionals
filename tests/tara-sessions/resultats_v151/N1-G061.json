@@ -1,0 +1,95 @@
+{
+ "id": "N1-G061",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "breu · una família que no respon mai als missatges",
+ "tipus": "breu",
+ "persona": "Aina, tutor de 4º de ESO. Situació: una família que no respon mai als missatges. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:14:40.028Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tengo muy poco tiempo, estoy entre clase y clase. Necesito solo un mensaje corto para enviar a una familia que no responde nunca. Algo formal pero directo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. ¿Qué quieres que haga esa familia: que respondan, que vengan, que firmen algo? Dame el motivo en una frase y te lo escribo.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 187,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 50,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Que vengan a una reunión para hablar del rendimiento de su hijo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tienes:\n\n---\n\n*Estimada familia:*\n\n*Les escribimos para invitarles a una reunión con el tutor/a de su hijo/a, con el fin de comentar su evolución académica. Les proponemos [día/hora] o, si no les viene bien, pueden indicarnos otra franja horaria.*\n\n*Quedamos a su disposición.*\n\n*[Nombre y centro]*\n\n---\n\n¿Lo ajusto en algo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 258,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 114,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecto, muchas gracias. Me sirve. Hasta luego."
+  },
+  {
+   "qui": "TARA",
+   "text": "Hasta luego. Suerte con la reunión.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 393,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 26,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

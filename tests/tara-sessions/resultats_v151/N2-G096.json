@@ -1,0 +1,163 @@
+{
+ "id": "N2-G096",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "rebuig · una mudança que el fill no vol",
+ "tipus": "rebuig",
+ "persona": "Ana, pare separat que té els fills cap de setmana sí cap de setmana no. Situació: una mudança que el fill no vol. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:29:23.202Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Buf, mira, necessito ajuda amb una cosa que tinc entre mans i no sé molt bé com gestionar-ho. És amb el meu fill, en Marc, que té dotze anys. La cosa és que m'he de mudar, per feina, a una altra ciutat, no és súper lluny però tampoc és aquí al costat, i ell no vol ni sentir-ne parlar. I clar, jo tinc la custòdia compartida amb el seu pare, cap de setmana sí cap de setmana no, i ara tot s'ha de reorganitzar i en Marc està molt enfadat amb mi. Cada cop que ho trec em diu que no vol anar, que els seus amics estan aquí, que l'escola nova li farà fàstic... i jo entenc que és dur, eh, no li trec la raó del tot, però la mudança és necessària, no és un caprici meu. No sé com parlar-hi sense que acabi tot en discussió. M'ajudes?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Buf, sí, és una situació complicada. Tens una decisió necessària per a tu, i en Marc viu com si li estiguessis trencant el món. I cada cop que ho intenteu parlar, acaba malament.\n\nAbans d'ajudar-te a preparar la conversa, una cosa: quan dius que la mudança és necessària, vols dir que ja és una decisió presa, o encara hi ha marge per negociar alguna cosa amb ell?\n\nAixò canvia molt com enfocar-ho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 414,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 134,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, és una decisió presa, sí. O sigui, jo ja he signat el contracte nou i tot. No hi ha marxa enrere. I mira, em sap greu perquè sé que per a ell és un canvi molt gran, però és que la feina que m'han ofert és una oportunitat que no podia deixar passar, ja fa anys que estic en un lloc que no m'omple i econòmicament tampoc anava bé del tot, i amb la separació i tot... en fi, que necessitava aquest canvi també per a mi. Però clar, quan li ho explico a ell tot això, em sembla que no ho entén o no vol entendre-ho, i a vegades tinc la sensació que el seu pare li posa coses al cap, tot i que no ho puc saber del cert. El cas és que necessito parlar amb en Marc d'una manera que ell senti que l'estic escoltant de veritat, però sense que jo hagi de demanar perdó per una decisió que crec que és legítima. Entens el que vull dir?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, t'entenc molt bé. Vols que en Marc se senti escoltat de veritat, però sense que la conversa sembli que has de justificar-te o demanar perdó per una decisió que és teva i que té sentit.\n\nAixò és possible. I és una distinció important: escoltar-lo no vol dir que tinguis raó tu o ell. Vol dir que el seu enfado i la seva tristesa caben a la conversa, i que tu no has de defensar-te per poder-les acollir.\n\nEt proposo una manera d'enfocar-ho. En comptes de començar explicant la decisió o les raons —que ell ja sap i que ara mateix no pot escoltar bé perquè està enfadat—, podries començar per ell:\n\n---\n\n*\"En Marc, sé que estàs molt enfadat amb mi per la mudança. I no vull convèncer-te de res ara mateix. Vull entendre com t'estàs sentint tu.\"*\n\nI després, escoltar. Deixar que digui el que digui, fins i tot si és dur de sentir.\n\n---\n\nQuan ell noti que no estàs en mode defensiu, és més probable que la conversa no s'escali. I un cop ell s'hagi sentit escoltat, pots dir alguna cosa com:\n\n*\"Aquesta decisió és meva i no canviarà. Però sí que vull que pensem junts com fem que tot això sigui el menys dur possible per a tu.\"*\n\nAixò li dona agència sense que la decisió estigui en qüestió.\n\nVols que treballem més el que podria dir ell i com respondre-li, o hi ha alguna part d'aquesta conversa que et fa més por?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 825,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 440,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, t'entenc i sona molt bé sobre el paper, però és que ja ho he provat, això d'escoltar primer i no defensar-me. L'altre dia li vaig dir exactament algo així, que volia entendre com se sentia, i ell em va mirar i em va dir \"doncs si vols entendre com em sento, no et mudis\". I clar, jo me'n vaig anar a la cuina perquè si no li hagués dit alguna cosa de la qual m'hauria penedit. O sigui, quan ell es posa així és molt difícil no enganxar-s'hi. I a més, jo soc de les que m'ho empasso tot i de cop exploto, i ho sé, és el meu patró, i amb ell em passa igual. Llavors el que em proposes és molt maco però en el moment em costa molt mantenir-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, té molt de sentit. Perquè el que et va dir ell és dur de rebre: \"si vols entendre com em sento, no et mudis.\" És com una porta tancada amb pany.\n\nI tu vas fer una cosa bona anant a la cuina. Vas evitar dir alguna cosa de la qual t'hauries penedit. Això no és fallar, és contenir-te en un moment difícil.\n\nEl que describes —empassar-t'ho tot fins que explotes— és un patró que moltes persones reconeixen. I en situacions amb càrrega emocional alta, com aquesta, és encara més difícil de trencar.\n\nLlavors potser la pregunta no és tant \"com mantinc la calma durant la conversa\" senseó \"com faig per no arribar-hi ja al límit.\"\n\nUna cosa concreta: quan notes que t'estàs enganxant, tens alguna manera de fer una pausa sense que sembli una fugida? No per evitar la conversa, senseó per tornar-hi millor.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1492,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 264,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, una pausa... no sé. O sigui, el problema és que quan estem en mig d'una discussió i jo dic \"para, necessito un moment\", ell ho interpreta com que l'estic ignorant o que m'estic escapant, i llavors s'enfada encara més. Ja ho hem viscut. I clar, amb dotze anys és que tot és molt intens, no? Tot és blanc o negre. O estàs amb ell o estàs en contra d'ell. No hi ha terme mig. I jo entenc que és l'edat, però és que a vegades és agotador. A més, els caps de setmana que el tinc jo ara mateix estan molt carregats perquè sento que he de compensar, saps? Que com que la mudança és cosa meva, doncs intento que ho passem bé i que no hi hagi tensió, i llavors evito el tema, i el tema no desapareix, i al final estem les dues dies sense parlar-ne i quan torna amb el seu pare tot queda pendent. I així portem ja unes setmanes."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, ho veig. Estàs portant molt: la culpa, la compensació, el tema que no desapareix, i la sensació que cada cap de setmana queda pendent.\n\nUna cosa que has dit m'ha cridat l'atenció: \"intento que no hi hagi tensió i evito el tema.\" Però el tema és la tensió. Llavors els caps de setmana estan carregats de totes maneres, però sense poder-ho nomenar.\n\nPotser no cal forçar una conversa gran. Potser el primer pas és més petit: deixar que el tema existeixi sense que hàgiu de resoldre res.\n\nAlguna cosa com, en un moment tranquil i sense que sembli \"ara toca parlar\":\n\n*\"Sé que hi ha coses entre nosaltres que estan sense dir. No cal que les diguem ara. Però vull que sàpigues que no m'estic escapant.\"*\n\nRes més. Sense esperar resposta, sense continuar.\n\nAixò no soluciona res, però trenca el silenci sense obrir una discussió.\n\nCreus que hi hauria un moment del cap de setmana on això podria cabre?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2037,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 304,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hmm. Saps que això m'agrada més, perquè no és una conversa gran, és només dir una cosa i ja. Però ara que ho penso... no sé si en Marc ho rebria bé o si em diria \"ja hi tornem\" i es tancaria. Tot i que potser tens raó que si no espero resposta és diferent. O sigui, normalment quan li dic alguna cosa sobre el tema ell ja sap que ve una conversa i es posa en guàrdia. Però si és només una frase i punto... potser sí. I quan dius un moment tranquil, potser quan estem veient una sèrie junts o algo així, no? Que és quan ell està més relaxat. Sí, crec que podria provar-ho això."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, exacte. Veient una sèrie, o caminant, o al cotxe — moments on no us mireu de cara i no sembla una \"conversa\".\n\nProva-ho i ja veuràs com respon ell. Si es tanca, no passa res: la frase ja haurà estat dita. No necessita resposta per fer efecte.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2538,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 94,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, el cotxe és bona idea, que al cotxe no ens mirem i a vegades parlem de coses que d'una altra manera no sortirien. Ja ho he notat altres vegades. Bé, doncs ho provaré. No sé com anirà però almenys és algo que puc fer sense que sembli una batalla. Gràcies, de veritat, que necessitava que algú m'ajudés a veure-ho d'una altra manera perquè jo sola ja estava una mica encallada."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit. El cotxe sona bé — ja ho tens.\n\nMolta sort amb en Marc.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2770,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 37,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

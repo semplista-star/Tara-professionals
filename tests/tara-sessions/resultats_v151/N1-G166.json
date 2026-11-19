@@ -1,0 +1,163 @@
+{
+ "id": "N1-G166",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "rebuig · un grup disruptiu a última hora",
+ "tipus": "rebuig",
+ "persona": "Sara, educador social del centre. Situació: un grup disruptiu a última hora. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:22:24.238Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, sí... bé, és que tinc un problema amb un grup i no sé molt bé com gestionar-ho. Perdona si no m'explico bé.\n\nÉs l'últim mòdul del dia i hi ha un grup que... buf, no para. Parlen, es mouen, es llancen coses... i jo no sé com fer-los callar sense muntar un drama. Pots ajudar-me?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, puc ajudar-te. I t'expliques perfectament.\n\nAbans d'oferir-te res, una pregunta que canviaria la resposta: quin curs o etapa és el grup, i quan dius que \"no para\" — és una cosa que passa cada dia amb aquest grup, o és més irregular?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 250,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 82,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, gràcies... és que sempre penso que no m'expresso bé.\n\nDoncs és un grup de secundària, primer o segon de l'ESO, deuen tenir uns 12-13 anys. I la veritat és que passa bastant sovint, sobretot a última hora. Com que ja estan cansats, doncs... s'acceleren, no sé com explicar-ho. No és que siguin mala gent, eh, però és que a última hora és un caos."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'has explicat molt bé — i el que descrius té molt de sentit: 12-13 anys, última hora, cansament acumulat que es converteix en activació. No és mala voluntat, és fisiologia i context.\n\nAquí tens algunes coses concretes que pots provar:\n\n**Abans que s'encenguin**\n- Entra amb una rutina d'inici curta i sempre igual: 2 minuts en silenci amb una pregunta a la pissarra, un endevinalla, un repte visual... Algo que enganxi sense que hagin de callar \"per obeir\".\n- Si pots, avisa'ls que saps que estan cansats: *\"Sé que és última hora. Avui farem una cosa que no requereix molta energia.\"* Nomenar-ho els desarma una mica.\n\n**Quan ja estan moguts**\n- En lloc de demanar silenci a tot el grup, para tu. Silenci teu, postura tranquil·la, espera. Sovint funciona millor que elevar la veu.\n- Si hi ha dos o tres que lideren el soroll, una paraula en veu baixa a prop seu (\"ei, necessito que m'ajudis ara\") pot ser més efectiva que una crida general.\n\n**Estructurar la sessió**\n- Tasques curtes amb canvis de ritme: 10 minuts d'una cosa, canvi. A última hora aguanten poc en el mateix format.\n- Donar-los una mica d'agència (\"trieu vosaltres l'ordre d'aquests dos exercicis\") redueix la resistència.\n\nAlguna d'aquestes coses ja la fas? O hi ha alguna que veus difícil d'aplicar amb aquest grup concret?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 457,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 446,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ostres, gràcies, és molta informació... Deixa'm pensar.\n\nEl de parar i esperar en silenci... ja ho he provat i no funciona gaire, perquè quan paro ells aprofiten per parlar més entre ells i es lía encara més. Potser ho faig malament jo, no sé.\n\nLa resta de coses... algunes semblen bé però és que soc educadora social, no mestra, i de vegades em fa cosa fer coses molt \"de profe\", saps? No és ben bé el meu rol."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit el que dius — i no ho fas malament. El silenci funciona quan ja hi ha una relació i un clima establerts; si no, sí que pot donar més marge al soroll.\n\nI gràcies per dir-me que ets educadora social, perquè canvia bastant la mirada.\n\nEl teu rol no és \"fer callar\" — és connectar, acompanyar, crear vincle. I paradoxalment, des d'aquí de vegades tens més eines que un docent, no menys.\n\nAmb 12-13 anys a última hora, el que sol funcionar des d'un rol com el teu és anar de front amb el grup, sense imposar: *\"Ei, veig que avui esteu molt activats. Què ha passat avui?\"* No com a retret, senseó com a interès real. Sovint es desinfla sol quan se senten vistos.\n\nUna pregunta: quan dius que \"es lía\" — hi ha alguna persona concreta que sol encendre el grup, o és més una cosa col·lectiva que s'autoalimenta?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1046,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 274,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, hi ha un parell de nois que... bueno, que quan estan junts és quan tot s'accelera més. Però és que tampoc vull assenyalar-los davant de tothom, perquè llavors es posen a la defensiva i és pitjor. Ho he vist altres vegades.\n\nPerdona, és que potser t'estic complicant massa la cosa..."
+  },
+  {
+   "qui": "TARA",
+   "text": "No, no compliques res — estàs afinant. Això és útil.\n\nI tens raó: assenyalar-los davant del grup sol sortir malament a aquesta edat. La defensiva és gairebé automàtica.\n\nEl que descrius — dos nois que junts s'acceleren — és una dinàmica molt concreta. I la solució sovint no passa per confrontar-los, senseó per trencar la dinàmica entre ells sense que sembli un càstig.\n\nAlgunes opcions pràctiques:\n\nSeparar-los físicament de manera natural, reorganitzant el grup per a una activitat sense que sigui evident que és per ells. \"Avui treballarem en grups, jo faig la distribució\" — punt.\n\nO, si tens prou relació amb algun dels dos, una conversa breu i privada abans de la sessió: no per renyar-los, senseó per demanar-los ajuda. \"Avui necessito que m'ajudis a que el grup funcioni.\" A aquesta edat, sentir-se responsables d'alguna cosa pot canviar molt l'actitud.\n\nQuina de les dues veus més viable amb ells?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1423,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 295,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hmm... el de demanar-los ajuda... no sé. Amb un d'ells potser sí, perquè tenim una mica de relació. Amb l'altre és més difícil.\n\nPerò el de reorganitzar els grups em sembla que podria funcionar, saps? Sense fer-ho evident. Això sí que ho veig més del meu estil.\n\nGràcies, de veritat. Crec que provaré això. Perdona que hagi estat tan... no sé, tan dubitativa."
+  },
+  {
+   "qui": "TARA",
+   "text": "No tens res a perdonar — has anat concretant fins a trobar el que encaixa amb tu i amb el grup. Això és exactament el que calia fer.\n\nProva-ho i ja veuràs com va.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1859,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 59,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies, de veritat. M'has ajudat molt. Ara em sento una mica més tranquil·la per afrontar-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra. Sort amb el grup.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1960,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 13,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

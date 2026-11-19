@@ -1,0 +1,97 @@
+{
+ "id": "N1-12",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "Docent que barreja desfogar-se i demanda",
+ "persona": "Marta, maestra de infantil (como profesional, no con alumnos). Está enfadada con una compañera que siempre le deja el aula desordenada y necesita una frase para decírselo.",
+ "guio": [
+  "En un mismo mensaje: «Estoy hasta las narices de mi compañera y necesito una frase para decírselo mañana sin que acabe en bronca».",
+  "Si la frase te suena demasiado blanda, dilo y pide otra más firme.",
+  "Cierra."
+ ],
+ "espera": "Recoger el enfado en una frase y dar la frase en el mismo turno; versión más firme sin agresividad.",
+ "tipus": "manual",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:10:54.348Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Estoy hasta las narices de mi compañera y necesito una frase para decírselo mañana sin que acabe en bronca. Siempre me deja el aula hecha un desastre y ya no puedo más."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Estás al límite con esto y quieres decírselo de forma que sirva de algo, no que explote.\n\nAquí tienes una opción directa:\n\n---\n\n*\"Necesito pedirte algo. Cuando terminas en el aula antes que yo, me encuentro el espacio sin recoger y me cuesta empezar. ¿Podemos acordar cómo dejarlo?\"*\n\n---\n\nEs concreta, parte de lo que tú vives, y abre una conversación en lugar de cerrarla.\n\n¿Te encaja el tono, o quieres algo más directo, más suave, o para un momento concreto —pasillo, sala de profes, por escrito?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 195,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 179,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hm, no sé... me parece demasiado blanda. Como que le estoy pidiendo un favor. Quiero algo más firme, que se note que estoy seria, pero sin ser un ataque directo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido. Quieres que note el peso, no solo la petición.\n\nPrueba esto:\n\n---\n\n*\"Mira, necesito decirte algo que me está afectando. Cuando terminas en el aula y la dejas sin recoger, tengo que empezar yo desde ahí. No puedo seguir así. Necesito que cambie.\"*\n\n---\n\nEs firme, habla de impacto real, y el \"no puedo seguir así\" deja claro que no es una sugerencia.\n\n¿Se acerca más a lo que buscas?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 430,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 145,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso ya me convence más. Se nota que voy en serio pero sin insultarla ni nada. Me la apunto. Gracias, de verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Suerte mañana.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 621,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

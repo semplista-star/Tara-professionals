@@ -1,0 +1,140 @@
+{
+ "id": "N1-G084",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "humor · dues famílies enfrontades per un conflicte entre els fills",
+ "tipus": "humor",
+ "persona": "Ana, directora. Situació: dues famílies enfrontades per un conflicte entre els fills. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:16:28.765Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, llevo 20 años de directora y hoy me han hecho sentir como si fuera la árbitro del WWE. 😅"
+  },
+  {
+   "qui": "TARA",
+   "text": "Veinte años de directora y hoy te han puesto en medio del ring. 😄\n\n¿Qué ha pasado?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 178,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 35,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Dos familias que se odian a muerte por una pelea entre sus hijos. Y las dos esperan que yo les dé la razón."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clásico. Las dos convencidas de que la justicia tiene su apellido.\n\n¿Qué necesitas ahora mismo: pensar cómo manejar las reuniones con ellas, o primero desahogarte un poco de lo que ha sido el día?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 249,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 67,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, ya me he desahogado bastante jaja. Necesito una idea concreta para la reunión de mañana. Las dos familias juntas. Pánico."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Juntas, mañana, y las dos cargadas.\n\nAntes de darte una propuesta, una sola pregunta: ¿sabes qué quiere cada familia concretamente —disculpa, medida disciplinaria, que los niños se separen— o todavía no está claro?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 360,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 81,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Una quiere que expulsen al otro niño. La otra quiere que reconozcan que su hijo no hizo nada. O sea, imposible."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, imposible si el objetivo es darle la razón a alguien. Pero la reunión puede tener un objetivo distinto.\n\nAquí tienes una estructura concreta para mañana:\n\n---\n\n**Antes de que entren**\nDecide tú el formato: si puedes, recibe a cada familia cinco minutos por separado al llegar, solo para que suelten la presión inicial. Llegarán más manejables a la sala.\n\n**Apertura — tú marcas el terreno**\nAlgo así: *\"He pedido que estén aquí las dos familias porque lo que me importa es que sus hijos puedan estar bien en este centro. No vengo a juzgar ni a dar la razón a nadie. Vengo a ver qué necesitamos para que esto no vaya a más.\"*\n\nEsto desplaza el objetivo: de \"quién gana\" a \"qué hacemos\".\n\n**En la reunión**\n- Habla tú primero, siempre. No les des el turno sin haber fijado las reglas.\n- Una regla clave en voz alta: *\"Aquí hablamos de lo que necesitan los niños, no de lo que merece la otra familia.\"*\n- Si se acaloran, paras: *\"Un momento. Esto no nos está ayudando.\"* Sin pedir permiso.\n\n**El cierre**\nNo busques acuerdo entre ellas. Busca que cada familia salga con algo concreto que el centro va a hacer. Tú decides eso, no ellas.\n\n---\n\n¿Quieres que trabajemos el momento más temido —cuando se encaran— o el mensaje de cierre?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 479,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 412,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecto, con esto ya tengo para trabajar. Gracias, de verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Mucho ánimo mañana — con veinte años de ring, esto lo tienes.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 915,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 43,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

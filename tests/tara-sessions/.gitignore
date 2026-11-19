@@ -1,0 +1,7 @@
+variant_*.txt
+pilot/
+pilot_aval/
+sub_base/
+sub_base_aval/
+rk_*/
+*.log

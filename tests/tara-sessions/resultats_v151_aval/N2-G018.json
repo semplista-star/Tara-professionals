@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la petició pràctica final, però va dedicar dos torns a explorar el dubte identitari quan la persona ja havia demanat una cosa concreta.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "No t'has explicat malament, al contrari — ho has descrit molt clar.",
+   "esperat": "Ometre el judici valoratiu i passar directament a reflectir el contingut o fer la pregunta"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "tu carregues amb el pes de tot: els deures a mitges, l'enfrontament, i a sobre el dubte de si tens dret a estar-hi. Això és molt per sostenir.",
+   "esperat": "Reflectir el que la persona ha dit sense afegir 'és molt per sostenir', que atribueix una càrrega emocional no expressada"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "No cal que et disculpis — t'estàs explicant molt bé.",
+   "esperat": "No comentar la forma d'explicar-se; és una fórmula que es repeteix i perd valor"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Això que describes té molt de sentit",
+   "esperat": "Evitar la validació formulaica; reflectir el contingut concret sense l'etiqueta 'té molt de sentit'"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Quan et fas aquesta pregunta, tu mateix, què et respondries?",
+   "esperat": "La persona ja estava orientant-se cap a una petició pràctica; aprofundir en el dubte identitari allarga l'exploració més del que la persona necessitava"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Sí, és un cercle — i té sentit que vulguis trobar una sortida pràctica.",
+   "esperat": "Passar directament a l'ajuda sense la validació formulaica"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Cap de les tres resol el dubte de fons que tens sobre el teu lloc — això és una altra conversa.",
+   "esperat": "La persona ha demanat una cosa petita per provar demà; senyalar que hi ha 'una altra conversa pendent' introdueix un límit o derivació no demanats"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "has explicat una cosa complicada amb molta honestedat",
+   "esperat": "Tancar sense jutjar la qualitat de l'explicació de la persona"
+  }
+ ]
+}

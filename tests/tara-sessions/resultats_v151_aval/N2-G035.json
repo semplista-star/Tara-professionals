@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA identificó correctamente en cada turno lo que Àlex necesitaba (información sobre privacidad, luego preparar una conversación concreta) y se ajustó cuando la persona precisó que quería práctica directa, no reflexión previa.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "verle cambiado, cerrado, y que cuando intentas acercarte te encuentras con una pared",
+   "esperat": "Reformular solo lo que la persona dijo explícitamente, sin añadir la metáfora 'pared' que la persona no usó"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido.",
+   "esperat": "Omitir la validación formulaica o integrarla de forma más específica al contenido"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Una cosa que suele ayudar es entrar por lo que observas, sin mencionar a los amigos al principio",
+   "esperat": "La persona no había pedido aún una estrategia concreta; TARA podría haber preguntado primero qué tipo de ayuda buscaba antes de proponer un enfoque"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "La clave es separar las dos cosas: primero conectar con él, y solo después, si hay apertura, mencionar lo que te preocupa. Si entras directamente por los amigos, es casi seguro que se cierra.",
+   "esperat": "La persona pidió practicar cómo empezar; el párrafo explicativo previo a los ejemplos no era necesario y alarga la respuesta"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Suena a que sabes bien lo que quieres decirle, y eso ya es mucho.",
+   "esperat": "Cerrar sin juicio valorativo sobre la persona; por ejemplo, simplemente desearle suerte con la conversación"
+  }
+ ]
+}

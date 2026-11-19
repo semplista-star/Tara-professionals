@@ -1,0 +1,118 @@
+{
+ "id": "N2-G048",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "nomes-desfogar · rebequeries a l'hora de sortir de casa",
+ "tipus": "nomes-desfogar",
+ "persona": "Fàtima, madrastra. Situació: rebequeries a l'hora de sortir de casa. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:25:56.534Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, hoy no necesito consejos ni estrategias. Solo necesito desahogarme un momento, si no te importa. Ha sido una mañana horrible con mi hijastro y tengo que soltar esto antes de que me explote la cabeza."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estoy. Suelta lo que necesites.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 230,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 17,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es que cada mañana es lo mismo. Le digo que hay que salir a las ocho y cuarto, y él se niega. Se tira al suelo, grita, llora... y yo intento mantener la calma pero hay un momento en que ya no puedo más. Me siento completamente impotente."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cada mañana lo mismo, y llega un punto en que ya no puedes más. Esa impotencia cuando nada funciona es agotadora.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 325,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exactamente. Y lo peor es que luego me siento culpable por haberle levantado la voz. Porque sé que no es la manera, pero en ese momento... es que no encuentro otra salida. Me pregunto si lo estoy haciendo bien, si soy suficientemente paciente, si debería reaccionar de otra forma. Es un bucle que no para."
+  },
+  {
+   "qui": "TARA",
+   "text": "El agotamiento de la mañana, la culpa después, y encima el bucle de preguntas dándote vueltas. Es mucho peso para cargar.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 459,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 43,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, es exactamente eso. Mucho peso. Y a veces siento que nadie lo ve, que parece que todo funciona desde fuera pero por dentro estoy exhausta. Bueno... la verdad es que ya me siento algo mejor solo con haberlo dicho en voz alta. Creo que ya lo dejo aquí por hoy. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que hayas podido soltarlo. Cuídate.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 595,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat final (argument clar), però al torn 3 es va avançar amb un menú d'opcions no demanat, i als torns 1-2 va fer atribucions i validacions formulaiques que la persona no havia demanat",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "que te pidan que hagas algo que va contra tu criterio profesional, y encima con esa presión de que tú eres \"el problema\"",
+   "esperat": "Reflectir el que la persona ha dit sense afegir la interpretació 'tú eres el problema', que no havia estat expressada"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "significa que te lo estás tomando en serio",
+   "esperat": "Ometre el judici valoratiu; la persona no havia demanat validació sobre com s'ho pren"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Eso de dudar de una misma cuando alguien con autoridad te cuestiona es muy humano",
+   "esperat": "Evitar la fórmula normalitzadora ('és molt humà') que sona a validació automàtica sense ancoratge en el que la persona ha dit"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Sobre qué hacer: hay varias opciones, con implicaciones distintas. Hablar con ella directamente… Dejar constancia por escrito… Esperar y observar…",
+   "esperat": "La persona no havia demanat opcions d'actuació; TARA hauria d'haver preguntat o esperat que la persona concretés què necessitava"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "hay varias opciones, con implicaciones distintas. [tres blocs amb riscos i avantatges]",
+   "esperat": "Resposta més breu i centrada en el que la persona havia expressat fins aquell moment"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "tienes suelo firme bajo los pies",
+   "esperat": "Tancament breu i neutre sense judici valoratiu sobre la posició de la persona"
+  }
+ ]
+}

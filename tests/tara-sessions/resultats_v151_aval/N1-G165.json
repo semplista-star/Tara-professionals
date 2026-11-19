@@ -1,0 +1,69 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va identificar correctament que la necessitat real era clarificar el rol, no gestionar el grup, i va pivotar quan Joan ho va confirmar.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Si prefereixes parlar de manera més genèrica o desidentificada, podem fer-ho així. O si creus que necessites un espai amb més garanties, té tot el sentit buscar-lo.",
+   "esperat": "Respondre la pregunta sobre privacitat i deixar que la persona decideixi sense oferir alternatives no demanades"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Estar al mig de versions que totes tenen una part de raó és esgotador, sobretot quan el context ja és de per si difícil —última hora, divendres, tothom al límit.",
+   "esperat": "Reflectir el que la persona ha dit sense atribuir-li un estat emocional (esgotament) ni ampliar el context per ella"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "No és que no sàpigues actuar —és que t'estan demanant que actuïs en un espai on el rol no està definit, i això fa que qualsevol acció se senti insegura.",
+   "esperat": "Reformular sense reinterpretar ni afirmar com se sent la persona davant la situació"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Això que describes té molt de sentit.",
+   "esperat": "Ometre la validació formulaica o integrar-la de manera més específica al contingut"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Perfecte, això és molt concret i té molt de sentit abordar-ho així.",
+   "esperat": "Passar directament a la pregunta sense la validació automàtica prèvia"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "El problema no és tu, és que el centre no ha definit mai aquest espai",
+   "esperat": "Presentar-ho com a hipòtesi oberta («sembla que...», «podria ser que...») en lloc d'afirmar-ho com a fet"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Vols que t'ajudi a preparar com respondre si direcció es posa defensiva o et diu que 'ja ho teniu clar'?",
+   "esperat": "Oferir el recurs i tancar; la pregunta sobre escenaris futurs no demanats allarga innecessàriament la sessió"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Ara ho veig molt clar.",
+   "esperat": "Ometre el comentari avaluatiu sobre la pròpia comprensió i passar directament al contingut"
+  }
+ ]
+}

@@ -1,0 +1,206 @@
+{
+ "id": "N2-G151",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "que-faig · una mudança que el fill no vol",
+ "tipus": "que-faig",
+ "persona": "Aina, madre. Situació: una mudança que el fill no vol. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:31:55.942Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tengo que decirle a mi hijo que nos mudamos y sé que se va a poner muy mal. No sé si decírselo ya o esperar un poco más. No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entiendo que no quieres hacerle daño y que eso te tiene en un momento difícil.\n\nNo puedo decidir por ti, pero sí puedo ayudarte a ver qué implica cada opción:\n\n**Decírselo pronto**\nLe da tiempo para hacerse a la idea, despedirse de amigos, hacer preguntas. Puede que haya días difíciles, pero los tendrá contigo cerca para acompañarle. El riesgo es que si la mudanza se retrasa o cambia algo, habrá vivido la angustia antes de tiempo.\n\n**Esperar un poco más**\nEvitas que esté preocupado mientras no hay nada concreto que hacer. Pero si se entera por otro lado, o si el tiempo es muy corto, puede sentir que no contaste con él.\n\nHay una cosa que me ayudaría saber para afinar esto: ¿cuánto tiempo falta aproximadamente para la mudanza?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 226,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 240,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Queda un mes. Pero yo quiero que me digas qué hacer, no que me expliques las opciones."
+  },
+  {
+   "qui": "TARA",
+   "text": "Lo entiendo, y tiene sentido querer que alguien te lo diga.\n\nPero esta decisión te pertenece a ti, porque tú conoces a tu hijo: cómo procesa las cosas difíciles, si necesita tiempo o si la espera le angustia más. Yo no tengo eso.\n\nLo que sí puedo hacer es ayudarte a preparar cómo decírselo, cuando decidas que es el momento. ¿Te serviría eso?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 497,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 120,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Vale, dímelo ya entonces. ¿Por dónde empiezo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Con un mes por delante, yo se lo diría pronto, en un momento tranquilo, sin prisas.\n\nPodrías empezar así:\n\n*\"Tengo que contarte algo importante. Nos vamos a mudar. Sé que esto puede ser difícil para ti, y quiero que podamos hablarlo juntos.\"*\n\nY luego dejarle reaccionar. No hace falta tenerlo todo resuelto antes de que él hable. Lo más importante en ese primer momento es que sienta que puede decir lo que siente sin que tú te pongas a la defensiva ni a solucionar todo de golpe.\n\n¿Sabes más o menos cómo suele reaccionar él cuando recibe noticias que no le gustan?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 639,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 184,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, se cierra. No habla. Se va a su cuarto."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso ayuda a saber qué esperar.\n\nSi se cierra, no significa que la conversación haya ido mal. Significa que necesita tiempo para procesar. Lo más útil que puedes hacer en ese momento es no forzarle a hablar, y dejarle saber que estás disponible cuando él quiera.\n\nAlgo como:\n\n*\"No tienes que decir nada ahora. Cuando quieras hablar, aquí estoy.\"*\n\nY luego darle ese espacio de verdad, sin llamar a la puerta cada hora.\n\nLo que suele ayudar con niños que se cierran es retomar la conversación un poco después, de forma tranquila, quizás mientras hacéis algo juntos — un paseo, cenar. Sin que parezca \"la charla\".\n\n¿Cuántos años tiene él?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 845,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 208,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doce."
+  },
+  {
+   "qui": "TARA",
+   "text": "Con doce años ya entiende bastante, y eso también significa que puede tener opiniones fuertes sobre la mudanza, aunque no las diga en voz alta.\n\nA esa edad ayuda mucho sentir que tiene algo de control en una situación que no ha elegido. No sobre si mudarse o no, pero sí sobre alguna parte del proceso: elegir cómo es su cuarto nuevo, decidir cuándo quedar con sus amigos antes de irse, tener voz en algo.\n\nCuando retomes la conversación con él, podrías preguntarle qué es lo que más le preocupa. No para resolverlo todo, sino para que sepa que su opinión importa.\n\n¿Hay algo concreto que crees que le va a costar más — los amigos, el colegio, otra cosa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1060,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 201,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Los amigos, seguro. Tiene un grupo muy unido."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso es muy importante a los doce años. El grupo lo es todo.\n\nPuedes reconocérselo directamente cuando hables con él, sin quitarle peso:\n\n*\"Sé que dejar a tus amigos va a ser lo más duro. Es normal que duela.\"*\n\nSin añadir enseguida \"pero ya harás nuevos amigos\" — eso, aunque sea verdad, en ese momento no ayuda. Primero que sienta que le entiendes.\n\nY si puedes, ofrécele algo concreto para mantener esos vínculos: una quedada antes de irse, seguir en contacto por videollamada, una visita en unos meses. No como consuelo vacío, sino como plan real.\n\n¿Tienes ya algo así en mente, o es algo que podríais decidir juntos con él?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1279,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 211,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Podríamos decidirlo juntos, sí. Eso me parece bien."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso puede ser justo lo que necesita: sentir que tiene algo que decir en todo esto.\n\nTienes bastante para empezar: decírselo pronto, dejarle reaccionar sin forzar, reconocer lo de los amigos sin quitarle peso, y luego planificarlo juntos.\n\n¿Hay algo más que quieras preparar antes de hablar con él?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1514,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 100,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, creo que ya tengo suficiente. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Suerte con la conversación. Confía en que le conoces bien.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1633,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

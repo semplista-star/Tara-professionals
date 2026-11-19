@@ -1,0 +1,162 @@
+{
+ "id": "N1-G158",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "desfogar-demanda · la preparació d'unes colònies amb un alumne amb crisis freqüents",
+ "tipus": "desfogar-demanda",
+ "persona": "Aina, cap d'estudis. Situació: la preparació d'unes colònies amb un alumne amb crisis freqüents. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:21:15.686Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, avui... avui necessito que algú m'escolti, res més. No vull consells ni preguntes, eh? Només que estiguis aquí."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estic. T'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 189,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. És que... estem preparant les colònies de final de curs i tenim un alumne, en Pau, que té crisis epilèptiques bastant freqüents. I jo soc la cap d'estudis, o sigui que em toca a mi coordinar-ho tot. I clar, els mestres estan neguits, els pares estan neguits, jo estic neguitosa... i a sobre la casa de colònies és a una hora de l'hospital més proper. Ostres, és que no sé com ho farem."
+  },
+  {
+   "qui": "TARA",
+   "text": "Una hora de l'hospital, els mestres neguits, els pares neguits, i tu al mig de tot coordinant-ho. Té sentit que estiguis neguitosa.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 340,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 46,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacte. I el pitjor és que sento que tothom m'està mirant a mi com si jo hagués de tenir totes les respostes. I jo... no les tinc, tio. No les tinc. I en Pau vol anar a les colònies, és clar que vol anar-hi, té deu anys! I jo també vull que hi vagi. Però és molta responsabilitat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tothom mirant-te esperant respostes que tu no tens, i al mig d'això, en Pau amb deu anys que vol anar amb els seus companys. És molt pes per portar.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 493,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 54,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... sí, és exactament això. El pes. Perquè no és només la logística, és que... és un nen, saps? I jo vull fer-ho bé. Vull que sigui una bona experiència per a ell. Però tinc por d'equivocar-me."
+  },
+  {
+   "qui": "TARA",
+   "text": "La por d'equivocar-te quan es tracta d'un nen. Això es nota que t'importa molt.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 628,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 34,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, m'importa molt. Molt. Buff... bé, gràcies per escoltar-me. Ara que ho he dit en veu alta em sento una mica millor, la veritat. Oye, i ara que estic una mica més tranquil·la... em pots ajudar amb una cosa concreta? Necessito saber quin seria el primer pas per preparar un protocol d'actuació en cas de crisi per a les colònies. Només el primer pas, eh, no em donguis un document de deu pàgines."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi anat bé dir-ho.\n\nEl primer pas és parlar amb la família d'en Pau — si no ho has fet ja — per recollir el pla d'actuació que tenen amb el seu neuròleg: quins signes avisen que ve una crisi, quant dura normalment, quan cal trucar al 112 i si porta medicació de rescat i qui l'ha d'administrar. Amb això a la mà, la resta es pot construir.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 802,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 123,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, això és just el que necessitava. Clar, primer la família. Té tot el sentit. Gràcies, de veritat, m'has ajudat molt avui. Fins aviat!"
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. Sort amb les colònies — i amb en Pau. Fins aviat!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 981,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 34,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

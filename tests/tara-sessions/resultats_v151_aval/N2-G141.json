@@ -1,0 +1,34 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió la demanda central (frase para abrir conversación) y la entregó en el primer turno, aunque añadió comentarios no pedidos y usó un elogio automático al inicio.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Eso ya es mucho.",
+   "esperat": "Omitir el juicio valorativo y pasar directamente a la frase pedida"
+  },
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Si en ese momento hay un contexto natural —un paseo, ver algo juntos, lo que sea que a él le guste— mejor todavía. A veces las conversaciones llegan solas cuando no hay cara a cara forzado.",
+   "esperat": "Entregar la frase y la oferta de continuar, sin añadir consejo de contexto no solicitado"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Si él dice \"vale\" y punto, también está bien. Lo ha escuchado. A veces eso tarda unos días en aterrizar.",
+   "esperat": "Entregar la frase ampliada y explicar brevemente el \"sin prisa\"; omitir la interpretación sobre lo que Marc habrá escuchado o cuándo aterrizará"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entendió desde el primer turno que la persona pedía un borrador concreto y lo entregó de inmediato, ajustándolo sin rodejos cuando se pidió más brevedad.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Algunas notas: — «En los términos planteados» deja abierta la puerta… — «Los cauces que correspondan» señala que conoces los procedimientos… — El tono es formal y deja constancia escrita de tu posición.",
+   "esperat": "Entregar el borrador y preguntar si se quiere ajustar algo, sin añadir un bloque de anotaciones explicativas no solicitadas."
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Mucho ánimo con la situación.",
+   "esperat": "Un cierre neutro y breve, sin añadir ánimos no pedidos que rozan el paternalismo."
+  }
+ ]
+}

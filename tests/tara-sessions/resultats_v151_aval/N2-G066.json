@@ -1,0 +1,20 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 2,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió de inmediato que Luis necesitaba un texto concreto y breve para usar en minutos, lo entregó sin rodeos y cerró limpiamente cuando la persona se despidió.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "¡Mucha fuerza para este momento!",
+   "esperat": "Un cierre neutro y cálido sin valorar el momento ni añadir ánimo no pedido, por ejemplo «Hasta cuando quieras» a secas"
+  }
+ ]
+}

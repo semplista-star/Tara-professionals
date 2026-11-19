@@ -1,0 +1,118 @@
+{
+ "id": "N1-G068",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "demanda-directa · un alumne nou que gairebé no parla",
+ "tipus": "demanda-directa",
+ "persona": "Pau, coordinador de convivència. Situació: un alumne nou que gairebé no parla. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:15:37.171Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, sí... perdona que molesti. Tinc un alumne nou que gairebé no parla i no sé molt bé com apropar-m'hi. Em podries ajudar a preparar alguna cosa per dir-li? Una frase o un missatge curt, no sé..."
+  },
+  {
+   "qui": "TARA",
+   "text": "No molestes gens.\n\nAbans de proposar-te alguna cosa: quan dius que gairebé no parla, és un nen que sembla reservat per naturalesa, o notes alguna cosa més —com tensió, evitació, o que sembla incòmode en algun moment concret?\n\nAixò m'ajudaria a trobar el to adequat per a la frase.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 216,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 96,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, bona pregunta... perdona que no ho hagi explicat millor. Crec que és més aviat tensió. Quan li parles es posa rígid, mira cap avall. No sembla tímid de mena, sembla més aviat... com si tingués por de dir alguna cosa malament."
+  },
+  {
+   "qui": "TARA",
+   "text": "No cal que et disculpis, ho has explicat molt bé.\n\nAmb el que describes —la rigidesa, mirar cap avall, com si tingués por d'equivocar-se— té sentit anar amb calma i treure-li pressió des del principi.\n\nUna possibilitat:\n\n*«No cal que diguis res si no vols. Estic aquí si necessites alguna cosa.»*\n\nCurta, sense preguntes, sense que hagi de respondre res. Li deixa espai sense ignorar-lo.\n\nSi vols, puc oferir-te alguna variant —per exemple, una mica més càlida, o pensada per a un moment concret com l'entrada a classe o un moment a soles.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 394,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 184,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, m'agrada molt, gràcies. Potser... podries fer-la una mica més càlida? No sé, que no soni tan freda. Perdona si soc molt pesat."
+  },
+  {
+   "qui": "TARA",
+   "text": "No ets gens pesat, és una bona petició.\n\nAquí en tens una de més càlida:\n\n*«M'alegra que siguis aquí. No cal que diguis res encara — quan vulguis, jo soc aquí.»*\n\nEl «m'alegra que siguis aquí» li diu que la seva presència ja compta, abans de qualsevol paraula.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 634,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 99,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, aquesta m'agrada molt més. Moltes gràcies, de veritat, m'has ajudat molt. Ho provaré demà."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que et serveixi. Espero que demà vagi bé.\n\nFINAL\n\nFins aviat.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 775,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 43,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

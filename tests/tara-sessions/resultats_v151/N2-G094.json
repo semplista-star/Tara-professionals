@@ -1,0 +1,73 @@
+{
+ "id": "N2-G094",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "breu · rebequeries a l'hora de sortir de casa",
+ "tipus": "breu",
+ "persona": "Fàtima, madrastra. Situació: rebequeries a l'hora de sortir de casa. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:27:57.369Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, tinc cinc minuts, no més. La Laia no vol posar-se els zapatos i jo he d'arribar a la feina. Què faig?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Cinc minuts, d'acord.\n\nProva-ho així: «Laia, pots posar-te les sabates tu sola o t'ajudo jo?»\n\nLi dones tria, no batalla. Moltes vegades funciona.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 207,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 65,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, mira, això té sentit. Gràcies, ho provaré ara mateix. Adéu!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Endavant! Adéu!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 304,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

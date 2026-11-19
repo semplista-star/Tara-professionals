@@ -1,0 +1,20 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 2,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre des del primer torn que Joan necessitava un missatge concret i el va lliurar de manera directa, ajustant-lo sense rodeigs quan va rebre la correcció.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Espero que el missatge ajudi a reconduir la situació.",
+   "esperat": "Tancament neutre sense afegir expectatives no demanades; n'hi hauria hagut prou amb 'Fins aviat.'"
+  }
+ ]
+}

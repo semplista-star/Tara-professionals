@@ -1,0 +1,55 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé en cada torn el que Xavi necessitava: primer acompanyar, després ajudar a preparar la conversa amb en Marc, i finalment tancar quan ell ho va indicar.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "No crec que ho fessis malament. Crec que la situació és difícil",
+   "esperat": "Evitar pronunciar-se sobre si ho va fer bé o malament; reflectir el que Xavi ha descrit sense avaluar-ho"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Que et quedessis en blanc té sentit.",
+   "esperat": "Reconèixer la dificultat sense validar amb fórmula; per exemple reformular el que ha dit sense afegir-hi judici"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "té sentit",
+   "esperat": "Evitar la fórmula de validació automàtica; reformular o preguntar en lloc de validar"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Puc ajudar-te a pensar com parlar amb en Marc, com tornar a contactar amb la família amb alguna cosa més concreta, o com coordinar-te amb orientació si creus que cal.",
+   "esperat": "Xavi no havia demanat opcions; millor esperar que ell indiqués per on volia anar o fer una sola pregunta oberta"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Això fa tres coses: parteix d'un fet observable que tu pots dir sense trair la mare, li dona una sortida digna si no vol parlar, i li deixa clar que no és una bronca.",
+   "esperat": "Donar el guió i el consell del silenci sense explicar analíticament les tres funcions; Xavi és professional i no necessita la meta-explicació"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "el que has dit —\"tancar la boca i esperar\"— és exactament el que en Marc necessitarà.",
+   "esperat": "Tancar sense atribuir encert ni fer una afirmació sobre el que en Marc necessitarà, que TARA no pot saber"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 1,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre que Fàtima volia consell pràctic, però al torn 1 va lliurar una anàlisi d'opcions no demanada i al torn 2 va insistir en la conversa directa malgrat el rebuig explícit de Fàtima.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Tens dues opcions principals, i cap és la 'correcta' en abstracte — depèn de com vols gestionar la relació i el projecte.",
+   "esperat": "Preguntar primer si havia provat alguna cosa o escollir una sola via en lloc de lliurar un menú estructurat no demanat"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Tens dues opcions principals [...] Una tercera via: parlar amb ella i, si no canvia res en un termini curt, llavors anar a la directora amb fets concrets.",
+   "esperat": "Resposta més breu, centrada en la pregunta de si havia parlat amb la Montse, sense desplegar tres opcions amb pros i contres"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "El que descrius fins ara —recordatoris suaus, que ella diu que sí i no fa res— és diferent d'una conversa on li dius clarament com t'està afectant la situació i què necessites que canviï.",
+   "esperat": "Fàtima havia rebutjat explícitament la conversa directa; TARA hauria d'haver acceptat el rebuig i explorat una alternativa diferent o preguntat què havia provat"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "potser ella no sap que tu estàs carregant amb tot ni que això t'està pesant tant",
+   "esperat": "Hipòtesi oberta sense afirmar l'estat intern de la Montse com a fet probable"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit que no vulguis que es converteixi en una guerra",
+   "esperat": "Recollir el que diu Fàtima sense usar la fórmula validadora «té molt de sentit»"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Ja veuràs com en tenir les paraules clares, és menys difícil del que sembla.",
+   "esperat": "Tancament breu i neutre sense pronosticar com anirà ni animar de manera paternalista"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_prudent",
+   "gravetat": "baixa",
+   "cita": "Sort amb la conversa.",
+   "esperat": "Tancament adequat, però la frase de pronòstic que segueix el fa innecessàriament llarg i condescendent"
+  }
+ ]
+}

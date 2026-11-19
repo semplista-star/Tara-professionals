@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre correctament el que necessitava la persona en cada moment, especialment a partir del torn 5, i va acceptar les correccions sense insistir.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "eso duele",
+   "esperat": "Reflectir només el que la persona ha dit: que Laia ha canviat i que no sap què li passa, sense afegir estats emocionals no expressats"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "es que Laia esté pasando por un momento difícil con todo este cambio en casa: un hermano nuevo, la atención de sus padres repartida de otra manera, quizás cosas que no sabe cómo decir",
+   "esperat": "Oferir la hipòtesi de manera molt més oberta i breu, o directament preguntar si vol ajuda per acercarse a Laia sense atribuir estats interns a la nena"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que lo relaciones",
+   "esperat": "Ometre la validació formulaica o substituir-la per un reflex neutre del que s'ha observat"
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Evita preguntas directas sobre \"qué te pasa\" — a los siete años esa pregunta suele cerrar más que abrir [...] ¿Alguna de estas te parece posible con ella?",
+   "esperat": "Resposta més breu i directa, centrada en les dues o tres idees més útils sense la pregunta final de tancament que allarga el torn innecessàriament"
+  }
+ ]
+}

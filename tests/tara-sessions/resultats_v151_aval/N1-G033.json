@@ -1,0 +1,55 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien lo que Luis necesitaba en cada momento: primero opciones, luego foco en la conversación individual, luego preparación del arranque, luego gestión de la hipótesis, luego el ensayo; el seguimiento es correcto y adaptado.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Te propongo tres líneas posibles, que no son excluyentes: 1. Intervención en el momento [...] 2. Conversación individual con Marcos [...] 3. Trabajo con el grupo [...]",
+   "esperat": "Luis preguntó «¿tú qué harías?»; una respuesta más breve con dos opciones y una pregunta de contexto habría sido suficiente sin desplegar tres bloques con ejemplos de frases"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "lo que describes —que se calló en el momento pero luego lo comentó con otros— sugiere que la intervención pública le generó más necesidad de recuperar imagen que de reflexionar",
+   "esperat": "Atribuye un estado interno a Marcos («necesidad de recuperar imagen») como interpretación presentada casi como hecho; habría bastado con reconocer que la intervención pública no funcionó y pasar a las alternativas"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido descartarla.",
+   "esperat": "Validación formulaica; podría simplemente acusar recibo y avanzar sin la fórmula"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Una pregunta antes de seguir: ¿hay algo en la relación con Marcos, o en cómo está él este curso, que creas que puede estar influyendo en lo que está pasando?",
+   "esperat": "Luis ya había pedido ayuda concreta para preparar el arranque; la pregunta de contexto sobre Marcos llega después de haber dado ya las frases, alarga el turno y desvía hacia exploración no solicitada en ese momento"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "si entras con «creo que te sientes desplazado y por eso haces esto», Marcos probablemente lo vivirá como que le estás analizando",
+   "esperat": "Atribuye una reacción interna a Marcos («lo vivirá como») como si fuera predecible; mejor formularlo como posibilidad abierta"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Pero hay una manera de tener en cuenta lo que intuyes sin verbalizarlo como diagnóstico [...] Por ejemplo [...] Y cuando llegues a hablar de lo que has observado [...] Así no mezclas el límite con la exploración.",
+   "esperat": "El turno es útil pero podría ser más conciso; la explicación final sobre separar límite e interés reitera lo que ya estaba implícito en las frases propuestas"
+  }
+ ]
+}

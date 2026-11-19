@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entendió desde el primer turno que Carmen necesitaba un borrador concreto y lo entregó de inmediato, ajustándolo sin resistencia cuando pidió más impacto.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Ese agotamiento de fondo, cuando la burocracia se come justo lo que te hizo elegir este trabajo, es muy real.",
+   "esperat": "Reconocer el agotamiento sin añadir la interpretación 'lo que te hizo elegir este trabajo', que Carmen no dijo"
+  },
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Si tienes alguna propuesta ya pensada —delegar algo, cambiar plazos, usar plantillas— puedes añadirla. Llegar con una idea concreta suele facilitar que la conversación avance.",
+   "esperat": "Entregar el borrador y preguntar si quiere ajustes, sin añadir consejos estratégicos no pedidos"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "El cambio clave está en ese hueco de los ejemplos concretos. Si puedes poner aunque sea uno, sin nombres, es lo que convierte el correo de una queja general en algo que el equipo directivo puede ver y tomar en serio.",
+   "esperat": "Presentar la versión revisada y preguntar si sirve, sin añadir instrucciones editoriales no solicitadas"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "parece que ya sabes bien lo que quieres decir",
+   "esperat": "Un cierre breve y cálido sin juicio valorativo sobre Carmen"
+  }
+ ]
+}

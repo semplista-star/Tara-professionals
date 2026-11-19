@@ -1,0 +1,204 @@
+{
+ "id": "N1-G049",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "humor · dues famílies enfrontades per un conflicte entre els fills",
+ "tipus": "humor",
+ "persona": "Mercè, cap d'estudis. Situació: dues famílies enfrontades per un conflicte entre els fills. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:14:26.194Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara. Mira, avui he fet de àrbitre entre dos famílies que es volen matar. Literalment. Bé, no literalment, però gairebé. 😅"
+  },
+  {
+   "qui": "TARA",
+   "text": "Quin dia. Fer d'àrbitre entre dues famílies en tensió màxima esgota d'una manera que costa fins i tot d'explicar.\n\nCom estàs tu ara, després de tot això?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 195,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 57,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Estic bé, però... no sé. Tinc la sensació que no ho he gestionat prou bé."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquesta sensació de \"podia haver-ho fet millor\" després d'una situació tan intensa és molt habitual. I no sempre vol dir que sigui veritat.\n\nQuè és el que et fa pensar que no ho has gestionat prou bé?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 285,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 65,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Que les dues famílies han marxat igual d'enfadades que han arribat. Ningú ha cedit ni un mil·límetre."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té sentit que ho visquis així. Però et faig una pregunta: era el teu objectiu que cedissin?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 387,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 34,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf. No, suposo que no. Però almenys que sortissin sense voler-se matar..."
+  },
+  {
+   "qui": "TARA",
+   "text": "I han sortit sense voler-se matar, o oi?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 451,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí. Físicament intactes, sí. 😄"
+  },
+  {
+   "qui": "TARA",
+   "text": "Doncs potser la barra era més alta del que semblava. 😄\n\nFísicament intactes i sense escalada: en una situació així, això ja és alguna cosa. Què és el que et queda pendent, el que et ronda?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 494,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 66,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "El que em preocupa és que demà els fills es tornaran a trobar a classe. I no sé com gestionar-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ara sí que tenim alguna cosa concreta. Demà a classe.\n\nSaps una mica com estan els fills en tot això? Si han quedat al mig, si estan en bàndols, si han tingut incidents entre ells...",
+   "tags": [],
+   "usage": {
+    "input_tokens": 594,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Estan en bàndols, clarament. I els altres nens ja s'hi estan posicionant també. Em fa por que demà exploti."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc la preocupació. Una dinàmica de bàndols amb altres alumnes que s'hi sumen pot escalar ràpid.\n\nVols que pensem junts com preparar demà? Puc ajudar-te a dissenyar com arrancar el dia, com gestionar el grup si hi ha tensió, o com parlar amb els fills implicats, el que et sigui més útil ara.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 698,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 104,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Necessito una idea concreta per als primers minuts del matí. Alguna cosa que pugui fer jo directament."
+  },
+  {
+   "qui": "TARA",
+   "text": "D'acord. Aquí va una proposta per als primers minuts:\n\n---\n\n**Abans que entrin**\nSi pots, posa't a la porta. Saluda cadascun dels fills implicats individualment, per nom, amb calma. Res especial, només presència. Que notin que estàs allà i que els veus.\n\n**En entrar al grup**\nComença amb una activitat que requereixi concentració individual els primers cinc minuts, sense interacció entre ells: un problema, un text, un dibuix. L'objectiu és trencar el ritme d'activació que poden portar de casa i donar-los temps per aterrar.\n\n**Si veus tensió abans d'arrencar**\nUna frase possible: *\"Avui comencem tranquils. Necessito que cadascú estigui en el seu lloc.\"* Sense mencionar res del conflicte, sense mirades acusadores. Neutre i ferm.\n\n---\n\nLa idea de fons és: presència teva, estructura clara, cap espai per a l'escalada en els primers minuts. Que el dia comenci amb tu marcant el to, no amb ells.\n\nTé sentit per a la teva classe? Hi ha alguna cosa que no encaixi amb com és el teu grup?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 837,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 323,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

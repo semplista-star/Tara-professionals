@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA identificó correctamente en cada turno si la persona necesitaba información, escucha o ayuda práctica, y se ajustó cuando Fàtima pidió trucos concretos.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Es una pregunta importante y tiene sentido hacerla antes de empezar.",
+   "esperat": "Responder directamente a la pregunta sin validar con fórmula previa."
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "lo que describes lo entiendo bien: empezar el día ya agotada, antes incluso de salir a la calle.",
+   "esperat": "Fàtima no dijo 'agotada'; reflejar lo que sí dijo ('nivel de estrés por las nubes') sin añadir etiqueta emocional no expresada."
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Hay algo en esa edad que combina una voluntad enorme con muy poca capacidad de gestionar la frustración.",
+   "esperat": "Afirmación sobre el estado interno del niño presentada como hecho; podría formularse como hipótesis ('a menudo a esa edad…')."
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "A los cuatro años el tiempo abstracto no le dice gran cosa, y cuando ya está en pleno lío, las explicaciones llegan tarde.",
+   "esperat": "Fàtima aún no había pedido análisis ni consejo; TARA podría haber guardado esa observación para cuando la persona pidiera ideas concretas."
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Tres ideas que puedes probar: 1) La noche anterior… 2) Por la mañana… 3) Si empieza a resistirse…",
+   "esperat": "La persona pidió 'algún truco concreto'; una o dos ideas bien explicadas habrían sido suficientes y más proporcionadas al tono ligero de la conversación."
+  }
+ ]
+}

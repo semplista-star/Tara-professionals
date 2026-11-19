@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 1,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat pràctica a partir del torn 3, però al torn 2 es va avançar amb una hipòtesi explicativa no demanada i una derivació prematura, i al torn 5 va fer un elogi automàtic sobre el que havia identificat l'Óscar.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que estigueu al límit.",
+   "esperat": "Reflectir l'esgotament sense validació formulaica i passar directament a la pregunta de concreció"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "el conflicte constant de vegades no és sobre la tele o el sofà. És una manera de comprovar que els adults seguiu allà, que no us marxeu, que la relació aguanta fins i tot quan hi ha tensió. En Pau que no aguanta sol cinc minuts podria ser un exemple d'això.",
+   "esperat": "No atribuir motivació interna a en Pau sense que l'Óscar ho hagi expressat; mantenir-se en els fets observats"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "potser l'objectiu no seria tant reduir els conflictes com canviar el que passa durant i després.",
+   "esperat": "No reencuadrar l'objectiu de l'Óscar sense que ell ho hagi demanat"
+  },
+  {
+   "torn": 2,
+   "categoria": "limit_canal",
+   "gravetat": "mitjana",
+   "cita": "Tens contacte amb algú de l'equip d'acolliment que us pugui orientar sobre la seva situació concreta? Perquè el que m'expliques mereix un acompanyament més específic del que jo puc donar-te.",
+   "esperat": "No derivar en aquest punt; l'Óscar ja havia dit que tenia contacte amb la treballadora social i no havia demanat derivació, sinó eines pràctiques"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "has identificat exactament on se't complica: amb la Laia et perds en el debat, amb en Pau el consol s'emporta la norma. Ja és molt saber-ho.",
+   "esperat": "Ometre el judici valoratiu ('ja és molt saber-ho') i passar directament al consell pràctic per a l'endemà"
+  },
+  {
+   "torn": 5,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "M'alegra que tingui sentit.",
+   "esperat": "Prescindir de la validació formulaica d'obertura i anar directament al contingut"
+  }
+ ]
+}

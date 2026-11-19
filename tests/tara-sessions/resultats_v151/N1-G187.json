@@ -1,0 +1,184 @@
+{
+ "id": "N1-G187",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "jerga · una reunió de claustre molt tensa",
+ "tipus": "jerga",
+ "persona": "Li Wei, orientadora. Situació: una reunió de claustre molt tensa. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:23:51.417Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uf, sí, necesito contarte algo porque estoy un poco al límite, la verdad. Mira, ha sido en el claustro de hoy, con el director. Cada vez que yo digo algo, que propongo algo, él hace como que no me ha oído. Literalmente. Me ignora. O peor, me toreja, que es lo que más me fastidia, porque al menos si me ignorara del todo sería más claro, ¿no? Pero no, él lo que hace es coger lo que yo digo, esperar un momento, y luego decirlo él como si fuera idea suya. Y todos los demás ahí, asintiendo. Y yo pensando, perdona, eso lo acabo de decir yo hace treinta segundos. Y no es la primera vez, eh, esto lleva pasando desde septiembre. Hoy ha sido con el tema de los protocolos de convivencia, que yo llevo semanas trabajando en eso, y él ha cogido mi propuesta, la ha resumido con otras palabras y se ha llevado todos los aplausos. Me he quedado con la boca abierta. No sé, me siento invisible, me siento ninguneada, y encima en un claustro del"
+  },
+  {
+   "qui": "TARA",
+   "text": "Uf. Llevas semanas trabajando en eso, lo presentas, y él lo repite con otras palabras y se lleva los aplausos. Delante de todos.\n\nTiene sentido que estés al límite.\n\n¿Qué necesitas ahora mismo: desahogarte un poco más, o ya tienes ganas de pensar qué hacer con esto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 438,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 93,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto, delante de todos, que es lo que más duele, porque no es una conversación privada donde puedes pensar bueno, igual me he confundido yo, igual no lo he dicho claro. No, estábamos ahí veinte personas y nadie ha dicho nada. Nadie. Y yo me he quedado callada porque claro, ¿qué haces? ¿Te levantas y dices oye, eso lo he dicho yo? Quedas fatal. Quedas como la quejica, como la conflictiva. Y él tan tranquilo, sonriendo, recogiendo los comentarios de la gente. Me ha hervido la sangre, te lo juro.\n\nPero bueno, sí, creo que... creo que necesito pensar qué hago. Porque esto no puede seguir así. El problema es que no sé cómo decírselo sin que parezca un ataque, sin que se ponga a la defensiva y encima yo quede como la mala de la película. Que ya me conozco cómo funciona esto."
+  },
+  {
+   "qui": "TARA",
+   "text": "Veinte personas, nadie dice nada, y tú tienes que elegir entre callarte o quedar como la conflictiva. Es una posición muy incómoda.\n\nY encima ya sabes cómo puede ir si lo dices mal: él a la defensiva, tú con la etiqueta. Eso complica mucho decidir cómo actuar.\n\nAntes de pensar en cómo decírselo, una cosa que me ayudaría a acompañarte mejor: ¿qué quieres conseguir con esa conversación? ¿Que reconozca lo que ha pasado hoy, que cambie cómo se comporta en los claustros, que simplemente sepa que tú lo has visto... algo distinto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 800,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 184,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, es buena pregunta, pero es que... a ver, yo creo que en el fondo lo que quiero es que pare. Que no vuelva a pasar. No necesito que me pida perdón delante de todo el mundo ni nada de eso, no soy tan ingenua, sé que eso no va a pasar. Pero sí quiero que sepa que yo me he dado cuenta, que no me chupo el dedo. Porque a veces pienso que él lo hace sin ser del todo consciente, ¿sabes? Como que tiene ese hábito de apropiarse de las ideas y ya está, y nadie le ha dicho nunca nada. Y entonces igual una conversación directa, tranquila, sin dramas, podría servir. Pero claro, yo sola con él, en su despacho, ya me lo imagino y se me encoge el estómago. Porque él es muy listo para darle la vuelta a las cosas. Muy listo. Y acabo yo disculpándome, que ya me ha pasado antes. Así que necesito ir con algo muy concreto, con una frase muy clara, que no le dé pie a escabullirse. Algo que diga lo que ha pas"
+  },
+  {
+   "qui": "TARA",
+   "text": "Lo tienes muy claro: que pare, y que sepa que tú lo has visto. Sin drama, pero sin que pueda escabullirse.\n\nY conoces el riesgo: que él le dé la vuelta y acabes disculpándote tú. Eso ya ha pasado.\n\nEntonces lo que necesitas es una frase que nombre lo que ocurrió, sin acusación que le dé pie a defenderse, y que deje claro lo que quieres de ahora en adelante. Algo así:\n\n---\n\n*\"Quería comentarte algo sobre el claustro de hoy. Cuando presenté la propuesta de protocolos, sentí que no se recogió como mía. Me gustaría que en adelante, cuando parta de un trabajo mío, se nombre así.\"*\n\n---\n\nEs concreta, habla de un hecho específico, usa el \"sentí\" para que no sea un ataque directo, y termina con una petición clara hacia adelante, no con una acusación sobre el pasado.\n\n¿Se acerca a lo que buscas, o hay algo que no encaja con cómo quieres sonar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1287,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 280,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. \"Sentí que no se recogió como mía.\" Eso suena muy de manual, ¿no? Muy de... no sé, de curso de comunicación no violenta. Y yo así no hablo. Si yo le digo eso él ya sabe que me lo he preparado, que he ido a buscar ayuda, y pierde toda la naturalidad. Y encima con ese tono tan suavito parece que le estoy pidiendo un favor, y no, yo no le estoy pidiendo un favor, le estoy diciendo que lo he visto y que no quiero que vuelva a pasar. Necesito algo que suene a mí, que suene a Li Wei, no a un folleto de recursos humanos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón. Eso no sonaba a ti, sonaba a manual. Lo retiro.\n\nEntonces, ¿cómo hablas tú cuando algo te importa y quieres que se entienda en serio? ¿Más directa, más seca, con algo de ironía...? Dime cómo suenas tú cuando vas en serio, y lo construimos desde ahí.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 102,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues mira, yo cuando voy en serio soy bastante directa. Sin gritos ni nada, pero directa. Yo creo que le diría algo tipo... oye, lo de hoy en el claustro, la propuesta de convivencia, eso era mío. Y me gustaría que la próxima vez se dijera así. Sin florituras. Seco pero sin ser un ataque, ¿no? Que quede claro que lo he visto, que no me ha pasado desapercibido, pero que tampoco estoy ahí para montar un drama. Solo quiero que lo sepa y que no vuelva a pasar. Algo así. ¿Puedes ayudarme a pulirlo un poco, que suene bien pero que siga siendo mío?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso ya suena a ti. Partamos de ahí y ajustamos solo lo que hace falta.\n\nLo que has dicho tiene todo: nombra el hecho concreto, deja claro que lo viste, y termina con lo que quieres. El único punto débil es \"me gustaría que la próxima vez se dijera así\", porque \"me gustaría\" puede sonar a ruego. Si quieres que quede como una expectativa, no como una petición de favor, podrías cambiarlo por algo más afirmativo.\n\nUna versión posible, sin tocar tu tono:\n\n---\n\n*\"Oye, lo de hoy en el claustro, la propuesta de convivencia, eso era mío. La próxima vez, que se diga así.\"*\n\n---\n\nSin florituras. La última frase ya no pide, constata lo que esperas.\n\n¿Eso se acerca, o le cambiarías algo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2049,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 236,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Sí, eso ya me suena más a mí. \"La próxima vez, que se diga así.\" Punto. Sin más. Me gusta porque es corto, es claro, y no le estoy preguntando nada ni pidiéndole permiso. Solo le estoy diciendo cómo van a ser las cosas. Que es lo que quiero. Bueno, pues me lo apunto. A ver si tengo valor de decírselo mañana antes del recreo, que es cuando suele estar solo en el despacho. Gracias, en serio, porque necesitaba esto. Necesitaba salir de aquí con algo concreto en la mano, no con más vueltas en la cabeza."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Y ya lo tienes: dos frases, tuyas, que dicen exactamente lo que quieres decir.\n\nSuerte mañana.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2468,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 45,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. De verdad. Ahora a ver si el estómago me acompaña, que eso ya es otro tema. Hasta luego."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso ya lo resuelves tú sola. Hasta luego.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 2553,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

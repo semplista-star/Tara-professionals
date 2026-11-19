@@ -1,0 +1,141 @@
+{
+ "id": "N1-G140",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "desfogar-demanda · conflictes constants al pati entre dos grups",
+ "tipus": "desfogar-demanda",
+ "persona": "Jordi, educador social del centre. Situació: conflictes constants al pati entre dos grups. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:19:54.572Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Avui simplement necessito que m'escoltin. Res més, de moment."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 166,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 8,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. És que al centre tenim una situació que s'està complicant molt. Hi ha dos grups d'alumnes que cada vegada que coincideixen al pati acaben en conflicte. Tensions, insults, de vegades empentes. I jo estic al mig intentant gestionar-ho, però és esgotador. Cada dia és el mateix."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cada dia al mig d'això, intentant sostenir-ho. S'entén que esgoti.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 268,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactament. I el pitjor és que sents que no avances. Poses pau un dia i l'endemà tornem a començar. És com si el treball no servís de res, i això és el que més em pesa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Posar-hi tanta energia i no veure que avança... això pesa molt. Gràcies per dir-ho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 360,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 34,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Necessitava dir-ho en veu alta. Gràcies per escoltar.\n\nAra, si em pots ajudar amb una cosa concreta... Necessito un primer pas. Alguna cosa petita que pugui fer demà amb aquests dos grups. Res massa elaborat, just per on començar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès. Una cosa petita i concreta per demà.\n\nUna opció: observar sense intervenir els primers cinc minuts del pati. No per no fer res, senseó per mirar amb atenció qui inicia el contacte, en quin moment, i si hi ha algun alumne que sembli pont o, al contrari, que escalfi l'ambient. Sovint veiem el conflicte quan ja ha esclatat; aquest pas et dona informació que ara potser no tens.\n\nSi prefereixes fer alguna cosa més activa, una altra opció és parlar breument —un a un, no en grup— amb un o dos alumnes de cada banda que et semblin més receptius. Sense interrogar, sense jutjar: només \"com ho estàs portant tu, tot això del pati?\". Escoltar. Res més per ara.\n\nQuina de les dues t'encaixa més amb com tens el dia demà?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 476,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 225,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La primera. Observar primer té sentit. Potser és el que m'ha faltat, anar massa de pressa a apagar el foc sense veure bé d'on surt.\n\nGràcies, Tara. Això m'ajuda. Ja tinc per on començar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona sort demà. Ja tens un punt de partida.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 778,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 19,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

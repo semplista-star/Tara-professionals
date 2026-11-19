@@ -1,0 +1,141 @@
+{
+ "id": "N1-G174",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "humor · dues famílies enfrontades per un conflicte entre els fills",
+ "tipus": "humor",
+ "persona": "Pau, mestre de primària. Situació: dues famílies enfrontades per un conflicte entre els fills. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:22:28.403Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara. Mira, t'he de dir que porto tres dies sense dormir bé per culpa d'una cosa que, en teoria, hauria de saber gestionar perfectament... perquè soc mestre. Ironia de la vida, oi? 😅"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tres dies sense dormir bé pesen molt, siguis mestre o no. Que sàpigues gestionar conflictes a l'aula no vol dir que el que et passa a tu no et pugui remoure per dins.\n\nQuè és el que et té així?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 210,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 69,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, tens raó, perdona que ho hagi dit com si fos una tonteria...\n\nÉs que tinc dues famílies que s'han enfrontat per un problema entre els seus fills a classe, i ara les dues em miren a mi com si jo hagués de tenir la solució màgica. I jo... no sé, em sento una mica perdut, la veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "No ho has dit com una tonteria — ho has dit com algú que s'exigeix molt.\n\nDues famílies enfrontades, les dues mirant-te a tu... és una pressió real. Sentir-se perdut en això té tot el sentit.\n\nQuan dius perdut, és més «no sé per on començar» o més «faig el que puc i no n'hi ha prou»?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 375,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 105,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf... crec que és més el segon. Perquè ja he parlat amb les dues famílies per separat, i amb els nens també. Però les famílies segueixen igual d'enfrontades i jo tinc la sensació que tot el que faig no serveix de res. I llavors em pregunto si és culpa meva, si hauria d'haver fet alguna cosa diferent des del principi... no sé, potser sí."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ja has parlat amb tothom, has fet feina real — i tot i així la situació no es mou. Entenc que això esgoti i que porti a preguntar-se si és culpa teva.\n\nUna cosa que vull dir-te: que dues famílies segueixin enfrontades no és necessàriament una mesura de si has fet bé la teva feina. Tu pots fer molt bé la teva part i elles tenir dinàmiques pròpies que van molt més enllà de l'aula.\n\nAra, si et sembla útil, podem mirar junts el que ha passat — no per buscar on has fallat, senseó per veure si hi ha alguna cosa que encara es pugui fer. T'interessa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 593,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 187,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, m'interessa. Gràcies per dir-ho així, perquè és veritat que de vegades ho carrego tot com si fos responsabilitat meva al cent per cent...\n\nMira, el que em pregunto és si hi ha alguna manera de fer una reunió conjunta amb les dues famílies sense que acabi sent un desastre. Perquè soles ja és difícil, imagina juntes. Però potser és l'únic pas que queda, no sé. Tens alguna idea concreta de com enfocar-ho?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, es pot fer — i que ho hagis pensat té sentit. De vegades una reunió conjunta destrava el que les reunions separades no poden, perquè les famílies es veuen i deixen de construir-se la imatge de l'altra des de la distància.\n\nPerò perquè no acabi en confrontació, cal preparar-la bé. Et proposo un esquema que pots adaptar:\n\n**Abans de la reunió**\n- Parla amb cada família per separat per avisar-les i demanar-los explícitament que venen a buscar una sortida, no a guanyar. Si una no ho accepta, la reunió conjunta probablement no és el moment.\n- Defineix tu sol l'objectiu concret: no «resoldre el conflicte», senseó una cosa petita i mesurable, com «acordar com actuarem si torna a passar alguna cosa entre els nens».\n\n**Durant la reunió**\n- Comença tu parlant, breu, amb el que has observat a l'aula — fets, sense interpretacions ni culpes. Això marca el to.\n- Dona la paraula d'una en una, amb un temps clar. Si una família interromp l'altra, para amb calma: *«Deixem que acabi i després teniu el torn»*.\n- Si la tensió puja, torna sempre a l'objectiu: *«Estem aquí per decidir com cuidem els nens a partir d'ara»*.\n- Tanca amb un acord concret i petit, per escrit si pot ser.\n\n**Una cosa important**\nSi preveus que la tensió pot ser molt alta, pots demanar que hi sigui present l'orientador/a o algú de l'equip directiu. No com a senyal de debilitat, senseó com a suport real.\n\nQuè et sembla? Hi ha alguna part que et genera més dubtes o que veus difícil d'aplicar amb aquestes dues famílies concretes?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 925,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ostres, això és molt útil, gràcies. Em quedo amb allò de l'objectiu petit i concret, crec que és on m'havia perdut jo, intentant solucionar-ho tot d'un cop...\n\nAra ja tinc per on tirar. Moltes gràcies de debò, Tara. Necessitava escoltar algú que no em fes sentir que ho havia fet malament."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit. I no ho has fet malament — has fet el que podies amb una situació complicada, i has tingut prou criteri per parar i buscar una altra manera d'enfocar-ho.\n\nEspero que aquesta nit puguis descansar una mica més. Sort amb la reunió.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1528,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 86,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

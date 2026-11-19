@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 1,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat final (una frase concreta) però al torn 2 va anticipar una distinció no demanada i va afegir un avís sobre irregularitats que la persona no havia sol·licitat.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "entens que t'està demanant que pugis notes sense que hi hagi una base pedagògica? O hi ha alguna cosa més que no t'ha acabat d'explicar?",
+   "esperat": "La persona ja havia explicat prou clarament la situació; una sola pregunta de confirmació o cap hauria estat suficient."
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que et quedis sense paraules",
+   "esperat": "Una frase d'acollida més natural i menys formulaica, sense el «té sentit» automàtic."
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Modificar notes sense base pedagògica és una irregularitat, sigui qui sigui qui ho demani.",
+   "esperat": "La persona no havia demanat una valoració ètica ni legal; TARA hauria d'haver-se limitat a acollir i preguntar on volia ajuda, sense el sermó sobre irregularitats."
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Dues coses que vull separar, perquè crec que les tens barrejades i és normal",
+   "esperat": "Resposta més breu, sense estructurar en dos blocs ni atribuir a la persona que «les té barrejades»."
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "crec que les tens barrejades i és normal",
+   "esperat": "No atribuir un estat intern (confusió, barreja) que la persona no ha expressat."
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "mostra que esteu al mateix costat",
+   "esperat": "Descriure la funció de la frase sense interpretar la relació entre les dues persones."
+  }
+ ]
+}

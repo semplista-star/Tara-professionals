@@ -1,0 +1,184 @@
+{
+ "id": "N1-G078",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "correccio · un grup disruptiu a última hora",
+ "tipus": "correccio",
+ "persona": "Toni, mestra de música. Situació: un grup disruptiu a última hora. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:16:27.407Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ui, necessitava explicar-ho a algú. Mira, tinc un grup de 4t d'ESO a última hora del divendres i és un desastre total. Avui han estat impossibles: parlant, rient, tirant coses... i jo intentant explicar el compàs de 6/8 com una imbècil mentre ells a la seva. M'ha sortit fins als nassos, vaja."
+  },
+  {
+   "qui": "TARA",
+   "text": "Última hora de divendres amb 4t d'això i el compàs de 6/8. Entenc que hagis acabat fins als nassos.\n\nQuan dius que ha estat un desastre, hi ha alguna cosa concreta que t'hagi picat més — el fet que no t'escoltessin, sentir que perdes el temps, o una altra cosa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 248,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 95,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, les dues coses, però sobretot el sentir que perdo el temps. M'he preparat la classe, eh, no he vingut amb les mans a les butxaques. I ells passant olímpicament. Això és el que em mata més."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit. Has posat esforç real i no ha trobat on aterrar. Això cansa d'una manera diferent que si simplement hagués anat malament.\n\nAra que ho has pogut dir — vols quedar-te aquí una estona, o t'ajudaria pensar en com abordar aquest grup la propera vegada?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 410,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 91,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, no, jo vull fer alguna cosa diferent la propera vegada perquè així no podem continuar. Tens alguna idea pràctica de com enganxar-los? Perquè el compàs de 6/8 explicat a la pissarra... clar, és que ni jo m'ho escoltaria a última hora del divendres, ja t'ho dic."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'agrada que ho diguis tu mateixa — és un punt de partida honest.\n\nAlgunes idees pràctiques per al 6/8 amb un grup així, a última hora:\n\n**Fer-los moure abans d'explicar res**\nPosa una cançó en 6/8 (una jota, una barcarola, qualsevol cosa que coneguin o que soni) i demana'ls que trobin el balanceig amb el cos. Primer el cos, després el nom.\n\n**Que ells siguin la font**\nEn comptes d'explicar tu, posa dos fragments — un en 4/4 i un en 6/8 — i pregunta: *\"Què és diferent? Com us fa moure cadascun?\"* Ells construeixen la definició, tu la confirmes.\n\n**Una tasca mínima i concreta**\nA última hora de divendres, una sola cosa que puguin acabar en 10 minuts i sentir que han fet alguna cosa. No un tema sencer.\n\n**El factor sorpresa**\nEntrar diferent: sense dir res, posar música i esperar. El silenci teu els desorienta més que la teva veu intentant imposar-se al soroll.\n\n---\n\nQuina d'aquestes et sona més a tu, o hi ha alguna que veuries difícil amb aquest grup concret?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 597,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 342,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ep, para para. No t'he demanat una llista. I a més... no he dit que no els conegui ni que no sàpiga fer classe, eh. Això de \"fer-los moure abans d'explicar res\" ja ho faig sovint. No soc nova en això."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó. M'he avançat i t'he donat una llista que no t'he demanat. Ho sento.\n\nTorna'm a explicar: què necessitaves de mi ara mateix?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1013,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 54,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs... una idea concreta. Una. No cinc. Alguna cosa que pugui provar dilluns amb aquest grup específic, que és molt xerraire i que a última hora no hi ha qui els aturi. Alguna cosa diferent del que ja faig, que és moure'ls i posar música. Això ja ho tinc."
+  },
+  {
+   "qui": "TARA",
+   "text": "D'acord. Una cosa.\n\nArribes, no dius res, i escrius a la pissarra un sol número: **6**. I esperes. Quan preguntin \"això què és?\", els dius: *\"Vosaltres m'ho heu de dir a mi abans que acabi la classe.\"* I ja està — la classe gira al voltant d'ells resolent-ho, no tu explicant-ho.\n\nAmb un grup xerraire, de vegades el misteri els tanca més la boca que qualsevol consigna.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1152,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 138,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, això sí que m'agrada. És senzill i no depèn que estiguin callats des del principi. Li donaré una volta però crec que pot funcionar amb ells. Gràcies!"
+  },
+  {
+   "qui": "TARA",
+   "text": "De res! Ja m'explicaràs com ha anat dilluns, si vols.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1348,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 26,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, potser m'hi apunto! Gràcies, Tara. Adéu!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Adéu! Molta sort amb el 6. 😊",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1404,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

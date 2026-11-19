@@ -1,0 +1,34 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA ha entès des del primer moment que Fàtima només volia desfogar-se i ha mantingut l'escolta sense oferir consells ni solucions, acompanyant el ritme i tancant quan la persona ho ha indicat.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Potser és justament el que et fa bona docent.",
+   "esperat": "Reflectir el que ha dit sense afegir una valoració sobre la seva qualitat com a docent; per exemple, resseguir la imatge de la motxilla plena o simplement acollir la contradicció que ella mateixa planteja"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Potser és justament el que et fa bona docent.",
+   "esperat": "No atribuir una qualitat professional a partir d'un sentiment expressat; deixar que sigui ella qui en tregui conclusions"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Que et faci mal després d'anys en això no és cap defecte. Potser és justament el que et fa bona docent.",
+   "esperat": "Una resposta més breu que recollís el que ella ha dit sense reinterpretar-ho ni afegir una lectura positiva no demanada"
+  }
+ ]
+}

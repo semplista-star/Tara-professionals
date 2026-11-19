@@ -1,0 +1,20 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 2,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre des del primer torn que la persona volia desfogar-se i es va limitar a escoltar i reflectir sense oferir consells ni derivar.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "entenc que faci ràbia",
+   "esperat": "reflectir el que la persona ha expressat sense atribuir-li una emoció concreta que ella no ha nomenat; per exemple: 'és comprensible que pesi'"
+  }
+ ]
+}

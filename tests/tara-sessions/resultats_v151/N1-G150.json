@@ -1,0 +1,204 @@
+{
+ "id": "N1-G150",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "rebuig · una reunió de claustre molt tensa",
+ "tipus": "rebuig",
+ "persona": "Pau, professor novell. Situació: una reunió de claustre molt tensa. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:20:34.828Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ui, necessito ajuda. Avui al claustre ha estat un desastre."
+  },
+  {
+   "qui": "TARA",
+   "text": "Explica'm com ha anat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 163,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 12,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "He intentat dir la meva i la directora m'ha tallat davant de tothom. M'he quedat en blanc."
+  },
+  {
+   "qui": "TARA",
+   "text": "Quedar-se en blanc davant de tothom fa molt. Què és el que volies dir i no has pogut acabar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 209,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 35,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Que el nou horari perjudica els alumnes de primer. Però no m'han deixat acabar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tenies alguna cosa important a dir sobre els teus alumnes i no t'han deixat acabar. Tens ganes de trobar la manera de fer-ho arribar igualment, o primer necessitaves poder explicar-ho?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 274,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 58,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Les dues coses. Però sobretot... com ho faig la propera vegada? No vull tornar a quedar-me en blanc."
+  },
+  {
+   "qui": "TARA",
+   "text": "Podem treballar les dues coses. Per la propera vegada, una cosa que ajuda molt és tenir preparada una frase curta i clara per si et tallen — una que puguis dir sense haver de pensar.\n\nAlguna cosa com: *«Voldria acabar el que estava dient, si us plau.»* O, si prefereixes un to més directe: *«Necessito un minut per acabar la idea.»*\n\nTenir-la preparada fa que no hagis de buscar paraules en el moment.\n\nVols que també preparem l'argument sobre l'horari, per tenir-lo a punt per la propera oportunitat?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 369,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 162,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Això de la frase... no sé. Sona massa formal per com soc jo. No m'hi veig."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té sentit. Ha de sonar a tu, no a un manual.\n\nCom ho diries tu, amb les teves paraules, si volguessis demanar espai per acabar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 563,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 48,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Potser algo com... \"un moment, que no he acabat\". Però tampoc sé si tindré el valor de dir-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "Això sona molt més a tu. I és directe, que és millor.\n\nEl valor sovint ve amb la preparació. Si vols, podem assajar-ho ara: jo faig de directora que et talla, i tu proves de dir-ho. Vegem com se sent.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 647,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 71,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Assajar? Ai no sé... em fa una mica de cosa. Però d'acord, provo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecte. Quan vulguis, comença a explicar el que volies dir al claustre, i jo et tallo.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bé... \"El nou horari afecta molt els alumnes de primer perquè—\""
+  },
+  {
+   "qui": "TARA",
+   "text": "*«Gràcies, seguim amb el punt següent.»*",
+   "tags": [],
+   "usage": {
+    "input_tokens": 809,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 21,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

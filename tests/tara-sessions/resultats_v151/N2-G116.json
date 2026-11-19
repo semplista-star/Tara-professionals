@@ -1,0 +1,119 @@
+{
+ "id": "N2-G116",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "jerga · els diners i la paga",
+ "tipus": "jerga",
+ "persona": "Mercè, avi. Situació: els diners i la paga. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:29:40.193Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, tinc un problema amb la meva néta. Li dono una paga setmanal i cada vegada que li pregunto en què es gasta els diners, em toreја completament. Canvia de tema, em diu que sí sí i prou, i jo em quedo sense saber res. Em sento una mica ignorat, la veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Et quedes sense resposta i et sap greu, perquè li dones la paga amb bona voluntat i sents que no hi ha reciprocitat.\n\nQuina edat té la teva néta?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 252,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 54,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Té setze anys. I sí, exactament, li dono la paga de bon cor i no demano gaire cosa, només que em digui una mica en què la gasta. No vull controlar-la, però sí sentir que em té en compte. Que no em tracti com si fos invisible."
+  },
+  {
+   "qui": "TARA",
+   "text": "Setze anys i et fa sentir invisible. Això fa mal, sobretot venint d'algú a qui estimes i a qui dones sense demanar gaire res a canvi.\n\nEl que demanes no és control — és connexió. Saber una mica de la seva vida.\n\nSi vols, podem pensar junts com dir-li això a ella, d'una manera que tingui més possibilitats d'arribar-li. T'interessa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 384,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 113,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, això és el que vull. Una frase o alguna cosa que pugui dir-li, que no soni a bronca però que li faci entendre com em sento. Perquè si li dic jo sol, segurament tornarà a toреjar-me i no arribaré a res."
+  },
+  {
+   "qui": "TARA",
+   "text": "Podries dir-li alguna cosa així:\n\n*«Quan et pregunto en què gastes la paga i canvies de tema, em quedo amb la sensació que no t'importa gaire el que penso. No vull saber-ho per controlar-te — és que m'agrada sentir que formo part de la teva vida, encara que sigui una mica.»*\n\nDiu el que sents, sense acusar-la, i li explica per què t'importa. Deixa la porta oberta perquè ella respongui.\n\nVols ajustar alguna cosa d'aquesta frase, o et sembla bé així?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 574,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 163,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Em sembla bé, sí. És el que volia dir però no sabia com. Gràcies, Tara."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. Espero que la conversa vagi bé. Sort!",
+   "tags": [],
+   "usage": {
+    "input_tokens": 771,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 20,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

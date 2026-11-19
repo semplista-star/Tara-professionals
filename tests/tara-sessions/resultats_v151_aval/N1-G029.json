@@ -1,0 +1,34 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entendió en cada turno lo que Sara necesitaba (claridad sobre privacidad, luego recursos concretos para responder en público) y se ajustó sin desviarse.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "tiene sentido que eso te coma por dentro",
+   "esperat": "Reconocer lo que Sara describe sin usar la fórmula validadora «tiene sentido» que ya había aparecido en el turno 1"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "con meses de tensión acumulada detrás",
+   "esperat": "Sara no había dicho explícitamente que la tensión era acumulada en ese momento; mejor no añadir interpretación no expresada o formularla como hipótesis abierta"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Lo que también ayuda es tener ensayado el gesto: voz tranquila, pausa antes de hablar. El cuerpo necesita practicarlo para que salga cuando los nervios están disparados.",
+   "esperat": "Sara pidió saber cómo responder sin perder los nervios; las frases concretas ya respondían la pregunta; el párrafo sobre el gesto corporal añade consejo no solicitado y alarga la respuesta innecesariamente"
+  }
+ ]
+}

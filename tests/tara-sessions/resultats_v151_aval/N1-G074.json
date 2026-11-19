@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió el problema general pero tardó un turno en reajustarse tras el rechazo de la primera sugerencia, y en el turno 4 añadió un elogio automático antes de dar la respuesta directa que Luis pedía.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿los insultos son entre dos o tres personas en particular, o es una dinámica más general del grupo?",
+   "esperat": "Luis ya pedía ideas concretas; la pregunta de diagnóstico retrasa la ayuda sin añadir valor decisivo para una primera orientación"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "tiene sentido que no quieras entrar con un sermón",
+   "esperat": "validación no pedida que suena a fórmula; bastaba pasar directamente a la sugerencia"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Si quieres, después puedes retomarlo en clase — no como bronca, sino como conversación real sobre cómo se tratan. Con bachillerato a veces funciona bien plantearla como un tema de ellos, no tuyo: ¿cómo queréis que sea este espacio?",
+   "esperat": "Luis solo pidió una idea para cortar los insultos; añadir una segunda propuesta no solicitada alarga la respuesta innecesariamente"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "¿Te encaja más intervenir solo por escrito, o también quieres preparar algo para el aula?",
+   "esperat": "La respuesta ya era completa; la pregunta de cierre abre un nuevo frente no pedido por Luis"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene razón — repetir lo mismo que no funcionó raramente cambia algo.",
+   "esperat": "Reconocimiento correcto del rechazo, pero formulado como validación automática; bastaba pasar a la alternativa"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Eso es muy honesto, y tiene mucho valor saberlo de uno mismo.",
+   "esperat": "Luis describió su estilo con humor, no pidió valoración; omitir el elogio y pasar directamente a la adaptación habría sido más natural y menos paternalista"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Suena a que sabes perfectamente cómo manejarte ahí dentro — solo necesitabas encontrar la versión que fuera tuya.",
+   "esperat": "Cierre cálido pero con juicio valorativo no pedido; bastaba «Suerte con la tutoría» o similar"
+  }
+ ]
+}

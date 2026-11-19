@@ -1,0 +1,204 @@
+{
+ "id": "N1-G124",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "correccio · insults en el grup de WhatsApp de la classe",
+ "tipus": "correccio",
+ "persona": "Xavi, maestra de educación especial. Situació: insults en el grup de WhatsApp de la classe. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:19:28.989Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tengo un problema en el grupo de WhatsApp de mi clase. Algunos alumnos han estado insultándose entre ellos y no sé muy bien cómo abordarlo. Es una situación que me preocupa bastante."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entiendo que te preocupe, y tiene sentido que quieras abordarlo bien.\n\nAntes de pensar en cómo actuar, me ayudaría saber un poco más: ¿los insultos han ocurrido solo en el grupo de WhatsApp, o hay tensión también dentro del aula? Eso cambia bastante cómo enfocar la respuesta.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 200,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 95,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Los insultos han sido principalmente en el grupo de WhatsApp, fuera del horario escolar. Pero sí, hay cierta tensión en el aula también. No es algo muy evidente, pero se nota el ambiente un poco cargado entre algunos alumnos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso que describes —lo que pasa en el grupo filtrándose al aula aunque sin estallar— suele ser más difícil de manejar que un conflicto abierto, precisamente porque es difuso.\n\nAntes de pensar en qué hacer, ¿tienes ya una idea de qué alumnos están más implicados, o todavía estás intentando entender quién está en qué posición?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 359,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 106,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, tengo bastante claro quiénes son los implicados. Hay dos o tres alumnos que han dicho cosas bastante feas, y luego hay otros que han respondido, quizás de manera menos grave pero también de forma inapropiada. Y hay alguno que simplemente ha estado mirando sin intervenir."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien, tener ese mapa claro ya es mucho.\n\nLo que describes tiene tres capas distintas: quienes iniciaron o escalaron, quienes respondieron, y quienes observaron sin actuar. Cada una necesita una conversación diferente.\n\n¿Qué es lo que más te preocupa ahora mismo: cómo hablar con los implicados, cómo trabajarlo con el grupo en su conjunto, o cómo gestionar el hecho de que haya ocurrido fuera del centro y aun así afecte al aula?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 549,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 137,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Lo que más me preocupa es cómo hablar con los implicados. Especialmente con los que han insultado. Son alumnos con necesidades educativas especiales y quiero hacerlo de una manera que sea comprensible para ellos, pero también que quede claro que ese comportamiento no es aceptable."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene mucho sentido que quieras encontrar ese equilibrio: que entiendan, y que quede claro.\n\nPara poder ayudarte a preparar esas conversaciones de forma útil, necesito una cosa que solo tú sabes: ¿qué tipo de necesidades tienen esos alumnos? No hace falta que me des detalles identificativos, pero sí si hay algo relevante en cómo procesan la información, regulan las emociones o comprenden las consecuencias sociales. Eso cambia bastante cómo estructurar la conversación.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 765,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 140,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Algunos tienen dificultades en la comprensión del lenguaje abstracto y en la regulación emocional. Les cuesta ponerse en el lugar del otro. No siempre entienden bien el impacto que tienen sus palabras en los demás."
+  },
+  {
+   "qui": "TARA",
+   "text": "Con ese perfil, la conversación necesita ser concreta, visual si es posible, y centrada en hechos observables más que en intenciones o valoraciones morales abstractas.\n\nTe propongo una estructura para esas conversaciones individuales:\n\n**1. Partir de lo concreto**\nNo \"has estado insultando\", sino \"el día X escribiste esto en el grupo\". Mostrar el mensaje si es posible. Sin interpretaciones, solo lo que ocurrió.\n\n**2. Conectar con el impacto, de forma tangible**\nEn lugar de \"eso hace daño\", algo como: \"Cuando alguien lee eso, puede sentirse así\" —y si tienes manera de ilustrarlo, mejor. Algunos alumnos con dificultad para la empatía cognitiva responden mejor a ejemplos concretos o a preguntar directamente: \"¿Cómo te sentirías tú si alguien te escribiera eso a ti?\"\n\n**3. Dejar claro el límite, sin ambigüedad**\nBreve y directo: \"Esto no puede volver a pasar. En el grupo y en clase.\" Sin rodeos, pero sin dramatizar.\n\n**4. Terminar con algo que puedan hacer**\nNo solo lo que no deben hacer, sino algo concreto que sí pueden hacer: ignorar, salir del grupo, decirte a ti si hay tensión.\n\n---\n\n¿Quieres que trabajemos alguna de estas partes con más detalle, o que ensayemos cómo podría sonar esa conversación con uno de ellos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 968,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 387,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera. Yo no he dicho que no entiendan el impacto de sus palabras por falta de empatía emocional. He dicho que les cuesta ponerse en el lugar del otro, pero eso no significa que no sientan. No quiero que la conversación sea fría o demasiado técnica. Estos alumnos también tienen sentimientos y necesitan sentirse escuchados."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, y te lo agradezco. He dado un salto que no debía: de \"les cuesta ponerse en el lugar del otro\" a asumir que necesitan un enfoque casi clínico. No es lo mismo.\n\nLo que describes es más matizado: alumnos que sienten, que pueden conectar emocionalmente, pero que quizás no siempre anticipan cómo sus palabras aterrizan en el otro. Eso cambia el tono de la conversación bastante.\n\n¿Cómo imaginas tú que debería sentirse esa conversación para ellos? ¿Qué necesitarían notar para poder abrirse y escuchar de verdad?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1454,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 174,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Necesitarían notar que no estoy ahí para castigarles sino para entender qué ha pasado. Que hay un espacio seguro. Pero también que hay un límite claro. Eso es lo que me cuesta encontrar: cómo combinar las dos cosas."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso que describes es uno de los equilibrios más difíciles en este trabajo: que sientan que estás de su lado y que a la vez el límite sea real.\n\nUna forma de pensarlo: el límite no tiene por qué llegar al principio ni al final. Puede estar en el medio, después de que hayan sentido que les escuchas. Algo así:\n\n**Primero, abrir espacio:** \"Quiero entender qué pasó. Cuéntame desde tu punto de vista.\"\n\n**Después, el impacto:** Una vez que han hablado, puedes decir algo como: \"Lo que me cuentas me ayuda a entender. Y también quiero que sepas cómo ha llegado eso a los demás.\" Concreto, sin sermón.\n\n**Y entonces, el límite:** No como castigo, sino como algo que cuida a todos, incluido a ellos: \"Esto no puede repetirse, y estoy aquí para ayudarte a que no pase.\"\n\nLa seguridad y el límite no se contradicen si el límite llega desde un lugar de cuidado, no de condena.\n\n¿Quieres que ensayemos cómo podría sonar esto con uno de los alumnos en concreto, con un ejemplo de lo que podrías decir y cómo podrían responder?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1701,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 329,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso es justo lo que necesito. ¿Podemos hacer ese ensayo? Me ayudaría mucho practicar cómo empezar la conversación, que es donde más me bloqueo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Vamos a ello.\n\nPara que el ensayo sea útil, dime: ¿cómo suele ser ese alumno cuando se le llama a hablar? ¿Tiende a cerrarse, a ponerse a la defensiva, a hablar mucho...? No necesito su nombre ni detalles, solo cómo arranca habitualmente en esas situaciones.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2087,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 98,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat pràctica central (pla de crisi per a la nit), però en alguns torns va anticipar solucions o va fer preguntes no demanades abans d'esgotar el que la persona ja havia dit",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "a qui et refereixes concretament — direcció, orientació, l'equip de cicle?",
+   "esperat": "La persona ja havia dit «ningú» i el que demanava era ajuda amb les colònies, no un mapa del suport institucional; TARA podia anar directament al concret"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Això que saps és molt valuós.",
+   "esperat": "Reconèixer la informació sense avaluar-la («Molt bé, doncs tenim tres coses clares»)"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que t'ofega. / Té sentit que no t'hi confïis.",
+   "esperat": "Variar el reconeixement o ometre'l quan la persona ja ha passat a demanar ajuda concreta"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Sobre la mestra — no la pots forçar, però pots deixar-ho negre sobre blanc abans de sortir",
+   "esperat": "La persona no havia demanat consell sobre la mestra; TARA podia ometre aquest paràgraf i anar directament a la pregunta sobre el nen"
+  },
+  {
+   "torn": 7,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Si vols, abans de les colònies podem preparar també com demanar-li a la direcció un suport concret",
+   "esperat": "La persona havia dit «gràcies» i donava la sessió per tancada; TARA havia d'acceptar el tancament sense oferir un nou tema no demanat"
+  },
+  {
+   "torn": 8,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "saps que no estàs equivocada. Ja és molt.",
+   "esperat": "Tancar sense judici valoratiu: «Quan vulguis, aquí estaré. Bona sort amb les colònies.»"
+  }
+ ]
+}

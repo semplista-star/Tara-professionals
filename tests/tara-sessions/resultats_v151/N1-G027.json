@@ -1,0 +1,96 @@
+{
+ "id": "N1-G027",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "demanda-directa · insults en el grup de WhatsApp de la classe",
+ "tipus": "demanda-directa",
+ "persona": "Joan, professora substituta. Situació: insults en el grup de WhatsApp de la classe. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:12:39.454Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Necessito ajuda per gestionar una situació concreta. Tinc un grup de WhatsApp de la classe on alguns alumnes han estat insultant-se. Necessitaria un missatge breu que pugui enviar al grup per aturar-ho i deixar clar que no és acceptable."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tens un esborrany:\n\n---\n\n*\"Bon dia. He vist alguns missatges que no reflecteixen el respecte que ens devem. Aquest grup és per a la classe, i necessito que sigui un espai on tothom s'hi senti bé. Si hi ha alguna cosa que us preocupa, podeu parlar amb mi directament.\"*\n\n---\n\nBreu, sense assenyalar ningú, i obre la porta a qui necessiti dir alguna cosa en privat.\n\nVols ajustar el to, la llargada o algun detall?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 216,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 144,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Està bé, però el trobo una mica fred. Podries fer-lo una mica més càlid, sense perdre l'autoritat?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tens una versió més càlida:\n\n---\n\n*\"Bon dia a tothom. He llegit alguns missatges que m'han preocupat. Sé que de vegades les coses s'escalfen, però en aquest grup ens tractem amb respecte — perquè ens importem. Si algú necessita parlar d'alguna cosa, aquí estic.\"*\n\n---\n\nManté el límit clar, però des d'un lloc proper. Què et sembla?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 399,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 123,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, això és el que necessitava. Moltes gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res! Espero que el missatge ajudi a reconduir la situació. FINAL\n\n---\n\nFins aviat, i sort amb el grup.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 545,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 49,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

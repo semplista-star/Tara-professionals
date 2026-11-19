@@ -1,0 +1,163 @@
+{
+ "id": "N1-G163",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "desfogar-demanda · molta burocràcia i sensació de no arribar",
+ "tipus": "desfogar-demanda",
+ "persona": "Núria, educador social del centre. Situació: molta burocràcia i sensació de no arribar. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:21:36.465Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Sí, és que... no sé, avui necessito que algú m'escolti, res més. No vull consells ni res, és que estic una mica saturada i... bé, no sé si té sentit dir-ho aquí però és que no sé on més anar."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'escolto. Avui estàs saturada i necessitaves dir-ho en algun lloc.\n\nAquí pots fer-ho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 217,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, gràcies. És que... porto setmanes amb una pila d'informes que no acaben mai, i reunions, i expedients, i al final del dia sento que no he fet res del que realment importa, que és estar amb les persones. I em sento culpable per queixar-me perquè sé que els meus companys estan igual de desbordats i... no sé, potser exagero."
+  },
+  {
+   "qui": "TARA",
+   "text": "Setmanes portant tot això, i al final del dia la sensació que el que realment importa no ha tingut lloc. Això pesa.\n\nI no exageres.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 367,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 45,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... és exactament això. Gràcies per dir-ho perquè a vegades penso que soc jo que no sé organitzar-me bé o que hauria de poder amb tot i... buf. És cansat, això de dubtar sempre de tu mateixa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí. Carrejar la feina i a sobre qüestionar-te si el problema ets tu. És doble esforç.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 483,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 37,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, és molt doble esforç. Molt ben dit. I clar, al final arribes a casa i no tens res més... res de res.\n\nOye, perdona, és que... ara que m'has escoltat una mica, potser em pots ajudar amb una cosa petita? Res gran, eh. És que no sé com començar un informe que porto dies evitant i... potser si em dius per on podria tirar, una frase o algo, ja em desbloquejaré."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar. Quin tipus d'informe és — de convivència, d'un cas concret, una memòria de final de curs...?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 649,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "És d'un cas concret, d'un noi que portem seguint des de fa mesos. I el problema és que no sé com començar, sempre em quedo en blanc a la primera línia."
+  },
+  {
+   "qui": "TARA",
+   "text": "Molt habitual quedar-se en blanc a la primera línia. Una manera de desbloquejar-se: no comencis pel principi.\n\nEscriu primer el que saps amb més claredat — pot ser un fet concret, una data, una observació. Quan tens alguna cosa al paper, la primera línia apareix sola.\n\nSi vols, digue'm quina és la cosa que tens més clara d'aquest cas, i t'ajudo a formular-la.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 118,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, mira, això sí que m'ajuda. Gràcies. Ja ho provaré així, que és veritat que sempre hi ha alguna cosa que tinc clara i potser per allà puc tirar.\n\nMoltes gràcies de veritat, per escoltar-me i per l'ajuda. Necessitava això avui."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que hagi servit. Ànim amb l'informe.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 948,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 22,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

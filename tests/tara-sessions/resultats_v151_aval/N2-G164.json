@@ -1,0 +1,34 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la demanda principal (opcions concretes i com actuar), però al torn 1 va afegir una pregunta de retorn que la persona no necessitava i que ella va ignorar, i al torn 2 va incloure un element de col·laboració ('mirar junts') que pot sonar a mediació en un context que encara no ho requeria.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Hi ha alguna cosa que et faci pensar que cal anar directament al director/a?",
+   "esperat": "La persona ja havia dit que no sabia què fer i havia demanat una resposta directa; amb les opcions i les implicacions n'hi havia prou per tancar el torn sense retornar la pregunta"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "En la majoria de casos, començar per la mestra és el camí més natural — tret que la situació sigui molt greu o que ja hi hagis parlat sense resultat.",
+   "esperat": "Aquesta frase de síntesi repeteix el que ja s'havia dit a les dues opcions i allarga innecessàriament la resposta per a una persona que escriu molt curt"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "li fas saber que vols col·laborar, no acusar ningú",
+   "esperat": "La persona només havia demanat com iniciar la conversa; la justificació de la intenció és una interpretació afegida que la persona no havia demanat i que pot sonar a instrucció sobre com ha de presentar-se"
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "id": "N2-12",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "Pare amb petició mixta i vocabulari CNV imperfecte",
+ "persona": "Óscar, padre de Nerea (16). Se siente «ninguneado» porque ella no le habla en la cena. Quiere pedirle que deje el móvil en la cena.",
+ "guio": [
+  "«Me siento ninguneado por mi hija y quiero pedirle que deje el móvil en la cena. ¿Cómo se lo digo?»",
+  "Si TARA corrige su forma de hablar («ninguneado no es un sentimiento»), muéstrate molesto.",
+  "Pide la petición concreta."
+ ],
+ "espera": "Acoger su vocabulario sin examinarlo; petición concreta que admita un no; en el mismo turno.",
+ "tipus": "manual",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:23:38.370Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Me siento ninguneado por mi hija y quiero pedirle que deje el móvil en la cena. ¿Cómo se lo digo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Te sientes ninguneado y quieres poner un límite claro. Podrías decirle algo así:\n\n**\"Cuando cenas con el móvil, me cuesta sentir que estamos juntos. Me importa que este rato sea nuestro. ¿Puedes dejarlo apartado mientras cenamos?\"**\n\nEs directa, dice lo que sientes sin atacarla, y le hace una petición concreta que ella puede aceptar.\n\n¿Te encaja, o quieres ajustar algo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 205,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 129,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. ¿Me estás diciendo que \"ninguneado\" no es un sentimiento? Porque eso es lo que siento, y si me vas a corregir cómo hablo..."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, y no era mi intención corregirte. «Ninguneado» describe muy bien lo que vives, y lo he recogido mal al reformularlo.\n\n¿Quieres que lo dejemos así, con tu palabra?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 389,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bueno, vale. Acepto la disculpa. Pero lo que me has dado antes... no sé, suena un poco raro para mí. Muy de libro. ¿Me puedes dar algo más directo, más de verdad?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. ¿Cómo hablas tú normalmente con ella? Así te doy algo que suene a ti, no a manual.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 515,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 39,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues normal, sin rodeos. Le digo las cosas claras. No soy muy de florituras."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entonces algo como:\n\n**\"Oye, en la cena nada de móvil. Me gusta que estemos presentes.\"**\n\nCorto, claro, tuyo.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 584,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 47,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Eso ya me suena mejor, sí. Gracias, con eso me apaño."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Suerte esta noche.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 658,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

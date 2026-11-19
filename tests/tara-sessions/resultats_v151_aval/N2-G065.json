@@ -1,0 +1,55 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió desde el principio que Marta necesitaba el límite del canal explicado con calma y luego ayuda práctica para sostener su propio límite, y lo gestionó correctamente en cada turno.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Eso es lo que duele de verdad, ¿no?",
+   "esperat": "Preguntar qué pasa cuando le dice que apague, sin atribuir qué es lo que duele"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Lo que describes tiene mucho sentido",
+   "esperat": "Omitir la validación formulaica o integrarla en la respuesta sin etiquetarla"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "con la sensación de que eres tú contra él",
+   "esperat": "Preguntar cómo se siente ella en ese momento en lugar de atribuirle la sensación"
+  },
+  {
+   "torn": 6,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "él probablemente lo nota — no porque sea manipulador, sino porque los hijos aprenden rápido qué mueve a sus madres",
+   "esperat": "No hacer inferencias sobre el comportamiento o motivaciones del hijo, que es una tercera persona ausente"
+  },
+  {
+   "torn": 6,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Quizás ayuda recordar, justo en ese momento, que el límite no es un castigo. Es un cuidado.",
+   "esperat": "Responder a la dificultad emocional de Marta sin añadir un reencuadre conceptual no pedido"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Eso es exactamente el momento.",
+   "esperat": "Confirmar el plan sin el refuerzo valorativo"
+  }
+ ]
+}

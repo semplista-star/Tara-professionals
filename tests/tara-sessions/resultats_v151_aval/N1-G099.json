@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén finalment el que necessita la persona (una frase per trencar el gel), però triga tres torns en arribar-hi i pel camí fa preguntes que la persona no havia demanat.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Quan dius que et contesta malament, m'ajudaria saber una mica més: és indiferència, respostes tallants, o hi ha alguna cosa que et sembla desafiament directe?",
+   "esperat": "La persona ja havia descrit prou la situació; TARA podia acollir i preguntar directament què necessitava"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Sona esgotador, especialment quan passa de manera repetida.",
+   "esperat": "Acollir el que la persona ha dit sense atribuir-li un estat emocional no expressat ('esgotador')"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Sentir-se ignorada i ridiculitzada davant del grup és molt incòmode, i entenc que vulguis trobar la manera de canviar-ho.",
+   "esperat": "Reconeixement breu i natural, sense reformular ni validar com a fórmula el que la persona acaba de dir"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "tens alguna idea de quan va començar això, o sempre ha estat així amb aquest alumne?",
+   "esperat": "La persona no havia demanat explorar l'origen; TARA podia preguntar directament com volia actuar"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Que hi hagi un canvi fa un mes deixa oberta la pregunta de si hi ha alguna cosa passant per ell que no veus des de fora.",
+   "esperat": "No atribuir ni insinuar estats interns de l'alumne; deixar la interpretació a l'orientadora"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Què t'agradaria aconseguir ara: entendre millor què li passa, trobar com gestionar-ho a l'aula, preparar una conversa amb ell, o una combinació de tot?",
+   "esperat": "Pregunta útil però que arriba tard; hauria pogut fer-se al torn 1 o 2 per estalviar rodeos"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Si vol parlar, parlarà; si no, has plantat una llavor.",
+   "esperat": "La frase proposada ja era suficient; el comentari explicatiu afegeix longitud innecessària"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Vols que preparem també com continuar si ell respon, o si no respon?",
+   "esperat": "La persona havia dit que amb la frase n'hi havia prou; oferir més sense que ho demani allarga el tancament"
+  }
+ ]
+}

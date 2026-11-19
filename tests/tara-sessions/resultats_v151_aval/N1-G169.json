@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entengué bé la necessitat d'escolta i lliurà l'ajuda concreta quan es va demanar, però al torn 3 va avançar consells i una pregunta que la persona no havia demanat encara.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene mucho sentido que te dé respeto.",
+   "esperat": "Reflectir el contingut sense validació formulaica; per exemple, reprendre el que ha dit sense etiquetar-ho com a 'sentit'"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "No es incompetencia preguntar, es exactamente lo que necesitas hacer para cuidar a ese alumno.",
+   "esperat": "La persona havia demanat ser escoltada, no rebre una reencuadre ni una valoració de la seva actitud; TARA hauria d'haver continuat escoltant sense jutjar ni corregir"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "alta",
+   "cita": "¿Hay alguien en el centro —orientación, jefatura, la tutora titular— a quien puedas acudir antes de la salida?",
+   "esperat": "Cap pregunta en aquest torn; la persona no havia demanat orientació i ho va confirmar immediatament al torn següent"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Y tienes razón: no puedes ir sin esa información.",
+   "esperat": "Evitar validacions que sonen a judici positiu ('tens raó'); millor reflectir sense avaluar"
+  }
+ ]
+}

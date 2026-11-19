@@ -1,0 +1,34 @@
+{
+ "C1": 2,
+ "C2": 1,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre el que necessitava la Laia, però al torn 1 va anteposar una explicació dels seus límits abans de lliurar l'ajuda concreta, quan la persona havia demanat directament un protocol i TARA podia haver ofert el missatge de seguida.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Puc ajudar-te a preparar la conversa amb les persones que han de donar-te aquest protocol, i a organitzar la informació que ja tens, però el protocol mèdic concret per a aquest alumne ha de venir de professionals sanitaris i de la família, no de mi.",
+   "esperat": "Reconèixer l'emoció en una frase i oferir directament l'esborrany del missatge a la família, sense justificar primer els límits del canal"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "El que sí puc fer ara mateix: Ajudar-te a moure't ràpid aquests tres dies. Les preguntes clau que hauries de tenir respostes abans de sortir: [llista de quatre punts] Si no tens res d'això, la persona de referència ara és l'orientadora o la infermeria del centre...",
+   "esperat": "Lliurar directament l'esborrany del missatge o, com a màxim, una pregunta breu per confirmar a qui va dirigit, sense desplegar una llista de preguntes prèvies no demanades"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Vols afegir-hi alguna cosa o tens alguna altra gestió pendent per acabar de preparar la sortida?",
+   "esperat": "Tancar el torn sense preguntar si hi ha més gestions; la persona ja havia dit que tenia el que necessitava o podia dir-ho ella mateixa"
+  }
+ ]
+}

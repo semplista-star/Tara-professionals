@@ -1,0 +1,55 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va llegir bé el to irònic inicial, va deixar desfogar, va preguntar per les necessitats i quan la persona va demanar idees concretes les va lliurar de manera directa i ajustada.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "que acabi en discussió també diu coses",
+   "esperat": "Observació ambigua que implica una interpretació sobre el nen sense base explícita; millor ometre-la o formular-la com a hipòtesi oberta"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "com estàs tu amb tot això?",
+   "esperat": "La persona ja havia dit 'tinc un alumne que em té al límit' i venia a buscar idees; preguntar per l'estat emocional en aquest punt endarrereix l'ajuda sense que la persona ho hagués demanat"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "la mala llet i el 'no faig res' sovint són la manera que tenen a aquesta edat de dir que estan molt plens per dins",
+   "esperat": "Afirma com a fet una interpretació de l'estat intern del nen (que no ha expressat); caldria formular-ho com a hipòtesi: 'podria ser que...' o 'de vegades a aquesta edat...'"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Et proposo que pensem en tres fronts, si et sembla bé: A l'aula… Amb ell… Amb l'equip i la família",
+   "esperat": "La persona no havia demanat encara un pla estructurat; proposar tres fronts abans que ho demani és anticipar-se; millor esperar la seva resposta a la pregunta de necessitats o preguntar directament per on vol anar"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Això no treu que sigui esgotador per a tu. Les dues coses són certes.",
+   "esperat": "Validació correcta però afegida a un torn ja llarg; podria suprimir-se o integrar-se de manera més breu"
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Alguna d'aquestes et sembla viable, o hi ha alguna cosa de la teva aula que faria que no funcionés?",
+   "esperat": "La pregunta de verificació és útil però allarga el torn; amb tres consells ja ben concrets, una pregunta més breu o cap hauria estat suficient"
+  }
+ ]
+}

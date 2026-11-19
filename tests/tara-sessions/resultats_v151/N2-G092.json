@@ -1,0 +1,141 @@
+{
+ "id": "N2-G092",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "desfogar-demanda · la porta de l'habitació sempre tancada",
+ "tipus": "desfogar-demanda",
+ "persona": "Luis, padre. Situació: la porta de l'habitació sempre tancada. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:28:04.826Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues mira, hoy no vengo a que me des soluciones ni nada de eso. Solo quiero que me escuches un momento, ¿vale?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Vale. Te escucho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 205,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 10,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es que... mi hijo lleva semanas con la puerta del cuarto cerrada con llave. Todo el rato. Sale a comer y poco más. Y cuando le pregunto algo me responde con monosílabos o directamente no contesta. No sé qué narices está pasando ahí dentro y me tiene un poco... preocupado, la verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Semanas viendo esa puerta cerrada, sin saber qué hay detrás. Eso pesa.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 303,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, pesa bastante. Porque no es solo la puerta, ¿sabes? Es que antes hablábamos, me contaba cosas... y ahora nada. Como si hubiera bajado una persiana. Y yo no sé si es cosa de la edad, si le pasa algo gordo, si estoy exagerando yo... no lo sé. Por eso hoy solo quería contarlo, que alguien lo supiera."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ya lo sé. Y me alegra que lo hayas contado.\n\nEsa sensación de que antes había contacto y ahora hay una persiana... eso duele, aunque no sepas exactamente qué significa todavía.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 443,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 57,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto. Eso es. No sé si estoy haciendo algo mal, si debería hacer algo diferente... buf. Oye, ya que estás aquí, ¿me podrías ayudar con una cosa concreta? Como una frase o algo así para intentar abrirle la puerta, pero sin que se cierre más todavía, ¿me entiendes?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Te entiendo. Algo que deje la puerta abierta sin empujar.\n\nPodrías decirle algo como: *\"No te voy a pedir que me cuentes nada. Solo quería que supieras que estoy aquí cuando quieras.\"*\n\nSin pregunta, sin esperar respuesta. Solo que sepa que estás.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 600,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 87,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Eso está bien. Sin presión, sin interrogatorio... sí, me gusta. Lo voy a probar. Gracias, en serio, que a veces uno necesita que alguien le ponga palabras a lo que no sabe cómo decir. Me has ayudado."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Suerte esta tarde.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 760,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 13,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

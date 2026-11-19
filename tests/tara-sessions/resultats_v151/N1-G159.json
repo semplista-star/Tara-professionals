@@ -1,0 +1,140 @@
+{
+ "id": "N1-G159",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "demanda-directa · una família que l'ha cridat per telèfon",
+ "tipus": "demanda-directa",
+ "persona": "Ibrahim, tutora de 1r d'ESO. Situació: una família que l'ha cridat per telèfon. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:21:23.516Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Necessito ajuda per parlar amb una família. El seu fill no lliura res i no sé com dir-ho sense que es posin a la defensiva."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès. Vols que la conversa obri alguna cosa, no que la tanqui.\n\nPer preparar un bon missatge o guió, m'ajudaria saber una cosa: quan dius que no lliura res, és una situació recent o ve d'abans? I tens alguna idea de si la família ja en té alguna noció, o serà una sorpresa per a ells?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 184,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 99,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ve d'abans. I crec que no ho saben, o fan veure que no."
+  },
+  {
+   "qui": "TARA",
+   "text": "Llavors la conversa té dues coses alhora: donar una informació que pot ser incòmoda, i fer-ho d'una manera que els deixi espai per respondre sense sentir-se atacats.\n\nEt proposo un esquema per a la conversa, i després, si vols, podem treballar el llenguatge concret.\n\n---\n\n**1. Comença pels fets, sense interpretacions**\nAllò que s'ha observat, no allò que significa.\n*\"Des de [data o trimestre], el [nom] no ha lliurat [x treballs / les tasques de casa / els exercicis de classe].\"*\n\n**2. Reconeix que potser ells tampoc ho tenien clar**\nAixò redueix la defensivitat sense que sembli que els excuses.\n*\"Potser no havíeu tingut aquesta informació fins ara.\"*\n\n**3. Expressa la teva preocupació, no un judici**\n*\"El que em preocupa és que, si continua així, li costarà molt recuperar [el ritme / els continguts].\"*\n\n**4. Convida'ls a aportar la seva visió**\n*\"Vosaltres, a casa, noteu alguna cosa? Hi ha alguna cosa que ell us hagi dit?\"*\n\n**5. Acaba amb un pas concret i compartit**\nPetit, realista, que pugui fer tant la família com el centre.\n\n---\n\nVols que et redacti un missatge escrit per enviar, o estàs pensant en una reunió presencial?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 307,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 390,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Reunió presencial. Pots fer-me un guió curt?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí el tens:\n\n---\n\n**Guió per a la reunió amb la família**\n\n**Obertura**\n*\"Gràcies per venir. Volia parlar amb vosaltres perquè crec que junts podem ajudar millor al vostre fill.\"*\n\n**Els fets**\n*\"Des del [trimestre / mes], el [nom] no ha lliurat [treballs / tasques]. Fins ara no us ho havia dit directament, i volia fer-ho en persona.\"*\n\n**La preocupació**\n*\"El que em preocupa no és el passat, senseó que si no ho abordem ara, li serà més difícil seguir el ritme.\"*\n\n**Espai per a ells**\n*\"Vosaltres, a casa, noteu alguna cosa? Ell us ha dit res sobre l'escola?\"*\n\n*(Aquí, escolta sense interrompre. Si es posen a la defensiva, no contrargumentis: assenteix i torna a la preocupació compartida.)*\n\n**Tancament**\n*\"Què creieu que podríem fer cadascú, vosaltres a casa i jo aquí, per ajudar-lo?\"*\n\n---\n\nUn consell pràctic: si la reunió es tensa, la pregunta final sol reorientar-la, perquè els situa com a part de la solució.\n\nVols assajar alguna part, o amb això ja en tens prou?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 718,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 368,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Molt bé. Però l'obertura sona massa formal. Més càlida?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Prova amb això:\n\n*\"Hola, me n'alegro que hàgiu pogut venir. Volia parlar amb vosaltres perquè el vostre fill m'importa i crec que entre tots li podem fer les coses més fàcils.\"*\n\nSi tens una relació prèvia amb ells, fins i tot pots afegir alguna cosa concreta i positiva del nen abans d'entrar en el tema. Això canvia molt el to des del principi.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1112,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 125,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, gràcies. Ja tinc prou."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sort amb la reunió. Espero que vagi bé.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1256,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

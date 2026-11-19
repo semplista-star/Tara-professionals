@@ -1,0 +1,206 @@
+{
+ "id": "N2-G152",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "desfogar-demanda · el menjar i les baralles a taula",
+ "tipus": "desfogar-demanda",
+ "persona": "Ana, mare. Situació: el menjar i les baralles a taula. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:31:52.012Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Avui, si us plau, només necessito que m'escoltis."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estic. Explica'm el que vulguis.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 186,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 19,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. És sobre els àpats en família. Cada vegada que ens asseiem a taula, acaba en discussió. Els nens no volen menjar, jo insisteixo, el meu marit intervé, i al final ningú acaba content. Em sento molt cansada d'aquesta situació."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cada àpat acaba en tensió, i tu surts esgotada. Té sentit que estiguis cansada d'això.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 288,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactament. I el pitjor és que ja ho veig venir abans de seure. Ja arribo a taula tensa, i suposo que això tampoc ajuda. Però no sé com trencar aquest cercle."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ja arribes tensa abans que comenci res. És molt honest reconèixer-ho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 386,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. I a vegades penso que soc jo qui ho complica tot, però tampoc no és just per a mi mateixa pensar-ho sempre. És una situació difícil per a tothom."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó en les dues coses: ni tot és culpa teva, ni la situació és fàcil. Les dues coses poden ser certes alhora.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 464,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 43,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, és just el que sento. Bé, ara que m'has escoltat... em podries ajudar amb una cosa concreta? Necessito saber com podria començar a canviar alguna cosa petita, un primer pas, res massa gran."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar. Aquí tens tres opcions petites; tries la que et sembli més assequible:\n\n**1. Canviar una cosa abans de seure.** Fer una pausa d'un minut per a tu sola abans de cridar a taula — respirar, soltar la tensió del cos — perquè no arribes ja carregada.\n\n**2. Canviar una cosa durant l'àpat.** Decidir d'avançada que, si comença la tensió amb el menjar, deixes passar un moment sense dir res, sense insistir. Només un moment.\n\n**3. Parlar-ne fora de l'àpat.** Triar un moment tranquil per dir al teu marit com et sents, sense els nens davant, i veure si podeu acordar com actuar junts a taula.\n\nAlguna d'aquestes et ressona?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 573,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 221,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies, però... t'he demanat un primer pas, una cosa senzilla. Tantes opcions em fan sentir una mica aclaparada. Potser em pots dir tu quina creus que seria la més fàcil per començar?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, ho he complicat massa.\n\nLa pausa d'un minut abans de seure. Només això. Abans de cridar a taula, un moment per a tu.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 862,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 48,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Això sí que ho puc fer. Gràcies, de veritat. M'has escoltat i m'has donat alguna cosa concreta sense aclaparar-me. Avui ja n'hi ha prou amb això."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit. Bona sort amb aquell minut.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 970,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. Fins aviat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Fins aviat. Cuida't.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1009,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

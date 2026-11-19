@@ -1,0 +1,55 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va entendre des del principi que el pare volia preparar una conversa i va centrar tota l'ajuda en això, acceptant la correcció sobre la llargada sense insistir.",
+ "problemes": [
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Tens la sensació que no arribes a ella.",
+   "esperat": "Reformular sense atribuir un estat intern no expressat, p. ex. «Cada intent acaba en conflicte»"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "No hi ha manera de garantir que no s'enfadi, però sí que pots canviar com comences la conversa perquè ella se senti menys atacada.",
+   "esperat": "Donar el consell directament sense el preàmbul que implica que la persona no ho havia pensat bé"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "La clau és partir del que tu sents i necessites, no del que ella fa malament. Alguna cosa així: [...] Així no és una acusació, és una porta oberta. Ella pot respondre com vulgui, però no té res a defensar-se directament.",
+   "esperat": "Proposar la frase i preguntar si sona com ell, sense l'explicació teòrica de CNV que la persona no va demanar"
+  },
+  {
+   "torn": 6,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tens raó.",
+   "esperat": "Acceptar la correcció i donar la versió curta sense validació formulaica"
+  },
+  {
+   "torn": 7,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Sovint funciona millor que insistir.",
+   "esperat": "Donar la resposta possible sense afegir el judici sobre l'eficàcia comparada"
+  },
+  {
+   "torn": 8,
+   "categoria": "altres",
+   "gravetat": "baixa",
+   "cita": "Espero que puguis parlar-hi aviat.",
+   "esperat": "Tancament neutre sense expressió de desig personal que simula apego («Espero»)"
+  }
+ ]
+}

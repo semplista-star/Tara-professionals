@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA capta bé el fil emocional i s'adapta quan la persona la corregeix, però s'avança a oferir solucions al torn 4 sense que la persona les hagi demanat, i al torn 7 valida la lectura de la situació com a «coherent i detallada» quan la persona només demanava no sentir-se sola.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Sabes algo de qué está detrás de la tensión entre esos dos grupos? ¿Es algo que viene de fuera del centro, de dentro, de algo que pasó?",
+   "esperat": "La persona acaba d'arribar i necessita ser escoltada; una pregunta oberta o silenci actiu hauria estat suficient en aquest primer torn"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Lo que describes tiene bastante forma: tensión que viene de antes, un momento concreto que la cristalizó, y dos personas que la sostienen viva. Eso ya es mucho más que «ambiente malo en el patio», es algo con estructura.",
+   "esperat": "Reformular sense etiquetar ni analitzar; la persona no havia demanat que TARA interpretés l'estructura del conflicte"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "la lectura que haces, que es más una performance grupal que un odio personal, me parece bastante afinada",
+   "esperat": "Acollir la reflexió sense jutjar-la com a «afinada»; una reformulació neutra evita el to avaluador"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Una cosa concreta: hablar con el otro tutor no es montar un drama, es hacer exactamente lo que se supone que hay que hacer cuando un conflicto cruza grupos. Y si él no lo ve igual, eso también es información útil, no una derrota. ¿Qué te impediría escribirle hoy, algo informal, solo para tantear si él también lo está viendo?",
+   "esperat": "La persona no havia demanat un pla d'acció; TARA hauria d'haver continuat escoltant i deixar que la persona marqués el ritme"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Lo que describes, tensión que escala, un momento que la cristalizó, dos personas que la sostienen, un patrón que cambia según el contexto, eso es una lectura coherente y detallada. No es la lectura de alguien que magnifica.",
+   "esperat": "La persona demanava sentir-se acompanyada, no una avaluació de la qualitat de la seva anàlisi; bastar amb «el que veus, ho veus» sense qualificar-ho de «coherent i detallada»"
+  },
+  {
+   "torn": 7,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "cuando llevas semanas nombrando algo y nadie lo recoge, acabas dudando de ti mismo. No es que hayas perdido el criterio. Es que lo has estado ejerciendo solo, sin eco, y eso desgasta.",
+   "esperat": "Reformular el que la persona ha dit sense afegir una explicació causal que ella no ha formulat"
+  },
+  {
+   "torn": 8,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Lo que hace esa frase: reconoce su situación sin atacarle, pide algo concreto con fecha, y pone sobre la mesa las consecuencias sin amenazar.",
+   "esperat": "La persona havia demanat «una frase, algo»; el comentari meta-analític sobre el que fa la frase no era necessari i allarga la resposta"
+  }
+ ]
+}

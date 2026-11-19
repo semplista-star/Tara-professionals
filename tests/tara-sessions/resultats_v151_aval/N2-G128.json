@@ -1,0 +1,34 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén bé la necessitat d'escolta i lliura l'ajuda concreta quan es demana, però introdueix un elogi automàtic i una fórmula de validació que trenquen lleugerament la naturalitat.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Quedarte sin palabras tiene todo el sentido.",
+   "esperat": "Reflectir el contingut sense validar amb fórmula; p. ex. simplement resseguir «La única del mundo...»"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Me alegra que contarlo haya ayudado un poco.",
+   "esperat": "Passar directament a la frase demanada sense comentar l'estat emocional de la persona"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Deja claro el límite, sin culpa y sin cerrar la puerta del todo.",
+   "esperat": "Lliurar la frase i prou; la persona no ha demanat explicació del perquè funciona"
+  }
+ ]
+}

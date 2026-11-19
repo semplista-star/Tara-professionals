@@ -1,0 +1,162 @@
+{
+ "id": "N1-G154",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "humor · la pressió de direcció per les notes",
+ "tipus": "humor",
+ "persona": "Óscar, directora. Situació: la pressió de direcció per les notes. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:38:54.492Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara! Mira, soc director d'escola i avui m'he adonat que tinc més pressió que un expresso de bar de carretera. 😄"
+  },
+  {
+   "qui": "TARA",
+   "text": "Jaja, la imatge és molt precisa. 😄\n\nDoncs aquí tens espai. Pressió de quin tipus, avui? Mil fronts alhora, alguna cosa concreta que no para de voltar, o una altra cosa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 188,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Concreta concreta. És el tema de les notes dels alumnes. Des de dalt em demanen que els resultats \"millorin\" i jo aquí pensant: sí, clar, com si les notes fossin un soufflé que puc inflar a voluntat. 😅"
+  },
+  {
+   "qui": "TARA",
+   "text": "La metàfora del soufflé és molt bona. 😄\n\nI entenc la tensió: et demanen resultats com si depenguessin d'un botó, i tu saps que darrere de cada nota hi ha una realitat molt més complexa.\n\nQuè t'estaria ajudant més ara mateix: pensar com respondre a aquesta pressió des de dalt, o tenir eines per explicar-los la situació des d'una altra perspectiva?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 323,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 115,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Les dues coses estan molt relacionades, però si he de triar... el que em mata és no saber com explicar-los que les notes no reflecteixen tot el que fem. Tenim alumnes que han avançat una barbaritat però els números no ho mostren. I em sento una mica sol defensant això davant l'equip directiu superior."
+  },
+  {
+   "qui": "TARA",
+   "text": "Això que dius és molt concret i té molta força: hi ha un avenç real que els números no capturen, i tu estàs sol sostenint-ho davant de qui demana els números.\n\nPer ajudar-te a preparar aquesta conversa, necessito entendre una mica més. Quan dius que els alumnes han avançat una barbaritat, de quin tipus d'avenç parles? Competencial, emocional, de participació... o una barreja?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 525,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 120,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Una barreja total. Tenim canalla que l'any passat no obrien la boca i ara participen, nens que tenien conflictes constants i ara gestionen millor les seves emocions... però clar, tot això no surt al full de notes. I a dalt el que veuen és un 4 i punt."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí. Un 4 no explica que aquell nen ara aixeca la mà.\n\nTens evidències d'aquests avenços recollides en algun lloc, encara que sigui de manera informal? Anotacions de tutors, observacions, alguna cosa que et permeti posar exemples concrets sobre la taula quan parlis amb ells?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 88,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, algunes coses sí, però no de manera sistemàtica. Cada tutor fa la seva i no ho tenim centralitzat. Que és precisament el problema, no? Que quan arriba el moment de defensar-ho no tinc res a la mà i semblo el típic director que s'inventa excuses. 😅 M'agradaria tenir alguna idea de com recollir això d'una manera que no sigui un infern burocràtic per als mestres."
+  },
+  {
+   "qui": "TARA",
+   "text": "Exacte, i no és una excusa: és una realitat que no tens documentada, que és diferent.\n\nDues idees senzilles que no afegeixen gaire càrrega:\n\n1) Una graella trimestral per tutor, amb tres o quatre indicadors observables i pactats entre tots: participació, gestió emocional, relació amb iguals... Cinc minuts per alumne, un cop al trimestre. No és un informe, és un registre.\n\n2) Una carpeta compartida, digital o física, on cada tutor deixa una nota breu quan passa alguna cosa significativa. No cada dia, només quan hi ha un moment que val la pena recordar. Amb el temps, aquelles notes es converteixen en el relat de l'avenç.\n\nEl clau és que ho decidiu junts quins indicadors compten, perquè si ho imposes tu sol tampoc funcionarà.\n\nAmb això, quan arribes a la reunió de dalt, no parles d'impressions: parles de dades qualitatives recollides de manera sistemàtica. Canvia molt com sona.\n\nT'és útil això, o necessites que ho concretem més?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 935,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 288,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, molt útil! La de la carpeta compartida m'agrada especialment perquè és lleugera. Mira, amb això ja tinc per on tirar. Gràcies Tara, que ja era hora que algú m'ajudés a posar ordre en aquest caos... i sense cobrar-me teràpia. 😄"
+  },
+  {
+   "qui": "TARA",
+   "text": "😄 El soufflé, la teràpia... avui has vingut amb tot.\n\nBona sort amb la conversa de dalt. Ja tens arguments i ara també una manera d'anar construint les evidències. Endavant.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1312,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 73,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

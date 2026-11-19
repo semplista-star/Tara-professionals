@@ -1,0 +1,140 @@
+{
+ "id": "N1-G151",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "mixta · un alumne que diu que vol canviar de grup",
+ "tipus": "mixta",
+ "persona": "Xavi, tutor de 4º de ESO. Situació: un alumne que diu que vol canviar de grup. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:20:42.335Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uf, mira, estoy un poco harto la verdad. Tengo un alumno, el Dani, que lleva semanas diciéndome que quiere cambiar de grupo y yo no sé muy bien cómo hablar con él sin que se me vaya la situación de las manos. ¿Me puedes ayudar a preparar qué decirle?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Te ayudo a preparar esa conversación.\n\nAntes de darte un guión, una sola pregunta que cambia bastante cómo enfocarlo: ¿sabes qué hay detrás de su petición? ¿Te ha dicho algo concreto —un conflicto, alguien en el grupo, que se siente mal allí— o de momento solo insiste en que quiere cambiar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 229,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 107,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Me ha dicho algo de que no se lleva bien con unos compañeros, pero vago vago. No sé si es un problema gordo de verdad o si es de esas cosas que con el tiempo se pasan solas. El caso es que yo necesito saber qué decirle la próxima vez que me lo pida, que seguro que es mañana mismo jaja."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecto, con eso ya tengo suficiente para ayudarte.\n\nTe propongo una conversación en dos movimientos:\n\n**Primero: escuchar para entender qué hay de verdad**\nAntes de responder a la petición del cambio, abrirle un poco la puerta. Algo como:\n\n> *\"Dani, me has dicho varias veces que quieres cambiar de grupo. Quiero entenderte bien antes de decirte nada. ¿Qué está pasando con esos compañeros?\"*\n\nY dejar silencio. Sin rellenar. Lo que diga ahí te va a dar mucha más información que semanas de intuición.\n\n**Segundo: responder según lo que cuente**\nDependiendo de lo que salga, tienes dos caminos muy distintos:\n\n- Si es algo puntual o difuso → puedes explorar con él qué necesita realmente, y si el cambio de grupo es la única solución o hay otras.\n- Si aparece algo más serio —exclusión sistemática, algo que suene a acoso— ya no es solo una tutoría: necesitarías activar el protocolo del centro.\n\n---\n\nUna cosa práctica: si mañana no tienes tiempo para una conversación tranquila, puedes decirle simplemente:\n\n> *\"Dani, quiero hablar contigo de verdad sobre esto. Dame hasta [día concreto] y lo hacemos bien.\"*\n\nEso le dice que le estás tomando en serio, sin que tengas que improvisar.\n\n¿Quieres que ensayemos cómo responder si dice algo concreto que te preocupe, o con esto tienes suficiente para mañana?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 431,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 421,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, está bien esto, pero me lo has dado muy estructurado y yo con Dani no puedo ir con un guión así, que me conoce jaja. ¿Me lo puedes decir de forma más natural, como si fuera una conversación de pasillo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, mucho mejor así.\n\nAlgo como: *\"Dani, oye, ¿qué está pasando con esos del grupo? Cuéntame.\"* Y ya. Sin más introducción.\n\nSi se queda corto o vago, puedes tirar del hilo con un *\"¿Y eso desde cuándo?\"* o un *\"¿Qué es lo que más te fastidia?\"* — preguntas cortas que no parecen interrogatorio.\n\nY si mañana no tienes el momento, un *\"Tío, quiero escucharte bien, pero ahora no puedo. ¿Quedamos el jueves?\"* ya le dice que va en serio.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 920,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 174,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecto, así sí me veo yo. Muchas gracias, esto ya me sirve."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Suerte mañana con Dani.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1121,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias, la voy a necesitar jaja. Hasta luego!"
+  },
+  {
+   "qui": "TARA",
+   "text": "¡Hasta luego!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1160,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 20,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

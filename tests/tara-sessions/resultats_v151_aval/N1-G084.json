@@ -1,0 +1,34 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va seguir l'humor, va preguntar si volia desfogar-se o una idea concreta, i quan Ana va demanar la proposta la va lliurar de manera directa i aplicable.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Antes de darte una propuesta, una sola pregunta: ¿sabes qué quiere cada familia concretamente —disculpa, medida disciplinaria, que los niños se separen— o todavía no está claro?",
+   "esperat": "Ana ja havia dit que necessitava una idea concreta; la pregunta és útil però podria haver-se integrat com a hipòtesi dins la proposta, sense aturar el lliurament un torn més"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Antes de que entren / Apertura — tú marcas el terreno / En la reunión / El cierre",
+   "esperat": "L'estructura és valuosa però quatre blocs amb subbullets i frases model supera el que Ana va demanar ('una idea concreta'); podria ser més compacta"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "con veinte años de ring, esto lo tienes",
+   "esperat": "Un tancament càlid sense avaluar la capacitat de la persona; per exemple: 'Mucho ánimo mañana'"
+  }
+ ]
+}

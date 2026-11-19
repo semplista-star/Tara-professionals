@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre que Rosa volia opcions concretes i les va lliurar bé, però al torn 1 va afegir un comentari sobre la germana i el marit que no li havia demanat, i va usar fórmules de validació repetides.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que no sàpigues per on agafar-ho.",
+   "esperat": "Ometre la validació formulaica i passar directament a les opcions, o integrar-la de manera més natural"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Molts nens de 9 anys arriben de l'escola amb el cap ple i necessiten buidar una mica abans de tornar a concentrar-se.",
+   "esperat": "Presentar la pausa com una opció a provar, sense afirmar com a fet el que necessita la Júlia"
+  },
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Sobre la teva germana i el seu marit: tu ets qui la veu cada tarda. El que funcioni a la pràctica és el que val.",
+   "esperat": "Rosa no havia demanat orientació sobre com gestionar el conflicte amb la germana i el marit; millor ometre aquest paràgraf"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Les dues poden funcionar. La diferència és que la primera aposta per reduir la tensió abans dels deures, i la segona aposta per la claredat de les expectatives.",
+   "esperat": "El resum comparatiu és redundant un cop ja s'han descrit les dues opcions; es pot suprimir"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Sí, és molt típic dels nou anys!",
+   "esperat": "Evitar generalitzacions sobre el comportament dels nens com si fossin fets establerts; centrar-se en el consell pràctic"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "M'alegra que t'hagi servit!",
+   "esperat": "Tancar sense avaluar el resultat de la conversa ni expressar alegria pròpia; per exemple, simplement desitjar-li sort"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 1,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé el que Pau necessitava a cada torn, però va afegir elements no demanats i va usar fórmules repetides que resten naturalitat",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Si necessites saber-ho amb certesa abans de continuar, et recomano preguntar-ho directament a la persona o equip que t'ha donat accés a aquesta eina. Ells podran confirmar-te les condicions reals de privacitat.",
+   "esperat": "Respondre de manera breu i honesta que no pot garantir confidencialitat i suggerir desidentificar, sense afegir la derivació no demanada"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit. I gràcies per la confiança.",
+   "esperat": "Un simple 'Endavant, t'escolto' sense la validació formulaica ni l'elogi de confiança"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Porteu un temps aguantant-ho en silenci i tu ja n'estàs farta.",
+   "esperat": "Reflectir el que Pau ha dit sense afegir 'farta' (Pau ha dit 'fins als collons' però referit a ell, no a 'farta') ni inferir que tots aguanten en silenci com a fet"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit voler parlar-hi directament primer.",
+   "esperat": "Passar directament a l'ajuda sense la validació formulaica"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Ara bé — tu la coneixes i jo no. Creus que ella respondria bé a un to directe així, o hi ha alguna cosa del context que faria que això no funcionés?",
+   "esperat": "Pau no ha demanat més exploració; un cop donada l'orientació pràctica, tancar o deixar espai sense afegir una pregunta de seguiment"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "La preocupació que es posi a la defensiva és real — passa sovint quan algú sent que l'estan jutjant.",
+   "esperat": "No generalitzar com a fet ('passa sovint') ni atribuir el mecanisme intern de la companya sense base"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Ja tens el més important.",
+   "esperat": "Tancar sense jutjar el que Pau té o no té; un simple 'Sort amb la conversa' és suficient"
+  }
+ ]
+}

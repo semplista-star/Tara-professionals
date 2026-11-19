@@ -1,0 +1,96 @@
+{
+ "id": "N1-G167",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "que-faig · una companya que no col·labora en el projecte comú",
+ "tipus": "que-faig",
+ "persona": "Toni, orientadora. Situació: una companya que no col·labora en el projecte comú. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:22:01.332Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Sí, mira, tinc un tema que em porta de cap. La Marta, una companya del departament, és com si el projecte comú no anés amb ella. Reunions? Brilla per la seva absència. Tasques? Les fa a mitges, si les fa. I jo estic aquí fent de locomotora mentre ella va de vagó. El cas és que m'han demanat que parli amb ella, però no sé si tirar pel dret i dir-li les coses clares, o anar amb més suavitat i fer veure que no m'he adonat de res... que tampoc seria del tot mentida perquè a vegades em pregunto si soc jo que m'exigeixo massa. En fi, no sé què fer, digues-m'ho tu! 😄"
+  },
+  {
+   "qui": "TARA",
+   "text": "Quina situació tan incòmoda — sentir que portes el pes i alhora dubtar de si t'estàs exigint massa tu mateixa. Les dues coses poden ser certes alhora, i això fa que sigui difícil saber per on agafar-ho.\n\nSobre el \"digues-m'ho tu\": t'ofereixo tres camins possibles, i tu tries.\n\n**1. Directa i concreta**\nLi dius el que observes, sense judicis: quines reunions ha faltat, quines tasques han quedat a mitges. L'avantatge és que és clar i ella sap exactament de què parles. El risc és que, si no hi ha relació prèvia de confiança, pot posar-se a la defensiva.\n\n**2. Curiosa primer**\nComences preguntant com ho viu ella, si té alguna dificultat amb el projecte. Potser hi ha alguna cosa que no saps — una situació personal, una discrepància sobre rols. L'avantatge és que pots descobrir informació útil. El risc és que la conversa es quedi en superfície si ella no obre.\n\n**3. Les dues coses, en ordre**\nPrimer escoltes una mica, i després poses sobre la taula el que has observat. Combina informació i claredat.\n\n---\n\nAbans de triar, una pregunta que canviaria el consell: **t'han demanat que parlis amb ella en nom del departament, o és una conversa entre companyes?** No és el mateix, i el to i el que pots dir canvia bastant.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 343,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 405,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bona pregunta! És una cosa intermèdia, que és el pitjor dels mons 😂 M'ho ha dit la cap, però de manera informal, tipus \"Toni, tu que tens bona mà amb la gent, parla-li tu\". O sigui que no és oficial però tampoc és iniciativa meva. Soc la mensajera involuntària! Però vaja, posant-me en situació... crec que tiraria pel camí número dos, el de ser curiosa primer. Perquè si resulta que té alguna cosa personal i jo arribo amb el llistat de faltes com una inspectora d'hisenda, quedo fatal. Com començaria?"
+  },
+  {
+   "qui": "TARA",
+   "text": "\"Missatgera involuntària\" — sí, és exactament això, i entenc que sigui incòmode. No has triat el rol però ara l'has de gestionar.\n\nPer començar amb curiositat, necessites una obertura que no soni a interrogatori ni a queixa disfressada de pregunta. Alguna cosa com:\n\n---\n\n*\"Marta, volia parlar una estona amb tu sobre el projecte. Com ho estàs portant tu?\"*\n\n---\n\nCurt, directe, i li dona l'espai per dir el que sigui — des de \"bé, per què?\" fins a obrir alguna cosa que no sabies.\n\nDues coses a tenir en compte quan respongui:\n\n- Si diu que tot va bé i no obre res, pots anar una mica més: *\"Pregunto perquè he notat que algunes reunions no has pogut venir, i volia saber si hi ha alguna cosa que et dificulta participar.\"* Aquí ja poses un fet concret, sense llista d'inspector.\n\n- Si obre alguna cosa personal o de dificultat, escolta primer del tot abans de dir res del que tu has viscut. Si saltes massa aviat al \"és que jo estic fent-ho tot\", es tanca.\n\n---\n\nVols assajar com podria anar la conversa? Puc fer de Marta — tu tries quin tipus de Marta: la que s'ho pren bé, la defensiva, o la que té alguna cosa al darrere que no saps.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 916,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 384,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Oooh m'encanta l'opció de la Marta misteriosa, la que té alguna cosa al darrere! Però ara mateix no tinc temps per l'assaig, que tinc una reunió en deu minuts 😅 Amb el que m'has dit ja tinc prou per arrencar. Moltes gràcies, de veritat, m'has ajudat a veure-ho més clar!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecte! Molta sort amb la Marta — i amb la reunió. Ja saps on trobar la Marta misteriosa si la necessites. 😄",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1410,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 55,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

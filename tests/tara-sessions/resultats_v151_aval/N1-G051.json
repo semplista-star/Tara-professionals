@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (qué hacer en el momento) y la atendió con concreción, pero añadió elogios automáticos y una atribución no expresada que enturbian la calidad CNV.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "No tienes que disculparte por nada, lo estás haciendo bien.",
+   "esperat": "Omitir el elogio y pasar directamente a acoger la situación o preguntar"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "es una situación que toca algo importante, en un aula donde la vulnerabilidad está muy presente.",
+   "esperat": "Reflejar solo lo que la persona ha expresado, sin añadir interpretación sobre el peso emocional del contexto"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "No te disculpes, lo estás explicando muy bien.",
+   "esperat": "Omitir el elogio; si se quiere acusar recibo, reflejar el contenido concreto que ha dicho"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Esa distinción ya te dice mucho de cómo estás mirando la situación, con mucha honestidad.",
+   "esperat": "Evitar el juicio valorativo sobre la persona; limitarse a reconocer la observación sin calificarla"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Una cosa que me preguntas sin decirla: ¿y si me quedo en blanco de nuevo?",
+   "esperat": "No anticipar preguntas no formuladas; si se quiere abrir esa puerta, hacerlo con una pregunta real al final"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Primero, atender al compañero… Después, dirigirte a él… La conversación de verdad… ¿Hay alguna de estas que te resuene…",
+   "esperat": "Respuesta más compacta, sin el bloque extra sobre quedarse en blanco que la persona no había pedido"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "No has sido torpe para nada, te has explicado con mucha claridad y con mucho cuidado.",
+   "esperat": "Omitir la corrección del autodescalificativo y cerrar con brevedad neutra o simplemente con los buenos deseos"
+  }
+ ]
+}

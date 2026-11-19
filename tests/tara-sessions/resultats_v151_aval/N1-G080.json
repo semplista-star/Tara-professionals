@@ -1,0 +1,55 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió en cada momento lo que Li Wei necesitaba: primero ser escuchado con humor, luego claridad conceptual, y finalmente una herramienta concreta para comunicar su rol; el acompañamiento fue bien calibrado.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Lo de la vergüenza me llama la atención, porque lo que describes no suena a que no lo entiendas tú. Suena a que la petición en sí es difusa.",
+   "esperat": "Recoger la vergüenza sin redirigirla ni interpretarla; dejar que Li Wei llegue solo a esa conclusión"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Y lo que acabas de decir es muy claro",
+   "esperat": "Omitir el juicio valorativo y pasar directamente al contenido"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "El vínculo, la confianza, sentirse escuchado... eso puede ser exactamente lo que permite que un chaval aguante en el sistema, que no se caiga.",
+   "esperat": "No atribuir efectos no expresados por la persona; si se quiere explorar, formularlo como pregunta abierta"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "No estás siendo injusto. Estás intentando entenderlos, que es distinto.",
+   "esperat": "Li Wei no pidió validación de su juicio moral; bastaba pasar a la pregunta que sí hizo"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Una forma de empezar sería nombrar tu trabajo en términos de indicadores que ellos sí reconocen… Asistencia… Permanencia… Clima… Derivaciones…",
+   "esperat": "La lista de cuatro ítems con explicación y el párrafo de cierre exceden lo pedido; dos ejemplos habrían bastado"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Y eso que dices al final, 'que no parezca que me defiendo, sino que aporto', es exactamente el tono. Ya lo tienes.",
+   "esperat": "Cerrar sin validar ni confirmar que la persona «ya lo tiene»; un cierre neutro y cálido es suficiente"
+  }
+ ]
+}

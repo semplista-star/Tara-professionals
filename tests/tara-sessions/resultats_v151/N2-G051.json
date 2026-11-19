@@ -1,0 +1,184 @@
+{
+ "id": "N2-G051",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "jerga · un fill que menteix sovint",
+ "tipus": "jerga",
+ "persona": "Marta, padre separado con custodia de fines de semana alternos. Situació: un fill que menteix sovint. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:26:26.909Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, vengo porque tengo un problema con mi hijo. Tiene doce años y últimamente me miente constantemente. Le pregunto cosas sencillas, cómo le ha ido en el cole, si ha hecho los deberes, y me da respuestas que luego resultan no ser verdad. Me siento un poco ignorado, como si no me tomara en serio. Y encima solo lo veo los fines de semana alternos, así que el tiempo que tenemos juntos es limitado y me duele que lo gastemos así, con esa distancia."
+  },
+  {
+   "qui": "TARA",
+   "text": "Que el tiempo que tenéis sea limitado y encima se llene de esa distancia... eso duele de verdad.\n\nCuando dices que te sientes ignorado, ¿es más la sensación de que no confía en ti, o de que no le importa lo que piensas?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 304,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 75,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bueno... creo que es más lo primero. No creo que no le importe, porque cuando estamos bien, se nota que le importa. Pero sí siento que no confía en mí. Como si pensara que si me dice la verdad yo voy a reaccionar mal, o que es mejor no contarme las cosas. Y eso me duele más, porque yo intento ser accesible. Pero a veces también pienso que me toreja, que me da respuestas para salir del paso y ya está."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso que describes tiene dos capas que duelen de formas distintas: una es pensar que te ve como alguien ante quien hay que protegerse, y otra es sentir que a veces simplemente pasa de ti.\n\n¿Cuál de las dos te pesa más ahora mismo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 509,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 73,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La primera, sin duda. Lo de que me vea como una amenaza, o como alguien ante quien tiene que cubrirse las espaldas. Eso es lo que más me cuesta aceptar. Porque yo no quiero ser ese padre. Prefiero que me cuente las cosas, aunque sean malas. Pero claro, no sé si él lo sabe. No sé si se lo he transmitido bien."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso que acabas de decir es importante: no sabes si él lo sabe. Porque tú lo sientes claro por dentro, pero quizás no ha llegado hasta él de una forma que pueda recibir.\n\n¿Hay algún momento reciente en que hayas reaccionado a algo que te contó, o que descubriste, y que ahora pienses que igual él lo vivió de otra manera?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 686,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 104,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, la verdad es que sí. Hace unas semanas me enteré de que había suspendido un examen y no me lo había dicho. Cuando lo descubrí me enfadé, y se lo dije. No le grité, pero sí fui bastante directo y serio. Y ahora pensándolo... igual él se quedó con el enfado y no con lo que yo quería decirle, que era que prefiero que me lo cuente él antes que enterarme por otro lado. Puede que eso le confirmara que mejor no decirme las cosas."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene mucho sentido que lo veas así ahora. Querías decirle \"confía en mí\", pero lo que él recibió fue el enfado. Y con doce años, eso es lo que se queda.\n\nLo bueno es que tú ya has hecho la parte difícil: entender qué pasó. Ahora la pregunta es si quieres hacer algo con eso cuando lo veas.\n\n¿Te gustaría preparar cómo decírselo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 933,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 120,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso es exactamente lo que necesito. Quiero decirle algo, pero que no suene a discurso ni a sermón. Que sea algo natural, que él pueda escuchar sin ponerse a la defensiva. ¿Me puedes ayudar con eso? ¿Cómo se lo digo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Algo breve, sin sermón, que abra en lugar de cerrar.\n\nPodrías decirle algo así:\n\n*\"Oye, llevo pensando en lo del examen. Creo que me salió el enfado antes que lo que de verdad quería decirte. Lo que quiero que sepas es que prefiero que me cuentes las cosas malas antes que enterarme por otro lado. No me va a gustar siempre, pero no me voy a ir a ningún sitio.\"*\n\nLa última frase es opcional, pero a veces a los chicos de su edad les ayuda escuchar eso explícitamente.\n\n¿Te suena a algo que podrías decir con tus palabras, o hay algo que no encaja?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1138,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 189,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, me gusta. Lo de \"no me voy a ir a ningún sitio\" me parece importante, la verdad. A veces no caemos en que ellos necesitan escuchar eso. Me lo quedo. Gracias, de verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Suerte con la conversación — parece que él tiene un padre que quiere entenderle, y eso cuenta mucho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1393,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. Eso espero. Hasta luego."
+  },
+  {
+   "qui": "TARA",
+   "text": "Hasta luego. Cuídate.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1451,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

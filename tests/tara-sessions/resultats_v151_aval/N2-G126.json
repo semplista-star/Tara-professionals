@@ -1,0 +1,34 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA escoltà sense intervenir fins que la persona demanà ajuda concreta, i llavors la lliurà de forma breu i aplicable.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "tiene mucho sentido",
+   "esperat": "Reflectir la rabia sense validar-la amb fórmula; p. ex. simplement repetir o silenciar"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Eso también es mucho",
+   "esperat": "Reflectir el que ha dit sense afegir valoració implícita de la seva actuació"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Así le abres la puerta sin presionar, y le haces saber que lo que siente importa",
+   "esperat": "Donar la frase concreta i parar; la persona no va demanar explicació del perquè"
+  }
+ ]
+}

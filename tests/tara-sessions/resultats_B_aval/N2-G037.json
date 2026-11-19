@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé les necessitats pràctiques de la Laia i va acompanyar el to humorístic, però va afegir validacions automàtiques i atribucions no demanades que van reduir la qualitat CNV.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "No sembla que siguis una mala mare. Sembla que t'importa molt fer-ho bé, i per això et bloqueja.",
+   "esperat": "Recollir el que ha dit sense jutjar ni reassegurar; per exemple, reflectir la tensió entre les tres preguntes obertes sense afegir un judici positiu sobre ella com a mare."
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "de vegades és una pausa mentre ho penses. Que és el que estàs fent ara.",
+   "esperat": "No atribuir una intenció o estat intern (\"pausa mentre ho penses\") que la persona no ha expressat; deixar que ella mateixa valori el que ha estat fent."
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Vols que aprengui alguna cosa real sobre els diners, però sense que la relació amb tu es torni un intercanvi de serveis.",
+   "esperat": "Formular-ho com a hipòtesi oberta (\"Sembla que vols...\", \"Si t'entenc bé...\") en lloc d'afirmar l'estat intern com a fet."
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Hi ha una distinció que potser t'ajuda a pensar-ho: hi ha coses que els nens fan perquè formen part de la família... Alguns pares ho separen així",
+   "esperat": "La Laia havia preguntat com fer-ho, però en aquell torn encara estava explicant el seu dilema; TARA podria haver verificat si volia opcions concretes abans de proposar-ne una."
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Sovint els nens processen millor si no els donem tot mastegat.",
+   "esperat": "La frase és un comentari educatiu no demanat que allarga la resposta; la proposta de guió ja era suficient i la Laia no havia demanat consell sobre com parlar amb nens en general."
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "L'únic que falta és decidir la quantitat. Tens alguna idea de per on vols moure't, o això encara és un misteri?",
+   "esperat": "La Laia havia dit que ja tenia prou per avançar; obrir un nou fil sobre la quantitat quan ella no ho havia demanat allarga la sessió innecessàriament."
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": true,
+ "entesa": "TARA va entendre que Núria necessitava orientació operativa immediata sobre el circuit de protecció, no processament emocional, i va respondre en conseqüència a cada torn.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "té tot el sentit",
+   "esperat": "Reconèixer l'alteració sense validació formulaica; per exemple: «Entenc que estàs molt alterada»"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Una cosa important: mentre es fa aquesta coordinació, algú hauria de saber on és l'alumna i que no estigui sola.",
+   "esperat": "Núria no havia demanat instruccions sobre supervisió física de l'alumna; TARA podia ometre aquest detall o esperar que Núria el demanés"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Tens accés a orientació ara mateix?",
+   "esperat": "Núria ja havia dit que sabia que no havia d'estar sola i estava decidint com actuar; la pregunta no aportava res que ella no pogués gestionar sola"
+  }
+ ]
+}

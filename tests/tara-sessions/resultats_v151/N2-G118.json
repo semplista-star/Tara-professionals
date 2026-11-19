@@ -1,0 +1,204 @@
+{
+ "id": "N2-G118",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "correccio · discussions cada nit per les pantalles",
+ "tipus": "correccio",
+ "persona": "Aina, avi. Situació: discussions cada nit per les pantalles. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:30:08.549Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, cada nit és el mateix. El meu fill de 14 anys no vol deixar el mòbil i acabem discutint. Ja n'estic tip."
+  },
+  {
+   "qui": "TARA",
+   "text": "N'estàs tip, i cada nit es repeteix el mateix. Té sentit que estiguis cansat/da d'això.\n\nQuè t'agradaria que passés diferent — la conversa amb ell, o l'acord sobre el mòbil?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 207,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 69,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Les dues coses, suposo. Però sobretot la conversa, perquè sempre acaba malament. Ell es tanca i jo acabo cridant. I llavors em sento malament."
+  },
+  {
+   "qui": "TARA",
+   "text": "Acabes cridant, ell es tanca, i després et quedes amb un mal cos. És un cercle que s'alimenta sol.\n\nQuan dius que acaba malament la conversa, com sol començar? Quin moment és el que fa que tot s'escalfi?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 329,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 71,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Normalment li dic que apagui el mòbil i ell fa que sí però no ho fa. I jo li torno a dir, i ell respon amb un \"ja, ja\" sense ni mirar-me. I aquí és quan perdo la paciència."
+  },
+  {
+   "qui": "TARA",
+   "text": "El \"ja, ja\" sense mirar-te — com si no existissis. Té sentit que en aquell moment la paciència se't acabi.\n\nVols que treballem una manera diferent d'obrir aquella conversa, abans que arribi el moment del \"ja, ja\"?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 468,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 74,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, però que sigui alguna cosa realista, eh. No em vinguis amb teories de llibre que a la vida real no funcionen."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès. Res de teories — coses que puguis dir tu, amb les teves paraules.\n\nUna opció és canviar el moment. En lloc de dir-li que apagui quan ja porta estona enganxat, parlar-hi abans de sopar o en un moment tranquil, i acordar junts a quina hora es deixa el mòbil. No com una ordre, senseó com una cosa pactada. Així quan arribi l'hora, no ets tu qui li dius — és l'acord que ja existeix.\n\nPer exemple, podries dir-li alguna cosa com: \"Mira, cada nit acabem malament amb el tema del mòbil i estic fart/a. Vull trobar una manera que funcioni per als dos. Quan el deixes tu?\"\n\nDeixa que ell proposi una hora. Potser dirà una hora massa tard — i llavors pots negociar. Però si és ell qui la diu, és més probable que la compleixi.\n\nAixò t'encaixa, o veus algun problema pràctic?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 580,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 269,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ja ho he provat, parlar en moments tranquils. I em diu una hora i després tampoc la compleix. Llavors estem igual."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar, si l'acord no es compleix, tornes al mateix punt. Parlar en calma no n'hi ha prou si després no hi ha cap conseqüència real.\n\nQuan no compleix l'hora acordada, què passa? Li dius alguna cosa, o directament s'escala?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 890,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 78,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Directament s'escala. Perquè ja estic enfadat d'entrada, de saber que tornarà a passar el mateix. I ell ho nota i ja comença defensiu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ja hi vas enfadat/da abans que passi res — i ell ja ho nota. Els dos entreu al moment amb la guàrdia posada.\n\nEl que describes té una part que potser és més fàcil de canviar que la conversa en si: la conseqüència. Si no hi ha res que passi quan no compleix l'acord, l'acord no té pes. No perquè ell sigui mal fill, senseó perquè a 14 anys els límits sense conseqüències no funcionen gaire.\n\nUna pregunta pràctica: el mòbil, qui el paga i qui controla el wifi de casa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1017,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 161,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "El mòbil l'hi paguem nosaltres i el wifi també és nostre. Però no em diguis que li talli el wifi perquè ja sé que s'enfadarà molt."
+  },
+  {
+   "qui": "TARA",
+   "text": "S'enfadarà, sí. Però la pregunta és: s'enfadar és un problema o és part del procés?\n\nNo t'estic dient que ho facis. T'estic dient que tens eines reals a la mà. La qüestió és si estàs disposat/da a sostenir el seu enfado un temps, sabent que probablement al principi anirà pitjor abans d'anar millor.\n\nHi ha dues opcions concretes:\n\n**Una:** Seguir intentant que compleixi per convicció pròpia, amb converses i acords. Té l'avantatge que no genera conflicte immediat, però ja has vist que de moment no funciona.\n\n**Dues:** Posar una conseqüència real i sostenir-la, com el wifi o el mòbil a una hora concreta. Generarà tensió al principi, però l'acord passa a tenir pes.\n\nCap de les dues és fàcil. Tu coneixes el teu fill i saps millor que jo quina té més sentit ara mateix.\n\nVols preparar com dir-li, si decideixes posar un límit clar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1231,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 291,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, no he dit que no estigui disposat a sostenir el seu enfado. No em posis paraules a la boca."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, ho he donat per fet sense que ho haguessis dit. Gràcies per corregir-me.\n\nLlavors, vols que preparem com dir-li que a partir d'ara hi haurà una conseqüència real si no compleix l'hora?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1558,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 73,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 1,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat pràctica de la Laia, però va ignorar l'humor inicial i va atribuir estats no expressats, i va afegir validacions formulaiques i elogis automàtics de manera recurrent.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "m'imagino que per tu no és gens divertit",
+   "esperat": "seguir l'humor amb naturalitat sense corregir el to ni atribuir-li un estat intern no expressat"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "No és un desastre — és una cosa que molts pares i mares troben complicada",
+   "esperat": "recollir el que ha aclarit sense minimitzar ni normalitzar de manera formulaica"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "T'expliques molt bé",
+   "esperat": "ometre l'elogi i anar directament al contingut"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Hi ha famílies que ho resolen separant les dues coses: hi ha tasques que són de tothom...",
+   "esperat": "preguntar primer si vol explorar opcions o si ja té una intuïció, abans de proposar un model concret"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit aquesta distinció per a tu",
+   "esperat": "variar la forma de verificar la comprensió en lloc de repetir la mateixa fórmula de tancament"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Una manera de començar podria ser reconèixer que fins ara no ho havíeu parlat prou [...] Vols que treballem una mica més el que li diries, o amb això ja tens prou per tirar endavant?",
+   "esperat": "lliurar l'exemple de frase sense el paràgraf introductori explicatiu, que és redundant amb el que ja s'havia dit"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "has anat trobant el que necessitaves mentre parlaves, i això té molt de mèrit",
+   "esperat": "tancar amb calidesa sense atribuir mèrit ni fer una valoració de la persona"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "has anat trobant el que necessitaves mentre parlaves",
+   "esperat": "acomiadar-se sense interpretar el procés intern de la persona com a fet"
+  }
+ ]
+}

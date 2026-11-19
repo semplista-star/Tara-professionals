@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre que Ibrahim volia opcions concretes, però al torn 1 va afegir una pregunta no demanada i al torn 3 va incloure una oferta d'assaig de rol no sol·licitada; als torns 2 i 4 va respondre bé al que la persona demanava.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Una pregunta que et pot ajudar a decidir per on començar: aquesta conducta és puntual o és un patró que es repeteix?",
+   "esperat": "Presentar les opcions amb implicacions i deixar que Ibrahim decidís sense afegir una pregunta de retorn que desplaça la responsabilitat cap a ell"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Et presento les opcions principals amb el que implica cadascuna: [...] Parlar amb ell en privat [...] Intervenir davant la classe [...] Implicar la família [...] Derivar a orientació",
+   "esperat": "La llargada és justificable pel que demanava Ibrahim, però la pregunta final allarga el torn innecessàriament"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "No és una esquiva. És que la decisió correcta depèn de coses que tu saps i jo no",
+   "esperat": "Acceptar la correcció implícita d'Ibrahim i avançar directament cap a la pregunta de context sense justificar-se"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Vols que t'ajudi a preparar la conversa amb l'alumne? Sovint és la part que fa més respecte.",
+   "esperat": "Tancar el torn amb la seqüència i esperar que Ibrahim demanés el següent pas sense anticipar-lo ni afegir una valoració emocional no expressada per ell"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Sovint és la part que fa més respecte.",
+   "esperat": "No atribuir una emoció (respecte/por) que Ibrahim no ha expressat"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Vols assajar com podria anar aquesta conversa? Puc fer el paper de l'alumne si t'és útil.",
+   "esperat": "Tancar el torn amb l'estructura demanada sense oferir un rol play no sol·licitat"
+  }
+ ]
+}

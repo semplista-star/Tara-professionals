@@ -1,0 +1,97 @@
+{
+ "id": "N2-G133",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "que-faig · un adolescent que ja no explica res",
+ "tipus": "que-faig",
+ "persona": "Fàtima, madrastra. Situació: un adolescent que ja no explica res. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:30:45.193Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tengo un problema con mi hijastro, tiene 15 años y últimamente no me cuenta nada, nada de nada. Antes por lo menos me decía algo pero ahora es como hablar con una pared. Y yo no sé si meterme más, intentar hablar con él, o dejarlo estar y que ya vendrá cuando quiera. Porque claro, tampoco soy su madre, ¿sabes? Y no quiero liarla. No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entiendo que estás en un lugar incómodo: quieres estar presente para él, pero no sabes si acercarte o dar espacio, y encima con la duda de cuál es tu lugar en todo esto.\n\nTe doy tres opciones concretas para que veas qué encaja mejor contigo:\n\n**1. Dar espacio activo**\nSeguir cerca sin exigir conversación. Estar disponible de forma natural — compartir un rato, una serie, lo que sea que ya hacíais — sin preguntar ni esperar que hable. A veces a los 15 años el silencio no es rechazo, es que necesitan saber que el adulto sigue ahí sin presión.\n\n**2. Abrir una puerta pequeña**\nDecirle algo breve y sin expectativas, algo como: *\"Oye, no sé si te apetece contarme cosas, pero si alguna vez quieres, aquí estoy.\"* Sin esperar respuesta. Solo dejar dicho que la puerta existe.\n\n**3. Hablar primero con su madre o padre**\nSi hay buena comunicación con tu pareja, comentarle lo que notas — no para que intervenga, sino para entender mejor si hay algo que está pasando que tú no ves desde fuera.\n\nLas tres pueden combinarse. Ninguna es la única correcta.\n\n¿Alguna te suena más a lo que podrías hacer tú?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 295,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 354,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, la segunda me suena bien. Eso de decirle algo corto y ya, sin montarme una película... sí, eso lo puedo hacer. Pero ¿cómo empiezo? O sea, ¿cuándo se lo digo, cómo me pongo, qué le digo exactamente? Porque si lo hago mal lo fastidio todo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien que te suene esa. Y tiene sentido querer hacerlo bien, aunque te digo ya que no hay una forma perfecta que garantice nada — lo que más pesa a los 15 años suele ser el tono, no las palabras exactas.\n\nDicho eso, aquí va algo concreto:\n\n**Cuándo:** Un momento tranquilo, sin prisa y sin que parezca que le has buscado para hablar. Puede ser en el coche, mientras coméis, o cuando coincidís en la cocina. Nada de sentarle en el sofá con cara de \"tenemos que hablar\".\n\n**Cómo:** Relajada, de pasada casi. Sin mirarlo fijo esperando reacción.\n\n**Qué decirle:** Algo así como:\n\n*\"Oye, no tienes que contarme nada. Pero si alguna vez quieres, aquí estoy.\"*\n\nY ya. Sin añadir más. Sin explicar por qué lo dices ni esperar que responda algo concreto. Si dice \"vale\" y se va, perfecto — lo ha escuchado.\n\nLo de \"fastidiarlo todo\" — entiendo que lo sientes así, pero una frase corta y sin presión difícilmente hace daño. Lo que cierra puertas suele ser lo contrario: insistir, preguntar mucho, o que note que necesitas que responda de cierta manera.\n\n¿Te ves diciéndolo así, más o menos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 370,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí me veo. O sea, en el coche lo tengo claro, que a veces vamos juntos y no hay nadie más. Lo digo de pasada y punto. Gracias, en serio, que me has ayudado a verlo más claro. Que yo sola le daba vueltas y vueltas y no llegaba a ningún lado, joder."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te haya servido. A veces solo hace falta sacarlo fuera para que se ordene solo.\n\nSuerte en el coche. 🙂",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1214,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 44,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

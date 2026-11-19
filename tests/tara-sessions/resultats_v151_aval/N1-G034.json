@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat pràctica final (redactar la consulta a inspecció) però al torn 1 va atribuir 'miedo' als mestres i al torn 2 va anticipar una solució (convèncer l'equip) que la persona no havia demanat, cosa que va provocar una correcció explícita.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "el miedo real de tu equipo",
+   "esperat": "Reflectir el que Elena va dir literalment: que els mestres diuen que no estan preparats, sense interpretar-ho com a por"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Lo que suele desbloquear a los equipos / No es solo tener a alguien — es saber exactamente qué hacer en los primeros minutos. Una sesión de formación breve, con el protocolo de Martí en mano, puede transformar el miedo en competencia.",
+   "esperat": "Elena havia preguntat com aconseguir suport sanitari; TARA no havia de derivar cap a com convèncer o formar l'equip"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Algunas vías concretas para conseguir apoyo sanitario: [...] Lo que suele desbloquear a los equipos [...]",
+   "esperat": "Resposta més breu centrada en les vies de suport sanitari, sense el bloc final sobre desbloquejar l'equip"
+  },
+  {
+   "torn": 5,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido.",
+   "esperat": "Ometre la validació formulaica i passar directament a l'ajuda pràctica"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "No es una consulta de alguien que no sabe lo que hace — es una directora que quiere actuar con base.",
+   "esperat": "Ometre el judici valoratiu; la formulació ja parla per si mateixa"
+  }
+ ]
+}

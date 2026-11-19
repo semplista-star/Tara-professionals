@@ -1,0 +1,119 @@
+{
+ "id": "N2-G040",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "demanda-directa · rebequeries a l'hora de sortir de casa",
+ "tipus": "demanda-directa",
+ "persona": "Rubén, abuela que cuida a los nietos. Situació: rebequeries a l'hora de sortir de casa. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:25:52.454Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola hija, mira que bien que estés aquí porque yo no sé qué hacer ya con estos niños. Es que cada mañana es lo mismo, que si no encuentro el abrigo, que si el otro no quiere ponerse los zapatos, que si la mochila no sé dónde está... y yo que ya tengo mis años y no puedo estar corriendo por toda la casa. El caso es que necesito que me ayudes a decirles algo, una frasecita o algo así, para que cuando llegue la hora de salir no me monten ese numerito de siempre. Algo que les diga su abuela Rubén y que funcione de verdad, ¿sabes?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué mañanas más agotadoras, con todo ese ir y venir buscando cosas y sin poder correr como antes. Se entiende que quieras que algo cambie.\n\nMe quedo con lo que pides: algo que puedas decirles tú, la abuela Rubén, que ayude a que las mañanas vayan mejor.\n\nAntes de darte una frase, una sola pregunta que me ayuda a afinar: ¿qué edad tienen los niños, más o menos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 333,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 127,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay pues mira, la mayor tiene ocho años, que esa ya sabe lo que hace y a veces creo que lo hace aposta, y el pequeño tiene cinco, que ese es un terremoto pero es que le dices algo y te mira con esos ojitos y se le olvida todo en dos segundos. Los dos juntos son la monda, te lo juro. Pero bueno, lo que más me cuesta es el momento de ponerse el abrigo y salir por la puerta, que ahí es cuando se lía todo, que si no quiero, que si espera, que si todavía no... y yo mirando el reloj porque si no llegamos tarde al cole y luego me dicen algo las maestras."
+  },
+  {
+   "qui": "TARA",
+   "text": "Con ocho y cinco años, y ese momento de la puerta que se convierte en el caos justo cuando más prisa hay... tiene todo el sentido que estés agotada.\n\nTe doy dos opciones, una para cada uno, que puedes probar:\n\n**Para el pequeño (5 años):** Los avisos con tiempo le ayudan más que la orden directa. Algo como: *«Dentro de dos minutitos nos ponemos el abrigo y salimos, ¿eh?»* — dicho con calma, un par de minutos antes. Así su cabeza ya va preparándose.\n\n**Para la mayor (8 años):** A esa edad les funciona bien sentirse responsables de algo. Podrías decirle la noche anterior: *«Mañana tú eres la encargada de que el abrigo y la mochila estén en la silla antes de cenar. Si están, mañana por la mañana no hay carreras.»* — y cumplirlo: si están, no dices nada más.\n\nLas dos juntas atacan el problema desde antes de que empiece el lío.\n\n¿Quieres que ajuste alguna de las dos, o hay algo de esto que ves difícil de hacer en tu casa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 637,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 308,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay mira, esto me gusta, sí señor. Pero es que la frase del pequeño la veo bien, eso de los dos minutitos me parece muy bueno porque ese niño necesita que le vayas avisando si no luego se pone a llorar y es peor. Pero es que la del mayor me queda un poco fría, ¿sabes? Como muy seria. Que yo con ella también quiero que se note que la quiero, que no es solo órdenes. ¿Me la puedes poner un poquito más cariñosa, más de abuela?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, con mucho gusto. Algo así:\n\n*«Cariño, mañana te dejo a ti de encargada de los abrigos y las mochilas, que tú ya eres mayor y sé que puedes. Si están en la silla antes de cenar, mañana nos vamos tranquilas las dos. ¿Me ayudas?»*\n\nEse «¿me ayudas?» al final lo cambia todo — no es una orden, es ella contigo.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1092,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 125,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay esto sí, esto sí que me gusta mucho. Ese \"¿me ayudas?\" al final es precioso, que así se siente importante la niña y no que la estoy regañando. Mira, me lo voy a apuntar ahora mismo en un papelito que si no se me olvida, que ya sabes cómo estamos las abuelas con la memoria. Muchas gracias hija, de verdad, que me has ayudado un montón. Mañana lo pruebo y ya te contaré cómo ha ido."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra mucho que te haya servido. Apúntalo bien en ese papelito, y mucha suerte mañana con los dos.\n\nYa verás cómo con esos ojitos del pequeño y la mayor sintiéndose importante, las mañanas van a ir un poquito mejor. ¡Ánimo, abuela Rubén!",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1359,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 91,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

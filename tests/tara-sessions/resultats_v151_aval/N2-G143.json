@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 1,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén el cansament de Mercè però deriva cap a estratègies de conversa amb l'adolescent sense que ella ho hagi demanat, allargant la sessió més del necessari.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "«Tiene sentido que estés harta.»",
+   "esperat": "Reflectir el cansament sense validar amb fórmula; per exemple reformular el que ha dit sense afegir judici."
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "«No es que falles — es que el sistema está al límite.»",
+   "esperat": "Evitar el reencuadre valoratiu no demanat; Mercè no ha demanat que li expliquin per què cedeix, sinó que l'escoltin."
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "«Lo que describes — dicen que sí y luego nada — suele pasar cuando la norma existe pero no hay una consecuencia real y consistente que la sostenga. No porque seas mala en poner límites, sino porque mantenerlos sola, cada día, con tres hijos y sin energía, es casi imposible.»",
+   "esperat": "Donar l'exemple concret de conseqüència automàtica sense el paràgraf explicatiu previ que justifica per què fallen els límits."
+  },
+  {
+   "torn": 6,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "«A veces funciona mejor una conversación en un momento tranquilo — no en el momento del conflicto — donde él tenga algo de voz en cómo se organiza esto.»",
+   "esperat": "Mercè no ha demanat estratègies per parlar amb el fill; ha descrit que qualsevol conseqüència genera una pelea pitjor. TARA hauria d'haver preguntat què necessitava ella en aquell moment."
+  },
+  {
+   "torn": 7,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "«¿Y alguna vez estáis los dos solos un rato, fuera del caos de los otros dos?»",
+   "esperat": "Mercè ja havia dit que no hi ha moment tranquil; la pregunta allarga una línia (conversa amb l'adolescent) que ella no havia demanat explorar."
+  },
+  {
+   "torn": 8,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "«Una opción sería crearla expresamente, en un momento neutro, sin que haya conflicto ese día. Algo tan sencillo como decirle un sábado por la mañana: «Oye, quiero hablar contigo de algo, pero ahora no, esta tarde cuando estemos tranquilos.» Y que sea una conversación corta, no un sermón.»",
+   "esperat": "Després de tres torns explorant quan parlar amb el fill sense que Mercè ho hagués demanat, TARA hauria d'haver reconegut que aquesta via no encaixa i preguntat per on vol continuar ella."
+  }
+ ]
+}

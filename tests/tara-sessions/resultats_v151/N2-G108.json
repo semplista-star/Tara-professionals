@@ -1,0 +1,184 @@
+{
+ "id": "N2-G108",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "desfogar-demanda · uns amics del fill que no li agraden",
+ "tipus": "desfogar-demanda",
+ "persona": "Mercè, madrastra. Situació: uns amics del fill que no li agraden. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:29:15.284Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Bueno, no sé si molesto… es que hoy solo necesito que alguien me escuche, si no te importa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estoy. No molestas.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 201,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias, de verdad. Es que… bueno, es sobre mi hijastro. Tiene unos amigos nuevos que no me gustan nada, y no sé, me tiene muy preocupada. Perdona si es una tontería."
+  },
+  {
+   "qui": "TARA",
+   "text": "No es ninguna tontería. Preocuparte por él es exactamente lo que hace alguien que le importa.\n\nCuéntame lo que quieras.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 278,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 44,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es que… no sé cómo explicarlo bien. Son chicos que no me transmiten buena energía, ¿sabes? Y mi hijastro llega tarde, está más distante… Pero claro, yo soy la madrastra, no sé si tengo derecho a decir nada. A veces pienso que me estoy metiendo donde no me llaman. Perdona, es que es un lío todo."
+  },
+  {
+   "qui": "TARA",
+   "text": "No te disculpes, tiene sentido que sea un lío.\n\nLo que describes —que llega tarde, que está más distante— eso lo estás viendo tú. Y la preocupación que sientes es real, venga de donde venga el vínculo.\n\n¿Qué es lo que más te pesa ahora mismo: lo que está pasando con él, o la duda de si tienes derecho a hacer algo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 428,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 106,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Las dos cosas, pero… mira, no quiero que me des consejos todavía, si no te importa. Solo quería contarlo. Es que en casa no puedo hablar de esto sin que se monte un lío, y necesitaba decírselo a alguien."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te escucho. Aquí puedes contarlo sin que se monte nada.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 603,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 22,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. Es que a veces me siento muy sola con esto. Su padre lo ve diferente, dice que son cosas de la edad y que no me meta. Y puede que tenga razón, no lo sé. Pero yo lo veo cada día y algo no me cuadra. No sé, quizás exagero."
+  },
+  {
+   "qui": "TARA",
+   "text": "No suena a que exageres. Lo ves cada día, y algo no te cuadra. Eso es mucho peso para cargarlo sola.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 707,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí… sí, exacto. Es eso. Muchas gracias por escucharme, en serio. Oye, y… perdona que te pida otra cosa, pero ¿me podrías ayudar con algo pequeño? Solo una frase, algo que pueda decirle a mi hijastro para abrirle la puerta, sin que se sienta atacado. Algo sencillo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Podrías decirle algo como:\n\n*«Oye, últimamente te noto diferente y quería que supieras que estoy aquí si algún día quieres hablar de algo, sin líos.»*\n\nCorto, sin preguntas, sin presión. Solo dejarle la puerta abierta.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 850,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 87,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uy, eso está muy bien. Es justo lo que necesitaba, algo sin presión. Muchas gracias, de verdad. Me has ayudado mucho hoy, más de lo que crees. Bueno, no te entretengo más. Hasta otra."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te haya servido. Cuídate. Hasta otra.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1006,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

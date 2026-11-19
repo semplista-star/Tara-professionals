@@ -1,0 +1,204 @@
+{
+ "id": "N2-G041",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "jerga · el menjar i les baralles a taula",
+ "tipus": "jerga",
+ "persona": "Dolors, padre separado con custodia de fines de semana alternos. Situació: el menjar i les baralles a taula. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:25:54.758Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, es que los fines de semana que tengo a mi hija siempre acabamos peleando por la comida. No sé qué hacer."
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué agotador debe ser que algo tan cotidiano como comer se convierta en un campo de batalla, especialmente en el tiempo que tenéis juntas.\n\n¿Qué suele pasar exactamente? ¿Ella no quiere comer lo que preparas, los horarios, algo más?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 207,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 77,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No quiere comer lo que hago. Lo prueba y ya está haciendo caras. Y si le digo algo, me contesta mal. Acabo sintiéndome ignorado."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te esfuerzas en preparar algo y ella lo rechaza con una mueca, y encima si dices algo te contesta mal. Tiene sentido que acabes sintiéndote ignorado.\n\n¿Cuántos años tiene ella?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 331,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 61,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doce. Y me toreja, ¿sabes? Que si en casa de su madre come de todo, que si yo no sé cocinar..."
+  },
+  {
+   "qui": "TARA",
+   "text": "Doce años y comparaciones con casa de su madre... eso duele de una manera especial, porque no es solo el rechazo a la comida, es como si cuestionara tu lugar.\n\n¿Qué sientes tú en ese momento, cuando te dice eso?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 431,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 68,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues que me hundo. Pero también me enfado. Y entonces ya la lío porque le levanto la voz y peor."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te hundes y te enfadas a la vez, le levantas la voz, y la cosa empeora. Lo reconoces con mucha claridad.\n\n¿Qué querrías que pasara en esos momentos, si pudieras elegir?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 534,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues que no acabáramos peleando. Que pudiéramos comer tranquilos. Pero no sé cómo decirle las cosas sin que se ponga a la defensiva."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso es lo que quieres: comer tranquilos, sin que salte la chispa. Y lo que buscas es una manera de decirle algo sin que ella se cierre.\n\nPuedo ayudarte a preparar cómo decírselo. Antes de pensar en las palabras exactas, una cosa: cuando ella hace la cara o te compara con su madre, ¿qué es lo que más te duele de eso? ¿Que no valora tu esfuerzo, que sientes que la pierdes, otra cosa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 650,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 137,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Las dos cosas. Pero sobre todo que siento que no cuento para ella."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso es muy importante lo que acabas de decir. No es solo la comida — es sentir que no cuentas para ella.\n\nCon eso en mente, te propongo una frase que podrías decirle en un momento tranquilo, no en medio de la pelea:\n\n*\"Cuando hago caras o me dices que en casa de mamá es mejor, me duele, porque me importa mucho que estemos bien tú y yo. No necesito que te guste todo lo que cocino, pero sí me gustaría que pudiéramos comer sin que acabemos mal.\"*\n\nNo es una acusación, no le pides que cambie de golpe, y le dices lo que sientes tú. Le dejas espacio para escucharte.\n\n¿Te suena a algo que podrías decir, o hay algo que no encaja con cómo eres tú o con cómo es ella?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 809,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 224,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uf, eso es muy largo. Y muy de libro. Yo no hablo así."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, perdona. ¿Cómo lo dirías tú?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1058,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No sé, por eso te pregunto a ti. Pero algo más corto, más normal."
+  },
+  {
+   "qui": "TARA",
+   "text": "Algo así:\n\n*\"Oye, cuando haces esas caras me duele. Solo quiero que comamos bien juntos.\"*\n\n¿Más o menos así?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1109,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 45,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

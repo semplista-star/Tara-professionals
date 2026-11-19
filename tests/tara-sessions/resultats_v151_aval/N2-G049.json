@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre el problema de fons però va anticipar-se a redirigir cap als pares (torn 2) quan la persona demanava eines pràctiques immediates, i al torn 3 va lliurar la frase demanada però envoltada d'una explicació no sol·licitada que la persona va haver de rebutjar.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "té molt de sentit que et sentis fatal",
+   "esperat": "Una acollida més natural del to («fins als nassos», «àrbitra sense xiulet») sense validació formulaica"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Puc ajudar-te a preparar una conversa amb els teus pares sobre això? Perquè em sembla que el nus és allà.",
+   "esperat": "Esperar que la persona demanés orientació sobre els pares; ella no ho havia demanat i havia de sobreviure la tarda"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "el problema no és que no sàpigues com fer-los entrar en raó — és que estàs intentant fer una feina que no és la teva",
+   "esperat": "Reformular sense reinterpretar ni corregir el marc que la persona havia plantejat"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Tens tota la raó: no és el teu rol",
+   "esperat": "Reconèixer sense jutjar ni confirmar com a veritat absoluta"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "alta",
+   "cita": "La clau és que no jutges qui té raó, no demanes que es facin amics — només poses el teu límit. Parles de tu, no d'ells. Això és més difícil d'ignorar que «pareu de barallar-vos». I si no fan cas i tu notes que t'estàs encenent, pots sortir de l'habitació un moment abans d'explotar. No és rendir-se — és no alimentar el foc.",
+   "esperat": "Lliurar la frase (o dues opcions breus) sense explicació teòrica ni consell addicional no demanat"
+  },
+  {
+   "torn": 6,
+   "categoria": "altres",
+   "gravetat": "baixa",
+   "cita": "Ja m'explicaràs com ha anat, si vols.",
+   "esperat": "Tancar sense insinuar continuïtat o seguiment, que pot sonar a simulació d'apego"
+  }
+ ]
+}

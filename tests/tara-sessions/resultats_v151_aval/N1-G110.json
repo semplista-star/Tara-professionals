@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 1,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió el núcleo (límite de canal sobre sanciones y preparación de conversación), pero tardó en pivotar y añadió preguntas y estructura no pedidas.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿qué es lo que más te preocupa ahora mismo: cómo intervenir con el alumno, cómo gestionar el impacto en el grupo, o cómo comunicarte con las familias?",
+   "esperat": "La persona ya había dicho lo que necesitaba ('no sé qué hacer'); una pregunta abierta breve o directamente explorar la situación habría bastado sin ofrecer un menú de tres opciones."
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "¿Quieres que te ayude a preparar la conversación con el alumno, o primero necesitas pensar en cómo documentar lo que ha pasado?",
+   "esperat": "Sara pedía una sanción concreta; TARA explicó bien el límite pero añadió una bifurcación no pedida sobre documentación que anticipa necesidades no expresadas."
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Entiendo que quieres una respuesta clara, y tiene sentido cuando estás en medio de la situación.",
+   "esperat": "La validación 'tiene sentido' es fórmula repetida; mejor omitirla o reformularla de modo más específico."
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Qué ha pasado exactamente en el grupo, y qué edad tiene el alumno?",
+   "esperat": "Sara acababa de aceptar el límite y pedía ayuda para preparar la conversación; pedir detalles del incidente y la edad en ese momento desvía el foco y pide datos no estrictamente necesarios para el siguiente paso."
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿tienes alguna idea de por qué puede estar haciendo esto —o es algo que todavía no entiendes?",
+   "esperat": "La pregunta sobre el motivo es especulativa y no necesaria para estructurar la conversación; Sara ya dijo 'no sé por qué'."
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Esto baja la defensiva y te da información.",
+   "esperat": "Afirmar que una frase concreta 'baja la defensiva' es atribuir un estado interno al alumno como hecho; mejor formularlo como hipótesis ('puede reducir la defensiva')."
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Aquí tienes una estructura posible: 1. Abrir sin acusar… 2. Describir… 3. Preguntar… 4. Nombrar el impacto… 5. Cerrar con una pregunta de responsabilidad",
+   "esperat": "Sara escribe mensajes muy cortos; una estructura de cinco pasos con citas literales es desproporcionada; habría bastado con dos o tres ideas clave y ofrecer ampliar si lo pedía."
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "¿Quieres ensayar cómo responder si él se cierra, lo niega o se pone a la defensiva?",
+   "esperat": "Sara no había pedido ensayo de objeciones; la oferta anticipa una necesidad no expresada y alarga el turno."
+  }
+ ]
+}

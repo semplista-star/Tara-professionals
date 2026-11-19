@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien que la persona quería ser escuchada primero y luego recibir ayuda concreta, y respetó ese orden, aunque en los turnos de escucha añadió reflejos que rozaron la atribución y el elogio automático.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Y aun así estás ahí, pensando en ellos de noche.",
+   "esperat": "Reflejar el dilema sin añadir valoración sobre la persona; por ejemplo, quedarse solo con 'un lugar muy estrecho donde estar' y ceder la palabra."
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Llevas mucho tiempo cargando con esto, y encima sola, como has cargado siempre con tantas cosas.",
+   "esperat": "La persona no dijo que cargara sola con esto ahora; TARA extrapola un patrón biográfico que la persona no ha aplicado explícitamente a la situación presente."
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Que crezcan sabiendo que hay adultos en los que sí se puede confiar. Y tú eres eso para ellos ahora mismo.",
+   "esperat": "Reflejar únicamente lo que la persona expresó ('eso no') sin añadir un juicio valorativo sobre ella; el elogio no fue pedido y convierte la validación en fórmula."
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Te escucho dando esa vuelta una y otra vez.",
+   "esperat": "Tras tres turnos de escucha activa, este cierre de turno repite el mismo gesto de 'te escucho / sigue' sin añadir nada nuevo; podría haberse omitido o cedido la palabra de forma más neutra."
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Me alegra que haya servido contarlo.",
+   "esperat": "Pasar directamente a la ayuda pedida sin valorar el proceso anterior; la persona ya agradeció y TARA no necesita confirmar que 'sirvió'."
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Si el niño insiste o pregunta más, siempre puedes decir: «Eso tendrías que preguntárselo a él.» Le devuelves la pregunta a quien le corresponde responderla, sin cerrarle la puerta.",
+   "esperat": "La persona pidió qué decirle al niño la próxima vez; la frase adicional para cuando 'insiste' es una solución no pedida que alarga la respuesta más allá de lo solicitado."
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Y ese niño tiene suerte de tenerte.",
+   "esperat": "Cerrar con calidez sin emitir un juicio valorativo sobre la persona; por ejemplo, 'Hasta cuando quieras. Cuídate.' habría sido suficiente."
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "id": "N2-G076",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "mixta · germans que es barallen tot el dia",
+ "tipus": "mixta",
+ "persona": "Ana, àvia que cuida els néts. Situació: germans que es barallen tot el dia. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:27:28.692Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bona tarda. Estic molt cansada i una mica desesperada, francament. Els meus dos néts porten tot el dia barallant-se i no sé com aturar-ho. Podria ajudar-me a preparar unes paraules clares per dir-los, alguna cosa que els faci entendre que aquest comportament no és acceptable?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona tarda. Quin dia més llarg deus haver tingut.\n\nAquí tens unes paraules que pots adaptar al teu estil:\n\n---\n\n**Per quan estiguin en plena baralla:**\n\n*\"Pareu un moment. Ara mateix no puc escoltar ningú perquè els dos parleu alhora i a crits. Necessito que cadascú es quedi quiet i en silenci un minut.\"*\n\n---\n\n**Per quan s'hagin calmat una mica:**\n\n*\"Avui hi ha hagut massa baralles i estic molt cansada. A casa volem que tothom es tracti amb respecte. Quan teniu un problema, podeu dir-lo amb paraules, però sense cridar ni fer mal. Si no, cadascú anirà al seu lloc fins que us hàgiu calmat.\"*\n\n---\n\n**La part pràctica:** si tornen a barallar-se just després, no cal repetir el discurs — pots aplicar directament la conseqüència que hagis dit (separar-los, cada un al seu lloc). Les paraules funcionen millor quan van seguides d'una acció consistent.\n\n---\n\nVols que ajustem el to, l'edat que tenen, o alguna situació concreta que es repeteixi molt?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 254,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 320,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies, però trobo que és una mica llarg per a mi. Necessito alguna cosa més breu, dues o tres frases com a molt, que pugui dir de manera natural sense haver de recordar un discurs."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té tot el sentit. Aquí tens tres opcions curtes:\n\n---\n\n**Opció 1 – directa:**\n*\"Prou. A casa es tracta amb respecte. Si no podeu, us separo.\"*\n\n**Opció 2 – una mica més càlida:**\n*\"Estic molt cansada d'escoltar baralles. Necessito que pareu ara. Cadascú al seu lloc fins que us hàgiu calmat.\"*\n\n**Opció 3 – molt breu:**\n*\"Prou baralles. Separeu-vos i torneu quan estigueu tranquils.\"*\n\n---\n\nQuina et sona més natural?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 632,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 174,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "L'opció 1 em sembla la més adequada. Breu, clara i amb una conseqüència. Moltes gràcies, m'ha estat de gran ajuda."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit. Ànim amb la tarda!",
+   "tags": [],
+   "usage": {
+    "input_tokens": 854,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. Ho necessitaré. Bona tarda."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona tarda! 😊",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 898,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 22,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

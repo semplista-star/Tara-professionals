@@ -1,0 +1,141 @@
+{
+ "id": "N1-G074",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "rebuig · insults en el grup de WhatsApp de la classe",
+ "tipus": "rebuig",
+ "persona": "Luis, profesora de bachillerato. Situació: insults en el grup de WhatsApp de la classe. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:16:08.759Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara. Mira, tengo un problemilla con mis alumnos de bachillerato. En el grupo de WhatsApp de clase se han liado a insultarse y no sé muy bien cómo cortarlo sin parecer el típico profe pesado que monta un drama por todo. ¿Tienes alguna idea?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entiendo el dilema — intervenir sin que parezca que conviertes algo en un expediente disciplinario cuando quizás no lo es.\n\nAntes de sugerirte algo concreto, una pregunta que cambia bastante el enfoque: **¿los insultos son entre dos o tres personas en particular, o es una dinámica más general del grupo** (motes, pullitas, ese tono que se va normalizando)?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 221,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 105,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es más lo segundo, ese tono que se va normalizando. Empezó con bromitas y ahora ya hay comentarios que me parecen bastante feos. Nadie se queja abiertamente pero yo lo veo y me incomoda. Y estoy en el grupo, claro, así que si no digo nada parece que lo consiento."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso lo complica, sí — tu silencio ya es un mensaje.\n\nY tiene sentido que no quieras entrar con un sermón, porque con bachillerato eso suele cerrar más que abrir.\n\nUna opción que puede funcionar bien en ese contexto: **escribir algo breve y directo en el grupo, sin dramatizar, pero sin restarle importancia**. Algo del estilo de:\n\n> *\"Oye, llevo unos días viendo comentarios en el grupo que no me gustan. No voy a hacer un drama, pero tampoco voy a quedarme callado/a. Este grupo es de todos y el tono importa. Gracias.\"*\n\nCorto, sin señalar a nadie, sin pedir disculpas públicas. Marca el límite y punto.\n\nSi quieres, después puedes retomarlo en clase — no como bronca, sino como conversación real sobre cómo se tratan. Con bachillerato a veces funciona bien plantearla como un tema de ellos, no tuyo: *¿cómo queréis que sea este espacio?*\n\n¿Te encaja más intervenir solo por escrito, o también quieres preparar algo para el aula?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 414,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 299,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hombre, lo del mensaje en el grupo ya lo intenté la semana pasada y fue un poco al vacío. Dos corazoncitos y a seguir igual. No sé si repetirlo tiene mucho sentido la verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene razón — repetir lo mismo que no funcionó raramente cambia algo.\n\nSi el mensaje escrito ya no tiene más recorrido, lo que sí puede mover algo es llevarlo al aula. No como \"vamos a hablar del grupo de WhatsApp\" — eso los pone a la defensiva — sino desde una pregunta más abierta que les haga pensar.\n\nPor ejemplo, arrancar una tutoría con algo como:\n\n> *\"¿Alguna vez habéis dicho algo en un grupo y luego pensasteis 'esto no lo diría a la cara'? ¿Por qué creéis que pasa eso?\"*\n\nNo los acusas, no nombras el grupo. Pero la conversación va exactamente ahí. Con bachillerato, si sienten que los tratas como personas capaces de reflexionar, suelen engancharse más que si perciben que les estás dando una lección.\n\n¿Tienes tutorías con este grupo, o tendría que ser dentro de otra asignatura?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 771,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 250,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí tengo tutoría con ellos, pero no sé yo... lo de hacer una dinámica de reflexión me cuesta un poco. No es mucho mi estilo, yo soy más de ir al grano. Me imagino preguntando eso y quedándome con el silencio incómodo mientras me miran como si hubiera aterrizado de otro planeta."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso es muy honesto, y tiene mucho valor saberlo de uno mismo.\n\nEntonces quizás lo tuyo no es la dinámica — es la conversación directa, pero en el sitio adecuado. En tutoría, sin rodeos:\n\n> *\"Estoy viendo un tono en el grupo que no me gusta. Ya lo dije por escrito y no cambió nada. Así que os lo digo a la cara: ¿qué está pasando?\"*\n\nSin actividad, sin pregunta filosófica. Solo tú, ellos, y la pregunta encima de la mesa. Con bachillerato eso a veces funciona mejor que cualquier dinámica — porque los trata como adultos.\n\nEl silencio puede aparecer igual, claro. Pero un silencio después de esa pregunta ya dice algo, y tú puedes sostenerlo.\n\n¿Eso se acerca más a cómo te sentirías cómodo/a?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1112,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 240,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso ya me suena más a mí. Ir directo, sin florituras. Total, para el silencio incómodo ya tengo experiencia, que llevo años dando clase. Me lo apunto. Gracias Tara."
+  },
+  {
+   "qui": "TARA",
+   "text": "De nada. Suena a que sabes perfectamente cómo manejarte ahí dentro — solo necesitabas encontrar la versión que fuera tuya.\n\nSuerte con la tutoría.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1416,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 52,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

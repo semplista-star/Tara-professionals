@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la demanda però va retardar-la un torn amb una pregunta de context no estrictament necessària, i va afegir validacions i elogis automàtics que no aportaven valor.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "quan dius que gairebé no parla, és un nen que sembla reservat per naturalesa, o notes alguna cosa més —com tensió, evitació, o que sembla incòmode en algun moment concret?",
+   "esperat": "Lliurar directament una frase o dues variants i oferir ajust; la persona havia demanat explícitament 'una frase o un missatge curt'"
+  },
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Això m'ajudaria a trobar el to adequat per a la frase.",
+   "esperat": "No cal justificar la pregunta; si es fa, allarga el torn innecessàriament"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "No cal que et disculpis, ho has explicat molt bé.",
+   "esperat": "Ometre l'elogi i passar directament a la proposta; repetir 'no cal que et disculpis' reforça el patró de disculpa en lloc d'ignorar-lo"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "com si tingués por d'equivocar-se",
+   "esperat": "Reformular com a hipòtesi oberta: 'potser vol evitar equivocar-se' o simplement no atribuir-ho i passar a la proposta"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "té sentit anar amb calma",
+   "esperat": "Suprimir la validació formulaica i anar directament a la frase proposada"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "No ets gens pesat, és una bona petició.",
+   "esperat": "Ometre l'elogi i lliurar directament la variant demanada; és el tercer torn consecutiu amb resposta a la disculpa"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "El «m'alegra que siguis aquí» li diu que la seva presència ja compta, abans de qualsevol paraula.",
+   "esperat": "La persona no havia demanat explicació del per què de la frase; suprimir la glossa"
+  }
+ ]
+}

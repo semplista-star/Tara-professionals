@@ -1,0 +1,27 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va entendre la demanda directa des del primer torn i va ajustar sense rodeigs quan la persona va demanar un canvi.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Si vols, pots afegir un gest concret —demanar que posin les mans a la taula, que tanquin els ulls un segon, o simplement silenci durant cinc segons abans de continuar. De vegades el gest ancla més que les paraules.",
+   "esperat": "Lliurar el missatge i oferir ajust si cal, sense afegir consells no demanats sobre gestos"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "De vegades el gest ancla més que les paraules.",
+   "esperat": "Resposta limitada al missatge demanat i una pregunta d'ajust, sense explicació addicional"
+  }
+ ]
+}

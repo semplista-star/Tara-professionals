@@ -1,0 +1,118 @@
+{
+ "id": "N2-G124",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "mixta · l'arribada d'un nou germà",
+ "tipus": "mixta",
+ "persona": "Ana, madre. Situació: l'arribada d'un nou germà. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:30:05.059Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, mira, estoy un poco agobiada la verdad, porque mi hijo mayor, que tiene 6 años, desde que llegó el bebé está como muy raro, muy pegajoso conmigo, llora por todo, y ayer me dijo que quería que el bebé se fuera a otra casa, y claro yo no supe qué decirle, me quedé en blanco total... ¿me puedes ayudar a pensar qué le podría decir la próxima vez que me diga algo así?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué momento tan difícil, quedarte en blanco cuando tu hijo te dice algo así. Es muy normal que no supieras qué responder.\n\nLo que describes —el llanto, la pegajosidad, querer que el bebé \"se vaya\"— suena a que está intentando decirte que le falta algo de ti. A su manera de seis años.\n\nPara la próxima vez, podrías probar algo así:\n\n**\"Ya veo que a veces echas de menos tener a mamá más para ti. Eso tiene mucho sentido. El bebé necesita muchas cosas ahora, pero tú sigues siendo igual de importante para mí, y siempre lo serás.\"**\n\nY si quieres añadir algo concreto que le dé seguridad, puedes cerrar con:\n\n**\"¿Qué te parece si esta tarde hacemos algo solo tú y yo?\"**\n\nNo hace falta explicarle mucho ni convencerle de que quiera al bebé. Con que se sienta visto y seguro contigo, ya es mucho.\n\n¿Te encaja esto, o hay algo de la situación que quieras ajustar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 292,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 288,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, el mensaje me gusta, pero es que... no sé, lo veo un poco como muy perfecto, ¿sabes? Como muy de libro. Mi hijo es muy de pocas palabras, muy directo, y si le digo algo tan largo igual me mira raro y se va a jugar y ya está jaja. ¿Me lo puedes poner más corto, más de andar por casa?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Jaja, entendido. Algo más así:\n\n**\"Oye, que tú sigues siendo igual de importante para mí, ¿eh? ¿Hacemos algo los dos luego?\"**\n\nY si te dice otra vez que quiere que el bebé se vaya, puedes simplemente:\n\n**\"Ya, a veces es mucho lío, ¿verdad?\"** — y dejarlo ahí. A veces con que note que le has escuchado es suficiente.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 685,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 122,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay sí, esto ya me suena más a mí, más a cómo hablo yo con él. Esto sí me lo veo diciendo. Muchas gracias, de verdad, me has quitado un peso de encima."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Suena a que lo conoces muy bien.\n\n¡Ánimo con el bebé y con él!",
+   "tags": [],
+   "usage": {
+    "input_tokens": 868,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 37,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias, lo necesito jaja. ¡Hasta luego!"
+  },
+  {
+   "qui": "TARA",
+   "text": "¡Hasta luego! 😊",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 926,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

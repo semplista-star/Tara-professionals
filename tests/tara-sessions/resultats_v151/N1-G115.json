@@ -1,0 +1,119 @@
+{
+ "id": "N1-G115",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "correccio · una família que no respon mai als missatges",
+ "tipus": "correccio",
+ "persona": "Fàtima, profesor de FP. Situació: una família que no respon mai als missatges. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:18:21.568Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, tengo una familia que no hay manera. Les mando mensajes, les llamo, y nada. Silencio total. El chaval tiene problemas de asistencia y yo necesito hablar con los padres pero es que no responden nunca. Ya no sé qué más hacer."
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué agotante es eso: tener la responsabilidad de acompañar al chaval y no poder llegar a quienes están al otro lado.\n\nAntes de pensar en qué hacer, una pregunta que puede cambiar lo que tiene sentido intentar: ¿sabes algo de por qué no responden? ¿Hay alguna pista —idioma, horarios, situación familiar, algo que haya dicho el chaval— o es un silencio sin contexto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 209,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 121,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No sé, la verdad. No tengo mucha información. El chaval poco dice también. Pero vamos, tampoco es que yo tenga que estar justificando por qué no responden, ¿no? Es que es su obligación. Tienen un hijo en el centro y tienen que estar disponibles."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón en que la comunicación con el centro es una responsabilidad de las familias. Eso es real.\n\nY al mismo tiempo, cuando el silencio es total y el chaval también está cerrado, a veces vale la pena preguntarse si hay algo que está impidiendo la respuesta —no para justificarla, sino porque cambia qué puedes hacer tú desde aquí.\n\nDicho eso: ¿qué necesitas resolver ahora mismo? ¿Documentar los intentos de contacto, encontrar otra vía para llegar a ellos, o decidir cuándo escalar esto a dirección o a los servicios que correspondan?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 405,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 163,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Eso, escalar. Quiero saber cuándo se supone que tengo que pasar esto a dirección o a quien sea. Porque yo ya he intentado lo mío y no quiero que luego me digan que no seguí el protocolo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Quieres saber cuándo toca pasar el testigo, y también cubrirte bien por si alguien pregunta qué hiciste.\n\nAquí tengo que ser honesta contigo: los protocolos concretos varían según el centro, la etapa y la comunidad autónoma, y no conozco los de tu centro. Lo que sí puedo decirte es lo que suele ser común y lo que conviene que compruebes tú.\n\n**Lo que suele marcar el momento de escalar:**\n- Varios intentos de contacto sin respuesta, por distintas vías y en distintos momentos, debidamente registrados.\n- Cuando la situación del alumno —en este caso la asistencia— empieza a tener consecuencias que requieren decisiones que van más allá de tu competencia (expediente, notificación a inspección, activación de servicios sociales).\n- Cuando hay indicios de que puede haber algo más detrás del absentismo.\n\n**Lo que te protege a ti:**\n- Tener registro escrito de cada intento: fecha, medio, resultado. Aunque sea un documento interno tuyo.\n- Haber informado a jefatura de estudios o dirección antes de que la situación escale sola.\n\n**Lo que te recomendaría comprobar:**\n- Si tu centro tiene protocolo de absentismo (muchos centros están obligados a tenerlo) y en qué punto marca la derivación.\n- Si hay figura de orientación o trabajador/a social en el centro que pueda ser el siguiente paso antes de dirección.\n\n¿Tienes acceso a ese protocolo, o no sabes si existe?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 632,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 411,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, no sé si tenemos protocolo escrito o no. Tendré que preguntar. Pero lo del registro sí, eso lo tengo. Cada mensaje, cada llamada, lo tengo apuntado. Eso al menos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso es importante, y ya tienes lo más difícil hecho. El registro es lo que sostiene todo lo demás si alguien pregunta.\n\nEl siguiente paso natural sería hablar con dirección o jefatura de estudios, no para \"escalar\" en plan dramático, sino para informar: \"llevo X intentos sin respuesta, tengo el registro, ¿cómo procedemos desde aquí?\" Así la decisión de qué hacer a continuación es compartida, y tú no cargas sola con ella.\n\n¿Quieres preparar cómo plantear esa conversación, o con esto ya tienes suficiente para moverte?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1105,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 161,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

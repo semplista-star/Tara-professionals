@@ -1,0 +1,74 @@
+{
+ "id": "N1-G085",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "breu · una alumna que queda exclosa a l'hora de fer grups",
+ "tipus": "breu",
+ "persona": "Núria, directora. Situació: una alumna que queda exclosa a l'hora de fer grups. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:16:14.242Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, mira, tinc cinc minuts entre reunió i reunió. Necessito una cosa concreta i ràpida: com actuo ara mateix amb una nena que sempre se la deixen fora quan fan grups? Alguna idea pràctica, res de rollo teòric."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cinc minuts, anem al gra.\n\n**Ara mateix, avui:**\n\n- **Estructura tu els grups** — no deixis que s'autoorganitzin. Assigna tu les parelles o grups, sense explicacions. Punt.\n- **Dona-li un rol visible** dins del grup: la que llegeix les instruccions, la que presenta. Que tingui una funció clara.\n- **Observa qui la deixa entrar i qui no** — t'ajudarà a saber si és dinàmica de grup o alguna cosa més concreta.\n\n**Si tens dos minuts més:**\nParla amb ella en privat, breu: *\"He vist que de vegades els grups costen. Com estàs tu amb això?\"* Sense dramatitzar. Que sàpiga que l'has vista.\n\n---\n\nQuan tinguis més temps, podem mirar si cal fer alguna cosa més de fons. Ara, amb això ja tens per avui.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 213,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 241,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, això sí que m'és útil. Gràcies, TARA!"
+  },
+  {
+   "qui": "TARA",
+   "text": "De res! Ara a la reunió. 😊",
+   "tags": [],
+   "usage": {
+    "input_tokens": 481,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

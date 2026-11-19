@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la demanda central (opcions concretes i, després, una recomanació directa) i va respondre-hi bé, però al torn 1 va tornar la pregunta a la persona just quan ella havia demanat que TARA decidís, i va afegir elogis automàtics i una atribució no expressada.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Que en Marc s'hagi obert amb tu diu molt de la confiança que hi ha entre vosaltres.",
+   "esperat": "Entrar directament en les opcions sense valorar la relació de la persona amb el fillastre"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "entenc que ara et trobis en un lloc incòmode: vols actuar, però no vols passar per sobre de la seva mare",
+   "esperat": "Reformular sense atribuir estats interns no expressats, o ometre-ho i anar directament a les opcions"
+  },
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Quina d'aquestes et ressona més?",
+   "esperat": "No retornar la pregunta; la persona havia demanat explícitament que TARA decidís, de manera que el torn 1 hauria d'haver inclòs ja una recomanació clara o, com a mínim, no acabar amb una pregunta que delegui la decisió"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Si vols, podem repassar com respondre si ella reacciona d'una manera concreta que et preocupi.",
+   "esperat": "Tancar el torn sense oferir un servei addicional no demanat; la persona ja tenia el que necessitava"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Molt bé.",
+   "esperat": "Ometre la valoració i passar directament al desig de bona sort o al tancament"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "que en Marc noti aviat que els adults que l'envolten estan al seu costat",
+   "esperat": "Tancament breu i càlid sense projectar resultats ni estats del menor, que no és present a la conversa"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Espero que la conversa vagi bé aquesta nit — i que en Marc noti aviat que els adults que l'envolten estan al seu costat.",
+   "esperat": "Una frase de comiat breu i neutra, sense afegir expectatives sobre tercers"
+  }
+ ]
+}

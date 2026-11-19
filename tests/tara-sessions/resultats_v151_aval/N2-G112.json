@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 1,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (cómo hablar con la nieta) y la satisfizo, pero en los turnos 3 y 4 anticipó derivaciones a los padres que Rosa no había pedido, y el cierre del turno 5 incluye un elogio automático no solicitado.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿La parte técnica, o más bien no saber qué hacer con lo que la gente te dice o te escribe?",
+   "esperat": "Una pregunta más abierta o ninguna, dado que Rosa ya estaba narrando con fluidez y habría continuado sola"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Sus padres o la persona adulta que la cuida deberían saberlo, si no lo saben ya. Tú puedes ser un apoyo importante, y también ellos tienen que estar en esto.",
+   "esperat": "Rosa no había pedido orientación sobre qué hacer con los padres; TARA podría haber seguido explorando qué necesitaba Rosa antes de introducir esta recomendación"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Te quedaste con la cosa y no dijiste nada, no porque no te importara, sino porque no encontraste cómo hacerlo sin que se estropeara algo entre vosotras.",
+   "esperat": "Reformular sin añadir la interpretación causal ('no porque no te importara') que Rosa no había expresado"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Antes de darte una frase, una cosa: lo que viste me parece que también vale la pena contárselo a sus padres, aunque sea brevemente.",
+   "esperat": "Rosa había pedido explícitamente cómo hablar con la nieta; TARA podría haber dado primero la respuesta pedida y mencionado a los padres solo si Rosa lo abría"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "No para montar un drama, sino porque ellos son los responsables de protegerla y es bueno que estén al tanto. Eso no quita que tú también puedas hablar con ella, las dos cosas pueden ir juntas.",
+   "esperat": "Una vez mencionado el tema de los padres, no era necesario justificarlo con dos frases adicionales antes de dar la ayuda pedida"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "qué bien que tu nieta te tenga cerca con esa mirada.",
+   "esperat": "Cerrar con calidez sin emitir un juicio valorativo sobre Rosa; por ejemplo, simplemente desearle suerte con las conversaciones"
+  }
+ ]
+}

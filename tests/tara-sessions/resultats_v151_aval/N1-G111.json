@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (conectar con el niño) y supo redirigirse tras la corrección, pero en el torn 3 se adelantó con una interpretación no pedida y en el torn 5 añadió una pregunta sobre el historial que la persona no había solicitado y que resultó contraproducente.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "Que se acerque a Dani sin hablar, que elija estar cerca, eso ya es una forma de conexión para él. Y la música como momento en que baja la guardia un poco.",
+   "esperat": "Devolver solo lo observado sin interpretar el estado interno del niño ('baja la guardia', 'forma de conexión para él') y preguntar qué margen tiene para usar esas dos cosas."
+  },
+  {
+   "torn": 5,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "alta",
+   "cita": "Una pregunta que puede ayudarte a afinar: ¿sabes algo de dónde viene, si ha habido un cambio grande en su vida reciente?",
+   "esperat": "Omitir la pregunta sobre el historial; la persona había pedido ideas prácticas, no un diagnóstico contextual, y la pregunta generó confusión y rechazo inmediato."
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Sí, te doy algunas ideas concretas. Tú ves cuáles encajan con tu aula y con él. [bloque completo con tres secciones y pregunta final]",
+   "esperat": "Respuesta más acotada con dos o tres ideas prácticas directas, sin la pregunta sobre historial al final que desbordó a la persona."
+  },
+  {
+   "torn": 7,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Y si no pasa nada visible, tampoco significa que no esté llegando. A veces tarda.",
+   "esperat": "Validar el plan concreto de Àlex y preguntar si necesita algo más, sin añadir una advertencia preventiva no solicitada."
+  }
+ ]
+}

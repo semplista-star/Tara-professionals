@@ -1,0 +1,184 @@
+{
+ "id": "N1-G175",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "humor · molta burocràcia i sensació de no arribar",
+ "tipus": "humor",
+ "persona": "Pau, tutor de 4t d'ESO. Situació: molta burocràcia i sensació de no arribar. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:23:05.356Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ui, mira, avui he vingut perquè he mirat el calendari i he vist que tinc reunió de tutoria, reunió de departament, tres entrevistes amb famílies, el pla individualitzat del Martí per entregar, i a sobre he de corregir els exàmens de recuperació... i he pensat, saps què necessito? Un moment per parlar amb una intel·ligència artificial. Que és clarament el signe que tot va molt bé a la meva vida, eh."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ja, el signe definitiu de salut mental: fugir de la llista de tasques per parlar amb una IA. Clàssic.\n\nPerò mira, aquí estàs, i la llista segueix existint. Quin d'aquests fronts t'ocupa més el cap ara mateix?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 267,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 78,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs mira, el que més em pesa no és cap tasca concreta, és més aviat... la sensació que faig de tot una mica però res del tot bé, saps? El Martí, per exemple. Tinc un nano que clarament necessita atenció, que a les tutories individuals es va obrint una mica, que jo veig que hi ha alguna cosa que no quadra a casa... i jo hauria de poder dedicar-li temps de veritat. Però clar, entre que he d'omplir el pla individualitzat amb tots els camps que demana el departament, que he de coordinar-me amb l'orientadora que tampoc té temps, que he d'avisar la família que és complicadíssima de contactar... al final el que faig és apagar focs. I el Martí queda en segon pla. I això és el que no puc treure'm del cap, que el nen queda en segon pla precisament perquè estic fent paperassa sobre el nen."
+  },
+  {
+   "qui": "TARA",
+   "text": "Això que dius és molt precís: estàs fent paperassa *sobre* el Martí mentre el Martí queda en segon pla. La paradoxa és real i entenc que pesi.\n\nUna cosa que has dit m'ha quedat: \"veig que hi ha alguna cosa que no quadra a casa\". Quan dius això, és una intuïció difusa, o hi ha alguna cosa concreta que has observat?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 596,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 108,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, és una barreja de les dues coses. Intuïció, però basada en coses concretes, saps? Per exemple, el Martí ve cansat, però no de dormir poc, és un cansament diferent. I de vegades diu coses com \"a casa no és bon moment\" quan li proposo que parli amb els seus pares d'alguna cosa. I l'altre dia, que vam tenir una estona a tutoria, em va dir una cosa que em va quedar... em va dir \"tu ets l'únic que m'escolta de veritat\". I jo per dins vaig pensar, ostres, noi, jo t'escolto deu minuts a la setmana entre passadís i passadís. Imagina si tingués temps de veritat. Però clar, no li puc dir això. Li vaig dir que m'alegrava que se sentís així i que seguíssim parlant. I ara estic aquí pensant si estic fent prou, si hauria d'escalar la situació a l'orientadora, si la família reaccionarà malament si truquem... és un embolic. I mentrestant el pla individualitzat espera i jo no sé ni per on començar."
+  },
+  {
+   "qui": "TARA",
+   "text": "El que descrius —el cansament diferent, el \"a casa no és bon moment\", i sobretot el que et va dir— són observacions concretes que val la pena prendre seriosament. Fas bé de no deixar-ho passar.\n\nAbans de l'embolic de decisions, una cosa: tens la sensació que el Martí pot estar en una situació que necessita protecció ara, o és més una preocupació de fons que cal seguir de prop?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1007,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 118,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mmm. Bona pregunta. Deixa'm pensar un segon sense posar-me en mode protocol, eh.\n\nNo crec que sigui una emergència immediata. No hi ha cap senyal d'alarma d'aquells que et fan trucar al moment, no. És més... una cosa que s'acumula. Com quan veus que un núvol s'enfosqueix però encara no plou. I jo no vull esperar que plogui per fer alguna cosa, però tampoc vull muntar un circ si no toca.\n\nEl problema és que no sé exactament quin pas donar ara. Perquè si ho escalo a l'orientadora, que ja sé que està desbordada, potser queda en un correu que no llegeix fins d'aquí dues setmanes. Si truquem a la família sense preparar-ho bé, pot ser contraproduent per al Martí. I jo mentrestant el veig cada dia i no sé ben bé què fer amb el que em diu.\n\nEl que necessitaria és una idea concreta de com mantenir aquest vincle amb ell sense que depengui de si tinc deu minuts lliures o no. Perquè ara mateix és massa aleatori i"
+  },
+  {
+   "qui": "TARA",
+   "text": "I s'ha quedat a mitges la frase, però l'he entesa.\n\n\"Massa aleatori\" és el problema real: el vincle existeix, però depèn de si coincidiu al passadís. I tu vols que no depengui d'això.\n\nPuc ajudar-te a pensar en concret com fer-ho. Però primer: quan dius que no és emergència immediata, t'ho crec, i alhora el que has descrit —el cansament, les frases sobre casa, el \"tu ets l'únic que m'escolta\"— és el tipus de cosa que val la pena posar en coneixement de l'orientadora ara, no d'aquí dues setmanes. No per muntar cap circ, senseó perquè si el núvol s'enfosqueix, que hi hagi algú més que sàpiga el que tu ja has observat.\n\nPots fer les dues coses alhora: buscar una manera de mantenir el vincle amb el Martí, i assegurar-te que l'orientadora té la informació. No s'exclouen.\n\nPer quin dels dos vols que comencem?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1428,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 289,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, tens raó amb l'orientadora. Ho sé, ho sé. Suposo que ho anava posposant perquè em feia mandra afegir una cosa més a la llista, però és que dius \"posar-ho en coneixement\" i ja em veig escrivint un correu llarg explicant tot el context, els antecedents, adjuntant no sé quants documents... i ja m'ha cansat abans de començar.\n\nPerò sí. Ha de saber-ho.\n\nMira, anem per la part del vincle amb el Martí, que és la que més em preocupa en el dia a dia. Perquè si aconsegueixo que no depengui de si coincidim al passadís, ja em sento menys malament amb mi mateix. Dona'm una idea concreta de com fer-ho sense que em suposi una hora extra de feina cada setmana, que ja sé que sona fatal dit així però és la realitat."
+  },
+  {
+   "qui": "TARA",
+   "text": "No sona fatal, sona honest.\n\nUna idea concreta: **un moment fix i breu, acordat amb ell.**\n\nNo una hora extra. Cinc minuts, un cop a la setmana, sempre el mateix dia i hora. Pot ser just abans o després d'una classe que ja tens amb ell, o un moment que ja existeix a la teva agenda. Li dius: \"Martí, cada dimarts quan acabem, ens quedem dos minuts tu i jo. Res especial, només per veure com estàs.\"\n\nAixò fa tres coses:\n- Li dona una estructura que no depèn de l'atzar\n- Li diu, sense dir-ho, que és esperat i que hi comptes\n- A tu et treu la pressió de \"hauria de buscar un moment\" perquè el moment ja existeix\n\nLa clau és que sigui previsible per a ell, no que sigui llarg.\n\nAra, una pregunta pràctica: tens alguna franja amb ell que ja existeixi i on això podria encaixar sense crear-te un forat nou a l'agenda?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1961,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 272,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí! Tinc l'hora de tutoria grupal els dimecres a primera hora, i ell sempre és dels últims a sortir perquè li costa arrencar. Sempre. De fet ja m'hi he quedat alguna vegada parlant amb ell mentre els altres marxaven. O sigui que el moment ja existeix, simplement no l'havia formalitzat mai. No havia pensat en dir-li \"això és el nostre moment\", saps? Ho feia i prou, però sense que ell sabés que hi comptava.\n\nAixò és una bona idea. Senzilla. M'agrada perquè no m'invento res de nou, simplement li dono nom a una cosa que ja passa.\n\nMira, m'has ajudat. De debò. Ara me'n vaig que tinc... ah sí, la reunió de departament en vint minuts. Que és exactament el que necessitava per acabar el dia amb energia, clar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona sort amb la reunió de departament. Que vagi ràpid.\n\nI abans que marxis: el correu a l'orientadora no ha de ser llarg. Una cosa així: *\"Tinc observacions sobre el Martí que vull que sàpigues. Quan pots cinc minuts?\"* Ja està. Ella ja sap fer la resta.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2473,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 95,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ostres. Sí. Tan simple com això.\n\nNo sé per què m'havia muntat una novel·la al cap. Cinc paraules i una pregunta. Puc fer això fins i tot des del mòbil mentre espero que comenci la reunió.\n\nGràcies, Tara. M'has donat dues coses concretes i no m'has fet sentir malament per no haver-les vist sol. Que és exactament el que necessitava avui."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me n'alegro. Ara vés.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 2691,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

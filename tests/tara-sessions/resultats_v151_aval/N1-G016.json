@@ -1,0 +1,90 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat pràctica de Sara en cada moment, però va afegir validacions automàtiques i elogis que no li van ser demanats i que contradiuen la CNV natural.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "No és cap tonteria, i t'expliques perfectament.",
+   "esperat": "Respondre directament al contingut sense avaluar com s'ha explicat la persona"
+  },
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit.",
+   "esperat": "Ometre la validació formulaica i passar directament a la pregunta o al contingut"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "No exageres. El que describes — comentaris en veu baixa, riures, davant dels altres — és una dinàmica que fa mal precisament perquè és subtil i repetida.",
+   "esperat": "Sara no havia demanat confirmació del seu judici sobre la gravetat; TARA podria haver recollit el dubte sense resoldre'l per ella"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "si l'alumne afectat s'adona, ja té efecte",
+   "esperat": "Sara havia dit 'estic segura' però TARA ho afirma com a fet consolidat sense marcar-ho com a hipòtesi"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Que no ho hagis sentit tu no vol dir que no passi. Vol dir que actues amb el que tens, que és suficient per fer alguna cosa.",
+   "esperat": "Evitar la reformulació reasseguradora no demanada i anar directament a la pregunta"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Tens bona intuïció: en privat és millor.",
+   "esperat": "No avaluar la intuïció de Sara; simplement treballar amb la seva decisió"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "No t'has de disculpar. El que dius té molt de sentit",
+   "esperat": "Ometre la validació formulaica i respondre al contingut"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "que t'hagi anat malament abans no vol dir que siguis dolenta en això, vol dir que és una conversa difícil",
+   "esperat": "Sara no havia dit que es considerés dolenta en general; TARA reinterpreta i corregeix un estat intern no expressat exactament així"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Les idees podrien ser aquestes: 1. Comença des del que has vist... 2. Dóna-li espai... 3. Acaba amb alguna cosa concreta...",
+   "esperat": "Sara havia rebutjat els guions; oferir tres punts estructurats amb frases model s'assembla massa al que havia rebutjat, tot i la reformulació; una resposta més breu hauria estat proporcional"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Sovint el silenci vol dir que està processant, no que no escolta.",
+   "esperat": "Presentar-ho com a possibilitat ('pot voler dir') en lloc d'afirmació sobre l'estat intern de l'alumne"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "has sabut molt bé el que necessitaves i el que no",
+   "esperat": "Tancar sense avaluar les capacitats de Sara; un simple comiat hauria estat suficient"
+  }
+ ]
+}

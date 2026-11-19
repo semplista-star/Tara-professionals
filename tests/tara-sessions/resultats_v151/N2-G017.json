@@ -1,0 +1,162 @@
+{
+ "id": "N2-G017",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "correccio · unes notes molt dolentes",
+ "tipus": "correccio",
+ "persona": "Xavi, mare. Situació: unes notes molt dolentes. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:24:33.261Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Miro d'explicar-me bé. El meu fill en Xavi ha tret unes notes molt dolentes aquest trimestre. Vull parlar amb ell però no sé com enfocar la conversa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc. Vols parlar amb ell però no saps per on agafar-ho.\n\nQuan dius que no saps com enfocar-ho, a què et refereixes més concretament: no saps com començar, tens por de com pot reaccionar ell, o hi ha alguna altra cosa que et preocupa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 220,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 85,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Principalment no sé com començar. No vull que es posi a la defensiva des del primer moment."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit. Si comences parlant de les notes directament, és fàcil que ell senti que ve un sermó i es tanqui.\n\nUna manera de començar que sol deixar més espai és partir de la curiositat en lloc del judici. Per exemple:\n\n*«Xavi, vull entendre com t'ha anat aquest trimestre. Com ho has viscut tu?»*\n\nAixí li dones la paraula primer, i tu escoltes abans de dir res. Sovint els nens expliquen coses que no esperem, i això canvia tota la conversa.\n\nVols que treballem una mica més aquesta obertura, o prefereixes preparar també com continuar si ell es tanca o respon amb monosíl·labs?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 334,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 189,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perdona, no he dit que tingui por que es tanqui. He dit que no sé com començar. Són coses diferents."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, m'he avançat. Gràcies per corregir-me.\n\nLlavors, tens alguna idea de com t'agradaria començar, o vols que et proposi alguna frase d'obertura?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 559,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 63,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, m'agradaria que em proposessis una frase d'obertura. Alguna cosa que soni natural i que no sembli un interrogatori."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí en tens una:\n\n*«Xavi, vull parlar una estona contigo sobre aquest trimestre. Primer vull escoltar com ho has viscut tu.»*\n\nCurta, directa, i li diu clarament que el vols escoltar a ell primer.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 664,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 71,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bé, això em sembla raonable. Però com continuo jo si ell em respon amb un «bé» o un «no ho sé» i no diu res més?"
+  },
+  {
+   "qui": "TARA",
+   "text": "En aquest cas pots fer una pregunta més concreta, però sense pressió. Per exemple:\n\n*«Hi ha alguna assignatura que t'hagi costat més?»*\n\nÉs més fàcil respondre una cosa concreta que no pas «com t'ha anat». I si torna a tancar-se, pots deixar un silenci breu i afegir:\n\n*«No cal que ho resolguem ara. Però m'importa saber com estàs.»*\n\nAixò li diu que no és un interrogatori i que tens temps per a ell.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 783,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 140,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "D'acord. Això m'ajuda. Crec que ja tinc prou per començar la conversa. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. Espero que la conversa vagi bé. Sort!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 960,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

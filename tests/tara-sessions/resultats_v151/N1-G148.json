@@ -1,0 +1,119 @@
+{
+ "id": "N1-G148",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "mixta · un alumne que diu que vol canviar de grup",
+ "tipus": "mixta",
+ "persona": "Óscar, mestre de primària. Situació: un alumne que diu que vol canviar de grup. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:20:59.328Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara, mira, estic una mica neguitós perquè tinc un alumne, en Pau, que porta setmanes dient-me que vol canviar de grup i jo no sé molt bé com parlar amb els seus pares demà a la reunió, perquè els pares són molt... com et diria... molt intensos, molt de defensar el seu fill en tot, i jo entenc que és normal però clar, la situació és que en Pau s'ha barallat amb tres nens del seu grup i ara diu que no vol tornar, però jo crec que canviar-lo de grup no és la solució, i m'agradaria que m'ajudessis a preparar com explicar-los això sense que sembli que estic descartant el que sent en Pau, perquè no vull que pensin que no me'l prenc seriosament, que me'l prenc molt seriosament, és un nen fantàstic, però canviar-lo de grup ara a mig curs em sembla precipitat i a més complicaria molt la dinàmica de l'altre grup que ja té la seva pròpia... en fi, que necessito ajuda per preparar aquesta conversa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc el neguit. Vols que els pares se sentin escoltats i que en Pau se senti pres seriosament, i alhora transmetre una posició professional clara sense que soni a \"no i punt\". Té molta lògica.\n\nAbans de preparar la conversa, una cosa que m'ajudaria a afinar-la: **quina és la teva posició real?** Vull dir, és \"el canvi de grup no és la solució en cap cas ara mateix\" o és \"no ho descarto, però primer cal explorar altres coses\"?\n\nPerquè la conversa serà molt diferent segons on estàs tu.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 438,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 163,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bona pregunta, sí... mira, si soc honest, la meva posició és que ara mateix no ho veig, el canvi, però tampoc vull tancar la porta del tot perquè si d'aquí a un mes la situació no millora doncs potser sí que caldria plantejar-ho, no? Però ara, a hores d'ara, crec que primer cal intentar altres coses, parlar amb els nens implicats, fer alguna dinàmica de grup, potser sessions amb la psicopedagoga, que per cert ja li he comentat el cas i ella també creu que és precipitat canviar-lo... o sigui que no estic sol en aquesta valoració, que això em dona una mica de tranquil·litat. Però vaja, la meva posició seria \"ara no, però estem oberts a revisar-ho si cal\". Això és el que vull transmetre."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecte, això és una posició sòlida i honesta. \"Ara no, però revisem\" és molt diferent de \"no\", i els pares ho notaran.\n\nAquí tens un esquema per a la reunió:\n\n---\n\n**1. Obrir reconeixent el que han viscut**\nAbans de res, que sentin que has escoltat en Pau i que entens la seva preocupació.\n\n*\"Gràcies per venir. Volia parlar amb vosaltres perquè la situació d'en Pau m'importa i vull que treballem junts. Sé que porta setmanes passant-ho malament, i això es nota.\"*\n\n---\n\n**2. Explicar la teva valoració, amb el suport de la psicopedagoga**\nSense defensar-te, simplement exposar.\n\n*\"Hem parlat amb la psicopedagoga i compartim la mateixa lectura: canviar-lo de grup ara, a mig curs, podria no resoldre el que li passa i li treia l'oportunitat de trobar eines per gestionar situacions difícils. No és que no ens preocupi, és que volem fer-ho bé.\"*\n\n---\n\n**3. Concretar el pla**\nQue surtin de la reunió amb passos clars, no amb una porta tancada.\n\n*\"El que proposem és: parlar amb els nens implicats aquesta setmana, fer un seguiment setmanal amb en Pau, i en [data concreta] ens tornem a veure per valorar com evoluciona. Si veiem que no millora, el canvi de grup és una opció que no descartem.\"*\n\n---\n\n**4. Deixar espai per a ells**\nNo acabar parlant tu. *\"Què en penseu? Hi ha alguna cosa que voleu afegir o que creieu que no estem veient?\"*\n\n---\n\nUna cosa a tenir en compte: si els pares arriben molt activats, val la pena deixar-los parlar primer abans d'exposar el teu pla. Que sentin que has vingut a escoltar, no a convèncer.\n\nVols que assagem alguna part concreta, o hi ha algun moment de la conversa que et preocupa més?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 827,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 568,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, mira, l'esquema està bé però... no sé, em queda una mica fred, com molt de manual, saps? Jo parlo diferent, soc molt més de parlar natural, i si arribo a la reunió amb això al cap em quedaré encarcarat. El que necessito és més com... les idees clau però explicades com si m'ho expliqués un company, no com un guió de formació de mestres. Pots fer-ho més així?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, clar. Mira, la idea central és aquesta:\n\nEntra a la reunió sense pressa per convèncer-los. Deixa'ls parlar primer. Quan un pare o una mare arriba amb la sensació que el seu fill pateix, el que necessita abans de res és sentir que tu també ho veus. Si comences explicant el teu pla, et posaran a la defensiva de seguida.\n\nAixí que primer: escolta. Pregunta'ls com veuen ells la situació, com està en Pau a casa. I quan parlin, recull alguna cosa concreta del que diuen, no de manera forçada, senseó perquè realment t'importa.\n\nQuan sigui el teu torn, no cal que ho argumentis molt. Pots dir-los, amb les teves paraules, que entens que en Pau ho passa malament i que tu també ho veus, que no estàs aquí per dir-los que no, senseó per buscar junts el que li va millor. I que la teva lectura, i la de la psicopedagoga, és que canviar-lo ara podria ser precipitat, no perquè no es mereixi estar bé, senseó perquè primer val la pena provar altres coses.\n\nLa clau és que surtin amb un pla concret i amb una data. Sense data, els pares se'n van amb la sensació que els has dit \"esperem\" i prou. Amb una data, se'n van amb la sensació que hi ha un seguiment real.\n\nI si s'escalfen, no cal que defensis la teva posició punt per punt. Pots dir simplement: \"Entenc que no és fàcil escoltar això quan el vostre fill ho passa malament. No tanco cap porta, però necessito que li donem una oportunitat a aquest pla.\"\n\nAixò és tot. No és un guió, és una conversa.\n\nMillor així?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1517,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 479,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, molt millor, això ja m'ho puc imaginar dient-ho jo, saps? Gràcies, de veritat. Ara em sento una mica més tranquil per demà. Ja t'explicaré com ha anat!"
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra. Molta sort demà, que segur que va bé.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2066,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

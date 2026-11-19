@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat real al torn 2 i va corregir bé al torn 4, però al torn 1 va desviar la conversa cap a l'anàlisi emocional quan la persona ja havia demanat ajuda pràctica, i al torn 3 va caure en la jerga que la persona va rebutjar",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "quan dius que acabes cridant, com et quedes tu després? Perquè de vegades allò que volem canviar primer és la nostra pròpia sensació, no només la seva resposta.",
+   "esperat": "Recollir el malestar breument i preguntar directament com sol anar la situació al matí, sense redirigir cap a l'anàlisi interna"
+  },
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que estiguis esgotat.",
+   "esperat": "Una frase de recollida més natural i menys formulaica, sense el «té sentit» automàtic"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Això dol d'una manera diferent que el simple conflicte de matins, oi?",
+   "esperat": "No atribuir una qualitat específica al dolor ni guiar la persona cap a una interpretació concreta; deixar que ell descrigui com li afecta"
+  },
+  {
+   "torn": 3,
+   "categoria": "jerga_cnv",
+   "gravetat": "alta",
+   "cita": "posen el focus en el temps i en la urgència — i sovint l'altra persona es tanca o contesta malament, sobretot si ja hi ha tensió acumulada",
+   "esperat": "Donar les frases alternatives directament, sense explicació teòrica ni terminologia de manual"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Són frases curtes, sense retret, i li donen una mica d'agència — que ella triï com respondre, no que senti que l'empentes.",
+   "esperat": "Ometre la justificació pedagògica; la persona havia demanat frases concretes, no una explicació del perquè funcionen"
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "id": "N2-G027",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "que-faig · els deures que acaben en crits",
+ "tipus": "que-faig",
+ "persona": "Rosa, tieta que cuida la nena. Situació: els deures que acaben en crits. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:25:13.313Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, menys mal que existeixes! Mira, tinc un problema amb la meva neboda, la Júlia, que té 9 anys i jo la cuido a les tardes. Cada dia és igual: arribo, li dic que faci els deures, i acaba tot en crits i llàgrimes, ella i jo les dues. Ja no sé si ser més dura i posar-li normes molt clares, o si ser més suau i deixar-la descansar una estona primer. La meva germana em diu una cosa, el seu marit em diu una altra, i jo estic al mig sense saber res. No sé què fer, digues-m'ho tu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Quina situació tan esgotadora — cada tarda acabar en crits i llàgrimes, i a sobre amb missatges contradictoris de la teva germana i el seu marit. Té sentit que no sàpigues per on agafar-ho.\n\nEt proposo dues opcions concretes, i tu veus quina t'encaixa més:\n\n**Opció 1: Una pausa curta primer**\nQuan arribes, li dones 15-20 minuts lliures — berenar, moure's, desconnectar. Després li dius: \"Ara sí, deures.\" Molts nens de 9 anys arriben de l'escola amb el cap ple i necessiten buidar una mica abans de tornar a concentrar-se. Pot ser que la resistència baixi sola.\n\n**Opció 2: Rutina clara des del primer moment**\nLi expliques una vegada, amb calma, com funcionarà cada tarda — i s'aplica sempre igual, sense negociar. La previsibilitat ajuda alguns nens a no discutir perquè ja saben que no canviarà.\n\nLes dues poden funcionar. La diferència és que la primera aposta per reduir la tensió *abans* dels deures, i la segona aposta per la claredat de les expectatives.\n\nSobre la teva germana i el seu marit: tu ets qui la veu cada tarda. El que funcioni *a la pràctica* és el que val.\n\nVols que t'ajudi a preparar com dir-li a la Júlia una d'aquestes opcions?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 334,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 398,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ostres, explicat així té molt més sentit. Mira, crec que provaré la primera, allò de la pausa. Perquè la Júlia quan arriba ve molt revolucionada, i potser tens raó que necessita baixar una marxa. Però com li ho dic? Perquè si li dic \"tens vint minuts lliures i després deures\", ja m'està negociant els vint minuts i vol que siguin una hora..."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, és molt típic dels nou anys! Si la proposta sona a negociació, negociaran.\n\nLa clau és dir-ho com un fet, no com una oferta. Per exemple:\n\n*\"Júlia, a partir d'ara farem així: primer berenem i descanses una estona, i després deures. Avui el temps lliure és fins a les cinc.\"*\n\nHora concreta en lloc de \"vint minuts\" — és més difícil de discutir que un número.\n\nI si comença a negociar, no entres al debat. Només:\n\n*\"Ja ho sé que voldries més estona. Avui és fins a les cinc.\"*\n\nI canvies de tema o et poses a fer alguna cosa teva. Sense explicacions llargues ni repetir els arguments — com més expliques, més marge li dones per negociar.\n\nHo vols provar així?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 848,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 229,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, el tema de l'hora concreta és una passada, no hi havia pensat! Sempre li deia \"vint minuts\" i clar, ella comptava i em venia amb el cronòmetre del mòbil... Bé, ho provaré demà. Gràcies, de veritat, que ja em tenies una mica desesperada!"
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit! Molta sort demà — i si la Júlia apareix amb el cronòmetre, ja saps: «Fins a les cinc.» 😄",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1170,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 53,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Jajaja, sí, \"fins a les cinc\" i punto pelota! Gràcies, TARA, ets un sol!"
+  },
+  {
+   "qui": "TARA",
+   "text": "De res! Ja m'explicaràs com ha anat. Bona tarda! 😊",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1261,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

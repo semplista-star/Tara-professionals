@@ -1,0 +1,83 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat final (opcions concretes), però va trigar tres torns a arribar-hi, dedicant massa espai a explorar l'estat emocional d'Aina quan ella ja havia senyalat que necessitava acció.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Puedo preguntarte algo? Cuando Martí llega por la mañana y lo dice, ¿cómo es ese momento para ti? ¿Qué pasa dentro mientras lo escuchas?",
+   "esperat": "Aina ja havia descrit la situació amb prou detall; una pregunta sobre el que necessitava (decidir, entendre, parlar amb algú) hauria estat més pertinent que aprofundir en el seu estat intern"
+  },
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Eso ya dice mucho de cómo te lo estás tomando.",
+   "esperat": "Ometre el judici valoratiu; no cal avaluar com es pren les coses la persona"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "Eso es mucho peso para cargarlo sola.",
+   "esperat": "Aina no havia dit que se sentís sola ni sobrecarregada; millor reflectir el que havia dit sense afegir interpretació"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "estás interpretando lo que dice Martí como una señal de que algo fallas tú",
+   "esperat": "Aina ho havia dit ella mateixa, però reformular-ho com a afirmació directa és una atribució; millor usar la seva pròpia paraula com a hipòtesi oberta"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿has podido hablar con alguien del centro sobre esto? ¿Con orientación, con la directora, con la propia Ana?",
+   "esperat": "Aina no havia demanat orientació sobre a qui parlar; la pregunta obre un fil que allarga la sessió sense que ella ho hagués demanat"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Lo que describes no suena a que no puedas con tu clase. Suena a una profesional que se toma en serio a un niño y que necesita un par de ojos más, no porque falle, sino porque así funciona mejor esto.",
+   "esperat": "Aina no havia demanat que TARA avalués la seva competència professional; és un judici valoratiu no sol·licitat"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Suena a una profesional que se toma en serio a un niño",
+   "esperat": "Ometre l'avaluació positiva de la persona; és un elogi automàtic que no aporta res a la necessitat"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Te pregunto algo concreto: si una compañera tuya, de las más veteranas, te viniera con exactamente esta situación, ¿pensarías que no puede con su clase?",
+   "esperat": "Tècnica de reencadrament no demanada; Aina havia demanat opcions concretes, no un exercici de perspectiva"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "He visto que últimamente por las mañanas a veces estás un poco triste cuando llegas",
+   "esperat": "Posar paraules al que sent Martí és una atribució d'estat intern a un tercer; millor suggerir una obertura neutral com 'he vist que de vegades quan arribes...' sense nomenar l'emoció"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Una cosa importante: si no sale nada claro, no es que hayas fallado. A veces los niños de cuatro años no saben explicar lo que sienten, y aun así el momento de sentarte con él ya tiene valor en sí mismo.",
+   "esperat": "Aina havia demanat com iniciar la conversa; aquest paràgraf final és un afegit tranquil·litzador no sol·licitat que allarga la resposta"
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre que la persona necessitava preparar una frase per parlar amb el fill, però va trigar a arribar-hi i va afegir comentaris valoratius i atribucions no demanades pel camí.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Escolto que estàs preocupat per en Yusuf, i que la distància que notes et pesa. Això es nota.",
+   "esperat": "Reconèixer la preocupació sense atribuir-li un pes emocional no expressat ('et pesa')"
+  },
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "El que sí puc fer és ajudar-te a trobar una manera de parlar amb ell que no el faci tancar-se més.",
+   "esperat": "Esperar que la persona demani ajuda per preparar la conversa abans d'oferir-la"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Dos mesos és una cosa concreta. Significa que tu l'estàs observant, que hi ets.",
+   "esperat": "Registrar la dada sense convertir-la en un elogi a la persona"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "les dues diuen molt de com estàs tu també",
+   "esperat": "No inferir l'estat emocional de la persona a partir de les dades que ha donat"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "De vegades no cal explicar gaire. De vegades n'hi ha prou amb una frase senzilla que li faci saber que hi ets.",
+   "esperat": "Passar directament a la pregunta sobre què li costa, sense el comentari pedagògic previ"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "Tenir por que el teu fill et tanqui la porta — literalment i figuradament — quan ja notes que s'allunya, dol.",
+   "esperat": "No afirmar com a fet que 'dol'; la persona no ho ha dit"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "té sentit que et faci recular",
+   "esperat": "Evitar la fórmula 'té sentit' com a validació automàtica"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "el fet que estiguis aquí, pensant com parlar amb ell, ja diu molt de tu com a mare",
+   "esperat": "No fer judicis valoratius sobre la persona; és un patró que es repeteix"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Si et tanqués la porta, no seria el final. Seria informació — que potser aquell moment no era el bo",
+   "esperat": "La persona ha demanat preparar la frase, no una reinterpretació del possible rebuig"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "No cal fer-ho perfectament. Cal fer-ho amb el cor — i això ja ho tens.",
+   "esperat": "Tancar sense judicis valoratius; un simple 'de res' i 'sort' és suficient"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat central (opcions clares i preparació de la conversa) i va respondre de manera útil i progressiva, però va afegir preguntes no demanades i alguns elements valoratius que no calia.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "es nota que t'importa molt com els afectarà als nens",
+   "esperat": "Ometre la validació atributiva i passar directament a les opcions, que era el que demanava"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "ja noten els nens que alguna cosa passa a casa?",
+   "esperat": "Lliurar les dues opcions amb implicacions sense condicionar-les a una resposta prèvia de la persona; si la pregunta era necessària per matisar, podia fer-se després de les opcions"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "El que m'has dit —que et va quedar malament mentir-li— ja és una pista del que tu sents sobre això",
+   "esperat": "No interpretar ni orientar implícitament cap a una opció; la decisió és seva i TARA ja havia dit que no decidiria"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "alta",
+   "cita": "aquesta conversa la fareu els dos junts, tu i la mare, o la faràs tu sol?",
+   "esperat": "Donar directament un inici de conversa adaptable a les dues situacions, o demanar-ho només si la resposta canviava substancialment el contingut; aquí retarda l'ajuda demanada un torn sencer"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Que ho feu junts és molt important per a ells. Ja els esteu donant el missatge més gran abans de dir cap paraula",
+   "esperat": "Passar directament a l'inici de conversa sense el comentari valoratiu sobre la decisió de la parella"
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Tens resposta per a això, o encara no ho teniu decidit?",
+   "esperat": "Tancar el torn amb el material lliurat; la pregunta sobre la residència obre un fil nou que la persona no havia demanat i que no va tenir continuïtat útil"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Tens el més important: ho fareu junts i amb honestedat",
+   "esperat": "Confirmar disponibilitat i tancar sense jutjar ni avaluar les decisions de la persona"
+  },
+  {
+   "torn": 5,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Molta força",
+   "esperat": "Tancament neutre i càlid sense fórmula d'ànim que pot sonar a automatisme"
+  }
+ ]
+}

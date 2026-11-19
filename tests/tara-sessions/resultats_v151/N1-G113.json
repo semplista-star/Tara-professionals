@@ -1,0 +1,119 @@
+{
+ "id": "N1-G113",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "correccio · un alumne que es riu dels companys amb necessitats educatives",
+ "tipus": "correccio",
+ "persona": "Pau, tutora de 1º de ESO. Situació: un alumne que es riu dels companys amb necessitats educatives. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:18:22.522Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, sí, mira, te cuento porque es que llevo todo el día dándole vueltas a esto y no sé muy bien cómo manejarlo. Tengo un alumno en primero de la ESO, se llama Marcos, y hoy en clase ha pasado algo que me ha dejado bastante mal cuerpo. Estábamos haciendo una actividad en grupos y hay una niña, Laia, que tiene dislexia y también algunas dificultades de atención, y claro, cuando le ha tocado leer en voz alta ha tardado un poco más, se ha trabado en algunas palabras... y Marcos se ha empezado a reír. No una risita tonta de nervios, no, era una risa bastante exagerada, mirando a los demás del grupo como buscando que se unieran. Y algunos se han reído también, claro, porque con doce años si alguien empieza... Y Laia se ha puesto roja, se ha callado y ha dejado de participar el resto de la clase. Me ha partido el corazón, de verdad. He cortado la situación en el momento, le he dicho a Marcos que eso no estaba bien y hemos seguido,"
+  },
+  {
+   "qui": "TARA",
+   "text": "Te ha partido el corazón verla callarse así. Y encima llevas todo el día con eso dentro.\n\nLo que describes es serio: no fue una risita de nervios, fue una risa dirigida, buscando cómplices. Y funcionó. Eso tiene peso.\n\n¿Qué necesitas ahora mismo? ¿Pensar cómo hablar con Marcos, cómo acompañar a Laia, cómo trabajarlo con el grupo... o algo más?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 438,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 123,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto, eso es lo que me pesa, que funcionó, que los otros se rieron también. Pero mira, antes de entrar en qué hago con cada uno... lo que más me urge ahora mismo es Marcos. Porque con Laia ya tengo más o menos claro que tengo que hablar con ella, hacerle sentir que no ha hecho nada mal, que yo estoy ahí. Pero Marcos... no sé cómo enfocar esa conversación. No quiero que sea un rapapolvo porque creo que eso no sirve de nada, ya sabes, que entre por un oído y salga por el otro. Pero tampoco quiero que se quede sin consecuencias ni sin reflexión real. Y es que Marcos no es mal chico, en general se lleva bien con los demás, no es de los que buscan pelea... por eso me ha sorprendido tanto. Entonces, ¿cómo le hablo? ¿Qué le digo? Necesito algo concreto, algo que pueda hacer mañana."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Algo concreto para mañana con Marcos.\n\nAntes de darte una estructura, una cosa que me parece útil tener en cuenta: que no sea \"mal chico\" y que esto haya pasado no se contradicen. A veces precisamente eso —buscar la risa del grupo, sin pensar en quién queda en medio— ocurre más con chavales que socialmente quieren encajar o liderar, no con los que van de frente. Eso no lo justifica, pero puede orientar cómo hablarle.\n\n---\n\n**Una propuesta para la conversación con Marcos**\n\n**Tono:** privado, tranquilo, sin audiencia. No como castigo, sino como conversación real.\n\n**Estructura en tres movimientos:**\n\n**1. Nombra lo que viste, sin interpretar**\n*\"Marcos, quiero hablar contigo de lo que pasó ayer en clase. Vi que cuando Laia estaba leyendo te reíste, y que miraste a los otros del grupo.\"*\n\nSin \"te burlaste\", sin \"quisiste hacerle daño\". Solo lo que ocurrió.\n\n**2. Abre la pregunta que importa**\n*\"¿Qué crees que sintió ella en ese momento?\"*\n\nEspera. No rellenes el silencio. Si le cuesta, puedes añadir:\n*\"Piénsalo un momento. Se puso roja y dejó de hablar el resto de la clase.\"*\n\n**3. Conecta con su responsabilidad, sin sermón**\n*\"Lo que pasó no se puede deshacer. Pero sí puedes decidir qué haces a partir de ahora. ¿Qué se te ocurre?\"*\n\nY escuchas. Si no sale nada útil, puedes ofrecer tú una opción concreta —una disculpa, un gesto— y dejar que él elija.\n\n---\n\n¿Esto se acerca a lo que necesitabas, o quieres ajustar algo —el tono, las palabras, cómo manejar si se pone a la defensiva?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 829,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 524,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. Yo no he dicho que Marcos quiera liderar ni encajar más que otros. No lo sé, la verdad. Puede ser, pero también puede ser que simplemente le haya parecido gracioso sin pensar, no tengo ni idea de qué le pasaba por la cabeza. No quiero ir a la conversación con esa idea ya metida porque igual me equivoco.\n\nY otra cosa, lo de las listas y los pasos numerados... mira, te lo agradezco, pero yo en una conversación real con un alumno de doce años no voy con una estructura de tres movimientos en la cabeza, eso no me funciona. Lo que necesito es más bien entender la idea de fondo, qué es lo importante, y luego ya lo adapto yo a cómo soy yo hablando.\n\nEntonces, ¿cuál sería lo esencial de esa conversación? ¿Qué es lo que no puede faltar?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón en los dos puntos. Me he adelantado con lo de liderar, y la estructura era demasiado rígida. Gracias por decirlo.\n\nLo esencial, entonces:\n\nQue Marcos pueda ver lo que pasó desde fuera, no desde el banquillo. No \"hiciste mal\", sino \"¿qué crees que vivió ella?\". Eso es lo que abre algo real, si abre algo.\n\nY que la conversación no termine en el pasado. Lo que pasó, pasó. Lo que importa es qué hace él ahora con eso.\n\nEso es todo. El cómo lo llevas tú, con tus palabras y tu manera, ya lo sabes hacer.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1592,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 180,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso sí me cuadra más. Lo de sacarle de la posición de acusado y que piense en ella, eso tiene sentido. Y lo de no quedarse solo en el \"estuvo mal\" sino en el qué haces ahora, también.\n\nBueno, pues creo que con esto ya tengo bastante para mañana. Gracias, de verdad, que a veces solo necesitas que alguien te ayude a ordenar un poco el lío que tienes en la cabeza."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido. Suerte mañana con Marcos, y con Laia.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1902,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

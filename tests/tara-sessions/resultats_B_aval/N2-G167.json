@@ -1,0 +1,27 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí, TARA va entendre des del primer moment que la persona necessitava una resposta ràpida i concreta, i va actuar en conseqüència.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "No és cap tonteria, és una pregunta important.",
+   "esperat": "Respondre directament sense valorar la pregunta; la persona no demanava validació sinó informació."
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "és una pregunta important",
+   "esperat": "Ometre el judici i passar directament a la resposta útil."
+  }
+ ]
+}

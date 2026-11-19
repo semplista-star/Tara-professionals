@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat pràctica però va respondre l'humor inicial amb una interpretació emocional no demanada, i al torn 3 va afegir una derivació a la tutora que la persona no havia sol·licitat",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Que ho diguis amb ironia no amaga que t'importa.",
+   "esperat": "Seguir l'humor amb naturalitat o simplement preguntar què ha passat, sense interpretar l'estat emocional de la persona"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "si ha estat una dinàmica de grup, alguna cosa que tu has proposat, o una cosa que ja venia de before",
+   "esperat": "Una sola pregunta oberta; la llista de possibilitats és innecessària i lleugerament directiva"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Que creguis que ve d'abans té sentit",
+   "esperat": "Recollir el que diu la persona sense validar-ho amb fórmula; per exemple, reformular o preguntar directament"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Una cosa que potser val la pena fer en paral·lel: parlar amb la tutora o tutor del grup, si tens accés.",
+   "esperat": "La persona havia demanat únicament com gestionar la formació de grups; la derivació a la tutora no havia estat sol·licitada en aquest torn"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Les tres eviten que ella —o qualsevol altre alumne en situació similar— torni a quedar-se dreta mirant.",
+   "esperat": "Presentar les tres opcions sense el resum final redundant, que allarga la resposta sense afegir informació nova"
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "id": "N2-G168",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "desfogar-demanda · la porta de l'habitació sempre tancada",
+ "tipus": "desfogar-demanda",
+ "persona": "Luis, madre. Situació: la porta de l'habitació sempre tancada. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:33:01.545Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola... bueno, no sé si esto es el sitio adecuado, perdona si no lo hago bien. Es que hoy solo necesito que alguien me escuche, si no te importa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estoy. Cuéntame.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 216,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias, de verdad. Es que... mi hijo Luis lleva semanas con la puerta de su habitación siempre cerrada. Antes la dejaba abierta, o entrabamos sin problema, y ahora... nada. Y no sé, igual es una tontería y me estoy preocupando por nada, perdona."
+  },
+  {
+   "qui": "TARA",
+   "text": "No es una tontería. Notar ese cambio en Luis te ha removido algo.\n\n¿Qué es lo que más te pesa de esto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 315,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto... me pesa no saber qué le pasa. Si está bien, si está triste, si le ha pasado algo. Y encima cuando intento hablar con él me dice que está bien y ya está. Yo le creo, o sea, supongo que le creo, pero... no sé. Me siento un poco fuera de su vida, ¿sabes?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, te entiendo. Sentirte fuera de su vida, después de haber estado tan dentro... eso duele.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 451,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 34,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso es. Duele, sí. Perdona, no quería ponerme así. Es que cuando lo dices así me doy cuenta de que es eso exactamente lo que siento."
+  },
+  {
+   "qui": "TARA",
+   "text": "No tienes que pedir perdón por sentirlo.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 538,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ya... es que tengo esa costumbre, disculparme por todo. Bueno. Gracias por escucharme, de verdad. Esto ya me ayuda un poco, el poder decirlo en voz alta."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido de algo. Y lo que has nombrado hoy —ese dolor de sentirte fuera— ya es mucho.\n\nSi en algún momento quieres pensar cómo acercarte a Luis, aquí estoy. Y si no, también está bien así.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 612,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 71,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues... ahora que lo dices, igual sí que me podrías ayudar con una cosa pequeña. ¿Cómo podría empezar a acercarme a él sin que se sienta invadido? Solo un primer paso, algo sencillo, no sé si me explico."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te explicas perfectamente.\n\nUn primer paso sencillo: busca un momento sin presión —en el coche, preparando algo juntos, sin mirarle de frente— y dile algo como:\n\n*\"Oye, no tienes que contarme nada. Solo quiero que sepas que estoy aquí cuando quieras.\"*\n\nSin pregunta, sin esperar respuesta. Solo dejar la puerta abierta desde tu lado.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 760,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 108,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay, eso me gusta. Es sencillo y no le presiona. Lo voy a intentar, gracias. Y gracias por escucharme hoy, de verdad, que era lo que más necesitaba. Me voy más tranquila."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Suerte con Luis.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 932,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

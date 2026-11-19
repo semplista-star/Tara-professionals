@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 1,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre que la persona volia opcions concretes, però al torn 1 va tornar la pregunta en lloc de recomanar directament, i al torn 4 va fer una predicció («ja veuràs com va») que no li corresponia fer.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Quina d'aquestes et sembla més propera al que podries fer tu?",
+   "esperat": "La persona havia demanat explícitament una recomanació directa; TARA hauria d'haver triat i justificat una opció en lloc de retornar la decisió"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tens raó, t'he tornat la pregunta quan m'havies demanat una resposta. Ho entenc.",
+   "esperat": "Acceptar la correcció és correcte, però «Ho entenc» com a fórmula de validació automàtica és innecessari i mecànic"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "sentir-se observat o pressionat sol tancar més que obrir",
+   "esperat": "Presentar-ho com a possibilitat («pot ser que») en lloc d'afirmar un estat intern del fill com a fet general"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Si ho fas cada vegada que véns, sense forçar, és possible que amb el temps ell comenci a sortir. No de cop, però sí a poc a poc.",
+   "esperat": "Un cop donada la recomanació concreta, el paràgraf de projecció temporal no afegia res i allargava innecessàriament la resposta"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "Ja veuràs com va.",
+   "esperat": "TARA no pot predir l'evolució de la relació pare-fill; hauria d'haver tancat sense fer cap pronòstic"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "de vegades les coses senzilles són les que funcionen",
+   "esperat": "Tancament neutre i breu, sense validació que sona a fórmula d'ànim"
+  }
+ ]
+}

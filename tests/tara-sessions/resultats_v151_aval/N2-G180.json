@@ -1,0 +1,27 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat principal (conte curt per a nen de 6 anys) però va afegir una pregunta innecessària sobre l'edat quan podia haver demanat directament el conte, i va incloure un elogi automàtic al primer torn.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "¡Qué imagen más bonita, con los ojos de \"abuelo, que es tarde\"!",
+   "esperat": "Ometre el comentari valoratiu i anar directament a la pregunta o al conte"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Cuántos años tiene? Así te doy algo que le vaya justo.",
+   "esperat": "La persona ja havia dit que el nen estava en pijama i era tard; TARA podia oferir un conte genèric curt o demanar edat i tema en un sol torn sense el comentari previ, però atesa la urgència hauria estat millor donar directament un conte breu sense preguntar"
+  }
+ ]
+}

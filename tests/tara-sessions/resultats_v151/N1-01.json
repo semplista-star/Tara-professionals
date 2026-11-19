@@ -1,0 +1,207 @@
+{
+ "id": "N1-01",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "Docent esgotada que només vol desfogar-se",
+ "persona": "Laia, mestra de 4t de primària, 48 anys. Final d'un dia duríssim: dos conflictes al pati, una família que l'ha cridat per telèfon. Parla curt, cansada, sense ganes d'anàlisis.",
+ "guio": [
+  "Obre dient que avui només necessita que l'escoltin, res més.",
+  "Explica una mica el dia si TARA l'escolta; si TARA proposa solucions o fa moltes preguntes, digues-li que no vols consells.",
+  "Després d'uns torns, demana: «ara sí, m'ajudes a escriure dues línies a la família que m'ha trucat?»",
+  "Si TARA dona el text, agraeix i tanca dient que se'n va a casa."
+ ],
+ "espera": "Escoltar sense preguntes ni solucions als primers torns; quan demana les dues línies, donar-les en el mateix torn; tancar sense allargar.",
+ "tipus": "manual",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:10:36.844Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Avui només necessito que m'escoltin. Res més."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 158,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 8,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ha sigut un dia horrible. Dos baralles al pati, una família cridant-me per telèfon... estic morta."
+  },
+  {
+   "qui": "TARA",
+   "text": "Dos baralles, una família cridant... avui t'ha caigut tot de cop. Té sentit que estiguis morta.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 203,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. I el pitjor és que encara tinc el cap a tot això i no puc desconnectar."
+  },
+  {
+   "qui": "TARA",
+   "text": "El cap segueix allà, donant voltes, sense deixar-te respirar.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 272,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacte. I ja sé que hauria de fer no sé quantes coses però ara mateix no tinc forces per pensar."
+  },
+  {
+   "qui": "TARA",
+   "text": "No cal pensar ara. Ja has fet prou avui.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 329,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. Necessitava sentir això."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me n'alegro que hagi servit.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 364,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Oye, ara sí... m'ajudes a escriure dues línies a la família que m'ha trucat? Alguna cosa breu, professional, però que no soni freda."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar. Explica'm una mica: de què anava la trucada? Així puc ajudar-te a trobar el to adequat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 427,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Una mare que es queixava que el seu fill havia tingut un conflicte al pati i que jo no havia fet prou. Vull dir-li que ho hem gestionat i que estem pendents del nen, però sense posar-me a la defensiva."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tens un esborrany:\n\n---\n\n*Bona tarda, [nom de la mare/pare],*\n\n*Gràcies per trucar i explicar-nos com us ha afectat. Hem gestionat el que ha passat al pati i estem pendents del vostre fill. Si voleu, podem parlar amb més calma en els propers dies per explicar-vos com ho hem abordat i escoltar les vostres preguntes.*\n\n*Una salutació cordial,*\n*[El vostre nom]*\n\n---\n\nBreu, professional i sense defensar-se. Si vols canviar alguna cosa del to o afegir algun detall, digues.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 533,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 174,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, això és just el que necessitava. Moltes gràcies. Ara me'n vaig a casa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bon descans. Te'l mereixes.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "id": "N2-G171",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "rebuig · una mudança que el fill no vol",
+ "tipus": "rebuig",
+ "persona": "Marc, família d'acollida. Situació: una mudança que el fill no vol. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:33:20.087Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tinc un problema bastant gros ara mateix. El meu fill acollit, en Dani, té 14 anys i ens hem de mudar a una altra ciutat per feina. I el nano no vol ni sentir-ne parlar. Cada cop que ho trec es tanca en banda o s'enfada. No sé com gestionar-ho, la veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc que és una situació molt difícil. Una mudança ja és complicada per a qualsevol adolescent, i per a en Dani, que ve d'una història d'acolliment, pot tenir un pes molt més gran — la idea de deixar un lloc que potser és el primer que ha sentit seu de veritat.\n\nQuan dius que es tanca en banda o s'enfada, com és exactament? S'aixeca i se'n va, et crida, no diu res...?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 259,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 126,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacte. Primer no diu res, se queda mirant el mòbil com si no existís. I si insisteixo una mica, ja ve l'explosió. Ahir em va dir que \"sempre li passava el mateix\" i que no li importava a ningú. Allò em va fer mal, eh. Perquè no és veritat, però tampoc sé com fer-li entendre."
+  },
+  {
+   "qui": "TARA",
+   "text": "Que et digui \"sempre li passa el mateix\" i que no li importa a ningú... és dur d'escoltar, sobretot quan saps tot el que hi poses.\n\nI alhora, potser en Dani no parla de tu específicament. Potser parla d'una cosa molt més llarga que porta dins.\n\nAra mateix, què t'importa més: entendre millor el que li passa a ell, o trobar una manera de poder parlar-ne sense que acabi en explosió?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 491,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 125,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Les dues coses van juntes, no? Però si he de triar... el que més em preocupa és poder parlar-hi sense que tot peti. Perquè si no podem ni obrir la boca sobre el tema, no anem enlloc. I la mudança és d'aquí dos mesos, no tinc tot el temps del món."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té sentit. Si no podeu ni obrir la porta, tot el demés queda bloquejat.\n\nUna cosa que de vegades ajuda amb adolescents que s'encallen així és no intentar parlar *del tema* directament, senseó primer fer-li saber que l'has escoltat — sense que hagi d'explicar res ni defensar-se.\n\nPer exemple, podries dir-li alguna cosa com:\n*\"Ahir em vas dir que sempre et passa el mateix i que no li importes a ningú. Vull que sàpigues que m'ha quedat aquí, i que m'importa el que sents.\"*\n\nRes més. Sense afegir \"però la mudança...\" ni cap explicació. Només deixar-li veure que el que va dir va arribar.\n\nAixò no resol la conversa, però pot obrir una escletxa. Ell decideix si entra o no.\n\nTé sentit per a tu, o veus algun problema per fer-ho així?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 701,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 249,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, té sentit en teoria... però és que jo no soc molt d'aquestes frases tan elaborades, saps? Em surt forçat. I si en Dani nota que estic recitant alguna cosa, pitjor. Em coneix prou bé per saber quan no soc jo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens tota la raó. Si sona a guió, ell ho notarà i es tancarà més.\n\nLlavors, com ho diries tu? Amb les teves paraules, com li faries saber que allò que va dir ahir t'ha quedat?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1028,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 71,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf... no sé. Potser alguna cosa com \"ei, el que em vas dir ahir m'ha donat voltes al cap\". Sense floritures. Curt i al gra. Però clar, no sé si amb això n'hi ha prou per obrir alguna cosa o si simplement em dirà \"i?\" i ja està."
+  },
+  {
+   "qui": "TARA",
+   "text": "Això és perfecte. És teu, és directe, i és veritat.\n\nI si et diu \"i?\"... potser no és tan dolent. Almenys ha respost. Podries seguir amb alguna cosa igual de curta: *\"Doncs que m'importa el que sents.\"* I parar aquí.\n\nNo cal que aquella conversa resolgui res. Només que ell noti que no has passat pàgina.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1187,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 114,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, això sí que m'ho veig dient. I tens raó que si respon, per poc que sigui, ja és algo. Fins ara estava pensant que havia de solucionar-ho tot d'un cop i potser no cal, oi? Anar a poc a poc. Gràcies, de veritat, m'ha ajudat."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. I sí — a poc a poc. No cal resoldre la mudança en una conversa.\n\nMolta sort amb en Dani.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1392,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 39,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

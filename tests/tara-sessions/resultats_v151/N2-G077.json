@@ -1,0 +1,185 @@
+{
+ "id": "N2-G077",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "jerga · arribar tard els caps de setmana",
+ "tipus": "jerga",
+ "persona": "Carmen, tutora legal. Situació: arribar tard els caps de setmana. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:27:35.093Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, és que el meu fill arriba tard els caps de setmana i no hi ha manera. Li dic una hora i ell fa el que vol."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc la frustració. Li dius una hora i no la respecta.\n\nQuan dius \"no hi ha manera\", vols que t'ajudi a pensar com parlar-hi, o primer vols explicar-me una mica més com va la cosa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 200,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 65,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "És que em toreja, saps? Li dic les dotze i apareix a la una i mitja sense dir res. Em té farta."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar, arribar una hora i mitja tard sense avisar és molt difícil de sostenir.\n\nQuina edat té?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 300,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 35,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Setze anys. Ja sé que és adolescent i tot això, però és que sembla que li importi un ble el que li dic."
+  },
+  {
+   "qui": "TARA",
+   "text": "Setze anys i una hora i mitja de retard sense avisar — tens tot el sentit d'estar farta.\n\nVols que t'ajudi a preparar una conversa amb ell? Podríem pensar com dir-li el que necessites sense que acabi en discussió.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 372,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 72,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, això és el que vull. Perquè quan li parlo sempre acaba malament i crido i ell se'n va."
+  },
+  {
+   "qui": "TARA",
+   "text": "D'acord. Anem a això.\n\nQuan acaba en crits i ell se'n va, la conversa no arriba a cap lloc. Per trencar aquest cercle, sovint ajuda parlar en un moment tranquil —no quan acaba d'arribar tard ni quan estàs al límit.\n\nEt proposo una frase per començar la conversa. Pots ajustar-la com vulguis:\n\n---\n\n*\"Vull parlar amb tu d'una cosa que em preocupa. Quan quedem a les dotze i arribes a la una i mitja sense avisar, em quedo preocupada i no sé res de tu. Necessito saber que estàs bé i que puc confiar en l'hora que acordem. Podem trobar una manera que funcioni per als dos?\"*\n\n---\n\nAquesta frase explica el que passes tu —la preocupació, no només el retard— i li deixa espai per respondre.\n\nCom et sona?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 482,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 244,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, és molt llarga això. Jo no parlo així, sembla un llibre."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, és massa formal. Anem a alguna cosa més teva.\n\nQuè tal algo així:\n\n*\"Quan arribes tard sense avisar, em quedo morta de preocupació. Necessito que m'avisis, com a mínim.\"*\n\nCurt i directe. Com et sona això?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 82,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, això ja s'assembla més a com parlo jo. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. Ja tens alguna cosa per començar.\n\nSi vols, quan tinguis la conversa i veus com va, pots tornar i ho mirem juntes.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 858,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 44,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, d'acord. Gràcies, Tara."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ànim! Espero que vagi bé.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 924,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

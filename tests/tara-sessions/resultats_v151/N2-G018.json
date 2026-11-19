@@ -1,0 +1,162 @@
+{
+ "id": "N2-G018",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "humor · els deures que acaben en crits",
+ "tipus": "humor",
+ "persona": "Rubén, madrastra. Situació: els deures que acaben en crits. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:24:55.189Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, Tara. Buf, no sé ni per on començar, perdona. És que... bé, a casa tenim una tradició molt especial cada tarda: els deures amb el meu fillastre acaben sempre en olimpiades de crits. Molt bonic tot, ja ho sé. 😅"
+  },
+  {
+   "qui": "TARA",
+   "text": "Ja et sento — i el \"buf\" ho diu tot. 😄\n\nOlimpíades de crits cada tarda... sona esgotador. Què passa normalment quan comencen els deures?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 241,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 54,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, esgotador és la paraula exacta. A veure, perdona si m'explico malament... El que passa és que ell s'asseu, jo li dic que comenci, i ja des del primer moment és com si li estigués demanant alguna cosa horrible. Es queixa, jo insisteixo, ell puja el to, jo pujo el to... i al final acabem els dos enfadats i els deures a mitges. I llavors em sento fatal perquè penso que potser ho estic fent malament, que no soc la seva mare i potser no tinc dret a exigir-li res, no sé."
+  },
+  {
+   "qui": "TARA",
+   "text": "No t'has explicat malament, al contrari — ho has descrit molt clar.\n\nCada tarda la mateixa espiral, i al final tu carregues amb el pes de tot: els deures a mitges, l'enfrontament, i a sobre el dubte de si tens dret a estar-hi. Això és molt per sostenir.\n\nAquell pensament de \"potser no tinc dret a exigir-li res\" — el portes sovint, o és més una cosa que apareix quan esteu en plena baralla?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 460,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 134,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Apareix sobretot quan estem en plena baralla, però... sí, en el fons hi és sempre una mica. Perdona, és difícil d'explicar. És com que quan tot va bé m'oblido, però quan ell em planta cara, de cop penso \"i jo qui soc per dir-li res?\". I clar, suposo que ell ho nota, que no estic segur, i aprofita una mica, no? No ho dic amb mala intenció d'ell, eh, és normal en un nen. Però a mi em deixa sense saber com actuar."
+  },
+  {
+   "qui": "TARA",
+   "text": "No cal que et disculpis — t'estàs explicant molt bé.\n\nAixò que describes té molt de sentit: quan ell planta cara, aquell dubte intern puja i et deixa sense terra ferma. I des d'aquí és molt difícil mantenir el rumb.\n\nUna cosa que has dit m'ha cridat l'atenció: \"i jo qui soc per dir-li res?\". Quan et fas aquesta pregunta, tu mateix, què et respondries?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 120,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uf... no ho sé. Suposo que em diria que soc la persona que hi és cada dia, que li preparo el sopar, que em preocupo per ell... però clar, després penso que això no em fa la seva mare, i torno a quedar-me en blanc. És una mica un cercle, no? Perdona. El cas és que no sé com trencar-lo, i per això volia preguntar-te... hi ha alguna cosa concreta que pugui fer diferent quan comencen els deures? Alguna cosa petita, que pugui provar demà mateix."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, és un cercle — i té sentit que vulguis trobar una sortida pràctica.\n\nAquí tens tres coses petites que pots provar demà, cadascuna diferent:\n\n**1. Canviar com comences tu**\nEn lloc de \"comença els deures\", prova amb una pregunta neutral: *\"Quin tens primer?\"* o *\"Per on vols començar?\"*. Li dona una mica de control, i sovint baixa la resistència inicial.\n\n**2. Separar el moment d'asseure's del moment de fer**\nDigues-li que primer s'asseu cinc minuts sense pressió, i que després decidiu junts per on tireu. De vegades la barrera és el \"tot d'una cop\", no els deures en si.\n\n**3. Posar-te al costat, no davant**\nEn lloc d'estar pendent de si fa o no fa, seure al costat seu fent alguna cosa teva — el mòbil, un paper, el que sigui. Canvia la dinàmica de vigilant a acompanyant, i a vegades ell s'enganxa sol.\n\nCap de les tres resol el dubte de fons que tens sobre el teu lloc — això és una altra conversa. Però poden ajudar a trencar l'espiral de demà.\n\nAlguna d'aquestes t'encaixa amb com és ell?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1016,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 349,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La primera em sembla bé, això de preguntar-li per on vol començar... sí, crec que pot funcionar amb ell perquè li agrada sentir que decideix una mica. Ho provaré demà, a veure. Gràcies, Tara, de veritat. Perdona que hagi estat tan embolicat explicant-me, però m'ha ajudat parlar-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit. I no has estat gens embolicat — has explicat una cosa complicada amb molta honestedat.\n\nBona sort demà amb el \"per on vols començar?\". Espero que vagi bé.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1469,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 67,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. Ja t'explicaré com ha anat. 😊"
+  },
+  {
+   "qui": "TARA",
+   "text": "M'agradaria saber-ho. Fins aviat! 😊",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1560,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

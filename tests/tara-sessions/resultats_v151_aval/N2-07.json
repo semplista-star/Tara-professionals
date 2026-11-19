@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va entendre des del primer torn que la persona necessitava un correu basat en fets i el va lliurar ràpidament i de manera aplicable.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Abans d'escriure el correu, m'ajudaria saber: què ha passat concretament",
+   "esperat": "La persona ja havia donat prou context per iniciar l'esborrany o demanar-ne un exemple breu sense justificar la pregunta amb un argument persuasiu"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "les dues t'han fet mal: veure que la renyaven a ella sola, i sentir a la reunió una cosa que no quadra amb el que tu veus a casa",
+   "esperat": "Reflectir els fets sense atribuir l'emoció 'fer mal', que la persona no havia expressat; ella havia dit 'enfadada', no 'ferida'"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Et proposo un to ferm però obert, perquè la tutora pugui respondre sense posar-se a la defensiva, i tu puguis escoltar la seva versió",
+   "esperat": "Lliurar l'esborrany sense prescriure com ha de gestionar la relació amb la tutora ni anticipar que ha d'escoltar la seva versió"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Espero que la reunió vagi bé i que puguis aclarir les dues coses. Sort!",
+   "esperat": "Tancament neutre i breu sense desitjos de bona sort que poden sonar a fórmula; n'hi hauria prou amb 'De res, fins aviat'"
+  }
+ ]
+}

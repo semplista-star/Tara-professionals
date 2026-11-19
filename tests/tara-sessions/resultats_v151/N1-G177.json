@@ -1,0 +1,118 @@
+{
+ "id": "N1-G177",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "nomes-desfogar · una companya que no col·labora en el projecte comú",
+ "tipus": "nomes-desfogar",
+ "persona": "Laia, mestra d'infantil. Situació: una companya que no col·labora en el projecte comú. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:22:32.147Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Mira, avui necessito desfogar-me una mica, res més. No busco consells ni solucions, és que tinc la cap a punt d'explotar i necessito explicar-ho a algú, saps?"
+  },
+  {
+   "qui": "TARA",
+   "text": "T'escolto. Explica'm.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 202,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 13,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, és que és la Montse, una companya meva de cicle. Estem fent un projecte conjunt de les tres mestres d'infantil, sobre els animals del bosc, i ella... no fa res! O sigui, literalment res. La setmana passada vam quedar que cadascuna portaria materials per la sessió del dimarts, jo vaig portar els contes, la Núria va portar les fotos laminades i les fitxes, i la Montse va arribar amb les mans buides dient que \"no havia tingut temps\". I ja és la tercera vegada que passa això! La primera vegada li vaig donar el benefici del dubte, la segona ja em va molestar però no vaig dir res, i ara ja... és que m'indigna, perquè nosaltres ens estem partint l'esquena i ella tan tranquil·la, com si res."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tres vegades seguides, tu i la Núria carregant amb tot, i ella com si no anés amb ella. Té sentit que estiguis indignada.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 440,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 44,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacte! I el pitjor és que a les reunions de cicle parla molt, eh, dona opinions, diu \"hauríem de fer això, hauríem de fer allò\"... i després a l'hora de la veritat, res de res. I jo me la miro i penso, però com pots tenir aquesta cara tan dura? I la Núria també està farta, però cap de les dues li hem dit res encara perquè no volem crear mal ambient a l'equip, saps? Que al final hem de treballar juntes tot el curs i no vols que les coses es posin tenses. Però clar, per no dir res acabem empassant-nos-ho tot i jo arribo a casa i estic de mala llet i el meu home em pregunta què em passa i li explico i pobret que ja no sap ni què dir-me perquè és la tercera vegada que li explico el mateix... és que és una situació que em té molt cansada, molt."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cansada de veritat — de la situació, d'empassar-te-la, i fins i tot de tornar a explicar-ho a casa. Molt de pes per carregar en silenci.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 53,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactament això. Molt de pes. I mira, el fet de poder-ho explicar aquí ja m'ha ajudat una mica, la veritat. Ja em trobo una mica millor. Ara me'n vaig, que tinc coses a fer. Gràcies per escoltar-me!"
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit. Bon dia!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 866,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

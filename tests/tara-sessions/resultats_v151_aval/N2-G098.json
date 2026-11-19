@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entendió en cada turno lo que Rosa necesitaba —primero claridad sobre privacidad, luego orientación práctica para acercarse a su hermano— y respondió de forma ajustada.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que quieras acercarte con cuidado, precisamente porque te importa no alejarlo más.",
+   "esperat": "Recoger lo que Rosa dice sin validar con fórmula; pasar directamente a la pregunta de foco"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Lo que describes —encerrarse, hablar poco— puede tener muchas explicaciones a esa edad.",
+   "esperat": "Omitir la interpretación normalizadora no pedida; Rosa no preguntó qué significa la conducta"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Algunas formas de abrir espacio sin que se sienta un interrogatorio: [...] La idea de fondo es que no necesitas una conversación importante para hacerle saber que estás.",
+   "esperat": "Dos opciones concretas sin el párrafo de cierre explicativo, que añade longitud sin añadir valor"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Y tienes razón: decirlo una vez, con calma, ya es suficiente.",
+   "esperat": "Cerrar sin validar el juicio de Rosa como correcto; basta con el cierre cálido y breve"
+  }
+ ]
+}

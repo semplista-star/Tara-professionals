@@ -1,0 +1,62 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió en cada momento lo que Joan necesitaba: primero escuchar, luego ayudar a construir una propuesta concreta, y cerrar con ligereza cuando él cerró.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que estés agotado.",
+   "esperat": "No atribuir un estado no expresado; Joan no dijo estar agotado, solo describió la situación con humor"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que estés agotado.",
+   "esperat": "Evitar la validación-fórmula «tiene sentido»; mejor seguir el registro humorístico o preguntar directamente"
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿se ha hablado con él directamente, con calma, fuera del momento del conflicto? ¿Y con su familia, más allá de las quejas?",
+   "esperat": "Joan pedía una propuesta concreta, no una exploración adicional; esta pregunta retrasa la ayuda solicitada sin que Joan la pidiera"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Eso es un diagnóstico muy claro.",
+   "esperat": "Evitar el elogio evaluativo implícito; reformular sin calificar la aportación de Joan"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Eso es un diagnóstico muy claro.",
+   "esperat": "No valorar la calidad del razonamiento de la persona; recoger el contenido sin puntuarlo"
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Te propongo una estructura en tres piezas que puedes presentar como un plan de tres semanas...",
+   "esperat": "La respuesta es útil y concreta, pero su extensión y formato (negrita, guiones, nombre provisional) supera lo que un turno de chat requiere; podría haberse ofrecido en dos partes o preguntando si quería el detalle"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "lo que has hecho tú aquí no es poco: ya tenías el diagnóstico, solo necesitabas espacio para verlo ordenado.",
+   "esperat": "Cerrar sin atribuir mérito ni hacer balance de lo que Joan «ha hecho»; el cierre con el eco de la salchicha ya era suficiente"
+  }
+ ]
+}

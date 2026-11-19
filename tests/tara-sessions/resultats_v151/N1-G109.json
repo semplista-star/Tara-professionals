@@ -1,0 +1,185 @@
+{
+ "id": "N1-G109",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "humor · una reunió de claustre molt tensa",
+ "tipus": "humor",
+ "persona": "Joan, coordinador de convivencia. Situació: una reunió de claustre molt tensa. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:18:24.913Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara. Mira, digamos que hoy he tenido una reunión de claustro que ha sido... digamos que \"animada\". Como una barbacoa familiar pero con más humo y menos salchichas."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ja, esa imagen lo dice todo. Mucho humo y poco de lo que alimenta.\n\n¿Qué pasó?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 193,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 35,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacto, exacto. Pues mira, resulta que soy el coordinador de convivencia, que ya de por sí es un cargo que nadie quiere pero que todos opinan sobre él. Y hoy en el claustro se ha liado bastante con un tema de un alumno conflictivo. Unos profes dicen que hay que ser más duros, otros que más comprensivos... y yo en medio, como el árbitro de un partido donde todos quieren ser delanteros."
+  },
+  {
+   "qui": "TARA",
+   "text": "Árbitro en un partido donde todos quieren ser delanteros... y nadie quiere defender. Tiene sentido que estés agotado.\n\n¿Qué necesitas ahora mismo: pensar en voz alta sobre lo que pasó, o preparar algo concreto para lo que viene?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 348,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 73,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bueno, las dos cosas un poco. Pero si tengo que elegir... lo que más me pesa es que salí de la reunión sin nada claro. Mucho ruido, mucho \"hay que hacer algo\", pero nadie se pone de acuerdo en el qué. Y la semana que viene tenemos otra reunión con las familias encima. Así que necesito tener algo concreto, algo que proponer, para no llegar otra vez con las manos vacías."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Llegar con algo concreto sobre la mesa cambia la dinámica, aunque no resuelva todo el ruido.\n\nPara ayudarte a construir esa propuesta, necesito entender un poco mejor la situación. ¿Qué está pasando con este alumno, en términos de lo que se observa en el día a día?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 541,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 89,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues es un chico de tercero de la ESO, trece años. El tema es que tiene comportamientos muy disruptivos en clase, interrumpe constantemente, a veces se levanta, contesta mal a los profes... Y hay docentes que ya están al límite, que dicen que no pueden dar clase con él. Pero yo lo veo en los pasillos y el chaval no es mala persona, ¿sabes? Hay algo detrás que no estamos viendo bien."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso que dices al final es importante: lo que ves en los pasillos no encaja del todo con lo que describen en el aula. Eso vale la pena no perderlo de vista.\n\nAntes de pensar en la propuesta, una pregunta que creo que cambiará lo que puedas ofrecer: ¿se ha hablado con él directamente, con calma, fuera del momento del conflicto? ¿Y con su familia, más allá de las quejas?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 124,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Con él sí he hablado yo un par de veces, y se abre bastante cuando es una conversación tranquila, sin presión. Con la familia... ahí está el lío. Solo ha habido contacto cuando había bronca, o sea, siempre en plan \"su hijo ha hecho esto\". Nunca una conversación de verdad. Y creo que eso es parte del problema, la familia ya viene a la defensiva porque solo reciben malas noticias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso es un diagnóstico muy claro. La familia solo ha recibido el parte de guerra, nunca una conversación real. Es difícil construir algo con alguien que llega esperando otro ataque.\n\nAhí tienes, creo, el núcleo de lo que puedes proponer la semana que viene: cambiar el tipo de contacto antes de pedir nada.\n\n¿Quieres que trabajemos juntos una propuesta concreta para esa reunión? Podría incluir cómo abrir la conversación con la familia de otra manera, y algo para llevar también al claustro que no sea ni \"más dureza\" ni \"más comprensión\", sino un paso concreto en el que todos puedan hacer algo.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 989,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 180,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso es justo lo que necesito. Algo que no sea ni el sermón del profe duro ni el abrazo colectivo, que ya sabemos cómo acaban las dos cosas. Dame una idea concreta para empezar, algo que pueda presentar la semana que viene sin que me miren como si hubiera aterrizado de otro planeta."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien. Te propongo una estructura en tres piezas que puedes presentar como un plan de tres semanas, algo acotado y concreto, no una declaración de principios.\n\n---\n\n**\"Plan de observación y contacto\"** *(nombre provisional, cámbialo si suena demasiado formal para tu centro)*\n\n**Pieza 1 — Antes de la reunión con familias: una llamada diferente**\nQue el primer contacto esta semana no sea para informar de nada malo. Solo para decir: *\"Queremos conocer mejor cómo está vuestro hijo y qué veis vosotros desde casa. ¿Podemos hablar diez minutos?\"* Sin orden del día, sin expediente. Solo escucha. Eso cambia el punto de partida de la reunión.\n\n**Pieza 2 — En la reunión con familias: una pregunta, no un informe**\nAbrir con algo como: *\"Antes de contaros lo que vemos nosotros, nos gustaría saber cómo lo veis vosotros en casa. ¿Hay algo que os preocupe o que creáis que nos ayudaría entender?\"* Esto desactiva la postura defensiva y a veces aparece información que el centro no tiene.\n\n**Pieza 3 — Para el claustro: un acuerdo mínimo**\nNo pedir consenso en la filosofía, sino en una sola cosa observable y concreta. Por ejemplo: durante dos semanas, quien tenga un momento positivo con este alumno lo anota brevemente. No para hacer un informe, sino para tener datos reales antes de decidir nada. Eso da a los docentes algo que hacer sin exigirles cambiar su postura.\n\n---\n\nLas tres piezas tienen en común que no piden a nadie que cambie de opinión todavía. Solo que observen y escuchen un poco más antes de actuar.\n\n¿Encaja con lo que puedes mover en tu centro, o hay alguna pieza que veas difícil de sostener?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1260,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 510,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Oye, esto sí que me sirve. La pieza de la llamada previa me parece clave, es tan sencillo que casi da vergüenza no haberlo hecho antes. Y lo del claustro también, porque pedir que anoten algo positivo es mucho menos amenazante que pedirles que cambien de actitud. Eso lo puedo vender.\n\nMe llevo esto. Gracias, Tara, en serio. Que conste que entré aquí pensando que iba a necesitar un milagro y resulta que solo necesitaba ordenar un poco el caos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que sirva. Y lo que has hecho tú aquí no es poco: ya tenías el diagnóstico, solo necesitabas espacio para verlo ordenado.\n\nSuerte la semana que viene. Con menos humo y alguna salchicha.\n\nFINAL",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1918,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 69,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

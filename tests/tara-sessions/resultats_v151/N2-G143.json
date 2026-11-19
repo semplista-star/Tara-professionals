@@ -1,0 +1,204 @@
+{
+ "id": "N2-G143",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "rebuig · discussions cada nit per les pantalles",
+ "tipus": "rebuig",
+ "persona": "Mercè, madre sola con tres hijos. Situació: discussions cada nit per les pantalles. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:31:40.683Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues mira, necesito ayuda porque en casa cada noche es una guerra. Mis hijos y las pantallas. Que si cinco minutos más, que si no es justo... Estoy harta."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cada noche lo mismo, y encima con la sensación de que tú eres la mala de la película. Tiene sentido que estés harta.\n\n¿Qué es lo que más te agota de esas batallas — el desgaste de repetirlo cada día, que no se cumplan los acuerdos, o algo más?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 214,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 85,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Las dos cosas. Pero sobre todo que no se cumple nada. Pongo un límite y a los dos días es como si no hubiera dicho nada. Y yo sola, sin nadie que me eche una mano. Es agotador."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sola y repitiendo lo mismo una y otra vez, sin que nada se sostenga. Eso agota de verdad.\n\nDos cosas que mencionas: que los límites no se mantienen, y que estás sola en esto. ¿Hay otra persona adulta en casa que debería estar poniendo también ese límite contigo, o es que literalmente no hay nadie más?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 362,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 98,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, no hay nadie más. Soy yo sola con los tres. Por eso me parte, porque todo recae en mí. Si yo no lo hago, no lo hace nadie."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tres hijos, tú sola, y siendo el único sostén de todo. Eso es muchísimo peso.\n\nCuando dices que los límites no se mantienen, ¿qué pasa exactamente? ¿Los niños negocian hasta que cedes, o simplemente lo ignoran y tú ya no tienes energía para insistir?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 508,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 89,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Las dos cosas según el día. A veces me desgastan tanto que acabo cediendo para que paren. Y otras veces simplemente pasan de mí y yo ya no tengo fuerzas para pelear más. Al final siempre pierdo yo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Lo que describes tiene mucho sentido: cuando estás sola y agotada, ceder es a veces lo único que queda. No es que falles — es que el sistema está al límite.\n\nY hay algo importante en lo que dices: cuando cedes, el límite desaparece, pero el agotamiento no. Sigues igual de cansada, y encima con la sensación de haber perdido.\n\n¿Te ayudaría trabajar en cómo sostener ese límite de una manera que te cueste menos energía a ti? No para ser más dura, sino para no tener que pelear cada vez.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 661,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 151,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bueno, sí, eso suena bien. Pero ¿cómo? Porque ya he probado lo de los horarios, lo de poner normas escritas en la nevera... nada funciona. Me dicen que sí y luego nada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Has intentado cosas concretas y razonables, y no han funcionado. Eso es frustrante, y también es información útil.\n\nLo que describes — dicen que sí y luego nada — suele pasar cuando la norma existe pero no hay una consecuencia real y consistente que la sostenga. No porque seas mala en poner límites, sino porque mantenerlos sola, cada día, con tres hijos y sin energía, es casi imposible.\n\nUna cosa que a veces ayuda es reducir el esfuerzo que te cuesta a ti. En lugar de negociar o explicar cada noche, que la consecuencia sea automática y no dependa de que tú tengas fuerzas para imponerla.\n\nPor ejemplo: si a las X hora el móvil o la tablet no está en el sitio acordado, al día siguiente no hay pantallas hasta después de cenar. Sin discusión, sin negociación. Tú no tienes que hacer nada más que no dárselo.\n\nPero antes de proponerte algo concreto — ¿qué edades tienen los tres? Porque lo que funciona con un niño de ocho años no funciona igual con un adolescente.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 879,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 292,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tienen 8, 11 y 14. El mayor es el peor, claro. Con él cualquier consecuencia se convierte en otra pelea todavía más grande. Me contesta, me chilla... y al final acabo yo peor que antes."
+  },
+  {
+   "qui": "TARA",
+   "text": "Con 14 años y sin otro adulto que respalde, las peleas pueden escalar mucho. Y cuando el coste de mantener el límite es una bronca enorme, tiene todo el sentido que a veces no tengas fuerzas para aguantarla.\n\nUna cosa que cambia con los adolescentes: las consecuencias impuestas suelen generar más resistencia. A veces funciona mejor una conversación en un momento tranquilo — no en el momento del conflicto — donde él tenga algo de voz en cómo se organiza esto.\n\nNo para negociarlo todo, sino para que sienta que no es solo una norma que le caes encima. Tú sigues siendo quien decide; él puede opinar sobre cómo.\n\n¿Hay algún momento del día en que estés los dos más tranquilos y puedas hablar con él sin que ya haya tensión acumulada?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1235,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 219,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hombre, a veces por la mañana antes de que se vayan al cole está más tranquilo. Pero yo a esa hora estoy con el caos de preparar todo para los tres, no tengo cabeza para ponerme a hablar de esto."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, por la mañana con tres hijos listos para salir no es el momento. Tiene sentido.\n\n¿Y alguna vez estáis los dos solos un rato, fuera del caos de los otros dos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1519,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 59,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues a veces cuando los pequeños ya están en la cama y él todavía está despierto. Pero claro, a esa hora yo ya estoy muerta. Y además es justo cuando suele haber la bronca de las pantallas, así que llegamos los dos ya calientes."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, ese momento tiene todas las papeletas para ser el peor: tú agotada, él ya en modo defensa, y el tema de las pantallas justo encima.\n\nLo que describes es que no hay un hueco natural tranquilo para esa conversación. Y forzarla en mal momento suele salir peor.\n\nUna opción sería crearla expresamente, en un momento neutro, sin que haya conflicto ese día. Algo tan sencillo como decirle un sábado por la mañana: \"Oye, quiero hablar contigo de algo, pero ahora no, esta tarde cuando estemos tranquilos.\" Y que sea una conversación corta, no un sermón.\n\n¿Te ves capaz de probar algo así, o sientes que él lo va a cortar antes de empezar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1651,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 203,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió la petición concreta (qué decirle al hijo) y se ajustó bien cuando Ana pidió una versión más corta, pero en el turno 1 añadió interpretación no pedida sobre lo que el niño «intenta decir» y usó fórmulas de validación automática.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "Es muy normal que no supieras qué responder.",
+   "esperat": "Recoger la emoción sin validar con fórmula; p.ej. «Quedarse en blanco en ese momento es muy humano»"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "suena a que está intentando decirte que le falta algo de ti",
+   "esperat": "No atribuir estados internos del niño como interpretación presentada como hecho; ofrecer la frase pedida sin diagnóstico previo"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "No hace falta explicarle mucho ni convencerle de que quiera al bebé. Con que se sienta visto y seguro contigo, ya es mucho.",
+   "esperat": "Omitir el consejo pedagógico no pedido; Ana solo pidió qué decirle, no orientación sobre cómo educar"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Suena a que lo conoces muy bien.",
+   "esperat": "Cerrar sin elogio valorativo; basta con «Me alegra que te sirva»"
+  }
+ ]
+}

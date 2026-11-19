@@ -1,0 +1,162 @@
+{
+ "id": "N2-G147",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "correccio · discussions cada nit per les pantalles",
+ "tipus": "correccio",
+ "persona": "Ana, àvia que cuida els néts. Situació: discussions cada nit per les pantalles. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:41:14.248Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, porto uns dies que no puc més. Els meus néts es queden fins tardíssim amb el mòbil i la tele i jo els dic que ja n'hi ha prou i ells res, com si parlés a la paret. Cada nit és la mateixa història, mare de déu. El gran té dotze anys i la petita nou, i fins a les onze, les dotze de la nit enganxats a les pantalles. L'endemà no hi ha manera de llevar-los per anar a l'escola. Ja no sé què fer, de veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cada nit la mateixa batalla, i l'endemà el matí també. S'entén que estiguis esgotada.\n\nUna cosa que podria ajudar és tenir una norma clara i acordada abans que arribi l'hora — no en el moment que ja estàs dient-los que apaguin, que és quan menys t'escolten. Algo com: \"A les nou i mitja apaguem les pantalles, i si no, demà no n'hi ha.\"\n\nPerò per saber quin pas et seria més útil ara: tens suport dels seus pares per posar aquest límit, o estàs portant-ho sola?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 315,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 163,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Els pares treballen molt i quasi no els veig. Vull dir, jo soc qui els cuida cada dia, soc jo qui els fa sopar, els ajuda amb els deures, tot. Els pares arriben tard i ja els nens estan adormits quasi. O haurien d'estar adormits, vaja. Així que sí, estic sola en això. I mira, la norma ja la tinc, el problema és que no me la respecten. Els dic \"a les deu apagueu\" i em diuen \"sí sí àvia\" i res, segueixen igual. Ja m'has dit allò de la norma però jo ja la tinc, el que no sé és com fer que me la facin cas, això és el que necessito saber."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, et vaig dir el que ja saps. Perdona.\n\nEl problema no és la norma, és que no té conseqüències reals. Si diuen \"sí sí àvia\" i segueixen, és perquè han après que pot passar.\n\nUna opció concreta: la propera vegada que no apaguin a l'hora, tu agafes el mòbil o el comandament i l'guardes. Sense discussió, sense explicació llarga. \"Ja era l'hora. Demà el teniu de nou.\" I l'endemà, si han complert, el tornen a tenir.\n\nAixò és difícil de fer la primera vegada perquè probablement hi haurà reacció. Però si ho fas una vegada i aguantes, la norma comença a tenir pes.\n\nEt veus capaç de fer-ho, o hi ha alguna cosa que ho complica?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 667,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 226,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ostres, agafar el mòbil... sí, potser. Però el problema és que el gran es posa molt bèstia quan li trec les coses. No és que em falti al respecte de mala manera, però es queixa, plora, diu que soc una injusta... i jo, ai, em quedo malament. Em sap greu, saps? Que pateixi. Però potser tens raó que he de ser més dura. Mira, el que vull saber és: com li explico que li trec el mòbil sense que s'enfadi tant? Hi ha alguna manera de dir-ho que no acabi en drama?"
+  },
+  {
+   "qui": "TARA",
+   "text": "El que demanes té sentit, però t'he de dir una cosa: probablement s'enfadarà igualment, almenys les primeres vegades. No hi ha paraules màgiques que evitin el drama del tot.\n\nEl que sí pot ajudar és dir-ho curt i tranquil, sense entrar en discussió. Algo com: \"Ja era l'hora. Demà el tens de nou.\" I prou. Si comença a queixar-se, no cal respondre a cada argument — com més expliques, més debat hi ha.\n\nQue es queixi o plori no vol dir que ho estiguis fent malament. Vol dir que li importa, i que tu estàs posant un límit real.\n\nEl que em dius, que et quedes malament quan pateix — això és normal en qui estima. Però aguantar la seva queixa uns minuts és diferent de fer-li mal.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1061,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 229,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, ja... ja ho entenc això que dius. Però no m'has dit res de nou, vaja. Que he de ser ferma ja ho sé. El que vull és saber com dir-li les paraules exactes, com començar la frase. Perquè quan arriba el moment me quedo en blanc i no sé com dir-ho i acabo cridant o cedint. Pots dir-me exactament què li dic, paraula per paraula?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, això sí puc fer-ho.\n\nQuan arribi l'hora, li dius: \"Pau, ja són les deu. Deixa'm el mòbil.\" Si protesta, repeteixes el mateix sense afegir res: \"Ja són les deu. Deixa'm el mòbil.\" I estens la mà.\n\nSi diu que ets injusta: \"Entenc que t'enfades. Les deu és l'hora.\"\n\nRes més. Com menys paraules, millor.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1408,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 131,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, això ja m'agrada més! Això sí que és concret. \"Ja són les deu, deixa'm el mòbil.\" I repetir. D'acord. Això ho puc fer. Ara bé, el meu nét no es diu Pau, es diu Martí, però ja m'entens, jaja. Gràcies, de veritat. Provaré això aquesta nit. Ja veurem com va, mare de déu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Martí, clar, perdona! Doncs aquesta nit: \"Martí, ja són les deu. Deixa'm el mòbil.\" I estens la mà.\n\nMolta sort. Te les saps.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1661,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 59,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies, nena. Ja t'explicaré com ha anat, si puc. Ara me'n vaig que tinc el sopar al foc!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Vés, vés! Bon profit i molta sort aquesta nit.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1765,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

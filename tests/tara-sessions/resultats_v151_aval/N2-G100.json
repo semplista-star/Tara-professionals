@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat pràctica (frase per al sopar) però al torn 1 va atribuir un estat no expressat ('arribes cansat') i al torn 3 va introduir un exemple concret que la persona va haver de descartar, cosa que va generar dues correccions evitables.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "He vist que arribes cansat.",
+   "esperat": "Proposar una frase oberta sense atribuir cap estat físic o emocional no mencionat per la persona"
+  },
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "té sentit que vulguis trobar la manera de reconnectar",
+   "esperat": "Reconèixer el canvi observat sense validació formulaica"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Avui he passat per davant d'aquella botiga que ja no hi és i m'he recordat que hi anàvem quan era petit",
+   "esperat": "Donar exemples genèrics i abstractes del tipus de contingut, sense construir un exemple concret que impliqui detalls de la vida de la persona"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "I si un dia no tens res, també pots estar en silenci. El sopar compartit ja és alguna cosa.",
+   "esperat": "Tancar la resposta amb els exemples pràctics demanats, sense afegir consell no sol·licitat sobre el silenci"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Gràcies per la precisió.",
+   "esperat": "Acceptar la correcció sense afegir valoració positiva sobre la persona"
+  }
+ ]
+}

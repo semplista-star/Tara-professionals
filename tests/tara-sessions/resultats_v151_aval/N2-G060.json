@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén des del primer torn que Jordi necessita consell pràctic i no teràpia, i s'ajusta bé quan ell corregeix el format; el punt feble és el to de manual al torn 2 abans de la correcció.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "sintiéndote solo en eso con tu hijo",
+   "esperat": "Jordi no ha dit que se senti sol, ha dit que se sent ignorat; millor recollir el mot que ell ha usat"
+  },
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Es mucho.",
+   "esperat": "Una frase que recull el que ell ha dit sense tancar amb una etiqueta de validació breu que sona a fórmula"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Una cosa que suele funcionar mejor que preguntar directamente es hacer algo juntos y dejar que el tema aparezca solo [...] ¿Te ves diciéndole algo así, o hay algo que te frena?",
+   "esperat": "Resposta més curta i sense format de llista ni negreta, tal com ell havia demanat explícitament ('algo que no suene a psicólogo de película americana')"
+  },
+  {
+   "torn": 2,
+   "categoria": "jerga_cnv",
+   "gravetat": "baixa",
+   "cita": "hacer algo juntos y dejar que el tema aparezca solo",
+   "esperat": "Consell formulat en llenguatge col·loquial des del principi, sense estructura de manual"
+  }
+ ]
+}

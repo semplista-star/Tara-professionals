@@ -1,0 +1,140 @@
+{
+ "id": "N2-G037",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "humor · els diners i la paga",
+ "tipus": "humor",
+ "persona": "Laia, mare. Situació: els diners i la paga. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:40:12.829Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara, gràcies... perdona que trigui, és que no sé molt bé per on començar, la veritat. Suposo que podríem dir que tinc un problema molt \"modern\": la meva filla em demana la paga i jo faig veure que no l'he sentit. Molt madura, oi? 😅"
+  },
+  {
+   "qui": "TARA",
+   "text": "Ja, esquivar la pregunta és una estratègia clàssica 😄\n\nPerò si ho portes aquí, suposo que hi ha alguna cosa que et pesa una mica més que la paga en si. Què és el que et fa difícil respondre-li?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 251,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 72,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, tens raó... perdona, és que em costa explicar-ho sense semblar una mala mare. El que passa és que no sé quant donar-li, ni si hauria de posar condicions, ni si és massa aviat... té nou anys. I clar, no vull que pensi que els diners cauen del cel, però tampoc vull ser massa estricta i que ho visqui malament. Em quedo bloquejada i al final no faig res, que suposo que és el pitjor que puc fer, no?"
+  },
+  {
+   "qui": "TARA",
+   "text": "No sembla que siguis una mala mare. Sembla que t'importa molt fer-ho bé, i per això et bloqueja.\n\nI no, no fer res no és necessàriament el pitjor: de vegades és una pausa mentre ho penses. Que és el que estàs fent ara.\n\nTens tres preguntes obertes alhora: quant, si posar condicions, i si és el moment. Quin d'aquests tres et pesa més?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 458,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 119,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ostres, gràcies per dir-ho així... em fa sentir una mica millor, la veritat.\n\nEl que em pesa més crec que és el tema de les condicions. Perquè si li dono diners sense més, sembla que li regalo sense que aprengui res. Però si li poso condicions, no sé, tinc por que ho visqui com una feina i que perdi el sentit... no sé si m'explico. Vull que entengui el valor dels diners però sense que sigui una cosa freda o transaccional. I no sé com fer-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'expliques molt bé. Vols que aprengui alguna cosa real sobre els diners, però sense que la relació amb tu es torni un intercanvi de serveis.\n\nHi ha una distinció que potser t'ajuda a pensar-ho: hi ha coses que els nens fan perquè formen part de la família, no perquè cobrin. I hi ha altres coses que van més enllà del que s'espera de tothom, i que podrien tenir una recompensa. Alguns pares ho separen així: la paga no depèn de les tasques bàsiques, però hi pot haver petites \"feines extra\" opcionals si ella vol guanyar una mica més.\n\nAixò és una opció, no l'única. Com et sona?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 190,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, mira... això sí que té sentit. Perquè clar, no vull que em passi l'aspiradora i em presenti una factura 😄 però tampoc que pensi que no cal fer res a casa.\n\nSeparar-ho així em sembla molt més clar, la veritat. Perdona, és que quan ho expliques tu sembla obvi i jo portava setmanes donant-hi voltes...\n\nCrec que el que necessito ara és saber com li explico això a ella. Té nou anys, com li dic sense que sigui un discurs avorrit que no l'escolti? Tens alguna idea concreta de com començar la conversa?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí. A nou anys, millor curt i concret que no pas un discurs.\n\nPodries dir-li alguna cosa així: \"Hem pensat en la paga. Et donarem X euros a la setmana, teus, per gastar o estalviar com vulguis. A casa tots fem coses perquè som una família, i això no canvia. Però si algun dia vols guanyar una mica més, podem parlar de coses extra.\"\n\nI ja. Deixa que ella pregunti el que vulgui a partir d'aquí. Sovint els nens processen millor si no els donem tot mastegat.\n\nL'únic que falta és decidir la quantitat. Tens alguna idea de per on vols moure't, o això encara és un misteri?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1087,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 198,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, la quantitat... sí, una mica misteri encara 😅 Però ja tinc molt més clar el marc general, i amb això ja puc avançar. Gràcies de debò, Tara, em has ajudat molt més del que esperava. Ara ja no tinc excusa per seguir esquivant la pregunta, oi? 😄"
+  },
+  {
+   "qui": "TARA",
+   "text": "Ara ja no 😄\n\nSort amb la conversa. Segur que li agrada saber que hi has pensat.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1380,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 42,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

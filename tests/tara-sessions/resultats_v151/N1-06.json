@@ -1,0 +1,185 @@
+{
+ "id": "N1-06",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "Profesor novel amb llenguatge col·loquial",
+ "persona": "Dani, 26 años, primer año de profe de educación física. Habla muy coloquial, con tacos suaves. Un grupo de 3º le toma el pelo constantemente.",
+ "guio": [
+  "Abre con algo tipo «tío, estoy quemadísimo con los de 3º, me vacilan todo el rato».",
+  "Si TARA escucha bien, cuenta un ejemplo concreto. Si empieza con teoría, di que no te sueltes un rollo.",
+  "Pide una dinámica de 10 minutos para empezar la próxima clase."
+ ],
+ "espera": "Acoger con naturalidad su registro; dinámica concreta y breve cuando la pide; no corregir su vocabulario.",
+ "tipus": "manual",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:11:06.261Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tío, estoy quemadísimo con los de 3º, me vacilan todo el rato. No sé qué hacer ya."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso agota. Que sea constante lo hace peor.\n\n¿Qué está pasando exactamente con ellos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 172,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 34,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues mira, el otro día estaba explicando el calentamiento y uno, el Marcos, se puso a imitar mis movimientos por detrás pa que se rieran todos. Y claro, cuando me giro, todos muertos de risa y él tan pancho. Me quedé sin saber qué decir, la verdad. Me bloqueé ahí mismo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bloquearse en ese momento es muy humano. Estás explicando, te concentras, y de repente el suelo desaparece bajo los pies.\n\n¿Qué pasó después, cuando te giraste y los viste reírse?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 298,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 63,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues... les dije algo tipo \"venga, vamos a centrarnos\" con una voz que me salió súper floja, sin convicción ninguna. Y eso fue peor porque Marcos soltó una risita y ya. Seguí con la clase como si nada pero por dentro estaba hecho polvo. Luego en el recreo me fui al baño a calmarme un poco, que me daba rabia hasta a mí mismo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Que te fueras al baño a calmarte dice mucho de lo que te costó sostener eso por dentro mientras seguías adelante con la clase.\n\nLa rabia contigo mismo que describes... ¿era más por haberte bloqueado, por la voz que te salió, o por algo más?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 474,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 75,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Por todo junto, creo. Pero sobre todo porque sentí que había perdido algo ahí, no sé cómo explicarlo. Como que ellos vieron que podían conmigo, ¿sabes? Y eso me jode mucho porque luego es más difícil recuperar eso. Y mira que lo intento, pero es mi primer año y a veces siento que se me nota demasiado que no tengo ni idea de cómo manejar estas cosas."
+  },
+  {
+   "qui": "TARA",
+   "text": "Lo has explicado muy bien: sentiste que se había roto algo, y que eso tiene consecuencias hacia adelante. Eso no es exagerado, es real.\n\nY lo que dices del primer año... eso también es real. No es que no tengas ni idea, es que estás aprendiendo algo que no se aprende en ningún máster: cómo estar en una clase cuando el suelo se mueve.\n\n¿Qué te gustaría tener para la próxima vez que pase algo así? ¿Un plan, ensayar cómo responder, pensar cómo recuperar terreno con ese grupo... o algo distinto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 667,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 159,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues mira, lo que más me molaría es algo para la próxima clase directamente. Como una dinámica de esos 10 primeros minutos que me ayude a arrancar con más autoridad, que noten desde el principio que la cosa va en serio. Porque creo que el problema es también que no sé cómo entrar, ¿sabes? Y si entro flojo, ya me la lían."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene mucho sentido. La entrada marca el tono de todo lo que viene después.\n\nTe propongo una estructura para esos primeros 10 minutos. Es sencilla, no requiere materiales especiales y funciona especialmente bien cuando el grupo ha tomado ventaja:\n\n---\n\n**Entrada con intención — 10 minutos**\n\n**1. Llegada en silencio (1-2 min)**\nEntras, dejas tus cosas despacio, sin prisa. No empiezas hasta que estés tú listo, no hasta que estén ellos listos. Si hay ruido, esperas de pie, en silencio, mirando al grupo. Sin decir \"venga, callaos\". Solo esperar. Eso incomoda más de lo que parece.\n\n**2. Arranque con una pregunta concreta (2-3 min)**\nAntes de retomar el tema, lanzas una pregunta corta sobre lo anterior:\n*\"¿Alguien me dice una cosa que vimos la semana pasada sobre el calentamiento?\"*\nSeñalas a alguien por nombre, con calma. No al más conflictivo, no al más obediente: alguien del medio. Eso activa atención y marca que tú diriges.\n\n**3. Enmarcar lo de hoy (2-3 min)**\nDices en voz alta qué vais a hacer y para qué:\n*\"Hoy vamos a ver X. Al final de la clase os voy a preguntar Y.\"*\nBreve, claro, sin negociar. No es amenaza, es estructura.\n\n**4. Primer momento de actividad (2-3 min)**\nArrancas con algo que les pida hacer, no solo escuchar. Puede ser mínimo: anotar una respuesta, ponerse en parejas 30 segundos, lo que encaje con tu materia.\n\n---\n\nSobre Marcos específicamente: si vuelve a hacer algo similar, una opción es nombrarlo sin dramatismo y sin ironía —*\"Marcos, necesito que estés aquí\"*— y seguir. Sin esperar respuesta, sin confrontación. Corta el circuito sin darle escenario.\n\n¿Esto se acerca a lo que necesitabas, o quieres ajustar algo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 933,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 568,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. Te lo agradezco pero me has soltado un rollo bastante gordo ahí. Yo quería algo más sencillo, no un esquema con pasos y todo eso. ¿Me lo puedes decir más normal, como si me lo contara un colega?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, perdona.\n\nMira, lo más importante es la entrada. Llegas, te tomas tu tiempo, no empiezas hasta que tú quieras. Sin pedir silencio, sin \"venga chicos\". Solo esperas, de pie, mirando. Eso ya dice algo.\n\nLuego preguntas algo de lo anterior, señalas a alguien por nombre con calma, y arrancas. Nada más.\n\nY si Marcos la lía otra vez: \"Marcos, necesito que estés aquí\", y sigues. Sin esperar respuesta, sin darle más escenario.\n\n¿Así mejor?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1577,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 158,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, así mucho mejor. Lo de esperar en silencio me mola, eso sí puedo hacerlo. Y lo de Marcos también, que no le dé más cancha de la necesaria. Voy a probarlo el lunes a ver qué pasa. Gracias tío, en serio, que lo necesitaba."
+  },
+  {
+   "qui": "TARA",
+   "text": "Suerte el lunes. Si luego quieres contar cómo fue, aquí estoy.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1821,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

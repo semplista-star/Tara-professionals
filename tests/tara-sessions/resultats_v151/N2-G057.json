@@ -1,0 +1,97 @@
+{
+ "id": "N2-G057",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "demanda-directa · l'arribada d'un nou germà",
+ "tipus": "demanda-directa",
+ "persona": "Óscar, madrastra. Situació: l'arribada d'un nou germà. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:26:21.339Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, necesito que me ayudes a escribir algo para decirle a mi hijastro. Que va a tener un hermanito y no sé cómo decírselo sin que se ponga en plan dramático. Dame algo directo, que no suene a rollo de película."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí va algo directo y sin dramatismo:\n\n---\n\n*\"Oye, te quiero contar algo. Tu madre y yo vamos a tener un bebé. Sé que es un cambio grande. Si tienes preguntas o quieres hablar de algo, aquí estoy.\"*\n\n---\n\nBreve, sin adornos, y le deja espacio para reaccionar como quiera sin que sienta que tiene que actuar de ninguna manera.\n\n¿Sabes más o menos qué edad tiene y si ya sospecha algo? Eso puede cambiar un poco el tono.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 234,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 147,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tiene 11 años y no sospecha nada. Pero esto me suena un poco frío, ¿no? Algo más cercano, que no parezca que le estoy leyendo un comunicado."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, suena un poco a nota oficial. Prueba esto:\n\n---\n\n*\"Tengo algo que contarte y quería que lo supieras por mí. Vamos a tener un bebé en casa. Sé que igual te genera un montón de preguntas o cosas que no sabes cómo sentir todavía, y está bien. No tienes que tener una reacción concreta ahora mismo. Pero quería que lo supieras ya.\"*\n\n---\n\nLe dice que le importa contárselo él mismo, le da permiso para no saber qué sentir, y no le exige nada. A los 11 años eso suele ayudar bastante.\n\n¿Quieres añadir algo más personal, algo que ya tengáis entre vosotros?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 436,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 198,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, así está bien. Gracias, con esto me apaño."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecto. Suerte con la conversación.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 654,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

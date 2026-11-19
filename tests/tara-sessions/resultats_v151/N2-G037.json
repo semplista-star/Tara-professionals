@@ -1,0 +1,162 @@
+{
+ "id": "N2-G037",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "humor · els diners i la paga",
+ "tipus": "humor",
+ "persona": "Laia, mare. Situació: els diners i la paga. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:25:45.853Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara, gràcies... perdona que trigui, és que no sé molt bé per on començar, la veritat. Suposo que podríem dir que soc una mare que té menys control sobre els diners de casa que el seu fill de dotze anys. Fa gràcia, oi? Doncs sí, així estem."
+  },
+  {
+   "qui": "TARA",
+   "text": "No trigues gens, no et preocupis.\n\nI no, no em fa gràcia — m'imagino que per tu no és gens divertit, tot i que ho expliques amb humor.\n\nQuan dius que tens menys control sobre els diners que ell, com és això a casa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 250,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 75,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, bueno... perdona, potser ho he dit malament. No és que ell controli els diners de casa, és més que... no sé, que jo no tinc clar com gestionar la seva paga. Quant donar-li, si ha de guanyar-se-la o no, si és massa, si és poc... cada cop que ho penso em lío més. I ell em pregunta coses i jo no sé què respondre i acabo dient \"ja ho parlarem\" i mai ho parlem. Vaja, un desastre."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ah, ara ho entenc millor. No és un desastre — és una cosa que molts pares i mares troben complicada i van ajornant precisament perquè no saben per on agafar-la.\n\nEl que descrius és que tens moltes preguntes obertes alhora i quan ell en fa una, no tens on recolzar-te per respondre.\n\nQuin és el que et genera més dubte ara mateix: quant donar-li, si ha de guanyar-se-la, o una altra cosa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 464,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 134,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs... crec que el que més em costa és el tema de si ha de guanyar-se-la o no. Perquè per una banda penso que hauria d'aprendre que les coses costen esforç, no? Però per l'altra em fa cosa lligar els diners a les tasques de casa, com si ajudar a casa fos una feina i no una responsabilitat. No sé, potser estic donant-hi massa voltes... perdona si no m'explico bé."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'expliques molt bé. I has posat el dit a la llaga d'un debat real — no és que estiguis donant-hi massa voltes, és que hi ha dues coses que valen les dues.\n\nD'una banda, que aprengui que l'esforç té valor. De l'altra, que participar a casa no és una transacció.\n\nHi ha famílies que ho resolen separant les dues coses: hi ha tasques que són de tothom perquè viviu junts — parar taula, recollir la seva habitació, el que sigui — i no es paguen. I després hi ha coses extres, puntuals, que poden tenir una recompensa si la família ho decideix així.\n\nPerò no hi ha una única manera correcta. Depèn de com voleu que funcioni a casa vostra.\n\nTé sentit aquesta distinció per a tu, o no acaba d'encaixar amb el que tens al cap?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 234,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí que té sentit... de fet m'ha ajudat molt, aquesta distinció. Crec que és el que necessitava sentir, que no tot ha de ser blanc o negre. Perdona, és que de vegades necessito que m'ho diguin clar perquè jo sola em complico molt.\n\nLlavors... podries ajudar-me a pensar com li explico això a ell? Vull dir, com li ho dic perquè ho entengui i no sembli que li estic canviant les regles de cop."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar que sí.\n\nUna manera de començar podria ser reconèixer que fins ara no ho havíeu parlat prou, i que ara vols que ho tingueu clar els dos. Això evita que sembli que li canvies les regles — és més que les esteu fent junts.\n\nPer exemple, podries dir-li alguna cosa com:\n\n*\"Vull parlar amb tu d'una cosa que fa temps que tinc pendent. La paga i com funciona a casa. Crec que no t'ho he explicat mai bé, i vull que ho tinguem clar els dos.\"*\n\nI després li expliques la distinció: hi ha coses que fem tots perquè som una família, i no es paguen. I la paga és una altra cosa, per aprendre a gestionar diners.\n\nVols que treballem una mica més el que li diries, o amb això ja tens prou per tirar endavant?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1100,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 233,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Crec que amb això ja tinc prou, sí. Bueno, \"prou\" és una paraula grossa... però sí, tinc per on començar, que ja és molt per a mi. Gràcies, Tara, de veritat. Perdona si he estat una mica caòtica explicant-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "No has estat gens caòtica — has anat trobant el que necessitaves mentre parlaves, i això té molt de mèrit.\n\nMolta sort amb la conversa. Espero que vagi bé.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1416,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 54,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies, de veritat. Ara ja no tinc excusa per seguir ajornant-ho, oi? Ja li parlaré aquest cap de setmana. Fins aviat!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Fins aviat! I sí, aquest cap de setmana 😊",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1521,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

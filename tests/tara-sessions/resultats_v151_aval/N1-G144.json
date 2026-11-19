@@ -1,0 +1,104 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió la petición central (una frase concreta) y la entregó, pero antes de recibirla añadió correcciones sobre la intención de Martí y valoraciones no pedidas que desviaron el foco.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "No lo estás haciendo mal para nada. Esto es exactamente para lo que estoy aquí.",
+   "esperat": "Acoger sin evaluar; omitir el juicio tranquilizador y pasar directamente a escuchar"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Eso cansa mucho, y más al final del día cuando ya llevas horas sosteniendo todo.",
+   "esperat": "Reflejar lo que la persona ha dicho sin añadir 'horas sosteniendo todo', que ella no mencionó"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Quedarte en blanco en ese momento tiene mucho sentido.",
+   "esperat": "Frase más natural; 'tiene mucho sentido' empieza a sonar a fórmula de validación"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Qué edad tiene Martí, más o menos?",
+   "esperat": "La edad no era necesaria para acoger la situación; la persona no la había pedido y TARA no la necesitaba aún para nada concreto"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "No tienes que pedir perdón por nada.",
+   "esperat": "Omitir; responder al contenido, no al estilo disculpatorio de Àlex"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "sabe perfectamente lo que está haciendo en el sentido de que lo calcule. A esa edad los niños prueban límites, sí, pero desde un lugar muy impulsivo, muy del momento. La intención que le atribuimos a veces dice más de cómo nos ha afectado a nosotros que de lo que pasa dentro de él.",
+   "esperat": "No corregir la lectura que Àlex hace de Martí ni hacer una mini-lección sobre desarrollo infantil; ella no pidió eso"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "La intención que le atribuimos a veces dice más de cómo nos ha afectado a nosotros que de lo que pasa dentro de él.",
+   "esperat": "Reservar el marco interpretativo para cuando la persona lo pida; aquí solo escuchaba y describía"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Sobre Martí: que con cuatro años te mire y siga haciendo lo mismo no significa necesariamente que 'sepa lo que está haciendo'…",
+   "esperat": "Turno más breve; la persona aún no había pedido orientación, solo estaba contando"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "eso ya lo haces bien",
+   "esperat": "Omitir el elogio intercalado; describir la acción sin valorarla"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Martí tiene mucha influencia social para su edad. Eso también es información útil, no solo un problema.",
+   "esperat": "Omitir; la persona pidió una frase concreta, no un reencuadre sobre el perfil de Martí"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Una cosa más: que el grupo se enganche con él dice que Martí tiene mucha influencia social para su edad.",
+   "esperat": "Cerrar tras dar la frase y la idea de fondo, sin añadir el párrafo de reencuadre"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "es una buena observación",
+   "esperat": "Omitir el elogio; acoger la corrección directamente sin evaluarla"
+  },
+  {
+   "torn": 5,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Eso es útil.",
+   "esperat": "Frase más natural o simplemente omitirla"
+  }
+ ]
+}

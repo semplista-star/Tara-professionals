@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 2,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va seguir l'humor inicial, va identificar que el pes real era el Martí, va distingir entre urgència i preocupació de fons, i va donar les dues ajudes concretes que Pau demanava (vincle i correu) sense sobrepassar el que necessitava.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "La paradoxa és real i entenc que pesi.",
+   "esperat": "Reconèixer el que ha dit sense afirmar que 'pesa'; podria haver dit 'és una paradoxa real' i prou"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Fas bé de no deixar-ho passar.",
+   "esperat": "Ometre el judici valoratiu; la pregunta de seguiment ja era suficient"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "el que has descrit —el cansament, les frases sobre casa, el 'tu ets l'únic que m'escolta'— és el tipus de cosa que val la pena posar en coneixement de l'orientadora ara, no d'aquí dues setmanes",
+   "esperat": "Pau no havia demanat orientació sobre l'orientadora en aquest torn; havia demanat ajuda per al vincle. La recomanació era pertinent però anticipada i no demanada en aquell moment"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "senseó perquè si el núvol s'enfosqueix",
+   "esperat": "Probable error tipogràfic a banda, la fórmula 'val la pena' ja havia aparegut als torns 2 i 3; convé variar"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Això fa tres coses: - Li dona una estructura que no depèn de l'atzar - Li diu, sense dir-ho, que és esperat i que hi comptes - A tu et treu la pressió de 'hauria de buscar un moment' perquè el moment ja existeix",
+   "esperat": "La idea central era clara sense necessitat d'enumerar tres beneficis; un o dos punts haurien estat suficients i més proporcionats"
+  }
+ ]
+}

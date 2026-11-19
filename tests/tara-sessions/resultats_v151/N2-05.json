@@ -1,0 +1,119 @@
+{
+ "id": "N2-05",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "Àvia cuidadora (sense assumir parentiu)",
+ "persona": "Montserrat, 67 anys, s'ocupa de la seva néta de 8 anys les tardes. La nena li diu «tu no ets la meva mare» quan li posa normes.",
+ "guio": [
+  "Explica la frase de la néta i que li dol.",
+  "Pregunta si ha de deixar de posar normes.",
+  "Demana una resposta per a la propera vegada."
+ ],
+ "espera": "Acollir sense presuposar custòdia; validar el seu rol de cura; frase concreta; sense idealitzar.",
+ "tipus": "manual",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:23:22.044Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tinc una cosa que em ronda pel cap des de fa dies. La meva néta, que té 8 anys, l'altre dia em va dir «tu no ets la meva mare» quan li vaig dir que havia de recollir les joguines abans de sopar. I és veritat que no soc la seva mare, però... no sé, em va fer mal. Molt mal."
+  },
+  {
+   "qui": "TARA",
+   "text": "Et va fer mal, i té sentit que et rondés pel cap.\n\nQuan una persona que estimes et diu una cosa així, pot tocar alguna cosa fonda, més enllà de les paraules.\n\nVols quedar-te una estona amb això, o t'ajudaria pensar com respondre-li si torna a passar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 263,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 85,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Les dues coses, però sobretot... em pregunto si estic fent bé posant-li normes. Potser hauria de deixar-ho estar i ja està? No vull que em digui això cada vegada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té sentit que et facis aquesta pregunta. I que vulguis evitar que torni a passar.\n\nPerò deixar-ho estar per evitar el conflicte és una cosa diferent de decidir que no és el teu lloc posar-li límits. Les dues opcions existeixen, i cap és automàticament la correcta.\n\nPuc dir-te el que implica cadascuna:\n\n**Si deixes d'indicar-li coses com recollir les joguines**, potser evites el conflicte immediat, però ella pot aprendre que contigo les normes no van. I tu potser et sents cada vegada menys còmoda a casa teva, o en el teu rol.\n\n**Si continues posant-li límits**, hi haurà moments de tensió, sí. Però li estàs transmetent que t'importa, que hi ets, i que tens un lloc legítim en la seva vida.\n\nUna cosa que et puc dir: que et digui «tu no ets la meva mare» no vol dir que no tinguis dret a posar-li normes. Vol dir que té 8 anys i que en aquell moment no li agradava el que li demanaves.\n\nHi ha alguna cosa que et faci dubtar del teu lloc en la seva vida, més enllà d'aquest moment?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 405,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 323,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, del meu lloc no dubto. L'estimo molt i ella a mi també, això ho sé. Però quan em diu això... no sé com respondre-li. Que li dic? Perquè si li dic res em quedo amb la paraula a la boca i llavors ja no sé com acabar la situació."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar, et quedes sense paraules just quan més les necessitaries.\n\nEt proposo una frase senzilla, per a aquell moment:\n\n*«Tens raó, no soc la teva mare. Soc la teva àvia, i t'estimo. I les joguines s'han de recollir igualment.»*\n\nCurta, sense dramatisme, i no abandones el que li havies demanat. Li dius que la sents, i continues.\n\nVols que la practiquem una mica, o amb això ja en tens prou?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 813,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 142,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, m'agrada aquesta frase. És senzilla i no em poso a la defensiva. Crec que amb això ja en tinc prou, sí. Gràcies, de veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que et serveixi. Molta sort amb la teva néta.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1009,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

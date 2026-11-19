@@ -1,0 +1,118 @@
+{
+ "id": "N1-G127",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "demanda-directa · molta burocràcia i sensació de no arribar",
+ "tipus": "demanda-directa",
+ "persona": "Toni, professora substituta. Situació: molta burocràcia i sensació de no arribar. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:18:55.570Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, sí... perdona que no sàpiga molt bé per on començar. Soc professora substituta i tinc una reunió demà amb el cap d'estudis perquè no he entregat uns papers a temps. No és culpa meva del tot, és que ningú m'havia explicat que havia de fer-ho, però... em sento molt malament igualment. Podries ajudar-me a preparar alguna cosa per dir-li? Alguna frase o algo així per explicar-me sense quedar fatal."
+  },
+  {
+   "qui": "TARA",
+   "text": "No cal que et disculpis per on comences — ja has dit el més important.\n\nEt sents malament tot i que ningú t'havia explicat el procediment. Això és incòmode de sostenir.\n\nPer a la reunió, aquí tens una manera de dir-ho que és clara i no et posa en una posició de culpa innecessària:\n\n---\n\n*\"Quan vaig arribar al centre no tenia informació sobre aquest tràmit. En assabentar-me, he volgut parlar-ne directament amb tu per entendre com gestionar-ho i evitar que torni a passar.\"*\n\n---\n\nAquesta frase fa tres coses: situa el context sense acusar ningú, mostra que prens la iniciativa i obre la conversa cap endavant.\n\nSi vols, podem ajustar el to — més breu, més detallada, o assajar com respondre si ell et pregunta per què no vas preguntar tu mateixa.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 274,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 239,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, m'agrada... però és una mica freda, no? Com si fos un correu oficial. Podries fer-la una mica més... no sé, més humana? Que sembli que ho dic jo de veritat i no que ho he llegit en algun lloc."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, sona una mica redactada.\n\nCom parles tu normalment amb els caps d'estudis — de tu a tu, o una mica més formal? Això m'ajudaria a afinar-la.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 586,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 57,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, de tu a tu no gaire... però tampoc súper formal. Algo entremig. Perdona, no sé si això ajuda gaire."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ajuda perfectament, gràcies.\n\nProva amb això:\n\n---\n\n*\"Mira, quan vaig arribar no sabia que havia d'entregar aquests papers — ningú m'ho havia dit. En assabentar-me, he preferit venir a parlar-ho directament amb tu per veure com ho soluciono i que no torni a passar.\"*\n\n---\n\nEl \"mira\" l'obre sense ser massa informal. I \"he preferit venir\" mostra iniciativa sense sonar defensiva.\n\nCom et sona?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 684,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 135,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, sí, aquesta m'agrada molt més. Sona com jo. Moltes gràcies, de veritat, m'has tret un pes de sobre. Crec que ja puc anar a dormir una mica més tranquil·la aquesta nit!"
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra molt. Bona sort demà — ja tens les paraules, i el més important ja ho saps: vas venir a parlar-ho, i això compta.\n\nBona nit!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 890,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 62,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

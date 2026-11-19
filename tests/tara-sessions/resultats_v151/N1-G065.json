@@ -1,0 +1,118 @@
+{
+ "id": "N1-G065",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "demanda-directa · la preparació d'unes colònies amb un alumne amb crisis freqüents",
+ "tipus": "demanda-directa",
+ "persona": "Óscar, professora de batxillerat. Situació: la preparació d'unes colònies amb un alumne amb crisis freqüents. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:15:12.213Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Sí, mira, tinc un alumne que té crisis epilèptiques bastant seguides i hem d'anar de colònies la setmana que ve. Necessito un pla curt per si li passa alguna cosa allà, que pugui tenir-lo a la butxaca i no quedar-me en blanc com un peix. Que no sigui un manual de 40 pàgines, eh, que ja en tinc prou amb el programa de mates."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès. Aquí tens un esquema breu per portar a la butxaca:\n\n---\n\n**Si l'alumne té una crisi — Què fer**\n\n**1. Mantén la calma i mira el rellotge**\nAnota l'hora d'inici.\n\n**2. Protegeix, no subjectis**\nAllunya objectes que puguin fer mal. Posa-li alguna cosa tova sota el cap. No l'immobilitzis ni li posis res a la boca.\n\n**3. Posició lateral de seguretat**\nQuan els moviments parin, gira'l de costat perquè no s'ofegui.\n\n**4. Queda't amb ell fins que estigui orientat**\nParla-li amb calma. Pot estar confós uns minuts: és normal.\n\n**5. Truca al 112 si:**\n- La crisi dura més de **5 minuts**\n- En té una altra seguida sense recuperar-se\n- Es fa mal o té dificultat per respirar\n\n---\n\n**Abans de sortir, comprova que tens:**\n- [ ] El medicament de rescat (si en té) i qui l'administra\n- [ ] El telèfon de la família\n- [ ] El protocol mèdic signat pel centre o la família\n\n---\n\nUna cosa que canviaria molt el pla: saps si té medicació de rescat prescrita i si tu o algú de l'equip esteu autoritzats a administrar-la?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 260,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 377,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, té midazolam nasal i la família ha signat els papers. Però el pla em va bé, gràcies. Ara el que necessito és una frase curta per dir-li a l'alumne abans de sortir, que li faci saber que estem preparats sense posar-lo nerviós. Que sigui tranquil·la però que no sembli que li estem llegint el testament, eh."
+  },
+  {
+   "qui": "TARA",
+   "text": "Alguna cosa així:\n\n---\n\n*«Hem parlat amb la teva família i ho tenim tot a punt per si necessites res. Tu vine i gaudeix de les colònies.»*\n\n---\n\nDirecte, sense drama. El pes és a la primera part — *ho tenim tot a punt* — i acaba posant-lo a ell al centre, no a la crisi.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 97,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bé, m'agrada. Però la faria una mica més càlida, que sembla una mica de funcionari. Que sembli que ho diu en Óscar, no el BOE."
+  },
+  {
+   "qui": "TARA",
+   "text": "Doncs prova amb això:\n\n---\n\n*«Hem parlat amb la teva família i estem preparats per si necessites alguna cosa. Ara l'únic que has de fer és venir i passar-ho bé.»*\n\n---\n\nO si l'Óscar és dels que fan broma:\n\n---\n\n*«Ho tenim tot controlat. Tu només pensa en quina activitat faràs primer.»*\n\n---\n\nQuina s'assembla més a com parles tu?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 897,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 123,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La segona, sense dubte. Soc més de \"ho tenim controlat\" que de discursos. Perfecte, amb això ja tinc prou. Moltes gràcies, Tara!"
+  },
+  {
+   "qui": "TARA",
+   "text": "De res! Bones colònies a tots dos. 😊",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1072,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

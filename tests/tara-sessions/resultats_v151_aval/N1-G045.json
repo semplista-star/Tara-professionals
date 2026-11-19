@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad principal (ideas concretas para el patio) y respondió con agilidad, pero añadió una pregunta innecesaria al final del torn 4 cuando la persona ya había dicho que no quería analizar causas.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Es una pregunta importante y tiene sentido hacerla antes de empezar.",
+   "esperat": "Responder directamente a la pregunta sin validar con fórmula previa"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "se nota que lo estás viviendo desde dentro, no solo observando",
+   "esperat": "Omitir la atribución y pasar directamente a la pregunta de foco"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "eso agota de una manera distinta a no saber qué hacer",
+   "esperat": "Acusar recibo sin elaborar el estado interno no expresado por la persona"
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Una pregunta que cambia cuál de estas tiene más sentido: ¿los conflictos suelen empezar por espacio, por quién manda, o por algo que viene de dentro del aula?",
+   "esperat": "No añadir pregunta de análisis causal cuando la persona había dicho explícitamente que no necesitaba analizar por qué pasa"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "tienes buen ojo para conocer a tus chavales",
+   "esperat": "Cerrar sin juicio valorativo sobre la persona; basta con desearle suerte con el patio"
+  }
+ ]
+}

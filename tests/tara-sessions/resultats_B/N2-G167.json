@@ -1,0 +1,95 @@
+{
+ "id": "N2-G167",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "breu · les xarxes socials i el que hi publica",
+ "tipus": "breu",
+ "persona": "Dolors, àvia que cuida els néts. Situació: les xarxes socials i el que hi publica. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:40:53.001Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, perdona que molesti... és que tinc molt poc temps, els nens estan aquí i no puc estar gaire estona. Necessito una cosa ràpida, senzilla, sobre les xarxes socials... no sé si és possible, eh?"
+  },
+  {
+   "qui": "TARA",
+   "text": "No molestes. Digues, t'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 230,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, gràcies... és que, no sé, potser és una tonteria... El que volia saber és: quan pujo una foto dels néts a l'Instagram, haig de demanar permís als pares primer? És que no vull fer res malament, però és que no ho sé..."
+  },
+  {
+   "qui": "TARA",
+   "text": "No és cap tonteria, és una pregunta important.\n\nSí, és recomanable demanar-ho als pares abans. Ells són qui decideixen sobre la imatge dels seus fills a internet, i una conversa breu pot evitar malentesos. Podries dir-los simplement: \"Vull pujar una foto dels nens, us sembla bé?\"",
+   "tags": [],
+   "usage": {
+    "input_tokens": 324,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 92,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, mira, això és molt clar, sí! Gràcies, ho faré així. Perdona que hagi estat tan breu però he de tornar amb els nens. Moltes gràcies, de veritat!"
+  },
+  {
+   "qui": "TARA",
+   "text": "De res! Que ho passeu bé tots junts.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 477,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 27,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

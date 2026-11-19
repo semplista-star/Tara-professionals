@@ -1,0 +1,184 @@
+{
+ "id": "N1-G028",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "jerga · conflictes constants al pati entre dos grups",
+ "tipus": "jerga",
+ "persona": "Àlex, profesor de FP. Situació: conflictes constants al pati entre dos grups. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:13:41.033Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, sí, la verdad es que necesito contarle esto a alguien porque ya no sé qué hacer. Mira, soy profe de FP, doy ciclos de automoción, y tenemos un problema gordo en el patio desde hace semanas. Hay dos grupos de chavales que no se pueden ni ver, y cada vez que coinciden en el recreo se lía. No llegan a las manos, bueno, casi, pero hay mucha tensión, insultos, empujones... Y el caso es que yo lo he intentado hablar con el jefe de estudios tres veces ya, tres, y siento que me da largas. Me dice que sí, que lo va a mirar, que va a convocar una reunión... y luego nada. Me siento completamente ignorado, como si el problema no fuera con él. Y encima los tutores de los grupos tampoco se ponen de acuerdo entre ellos, cada uno va a lo suyo. Yo estoy ahí en medio intentando que no explote todo y nadie me hace ni caso. Es que me toreja, de verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tres veces has ido, y tres veces te has vuelto con las manos vacías. Con una situación que además no espera — empujones, insultos, tensión real en el patio. Tiene sentido que estés hasta aquí.\n\nUna cosa que me ayudaría a entender mejor: cuando dices que nadie te hace caso, ¿tú tienes alguna responsabilidad formal en esto — guardia de recreo, tutoría, coordinación — o estás actuando más por iniciativa propia porque lo ves y no puedes mirar para otro lado?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 405,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 141,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues mira, las dos cosas a la vez, que es lo que me fastidia más todavía. Tengo guardia de recreo dos días a la semana, o sea que sí, formalmente estoy ahí y es mi obligación estar pendiente. Pero los otros días también lo veo porque el patio lo vemos todos, ¿no? Y claro, cuando estás de guardia y pasa algo tú eres el responsable en ese momento, así que no puedo mirar para otro lado aunque quisiera. Pero es que incluso cuando no tengo guardia me meto porque... no sé, es que me parece una irresponsabilidad no hacerlo. Llevo quince años en esto y no puedo ver a unos críos a punto de pegarse y quedarme cruzado de brazos. Entonces sí, hay una parte que es obligación y hay una parte que es que soy así, que me implico quizás demasiado. Y eso también me pesa, porque a veces pienso, oye, ¿por qué me estoy comiendo yo este marrón si los que tienen que mover ficha no la mueven? Los tutores, el jefe de estudios... yo qué sé. Es que"
+  },
+  {
+   "qui": "TARA",
+   "text": "Quince años de oficio y no puedes mirar para otro lado. Eso dice mucho de ti — y también explica por qué esto pesa tanto: estás poniendo el cuerpo donde otros no lo ponen, con la responsabilidad encima cuando toca guardia, y sin respaldo.\n\nEsa pregunta que te haces — *¿por qué me estoy comiendo yo este marrón?* — me parece importante. No como queja, sino como señal: algo no está funcionando en cómo está repartida la responsabilidad aquí.\n\n¿Qué te gustaría que pasara ahora mismo? No lo ideal a largo plazo — sino esta semana, algo concreto que sintiera que avanza.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 849,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 180,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Esta semana... pues mira, lo que más me gustaría es que el jefe de estudios se plantara en el patio aunque fuera un día, que lo viera con sus propios ojos. Porque creo que mientras yo se lo cuento de palabra es muy fácil decir \"sí sí, ya lo miraré\" y quedarse tan ancho. Pero si lo ve, si está ahí cuando se lía, ya no puede decir que no sabe de qué le hablo. Eso es lo que quiero esta semana, que venga, que esté, que no me lo cuente de segunda mano. Y luego ya hablaríamos de reuniones y protocolos y todo eso, pero primero que lo vea. El problema es que no sé cómo pedírselo sin que suene a que le estoy echando la bronca o a que le estoy acusando de algo, porque tampoco quiero que se ponga a la defensiva y la cosa vaya a peor. Ya bastante difícil está la cosa como para encima tener un conflicto con él también."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, tiene mucho sentido. Que lo vea cambia todo — ya no es tu palabra contra la inercia.\n\nY el cómo pedírselo importa, porque quieres que venga, no que se cierre.\n\nTe propongo un borrador para esa conversación. La idea es partir de lo que tú estás viviendo, no de lo que él no ha hecho, e invitarle a algo concreto y fácil de decir que sí:\n\n---\n\n*\"Oye, quería pedirte algo. Llevo semanas viendo una tensión bastante seria entre dos grupos en el recreo — empujones, insultos, algún momento que se ha puesto feo. Me cuesta gestionarlo solo y creo que necesito que alguien más lo vea de primera mano. ¿Podrías pasarte por el patio algún día esta semana, aunque sea un momento? No te pido que lo resuelvas ahora mismo, solo que lo veas. Así cuando hablemos de cómo actuar, los dos partimos de lo mismo.\"*\n\n---\n\nLo que hace este texto: pone el foco en lo que tú necesitas, no en lo que él ha fallado. Le da una salida fácil — venir un momento no es un compromiso enorme. Y cierra con un \"los dos partimos de lo mismo\" que le incluye, no le acusa.\n\n¿Te suena a algo que podrías decir con tu voz, o hay algo que no encaja?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1294,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 368,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hombre, el fondo está bien, sí, pero... no sé, suena muy de manual, ¿no? Muy de curso de comunicación asertiva. Yo no hablo así. Si le digo eso tal cual me va a mirar raro, va a pensar que he ido a un taller o algo. Necesito algo más natural, más de cómo hablo yo. Algo más directo pero sin que suene a bronca. ¿Me entiendes?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, te entiendo perfectamente. Dame un par de frases de cómo hablas tú normalmente — o cuéntame cómo empezarías tú esa conversación si no te preocupara cómo suena. A partir de ahí lo hacemos a tu manera.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1782,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 73,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues yo creo que empezaría algo así como... \"Oye, tío, necesito que vengas al patio un día de estos porque esto se está poniendo feo y yo solo no puedo con ello.\" Así, sin más. Directo. Sin florituras. Que él ya sabe de qué va, no hace falta que le explique la película entera. ¿Puedes hacer algo con eso?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Con eso ya tienes casi todo. Yo lo dejaría así:\n\n---\n\n*\"Oye, necesito que te pases por el patio un día de estos. Esto se está poniendo feo y yo solo no puedo con ello. Necesito que lo veas tú.\"*\n\n---\n\nSolo he quitado el \"tío\" — tú sabrás si con él va o no va — y he añadido \"necesito que lo veas tú\" al final, porque esa última frase es la que le pone a él en la ecuación. No como acusación, sino como que le necesitas ahí.\n\nEl resto es tuyo.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1962,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 159,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso ya me suena más a mí. Lo del \"tío\" ya lo calibro yo según cómo esté el día y cómo le vea. Pero el resto sí, eso sí lo diría. Y lo de \"necesito que lo veas tú\" al final tiene su punto, porque es verdad, eso es exactamente lo que quiero decirle. Que no me cuente más que sí sí, sino que venga y lo vea. Bueno, pues nada, me lo apunto y a ver si mañana le pillo en un buen momento. Gracias, de verdad, que a veces solo necesitas que alguien te ayude a ordenar un poco la cabeza."
+  },
+  {
+   "qui": "TARA",
+   "text": "Exacto, eso es. Y ya tienes claro qué quieres pedirle y cómo decírselo — eso es lo importante.\n\nSuerte mañana. Espero que venga.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2300,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 55,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, yo también. Bueno, gracias de verdad. Hasta luego."
+  },
+  {
+   "qui": "TARA",
+   "text": "Hasta luego. Cuídate.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 2380,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

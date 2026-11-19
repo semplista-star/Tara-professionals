@@ -1,0 +1,184 @@
+{
+ "id": "N1-G088",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "desfogar-demanda · la preparació d'unes colònies amb un alumne amb crisis freqüents",
+ "tipus": "desfogar-demanda",
+ "persona": "Xavi, mestra d'educació especial. Situació: la preparació d'unes colònies amb un alumne amb crisis freqüents. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:16:49.833Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, avui no vull consells ni res d'això. Només necessito que m'escoltis una estona, si pot ser."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estic. Explica'm.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 181,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs mira, soc mestra d'educació especial i tenim unes colònies la setmana que ve. I hi ha un nen, l'Arnau, que té crisis molt freqüents. I jo estic... no sé, estic una mica aclaparada. Perquè és molt de responsabilitat, saps? Tres dies fora, lluny de tot, i si li passa alguna cosa... no sé. M'hi he passat moltes nits pensant i no acabo de trobar la pau amb això."
+  },
+  {
+   "qui": "TARA",
+   "text": "Moltes nits pensant-hi i sense trobar la pau. Això pesa molt.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 331,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, molt. I el pitjor és que l'Arnau té moltes ganes d'anar-hi, saps? Ell està il·lusionat, i jo no vull ser la que li foti la festa. Però clar, la responsabilitat és meva i si passa alguna cosa allà... ostres. No sé si estic preparada per gestionar-ho sola."
+  },
+  {
+   "qui": "TARA",
+   "text": "L'Arnau amb ganes i tu carregant amb tot el pes sola. Té sentit que estiguis aclaparada.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 456,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 37,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacte. I a vegades penso que potser soc jo que m'ho muntomasssa, que exagero... però llavors em dic que no, que és real, que les crisis d'aquest nen són serioses i que tres dies és molt temps. No sé. Gràcies per escoltar-me, de veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "No exageres. Tres dies lluny, amb un nen amb crisis serioses — és molt real el que portes.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 578,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... sí, gràcies. M'ajuda sentir-ho. Mira, ara que m'has escoltat... creus que em podries ajudar amb una cosa concreta? Necessito tenir un protocol clar de què fer quan l'Arnau tingui una crisi allà. Alguna cosa breu, un primer pas, perquè ara mateix tinc el cap tan ple que no sé ni per on començar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar. Per on comencem millor: tens ja alguna informació del que funciona amb l'Arnau —el que li ajuda, el que empitjora les coses— o parteixes de zero?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 719,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 55,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tinc algunes coses apuntades, sí. Sé el que li funciona a l'aula. Potser el primer pas seria agafar això i fer-ne una fitxa curta per tenir a mà durant les colònies, no?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Exacte, té molt de sentit partir del que ja saps que funciona. Una fitxa curta, clara, que puguis consultar ràpid en un moment de tensió.\n\nSi em passes les notes que tens, t'ajudo a organitzar-les en un format útil per endur-te a les colònies.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 838,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 81,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, això és just el que necessitava. Moltes gràcies, de veritat, m'has ajudat molt. Ara ja me'n vaig més tranquil·la."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra. Molta sort amb les colònies — i amb l'Arnau. FINAL",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 970,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

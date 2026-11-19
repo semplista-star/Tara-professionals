@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entendió que Fàtima pedía opciones concretas con implicaciones y no que le devolvieran la pregunta, y actuó en consecuencia en cada turno.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "quieres estar presente para él, pero no sabes si acercarte o dar espacio, y encima con la duda de cuál es tu lugar en todo esto",
+   "esperat": "Pasar directamente a las opciones sin reformular estados internos no expresados explícitamente («la duda de cuál es tu lugar»)"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "tiene sentido querer hacerlo bien",
+   "esperat": "Omitir la validación formulaica y entrar directamente en lo concreto"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Lo de 'fastidiarlo todo' — entiendo que lo sientes así, pero una frase corta y sin presión difícilmente hace daño. Lo que cierra puertas suele ser lo contrario: insistir, preguntar mucho, o que note que necesitas que responda de cierta manera.",
+   "esperat": "Fàtima no pidió que le rebatieran el miedo a fastidiarlo; con dar la respuesta concreta era suficiente"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Lo de 'fastidiarlo todo' — entiendo que lo sientes así, pero una frase corta y sin presión difícilmente hace daño. Lo que cierra puertas suele ser lo contrario: insistir, preguntar mucho, o que note que necesitas que responda de cierta manera.",
+   "esperat": "Terminar tras el ejemplo de frase y la pregunta de cierre, sin el párrafo explicativo adicional"
+  }
+ ]
+}

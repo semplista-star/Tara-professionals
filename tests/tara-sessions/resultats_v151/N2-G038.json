@@ -1,0 +1,204 @@
+{
+ "id": "N2-G038",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "desfogar-demanda · la mort recent de l'avi",
+ "tipus": "desfogar-demanda",
+ "persona": "Núria, tía que cuida a la niña. Situació: la mort recent de l'avi. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:25:26.120Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Hoy solo necesito que me escuchen."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estoy. Cuéntame.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 180,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mi padre murió hace una semana. Y ahora tengo que cuidar a mi sobrina y no sé cómo estar bien para ella."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perder a tu padre hace una semana, y al mismo tiempo tener que estar presente para tu sobrina. Es mucho peso a la vez.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 232,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 36,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Exacto. No me da tiempo ni a llorar."
+  },
+  {
+   "qui": "TARA",
+   "text": "No te da tiempo ni a llorar. Eso es muy duro.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 288,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 20,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Ella me necesita y yo estoy rota por dentro."
+  },
+  {
+   "qui": "TARA",
+   "text": "Rota por dentro y aun así ahí, para ella. Las dos cosas son verdad a la vez.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 329,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Gracias por decirlo así."
+  },
+  {
+   "qui": "TARA",
+   "text": "Gracias a ti por contármelo.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 374,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 13,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Oye, ¿me puedes ayudar con una cosa? No sé cómo explicarle a la niña lo que ha pasado. Solo necesito una frase para empezar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. ¿Cuántos años tiene ella?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 437,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Cinco años."
+  },
+  {
+   "qui": "TARA",
+   "text": "Con cinco años, algo sencillo y verdadero puede ser:\n\n*\"El abuelo ha muerto. Eso significa que ya no va a estar con nosotras, y está bien que estemos tristes.\"*\n\nAsí le das un hecho claro y le dices que lo que siente tiene sentido.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 462,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 77,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. Eso me ayuda. Me la apunto."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Cuando estés lista, tú sabrás el momento.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 558,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 21,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

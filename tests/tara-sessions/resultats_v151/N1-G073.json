@@ -1,0 +1,119 @@
+{
+ "id": "N1-G073",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "que-faig · una reunió de claustre molt tensa",
+ "tipus": "que-faig",
+ "persona": "Toni, profesor de FP. Situació: una reunió de claustre molt tensa. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:15:56.666Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, estoy en medio de un claustro que se está poniendo muy feo. Hay un alumno mío, el Marcos, que lleva semanas sin entregar nada y encima faltando. El jefe de estudios me está presionando para que lo suspenda ya y cierre el caso. Pero yo sé que este chico tiene problemas en casa, cosas serias. Y no sé... si lo suspendo me quedo tranquilo con el papeleo pero igual lo pierdo para siempre. Y si espero, el jefe me come la cabeza. No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Estás entre dos presiones reales, y ninguna de las dos es fácil de ignorar.\n\nNo voy a decirte qué hacer —es tu decisión y la conoces mejor que yo—, pero sí puedo ayudarte a ver qué implica cada camino:\n\n**Si suspendes ahora y cierras el caso:**\nCumples con el procedimiento y reduces la presión institucional. El riesgo es que Marcos lo viva como una puerta que se cierra, justo cuando más lo necesita.\n\n**Si pides más tiempo antes de cerrar:**\nMantienes abierta la posibilidad de acompañarlo. Pero necesitarías algo concreto que sostener ante el jefe de estudios: un contacto con familia, una derivación a orientación, un registro de lo que ya has intentado. Sin eso, la presión seguirá.\n\n**Una tercera vía que a veces existe:**\nCalificar con lo que hay ahora —que puede ser un suspenso— pero dejar constancia explícita de las circunstancias y activar a la vez el protocolo de atención que corresponda. La nota no es lo mismo que abandonarlo.\n\nAntes de que decidas, una pregunta que me parece clave: ¿orientación o el equipo directivo saben ya lo que tú sabes de la situación de Marcos en casa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 289,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 336,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Orientación sabe algo, pero poco. Le comenté cuatro cosas a la orientadora por el pasillo hace dos semanas y ya está. Nadie ha hecho nada. Y eso también me cabrea, ¿eh? Que al final siempre acaba siendo problema mío solo.\n\nPero bueno... mira, de las opciones que me has puesto, creo que la tercera tiene más sentido. Lo de dejar constancia y activar el protocolo. Así no me salto el procedimiento pero tampoco lo dejo tirado. ¿Por dónde empiezo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido que te cabree. Llevas esto solo más tiempo del que deberías.\n\nY sí, la tercera vía es la más sólida. Por dónde empezar:\n\n**1. Pon por escrito lo que sabes, hoy**\nNo un informe largo: una nota interna con fecha, lo que has observado (ausencias, entregas, cualquier cosa que Marcos te haya dicho o que hayas visto), y que ya lo comentaste con orientación. Que quede registrado que tú actuaste.\n\n**2. Pide una reunión formal con orientación, no un pasillo**\nNo para informar —ya lo hiciste—, sino para preguntar qué pasos se van a dar y en qué plazo. Eso cambia la dinámica: deja de ser solo tu problema.\n\n**3. Habla con el jefe de estudios con algo en la mano**\nNo para pedir permiso, sino para informarle: \"He calificado con lo que hay, y he activado el protocolo de atención porque hay indicios de dificultades serias en casa.\" Es distinto a pedir más tiempo sin más.\n\n**4. Si hay indicios de algo grave en casa**\nY cuando dices \"cosas serias\", no sé exactamente a qué te refieres, pero si hay riesgo para Marcos, el centro tiene obligación de activar el circuito de protección, no solo orientación.\n\n¿Quieres que te ayude a redactar esa nota interna, o a preparar lo que le dirías a la orientadora en esa reunión?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 770,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 394,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. Demasiadas cosas a la vez. Que estoy en medio de un claustro, no tengo tiempo de ponerme a redactar nada ahora mismo.\n\nLo que necesito saber es qué le digo al jefe de estudios cuando me pregunte en diez minutos. Algo concreto. Que no me coma."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Algo corto y firme:\n\n---\n\n*\"He calificado a Marcos con lo que hay. Y esta semana voy a formalizar con orientación lo que sé de su situación, porque hay indicios de que necesita más que una nota.\"*\n\n---\n\nNo le pides permiso. Le informas. Y cierras ahí.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1258,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 90,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Vale. Eso puedo decirlo. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Suerte. Luego, si quieres, seguimos con el resto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1366,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 22,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

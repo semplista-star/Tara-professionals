@@ -1,0 +1,73 @@
+{
+ "id": "N1-G036",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "breu · un alumne nou que gairebé no parla",
+ "tipus": "breu",
+ "persona": "Ana, cap d'estudis. Situació: un alumne nou que gairebé no parla. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:13:14.456Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, mira, tinc cinc minuts justos perquè ara entro a una reunió de claustre. Tinc un alumne nou, en Malik, que gairebé no parla, ni amb els professors ni amb els companys. No sé si és timidesa, si és l'idioma, si és alguna cosa més... i no sé com orientar els tutors. Necessito una idea concreta, ràpida, que pugui dir-los avui mateix. Una sola cosa. Què els dic?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Una sola cosa, doncs:\n\n**Que li facin un lloc abans d'exigir-li paraules.**\n\nConcretament: que durant uns dies l'incloguin en activitats on pugui participar sense haver de parlar —fer, triar, mostrar, ajudar— i que li parlin amb normalitat sense esperar resposta. Que observin quan sembla còmode i quan no, i que t'ho expliquin.\n\nAixò et donarà informació real per decidir el pas següent.\n\nBona reunió.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 269,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 133,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, això és exactament el que necessitava. Gràcies, Tara!"
+  },
+  {
+   "qui": "TARA",
+   "text": "De res! Ja m'explicaràs com va en Malik.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 429,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

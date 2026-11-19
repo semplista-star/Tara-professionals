@@ -1,0 +1,184 @@
+{
+ "id": "N1-G017",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "mixta · un alumne que no fa res a classe i contesta malament",
+ "tipus": "mixta",
+ "persona": "Ana, professora substituta. Situació: un alumne que no fa res a classe i contesta malament. Estil: escriu missatges molt curts.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:37:42.730Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Estic molt cansada i enfadada. Tinc un alumne que no fa res i em falta al respecte davant de tota la classe. Necessito saber com li puc dir que pari sense muntar un drama."
+  },
+  {
+   "qui": "TARA",
+   "text": "Estàs carregant amb molt: el cansament, l'enfado, i a sobre davant de tota la classe.\n\nAbans de preparar el que li vols dir, m'ajudaria saber una cosa: quan dius que et falta al respecte, com ho fa exactament? Paraules, gestos, to... Amb això puc ajudar-te a trobar una resposta que funcioni per a tu.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 198,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 106,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Fa comentaris irònics quan explico alguna cosa. Tipus \"molt bé, profe\" amb to de burla. I els altres riuen."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar, i amb el grup rient al darrere és molt difícil no sentir que has de respondre en el moment.\n\nVols que preparem el que li podries dir a ell en privat, o també com gestionar el moment quan passa davant de la classe, o les dues coses?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 343,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 75,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Les dues coses, però primer el moment a classe. Que és el que em mata."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té sentit, és el moment de més pressió.\n\nAquí tens dues maneres de respondre en el moment, sense muntar drama i sense ignorar-ho:\n\n1) Resposta curta i seca, sense entrar al joc: \"Gràcies.\" I continues. Treus l'aire al comentari sense donar-li importància davant del grup. Funciona si no vols parar la classe, però pot semblar que ho deixes passar.\n\n2) Resposta que nomena el que passa, en calma: \"Noto que el to no és el que esperaria. Continuem.\" Breu, sense acusar, i el grup veu que ho has vist. Requereix que puguis dir-ho sense que se't noti l'enfado per dins.\n\n3) Ajornar sense evitar: \"Això ho parlem després.\" I continues. Li dius que ho has vist i que no s'acaba aquí, sense fer-ne un espectacle.\n\nCap de les tres és perfecta per a totes les situacions. Depèn molt de com et trobes aquell dia i de com és ell.\n\nQuina et ressona més, o vols que en treballem alguna?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 441,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 297,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La segona m'agrada però no sé si podré dir-la sense que se'm noti que estic a punt d'explotar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, és el repte real: no és trobar les paraules, és poder dir-les quan tens el cos en alerta.\n\nUna cosa que ajuda és practicar-la en veu alta ara, aquí, com si fos un assaig. No per memoritzar-la, senseó perquè el cos la reconegui quan arribi el moment.\n\nVols provar? Escriu-me com si estiguessis a classe i ell acabés de fer el comentari. Jo faig de tu i et dic com sona.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 773,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 132,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, no sé... \"Noto que el to no és el que esperaria. Continuem.\" Així?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, exactament així. I sona bé: és ferma i no és agressiva.\n\nLa pregunta és com t'ha sortit a tu quan ho has escrit. T'has imaginat el moment?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 937,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 54,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, i m'he posat tensa. Però crec que podria funcionar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Que t'hagis posat tensa i igualment ho hagis dit, ja és molt.\n\nQuan vulguis, passem a la conversa en privat amb ell.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1017,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 46,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ara no tinc temps. Però gràcies, m'ha ajudat."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. Sort amb el moment quan arribi.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1087,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

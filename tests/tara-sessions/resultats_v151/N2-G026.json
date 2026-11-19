@@ -1,0 +1,140 @@
+{
+ "id": "N2-G026",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "mixta · la porta de l'habitació sempre tancada",
+ "tipus": "mixta",
+ "persona": "Xavi, àvia que cuida els néts. Situació: la porta de l'habitació sempre tancada. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:24:59.678Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, estic molt enfadada amb el meu nét. Té quinze anys i porta setmanes amb la porta de l'habitació tancada amb clau, no surt ni a dinar, i quan li pregunto alguna cosa em respon amb monosíl·labs o directament no em respon. Jo no sé què fer. Necessito que m'ajudis a preparar com parlar amb ell sense que s'enfadi més i sense que sembli que l'estic atacant."
+  },
+  {
+   "qui": "TARA",
+   "text": "Setmanes sense gairebé contacte, i tu trucant a una porta que no s'obre. Té sentit que estiguis enfadada, i també preocupada.\n\nPodem preparar com apropar-te a ell. Abans de pensar en les paraules, una cosa que pot marcar la diferència: **el moment i el lloc**. No a la porta de l'habitació, no quan acaba de sortir, no davant d'altres. Potser un moment neutre — quan va a buscar alguna cosa a la cuina, o quan sortiu junts per algun motiu pràctic.\n\nPer a les paraules, una possibilitat:\n\n> *\"Fa setmanes que et veig poc i t'enyoro. No et vull preguntar res ni jutjar res. Només volia que ho sabessis.\"*\n\nRes que exigeixi resposta. Res que soni a interrogatori. Deixa la porta oberta sense forçar-la.\n\nSi vol continuar, bé. Si no respon, has plantat una llavor.\n\nVols ajustar alguna cosa d'aquesta frase perquè soni més a tu?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 284,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 288,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí però això sona massa... no sé, massa suau. Jo no soc així. Si li dic \"t'enyoro\" em mirarà com si estigués boja. Necessito alguna cosa més directa, que sembli jo de veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecte, té molt de sentit. Si no sona a tu, no funcionarà.\n\nDigue'm una cosa: com parles normalment amb ell quan les coses van bé? Més aviat directa, amb humor, seriosa...?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 638,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Home, normalment li dic les coses pel seu nom, sense voltes. I de vegades fem broma, sí. Però ara no estic per bromes, estic preocupada de veritat. Potser alguna cosa com... no sé, que li faci entendre que m'importa però sense posar-me sentimental. Que sàpiga que estic aquí però que no li estic demanant explicacions."
+  },
+  {
+   "qui": "TARA",
+   "text": "Això ja és molt clar. Directa, sense sentimentalismes, però que arribi.\n\nPotser alguna cosa així:\n\n> *\"Mira, fa setmanes que quasi no et veig. No et demano res. Només vull que sàpigues que si necessites alguna cosa, aquí estic.\"*\n\nCurt, sense voltes, sense exigir resposta. I si vols deixar-hi una mica de la teva manera:\n\n> *\"Fa setmanes que quasi no et veig. No vinc a interrogar-te. Però aquí estic, per si em necessites.\"*\n\nQuina de les dues se t'assembla més? O hi ha alguna paraula que canviaries?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 809,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 182,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La segona està millor. Crec que ja puc provar amb això. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bé. Espero que vagi bé.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1018,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, jo també. Adéu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Adéu. Molta sort.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1049,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 22,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

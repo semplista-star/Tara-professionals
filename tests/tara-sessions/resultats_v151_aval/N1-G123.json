@@ -1,0 +1,76 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 1,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió correctamente la necesidad central (preparar la apertura de las reuniones) y la entregó a tiempo, aunque acumuló elogios automáticos, fórmulas de validación y alguna pregunta no pedida que enturbian la naturalidad CNV.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "No tienes que pedir perdón por nada, y lo estás haciendo bien.",
+   "esperat": "Omitir el juicio valorativo y pasar directamente a acompañar lo que la persona acaba de expresar"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Desbordada con dos familias enfrentadas y tú en medio... eso pesa.",
+   "esperat": "Reflejar lo que la persona dijo sin añadir una valoración emocional no expresada ('eso pesa')"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene mucho sentido que eso sea lo que más pesa ahora",
+   "esperat": "Conectar con el contenido concreto sin usar la fórmula validadora 'tiene mucho sentido'"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Eso no es un problema, es honestidad.",
+   "esperat": "No reencuadrar ni valorar la actitud de la persona; dejar que el dato hable solo"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿qué pasó entre los chicos, a grandes rasgos? ¿Y en qué punto están ahora, siguen en conflicto activo o la cosa está más parada?",
+   "esperat": "La persona ya había dicho lo suficiente para trabajar la apertura de las reuniones; pedir más detalle del conflicto no era necesario para la ayuda solicitada"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Tu papel no es juzgar, es ser la persona de referencia del centro que quiere entender qué está viviendo cada familia y qué necesita cada una para que la situación mejore, sobre todo para sus hijos.",
+   "esperat": "Reservar el reencuadre de rol para cuando se entregue la apertura concreta, no antes de que la persona lo pida"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Lo que hace esta apertura: - Deja claro tu rol antes de que empiece la presión - Centra la conversación en los chicos, no en el enfrentamiento entre familias - Les da permiso para hablar, pero desde su experiencia, no desde el veredicto",
+   "esperat": "Entregar la apertura y la frase de reconducción sin añadir la lista explicativa; la persona puede valorar sola si le encaja"
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "No has sido liosa para nada, te has explicado muy bien y con mucha claridad sobre lo que necesitabas.",
+   "esperat": "Cerrar sin juicio valorativo sobre cómo se explicó la persona; un cierre breve y cálido es suficiente"
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Tienes el enfoque.",
+   "esperat": "Evitar el refuerzo evaluativo al cierre; basta con desearle suerte sin certificar su competencia"
+  }
+ ]
+}

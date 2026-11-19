@@ -1,0 +1,118 @@
+{
+ "id": "N1-G142",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "que-faig · una família que l'ha cridat per telèfon",
+ "tipus": "que-faig",
+ "persona": "Joan, coordinador de convivencia. Situació: una família que l'ha cridat per telèfon. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:20:11.671Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tengo un problema con un alumno que está molestando mucho a otros en clase. Los padres me llaman, los profes me presionan... y no sé si sancionarle o intentar algo más de mediación. No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entiendo la presión que tienes encima: padres, compañeros, y tú en el medio tratando de encontrar la mejor salida.\n\nNo puedo decirte qué hacer — esa decisión te corresponde a ti, que conoces al alumno, al centro y al contexto. Pero sí puedo ayudarte a pensar.\n\nHay dos caminos principales, y cada uno implica cosas distintas:\n\n**Sanción**\nResponde a la demanda inmediata de las familias y el equipo, y pone un límite claro. Puede ser necesaria si las conductas son graves o reiteradas. El riesgo es que, sin más, no cambia lo que hay detrás, y el alumno puede volver a lo mismo.\n\n**Intervención más relacional** (mediación, tutoría, trabajo con el grupo)\nVa más a la raíz, pero requiere tiempo, implicación del alumno y, a veces, de la familia. No siempre es viable si la situación es muy tensa o si el alumno no tiene disposición.\n\n**Y también pueden combinarse**: una medida que ponga límite ahora, y un proceso paralelo que trabaje el fondo.\n\nPara ayudarte a afinar, me falta saber una cosa: ¿de qué tipo son las conductas que está teniendo? No es lo mismo molestar verbalmente de forma reiterada que situaciones con componente de intimidación o exclusión hacia compañeros concretos.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 212,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 360,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bueno, es más bien verbal, burlas, pero ya llevan semanas. Quiero opciones concretas, no decidir yo solo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Escucho que llevas semanas sosteniendo esto y que hoy necesitas que alguien piense contigo, no solo devolverte la pelota. Tiene sentido.\n\nLa decisión final te corresponde a ti, pero aquí van opciones concretas con lo que implica cada una:\n\n---\n\n**1. Tutoría individual con el alumno**\nLe nombras lo que has observado —las burlas, las semanas que llevan— sin juicios sobre su intención. Exploras qué está pasando para él. Útil si no ha habido una conversación directa todavía. Requiere poco tiempo y puede darte información valiosa antes de cualquier otra medida.\n\n**2. Medida correctora + acompañamiento**\nUna sanción proporcional que deje claro el límite, combinada con un seguimiento de tutoría. Le da respuesta a las familias y al equipo, y no cierra la puerta a trabajar el fondo. Es la opción más habitual cuando la conducta es reiterada.\n\n**3. Trabajo con el grupo**\nSi las burlas tienen cierta complicidad del grupo —risas, silencio cómplice— una actividad de convivencia puede mover algo. No señala al alumno directamente. Puede complementar cualquiera de las anteriores.\n\n**4. Reunión con la familia del alumno**\nSi no ha habido contacto con ellos, puede ser el momento. A veces hay contexto que el centro no conoce, y a veces la familia puede ser parte de la solución.\n\n---\n\n¿Alguna de estas encaja con lo que ya has intentado, o con lo que el centro tiene más fácil hacer ahora mismo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 609,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 415,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La dos me parece bien. ¿Por dónde empiezo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Por la conversación con el alumno, antes de formalizar nada.\n\nAsí tienes información de primera mano, y la medida que pongas después tiene más base. También le das la oportunidad de escuchar el impacto de lo que hace antes de que llegue la consecuencia.\n\n**Para esa tutoría, un esquema sencillo:**\n\n1. **Abre sin acusar** — Cuéntale lo que has observado, en concreto: *\"He visto que en las últimas semanas hay comentarios tuyos hacia algunos compañeros que les están afectando.\"*\n\n2. **Escucha su versión** — Sin interrumpir ni rebatir todavía. Puede que haya algo que no sabes.\n\n3. **Nombra el impacto** — *\"Independientemente de tu intención, esto está haciendo daño y tiene que parar.\"*\n\n4. **Anuncia la medida** — Con calma, no como amenaza: *\"Voy a aplicar una corrección porque llevamos semanas y necesito que quede claro el límite.\"*\n\n5. **Deja una puerta abierta** — *\"Y quiero que sigamos hablando, porque me importa cómo estás tú también.\"*\n\n---\n\n¿Quieres que preparemos juntos lo que dirías en esa conversación, o tienes suficiente con esto para arrancar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1045,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 349,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Con esto me llega. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "De nada. Suerte con la conversación.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1407,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va entendre que la persona volia una solució concreta i aplicable, va gestionar bé el límit del canal i va acabar donant exactament el que es demanava.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "S'entén que estiguis esgotada — quan cada nit és una batalla, arriba un moment que el cap ja no dona més.",
+   "esperat": "Reconèixer el que la persona ha dit sense atribuir-li un estat intern no expressat ('esgotada'); podria haver dit simplement 'Entès, cada nit és una batalla' o similar."
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Abans de proposar-te opcions, una sola cosa que m'ajudaria a entendre millor: quants anys té el Pau?",
+   "esperat": "La persona demanava una solució directa i immediata; l'edat pot ser útil però no era imprescindible per donar opcions generals a un nen en edat escolar, i la pregunta va retardar l'ajuda."
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "T'entenc. Quan estàs a zero, l'últim que vols és més preguntes.",
+   "esperat": "Validació breu i no formulaica; 'T'entenc' + paràfrasi del que la persona ha dit és una estructura que es repeteix als torns 1 i 2."
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Et dono tres opcions concretes. Cap és la \"correcta\" — tries la que et sembli més manejable ara mateix: [tres opcions detallades] Quina et sembla més fàcil de sostenir tu, amb l'energia que tens ara?",
+   "esperat": "La persona havia demanat 'digues-me tu el càstig i punt'; tres opcions amb explicació i una pregunta final és més del que demanava; una o dues opcions breus i sense pregunta de seguiment hauria estat més proporcionat."
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "La clau és dir-ho tranquil·la, una vegada, i complir-ho — sigui el que sigui el que triï ell.",
+   "esperat": "La frase feta ja era clara; l'afegit instruccional no havia estat demanat i s'acosta a donar consell de criança no sol·licitat."
+  }
+ ]
+}

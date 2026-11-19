@@ -1,0 +1,184 @@
+{
+ "id": "N1-G079",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "rebuig · un alumne nou que gairebé no parla",
+ "tipus": "rebuig",
+ "persona": "Pau, coordinador de convivència. Situació: un alumne nou que gairebé no parla. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:16:47.753Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara! Mira, tinc un alumne nou, en Dani, que porta tres setmanes al centre i gairebé no ha obert la boca. I no és que sigui tímid de manual, és que sembla que estigui en mode avió permanent. Els professors em pregunten a mi, jo no sé ben bé què fer, i aquí estem. Alguna idea?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tres setmanes en mode avió, i els professors mirant cap a tu. Té sentit que busquis per on agafar-ho.\n\nAbans d'oferir-te idees, una cosa que m'ajudaria a concretar: quan dius que gairebé no ha obert la boca, és en tots els espais —pati, passadissos, tutoria— o sobretot a les aules? Perquè el «on» de vegades diu molt sobre el «per què».",
+   "tags": [],
+   "usage": {
+    "input_tokens": 242,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 126,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bona pregunta. A les aules, zero patatero. Però al pati l'he vist un parell de cops mirant el mòbil amb un altre nano, sembla que de l'ESO també. O sigui que no és que sigui mut de naixement, és que a classe s'apaga. Com una bombeta d'aquelles de baix consum que triga molt a engegar-se."
+  },
+  {
+   "qui": "TARA",
+   "text": "La imatge de la bombeta és bona —i el que describes ja diu bastant. En Dani té recursos socials, els activa en un context concret, i a l'aula alguna cosa els bloca. Pot ser moltes coses: la dinàmica de grup, la pressió d'exposar-se davant de tothom, que encara no sap com funciona aquest centre, o simplement que necessita més temps del que esperàvem.\n\nAmb això al cap, et proposo tres línies que pots combinar:\n\n**1. Una conversa individual sense agenda visible**\nNo una tutoria formal amb preguntes directes, senseó un moment informal —«Ei, com vas portant el canvi de centre?»— sense que sembli un interrogatori. L'objectiu no és que parli molt, senseó que noti que hi ha un adult disponible sense pressió.\n\n**2. Parlar amb el nano del pati**\nSi ja hi ha un vincle, aquell alumne pot ser un pont natural. No per fer-li de cangur, senseó per facilitar que en Dani tingui algú conegut en algun moment de la jornada.\n\n**3. Donar als professors un marc comú**\nQue no interpretin el silenci com a desinterès o desafiament. Una frase senzilla per als equips: «Està en procés d'adaptació, donem-li marge i evitem posar-lo en evidència davant del grup».\n\nQuina d'aquestes et sembla més viable ara mateix, o hi ha alguna que ja has provat?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 470,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 385,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ostres, tres opcions! Em sento com al Burger King. A veure... la del nano del pati ja la tenia al cap, però no l'he fet perquè no vull que el xaval senti que li estic posant un vigilant. I la dels professors ja ho he fet, més o menys. Però la primera... una conversa informal sense que sembli una emboscada psicològica... això és més fàcil de dir que de fer, no? Com s'inicia això sense que sembli forçat?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, és més fàcil de dir. I el teu instint amb el nano del pati és bo —hi ha diferència entre un pont i un vigilant, i tu ja la veus.\n\nSobre la conversa informal: el secret és que no comenci com una conversa. Comença com una presència. Coincidir al passadís, al pati, a l'entrada —sense preguntes, sense «hem de parlar». Un «ei» i prou. Que et vegi per allà sense que passi res.\n\nQuan ja t'ha vist unes quantes vegades sense que li demanis res, llavors pots afegir una frase curta sobre alguna cosa concreta i neutral —no sobre ell, no sobre com està. Pot ser sobre el centre, sobre alguna cosa que hagi passat aquell dia, el que sigui. Quelcom que no requereixi que s'exposi.\n\nLa clau és que **el primer moviment el faci ell**, encara que sigui mínim. Un somriure, una síl·laba. Tu ja estaràs allà.\n\nVols que practiquem com podria sonar alguna d'aquestes primeres frases? De vegades ajuda tenir-ne una a la butxaca.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 989,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 309,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Practicar frases... no sé, em fa una mica de cosa, com si fos un actor assajant el paper de \"coordinador guai\". Però d'acord, endavant. Sorprèn-me."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès —i el recel és sa. No es tracta de sonar guai, es tracta de sonar a tu.\n\nAlgunes opcions molt curtes, sense dramatisme:\n\n— «Ei, Dani. Com vas?» *(i marxar sense esperar resposta llarga)*\n— «Ja trobes les aules o encara et perds?»\n— «Avui han posat [cosa del menjador / alguna cosa del centre]. Ja ho has vist?»\n\nCap d'aquestes requereix que ell respongui res en concret. I cap et converteix en actor —són frases que diries a qualsevol alumne nou.\n\nLa diferència no és el guió, és que **tu ja saps per què hi ets**. Ell no ha de saber-ho.\n\nAra bé —i aquí et torno la pilota—: com parles normalment amb els alumnes pels passadissos? Perquè la millor frase és la que ja sona a tu.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1357,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 248,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, bona aquesta. Normalment faig servir l'humor, algun comentari absurd sobre el dia o sobre alguna cosa que veig. No soc dels que fan \"bon dia, com estàs\" en mode robot. Potser per en Dani hauria de fer el mateix, no? Sense forçar el registre \"coordinador seriós\". Ser jo, vaja."
+  },
+  {
+   "qui": "TARA",
+   "text": "Exacte. Ser tu és la millor estratègia que tens.\n\nUn comentari absurd sobre el dia no li demana res, no el posa en evidència, i si li fa gràcia —o fins i tot si no li fa— ja ha passat alguna cosa. Ha vist que ets una persona, no un càrrec.\n\nI si un dia respon, bé. Si no, també bé. La consistència és el que construeix la confiança, no el moment perfecte.\n\nSembla que ja saps com fer-ho. Potser el que necessitaves era permís per no canviar el registre.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1702,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 153,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ja... potser sí. De vegades un es complica la vida pensant que ha de fer alguna cosa \"especial\" i al final la solució és ser el mateix de sempre. Gràcies, Tara. Ara ja tinc per on tirar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Exacte. I en Dani probablement ho notarà abans del que et penses.\n\nSort amb la bombeta de baix consum.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1921,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Jaja, me la quedo aquesta! Gràcies. Fins aviat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Fins aviat!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1983,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 17,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

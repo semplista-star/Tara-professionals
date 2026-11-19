@@ -1,0 +1,83 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén el problema pràctic i acompanya bé la correcció, però en els primers torns fa preguntes de diagnòstic que la persona no ha demanat i atribueix un perfil quasi clínic als alumnes sense base suficient.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "tiene sentido que quieras abordarlo bien",
+   "esperat": "Ometre la validació formulaica i passar directament a la pregunta o a l'ajuda"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿los insultos han ocurrido solo en el grupo de WhatsApp, o hay tensión también dentro del aula?",
+   "esperat": "La persona ja ha dit que no sap com abordar-ho; una sola pregunta sobre per on vol començar hauria estat suficient sense bifurcar el diagnòstic"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "suele ser más difícil de manejar que un conflicto abierto, precisamente porque es difuso",
+   "esperat": "No afirmar com a fet general una dificultat que la persona no ha expressat; preguntar o deixar-ho obert"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿tienes ya una idea de qué alumnos están más implicados, o todavía estás intentando entender quién está en qué posición?",
+   "esperat": "La persona no havia demanat ajuda per identificar implicats; la pregunta allarga el diagnòstic innecessàriament"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Lo que describes tiene tres capas distintas: quienes iniciaron o escalaron, quienes respondieron, y quienes observaron sin actuar. Cada una necesita una conversación diferente.",
+   "esperat": "La persona no havia demanat un marc analític; millor preguntar directament per on vol ajuda"
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿qué tipo de necesidades tienen esos alumnos? No hace falta que me des detalles identificativos, pero sí si hay algo relevante en cómo procesan la información, regulan las emociones o comprenden las consecuencias sociales.",
+   "esperat": "La persona és mestra d'educació especial i ja ha dit que vol una conversa comprensible; demanar el perfil clínic dels alumnes és innecessari i s'acosta a dades sensibles de tercers"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "Algunos alumnos con dificultad para la empatía cognitiva responden mejor a ejemplos concretos",
+   "esperat": "La persona no havia dit 'dificultad para la empatía cognitiva'; és una etiqueta diagnòstica atribuïda a tercers que la persona corregeix al torn següent"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Te propongo una estructura para esas conversaciones individuales: 1. Partir de lo concreto [...] 4. Terminar con algo que puedan hacer",
+   "esperat": "Una estructura més breu o presentada en dos passos, deixant espai perquè la persona triï per on aprofundir"
+  },
+  {
+   "torn": 6,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tienes razón, y te lo agradezco.",
+   "esperat": "Acceptar la correcció sense el 'te lo agradezco', que sona a fórmula de cortesia excessiva"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Eso que describes es uno de los equilibrios más difíciles en este trabajo",
+   "esperat": "Ometre el judici valoratiu sobre la dificultat de la tasca i anar directament a l'ajuda pràctica"
+  }
+ ]
+}

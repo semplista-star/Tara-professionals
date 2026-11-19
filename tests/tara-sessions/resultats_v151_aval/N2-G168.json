@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA escoltà primer sense preguntes ni solucions, lliurà l'ajuda concreta quan es demanà i tancà sense allargar.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Notar ese cambio en Luis te ha removido algo.",
+   "esperat": "Reflectir el que la persona ha dit sense afegir estats interns no expressats; p. ex. 'Llevas semanas con eso encima.'"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Qué es lo que más te pesa de esto?",
+   "esperat": "La persona acabava d'expressar que necessitava ser escoltada; un silenci o un 'Continúa' hauria estat suficient en aquest punt."
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "eso duele",
+   "esperat": "La persona no havia dit que li dolgués; millor reflectir les seves pròpies paraules ('sentirte fuera de su vida') sense afegir l'emoció."
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Y lo que has nombrado hoy —ese dolor de sentirte fuera— ya es mucho.",
+   "esperat": "Tancar sense valorar el que la persona ha fet o dit; p. ex. ometre aquesta frase o simplement deixar l'oferta oberta."
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Si en algún momento quieres pensar cómo acercarte a Luis, aquí estoy.",
+   "esperat": "La persona havia dit que ja se sentia ajudada i s'acomiadava; oferir el següent pas sense que ho demanés anticipa una necessitat no expressada, tot i que la formulació és prou oberta per no ser greu."
+  }
+ ]
+}

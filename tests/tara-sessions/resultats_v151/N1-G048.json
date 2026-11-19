@@ -1,0 +1,118 @@
+{
+ "id": "N1-G048",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "nomes-desfogar · un alumne que diu que vol canviar de grup",
+ "tipus": "nomes-desfogar",
+ "persona": "Rubén, orientadora. Situació: un alumne que diu que vol canviar de grup. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:13:59.973Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ui, necessito desfogar-me una mica, res més. Tinc un alumne que em té una mica farta, la veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'escolt. Explica'm.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 178,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 13,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "És que... és un nano que cada dos per tres ve a dir-me que vol canviar de grup. I jo li explico, li explico, li explico... i res. L'endemà torna amb el mateix rotllo. Ja no sé com dir-li que no és tan senzill, ostres."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cansa molt, això: explicar-ho una vegada i una altra i sentir que no arriba.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 268,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacte! És això. Que no és que no vulgui ajudar-lo, eh, que és la meva feina i m'agrada. Però hi ha dies que surts de la reunió i penses... per on he de seguir? Ja no tinc més arguments nous, saps?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, s'entén. No és falta de ganes —és que has donat molt i arribes a un punt on ja no saps per on tirar.\n\nVols quedar-te aquí una estona, o t'ajudaria pensar juntes si hi ha alguna cosa diferent que podries provar amb ell?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 371,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 83,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, no, ja estic millor, gràcies. Només necessitava treure-ho una mica. Ara me'n vaig, que tinc una altra reunió. Gràcies, Tara!"
+  },
+  {
+   "qui": "TARA",
+   "text": "De res! Ànim amb la reunió. Fins aviat.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 511,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

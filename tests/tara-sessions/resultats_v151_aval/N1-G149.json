@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé el que necessitava Aina en cada moment, va acceptar la correcció sense insistir i va lliurar l'ajuda pràctica demanada; l'únic error va ser anticipar-se a inferir el que necessitava Marta.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "tiene mucho sentido",
+   "esperat": "ometre la validació formulaica o reformular-la amb contingut concret"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "¿qué crees que necesitaba que ocurriera en ese claustro para sentirse escuchada?",
+   "esperat": "no inferir estats ni necessitats de Marta sense base; esperar que Aina demanés ajuda per entendre-la"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿qué crees que necesitaba que ocurriera en ese claustro para sentirse escuchada?",
+   "esperat": "Aina havia demanat les primeres paraules per obrir la conversa, no una anàlisi de Marta"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Te escucho. Cuerpo tenso todavía, y ya pensando en mañana — tiene mucho sentido viniendo de ti.",
+   "esperat": "la validació inicial era innecessària; passar directament a la pregunta o, millor, a l'ajuda demanada"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "lo que pase después de esa primera frase ya no está en tu mano. Pero el principio lo tienes.",
+   "esperat": "Aina ja havia tancat i agraït; el comentari final no havia estat demanat i allarga el tancament sense afegir valor"
+  }
+ ]
+}

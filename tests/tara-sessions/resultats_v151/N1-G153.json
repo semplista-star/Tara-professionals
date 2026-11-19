@@ -1,0 +1,118 @@
+{
+ "id": "N1-G153",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "demanda-directa · la pressió de direcció per les notes",
+ "tipus": "demanda-directa",
+ "persona": "Aina, mestra d'educació especial. Situació: la pressió de direcció per les notes. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:20:56.170Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Sí, necessito ajuda concreta. La directora m'ha dit que les notes dels meus alumnes d'especial han de \"reflectir millor el nivell del grup ordinari\" i no sé com respondre-li sense perdre les formes. Em pots ajudar a redactar un missatge curt per enviar-li per correu, explicant per què no puc fer això?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc la situació — i que vulguis respondre amb claredat sense que la cosa s'escalfi.\n\nAbans de redactar, necessito saber una cosa que canviaria el to del missatge: **les teves notes ja estan vinculades a adaptacions curriculars documentades** (ACI, PI o similar), o és una pràctica que fins ara no ha quedat reflectida formalment?\n\nAixò determina si el missatge és \"et recordo el marc normatiu que ja tenim\" o \"necessitem parlar de com documentar-ho correctament\".",
+   "tags": [],
+   "usage": {
+    "input_tokens": 242,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 140,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, tot documentat. Cada alumne té el seu PI i les notes van lligades als objectius del pla. O sigui que la directora sap perfectament com funciona, no és que no ho sàpiga... és que li molesta com queda al paper. Vull un missatge que li recordi el marc sense que sembli un atac, però que quedi clar que no puc canviar les notes així com així."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tens un borrador:\n\n---\n\n**Assumpte: Notes de l'alumnat amb PI**\n\nBona tarda,\n\nGràcies per compartir la teva preocupació. Volia explicar-te breument com estic treballant les qualificacions d'aquest grup.\n\nLes notes de l'alumnat amb pla individualitzat estan vinculades als objectius específics de cada PI, tal com estableix la normativa d'atenció a la diversitat. Modificar-les per ajustar-les als criteris del grup ordinari implicaria desconnectar-les del marc que hem documentat per a cada alumne, cosa que podria generar inconsistències en el seu seguiment i en la justificació de les mesures d'atenció.\n\nSi hi ha alguna preocupació concreta sobre com es comuniquen aquestes qualificacions a les famílies o com apareixen a la documentació del centre, estaré encantada de buscar una solució conjunta.\n\nQuedo a la teva disposició per parlar-ne quan vulguis.\n\n---\n\nTona: ferma però col·laboradora. Deixa la porta oberta sense cedir en el fons.\n\nVols que ajusti alguna cosa — el to, la duresa, la longitud?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 493,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 317,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Està bé però és massa llarg i massa formal. Nosaltres ens tractem de tu i parlem molt directe. Pots fer-lo més curt i una mica més... no sé, que sembli que ho dic jo i no un advocat?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí va:\n\n---\n\n**Assumpte: Notes alumnat amb PI**\n\nHola,\n\nHe vist el teu comentari sobre les notes. Entenc que pot quedar estrany al paper, però les qualificacions van lligades als objectius de cada PI — si les canvio, deixo de reflectir el que realment treballa cada alumne i perdo la coherència amb el que hem documentat.\n\nSi vols parlem de com comunicar-ho millor a les famílies o al claustre, estic oberta.\n\n---\n\nVols que hi afegeixis alguna cosa, o així ja va bé?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 875,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 156,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, així sí que sembla cosa meva. Moltes gràcies, m'has tret un pes de sobre!"
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que et serveixi. Sort amb la directora!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1067,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

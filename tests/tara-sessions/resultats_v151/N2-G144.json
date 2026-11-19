@@ -1,0 +1,204 @@
+{
+ "id": "N2-G144",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "correccio · les xarxes socials i el que hi publica",
+ "tipus": "correccio",
+ "persona": "Elena, pare. Situació: les xarxes socials i el que hi publica. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:31:31.909Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Tinc un problema amb la meva filla."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'escolto. Explica'm el que vulguis.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 179,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Publica coses a Instagram que no m'agraden. Fotos seves molt... no sé, massa provocadores."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc que et preocupa el que veus. Quina edat té la teva filla?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 228,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "16 anys."
+  },
+  {
+   "qui": "TARA",
+   "text": "Setze anys, i veus coses que et generen inquietud. Té sentit que t'ho prenguis seriosament.\n\nQuan dius que les fotos et semblen massa provocadores, hi ha alguna cosa concreta que et preocupa més — la seva seguretat, com la poden veure altres persones, la imatge que dona...? O és tot plegat?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 264,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 95,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tot plegat. Però sobretot no entenc per què ho fa. Necessita atenció o què?"
+  },
+  {
+   "qui": "TARA",
+   "text": "És una pregunta honesta. I té sentit que te la facis.\n\nLa veritat és que des d'aquí no puc saber per què ho fa ella — només ella ho sap. Pot haver-hi moltes coses darrere: buscar connexió amb els altres, explorar com es veu a si mateixa, sentir-se segura o admirada... o simplement seguir el que fan les seves amigues. A vegades és una cosa, a vegades una altra.\n\nEl que sí puc dir és que la pregunta que tu et fas — \"per què ho fa?\" — és exactament la que podria obrir una conversa real amb ella, si li ho preguntes amb curiositat en lloc de preocupació visible.\n\nT'agradaria preparar com parlar-hi?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 389,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 191,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera. Jo no he dit que no tingui curiositat. No m'encaselles."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó. Ho he dit malament. No era la meva intenció posar-te en cap caixa.\n\nPer on vols continuar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 605,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Vull saber com li dic que pari de publicar aquestes fotos sense que s'enfadi."
+  },
+  {
+   "qui": "TARA",
+   "text": "Puc ajudar-te a preparar-ho.\n\nUna cosa que val la pena tenir en compte: si li dius directament \"para\", és probable que s'enfadi o es tanqui, tinguis la conversa que tinguis. A setze anys, sentir que un adult controla el que publiques sol generar resistència.\n\nEl que sol funcionar millor és que primer entengui que la teva preocupació ve d'ella, no de les fotos en si. Alguna cosa com:\n\n*\"He vist algunes fotos teves a Instagram i m'han generat preocupació. No vull controlar-te, però sí parlar-ne contigo. Pots explicar-me com t'hi sents tu?\"*\n\nAixò no garanteix que no s'enfadi, però obre una porta diferent que una ordre directa.\n\nVols ajustar aquesta frase, o prefereixes un enfocament diferent?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 672,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 230,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Però jo sí que vull que pari. No vull \"obrir portes\". Vull que les tregui."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès. Vols que les tregui, i és una decisió que pots prendre com a mare o pare.\n\nPots dir-li clarament:\n\n*\"He vist les fotos que has publicat i vull que les treguis. Em preocupa la teva seguretat i no estic disposat/da a negociar-ho.\"*\n\nSi vols, pots afegir per què — no per convèncer-la, senseó perquè entengui d'on ve el límit. Però el límit el pots posar sense demanar-li permís.\n\nQue s'enfadi és possible. Que el límit sigui vàlid, també.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 935,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 170,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí però com li dic sense que hi hagi una guerra a casa?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Això és més difícil de garantir, perquè la seva reacció no la controles tu.\n\nEl que sí pots fer és dir-ho d'una manera que redueixi les possibilitats d'escalada. Algunes coses que ajuden:\n\nTriar el moment — no quan arribi a casa, no quan estigui amb el mòbil a la mà, no quan tu estiguis molt tensa.\n\nDir-ho una sola vegada, clar i tranquil — sense repetir, sense llista de raons, sense debat. Com més expliques, més flancs oberts.\n\nSeparar el límit de la discussió — *\"Vull que les treguis avui. Si vols parlar de per què, ho fem després, però primer les fotos.\"*\n\nI acceptar que potser hi haurà tensió igualment. Una guerra a casa no sempre vol dir que ho has fet malament.\n\nHi ha alguna cosa d'aquesta conversa que et fa especialment por?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1126,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 244,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

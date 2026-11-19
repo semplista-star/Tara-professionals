@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad de ayuda práctica, pero en el torn 1 antepuso la validación automática y el elogio a escuchar qué había pasado, y en el torn 3 ofreció más opciones de las pedidas y malinterpretó lo que Joan había dicho sobre conocer a la alumna.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Quedarte paralizada en ese momento dice que te importó lo que estaba pasando. Eso no es poco.",
+   "esperat": "Reconocer brevemente sin interpretar ni elogiar; preguntar qué pasó después"
+  },
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "No tienes que pedir perdón, y no creo que lo hayas gestionado fatal.",
+   "esperat": "No rebatir la autoevaluación de Joan; dejar que la persona siga contando"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Lo que hiciste la sacó del momento sin exponerla más. Eso tiene valor.",
+   "esperat": "Omitir el juicio valorativo; pasar directamente a la pregunta sobre qué quiere hacer"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "fue ver que quizá para ella es algo conocido",
+   "esperat": "Reflejar solo lo que Joan describió ('parecía que ya lo esperara') sin añadir interpretación propia sobre la historia de la alumna"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que quieras acercarte sin que se sienta señalada.",
+   "esperat": "Ir directamente a las opciones concretas que Joan pidió, sin validación formulaica previa"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Algunas opciones concretas, para que veas cuál encaja con cómo eres tú y con el contexto: [bloque completo con tres secciones y pregunta final]",
+   "esperat": "Respuesta más corta centrada en las dos preguntas reales de Joan: cómo acercarse a la alumna y qué hacer con el grupo"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "Lo que decía es que no conozco bien la dinámica del grupo en general, que soy nueva",
+   "esperat": "No atribuir a Joan que no conoce a la alumna; leer con más cuidado lo que dijo"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Sobre lo de 'meterme donde no me llaman': Tiene sentido ser prudente.",
+   "esperat": "Joan no pidió que se abordara esa frase como sección aparte; bastaba con incluirlo de forma integrada si era relevante"
+  }
+ ]
+}

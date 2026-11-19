@@ -1,0 +1,140 @@
+{
+ "id": "N2-G175",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "nomes-desfogar · germans que es barallen tot el dia",
+ "tipus": "nomes-desfogar",
+ "persona": "Óscar, madrastra. Situació: germans que es barallen tot el dia. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:33:03.308Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, hoy solo necesito desahogarme un poco. No busco consejos ni soluciones, solo hablar. ¿Te parece bien?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Por supuesto. Aquí estoy, escuchando. Cuéntame lo que necesites.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 207,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es que mis hijastros no paran de pelearse. Todo el día. Por cualquier cosa. Es agotador."
+  },
+  {
+   "qui": "TARA",
+   "text": "Todo el día, por cualquier cosa. Eso agota de verdad.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 266,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 21,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactamente. Y lo peor es que yo intento mantener la calma, ser justa con los dos, pero hay momentos en que ya no puedo más. Me siento completamente desbordada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Intentar estar ahí para los dos, mantener la calma, ser justa... y aun así llegar a ese punto en que ya no puedes más. Tiene mucho sentido que te sientas desbordada.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 341,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 56,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Y además me siento sola en esto. Su padre trabaja mucho y cuando llega a casa ya está cansado. Así que la mayor parte del tiempo lo gestiono yo sola. Es demasiado."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cargarlo sola casi todo el tiempo, sin que haya nadie más al otro lado... eso es demasiado, sí.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 453,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 36,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacto. Bueno, la verdad es que solo con contarlo ya me siento algo mejor. Creo que era eso lo que necesitaba hoy. Me voy, gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido. Cuídate. FINAL",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 538,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

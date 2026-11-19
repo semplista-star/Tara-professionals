@@ -1,0 +1,118 @@
+{
+ "id": "N1-G075",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "que-faig · un alumne que diu que vol canviar de grup",
+ "tipus": "que-faig",
+ "persona": "Carmen, coordinador de convivencia. Situació: un alumne que diu que vol canviar de grup. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:15:50.489Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Tengo un alumno que quiere cambiarse de grupo y no sé si dejarlo o no. No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Esa decisión te corresponde a ti, pero puedo ayudarte a pensarla.\n\nPara ofrecerte opciones con sentido, necesito entender un poco más la situación. ¿Qué te ha dicho el alumno sobre por qué quiere cambiarse?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 179,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 70,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Dice que no encaja con sus compañeros. Pero no sé si es real o es que quiere escapar de algo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Esa duda tiene mucho sentido, y es una distinción importante.\n\nAquí tienes tres caminos posibles, con lo que implica cada uno:\n\n**Autorizar el cambio** — Le das una salida rápida. Puede aliviarle si el malestar es real. El riesgo es que, si hay algo que no ha nombrado, el cambio no lo resuelve y puede repetirse.\n\n**No autorizar el cambio, por ahora** — Te da tiempo para explorar qué hay detrás. Requiere que tengas una conversación con él donde pueda sentirse seguro para contarte más. Si el problema es con alguien concreto, esto permite abordarlo.\n\n**Hablar con él antes de decidir** — No te comprometes todavía. Le dices que quieres entenderlo mejor y quedas con él. Esto suele revelar bastante: cómo cuenta la situación, si nombra a alguien, si hay algo que le cuesta decir.\n\nLa mayoría de profesionales en tu lugar elegirían esta tercera opción antes de decidir. Pero tú conoces al alumno y al grupo.\n\n¿Hay algo que ya hayas observado en el grupo que te haga inclinar hacia alguna de estas opciones?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 282,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 309,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La tercera. ¿Por dónde empiezo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien. Una conversación en privado, sin prisa, donde él sienta que no está siendo juzgado ni que ya has decidido.\n\nPara empezar, puedes decirle algo sencillo como:\n\n*«Me has dicho que quieres cambiarte de grupo. Antes de nada, quiero entender cómo estás. ¿Me cuentas un poco más?»*\n\nY después, escuchar. Sin interrumpir, sin preguntar demasiado a la vez.\n\nSi la conversación fluye, hay dos cosas que te interesa explorar:\n\n- **Qué pasa en el grupo** — ¿Hay alguien concreto? ¿Situaciones concretas? ¿O es más una sensación general de no pertenecer?\n- **Qué ha intentado él** — ¿Ha hablado con alguien? ¿Ha habido algún momento en que sí se sintió parte del grupo?\n\nEso te dará mucho más con qué trabajar.\n\n¿Quieres que preparemos juntos cómo conducir esa conversación, o con esto ya tienes suficiente para empezar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 609,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 290,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Con esto me vale. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "De nada. Espero que la conversación con él vaya bien.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 911,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

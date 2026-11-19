@@ -1,0 +1,140 @@
+{
+ "id": "N2-G104",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "que-faig · un fill que diu que a l'escola el molesten",
+ "tipus": "que-faig",
+ "persona": "Marta, família d'acollida. Situació: un fill que diu que a l'escola el molesten. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:29:15.680Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. El meu fill m'ha dit que a l'escola el molesten. No sé si parlar primer amb ell, anar directament a l'escola, o esperar a veure si s'arregla sol. No sé què fer, digues-m'ho tu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc que no saps per on tirar, i que vols fer el millor per ell.\n\nEt proposo tres opcions amb el que implica cadascuna:\n\n**1. Parlar primer amb ell**\nSaps més del que passa realment — com se sent, quant de temps fa, si ja ho ha intentat gestionar. Això t'ajuda a decidir els passos següents amb més informació. El risc és que si la situació és greu, pot trigar una mica més a rebre ajuda externa.\n\n**2. Anar directament a l'escola**\nL'escola s'assabenta aviat i pot actuar. Pot ser útil si creus que és seriós o repetit. El risc és que el teu fill se senti que has actuat sense comptar amb ell, cosa que de vegades fa que es tanqui més.\n\n**3. Esperar a veure si s'arregla sol**\nPot tenir sentit si és una cosa molt puntual i ell no sembla molt afectat. Però si ja t'ho ha dit, probablement és perquè necessita que facis alguna cosa.\n\nLa majoria de famílies troben útil **combinar la 1 i la 2**: primer escoltar-lo a ell per entendre bé la situació, i després decidir si cal parlar amb l'escola i com fer-ho.\n\nVols que t'ajudi a preparar la conversa amb el teu fill?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 232,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 363,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Vull primer parlar amb ell. Però no sé com començar sense que es tanqui."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit. De vegades com comencem marca si s'obre o es tanca.\n\nUna manera que sol funcionar és entrar per la seva experiència, no pel problema. Per exemple:\n\n*«M'has dit que et molesten a l'escola. Vull entendre com estàs. Explica'm el que vulguis.»*\n\nI després, sobretot, deixar silenci. Que ell porti el ritme.\n\nAlgunes coses que ajuden:\n- **No fer moltes preguntes seguides** — una, i esperar.\n- **No anar massa ràpid a solucions** — primer que se senti escoltat.\n- **No minimitzar** («segur que no és per tant») ni dramatitzar («això és molt greu»).\n\nSi vols, podem preparar junts com respondre si es tanca, o si diu «no és res».",
+   "tags": [],
+   "usage": {
+    "input_tokens": 623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 223,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, i si diu \"no és res\"?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Molt bona pregunta, perquè passa sovint.\n\nSi diu «no és res», pots recollir-ho sense forçar:\n\n*«D'acord. Però m'ho has dit, i per mi sí que compta. Estic aquí si en algun moment vols parlar-ne més.»*\n\nAixò li deixa la porta oberta sense pressió. Sovint els nens i adolescents necessiten saber que l'adult hi és, abans de decidir si s'obren.\n\nSi veus que tanca la conversa però sembla tens o trist, pots afegir:\n\n*«No cal que m'expliquis res ara. Però si et molesta alguna cosa, m'agradaria saber-ho.»*\n\nI deixar-ho aquí. De vegades tornen al cap d'una estona, o l'endemà.\n\nTens una idea de quina edat té i com sol reaccionar quan li preguntes coses? Això em pot ajudar a ajustar una mica més el que et proposo.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 862,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 263,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Té 10 anys. Normalment no parla molt, però si li dono temps acaba explicant coses."
+  },
+  {
+   "qui": "TARA",
+   "text": "Això és molt valuós que sàpigues d'ell. Si amb temps acaba explicant, vol dir que el vincle hi és — només necessita el seu espai.\n\nAmb deu anys i aquest estil, el que sol funcionar és **no fer-ho cara a cara asseguts**. Molts nens d'aquesta edat parlen més fàcilment si estan fent alguna cosa alhora — caminant, al cotxe, preparant alguna cosa junts.\n\nPots obrir la conversa de manera tranquil·la, sense que sembli «una reunió important»:\n\n*«Ei, l'altre dia em vas dir una cosa de l'escola. M'hi he quedat pensant. Com estàs?»*\n\nI després silenci. Deixar que ell porti.\n\nSi triga, no omplis el silenci. Amb ell, el silenci sembla que és part del procés.\n\nCrec que ja tens bastant per començar. Com ho veus?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1156,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 249,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, crec que ho puc fer. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra. Sembla que el coneixes bé — això ja és molt.\n\nSort amb la conversa.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1426,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 41,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

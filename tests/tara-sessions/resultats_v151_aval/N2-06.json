@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió desde el primer momento que Iván solo quería ser escuchado y no ofreció consejos, acompañando el ritmo y cerrando cuando él lo indicó.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Eso es mucho.",
+   "esperat": "Reflejar el contenido sin añadir valoración; por ejemplo, quedarse solo con el eco de los hechos."
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Eso agota de una manera muy profunda.",
+   "esperat": "Devolver lo que él ha dicho sin afirmar cómo le afecta internamente; p. ej. 'Y encima sintiéndote que no llegas.'"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Estar hasta las narices no te hace mal padre — te hace humano.",
+   "esperat": "Iván no pidió que le quitaran la culpa ni una reencuadre; bastaba con acusar recibo del cierre y desearle descanso sin añadir interpretación normalizadora."
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Me alegra que haya servido.",
+   "esperat": "Un cierre más neutro y breve; la fórmula suena a validación automática y desplaza el foco hacia TARA."
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "id": "N1-G112",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "que-faig · un grup disruptiu a última hora",
+ "tipus": "que-faig",
+ "persona": "Li Wei, educador social del centre. Situació: un grup disruptiu a última hora. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:38:17.595Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Tinc un grup de nanos molt moguts a última hora i no sé si separar-los o aguantar fins al final. No sé què fer, digues-m'ho tu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Última hora amb un grup mogut és dur. Abans de dir-te res, necessito saber una cosa: quan dius \"moguts\", parles de dispersió i energia alta, o hi ha conflictes entre ells?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 191,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 55,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Energia alta sobretot. Però si els deixo junts massa estona acaba en conflicte. No sé què fer, digues-m'ho tu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès. Amb el que expliques, hi ha tres opcions concretes:\n\n1) Separar-los de manera preventiva, abans que arribi el conflicte. Guanyes control, però perds la possibilitat que aprenguin a gestionar-se junts.\n\n2) Mantenir-los junts i canviar l'activitat: tasques curtes, amb moviment o amb un rol clar per a cadascú. L'energia alta necessita on anar, no necessàriament s'ha de frenar.\n\n3) Separar-los només quan aparegui el primer senyal de tensió, no abans. Requereix que tinguis clara quina és la teva línia i que ells sàpiguen que existeix.\n\nCap de les tres és la correcta en abstracte. Depèn de quant marge tens tu avui, de si el grup ha tingut un dia especialment carregat, i de si hi ha algun parell concret que sol encendre la situació.\n\nQuin d'aquests factors pesa més ara mateix?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 288,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 259,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La segona. Com començo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Pensa en els propers deu minuts. Dona'ls una tasca que tingui un resultat visible i ràpid, on cadascú faci una cosa concreta. Per exemple: reparteix un rol diferent a cada persona del grup —un que escriu, un que busca, un que presenta— i posa un temps curt i clar. Quan saben exactament què han de fer i quan acaba, l'energia va cap a la tasca.\n\nSi tens algun material que ja coneixes bé, millor: no és moment d'estrenar res.\n\nTens alguna activitat a mà que puguis adaptar així?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 557,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 155,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, tinc una dinàmica de debat ràpid que els agrada. Gràcies, ho provaré."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona sort. Si vols, m'expliques com ha anat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 21,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

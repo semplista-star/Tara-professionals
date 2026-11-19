@@ -1,0 +1,141 @@
+{
+ "id": "N1-G179",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "mixta · una família que no respon mai als missatges",
+ "tipus": "mixta",
+ "persona": "Núria, professor novell. Situació: una família que no respon mai als missatges. Estil: escriu missatges molt curts.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:22:33.466Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Estic molt frustrada amb una família que no respon mai. Necessito un missatge que els faci reaccionar d'una vegada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc la frustració d'enviar missatges que sembla que no arriben a ningú.\n\nAbans de redactar-lo, una pregunta que canviaria el to: **quin és el motiu concret d'aquest contacte?** (una situació acadèmica, una incidència de convivència, una reunió pendent…)\n\nAmb això et faig un borrador que sigui clar i que obri porta, sense que soni a retret.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 176,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 115,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "És una reunió que porto tres setmanes intentant concretar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tres setmanes és molt temps per tenir una cosa pendent. Aquí tens un borrador:\n\n---\n\n**Assumpte: Reunió pendent – [nom de l'alumne/a]**\n\nBona tarda,\n\nUs escric per tercera vegada per concretar una reunió sobre [nom de l'alumne/a]. És important per a mi poder parlar amb vosaltres, i vull fer-ho aviat.\n\nUs proposo dues opcions:\n\n— [dia i hora 1]\n— [dia i hora 2]\n\nSi cap de les dues us va bé, digueu-me quan podeu i ho ajustem. Si no rebeu resposta meva en [X dies], us trucaré directament.\n\nGràcies,\n[nom]\n\n---\n\nEl missatge és directe, no acusa, i tanca amb una acció concreta que depèn de tu —la trucada— perquè no quedi en l'aire una altra vegada.\n\nVols ajustar el to o afegir alguna cosa del motiu de la reunió?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 310,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 264,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Massa formal. Vull alguna cosa més directa i curta."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí va:\n\n---\n\n**Assumpte: Reunió – [nom de l'alumne/a]**\n\nBona tarda,\n\nPorto tres setmanes intentant concretar aquesta reunió. Necessito que ens trobem aviat.\n\nPodeu el [dia 1] o el [dia 2]? Si no, digueu-me quan.\n\nSi no rebeu resposta, us trucaré.\n\nGràcies,\n[nom]\n\n---\n\nServeix així?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 594,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 125,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, això és el que necessitava. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. Espero que aquesta vegada responguin.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 17,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Jo també. 😅"
+  },
+  {
+   "qui": "TARA",
+   "text": "😄 Sort!",
+   "tags": [],
+   "usage": {
+    "input_tokens": 766,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 10,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

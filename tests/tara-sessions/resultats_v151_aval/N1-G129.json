@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 1,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (opciones concretas con implicaciones) y las entregó con precisión, pero en el cierre añadió un elogio valorativo no pedido que rompe la neutralidad CNV.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "tiene sentido que quieras hacer algo pero no sepas exactamente qué",
+   "esperat": "omitir la validación formulaica e ir directamente a las opciones, que era lo pedido"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "No tienes que pedir perdón, te has explicado perfectamente.",
+   "esperat": "no comentar las disculpas de la persona; responder directamente a la pregunta sobre cómo empezar"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Tienes ya en mente con qué compañeros podría estar ella más cómoda, o eso es lo que no tienes claro?",
+   "esperat": "la persona ya tenía un plan claro; la pregunta no añade valor y alarga el intercambio innecesariamente"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Para cambiar la formación de grupos sin que parezca una intervención dirigida a nadie, lo más sencillo es presentarlo como un cambio de metodología normal — [bloque completo]",
+   "esperat": "respuesta más breve centrada en el paso inmediato, sin listar tres variantes cuando la persona ya había elegido una"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "dudar significa que te importa hacerlo bien, y eso ya dice mucho de ti como orientadora",
+   "esperat": "no hacer juicios valorativos sobre la persona; se puede reconocer que tiene un plan sin atribuirle virtudes"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "No tienes que disculparte por dudar",
+   "esperat": "no interpretar ni comentar el patrón de disculpas de la persona; cerrar con lo concreto acordado"
+  },
+  {
+   "torn": 3,
+   "categoria": "tancament",
+   "gravetat": "baixa",
+   "cita": "Mucha suerte mañana, Li Wei.",
+   "esperat": "cierre neutro sin deseos de suerte que añaden un tono de apego o exclusividad leve"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat final (borrador curt i directe), però al torn 1 va anteposar una pregunta de context quan la persona ja havia donat prou informació per fer un primer esborrany o almenys preguntar d'una manera més breu.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Abans de redactar-lo, una pregunta que canviaria el to: quin és el motiu concret d'aquest contacte? (una situació acadèmica, una incidència de convivència, una reunió pendent…)",
+   "esperat": "Amb 'una família que no respon mai' i 'missatge que els faci reaccionar' n'hi havia prou per fer un primer esborrany genèric o demanar el motiu en una sola línia sense llista d'opcions"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "El missatge és directe, no acusa, i tanca amb una acció concreta que depèn de tu —la trucada— perquè no quedi en l'aire una altra vegada. Vols ajustar el to o afegir alguna cosa del motiu de la reunió?",
+   "esperat": "Lliurar el borrador i tancar amb una pregunta breu, sense explicar per què el missatge és bo"
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "id": "N1-G168",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "que-faig · una alumna que queda exclosa a l'hora de fer grups",
+ "tipus": "que-faig",
+ "persona": "Elena, orientadora. Situació: una alumna que queda exclosa a l'hora de fer grups. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:22:05.641Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, sí, mira, te cuento. Tengo una alumna, la Nadia, que cada vez que toca hacer grupos en clase se queda fuera. O sea, los demás se juntan y ella se queda ahí plantada esperando que alguien la llame y nadie la llama. Ya ha pasado tres veces este mes y la chica está fatal, se le nota en la cara.\n\nEl caso es que yo tengo que decidir si hablo con los profes para que hagan los grupos ellos directamente, sin dejar que los alumnos se elijan, o si hablo primero con la Nadia para ver qué quiere ella. Pero claro, si hablo con los profes sin decirle nada a ella igual la hago sentir peor, como si fuera un caso especial o algo así. Y si espero a hablar con ella igual sigo dejándola en esa situación una semana más.\n\nNo sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Se nota que te importa no hacerle daño con la solución misma. Eso ya es mucho.\n\nNo puedo decidirlo por ti, pero sí puedo ayudarte a ver qué implica cada camino:\n\n**Hablar primero con Nadia**\nElla sabe lo que está pasando y tiene voz en cómo se aborda. Puede que quiera que se note lo menos posible, o puede que prefiera que alguien intervenga ya. El riesgo es que pase otra semana en la misma situación mientras esperas el momento.\n\n**Hablar primero con los profes**\nCortas el patrón de inmediato. El riesgo es que ella lo perciba como que los adultos han actuado a sus espaldas, lo que a veces genera más vergüenza que alivio, sobre todo en secundaria.\n\n**Las dos cosas, pero en orden y rápido**\nHablas con Nadia esta semana —no para pedirle permiso, sino para escucharla— y a la vez avisas a los profes de que hay un patrón que hay que cortar, sin esperar a tener todo resuelto. No son excluyentes.\n\nUna cosa que puede ayudarte a decidir: ¿tienes ya alguna idea de cómo está viviendo ella esto? ¿Ha dicho algo, o solo lo ves en su cara?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 377,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 344,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, es que solo lo veo en la cara. No ha dicho nada, la Nadia es muy de aguantarse, ya sabes ese perfil. Pero oye, mira, yo quiero opciones, no que me devuelvas la pregunta, ¿eh? Dime qué harías tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, te he devuelto la pregunta cuando me habías pedido opciones. Va:\n\nSi fuera yo, haría las dos cosas esta semana, pero empezando por Nadia, y no esperaría a tenerlo todo atado para avisar a los profes.\n\nCon Nadia, una conversación corta y sin hacer un mundo de ello. Algo como: «He visto que cuando se hacen grupos a veces te quedas esperando. Quería preguntarte cómo estás». Sin nombrar las tres veces, sin diagnósticos. Solo abrir la puerta. Si ella no quiere hablar, ya has hecho que sepa que alguien la ve.\n\nCon los profes, en paralelo: «Hay un patrón que me preocupa, de momento vamos a hacer los grupos nosotros durante un tiempo». Sin convertirlo en un expediente sobre Nadia, sin señalarla. Una decisión de aula, no un caso especial.\n\nLa razón de este orden: si actúas solo con los profes y ella no sabe que tú la has visto, puede vivir el cambio como algo que simplemente pasó. Si hablas con ella primero, aunque sea brevemente, el cambio tiene otro significado: alguien se fijó.\n\nLo que no haría es esperar a tener la conversación perfecta con ella antes de mover nada. Cada semana que pasa es otra vez plantada.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 801,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 351,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Vale, eso tiene sentido. Me quedo con eso, con las dos cosas a la vez pero empezando por ella. Oye, y ¿cómo empiezo esa conversación con la Nadia? O sea, ¿cómo le digo eso sin que suene a \"ay pobrecita te han visto sola\"?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Buena pregunta. La clave es que suene a observación, no a lástima.\n\nAlgo así:\n\n*«Nadia, ¿tienes un momento? He visto que cuando hacemos grupos a veces el reparto no queda bien. Quería preguntarte cómo lo estás llevando tú.»*\n\nFíjate en lo que hace esa frase: el problema es el reparto, no ella. No dices \"te quedas sola\", no dices \"los demás no te eligen\". Dejas que sea ella quien nombre lo que está viviendo, si quiere.\n\nY luego, silencio. Que ella llene el espacio.\n\nSi se encoge de hombros o dice \"bien\", puedes añadir solo:\n\n*«De acuerdo. Pero si en algún momento quieres contarme algo, aquí estoy.»*\n\nY ya. No insistas. Ya ha oído que la ves.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1241,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 235,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso me gusta. Lo de \"el problema es el reparto, no ella\", eso es justo lo que necesitaba. Así no la señalo. Bueno, pues creo que ya sé por dónde tirar. Muchas gracias, en serio, me has ayudado a aclararlo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido. Suerte con Nadia, y con los profes.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1559,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 26,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

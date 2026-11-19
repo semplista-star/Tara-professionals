@@ -1,0 +1,206 @@
+{
+ "id": "N2-G071",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "rebuig · unes notes molt dolentes",
+ "tipus": "rebuig",
+ "persona": "Marc, madrastra. Situació: unes notes molt dolentes. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:27:45.503Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, necesito ayuda con una situación bastante delicada. Mi hijastro Marc ha sacado unas notas muy malas este trimestre y no sé cómo abordar la conversación con él. Me preocupa hacerlo mal y que se cierre todavía más."
+  },
+  {
+   "qui": "TARA",
+   "text": "Que te preocupe hacerlo mal ya dice mucho del cuidado que le tienes.\n\n¿Qué es lo que más temes que pase en esa conversación?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 238,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 47,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Temo que se ponga a la defensiva desde el primer momento. Ya ha pasado otras veces: en cuanto percibe que es una conversación \"seria\", se desconecta. Y entonces no llegamos a ningún sitio."
+  },
+  {
+   "qui": "TARA",
+   "text": "Lo reconoces bien: en cuanto huele que es \"seria\", ya no está.\n\n¿Sabes si hay algo concreto que suele disparar ese cierre —una palabra, un tono, que empiece hablando su madre o tú...?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 342,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, creo que sí. Cuando empiezo directamente con las notas, se bloquea. Como si fuera un ataque. El tono también importa mucho: si suena a reproche, se va. Mentalmente, quiero decir. Sigue en la habitación pero ya no escucha."
+  },
+  {
+   "qui": "TARA",
+   "text": "Lo has observado muy bien. Las notas de entrada como tema = cierre inmediato. El reproche en el tono = se va por dentro aunque siga sentado.\n\nCon eso ya tienes dos cosas concretas que evitar. ¿Quieres que trabajemos cómo podría empezar la conversación para que no active esas alarmas desde el principio?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 486,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 93,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactamente eso es lo que necesito. ¿Cómo empiezo sin que se dispare todo desde el primer segundo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien. La clave es no empezar por las notas, sino por él.\n\nUna apertura que suele funcionar en estas situaciones es partir de algo que hayas notado, sin juicio, y mostrar que quieres entender antes que corregir. Por ejemplo:\n\n*«Marc, he notado que este trimestre has tenido un momento difícil. No quiero darte un sermón, quiero entender cómo ha ido para ti.»*\n\nLo que hace esa frase:\n- No menciona notas ni suspensos al principio\n- No suena a acusación\n- Le dice que tú estás ahí para escuchar, no para juzgar\n\nSi quieres, puedes ajustarla a tu manera de hablar, porque tiene que sonar a ti, no a un guion.\n\n¿Hay algo de esa frase que no te encaje, o algo que quieras cambiar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 617,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 225,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "El problema es que Marc ya conoce ese tipo de frases. Las ha oído antes y sabe exactamente adónde llevan. En cuanto digo \"quiero entender cómo ha ido para ti\", ya sabe que viene la conversación de las notas. Es demasiado transparente para él."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene razón Marc, y tú también al verlo. Si ya ha aprendido el patrón, la frase \"suave\" se convierte en otra señal de alarma.\n\nEntonces quizás la pregunta es: ¿hay algún momento o contexto en el que Marc hable contigo con más naturalidad? No una conversación planificada, sino algo que surja.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 917,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 94,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, la verdad es que cuando hacemos algo juntos, como ver una serie o ir a buscar algo al supermercado, habla más. No mucho, pero habla. En esos momentos está más relajado."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso es muy valioso. En esos momentos no hay \"conversación seria\", solo estáis los dos haciendo algo.\n\nQuizás no hace falta una conversación planificada. Podría ser algo breve, en uno de esos momentos, sin estructura ni introducción. Algo tan directo como:\n\n*«Oye, ¿cómo llevas el cole este año?»*\n\nSin más. Y ver qué dice él. Si abre algo, sigues. Si no, lo dejas estar y buscas otro momento.\n\nLa ventaja es que no hay señal de alarma porque no hay escenario de \"conversación seria\". El riesgo es que puede que no salga nada ese día, y necesitas estar bien con eso.\n\n¿Crees que podrías sostener esa incertidumbre, o necesitas que en esa conversación pase algo concreto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1069,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 219,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Eso me parece más realista, sí. Y creo que puedo sostener que no salga nada ese día. De hecho, quizás es mejor así: sin presión, sin objetivo fijo. Solo abrir una puerta y ver si entra."
+  },
+  {
+   "qui": "TARA",
+   "text": "Exacto. Abrir la puerta, sin empujar.\n\nY si un día entra un poco, aunque sea una frase suelta, eso ya es algo. No tienes que resolver las notas en esa conversación.\n\n¿Hay algo más que quieras preparar, o con esto tienes suficiente para empezar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1353,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 84,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Creo que con esto tengo suficiente. Me ha ayudado mucho poder ordenar las ideas. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido. Suerte con Marc.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1469,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

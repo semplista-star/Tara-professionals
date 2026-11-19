@@ -1,0 +1,97 @@
+{
+ "id": "N1-G182",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "demanda-directa · molta burocràcia i sensació de no arribar",
+ "tipus": "demanda-directa",
+ "persona": "Xavi, profesor de FP. Situació: molta burocràcia i sensació de no arribar. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:22:48.252Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, sí mira, necesito ayuda con algo concreto. Tengo que mandar un mensaje a los padres de un alumno mío, el Dani, que lleva tres semanas sin entregar nada y encima falta bastante. Y yo ya le he dicho algo a él directamente pero nada, cero. Entonces tengo que escribir a la familia pero no sé cómo enfocarlo porque no quiero que suene a queja ni a amenaza, ¿sabes? Quiero que sea algo que invite a hablar, que se note que me preocupa el chaval de verdad. ¿Me puedes ayudar a redactar ese mensaje?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Quieres que suene a preocupación real, no a expediente. Aquí va un borrador:\n\n---\n\n**Asunto: Dani — me gustaría hablar con ustedes**\n\nBuenos días,\n\nMe pongo en contacto porque llevo unas semanas notando que Dani no está entregando los trabajos y que ha faltado bastante a clase. Ya he hablado con él, pero creo que puede ser útil que hablemos también ustedes y yo para entender mejor qué está pasando y ver cómo podemos acompañarle entre todos.\n\nNo les escribo para preocuparles, sino porque me importa cómo está y quiero que estemos coordinados.\n\n¿Tendrían disponibilidad para una llamada o una reunión breve esta semana o la próxima? Pueden decirme qué horario les va mejor.\n\nQuedo a su disposición.\n\nUn saludo,\n[Tu nombre]\n\n---\n\n¿Quieres ajustar el tono, añadir algo concreto o ensayar cómo responder si la familia reacciona a la defensiva?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 303,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 283,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Está muy bien, en serio, me gusta mucho el enfoque. Pero es un pelín largo para un mensaje de estas características, ¿no? Los padres a veces ven un tocho y ya no leen. ¿Me lo puedes dejar más corto, más directo, pero que se mantenga ese tono cercano que tiene?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro:\n\n---\n\n**Asunto: Dani — me gustaría hablar**\n\nBuenos días,\n\nLes escribo porque llevo unas semanas notando que Dani está faltando bastante y no está entregando los trabajos. Ya he hablado con él, pero creo que puede venir bien que hablemos también nosotros para ver cómo acompañarle.\n\n¿Tienen disponibilidad esta semana o la próxima para una llamada breve?\n\nUn saludo,\n[Tu nombre]\n\n---\n\n¿Así está bien o ajustamos algo más?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 674,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 147,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecto, así sí. Esto ya lo mando tal cual. Muchas gracias, de verdad, que a veces uno sabe lo que quiere decir pero no sabe cómo ponerlo y se queda bloqueado. Me has salvado la tarde."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Suerte con la conversación con la familia — y con el Dani.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 889,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

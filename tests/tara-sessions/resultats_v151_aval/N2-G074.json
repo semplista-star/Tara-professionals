@@ -1,0 +1,34 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre correctament el que la persona necessitava en cada moment: primer aclarir la privacitat, després escoltar el context, i finalment lliurar eines concretes per a un moment de crisi.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que estés hasta las narices.",
+   "esperat": "Reflectir el que ha dit sense validar amb fórmula; per exemple: 'Llegar ya oyendo gritos y saber que toca entrar a apagar el fuego otra vez.'"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Qué suele pasar cuando entras? ¿Cómo acabas tú en esas situaciones?",
+   "esperat": "La persona ja havia descrit prou el context; una sola pregunta o cap hauria estat suficient per avançar cap a l'ajuda concreta que acabarà demanant."
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Aquí van tres opciones. Ninguna es mágica, pero pueden ayudarte a no entrar en el remolino: [tres blocs amb negreta i explicació extensa]",
+   "esperat": "La persona demanava 'algo concreto'; dues opcions breus i directes haurien estat suficients i més proporcionals al to de la conversa."
+  }
+ ]
+}

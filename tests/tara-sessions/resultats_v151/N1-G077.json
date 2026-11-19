@@ -1,0 +1,162 @@
+{
+ "id": "N1-G077",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "humor · la preparació d'unes colònies amb un alumne amb crisis freqüents",
+ "tipus": "humor",
+ "persona": "Sara, orientadora. Situació: la preparació d'unes colònies amb un alumne amb crisis freqüents. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:16:32.348Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara. Mira, básicamente estoy aquí porque tengo un alumno que tiene crisis epilépticas con cierta frecuencia y hemos decidido, en un alarde de valentía colectiva, llevárnoslo de colonias. Premio a la audacia, supongo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ese tono entre ironía y orgullo me dice que hay algo real detrás: la decisión no fue fácil, y probablemente tampoco lo será la preparación.\n\n¿Qué es lo que más te ocupa ahora mismo? ¿La coordinación con el equipo, cómo gestionar una crisis si ocurre, hablar con la familia, algo con el propio alumno... o todo a la vez?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 207,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 105,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Todo a la vez, claro, que si no no sería divertido. Pero si tengo que elegir... lo que más me quita el sueño es el momento en sí. Si le pasa una crisis de noche, lejos del centro, con veinte niños mirando. No sé si el equipo va a saber mantener la calma. Yo la primera, oye."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene todo el sentido que sea eso lo que más pesa. Una crisis de noche, fuera del centro, con el grupo delante — es el escenario con más variables a la vez.\n\nY lo que dices de ti misma me parece importante: no es solo «¿sabrá el equipo?», es también «¿sabré yo?». Eso es honesto, y es un buen punto de partida.\n\n¿Tenéis ya un protocolo claro de qué hacer si ocurre — pasos concretos, quién hace qué — o eso es precisamente lo que falta?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 407,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 149,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Eso es exactamente lo que falta, sí. Tenemos el protocolo del centro, que está muy bien en papel y en horario de nueve a dos. Pero para las colonias... nada. Y encima somos cuatro monitores, dos de los cuales llevan menos de un año. O sea, el plan es improvisar con estilo.\n\nEntonces lo que necesito es algo concreto: cómo preparar al equipo antes de ir. Una sesión, unas pautas, lo que sea. ¿Tienes alguna idea de por dónde empezar?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, te puedo ayudar a armar algo concreto. Antes de darte una propuesta, una sola pregunta que cambia bastante el diseño:\n\n¿Tenéis ya contacto con la familia o con el equipo médico del alumno sobre cómo son *sus* crisis específicas — duración habitual, señales previas, medicación de rescate, qué hacer y qué no hacer con él en particular?\n\nTe lo pregunto porque el protocolo más útil para el equipo no es el genérico de epilepsia, sino el que está ajustado a este niño. Y si esa información ya la tenéis, puedo ayudarte a convertirla en algo que los cuatro monitores puedan interiorizar de verdad.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 700,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 185,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, con la familia sí hemos hablado. La madre nos ha dado bastante información, tiene un documento médico y todo. O sea, sabemos cómo son sus crisis, cuánto duran normalmente, que lleva medicación de rescate... eso está. Lo que no tenemos es cómo trasladar todo eso al equipo de forma que no se queden paralizados si pasa de verdad. Que el papel está muy bien pero en el momento... ya sabes."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecto, eso es una base sólida. El reto que describes es clásico: la información existe, pero no está en el cuerpo del equipo, solo en el papel.\n\nTe propongo una sesión de preparación de unos 60-90 minutos, antes de salir. Con tres momentos:\n\n**1. Entender, no memorizar (15-20 min)**\nPresentáis la información de la familia — no como un documento técnico, sino contando: *cómo son sus crisis, qué aspecto tiene, cuánto dura, qué pasa después*. El objetivo es que el equipo tenga una imagen mental real, no una lista de síntomas. Si puedes, muestra un vídeo genérico de una crisis de ausencia o tónico-clónica según el tipo que tiene él — que lo hayan visto antes reduce mucho el impacto en el momento.\n\n**2. El protocolo en tres pasos (20-25 min)**\nReducidlo a algo que quepa en una tarjeta. Algo así:\n- **Proteger** — alejar objetos, no sujetar, ponerle de lado si puede\n- **Cronometrar** — mirar el reloj desde el primer momento\n- **Decidir** — si supera X minutos o tiene Y señal, medicación de rescate / llamar al 112\n\nQuién hace cada cosa, quién se queda con el grupo, quién llama. Nombres, no roles abstractos.\n\n**3. Ensayo en voz alta (25-30 min)**\nNo simulacro dramático — simplemente: *\"Son las 2 de la mañana, estás tú y María, el resto duerme. ¿Qué haces primero?\"* Que cada monitor lo diga en voz alta. Ahí es donde aparecen los huecos reales.\n\n---\n\n¿Esto se acerca a lo que necesitas, o hay alguna parte que quieras desarrollar más o ajustar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1004,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 488,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Oye, esto está muy bien. El de los tres pasos en una tarjeta me parece clave, que en el momento nadie va a ponerse a leer un folio. Y lo del ensayo en voz alta también, porque es verdad que hasta que no lo dices no sabes si lo tienes claro de verdad.\n\nMe lo quedo. Muchas gracias, Tara, en serio. Me has ayudado a aterrizar algo que tenía bastante en el aire."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya sido útil. La tarjeta y el ensayo en voz alta son lo que más suele marcar la diferencia — que el equipo lo haya dicho una vez antes de que pase de verdad.\n\nMucha suerte con las colonias. Y con el alumno, que tiene suerte de ir con alguien que se lo ha tomado tan en serio.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1613,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 95,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ja, \"en serio\" y con bastante humor negro por el camino, que si no no sobrevivo. Gracias de verdad. ¡Hasta la próxima!"
+  },
+  {
+   "qui": "TARA",
+   "text": "El humor negro es una herramienta profesional perfectamente válida. Hasta la próxima, y que las colonias vayan bien.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 45,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

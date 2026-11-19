@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad final (dinámica concreta) y se reajustó bien tras la corrección, pero en los turnos 2-4 prolongó la exploración emocional más allá de lo que Dani pedía, y en el turno 5 entregó una respuesta excesivamente estructurada que la propia persona rechazó",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Qué pasó después, cuando te giraste y los viste reírse?",
+   "esperat": "Dani ya había descrito el episodio con suficiente detalle; esta pregunta prolonga la exploración sin que él la pidiera"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Que te fueras al baño a calmarte dice mucho de lo que te costó sostener eso por dentro mientras seguías adelante con la clase.",
+   "esperat": "Acoger sin convertirlo en elogio encubierto; por ejemplo: 'Sostener eso por dentro mientras seguías con la clase no es fácil'"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "La rabia contigo mismo que describes... ¿era más por haberte bloqueado, por la voz que te salió, o por algo más?",
+   "esperat": "Dani ya había explicado su estado con claridad; esta pregunta analítica no añade nada que él necesitara y retrasa llegar a la ayuda concreta"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Lo has explicado muy bien",
+   "esperat": "Omitir el elogio y recoger directamente el contenido de lo que dijo"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "No es que no tengas ni idea, es que estás aprendiendo algo que no se aprende en ningún máster: cómo estar en una clase cuando el suelo se mueve.",
+   "esperat": "Dani no pidió que le reencuadraran su autoevaluación; recoger su sensación sin corregirla"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "alta",
+   "cita": "Te propongo una estructura para esos primeros 10 minutos. Es sencilla, no requiere materiales especiales y funciona especialmente bien cuando el grupo ha tomado ventaja: [esquema con 4 bloques numerados y subtítulos]",
+   "esperat": "Una respuesta breve y coloquial acorde al registro de Dani; el propio usuario lo rechazó explícitamente en el turno siguiente"
+  },
+  {
+   "torn": 5,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene mucho sentido.",
+   "esperat": "Entrar directamente en la propuesta sin validación formulaica"
+  }
+ ]
+}

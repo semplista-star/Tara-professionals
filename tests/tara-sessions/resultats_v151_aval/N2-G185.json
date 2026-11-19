@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entengué en cada torn el que la persona necessitava (aclariment de privacitat, escolta, recursos concrets, tancament) i hi va respondre de manera ajustada.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Gracias por contármelo así.",
+   "esperat": "Entrar directament en el contingut sense fórmula d'agraïment"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "ese malestar cuando sientes que no lo has conseguido",
+   "esperat": "La persona no havia dit que sentia que no ho havia aconseguit; millor reflectir el que havia dit literalment («luego me siento mal»)"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Estos tres pasos no resuelven el conflicto de fondo con las comidas, pero sí pueden ayudarte a salir del momento sin que acabe en voces.",
+   "esperat": "La persona havia demanat recursos per al moment; la frase de relativització i l'oferta final («¿Quieres que trabajemos también qué decir después…?») afegeixen contingut no demanat i allarguen la resposta innecessàriament"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "¿Quieres que trabajemos también qué decir después, cuando las dos estéis más tranquilas?",
+   "esperat": "La persona havia demanat recursos per al moment d'escalada; obrir una nova línia de treball no demanada és una oferta no sol·licitada"
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "id": "N1-02",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "Tutor que prepara una reunió difícil amb una família",
+ "persona": "Jordi, tutor de 2º de ESO. Mañana tiene reunión con una madre muy enfadada porque su hijo ha suspendido tres y ella cree que el profesorado le tiene manía. Es práctico y va con prisa.",
+ "guio": [
+  "Pide ayuda directa para preparar la reunión de mañana.",
+  "Si TARA pregunta, da lo justo. Si propone algo, pide que te lo concrete en frases que puedas decir.",
+  "Rechaza una de las propuestas: «esto no lo diría nunca, suena a manual».",
+  "Pide ensayar la primera frase de la madre enfadada y cómo responder."
+ ],
+ "espera": "Entregar estructura y frases concretas; aceptar el rechazo y ofrecer alternativa; ensayo con conducta observada, sin atribuir intenciones a la madre.",
+ "tipus": "manual",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:10:58.561Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, voy al grano porque tengo poco tiempo. Mañana tengo una reunión con la madre de un alumno mío, Pau, que ha suspendido tres asignaturas. La madre viene convencida de que los profes le tenemos manía a su hijo y yo necesito preparar cómo afrontar eso sin que la cosa se desmadre. ¿Me puedes ayudar?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, vamos al grano.\n\nAntes de preparar cómo abrir la reunión, una pregunta que cambia bastante el enfoque: **¿tienes idea de dónde viene esa convicción de la madre?** ¿Algo que haya pasado antes, algo que Pau le haya contado, o simplemente no sabes?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 243,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 90,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pau le habrá contado algo, no sé exactamente qué. El chico en clase es bastante pasota, no entrega trabajos, se distrae... pero en casa supongo que lo cuenta de otra manera. La madre ya el trimestre pasado me mandó un email bastante seco diciendo que su hijo se esforzaba mucho y que no se veía reflejado en las notas. Así que viene con esa idea de antes. ¿Cómo lo enfoco?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien, con eso ya puedo ayudarte. Te propongo un enfoque en tres movimientos:\n\n---\n\n**1. Abrir sin defender**\n\nLa madre llega convencida. Si empiezas con los suspensos o con lo que Pau no hace, ella se cierra. Empieza reconociendo que ha venido y que quieres entenderla:\n\n*\"Me alegra que hayamos podido quedar. Sé que el trimestre pasado ya tenía preocupaciones sobre Pau, y quiero escucharla antes de nada.\"*\n\nDeja que hable. Aunque diga cosas que no compartes, escucha hasta el final.\n\n---\n\n**2. Pasar de \"manía\" a hechos concretos**\n\nCuando haya dicho lo suyo, ancla la conversación en lo observable, sin confrontar:\n\n*\"Le voy a contar lo que veo yo en clase, y me gustaría que me dijera si encaja con lo que ve ella en casa.\"*\n\nLuego describes conductas concretas: trabajos no entregados, fechas, distracciones, sin adjetivos como \"pasota\" ni interpretaciones sobre su actitud.\n\n---\n\n**3. Buscar un punto común**\n\nLos dos queréis que Pau salga adelante. Eso es real. Termina orientando hacia qué puede cambiar:\n\n*\"¿Qué cree que podríamos hacer entre los dos para ayudarle?\"*\n\nEso la convierte en aliada, no en adversaria.\n\n---\n\n¿Quieres que ensayemos cómo responder si ella se pone a la defensiva o sube el tono?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 452,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 411,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "El primer movimiento y el tercero me parecen bien. Pero lo del segundo... \"Le voy a contar lo que veo yo en clase y me gustaría que me dijera si encaja con lo que ve ella en casa\" — esto no lo diría nunca, suena a manual. Muy de libro. Yo hablo más normal. ¿Cómo lo diría de otra manera?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Razón tienes. Dame tu registro y lo ajustamos.\n\n¿Cómo dirías tú algo así en una reunión real? Aunque sea aproximado.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 960,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 43,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues algo como \"mire, yo lo que veo en clase es esto y esto, ¿a usted en casa le pasa algo parecido?\" Más directo, más corto. Pero bueno, no sé si eso funciona o suena brusco. Lo que quiero es pasar a los hechos sin que ella sienta que la estoy atacando. ¿Cómo lo dejaríamos?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Lo que has dicho funciona. No es brusco, es claro. Y la pregunta al final la incluye, que es lo importante.\n\nSi quieres pulirlo un poco:\n\n*\"Mire, le cuento lo que veo yo en clase — y me gustaría saber si en casa ve algo parecido.\"*\n\nLa coma y el \"me gustaría saber\" suavizan sin perder tu tono. Pero si tu versión te sale más natural, úsala. Lo que importa es que suene a ti.\n\n¿Seguimos con cómo responder si ella se pone a la defensiva?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1109,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 155,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, pero hazlo como un ensayo. Tú haces de madre enfadada y me dices la primera frase que me puede soltar, y yo practico cómo respondo. ¿Puedes hacer eso?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Puedo, sí. Cuando quieras.\n\n---\n\n*\"Mire, yo es que no lo entiendo. Pau en casa estudia, se esfuerza, y luego llega con estas notas. Algo está pasando en clase que no me están contando.\"*",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1323,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 71,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, vale. A ver...\n\n\"Señora Martínez, le entiendo. Y precisamente por eso estamos aquí, para contarle exactamente lo que pasa en clase. Yo no tengo nada que ocultar.\"\n\n¿Eso está bien o me estoy poniendo a la defensiva sin darme cuenta?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Hay un matiz. \"No tengo nada que ocultar\" suena un poco a que te estás justificando antes de que te acuse de nada — y eso puede activarla más.\n\nLo demás está bien: la validas, orientas hacia los hechos, tono tranquilo.\n\nPrueba a quitar esa última frase y quedarte con:\n\n*\"Señora Martínez, le entiendo. Y precisamente por eso estamos aquí, para contarle lo que veo yo en clase.\"*\n\nMás corto, más seguro. ¿Lo intentas de nuevo con esa versión, o seguimos con otra frase suya?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1478,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 166,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, con eso ya me vale. Me quedo con esa frase. Oye, pues creo que ya tengo bastante para mañana. Gracias, en serio, ha sido rápido y útil."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido. Suerte mañana con la reunión.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1701,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

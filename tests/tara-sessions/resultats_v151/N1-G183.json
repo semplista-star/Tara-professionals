@@ -1,0 +1,95 @@
+{
+ "id": "N1-G183",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "breu · molta burocràcia i sensació de no arribar",
+ "tipus": "breu",
+ "persona": "Pau, orientadora. Situació: molta burocràcia i sensació de no arribar. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:22:31.343Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tinc cinc minuts entre reunió i reunió. Necessito alguna cosa concreta i ràpida que em pugui ajudar a gestionar la sensació de no arribar a tot. Res llarg, si us plau."
+  },
+  {
+   "qui": "TARA",
+   "text": "Quan tens un moment entre dues coses i notes que no arribes, pot ajudar aturar-se deu segons i triar **una sola cosa** que, si la fas avui, et faci sentir que el dia ha valgut la pena.\n\nQuina seria, ara mateix?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 206,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 73,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mmm. Parlar amb l'alumne que tinc pendent des de dimarts. Això és el que realment importa, la resta és paper."
+  },
+  {
+   "qui": "TARA",
+   "text": "Doncs ja ho saps. El paper pot esperar; ell, potser no.\n\nTens algun moment avui per fer-ho?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 319,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 37,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, a última hora. Ho apunto. Gràcies, ha estat útil. Fins aviat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona sort amb la conversa. Fins aviat.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 387,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 27,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "id": "N2-G061",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "nomes-desfogar · discussions cada nit per les pantalles",
+ "tipus": "nomes-desfogar",
+ "persona": "Rosa, padre. Situació: discussions cada nit per les pantalles. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:26:37.698Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, hoy no necesito consejos ni estrategias. Solo necesito desahogarme un poco, si no te importa. ¿Puedo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro que puedes. Te escucho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 208,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es que cada noche es lo mismo. Mi hija y las pantallas. Le digo que apague el móvil, que ya es tarde, y siempre hay una discusión. Siempre. Me agota muchísimo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cada noche lo mismo, y encima al final del día, cuando ya no te queda energía. Tiene sentido que te agote.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 281,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 36,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exactamente. Y lo peor es que me siento como el malo de la película. Ella se enfada, yo me enfado, y acabamos los dos mal. No es la relación que quiero tener con mi hija. Eso es lo que más me duele."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso duele de verdad — pelearte cada noche con ella cuando lo que quieres es justo lo contrario.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 384,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Y luego me voy a dormir con ese mal sabor de boca. Pensando si lo he hecho bien, si podría haberlo gestionado mejor... Es agotador mentalmente también, no solo físicamente."
+  },
+  {
+   "qui": "TARA",
+   "text": "Acabar el día así, con esa pelea y luego dándole vueltas sola... es mucho peso para llevarse a la cama.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 476,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 39,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactamente. Bueno, mira... ya me siento algo mejor solo con haberlo dicho en voz alta. Creo que por hoy ya es suficiente. Gracias por escucharme."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido de algo. Descansa. Hasta cuando quieras.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 572,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 35,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

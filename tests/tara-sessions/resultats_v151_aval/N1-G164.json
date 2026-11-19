@@ -1,0 +1,55 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió correctamente en cada turno lo que Sara necesitaba: primero clarificar el peso, luego ver implicaciones, luego opciones concretas, luego pasos de ejecución, y cerró cuando tocó.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Perdiendo el curso, y tú estás en medio de todo.",
+   "esperat": "No completar la frase de la persona ni atribuirle una situación que ella no había terminado de formular; esperar a que acabara o preguntar qué quería decir"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "ya está muy frágil",
+   "esperat": "Describir el riesgo sin atribuir un estado interno a Adrián como hecho («puede vivirlo como un golpe más» sería suficiente sin «ya está muy frágil»)"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Ha habido algún momento de contacto real?",
+   "esperat": "Sara había pedido opciones concretas implícitamente; la pregunta retrasa la ayuda y añade un turno innecesario antes de dar lo que la persona necesitaba"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Ese \"regular\" es importante. Hay contacto posible.",
+   "esperat": "Omitir la interpretación del estado de Adrián o formularla como hipótesis: «puede que haya apertura»"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "te vas con un orden claro y tuyo, que es lo que importa",
+   "esperat": "Cerrar sin valorar el resultado ni añadir el juicio «que es lo que importa»; un cierre breve y neutro es suficiente"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Llegaste con todo mezclado y te vas con un orden claro y tuyo, que es lo que importa. Mucho ánimo con dirección hoy. Y con Adrián cuando llegue el momento.",
+   "esperat": "Un cierre de una sola frase; los ánimos no pedidos alargan innecesariamente el tancament"
+  }
+ ]
+}

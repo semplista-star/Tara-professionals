@@ -1,0 +1,97 @@
+{
+ "id": "N1-G105",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "que-faig · la preparació d'unes colònies amb un alumne amb crisis freqüents",
+ "tipus": "que-faig",
+ "persona": "Xavi, professora substituta. Situació: la preparació d'unes colònies amb un alumne amb crisis freqüents. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:17:41.180Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, tinc un nen a classe que té crisis epilèptiques bastant seguides i ara hem d'anar de colònies. La tutora titular no hi serà, hi seré jo. I no sé si hauria de parlar amb els pares abans o esperar que ho faci l'escola. No vull trepitjar ningú però tampoc vull arribar allà i no saber res. No sé què fer, digues-m'ho tu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc el neguit — anar de colònies amb un nen amb crisis epilèptiques i sense la tutora titular és una responsabilitat real.\n\nNo et puc dir exactament què has de fer, perquè depèn de com funciona el vostre centre. Però sí que et puc ajudar a pensar-ho.\n\nAquí tens tres opcions concretes:\n\n**1. Parlar primer amb la coordinació o direcció**\nPreguntes si ja hi ha un protocol o pla d'actuació per a aquest nen, i qui és la persona responsable de comunicar-se amb la família. Avantatge: no trepitges ningú i saps on ets. Inconvenient: pot trigar, i potser no queda temps.\n\n**2. Demanar a la tutora titular que et passi la informació**\nElla ja té la relació amb la família i probablement sap el protocol mèdic. Avantatge: és la via natural i no implica contacte directe amb els pares. Inconvenient: depèn que ella estigui disponible i que tingui tot documentat.\n\n**3. Proposar a l'escola que tu siguis present en una conversa amb la família, o que t'informin formalment**\nNo com a iniciativa teva sola, senseó com a necessitat del centre de cara a les colònies. Avantatge: t'assegures la informació de primera mà. Inconvenient: requereix que algú de l'escola ho coordini.\n\n---\n\nEl que sí sembla clar: **necessites saber, com a mínim, quin és el protocol d'actuació davant una crisi, si porta medicació i qui cal avisar**. Això no és opcional.\n\nQuin d'aquests camins et sembla més viable al teu centre?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 254,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 450,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ostres, quina llista. Mira, la tutora titular és la que té més sentit, no? Ella ja coneix la família. Però no sé com dir-li sense que sembli que l'estic acusant de no haver-m'ho explicat abans. Com ho faig?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, té molt de sentit anar per ella.\n\nI el to que busques ja el tens: no és una queixa, és una necessitat pràctica teva de cara a les colònies. Això ho fa fàcil.\n\nPodries dir-li alguna cosa com:\n\n*«Estic preparant les colònies i m'adono que necessito saber com actuar si el [nom] té una crisi. Em pots explicar el protocol que teniu, o hi ha alguna documentació que em pugui passar?»*\n\nDirecte, sense retret, i deixa clar que el que necessites és informació, no una explicació de per què no t'ho havia dit.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 780,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 171,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, així sí. Això sona bé, no sembla que l'estigui atacant. Gràcies, ho provaré."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecte. Sort amb les colònies.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 991,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

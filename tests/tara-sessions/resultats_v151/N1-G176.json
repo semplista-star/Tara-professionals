@@ -1,0 +1,95 @@
+{
+ "id": "N1-G176",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "breu · una família que no respon mai als missatges",
+ "tipus": "breu",
+ "persona": "Dolors, coordinador de convivencia. Situació: una família que no respon mai als missatges. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:22:16.472Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, perdona que vaya tan directo pero es que tengo una reunión en diez minutos... necesito solo una cosa rápida. Tengo una familia que nunca contesta los mensajes y no sé cómo escribirles para que esta vez sí respondan. ¿Me puedes ayudar con eso?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, vamos al grano.\n\n¿Qué necesitas que pase en esa reunión, o qué quieres pedirles concretamente? Con eso te escribo el mensaje ahora.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 218,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 54,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, perdona, me he explicado mal... no es para una reunión, es que quiero citarles para hablar de su hijo. Llevan semanas sin contestar y necesito que vengan al centro. Eso es todo, lo siento."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sin problema. Aquí tienes:\n\n---\n\n**Asunto: Cita para hablar de [nombre del alumno]**\n\nEstimada familia:\n\nMe gustaría poder reunirme con ustedes para hablar de [nombre]. ¿Podrían decirme qué días y horarios les vienen mejor esta semana o la próxima?\n\nQuedo a su disposición.\n\n[Tu nombre]\n[Centro / cargo / teléfono]\n\n---\n\nBreve, sin presión, con una pregunta concreta que facilita que respondan. Si quieres añadir algo o ajustar el tono, dime.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 335,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 156,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecto, muchas gracias, es justo lo que necesitaba. Me voy corriendo, perdona. ¡Hasta otra!"
+  },
+  {
+   "qui": "TARA",
+   "text": "¡Suerte en la reunión! Hasta otra.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 528,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "id": "N1-G129",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "que-faig · una alumna que queda exclosa a l'hora de fer grups",
+ "tipus": "que-faig",
+ "persona": "Li Wei, orientadora. Situació: una alumna que queda exclosa a l'hora de fer grups. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:19:25.998Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, sí... bueno, es que tengo una situación con una alumna y no sé muy bien cómo actuar. Perdona si me explico mal.\n\nEs que hay una chica en clase que siempre se queda fuera cuando hacen grupos. Los demás no la incluyen, y ella se queda sola. Y yo lo veo, claro, pero no sé si intervenir directamente o dejar que lo resuelvan ellos... no quiero meter la pata, ¿sabes? A veces pienso que si intervengo lo empeoro, pero si no hago nada tampoco está bien.\n\nNo sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Lo que describes —verla quedarse sola una y otra vez— es incómodo de sostener, y tiene sentido que quieras hacer algo pero no sepas exactamente qué.\n\nTe ofrezco tres opciones con lo que implica cada una:\n\n**1. Intervenir en la estructura, no en el conflicto**\nCambias cómo se forman los grupos (asignación por lista, roles rotativos, grupos fijos durante un tiempo) sin señalar a nadie. Reduce la exclusión sin exponer a la alumna ni generar reacción del grupo hacia ella. Es discreta y sostenible, pero no aborda lo que ya ha pasado.\n\n**2. Hablar con ella primero, en privado**\nLe preguntas cómo está viviendo ella la situación, sin asumir que lo pasa mal de una manera concreta. Eso te da información real antes de actuar, y ella siente que alguien la ve. El riesgo es que si no va seguido de algo, puede quedarse en nada.\n\n**3. Trabajar la dinámica de grupo con toda la clase**\nUna actividad de tutoría sobre pertenencia, roles en el grupo, cómo se siente quedar fuera... sin nombrar a nadie. Mueve algo en el grupo sin señalar. Requiere más preparación y no tiene efecto inmediato.\n\nEstas opciones no se excluyen —muchas veces la primera va bien como medida inmediata mientras preparas algo más de fondo.\n\n¿Alguna de estas encaja con lo que tienes posibilidad de hacer ahora mismo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 304,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 388,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uy, gracias, esto está muy bien explicado... perdona que antes no me explicara mejor yo.\n\nA ver, creo que la primera opción me parece la más fácil de hacer sin liarla, ¿no? Lo de cambiar cómo se forman los grupos. Es que me da miedo hacer algo más grande y que salga mal.\n\nPero no sé muy bien cómo empezar. ¿Cómo lo haría exactamente?"
+  },
+  {
+   "qui": "TARA",
+   "text": "No tienes que pedir perdón, te has explicado perfectamente.\n\nPara cambiar la formación de grupos sin que parezca una intervención dirigida a nadie, lo más sencillo es presentarlo como un cambio de metodología normal —algo que haces con todas las clases.\n\n**Algunas formas concretas:**\n\n- **Por lista o número**: \"Vamos a trabajar por orden de lista, grupos de cuatro.\" Simple, neutro, nadie elige.\n- **Roles rotativos**: Cada semana o actividad, los grupos cambian y cada persona tiene un rol (portavoz, secretario, coordinador...). Normaliza que los grupos sean fluidos.\n- **Grupos fijos durante un mes**: Tú los asignas con criterio, los presentas como decisión tuya (\"este trimestre vamos a trabajar así\") y los mantienes el tiempo suficiente para que se creen vínculos mínimos.\n\n**Para empezar mañana mismo**, lo más fácil sería la asignación directa: preparas los grupos en casa con cuidado —colocas a la alumna con compañeros que no sean los que más la excluyen— y lo presentas en clase como algo habitual.\n\nUna frase para introducirlo: *\"A partir de ahora voy a asignar yo los grupos para que trabajemos con personas distintas. Es algo que quiero probar esta temporada.\"*\n\n¿Tienes ya en mente con qué compañeros podría estar ella más cómoda, o eso es lo que no tienes claro?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 808,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 379,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, creo que sí tengo más o menos claro con quién podría estar mejor... hay un par de chicos que son bastante tranquilos y no creo que la excluyan.\n\nPues nada, voy a intentarlo así. Lo de asignar yo los grupos y presentarlo como algo normal. A ver si funciona, ¿no? Perdona, es que siempre dudo de todo...\n\nNo tienes que disculparte por dudar — dudar significa que te importa hacerlo bien, y eso ya dice mucho de ti como orientadora.\n\nTienes un plan concreto, tienes criterio para colocarla, y tienes una frase para presentarlo. Es suficiente para empezar.\n\nSi ves que algo no funciona o necesitas pensar el siguiente paso, aquí estaré.\n\nMucha suerte mañana, Li Wei.\n\nGracias, de verdad. Me ha ayudado mucho hablar esto. Hasta luego."
+  },
+  {
+   "qui": "TARA",
+   "text": "Hasta luego. Espero que vaya bien.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1431,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 26,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

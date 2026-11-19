@@ -1,0 +1,96 @@
+{
+ "id": "N2-G016",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "mixta · l'hora d'anar a dormir",
+ "tipus": "mixta",
+ "persona": "Xavi, mare sola amb tres fills. Situació: l'hora d'anar a dormir. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:24:16.642Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, menys mal que existeixes. Estic morta de cansament i necessito que m'ajudis a dir-li al petit, que té 6 anys, per què ha de dormir ja, perquè porto mitja hora amb ell i no hi ha manera, i jo ja no tinc paraules. Pots fer-me un conte curt, de dos minuts, que l'ajudi a entendre que dormir és important i que el deixi tranquil·la d'una vegada?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Mitja hora intentant que s'adormi i sense paraules ja — té molt sentit que estiguis esgotada.\n\nAquí tens el conte:\n\n---\n\n**El país de les estrelles cansades**\n\nCada nit, quan el sol s'amaga, les estrelles surten a fer la seva feina: il·luminar el cel perquè els nens puguin dormir tranquils.\n\nPerò les estrelles també es cansen. I saps què fan quan estan cansades? Tanquen els ullets una estoneta. I mentre dormen, dins seu es prepara una nova llum, més brillant que mai, per a l'endemà.\n\nLes persones som iguals. Quan dormim, el nostre cos fa una cosa màgica: guarda tota l'energia del dia i en fabrica de nova. Energia per córrer, per riure, per aprendre coses increïbles.\n\nSi no dormim... les estrelles s'apaguen una mica. I nosaltres també.\n\nPerò tu, aquesta nit, pots tancar els ulls i deixar que el teu cos faci la seva màgia. Demà, quan et despertes, seràs com una estrella nova.\n\nBona nit.\n\n---\n\nSi vols, pots llegir-lo amb veu molt pausada i baixa — sovint ajuda tant com les paraules.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 284,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 341,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Maco, però és massa llarg, el nen no aguantarà. Pots fer-me'l més curt, com de tres o quatre frases màxim?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar:\n\n---\n\n**L'estrella que dorm**\n\nCada nit, les estrelles tanquen els ulls per carregar-se de llum nova. Les persones fem el mateix: quan dormim, el cos fabrica energia per a demà. Si no dormim, la llum s'apaga una mica. Tanca els ulls i deixa que la màgia comenci.\n\n---",
+   "tags": [],
+   "usage": {
+    "input_tokens": 670,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 100,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, això sí que m'anava bé. Moltes gràcies, ara hi vaig. Bona nit!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona nit! Que us adormin aviat els dos. 😊",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 807,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

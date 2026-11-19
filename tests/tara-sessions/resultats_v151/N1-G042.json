@@ -1,0 +1,73 @@
+{
+ "id": "N1-G042",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "breu · la preparació d'unes colònies amb un alumne amb crisis freqüents",
+ "tipus": "breu",
+ "persona": "Mercè, coordinador de convivència. Situació: la preparació d'unes colònies amb un alumne amb crisis freqüents. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:13:28.256Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, sí, mira, tinc molt poc temps perquè en cinc minuts tinc reunió... Necessito saber una cosa ràpida: si un alumne té crisis freqüents, hi ha alguna cosa concreta que hauria de preparar sí o sí abans de les colònies?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí. El mínim imprescindible abans de les colònies:\n\n1. **Parla amb la família** — que et confirmin per escrit el protocol que segueixen a casa (desencadenants, signes previs, com actuar, medicació si n'hi ha).\n2. **Informa el centre de salut de destí** — o comprova que el monitor/a de lleure o l'equip acompanyant sap on és el centre més proper.\n3. **Designa una persona de referència** — qui actua si hi ha crisi, i qui queda amb la resta del grup.\n4. **Porta la documentació mèdica** — autoritzacions, targeta sanitària, full d'al·lèrgies o medicació.\n\nSi tens orientació o EAP al centre, ells poden tenir un protocol ja fet — val la pena preguntar-los abans de sortir.\n\nBona reunió!",
+   "tags": [],
+   "usage": {
+    "input_tokens": 218,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 229,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, perfecte, gràcies! Perdona que hagi sigut tan ràpid... Ara sí que me'n vaig. Gràcies de veritat!"
+  },
+  {
+   "qui": "TARA",
+   "text": "De res! Bon profit de les colònies. 👋",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 495,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió la demanda central (una frase para las mañanas) y la entregó con ajuste correcto, pero añadió validaciones formulaicas, un elogio automático y una predicción no pedida en el cierre.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Antes de darte una frase, una sola pregunta que me ayuda a afinar: ¿qué edad tienen los niños, más o menos?",
+   "esperat": "La persona ya había descrito suficientemente la situación; TARA podría haber dado una frase adaptable directamente o haber ofrecido dos versiones (pequeño/mayor) sin preguntar, entregando la ayuda en el primer turno como exige el caso de demanda directa."
+  },
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Se entiende que quieras que algo cambie.",
+   "esperat": "Omitir o integrar la validación de forma más natural sin convertirla en fórmula de apertura."
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "tiene todo el sentido que estés agotada",
+   "esperat": "Pasar directamente a la ayuda sin repetir la validación emocional ya hecha en el turno anterior."
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "tiene todo el sentido que estés agotada",
+   "esperat": "Rubén no dijo estar agotada en este turno; TARA atribuye un estado interno no expresado. Podría haber omitido la atribución o reflejado solo lo que la persona dijo."
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Ya verás cómo con esos ojitos del pequeño y la mayor sintiéndose importante, las mañanas van a ir un poquito mejor.",
+   "esperat": "No hacer predicciones sobre el resultado ni proyectar emociones de los niños; cerrar de forma cálida pero sin prometer efectos ni añadir contenido no pedido."
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Ya verás cómo con esos ojitos del pequeño y la mayor sintiéndose importante, las mañanas van a ir un poquito mejor. ¡Ánimo, abuela Rubén!",
+   "esperat": "Un cierre breve y cálido sin añadir predicciones ni ánimos no solicitados; por ejemplo: «Me alegra que te haya servido. Mucha suerte mañana.»"
+  }
+ ]
+}

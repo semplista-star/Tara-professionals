@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la demanda però va retardar l'ajuda concreta amb dues preguntes prèvies i va afegir un esquema no demanat abans de donar el missatge curt que la persona necessitava",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Cuántos años tiene ella?",
+   "esperat": "Amb una nena de 9 anys la pregunta pot ser útil, però la persona havia demanat ajuda directa; TARA podria haver ofert un missatge inicial i preguntat l'edat només si calia ajustar-lo"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Una pregunta más antes de ayudarte a preparar las palabras: ¿sabe ya algo, o va a ser la primera vez que lo escucha?",
+   "esperat": "Dues preguntes seguides retarden l'ajuda demanada; TARA hauria pogut donar ja un primer esborrany i ajustar-lo amb la resposta"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Te propongo un esquema sencillo para esa conversación: Lo que pasó / Lo que no cambia / Lo que no es suyo / Dejarle espacio",
+   "esperat": "La persona no havia demanat un esquema; hauria calgut donar directament el missatge curt o preguntar si volia l'esquema o el text"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿vais a decírselo juntos, tú y su madre, o lo harás tú solo?",
+   "esperat": "Pregunta afegida al final d'una resposta ja llarga; la persona no havia demanat orientació sobre el format de la conversa"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Entonces va a ser una noticia grande para ella. A los 9 años, lo que más necesitan escuchar los niños… [esquema complet + pregunta]",
+   "esperat": "Resposta proporcionada a la demanda: un missatge curt per començar, sense esquema ni explicació pedagògica no sol·licitada"
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "el hecho de que lo estéis preparando juntos ya es un buen comienzo para ella",
+   "esperat": "Tancament breu i càlid sense judici valoratiu sobre la conducta de la persona"
+  }
+ ]
+}

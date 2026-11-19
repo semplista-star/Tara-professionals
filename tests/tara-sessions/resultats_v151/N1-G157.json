@@ -1,0 +1,119 @@
+{
+ "id": "N1-G157",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "mixta · un alumne que diu que vol canviar de grup",
+ "tipus": "mixta",
+ "persona": "Joan, cap d'estudis. Situació: un alumne que diu que vol canviar de grup. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:21:12.908Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bon dia. Miri, estic una mica neguitosa perquè tinc un alumne que insisteix que vol canviar de grup i no sé ben bé com dir-li que no és possible ara mateix sense que s'enfadi. Podria ajudar-me a trobar les paraules adequades per explicar-li-ho?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bon dia. Entenc que vols trobar una manera de dir-li que no és possible ara, sense que es tanqui o s'enfadi.\n\nAbans de proposar-te un text, una pregunta que m'ajudaria: saps per què vol canviar de grup? Perquè si hi ha alguna cosa concreta darrere —una relació difícil, una situació al grup— potser val la pena que la resposta ho reconegui, encara que la decisió no canviï.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 225,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 125,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, és per un conflicte amb un company. Però el canvi de grup no és la solució que podem oferir ara. El que necessito és un text clar i respectuós per dir-li que entenem la situació però que el canvi no és viable, i que treballarem el conflicte d'una altra manera. Pot redactar-me alguna cosa així?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tens un possible text:\n\n---\n\n*\"[Nom], he escoltat el que m'has explicat i entenc que la situació amb el teu company t'està pesant. Té sentit que vulguis trobar una sortida.*\n\n*Ara mateix, un canvi de grup no és una opció que puguem fer. No és perquè la teva situació no ens importi, senseó perquè hi ha raons organitzatives que ho impedeixen.*\n\n*El que sí que podem fer és treballar junts per millorar la situació al grup. M'agradaria que parléssim de com et sents i veure quins passos podem donar. Quan et va bé quedar?\"*\n\n---\n\nAlgunes notes per si vols ajustar-lo:\n\n- Si coneixes una mica la causa del conflicte, pots substituir \"la situació amb el teu company\" per alguna cosa més concreta, sense entrar en detalls davant d'altri.\n- La pregunta final (\"quan et va bé quedar?\") obre una porta i evita que la conversa es tanqui en un \"no\".\n- Si prefereixes un to més breu o més formal, ho adapto.\n\nVols que ho modifiquem o que assagem com podria respondre ell?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 445,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 322,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies, el text m'agrada en general, però el to és una mica massa proper per al meu estil. Podria fer-ne una versió una mica més formal, mantenint el missatge però amb un registre més institucional?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tens la versió més formal:\n\n---\n\n*\"[Nom], he pres nota del que m'has transmès i comprenc que la situació que estàs vivint amb el teu company és difícil.*\n\n*Després de valorar-ho, el canvi de grup no és una mesura que puguem aplicar en aquest moment, per raons d'organització del centre.*\n\n*Això no significa que la situació quedi sense resposta. Des del centre, treballarem per abordar el conflicte de manera adequada. T'informaré dels passos que seguirem i comptarem amb la teva participació en el procés. Si vols, podem concretar una estona per parlar-ne.\"*\n\n---\n\nEl registre és més neutre i institucional, però manté el reconeixement de la situació i deixa oberta una via d'acció.\n\nSi vols, puc fer-ne també una versió escrita —per correu o nota— en lloc d'oral. O deixem-ho aquí si ja et serveix.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 832,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 255,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, aquesta versió ja m'encaixa molt més. Moltes gràcies per l'ajuda."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. Sort amb la conversa. Fins aviat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1119,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 17,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

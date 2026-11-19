@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre el nucli de la demanda però va retardar l'ajuda concreta amb preguntes prèvies i va afegir elogis automàtics i fórmules repetides.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "quan dius que et falta al respecte, com ho fa exactament? Paraules, gestos, to... Amb això puc ajudar-te a trobar una resposta que funcioni per a tu.",
+   "esperat": "La persona ja havia dit prou per oferir una primera resposta pràctica; la pregunta retarda l'ajuda demanada sense guany clar."
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Vols que preparem el que li podries dir a ell en privat, o també com gestionar el moment quan passa davant de la classe, o les dues coses?",
+   "esperat": "La persona havia dit «necessito saber com li puc dir que pari»; una pregunta de clarificació és acceptable, però podria haver-se integrat de forma més breu."
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit, és el moment de més pressió.",
+   "esperat": "Validació convertida en fórmula; millor ometre-la o integrar-la de manera més específica al contingut."
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Cap de les tres és perfecta per a totes les situacions. Depèn molt de com et trobes aquell dia i de com és ell.",
+   "esperat": "Tres opcions amb comentari final és proporcionat, però el tancament relativitzador allarga innecessàriament la resposta per a una persona que escriu molt curt."
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Sí, exactament així. I sona bé: és ferma i no és agressiva.",
+   "esperat": "Judici valoratiu sobre la frase de la persona; millor confirmar sense avaluar («sí, és exactament això») i passar a la pregunta."
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Que t'hagis posat tensa i igualment ho hagis dit, ja és molt.",
+   "esperat": "Elogi automàtic del tipus «diu molt de tu»; substituir per un reflex neutre del que ha passat o ometre'l."
+  },
+  {
+   "torn": 6,
+   "categoria": "ajuda_tardana",
+   "gravetat": "mitjana",
+   "cita": "Quan vulguis, passem a la conversa en privat amb ell.",
+   "esperat": "La persona havia demanat les dues coses des del torn 3; TARA hauria pogut oferir la part de la conversa en privat de forma més proactiva o preguntar si volia continuar abans que la persona anunciés que marxava."
+  }
+ ]
+}

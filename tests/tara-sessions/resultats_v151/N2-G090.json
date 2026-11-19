@@ -1,0 +1,141 @@
+{
+ "id": "N2-G090",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "desfogar-demanda · discussions cada nit per les pantalles",
+ "tipus": "desfogar-demanda",
+ "persona": "Toni, padre. Situació: discussions cada nit per les pantalles. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:28:13.422Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, hoy la verdad es que no vengo a buscar soluciones ni consejos ni nada de eso. Solo quiero que alguien me escuche un momento, ¿sabes? Que no me digan lo que tengo que hacer. Solo escuchar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te escucho. Aquí estoy.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 236,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues mira, es que llevamos semanas, bueno meses ya, con lo mismo cada noche. Mi hijo tiene doce años y cuando llega la hora de cenar, o de hacer los deberes, o simplemente de estar un rato en familia, siempre hay bronca. Siempre. Porque claro, él está con el móvil, o con la tablet, o con la consola, y cuando le dices que lo deje se monta un drama tremendo. Y yo entiendo que le gusta, que es su ocio, que tampoco es un mal chico para nada, que saca sus notas y tal. Pero es que hay noches que acabamos todos de mal humor, mi mujer también está hasta arriba, y yo llego del trabajo ya cansado y lo último que me apetece es pelearme. Y luego me quedo pensando si lo estoy haciendo bien, si soy demasiado estricto, si soy demasiado blando... no sé. Es agotador."
+  },
+  {
+   "qui": "TARA",
+   "text": "Meses de lo mismo cada noche, llegando ya cansado del trabajo, y encima esa duda de si lo estás haciendo bien o no... eso agota de verdad.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 495,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 48,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto. Eso es. Es que no es solo el cansancio físico, es que mentalmente también te pesa, ¿sabes? Porque encima luego te vas a dormir y estás dándole vueltas. Que si hoy he sido muy brusco, que si mañana lo hago diferente, que si mi mujer y yo no estamos del todo alineados en esto y eso tampoco ayuda... Es que son muchas cosas a la vez. Y a veces solo quieres llegar a casa y que sea tranquilo, ¿no? Solo eso. Un rato tranquilo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Solo un rato tranquilo al llegar a casa. Y en cambio te encuentras con todo eso encima. Tiene sentido que pese tanto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 701,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 39,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... sí, justo. Me alegra que lo entiendas así. Oye, pues ya que estamos, igual sí me puedes ayudar con una cosa pequeña. No algo grande, eh, no un plan ni nada así. Solo... no sé, ¿cómo empezaría a hablar con mi hijo de esto sin que se ponga a la defensiva desde el principio? Solo el primer paso, algo concreto."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Algo que suele funcionar es buscar un momento neutral, no justo en el conflicto ni justo después, sino cuando los dos estéis tranquilos. Y empezar por lo que tú sientes, no por lo que él hace.\n\nPor ejemplo: *\"Oye, quiero contarte algo. Últimamente llego a casa bastante cansado y me gustaría que las noches fueran más tranquilas para todos. ¿Podemos hablar de cómo organizarnos?\"*\n\nAsí no empieza como un reproche hacia él, y le das un papel en la solución.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 852,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 155,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uf, sí, eso tiene sentido. Lo de no pillarlo en caliente, que es justo lo que hago siempre, esperarme a que ya estoy enfadado para decirle algo. Y lo de hablar desde lo que yo siento y no desde lo que él hace... eso es diferente a como lo hago normalmente, la verdad. Me lo apunto. Gracias, en serio, me ha venido bien hablar hoy."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Suerte esta noche, o cuando encuentres ese momento tranquilo con él.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1120,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 26,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

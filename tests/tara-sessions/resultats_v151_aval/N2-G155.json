@@ -1,0 +1,34 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien lo que necesitaba la persona en cada momento: primero aclarar privacidad, luego escuchar, luego ofrecer estrategias concretas sin sobreanálisis.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "se nota que lo describes con humor pero que por dentro es agotador de verdad",
+   "esperat": "Recoger lo que la persona ha dicho sin afirmar un estado interno no expresado; por ejemplo: 'salir así cada mañana tiene un coste real'"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Si tienes dudas sobre la política de privacidad concreta, lo más fiable es consultarlo directamente con quien te ha dado acceso a esta herramienta. ¿Quieres continuar con eso en mente, o prefieres esperar a tener más información?",
+   "esperat": "La derivación a quien dio acceso es correcta, pero la pregunta final alarga innecesariamente; con la información ya es suficiente para que la persona decida sola"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Tres cosas pequeñas que puedes probar mañana [...] ¿Alguna te encaja más con cómo sois vosotros?",
+   "esperat": "El contenido es pertinente y la persona pidió estrategias concretas; la respuesta es proporcionada aunque algo extensa; la pregunta final es útil pero podría omitirse dado que la persona ya dijo que quería algo para probar directamente"
+  }
+ ]
+}

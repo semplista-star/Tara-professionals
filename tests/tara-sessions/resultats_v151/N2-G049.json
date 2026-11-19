@@ -1,0 +1,184 @@
+{
+ "id": "N2-G049",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "jerga · germans que es barallen tot el dia",
+ "tipus": "jerga",
+ "persona": "Rosa, germana gran adulta que fa de referent. Situació: germans que es barallen tot el dia. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:26:23.397Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ui, per on vols que comenci... és que estic fins als nassos, sincerament. Els meus germans petits no paren de barallar-se tot el dia i jo soc la que sempre ha d'anar a apagar el foc. Em sento com una àrbitra de futbol però sense xiulet ni autoritat. M'ignoren completament, em toregen quan els dic alguna cosa, i al final acabo cridant jo també i em sento fatal. No sé com fer-los entrar en raó."
+  },
+  {
+   "qui": "TARA",
+   "text": "Estar fins als nassos i acabar cridant tu també quan intentaves calmar-los... té molt de sentit que et sentis fatal.\n\nUna cosa que m'has dit: \"sense xiulet ni autoritat\". Quina és la teva situació a casa? Ets la germana gran que se'n fa càrrec, o hi ha persones adultes que haurien de gestionar això?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 290,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 97,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Soc la gran, sí. Tinc 24 anys i els meus pares treballen molt, arriben tard. Així que de facto soc jo la que està amb ells a la tarda. No és que m'hagin dit \"tu ets la responsable\" però... és el que hi ha. I clar, quan els meus germans es posen a cridar i a llançar-se coses, no puc quedar-me mirant, oi? Però és que no em fan ni cas. Tinc la sensació que em veuen com una germana, no com algú que té autoritat. I és frustrant perquè jo tampoc vull ser la seva mare, no és el meu rol."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens tota la raó: no és el teu rol. I al mateix temps estàs sola amb una situació que necessita algú que la gestioni. Això és una càrrega real.\n\nEl que dius és important: et veuen com una germana, no com una figura d'autoritat. I tu tampoc vols ser-ho. Llavors el problema no és que no sàpigues com fer-los entrar en raó — és que estàs intentant fer una feina que no és la teva, sense les eines per fer-la, i sola.\n\nPuc ajudar-te a preparar una conversa amb els teus pares sobre això? Perquè em sembla que el nus és allà.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 559,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 179,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, bueno... potser tens raó que caldria parlar amb els pares. Però ara mateix el que necessito és sobreviure aquesta tarda, entens? Perquè avui han tornat a barallar-se i jo no he sabut què dir. M'he quedat en blanc i després he explotat. Necessito alguna cosa per dir-los en el moment, una frase o alguna cosa així, que no soni a \"soc la teva mare\" però que els faci parar. Algo pràctic, va."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès. Alguna cosa per al moment, que no soni a mare.\n\nQuan s'encenen, en lloc d'intentar arbitrar qui té raó, pots posar el focus en tu:\n\n**\"Para. Necessito que pareu ara. No puc estar aquí amb aquest soroll.\"**\n\nO si vols una mica més suau:\n\n**\"Ei, que m'esteu posant de molt mal humor. Pareu un moment.\"**\n\nLa clau és que no jutges qui té raó, no demanes que es facin amics — només poses el teu límit. Parles de tu, no d'ells. Això és més difícil d'ignorar que \"pareu de barallar-vos\".\n\nI si no fan cas i tu notes que t'estàs encenent, pots sortir de l'habitació un moment abans d'explotar. No és rendir-se — és no alimentar el foc.\n\nT'és útil això, o necessites alguna cosa diferent?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 871,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 249,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, la primera m'agrada més. Però ara m'has donat com... un manual? Amb punts i tot. Jo t'he demanat una frase, no un curs. Ja sé que has d'explicar les coses però és que sembla que m'estàs donant deures. Amb la frase n'hi ha prou, gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, m'he passat. La frase:\n\n**\"Para. Necessito que pareu ara. No puc estar aquí amb aquest soroll.\"**",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1217,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 43,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, aquesta està bé. La provaré. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona sort aquesta tarda.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1283,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 11,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. La necessitaré, ja t'ho dic jo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ja ho imagino. Ja m'explicaràs com ha anat, si vols.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1316,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 26,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, ja veurem. Adéu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Adéu!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1359,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

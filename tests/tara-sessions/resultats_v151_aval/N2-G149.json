@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (opciones concretas con implicaciones) y la entregó en el momento justo, pero en los turnos 1 y 2 tardó en llegar a lo pedido y añadió preguntas y atribuciones no solicitadas.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Antes de decirte qué podrías hacer, me ayudaría saber una cosa: ¿vives con él, o lo ves en visitas?",
+   "esperat": "La persona ya pedía opciones concretas; la pregunta retrasa la ayuda y no era imprescindible para darla"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "ese cambio duele un poco",
+   "esperat": "La abuela no expresó dolor; TARA podría haber reflejado la incertidumbre que sí describió ('no sé qué hacer') sin atribuir un estado interno"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "A los 15 años muchos chicos necesitan más espacio propio, y cerrar la puerta puede ser parte de eso, sin que haya nada malo detrás.",
+   "esperat": "Normalización no pedida que retrasa las opciones concretas que la persona ya había solicitado explícitamente"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Hay algo más concreto que te inquiete, además del cambio en sí? ¿Algo que hayas notado en él, en cómo come, cómo duerme, cómo llega del cole?",
+   "esperat": "La persona ya había pedido opciones ('dígame usted qué hago'); esta segunda pregunta vuelve a aplazar la ayuda y dirige la exploración hacia señales de riesgo sin que la persona las hubiera mencionado"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Lo que describe suena a un chico que está bien: come, duerme, se ríe. Eso es importante, y usted lo ha notado.",
+   "esperat": "El reconocimiento de la observación de la abuela es innecesario como elogio; basta con pasar directamente a las opciones"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Lo que le pesa es no saber qué hay detrás de esa puerta, y eso es muy humano.",
+   "esperat": "La abuela describió incertidumbre y gusanillo, no un peso; la fórmula 'es muy humano' roza la validación automática"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Las tres opciones son razonables. ¿Alguna le resuena más, o hay algo que le haga dudar de alguna?",
+   "esperat": "Tras dar las opciones pedidas, la pregunta de cierre es aceptable, pero 'son razonables' es una validación formulaica que no añade nada"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "El desayuno puede ser corto y con la cabeza en el cole. La cena, si estáis los dos sin tele ni móvil de por medio, puede ir bien. O ese rato cuando llega del cole y todavía no ha subido a su cuarto, que a veces hay un momento de bajada de guardia.",
+   "esperat": "La persona preguntó cuándo; con señalar el momento del cole (que ella misma había mencionado) habría sido suficiente y más proporcionado"
+  }
+ ]
+}

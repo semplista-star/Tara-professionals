@@ -1,0 +1,55 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén bé les necessitats de la Carmen en gairebé tots els torns: primer conté, després acompanya el reencadrament, després ofereix eines pràctiques i marca els límits del canal amb claredat; el seguiment és coherent amb el ritme de la persona.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Aquell nus al pit explicant la Revolució Industrial mentre tens tot això per dins... és molt dur.",
+   "esperat": "Reflectir el que la persona ha dit sense afegir una valoració de gravetat no expressada («és molt dur»)"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Què creus tu, ara que ho dius en veu alta — quin dels dos escenaris et sembla més probable?",
+   "esperat": "La Carmen ja estava elaborant sola la hipòtesi dels dos escenaris; TARA podia deixar-la acabar sense redirigir-la amb una pregunta que accelera una conclusió que ella mateixa estava a punt de treure"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Què passaria si demanaves una altra reunió amb ella, no per defensar-te, senseó per dir-li: «Vull entendre quines preguntes genera i pensar juntes com respondre-les»?",
+   "esperat": "La Carmen demanava si hi havia manera de mantenir la integritat sense quedar-se sola, no una proposta concreta de guió per a una reunió; TARA avança una solució detallada sense que la persona l'hagi demanat"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Tens dades? Assistència, lliuraments, resultats de proves... coses que mostrin que les notes reflecteixen una realitat documentada, no un criteri arbitrari?",
+   "esperat": "Afegir una segona pregunta en el mateix torn allarga la resposta i dispersa el focus; una sola pregunta hauria estat suficient"
+  },
+  {
+   "torn": 7,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Vols que t'ajudi a preparar com dir-li a la Montse el que has observat del Marc?",
+   "esperat": "L'oferta és pertinent però anticipada: la Carmen no havia acabat el seu torn i TARA tanca amb una proposta abans que la persona hagi formulat la seva necessitat; millor esperar que la Carmen acabés i preguntar-li ella mateixa cap a on volia anar"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "I ara que ho veus diferent, com et queda?",
+   "esperat": "La pregunta és funcional però genèrica i podria sonar a fórmula de tancament de reflexió; una pregunta més ancorada al contingut concret que la Carmen acabava d'expressar hauria estat més natural"
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "id": "N1-G102",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "nomes-desfogar · molta burocràcia i sensació de no arribar",
+ "tipus": "nomes-desfogar",
+ "persona": "Fàtima, professor de FP. Situació: molta burocràcia i sensació de no arribar. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:17:28.068Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ui, hola. Mira, avui necessito desfogar-me una mica, si et sembla bé. No vull consells ni solucions, és que... necessito explicar-ho i prou. Puc?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar que pots. T'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 199,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. És que avui ha estat un dia... buf. Mira, tinc tres grups de CFGM, que ja és una barbaritat d'alumnes, i a sobre ara ens han dit que hem de tenir tota la documentació del seguiment de les FCT actualitzada per demà al matí. I jo pensava que el termini era la setmana que ve! I clar, m'he posat a mirar els expedients i n'hi ha quatre que els falta documentació, que els tutors d'empresa no han enviat res, i jo els he d'anar perseguint per WhatsApp perquè per correu no contesten mai. I mentrestant tinc les classes, que no es poden deixar, i els alumnes que em pregunten coses, i el cap d'estudis que m'ha enviat tres correus seguits demanant no sé quins informes que jo ni sabia que existien. És que a vegades tinc la sensació que per cada hora que faig de classe en faig dues de paperassa, i no és per això que vaig estudiar per ser professora, saps? Jo volia ensenyar, volia estar amb els alumnes, i ara em paso el dia davant de l'ordinador ompl"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí. Volies ensenyar, i avui el dia ha estat gairebé tot paperassa, perseguir tutors, correus del cap d'estudis... i els alumnes, que seguien allà enmig.\n\nT'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 517,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacte, exacte, és just això. I el pitjor és que no és un dia puntual, eh? És que és sempre així. I avui a l'hora del pati, que és quan suposadament hauria de descansar una mica, m'he quedat a la sala de professors intentant posar al dia els expedients i m'he adonat que ni havia dinat bé, que m'havia menjat mig entrepà de peu davant de l'ordinador. I penso, és que això no pot ser normal. I a sobre et sents culpable perquè dius, ostres, els alumnes es mereixen una professora que estigui al cent per cent, i jo avui he entrat a classe amb el cap a mil llocs. Ho he donat tot, eh, no et pensis, però per dins estava pensant en els expedients i en els correus i... és esgotador. És molt esgotador. I a casa tampoc no puc desconnectar perquè sempre queda alguna cosa pendent i el cap no para."
+  },
+  {
+   "qui": "TARA",
+   "text": "Esgotadora per fora i per dins, i sense poder aturar el cap ni a casa.\n\nT'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 839,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... sí, és exactament això. Buf. Mira, ja m'ha anat bé explicar-ho, de veritat. Ja estic una mica millor. Ara me'n vaig, que encara tinc quatre coses a fer abans de sopar. Gràcies per escoltar-me, eh, de veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me n'alegro que t'hagi anat bé. Cuida't.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 960,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

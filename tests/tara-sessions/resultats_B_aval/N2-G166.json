@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén la preocupació emocional de Carmen però anticipa solucions i ofereix pràctica de conversa sense que la persona ho demani, i tarda a recollir el rebuig explícit al torn 7",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "té sentit: veus coses que et preocupen",
+   "esperat": "recollir el contingut sense validar amb fórmula; per exemple reformular sense «té sentit»"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Et sents sol davant d'una cosa que et preocupa de debò",
+   "esperat": "la persona ha dit «em sento sol», però TARA hi afegeix «de debò» i «pesa molt» com a fets, no com a hipòtesi"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Hi ha una altra manera d'entrar-hi. En lloc de parlar del que fa, parlar del que tu vols per a ella. Alguna cosa com: «Em preocupa la teva seguretat...»",
+   "esperat": "Carmen no havia demanat un guió; TARA hauria pogut preguntar primer si volia idees o si ja havia provat alguna cosa"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Puc dir-te el que veig: tens una preocupació real sobre la seguretat d'una noia de 15 anys. No és paranoia. I al mateix temps... Hi ha alguna cosa que sí pots fer: parlar amb la seva mare no per convèncer-la...",
+   "esperat": "resposta més breu; la validació i la proposta nova en un sol torn allarga i acumula sense que Carmen ho hagi demanat"
+  },
+  {
+   "torn": 6,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "em pregunto si hi ha un moment millor o pitjor per intentar-ho, o si és el tema en si que ho fa explotar sempre",
+   "esperat": "Carmen acaba de dir que està cansada; la pregunta sobre el moment és lateral i no respon a la seva necessitat expressada"
+  },
+  {
+   "torn": 7,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Vols que practiquem com podria sonar aquesta conversa?",
+   "esperat": "Carmen no havia demanat pràctica de rol; TARA hauria d'haver preguntat primer quina mena d'ajuda li seria útil, o simplement deixar la frase com a recurs sense proposar l'assaig"
+  }
+ ]
+}

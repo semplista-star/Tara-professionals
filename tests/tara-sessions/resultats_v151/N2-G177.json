@@ -1,0 +1,206 @@
+{
+ "id": "N2-G177",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "jerga · una mudança que el fill no vol",
+ "tipus": "jerga",
+ "persona": "Marta, tía que cuida a la niña. Situació: una mudança que el fill no vol. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:33:37.578Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uf, menos mal que existe algo así porque estoy un poco al límite, la verdad. Mira, es que mi hermana se muda con su hija, la niña tiene ocho años, y la cría no quiere ni oír hablar del tema. Lleva días fatal, llorando, sin comer bien... y yo soy la tía, ¿no? La que está en medio. Mi hermana me pide que la convenza y la niña me pide que la defienda. Estoy hecha polvo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué posición tan agotadora. Las dos te necesitan y tú estás en medio, sin poder darle a ninguna lo que te pide sin fallarle a la otra.\n\nLo que describes de la niña —los lloros, no comer bien— suena a que está pasándolo muy mal con este cambio.\n\n¿Qué es lo que más te pesa a ti ahora mismo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 292,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 98,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Lo que más me pesa... pues que siento que nadie me escucha a mí, ¿sabes? Mi hermana va a lo suyo, tiene la cabeza en la mudanza, en los papeles, en mil cosas. Y cuando le digo \"oye, que la niña está muy mal\", me dice \"ya se le pasará\". Y yo me quedo ahí como... ¿pero es que no lo ves? Me siento ignorada, vamos. Como si lo que yo veo no contara."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te sientes ignorada. Ves algo importante —que la niña está sufriendo— y cuando lo dices, no aterriza.\n\nEso duele, y tiene sentido que estés al límite.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 516,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 54,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto. Es que me toreja, ¿entiendes? Le digo las cosas y como que las escucha pero no las escucha. Asiente y punto, y luego sigue a lo suyo. Y yo me quedo con la palabra en la boca pensando \"para qué abro la boca\"."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, te entiendo. Asiente y sigue, y tú te quedas con la sensación de que ha pasado por encima de lo que dijiste.\n\nCon esa sensación encima, tiene sentido que te preguntes para qué hablar.\n\n¿Quieres que pensemos juntas cómo decírselo de una manera que sea más difícil de esquivar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 653,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 98,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso es justo lo que necesito. Porque yo sola no sé cómo decírselo sin que acabe en bronca o sin que me vuelva a torear. ¿Me puedes ayudar a encontrar una frase o algo así para decirle? Algo que le llegue de verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Vamos a buscar algo que le llegue sin que se ponga a la defensiva.\n\nUna posibilidad:\n\n*\"Oye, necesito que me escuches un momento de verdad, no solo que asientas. Lo que veo en la niña me preocupa —lleva días llorando y sin comer bien— y necesito saber que tú también lo estás viendo.\"*\n\nEsto funciona porque nombras lo que observas —los lloros, la comida— sin atacarla, y le dices claramente lo que necesitas de ella: que te escuche de verdad, no que te dé la razón.\n\n¿Cómo te suena? ¿Hay algo que no encaje con cómo habláis vosotras?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 834,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 192,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hombre, la frase está bien pero suena un poco... no sé, como muy de libro, ¿me entiendes? Yo no hablo así con mi hermana. Si le digo eso me va a mirar rara. Necesito algo más... más mío, más natural."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene todo el sentido, tiene que sonar a ti.\n\nCuéntame: cuando habláis normalmente, ¿cómo le dices las cosas importantes? ¿Vas directa, le pones humor, empiezas con algo suave...?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1099,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 67,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues voy bastante directa, la verdad. Sin rodeos. Le digo las cosas a la cara pero sin gritar, ¿sabes? Somos hermanas, nos conocemos de toda la vida. Igual le puedo decir algo tipo \"para, para, que te estoy hablando en serio\" para que sepa que no es un comentario de pasada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso es tuyo, sí. Con ese arranque ya le estás diciendo que esto va en serio.\n\nPodrías seguir algo así:\n\n*\"Para, para, que te estoy hablando en serio. La niña lleva días llorando y sin comer bien. Necesito que me digas que lo estás viendo, porque yo no puedo quedarme callada con esto.\"*\n\nDirecto, sin rodeos, y le dejas claro lo que necesitas de ella.\n\n¿Cómo te suena ahora?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1260,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 136,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay, eso sí. Eso ya me suena a mí. Así sí le puedo hablar. Gracias, en serio, que lo necesitaba."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que encaje. Ahora ya tienes algo tuyo para decírselo.\n\nSuerte con la conversación. Espero que tu hermana pueda escucharte esta vez.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1442,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 49,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias, de verdad. A ver si hay suerte. ¡Hasta luego!"
+  },
+  {
+   "qui": "TARA",
+   "text": "¡Hasta luego! Cuídate.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1517,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 26,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

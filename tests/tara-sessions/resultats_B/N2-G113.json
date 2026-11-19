@@ -1,0 +1,118 @@
+{
+ "id": "N2-G113",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "nomes-desfogar · com explicar una separació",
+ "tipus": "nomes-desfogar",
+ "persona": "Rosa, avi. Situació: com explicar una separació. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:40:39.878Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, no sé ni per on començar. Avui ha sigut un dia molt dur. El meu fill i la seva dona ens han dit que es separen, i jo... no sé, necessito explicar-ho a algú, desfogar-me una mica. No vull consells ni res, eh, és que ho necessito treure."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ho necessitaves treure, i aquí estàs. T'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 252,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 22,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, gràcies. És que fa dies que ho sé, perquè la meva nora, la Marta, me ho va dir abans que el meu fill, la Marta sempre ha sigut molt de parlar amb mi, i jo ja notava que alguna cosa no anava bé feia mesos, eh, perquè quan venien a dinar els diumenges es notava la tensió, no parlaven gaire, i el meu fill, el Jordi, estava sempre amb el mòbil, i jo li deia al meu marit, li deia \"Miquel, aquí hi ha alguna cosa\", i ell em deia que m'ho imaginava, però ja veus, no m'ho imaginava. I ara resulta que fa temps que no estan bé i jo sense saber res, o sigui, sabent-ho però sense que me ho diguessin, i el que més em fa mal és pensar en els nens, els meus néts, la Laia i el Pau, que tenen set i nou anys, i ara com els expliques tu això a uns nens d'aquesta edat..."
+  },
+  {
+   "qui": "TARA",
+   "text": "Quina càrrega has portat sola tots aquests dies, sabent-ho però sense poder dir res.\n\nI ara els nens, la Laia i el Pau... això és el que més et pesa ara mateix.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 545,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 55,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacte, exacte, és que sí, els nens és el que més em trenca el cor. La Laia sobretot, que és molt sensible, molt, aquesta nena ho nota tot. El Pau és més tancat, s'assembla al Jordi, però la Laia... ai. I jo no sé com ajudar, perquè el Jordi em diu que ja ho gestionaran ells, que no em preocupi, però com no em preocuparé jo, que soc l'àvia? És que no puc no preocupar-me. I a sobre el Miquel, el meu marit, que és un bon home però no és de parlar, i jo necessito parlar, necessito processar les coses parlant, i ell em diu \"Rosa, ja s'arreglarà\", i jo penso, home, que s'arreglarà com? Si ja han decidit separar-se. I la Marta, pobreta, que també la veig patir, i jo no sé com estar amb ella sense que el Jordi pensi que estic posant-me del costat d'ella, perquè no és qüestió de bàndols, és que la Marta també és família"
+  },
+  {
+   "qui": "TARA",
+   "text": "La Marta també és família. Això ho has dit molt clar.\n\nI tu al mig de tot, amb el cor partit per la Laia, sense poder parlar amb el Miquel com necessites, intentant no trair ningú... és molt per portar.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 903,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 66,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, és exactament això. És que és molt. I mira, ja me'n alegro d'haver-ho explicat perquè ara ja em trobo una mica millor, eh, que a vegades necessites treure-ho i prou. Gràcies per escoltar-me, de veritat. Ara me'n vaig que tinc el sopar a mig fer i el Miquel que ja deu estar esperant. Gràcies, eh!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Me n'alegro que t'hagi anat bé treure-ho. Cuida't, Rosa.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1089,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 39,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

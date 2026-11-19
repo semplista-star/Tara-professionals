@@ -1,0 +1,76 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén que la persona vol ajuda pràctica per gestionar els deures, però s'avança a donar solucions i fa preguntes no sempre necessàries abans que la persona les demani",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "estás agotada/o de que sea así",
+   "esperat": "reflectir el que la persona ha dit sense afegir l'estat emocional no expressat"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Te reconozco: lo intentas dando espacio, y aun así acaba mal",
+   "esperat": "recollir el que ha passat sense avaluar la conducta de la persona"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿qué hace él — se distrae, protesta, desaparece?",
+   "esperat": "la persona ja havia descrit prou la situació; la pregunta allarga el diagnòstic sense que ella ho hagi demanat"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Él protesta, tú insistes, y la cosa escala",
+   "esperat": "no atribuir la dinàmica d'escalada com a fet; podria ser una hipòtesi oberta"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Una cosa que a veces ayuda es acordar el momento antes de que llegue el conflicto",
+   "esperat": "la persona encara no havia demanat solucions; TARA hauria pogut preguntar si volia idees o preparar una conversa"
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Hay algún momento del día en que esté más receptivo para hablar contigo?",
+   "esperat": "la persona no havia demanat explorar moments; la pregunta allarga el diagnòstic"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Buena observación — la mañana es el momento",
+   "esperat": "recollir la informació sense avaluar-la positivament"
+  },
+  {
+   "torn": 7,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Y si dice que no al acuerdo, tienes igualmente la autoridad de fijar la hora tú. No es un veto suyo. Puedes decirle: «Entiendo que no te gusta, pero los deberes a las seis van a ser así. Lo que sí puedes elegir es si hacemos algo juntos después.»",
+   "esperat": "la persona havia demanat només què fer si el fill es posa borde; la resposta sobre el veto i l'autoritat no havia estat demanada"
+  },
+  {
+   "torn": 8,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Tienes el momento, tienes las palabras, y sabes qué hacer si se complica. Eso ya es mucho",
+   "esperat": "tancar sense avaluar ni resumir els recursos de la persona"
+  }
+ ]
+}

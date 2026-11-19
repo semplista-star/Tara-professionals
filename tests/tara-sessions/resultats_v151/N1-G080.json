@@ -1,0 +1,162 @@
+{
+ "id": "N1-G080",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "humor · la pressió de direcció per les notes",
+ "tipus": "humor",
+ "persona": "Li Wei, educador social del centro. Situació: la pressió de direcció per les notes. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:16:34.555Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara. Pues mira, vengo a quejarme, básicamente. Que ya sé que no es muy elegante, pero... es que llevo una semana siendo el campeón mundial de asentir con la cabeza en reuniones mientras por dentro grito. Medalla de oro, vamos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Medalla de oro bien ganada, parece.\n\nUna semana entera asintiendo mientras por dentro gritas... eso cansa mucho. ¿Qué está pasando en esas reuniones?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 214,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 52,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues... es la dirección, con el tema de las notas. Que quieren que suban, así, como si fuera cosa mía. Y yo soy educador social, no el profesor de matemáticas, ¿sabes? Perdona, igual no me explico bien...\n\nEs que me piden que \"motive a los chavales\" para que saquen mejores resultados, y yo... no sé muy bien qué se supone que tengo que hacer exactamente. Y me da vergüenza decirlo en la reunión porque igual es que soy yo el que no lo entiende."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te explicas perfectamente.\n\nY lo que describes tiene mucho sentido: te están pidiendo algo, pero sin concretar qué ni cómo, y tú te quedas con la responsabilidad de unos resultados que dependen de muchas cosas que no controlas. Eso es agotador, y encima en silencio.\n\nLo de la vergüenza me llama la atención, porque lo que describes no suena a que no lo entiendas tú. Suena a que la petición en sí es difusa.\n\n¿Qué crees que esperan exactamente de ti cuando dicen \"motivar\"?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 411,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 153,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uf, buena pregunta. Creo que... no sé, igual esperan que yo haga algo mágico. Que llegue con los chavales y de repente se pongan a estudiar como locos. Perdona que me ría, pero es un poco absurdo, ¿no?\n\nY lo peor es que yo sí quiero ayudar, de verdad. Pero no sé si lo que hago sirve para lo que ellos miden. Porque yo trabajo el vínculo, la confianza, que el chaval se sienta escuchado... y eso no aparece en ningún boletín de notas."
+  },
+  {
+   "qui": "TARA",
+   "text": "No te disculpes por reírte, tiene su punto absurdo, sí.\n\nY lo que acabas de decir es muy claro: tú sí estás haciendo algo, y probablemente algo importante. Pero lo que haces y lo que ellos miden no hablan el mismo idioma. Eso no es un problema tuyo de comprensión, es un problema real de encaje entre roles.\n\nEl vínculo, la confianza, sentirse escuchado... eso puede ser exactamente lo que permite que un chaval aguante en el sistema, que no se caiga. Solo que no sale en el boletín.\n\n¿Tienes la sensación de que la dirección no sabe bien qué hace un educador social, o más bien que lo saben pero les resulta incómodo medirlo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 721,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 195,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hmm... creo que es lo primero, que no lo saben del todo. O sea, no creo que sea mala fe, ¿sabes? Pero claro, si no lo saben, tampoco pueden defenderlo cuando alguien de arriba les pregunta por los resultados. Y entonces la presión cae sobre mí. Perdona, igual estoy siendo injusto con ellos...\n\nOye, y ahora que lo pienso... ¿tú tienes alguna idea de cómo podría explicarles lo que hago de una forma que ellos entiendan? Porque yo no sé cómo traducirlo. Que no me pidan que suba notas, sino que entiendan qué es lo que sí puedo aportar yo. No sé si tiene solución, pero..."
+  },
+  {
+   "qui": "TARA",
+   "text": "No estás siendo injusto. Estás intentando entenderlos, que es distinto.\n\nY sí, tiene solución, o al menos tiene camino. Lo que describes es un problema de visibilidad: lo que haces existe, pero no está traducido al lenguaje que ellos manejan. Eso se puede trabajar.\n\nUna forma de empezar sería nombrar tu trabajo en términos de indicadores que ellos sí reconocen, aunque no sean notas. Por ejemplo:\n\n- Asistencia: ¿hay chavales que antes faltaban más y ahora vienen? Eso es tuyo, en parte.\n- Permanencia: ¿alguien que estaba a punto de abandonar sigue en el centro?\n- Clima: ¿hay menos conflictos en ciertos grupos donde tú intervienes?\n- Derivaciones: ¿has conectado a familias o chavales con recursos que antes no tenían?\n\nNo son notas, pero son resultados. Y son los tuyos.\n\nLa idea sería que pudieras ir a una reunión con algo concreto: \"Esto es lo que hago, esto es lo que produce, y esto es lo que necesito de vosotros para poder hacerlo bien.\" No como queja, sino como propuesta.\n\n¿Eso te resuena, o la situación en tu centro hace que sea más complicado de lo que parece?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1116,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 342,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, me resuena bastante. O sea, nunca lo había pensado así, en plan... que yo también tengo resultados, solo que son otros. Igual es que me falta un poco de... no sé, de seguridad para decirlo en voz alta. Que no parezca que me estoy defendiendo, sino que estoy aportando.\n\nOye, pues creo que con esto ya tengo por dónde empezar. Gracias, en serio. Perdona que haya sido tan lioso..."
+  },
+  {
+   "qui": "TARA",
+   "text": "No has sido lioso. Has ido directo a lo que importaba.\n\nY eso que dices al final, \"que no parezca que me defiendo, sino que aporto\", es exactamente el tono. Ya lo tienes.\n\nSuerte con la reunión.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1590,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 68,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias, Tara. De verdad. Me voy con más claridad de la que esperaba, la verdad. A ver si me sale bien... ja. Hasta luego."
+  },
+  {
+   "qui": "TARA",
+   "text": "Hasta luego. Y que te salga bien, que creo que sí.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1704,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

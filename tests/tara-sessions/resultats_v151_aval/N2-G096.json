@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat central (preparar una conversa amb el fill) però al torn 2 va lliurar una proposta extensa sense que la persona l'hagués demanada explícitament, i al torn 3 va afegir un elogi automàtic i una atribució no expressada; als torns posteriors es va reajustar bé quan la persona va rebutjar la primera proposta.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Et proposo una manera d'enfocar-ho. En comptes de començar explicant la decisió o les raons [...] Vols que treballem més el que podria dir ell i com respondre-li, o hi ha alguna part d'aquesta conversa que et fa més por?",
+   "esperat": "Una proposta més breu o una pregunta prèvia per confirmar que la persona volia un guió concret"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "I tu vas fer una cosa bona anant a la cuina. Vas evitar dir alguna cosa de la qual t'hauries penedit. Això no és fallar, és contenir-te en un moment difícil.",
+   "esperat": "Reconèixer el que va passar sense jutjar-ho positivament: p. ex. 'Vas sortir de la situació abans d'escalar-la'"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "És com una porta tancada amb pany.",
+   "esperat": "Descriure el que la persona ha dit sense afegir una metàfora interpretativa sobre l'estat del fill"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Sí, té molt de sentit.",
+   "esperat": "Ometre la validació formulaica o substituir-la per un reflex concret del que la persona ha dit"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Estàs portant molt: la culpa, la compensació, el tema que no desapareix, i la sensació que cada cap de setmana queda pendent.",
+   "esperat": "Reflectir només el que la persona ha expressat explícitament, sense afegir 'la culpa' que ella no ha nomenat com a tal"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Alguna cosa com, en un moment tranquil i sense que sembli 'ara toca parlar': \"Sé que hi ha coses entre nosaltres que estan sense dir...\"",
+   "esperat": "Preguntar primer si volia un exemple concret de frase, ja que la persona no ho havia demanat explícitament en aquest torn"
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "M'alegra que t'hagi servit. El cotxe sona bé — ja ho tens. Molta sort amb en Marc.",
+   "esperat": "Resposta correcta i breu; cap problema real, però 'M'alegra que t'hagi servit' flirteja amb la fórmula de tancament automàtic"
+  }
+ ]
+}

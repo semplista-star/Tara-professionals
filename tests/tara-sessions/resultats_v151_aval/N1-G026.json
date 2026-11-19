@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió la demanda pero retrasó la entrega con una pregunta previa no necesaria y produjo un primer borrador demasiado largo; corrigió bien al recibir el feedback.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Antes de darte un borrador, una sola cosa que me ayudaría a ajustarlo: ¿la directora te ha pedido explícitamente que influyas en las calificaciones, o más bien que 'hagas algo' con los tutores sin concretar el qué?",
+   "esperat": "La persona había descrito la situación con suficiente detalle para entregar directamente un borrador ajustable; la pregunta retrasó la ayuda pedida sin añadir valor determinante"
+  },
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que quieras llegar con algo claro a esa reunión.",
+   "esperat": "Omitir la validación formulaica e ir directamente a la tarea pedida"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Aquí tienes un borrador: [...] Algunas notas: - La pregunta final le devuelve la pelota sin confrontación [...] Si ella insiste en el 'ya sabes lo que quiero decir', puedes responder...",
+   "esperat": "Entregar el borrador sin el bloque de notas explicativas no solicitadas; la persona solo pidió un mensaje concreto"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "tienes el argumento claro y la relación cuidada",
+   "esperat": "Cerrar sin juicio valorativo sobre la persona; bastaba con 'Suerte mañana'"
+  }
+ ]
+}

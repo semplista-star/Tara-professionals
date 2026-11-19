@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé el que necessitava la persona en cada moment: primer explorar, després concretar, i finalment donar una eina pràctica quan la va demanar explícitament.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "sí, és un clàssic de l'edat",
+   "esperat": "Recollir el que diu la persona sense etiquetar la situació com a típica o previsible; evita minimitzar amb generalitzacions"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Estar una hora sense saber res és molt diferent que rebre un missatge a les deu dient 'arribaré a les dotze'",
+   "esperat": "La persona ja havia dit que el problema era la incertesa; TARA reformula i afegeix un exemple concret no demanat que pressuposa com hauria de ser l'acord, anticipant-se a la solució"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "En lloc de dir-li 'necessito que m'avisis abans de les deu', pots preguntar-li",
+   "esperat": "La solució sí era demanada, però la frase introductòria pressuposa que la Mercè havia estat dient-ho d'aquella manera; caldria no atribuir-li un estil de comunicació que no ha mostrat"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Sí. La clau sol ser que l'acord sigui seu també, no només teu. [...] Com ho veus?",
+   "esperat": "La resposta és útil però desenvolupa dos punts (la pregunta oberta i el missatge de situació) amb força detall; podria ser més breu o deixar que la persona triés un dels dos"
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "M'alegra que t'hagi servit",
+   "esperat": "Tancament neutre i càlid sense valorar el resultat de la sessió; per exemple, simplement desitjar bona sort sense el comentari avaluatiu"
+  }
+ ]
+}

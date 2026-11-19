@@ -1,0 +1,162 @@
+{
+ "id": "N2-G153",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "desfogar-demanda · un fill que menteix sovint",
+ "tipus": "desfogar-demanda",
+ "persona": "Óscar, abuela que cuida a los nietos. Situació: un fill que menteix sovint. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:32:11.327Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, mira, hoy solo quiero que me escuches un poco, que no me des consejos ni nada, solo que estés ahí. Es que tengo una cosa con mi hijo que me tiene muy preocupada y necesito contárselo a alguien."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estoy. Cuéntame.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 229,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues mira, es que mi hijo, el mediano, que tiene ya cuarenta y dos años, lleva toda la vida mintiendo. No es que mienta de vez en cuando como todo el mundo, no, es que miente por todo, por cosas grandes y por cosas pequeñas que ni siquiera hacen falta. Te digo yo que a veces me pregunto si él mismo sabe cuándo dice la verdad. Y lo peor es que ahora tengo a sus hijos aquí conmigo, mis nietos, que son dos, el mayor tiene nueve años y la pequeña siete, y claro, ellos ven a su padre y empiezan a notar cosas. El otro día el mayor me preguntó que por qué el abuelo... bueno, el padre, que por qué su papá había dicho que vendría el sábado y luego no vino y además dijo que había venido pero que yo no estaba. Y claro, yo estaba, yo siempre estoy, no salgo casi ni a comprar. Y tuve que mirar a ese niño a los ojos sin saber qué decirle. Me quedé sin palabras, que a mí no me pasa nunca eso, que yo siempre tengo algo"
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué momento tan difícil ese, mirando a tu nieto a los ojos sin saber qué decirle. Eso se queda dentro.\n\nSigue, te escucho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 547,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 50,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto, se queda dentro, muy bien dicho. Y mira que yo he visto de todo en esta vida, que he criado a tres hijos sola después de que su padre se fuera, y no me he achantado nunca. Pero esto es diferente, porque no es solo que me mienta a mí, que ya estoy acostumbrada y ya sé cómo es, sino que ahora les está mintiendo a sus propios hijos y eso ya me duele de otra manera. Y el niño, el mayor, que es muy listo, muy espabilado, ya empieza a hacer preguntas que no sé cómo contestar. Y la pequeña todavía no se entera tanto pero también lo nota, que los niños lo notan todo aunque no digan nada. Y yo no quiero hablar mal de su padre delante de ellos, que eso no lo haré nunca, pero tampoco quiero mentirles yo también, porque entonces ¿qué les estoy enseñando? Y claro, me paso las noches dando vueltas a esto, pensando qué les digo, cómo los protejo, cómo hago para que no pierdan la confianza en todo el mundo por culpa de esto."
+  },
+  {
+   "qui": "TARA",
+   "text": "Llevas mucho tiempo cargando con esto, y encima sola, como has cargado siempre con tantas cosas. Y ahora el peso es diferente porque no es solo lo tuyo, son ellos, tus nietos.\n\nEso de no querer mentirles pero tampoco hablar mal de su padre... es un lugar muy estrecho donde estar. Y aun así estás ahí, pensando en ellos de noche.\n\nSigue si quieres.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 900,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 117,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso es, un lugar muy estrecho, así es exactamente. Y mira que le he dado muchas vueltas, que a veces pienso que debería llamarle y decirle cuatro cosas bien dichas, y otras veces pienso que para qué, que ya lo he hecho mil veces y siempre acaba igual, que me da la razón, me dice que sí, que va a cambiar, y a la semana está igual o peor. Y luego me siento culpable yo, como si fuera cosa mía, que dónde me equivoqué con él, qué hice mal. Que sus hermanos no son así, los otros dos son personas normales, con sus cosas, pero normales. Y entonces me digo que no, que yo hice lo que pude, que los crié a los tres igual. Pero la cabeza no para, ya sabes cómo es. Y los niños están bien, gracias a Dios, están contentos aquí conmigo, que yo los cuido con todo mi amor, pero no quiero que crezcan pensando que los adultos mienten y ya está y no pasa nada. Eso no."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso no, claro. Que crezcan sabiendo que hay adultos en los que sí se puede confiar. Y tú eres eso para ellos ahora mismo.\n\nLo de la culpa que describes, ese «dónde me equivoqué»... y luego tú misma te respondes que no, que hiciste lo que pudiste. Que los criaste a los tres igual. Te escucho dando esa vuelta una y otra vez.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1305,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 114,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, una y otra vez, toda la noche a veces. Pero bueno, mira, ya me has escuchado y eso me ha ayudado, de verdad. Y ahora que lo he contado todo... pues sí que te quería pedir una cosita, si puedes. Es que no sé qué decirle al niño la próxima vez que me pregunte por su padre, que seguro que vuelve a preguntar. ¿Cómo le digo algo que sea verdad pero que no le haga daño?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido contarlo.\n\nY esa pregunta que haces tiene mucho dentro: verdad y cuidado a la vez. Aquí va algo que podrías decirle, con tus palabras:\n\n*\"A veces los papás quieren venir y luego no pueden, o se lían y se confunden. Yo no sé exactamente qué pasó ese día. Lo que sí sé es que tú estás aquí conmigo y yo siempre voy a estar.\"*\n\nNo dices que su padre mintió. No le quitas la pregunta. Y le das algo sólido: tú.\n\nSi el niño insiste o pregunta más, siempre puedes decir: *\"Eso tendrías que preguntárselo a él.\"* Le devuelves la pregunta a quien le corresponde responderla, sin cerrarle la puerta.\n\n¿Te encaja algo de esto, o lo ves diferente?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1557,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 234,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí me encaja, y eso de \"yo siempre voy a estar\" me gusta mucho porque es verdad y él lo sabe. Eso sí puedo decírselo con el corazón. Muchas gracias, de verdad, que me has escuchado sin agobiarme y encima me has dado algo concreto para el niño. Me quedo más tranquila. Hasta otro día."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Y ese niño tiene suerte de tenerte.\n\nHasta cuando quieras. Cuídate.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1899,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 41,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

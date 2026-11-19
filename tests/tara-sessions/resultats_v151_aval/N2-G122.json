@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé el que necessitava la persona a partir del torn 2, però al torn 1 va avançar solucions i va atribuir un estat intern al Marc sense que la persona ho hagués dit",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "el Marc, que no vol ser el focus del conflicte, també ho passa malament",
+   "esperat": "No atribuir patiment al Marc; la persona havia dit que estava molest, no que ho passés malament"
+  },
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Podríeu plantejar-ho d'una altra manera: una base igual per a tothom, i un extra per edat o responsabilitats addicionals",
+   "esperat": "La persona no havia demanat una proposta de sistema de paga; calia primer entendre què necessitava"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Barrejar-los és el que fa que la Júlia senti que no és just.",
+   "esperat": "Resposta més breu i centrada a entendre la situació abans d'oferir solucions"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tens raó, ho he interpretat malament",
+   "esperat": "Acceptar la correcció és correcte, però la frase és lleugerament formulaica; podria ser més natural i menys protocol·lària"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit el que dius del Marc",
+   "esperat": "Evitar la validació automàtica com a fórmula; millor anar directament a la resposta pràctica"
+  }
+ ]
+}

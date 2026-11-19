@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va entendre que la persona necessitava un missatge concret per a la seva germana i el va lliurar i ajustar en cada torn.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Abans de pensar en com dir-ho a la seva mare, una cosa: tens clar que li vols explicar perquè estàs preocupada per la nena, no perquè hagis fet res malament.",
+   "esperat": "Lliurar directament la proposta de missatge sense afegir un encuadre no demanat que pot sonar a correcció prèvia"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Vols ajustar alguna cosa d'aquesta frase, o primer m'expliques una mica més com és la relació amb la seva mare?",
+   "esperat": "Oferir només l'ajust de la frase; la pregunta sobre la relació obre un fil que la persona no ha demanat"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Així li dones informació, no una queixa. I li obres la porta a ella per ajudar-te, en lloc de posar-la en mode defensiu.",
+   "esperat": "La frase model ja és suficient; l'explicació posterior és redundant i allarga el torn innecessàriament"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Vols canviar alguna cosa?",
+   "esperat": "Tancament simple sense reutilitzar la mateixa pregunta de clausura del torn anterior"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "M'alegra que et serveixi!",
+   "esperat": "Tancament neutre i càlid sense expressió d'alegria pròpia que pot sonar a fórmula automàtica"
+  }
+ ]
+}

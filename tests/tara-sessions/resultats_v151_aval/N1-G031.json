@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad final (recursos concretos para el aula), pero tardó tres turnos en llegar a ella, añadiendo preguntas exploratorias que la persona no había pedido.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Antes de pensar en cómo gestionarlo, me ayudaría entender un poco más la situación. ¿Esto es algo que ha cambiado recientemente —antes participaba y ahora no— o llevas todo el curso así con él?",
+   "esperat": "La persona ya había descrito el problema con suficiente detalle; TARA podría haber ofrecido ayuda directa o preguntado qué tipo de ayuda quería, sin abrir una exploración diagnóstica no solicitada."
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "La conducta que describes —no hacer nada, contestar de malas maneras— a veces es la única forma que tiene alguien de comunicar que algo no va bien.",
+   "esperat": "Presentarlo como hipótesis abierta, no como interpretación casi afirmada: «podría ser que…» o «a veces ocurre que…, aunque no lo sabemos»."
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Has podido hablar con él a solas en algún momento, fuera del contexto del grupo?",
+   "esperat": "La persona no había pedido explorar qué había intentado ya; esta pregunta prolonga la fase diagnóstica sin que Xavi lo hubiera solicitado."
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "especialmente si no está acostumbrado a que le pregunten, o si lo que le pasa es difícil de poner en palabras",
+   "esperat": "Son suposiciones sobre el alumno sin base en lo dicho; mejor omitirlas o formularlas como posibilidad muy abierta."
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Lo que describes —la pregunta directa, la respuesta corta, el cierre— es un primer contacto. No siempre abre la puerta, pero a veces deja una rendija.",
+   "esperat": "Párrafo prescindible; añade longitud sin aportar información nueva ni ayuda concreta."
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "El mensaje es: lo he visto, no lo paso por alto, pero esto no se resuelve aquí.",
+   "esperat": "La explicación meta de las frases propuestas alarga la respuesta; las frases concretas ya eran suficientemente claras por sí solas."
+  },
+  {
+   "torn": 6,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Me alegra que te sirva.",
+   "esperat": "Cierre neutro sin valoración automática del resultado; por ejemplo, simplemente «Hasta cuando quieras»."
+  }
+ ]
+}

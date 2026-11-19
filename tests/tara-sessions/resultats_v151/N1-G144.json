@@ -1,0 +1,162 @@
+{
+ "id": "N1-G144",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "jerga · un grup disruptiu a última hora",
+ "tipus": "jerga",
+ "persona": "Àlex, maestra de infantil. Situació: un grup disruptiu a última hora. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:20:36.376Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, sí... bueno, no sé si esto es lo que se hace aquí exactamente, perdona si no lo estoy haciendo bien. Es que tengo un grupo de infantil que a última hora se me va completamente de las manos y no sé qué hacer. Me siento un poco... ignorada, supongo. Como que hablo y nadie me escucha. Bueno, son niños pequeños, ya sé que es normal, pero es que hoy ha sido especialmente difícil y me he ido a casa bastante mal."
+  },
+  {
+   "qui": "TARA",
+   "text": "No lo estás haciendo mal para nada. Esto es exactamente para lo que estoy aquí.\n\nHoy has llegado a casa con ese peso encima — hablar y sentir que nadie te escucha, que el grupo se te va. Eso cansa mucho, y más al final del día cuando ya llevas horas sosteniendo todo.\n\n¿Qué ha pasado hoy que ha sido especialmente difícil?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 268,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 107,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues... es que hay un niño, el Martí, que es como el que mueve todo el grupo. Cuando él se pone tonto, los demás se enganchan y ya está, se acabó. Y hoy le he dicho que se sentara tres veces, tres, y me ha torejado completamente. Me miraba y seguía haciendo lo mismo. Y yo ahí, delante de todos, sin saber qué hacer. Me he quedado un poco en blanco, la verdad. Perdona, no sé si \"torejado\" se entiende, es que es la palabra que me sale."
+  },
+  {
+   "qui": "TARA",
+   "text": "Se entiende perfectamente. Y la imagen es muy clara: le dices que se siente, te mira, y sigue. Tres veces. Delante de todos.\n\nQuedarte en blanco en ese momento tiene mucho sentido. Es un momento incómodo incluso para profesionales con mucha experiencia.\n\n¿Qué edad tiene Martí, más o menos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 524,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 93,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tiene cuatro años. Bueno, casi cinco, cumple en verano. Y es listo, eso también lo hace más difícil, porque sabe perfectamente lo que está haciendo, ¿no? O bueno, no sé, igual estoy exagerando. Perdona. Es que a veces pienso que igual el problema soy yo, que no sé poner límites bien o algo así."
+  },
+  {
+   "qui": "TARA",
+   "text": "No tienes que pedir perdón por nada.\n\nY eso que acabas de decir al final — que igual el problema eres tú — me parece importante nombrarlo: llevas un día difícil, estás cansada, y encima te estás cargando con la responsabilidad entera. Eso es mucho peso.\n\nSobre Martí: que con cuatro años te mire y siga haciendo lo mismo no significa necesariamente que \"sepa lo que está haciendo\" en el sentido de que lo calcule. A esa edad los niños prueban límites, sí, pero desde un lugar muy impulsivo, muy del momento. La intención que le atribuimos a veces dice más de cómo nos ha afectado a nosotros que de lo que pasa dentro de él.\n\nLo que sí es real es que el grupo se engancha con él, y que tú te quedas sin recursos en ese momento. Eso es lo concreto.\n\n¿Qué sueles hacer cuando pasa, antes de quedarte en blanco?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 718,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 257,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues... primero le digo que se siente, como te decía. Luego igual me acerco más a él, intento hablarle más bajito. Y si no funciona, pues no sé, me quedo un poco parada. Es que no quiero gritar, me parece que gritar no está bien, pero claro, si no levanto la voz no me hace caso. O eso me parece a mí, no sé. Oye, perdona que te pregunte, pero... ¿me podrías decir algo concreto que pueda decirle la próxima vez? Como una frase, algo así. Es que cuando estoy ahí en el momento me quedo en blanco y necesito tener algo preparado."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, te doy algo concreto.\n\nCuando Martí no se sienta y el grupo empieza a engancharse, en lugar de repetir la misma indicación tres veces, puedes probar esto:\n\nTe acercas a él —eso ya lo haces bien—, te pones a su altura, contacto visual, y dices algo como:\n\n**\"Martí, necesito que te sientes ahora. Te ayudo yo.\"**\n\nY le acompañas físicamente al sitio, sin esperar a que lo haga solo. Sin más explicaciones en ese momento, sin negociar. Después, cuando esté sentado y el grupo esté tranquilo, puedes decirle en privado algo breve: **\"Gracias por sentarte.\"** Y ya.\n\nLa clave es que a cuatro años la repetición verbal sola no suele funcionar — necesitan la acción acompañada. Y tú no tienes que levantar la voz para eso.\n\nUna cosa más: que el grupo se enganche con él dice que Martí tiene mucha influencia social para su edad. Eso también es información útil, no solo un problema.\n\n¿Esto te parece algo que podrías probar mañana, o hay algo que ves difícil de llevar a la práctica?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1158,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 317,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, la frase me gusta. Es corta, que eso se me hace más fácil de recordar. Pero... no sé, es que cuando me dices \"sin negociar\" y \"sin más explicaciones\" me suena un poco a manual, ¿sabes? Como que en la realidad es más caótico y no sé si podré hacerlo tan limpio. Igual soy yo que lo complico todo, perdona."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, y es una buena observación. En la realidad es más caótico, y yo te lo he presentado demasiado ordenado.\n\nY no lo complicas todo — estás siendo honesta sobre cómo funciona de verdad un aula de infantil a última hora. Eso es útil.\n\nLo que sí puedes llevarte es la idea de fondo: menos palabras, más presencia física. No tiene que salir perfecto. Si en medio del caos consigues acercarte, ponerte a su altura y decir algo breve mientras le acompañas, ya es distinto a repetir la indicación desde lejos.\n\nEl \"sin negociar\" no significa que tengas que ser rígida — significa que en ese momento no es el momento de explicar el porqué. Eso puede venir después, cuando todo esté más calmado.\n\n¿Hay algo más de la situación que te esté rondando, o con esto tienes suficiente para mañana?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1589,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 243,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, creo que con esto ya tengo bastante. La frase me la apunto, en serio. Gracias, de verdad, y perdona si he estado un poco pesada con todo esto."
+  },
+  {
+   "qui": "TARA",
+   "text": "No has estado pesada en absoluto. Has traído algo real y lo hemos mirado juntas.\n\nSuerte mañana con Martí.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1882,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 48,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

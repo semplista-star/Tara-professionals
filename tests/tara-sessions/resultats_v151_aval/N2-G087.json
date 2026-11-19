@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la demanda principal (opciones concretas) y la siguió con coherencia, pero añadió una pregunta no pedida sobre la edad y algunas fórmulas de validación automática.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Para ayudarte a elegir, me vendría bien saber una cosa: ¿cuántos años tiene tu hijo, más o menos?",
+   "esperat": "La persona ya había elegido una opción; la pregunta sobre la edad llega tarde y no era necesaria para dar las tres opciones"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido para esa edad.",
+   "esperat": "Acuse de recibo neutro sin validar con fórmula («tiene sentido»), o directamente pasar a la oferta de ayuda"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "suelen responder bien cuando sienten que no van a ser atacados",
+   "esperat": "Omitir la generalización sobre cómo se sienten los niños de 9 años; no es un hecho expresado por Sara"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "La clave es cumplir eso último: que cuando diga la verdad, tu reacción sea más tranquila que si hubiera mentido. Eso es lo que él va a aprender a lo largo del tiempo.",
+   "esperat": "Sara pidió cómo empezar; las frases concretas son pertinentes, pero el párrafo explicativo final añade consejo no solicitado"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "¿Te ves diciéndolo así, o hay algo que no encaja con cómo sois vosotros?",
+   "esperat": "Sara solo preguntó cómo empezar; la pregunta de cierre es razonable pero añade un turno extra no pedido"
+  }
+ ]
+}

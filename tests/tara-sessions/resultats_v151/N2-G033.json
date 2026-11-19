@@ -1,0 +1,204 @@
+{
+ "id": "N2-G033",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "correccio · els diners i la paga",
+ "tipus": "correccio",
+ "persona": "Àlex, germana gran adulta que fa de referent. Situació: els diners i la paga. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:25:39.861Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, Tara. Gràcies per atendre'm.\n\nTinc una situació amb la meva germana petita que m'agradaria treballar. Té setze anys i darrerament hi ha hagut conflictes a casa relacionats amb els diners i la paga setmanal. M'agradaria saber com puc ajudar-la a entendre millor la gestió dels diners."
+  },
+  {
+   "qui": "TARA",
+   "text": "Hola! M'alegra que ho portis aquí.\n\nAbans d'oferir-te res concret, m'ajudaria saber una mica més: quan dius que vols ajudar-la a entendre millor la gestió dels diners, tens al cap una conversa amb ella, o més aviat busques maneres de plantejar-ho a casa —amb els pares o qui en tingui la responsabilitat?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 265,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 106,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bona pregunta. Principalment vull tenir una conversa directament amb ella. Soc la germana gran i ella em té confiança, així que crec que puc ser un bon referent en aquest tema. Els pares ja han intentat parlar-hi i no ha anat gaire bé."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit. Si ella et té confiança, pots ser un pont molt valuós.\n\nAbans de preparar la conversa, una cosa: saps una mica com ella viu la situació? És a dir, si se sent incompresa pels pares, si creu que la paga no és suficient, o si hi ha alguna altra cosa al darrere dels conflictes?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 446,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 95,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bé, no ho sé del cert. El que sé és que hi ha hagut discussions perquè ella demana més diners del que li donem i els pares li diuen que no. Ella s'enfada i diu que no és just. Però no sé exactament com ho viu per dins."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès. Llavors tens una peça important —el que passa per fora— però no saps encara què hi ha al darrere per a ella.\n\nAixò és precisament el que pot fer que la teva conversa sigui diferent de les que han tingut els pares: en lloc d'explicar-li com funcionen els diners, primer escoltar-la a ella. Que se senti entesa abans que res.\n\nUna manera de començar podria ser alguna cosa com:\n\n*«Últimament hi ha hagut tensió a casa amb el tema dels diners i volia saber com ho estàs vivint tu.»*\n\nSense jutjar, sense solucions encara. Només obrir l'espai.\n\nA partir del que ella digui, ja podries explorar amb ella la gestió —però des d'un lloc molt més connectat.\n\nVols que treballem com continuar la conversa a partir d'aquí, o hi ha alguna part que et genera més dubtes?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 618,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 241,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perdona, no he dit que ella se senti incompresa pels pares ni que cregui que la paga no és suficient. Això ho has dit tu. Jo només sé que demana més diners i que s'enfada quan li diuen que no. No vull partir d'una suposició que potser no és certa.\n\nDit això, sí que m'interessa preparar la conversa. Però necessitaria saber com puc respondre si ella es posa a la defensiva des del primer moment. Això és el que més em preocupa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, ho he dit jo. Gràcies per corregir-m'ho.\n\nSobre la teva pregunta: si ella es posa a la defensiva, el més útil sol ser no intentar convèncer-la ni defensar-te. Simplement reconèixer el que diu, sense afegir-hi res més de moment.\n\nPer exemple, si diu «no vull parlar d'això» o «ja sé el que em diràs», pots respondre:\n\n*«D'acord. No vinc a donar-te cap lliçó. Només volia saber com ho estàs vivint tu.»*\n\nI si s'enfada o tanca, pots deixar-li la porta oberta sense forçar:\n\n*«No cal que sigui ara. Quan vulguis, estic aquí.»*\n\nLa defensivitat sovint baixa quan l'altra persona nota que no l'has de convèncer de res. Que simplement l'escoltes.\n\nVols assajar alguna part concreta de la conversa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 995,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 263,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, m'agradaria assajar la part inicial. La que més em costa és el primer moment, quan li dic que vull parlar. Sovint ja aquí es tanca. Com ho puc fer perquè no soni a «ara ve la xerrada»?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona observació. El to del primer moment ho canvia tot.\n\nAlgunes maneres de començar que sonen menys a «xerrada»:\n\n- **Casual i sense avís**: Dir-li alguna cosa en un moment tranquil, sense seure-la davant. De vegades mentre feu alguna cosa juntes —preparar un entrepà, caminar— és més fàcil que cara a cara.\n\n- **Sense agenda visible**: En lloc de «volia parlar amb tu», pots dir simplement *«Ei, com estàs amb tot el tema dels diners últimament?»* Com si fos una pregunta genuïna, no una introducció a una conversa planificada.\n\n- **Posant-te al seu costat, no davant**: *«He vist que hi ha hagut tensió a casa i m'ha fet pensar en tu.»* Això no la col·loca en el banc dels acusats.\n\nQuin d'aquests encaixa més amb com sou les dues?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1326,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 250,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "El segon i el tercer em semblen més naturals per a nosaltres. El primer també pot funcionar, però depèn del moment.\n\nAra bé, m'agradaria assajar-ho de veritat. Pots fer tu de la meva germana i jo faig de mi mateixa? Així puc veure com sona quan ho dic en veu alta."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar, podem fer-ho.\n\nUna cosa abans: jo no sé com és la teva germana, així que faré un personatge genèric d'una noia de setze anys que pot estar una mica a la defensiva. Si en algun moment notes que no s'assembla gens a ella, para i digue'm com ajustar-ho.\n\nQuan vulguis, comença tu.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1670,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 99,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "D'acord. Comencem.\n\nEi, he vist que últimament hi ha hagut una mica de tensió a casa amb el tema dels diners. Com estàs amb tot això?"
+  },
+  {
+   "qui": "TARA",
+   "text": "*S'encongeix d'espatlles sense mirar-te.*\n\nBé. Tampoc és per tant.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1820,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ja... no dic que sigui per tant. Només tenia curiositat per saber com ho vius tu."
+  },
+  {
+   "qui": "TARA",
+   "text": "*Et mira un segon, una mica de reüll.*\n\nPer què? T'han dit alguna cosa, els pares?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1881,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 35,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "id": "N2-G162",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "que-faig · els diners i la paga",
+ "tipus": "que-faig",
+ "persona": "Sara, padrastre. Situació: els diners i la paga. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:32:39.057Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tinc un dubte sobre la paga de la meva fillastra. Té dotze anys i fins ara no li donàvem cap paga setmanal, però la meva parella i jo estem pensant si és el moment de començar-ne una. El problema és que no ens posem d'acord en com fer-ho: si donar-li una quantitat fixa sense condicions, o si lligar-la a unes tasques de casa. Les dues opcions tenen els seus avantatges, però no sé quina és millor per a ella. No sé què fer, digues-m'ho tu."
+  },
+  {
+   "qui": "TARA",
+   "text": "És una bona pregunta, i té molta molta molla.\n\nCom que m'has demanat que et digui jo, t'ho dic: no hi ha una única resposta correcta, però sí que hi ha arguments clars per a cada opció. Aquí van:\n\n---\n\n**Paga fixa sense condicions**\nLa fillastra aprèn a gestionar diners com a part de la vida familiar, no com un salari. Les tasques de casa les fa perquè és membre de la família, no per cobrar. Això pot reforçar el sentiment de pertinença.\n*Implica:* confiar que farà les tasques igualment, i tenir una conversa clara sobre per què les fa.\n\n---\n\n**Paga lligada a tasques**\nAprèn que els diners venen d'un esforç concret. Pot ser motivador a curt termini.\n*Implica:* gestionar els dies que no fa les tasques (li treus la paga? en part?), i que pot acabar fent les coses \"per diners\" i no per responsabilitat compartida.\n\n---\n\n**Una opció intermèdia** que moltes famílies troben útil:\nPaga fixa + unes poques tasques bàsiques que tothom fa a casa, sense lligar-les econòmicament. Si vol guanyar una mica més, hi ha tasques extres opcionals.\n\n---\n\nAmb dotze anys, la majoria d'especialistes en criança s'inclinen per la paga fixa o la combinació, perquè separa la responsabilitat domèstica de la recompensa econòmica.\n\nPerò la decisió és vostra. Hi ha alguna cosa d'aquestes opcions que encaixi més amb com funciona la vostra família?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 318,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 441,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies per explicar-ho tan clarament. L'opció intermèdia m'ha semblat la més equilibrada, la veritat. Crec que encaixa bé amb el que busquem. Però ara em pregunto com ho posem en marxa, és a dir, com li expliquem tot això a la fillastra de manera que ho entengui bé i ho accepti. Per on comencem?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona elecció per començar: explicar-li-ho directament i amb calma, com si fos una conversa de família, no una norma que li cau del cel.\n\nAquí tens uns passos concrets:\n\n---\n\n**1. Trieu un moment tranquil**\nSense presses, sense que sigui just després d'un conflicte. Pot ser un sopar tranquil o una estona relaxada al cap de setmana.\n\n**2. Expliqueu-li el \"per què\" primer**\nAbans de les xifres i les tasques, digueu-li que heu pensat en ella i que creieu que ja té edat per aprendre a gestionar els seus diners. Això la fa sentir reconeguda, no controlada.\n\n**3. Presenteu-li les tres parts juntes**\n— Una paga fixa setmanal (decidiu vosaltres la quantitat, segons el que us sembli raonable).\n— Unes tasques bàsiques que tothom fa a casa, perquè en forma part.\n— La possibilitat de guanyar una mica més amb tasques extres si ella vol.\n\n**4. Deixeu-li espai per preguntar o opinar**\nPotser té alguna idea sobre quines tasques li semblen bé. Escoltar-la no vol dir que ella decideixi, però fa que ho senti seu.\n\n**5. Poseu-ho per escrit, si us va bé**\nUn paper senzill a la nevera pot ajudar a evitar malentesos després.\n\n---\n\nVoleu preparar alguna frase concreta per a la conversa, o ja en teniu prou amb això?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 864,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 416,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Molt bé, crec que amb això ja en tenim prou per tirar endavant. Ho parlarem amb la meva parella aquesta nit i intentarem organitzar la conversa amb la fillastra aviat. Moltes gràcies per l'ajuda, ha estat molt útil."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que us hagi estat útil. Bona sort amb la conversa d'aquesta nit, i amb la de la fillastra.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1354,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 47,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

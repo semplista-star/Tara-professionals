@@ -1,0 +1,55 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad práctica de Rosa en cada momento y se reajustó correctamente cuando recibió la corrección, aunque introdujo algunas atribuciones y fórmulas de validación no pedidas.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Qué agotador debe ser llegar a la cena y saber que probablemente va a haber tensión otra vez.",
+   "esperat": "Reconocer lo que Rosa ha descrito sin proyectar un estado emocional no expresado; por ejemplo, preguntar directamente qué necesita."
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que empeore",
+   "esperat": "Omitir la validación formulaica y pasar directamente a la observación o la pregunta útil."
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "es muy difícil que alguien de doce años pueda escuchar y cambiar cómo se expresa",
+   "esperat": "No atribuir dificultades internas a Marcos a partir de lo que Rosa ha descrito; limitarse a los hechos observados."
+  },
+  {
+   "torn": 5,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Claro, tiene mucho sentido.",
+   "esperat": "Aceptar la corrección y reformular sin añadir validación automática."
+  },
+  {
+   "torn": 6,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "¿Quieres preparar también qué hacer si, al contrario, se abre y quiere hablar?",
+   "esperat": "Rosa no había pedido ese escenario; cerrar el turno sin ofrecer extensión no solicitada."
+  },
+  {
+   "torn": 6,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Con doce años, muchas veces la reacción inmediata es defensiva, pero luego algo queda.",
+   "esperat": "No generalizar sobre el comportamiento de Marcos a partir de su edad; ceñirse a lo que Rosa ha observado."
+  }
+ ]
+}

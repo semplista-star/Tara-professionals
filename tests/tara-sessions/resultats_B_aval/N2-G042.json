@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va entendre que Rosa necessitava eines concretes per gestionar l'hora de dormir, va explicar el límit del canal sense dramatisme i va oferir ajuda pràctica i aplicable.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que estiguis esgotada.",
+   "esperat": "Reconèixer l'esgotament sense fórmula fixa; ja havia fet una validació similar al torn 1 ('esgota molt')"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "I després la culpa per haver cridat.",
+   "esperat": "Rosa havia dit que es sentia fatal, no havia nomenat 'culpa'; millor reflectir el que ella havia dit: 'i et sents fatal després'"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Quan el cervell d'un nen de nou anys sap el que ve, resisteix menys.",
+   "esperat": "La justificació teòrica no era demanada; n'hi havia prou amb descriure l'acció sense explicar el mecanisme neurològic"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Els primers dies potser insistirà igualment, però si mantens la frase i no entres al debat, sol anar cedint.",
+   "esperat": "Rosa ja havia donat les gràcies i tancat; aquest avís preventiu no era demanat i allarga la sessió innecessàriament"
+  }
+ ]
+}

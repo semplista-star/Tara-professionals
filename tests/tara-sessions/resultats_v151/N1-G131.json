@@ -1,0 +1,97 @@
+{
+ "id": "N1-G131",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "demanda-directa · un grup disruptiu a última hora",
+ "tipus": "demanda-directa",
+ "persona": "Marc, vetlladora. Situació: un grup disruptiu a última hora. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:19:11.136Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bona tarda. Necessito ajuda per gestionar un grup que es posa molt disruptiu a última hora del dia. Em podries donar un missatge curt que pugui dir-los per reconduir la situació?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona tarda.\n\nAquí tens un missatge curt que pots adaptar:\n\n---\n\n*«Noto que el grup està molt activat ara. Necessito que aturem un moment: respirem, ens assentem, i continuem junts els últims minuts. Gràcies.»*\n\n---\n\nSi vols, pots afegir un gest concret —demanar que posin les mans a la taula, que tanquin els ulls un segon, o simplement silenci durant cinc segons abans de continuar. De vegades el gest ancla més que les paraules.\n\nVols que l'ajustem a l'edat del grup o al to que fas servir habitualment?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 196,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 178,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, si us plau. El trobo una mica llarg. El podries fer més curt i una mica més ferm?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tens:\n\n---\n\n*«Paro. Tothom quiet i en silenci. Continuem.»*\n\n---\n\nBreu, clar i sense negociació. Vols canviar alguna paraula?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 410,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 59,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, això és el que necessitava. Moltes gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. Bona sort amb el grup!",
+   "tags": [],
+   "usage": {
+    "input_tokens": 492,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

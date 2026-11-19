@@ -1,0 +1,140 @@
+{
+ "id": "N1-G087",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "que-faig · conflictes constants al pati entre dos grups",
+ "tipus": "que-faig",
+ "persona": "Àlex, tutor de 4º de ESO. Situació: conflictes constants al pati entre dos grups. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:16:56.239Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tengo un problema con dos grupos de alumnos de mi tutoría que llevan semanas enfrentándose en el patio. Insultos, tensión, algún empujón ya ha habido. He estado dándole vueltas y no sé si intervenir yo directamente hablando con los dos grupos juntos, o si es mejor escalar el tema a jefatura. Los dos enfoques tienen sus riesgos y no quiero equivocarme. No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Llevas semanas con esto encima, y ya ha habido empujones — entiendo que quieras resolverlo bien y que la incertidumbre pese.\n\nNo voy a decirte qué hacer, porque eso te corresponde a ti y depende de cosas que solo tú conoces. Pero sí puedo ayudarte a ver qué implica cada camino:\n\n---\n\n**Intervenir tú directamente con los dos grupos juntos**\n- Puede ser potente si hay confianza contigo y los grupos están en condiciones de escucharse.\n- El riesgo: si la tensión es alta o hay liderazgos muy marcados, una sesión conjunta puede escalar en vez de calmar. También te coloca en una posición de mediación que requiere mucho control del espacio.\n- Suele funcionar mejor si antes hablas por separado con cada grupo.\n\n**Escalar a jefatura**\n- Aporta respaldo institucional y puede ser necesario si ya hay violencia física, aunque sea leve.\n- El riesgo: si los grupos lo viven como \"nos han delatado\", puede aumentar la tensión o cerrar la posibilidad de diálogo posterior.\n- No tiene por qué ser en lugar de tu intervención, sino además de ella.\n\n---\n\nUna pregunta que puede ayudarte a decidir: **¿los empujones han sido puntuales o hay un patrón que se repite?** Eso cambia bastante el peso de cada opción.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 268,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 367,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bueno, los empujones han pasado dos veces ya, así que hay un patrón. Eso me preocupa. Pero igualmente, aunque me hayas explicado los pros y los contras, yo necesito que me digas cuál de las dos opciones es la mejor. Dímelo directamente."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entiendo que quieres una respuesta clara, y te la doy con honestidad: no puedo elegir por ti, y no sería útil que lo hiciera. Tú conoces a esos grupos, el clima del centro, y lo que cada opción significa en tu contexto concreto. Yo no tengo eso.\n\nLo que sí puedo decirte es esto:\n\nCon dos episodios de empujones ya registrados, **escalar a jefatura no es opcional en muchos centros** — puede ser parte del protocolo de convivencia, independientemente de lo que decidas hacer tú además. Vale la pena que compruebes si tu centro tiene un protocolo que marque ese umbral.\n\nEso no cierra tu intervención como tutora. Puedes informar a jefatura **y** preparar algo con los grupos. No son excluyentes.\n\nSi quieres, te ayudo a preparar cualquiera de los dos pasos: cómo plantear el caso a jefatura, o cómo estructurar una intervención con los grupos por separado antes de cualquier encuentro conjunto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 713,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 270,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Vale, tienes razón. Me quedo con la opción de hablar primero con cada grupo por separado. ¿Por dónde empiezo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien. Antes de darte una estructura, una cosa que ayuda mucho: **¿tienes ya alguna idea de qué está alimentando el conflicto?** ¿Hay algo concreto que lo inició, o es más difuso — territorio, pertenencia, algo que se fue acumulando?\n\nEso cambia bastante cómo enfocar esas conversaciones.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1023,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 96,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, creo que empezó por una discusión sobre quién ocupa una zona del patio. Algo de territorio, básicamente. Luego se fue cargando de más cosas, comentarios, redes sociales... pero el origen es ese."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido que se haya complicado — lo que empieza por un espacio físico acaba cargándose de identidad y orgullo, y eso es más difícil de mover.\n\nCon ese contexto, aquí tienes una estructura para las conversaciones por separado:\n\n---\n\n**Con cada grupo, en momentos distintos**\n\n**1. Abrir sin acusar**\nEmpieza desde lo que observas, no desde el juicio.\n*\"He visto que hay mucha tensión últimamente entre vosotros y el otro grupo. Quiero entender qué está pasando desde vuestro lado.\"*\n\n**2. Escuchar su relato**\nDeja que cuenten. No corrijas ni rebatas todavía. Lo que importa aquí es que se sientan escuchados, y que tú veas qué narrativa tienen.\n\n**3. Separar hechos de interpretaciones**\nCuando aparezcan frases como *\"es que ellos siempre...\"* o *\"nos tienen manía\"*, puedes preguntar:\n*\"¿Qué pasó exactamente? ¿Qué visteis o escuchasteis?\"*\n\n**4. Explorar qué necesitan**\nNo el patio entero — sino qué les importa de verdad. A veces es reconocimiento, a veces es simplemente sentirse seguros.\n\n**5. Cerrar con una pregunta concreta**\n*\"¿Qué necesitaríais para que esto fuera diferente?\"*\n\n---\n\n¿Quieres que trabajemos el lenguaje concreto para alguno de estos momentos, o cómo gestionar si la conversación se calienta?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1183,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 420,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, creo que con esto ya tengo suficiente para empezar. Muchas gracias, ha sido útil."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te haya servido. Mucho ánimo con las conversaciones — y si luego quieres pensar cómo seguir, aquí estaré.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1635,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 55,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "id": "N1-G142",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "que-faig · una família que l'ha cridat per telèfon",
+ "tipus": "que-faig",
+ "persona": "Joan, coordinador de convivencia. Situació: una família que l'ha cridat per telèfon. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:38:29.797Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tengo un problema con un alumno que está haciendo la vida imposible a otro en clase. Los padres del que sufre me han llamado y me piden que expulse al otro chico. Pero yo no lo veo tan claro. No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entiendo que estás en un momento de presión, con los padres encima y sin tener claro el camino.\n\nNo puedo decirte qué hacer, porque esa decisión te corresponde a ti y depende de cosas que solo tú conoces. Pero sí puedo ayudarte a pensarlo.\n\nPara orientarte bien, necesito entender un poco más la situación. ¿Qué es lo que has observado tú directamente, o lo que tienes documentado, sobre lo que está pasando entre los dos chicos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 215,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 133,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bueno, hay incidentes registrados, sí. Insultos, algún empujón. Pero también sé que el otro chico a veces provoca. No es tan simple. Por eso te digo, dame opciones, ¿qué haría yo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes incidentes registrados y a la vez una situación que no es en blanco y negro. Eso complica la decisión, y tiene sentido que no lo veas claro.\n\nTe doy tres opciones con lo que implica cada una:\n\n1) Aplicar una medida disciplinaria al alumno señalado, que puede incluir la expulsión que piden los padres. Responde a la demanda de las familias y manda una señal clara de que los incidentes tienen consecuencias. El riesgo es que, si la dinámica es bidireccional, no resuelve el fondo y puede generar más tensión.\n\n2) Abrir un proceso de intervención antes de decidir medidas. Hablar por separado con los dos alumnos, con sus familias y, si tienes orientación en el centro, implicarla. Esto te da más información y más base para actuar. Requiere tiempo y puede que los padres que han llamado lo vivan como que no haces nada.\n\n3) Combinar una medida inmediata más leve, que deje claro que los incidentes no son aceptables, con un proceso de seguimiento. No es expulsión, pero sí una respuesta visible. Exige que puedas sostener ese proceso y que el centro te respalde.\n\nAntes de decidir, hay algo que solo tú puedes valorar: ¿qué nivel de riesgo real crees que corre el alumno que sufre ahora mismo, mientras se abre cualquier proceso?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 416,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 372,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La tercera. Eso tiene más sentido. ¿Por dónde empiezo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Por dejar claro qué medida inmediata vas a aplicar y comunicarla antes de hacer nada más. Así tienes una base firme cuando hables con las familias.\n\n¿Qué medidas leves tienes disponibles en tu centro, o quieres que pensemos juntos cómo formularla?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 814,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 80,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tengo el amonestamiento y la separación de grupo temporal. Creo que con eso puedo tirar. Gracias, me ha ayudado."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien. Con eso tienes margen para actuar y para sostener el proceso después.\n\nSi en algún momento quieres preparar la conversación con las familias o con los chicos, aquí estoy.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 935,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 63,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "id": "N2-G174",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "demanda-directa · l'hora d'anar a dormir",
+ "tipus": "demanda-directa",
+ "persona": "Aina, familia de acogida. Situació: l'hora d'anar a dormir. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:32:52.824Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Necesito ayuda para la hora de dormir. El niño que tenemos en acogida no quiere irse a la cama y cada noche hay conflicto. ¿Me puedes dar una frase corta para decirle cuando empiece a resistirse?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Algo así:\n\n**\"Es la hora de dormir. Te acompaño un momento y luego apago la luz.\"**\n\nAnuncia lo que va a pasar, ofrece tu presencia y deja claro el límite, sin negociar.\n\nSi quieres, puedo ajustarla a cómo habláis vosotros o a la edad que tiene.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 231,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 95,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Está bien, pero me parece un poco fría. ¿La puedes hacer un poco más cálida, sin perder el límite?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro:\n\n**\"Venga, que te arropo yo. Es hora de descansar.\"**\n\nMisma estructura: presencia tuya, límite claro. Pero entra por el cuidado, no por la norma.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 363,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 60,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, así está mejor. Muchas gracias, lo probaré esta noche."
+  },
+  {
+   "qui": "TARA",
+   "text": "Espero que vaya bien esta noche. Si quieres contarme cómo ha ido o necesitas ajustar algo, aquí estaré.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 448,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 41,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

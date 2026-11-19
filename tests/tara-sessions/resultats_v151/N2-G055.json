@@ -1,0 +1,163 @@
+{
+ "id": "N2-G055",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "desfogar-demanda · l'hora d'anar a dormir",
+ "tipus": "desfogar-demanda",
+ "persona": "Xavi, padrastro. Situació: l'hora d'anar a dormir. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:26:24.502Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara. Mira, hoy solo quiero que me escuches un momento, sin consejos ni nada. ¿Puede ser?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Aquí estoy, escuchándote.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 202,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bueno, pues... el otro día mi hijastro, el Marc, que tiene 13 años, me dijo delante de su madre que yo no soy su padre y que no tengo que decirle lo que tiene que hacer. Y yo me quedé ahí, sin saber qué cara poner. Como un mueble, pero con sentimientos. 😅"
+  },
+  {
+   "qui": "TARA",
+   "text": "«Como un mueble, pero con sentimientos» — eso lo dice todo.\n\nQuedarte ahí, sin saber qué cara poner, delante de los dos. Eso duele.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 309,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 50,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, duele bastante. Y lo peor no es lo que dijo, porque tampoco es mentira, ¿no? Técnicamente no soy su padre. Pero llevamos cinco años juntos y yo... no sé, pensaba que algo había calado. Y resulta que en el momento del enfado soy el intruso. Mala sensación."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cinco años, y en un momento de enfado eres el intruso. Eso es una sensación muy dura de sostener.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 449,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 34,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto. Y luego ya por la noche, cuando se calmó todo, el Marc vino a pedirme si le podía llevar al entreno al día siguiente, tan tranquilo. Como si nada. Y yo le dije que sí, claro. Porque soy así de tonto. 😄 Pero por dentro seguía con el nudo ese."
+  },
+  {
+   "qui": "TARA",
+   "text": "Le dijiste que sí, le llevaste al entreno, y el nudo seguía ahí dentro. No es ser tonto — es que tú sigues siendo tú aunque duela.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 577,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 46,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... sí, tienes razón. Oye, y ya que estás aquí, ¿me puedes ayudar con una cosa concreta? Es que no sé cómo hablar con él de esto. No quiero que sea un drama ni un sermón, pero tampoco quiero dejarlo pasar. ¿Cómo le empiezo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Algo sencillo, sin drama, que abra la puerta sin presionar. Por ejemplo:\n\n*«Marc, lo del otro día me quedó dando vueltas. No te lo digo para reprocharte nada, solo quería que lo supieras.»*\n\nY paras ahí. Le das espacio para responder, o no. A los 13 años a veces ya es mucho que alguien diga algo sin convertirlo en bronca.\n\n¿Te suena a algo que podrías decir tú, con tus palabras?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 714,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 139,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, me suena bien. Lo adaptaré un poco, que si no parezco un robot con guion. 😄 Pero la idea es buena, eso de decirlo y ya, sin esperar respuesta inmediata. Me quedo con eso. Gracias, Tara, en serio. Me ha ido bien hablar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Suerte con la conversación — y con el entreno. 😄",
+   "tags": [],
+   "usage": {
+    "input_tokens": 941,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

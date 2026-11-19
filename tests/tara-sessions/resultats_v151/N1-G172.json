@@ -1,0 +1,184 @@
+{
+ "id": "N1-G172",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "desfogar-demanda · dues famílies enfrontades per un conflicte entre els fills",
+ "tipus": "desfogar-demanda",
+ "persona": "Rosa, cap d'estudis. Situació: dues famílies enfrontades per un conflicte entre els fills. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:22:16.154Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Gràcies per rebre'm. Avui, si et soc sincera, només necessito que m'escoltin. Res més de moment."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'escolto. Explica'm el que vulguis.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 182,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bé. Tenim dues famílies al centre que estan molt enfrontades. Els fills van tenir un incident greu fa unes setmanes, i ara les famílies han escalat el conflicte fins a un punt que ja afecta tot el grup classe. Cada família vol que li donem la raó, i jo estic al mig intentant mantenir la calma i fer el que és just. És una situació molt desgastant."
+  },
+  {
+   "qui": "TARA",
+   "text": "Estar al mig d'un conflicte així, intentant fer el que és just mentre les dues famílies t'empenten cap als seus costats... és molt desgastant, sí. I tu ho estàs sostenint.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 309,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 59,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exactament. I el pitjor és que els nens ja estan millor entre ells, però les famílies no han sabut fer el mateix. Sembla que el conflicte ja no és dels fills, és dels adults. I jo he de gestionar això cada dia."
+  },
+  {
+   "qui": "TARA",
+   "text": "Els nens han trobat el camí i els adults s'han quedat enrere. I tu carregues amb allò que ells no han pogut resoldre. Té molt de sentit que et pesi.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 435,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 54,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, és exactament això. I a vegades em pregunto si estic fent prou, o si hauria d'haver actuat d'una altra manera abans. Però avui no vull analitzar-ho massa. Només volia explicar-ho i que algú ho entengués."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ho he entès. Gràcies per explicar-ho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 563,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 19,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies a tu per escoltar. De fet... ara que ho he explicat, sí que hi ha una cosa concreta que et voldria demanar. Com podria iniciar una primera conversa amb les dues famílies juntes sense que es torni a encendre tot des del primer moment?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona pregunta. Aquí tens algunes idees per a aquella primera trobada:\n\n**Abans de reunir-les juntes**, pot ajudar molt fer una conversa breu i separada amb cada família. No per resoldre res, senseó per dir-los: *\"Vull que sapigueu que us escolto. I vull que aquesta reunió serveixi per als vostres fills, no per guanyar ni perdre.\"* Així arriben una mica més preparades.\n\n**A l'inici de la reunió conjunta**, pots marcar el terreny tu mateixa, amb calma i claredat:\n- Explicar quin és l'objectiu: *\"Estem aquí pels nens, que ja estan bé entre ells. Volem que els adults també puguem estar bé.\"*\n- Acordar una norma senzilla: parlar de fets i de com ens sentim, no d'acusacions.\n- Deixar clar el teu rol: no ets jutge, ets la persona que facilita.\n\n**Durant la conversa**, si s'escalfa, pots aturar amb una frase neutra com: *\"Un moment. Vull assegurar-me que tots dos us sentiu escoltats. Comencem per aquí.\"*\n\nVols que t'ajudi a preparar alguna d'aquestes parts amb més detall, o a redactar alguna frase concreta?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 655,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 355,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies, però m'has donat massa coses de cop. Jo et demanava un primer pas, una idea senzilla. Amb això ja en tinc prou per ara."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, me n'he anat massa lluny. El primer pas: una conversa breu i separada amb cada família abans de reunir-les. Res més de moment.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1059,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 46,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte. Això ja m'ajuda. Gràcies per escoltar-me avui, ho necessitava. Fins aviat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Fins aviat. Ha estat un plaer escoltar-te.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1143,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (un mensaje para frenar la presión) y aceptó la corrección sin insistir, aunque en el turno 7 se adelantó añadiendo una redirección institucional que la persona no había pedido.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Qué incómodo estar en medio de eso",
+   "esperat": "Preguntar qué necesita sin atribuir el estado emocional"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Bien que los niños estén bien. Eso es lo más importante.",
+   "esperat": "Acusar recibo sin valorar ni jerarquizar lo que importa más"
+  },
+  {
+   "torn": 7,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Si necesitáis resolver lo que pasó entre las familias, el camino más adecuado es hablar con la tutora/el tutor o con el equipo directivo, que tienen más información y pueden acompañaros mejor.",
+   "esperat": "Limitarse al mensaje que la persona pidió, sin añadir redirección institucional no solicitada"
+  },
+  {
+   "torn": 7,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Algunas cosas que hace este texto: - No toma partido ni se disculpa por no hacerlo. - Explica el límite con honestidad, no como excusa. - Redirige a quien sí puede ayudar. - Da una nota positiva real: los niños están bien.",
+   "esperat": "Ofrecer el borrador sin desglosar su funcionamiento; la persona no pidió explicación del texto"
+  }
+ ]
+}

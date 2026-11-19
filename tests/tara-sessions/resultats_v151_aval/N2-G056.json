@@ -1,0 +1,76 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat central (eina pràctica per al moment de crisi), però va afegir validacions formulaiques i un elogi automàtic que no ajudaven i allargaven els torns innecessàriament.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Si tens dubtes sobre la privacitat, el millor és consultar-ho directament amb qui t'ha facilitat accés a aquesta eina, abans de compartir res que prefereixis mantenir privat. Pots decidir tu fins on vols explicar, i si prefereixes no identificar persones concretes, podem treballar amb situacions descrites de manera general. Estàs a temps de triar.",
+   "esperat": "Respondre la pregunta de privacitat de forma breu i clara, sense afegir consells no demanats sobre com gestionar la informació compartida."
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "No cal que demanis perdó, estàs explicant-ho molt bé.",
+   "esperat": "Ometre el judici valoratiu i passar directament a la reflexió o la pregunta."
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Quan dius que acaba en crits — com sol anar, la cosa? Comença amb resistència seva, amb cansament, amb alguna cosa que diu...?",
+   "esperat": "Joan ja havia descrit prou el patró; la pregunta demana detalls que no eren necessaris per avançar i pot semblar un interrogatori."
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "El que descrius té molt de sentit",
+   "esperat": "Evitar la fórmula validadora repetida; reflectir el contingut concret sense etiqueta de normalització."
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "No ho expliquis com a culpa — ho expliques com algú que ho intenta i s'esgota. Això és diferent.",
+   "esperat": "No reinterpretar ni corregir com Joan nomena la seva experiència; acceptar la seva formulació i continuar."
+  },
+  {
+   "torn": 5,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit.",
+   "esperat": "Tercera vegada que apareix una fórmula de validació similar; suprimir-la o variar-la substancialment."
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "És exactament el que necessitava saber. I no és ni massa concret ni massa vague — és just.",
+   "esperat": "Ometre el judici sobre la qualitat de la pregunta de Joan i passar directament a l'ajuda pràctica."
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Cap de les tres és màgica ni funciona sempre. Però si en tries una i la proves aquesta setmana, ja és molt. Alguna et sembla possible de provar?",
+   "esperat": "Oferir les eines i deixar que Joan triï sense afegir una pregunta de seguiment que allarga el torn quan la persona ja havia demanat quelcom concret i aplicable."
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "M'alegra que tinguis alguna cosa per provar. Aixecar-se i sortir és senzill i no requereix pensar gaire en aquell moment — és exactament el que necessitaves.",
+   "esperat": "Tancar amb calidesa sense repetir ni avaluar l'elecció de Joan."
+  }
+ ]
+}

@@ -1,0 +1,206 @@
+{
+ "id": "N2-G062",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "desfogar-demanda · un fill que menteix sovint",
+ "tipus": "desfogar-demanda",
+ "persona": "Óscar, tieta que cuida la nena. Situació: un fill que menteix sovint. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:40:17.024Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Avui, si no li fa res, simplement necessito que m'escolti."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estic. Explica'm.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 187,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. Doncs miri, soc l'Óscar, el tiete de la Laia. La cuido jo perquè els pares no poden en aquest moment. I el que m'està preocupant és el seu germà gran, el Pau. Té deu anys i menteix molt sovint. Coses petites, coses grans... i jo no sé molt bé com gestionar-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens cura dels dos, i el que veus amb el Pau et preocupa. T'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 308,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactament. I el que em costa més és que de vegades ni me n'adono fins que descobreixo la mentida per casualitat. Ahir, per exemple, em va dir que havia fet els deures i resulta que no havia fet res. I quan li ho vaig dir, va negar-ho fins al final, fins que no hi havia manera de seguir negant-ho. Això és el que em pesa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Descobrir-ho per casualitat, i després veure que ho nega fins al final... entenc que pesi.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 442,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, és exactament això. I no és la primera vegada, ni la segona. És un patró que es repeteix i que em genera molta incertesa sobre com he de respondre jo en aquells moments. No vull reaccionar malament, però tampoc vull que quedi sense cap conseqüència."
+  },
+  {
+   "qui": "TARA",
+   "text": "Vols respondre d'una manera que tingui sentit, ni ignorar-ho ni explotar. Té molta lògica que et generi incertesa, perquè és un equilibri difícil de trobar.\n\nVols que explorem junts com podries respondre en aquells moments?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 549,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 75,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ara mateix no, gràcies. Encara necessito acabar d'explicar-me una mica. Volia que algú m'escoltés primer, abans de passar a buscar solucions."
+  },
+  {
+   "qui": "TARA",
+   "text": "Endavant, t'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 676,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 13,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs el que em pregunto és si el Pau menteix perquè té por de les conseqüències, o si hi ha alguna altra cosa al darrere. Perquè la situació familiar no és fàcil, i potser ell ho porta a la seva manera. Però no ho sé. Simplement ho tinc aquí, donant voltes."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ho tens aquí, donant voltes, sense saber ben bé la resposta. I té sentit que et facis aquesta pregunta, coneixent la situació que estan vivint.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 780,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 47,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. I el fet de no saber-ho és el que em resulta més difícil de gestionar. Però bé, crec que ja m'ha ajudat poder dir-ho en veu alta. Gràcies per escoltar-me.\n\nAra sí, si em pot ajudar amb una cosa concreta... Quan el Pau nega una mentida evident, com podria respondre jo en aquell moment? Només un primer pas, si pot ser."
+  },
+  {
+   "qui": "TARA",
+   "text": "Has pogut dir-ho en veu alta, i ara vols un primer pas concret.\n\nQuan la negació és evident, una cosa que pot ajudar és no entrar en el debat de si va passar o no. Pots dir-li, per exemple: \"Pau, jo ja sé el que ha passat. No necessito que m'ho confirmis. El que m'importa és com ho fem ara.\"\n\nAixí no li dones terreny per seguir negant, i el portes cap endavant en lloc de quedar-vos encallats.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 943,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 136,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Té sentit. Treure el focus de la negació i posar-lo en el que ve després. Això ho puc provar. Moltes gràcies, de veritat, tant per escoltar-me com per aquest primer pas. Ha estat d'ajuda."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que hagi estat d'ajuda. Molta sort amb el Pau, i amb tot el que porteu.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1146,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 43,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

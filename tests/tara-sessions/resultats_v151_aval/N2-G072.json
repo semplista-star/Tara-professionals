@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va entendre des del primer torn que la persona volia frases concretes i no teoria, va recollir l'emoció en una línia i va lliurar el contingut demanat; al torn 2 va acceptar la correcció i va ajustar el to sense resistència.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "És normal que et sàpiga greu. Pots estar trista.",
+   "esperat": "Aquesta frase és una proposta de guió per a la nena, però el verb 'és normal' és una fórmula validadora que TARA hauria d'evitar fins i tot en textos que redacta per a tercers; millor: 'Pots estar trista, i jo soc aquí.'"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Una cosa pràctica: a 6 anys, les preguntes concretes pesen més que les explicacions llargues. Si pregunta «on dormiré?» o «qui em portarà a l'escola?»...",
+   "esperat": "El paràgraf de consell pedagògic no havia estat demanat; la persona va demanar frases concretes, no orientació sobre com gestionar preguntes; hauria pogut ometre's o reservar-se per si la persona ho demanava."
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Ella notarà que ets tu, que l'estimes, que no li estàs amagant res. Això és el que arriba.",
+   "esperat": "TARA atribueix a la nena una percepció futura ('notarà') i a la tieta un sentiment ('l'estimes') que no han estat expressats; millor ometre aquesta frase o formular-la com a hipòtesi oberta."
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "La veritat és que el més important no és trobar les paraules perfectes.",
+   "esperat": "La persona havia demanat un to més natural, no una reflexió sobre la importància de les paraules; aquesta frase afegeix un missatge normatiu no sol·licitat."
+  }
+ ]
+}

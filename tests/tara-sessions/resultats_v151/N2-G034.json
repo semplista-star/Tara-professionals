@@ -1,0 +1,119 @@
+{
+ "id": "N2-G034",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "demanda-directa · una mudança que el fill no vol",
+ "tipus": "demanda-directa",
+ "persona": "Aina, tutora legal. Situació: una mudança que el fill no vol. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:25:11.591Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, bona tarda. Perdona que molesti... és que tinc una situació una mica complicada amb el meu fill i no sé molt bé com gestionar-la. Ens hem de mudar i ell no vol ni sentir-ne parlar. Podries ajudar-me a trobar algunes frases o un missatge curt per dir-li? Alguna cosa que l'ajudi a entendre que ho hem de fer però que no se senti malament..."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona tarda! No molestes gens.\n\nEntenc que vols alguna cosa concreta per dir-li, i t'ho preparo. Abans, una sola cosa que m'ajudaria a fer-ho millor: quina edat té el teu fill, aproximadament?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 282,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 73,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, sí, perdona que no ho havia dit! Té onze anys. És que... no sé, a vegades penso que potser és massa gran per a certes explicacions però massa petit per a d'altres, i no sé ben bé com parlar-li. Disculpa si no m'explico gaire bé."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'expliques perfectament, no et disculpis.\n\nOnze anys és una edat on ja entén molt, i precisament per això li pot pesar més: veu que la decisió és real i que no pot canviar-la. El que sol ajudar és reconèixer-li això obertament, sense intentar convèncer-lo que estarà bé de seguida.\n\nAquí tens una opció:\n\n---\n\n*«Sé que no vols marxar, i té tot el sentit que et sàpiga greu. Deixar el que coneixes és dur. Hem de fer aquesta mudança, però vull que sàpigues que el que sents m'importa, i que ho farem junts.»*\n\n---\n\nPots adaptar-la com vulguis. Si vols, també et puc preparar una versió més curta, o una per si ell respon amb silenci o enfado.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 439,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 230,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, gràcies, és molt bonica. Però... no sé, potser podries fer-la una mica més curta? És que el meu fill de vegades si li dic massa coses de cop es tanca i deixa d'escoltar. Perdona si soc molt exigent..."
+  },
+  {
+   "qui": "TARA",
+   "text": "No ets gens exigent, tens molt bona intuïció sobre com és ell.\n\nAquí va:\n\n---\n\n*«Sé que no vols marxar. Té tot el sentit. Ho farem junts.»*\n\n---",
+   "tags": [],
+   "usage": {
+    "input_tokens": 745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 63,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Oh, aquesta m'agrada molt més. És perfecta, gràcies. Crec que així sí que l'escoltarà. Moltes gràcies de veritat, m'has ajudat molt!"
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que et serveixi. Bona sort amb la conversa — i amb la mudança!",
+   "tags": [],
+   "usage": {
+    "input_tokens": 864,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

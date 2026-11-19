@@ -1,0 +1,162 @@
+{
+ "id": "N1-G147",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "rebuig · la preparació d'unes colònies amb un alumne amb crisis freqüents",
+ "tipus": "rebuig",
+ "persona": "Àlex, professor de FP. Situació: la preparació d'unes colònies amb un alumne amb crisis freqüents. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:21:19.040Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara, sí, mira, t'ho agraeixo. Estic una mica desbordada, per ser sincera. Soc professor de FP, faig cicles de cuina, i estem organitzant unes colònies de tres dies amb els alumnes de primer. I hi ha un noi, en Pau, que té epilèpsia i fa crisis amb una certa freqüència, no és que sigui una cosa rarísima però tampoc és que passi un cop a l'any, saps? I jo vull que vingui, eh, no vull deixar-lo fora, seria una llàstima perquè és un noi molt maco i li fa molta il·lusió. Però clar, tres dies fora del centre, sense infermeria, amb vint-i-dos alumnes més, i jo sola amb una altra profe... no sé, necessito pensar com ho gestiono perquè no em quedi paralitzada si passa alguna cosa. No tinc formació específica en primeres auxilis per a crisis epilèptiques i això em fa una mica de respecte, la veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'escolto, i entenc que vols que en Pau pugui venir i alhora necessites sentir-te preparada si passa alguna cosa. Té molt de sentit que et generi respecte.\n\nAbans d'entrar en com preparar-ho, hi ha una cosa que convindrà verificar fora d'aquí: el centre o el servei mèdic de referència d'en Pau hauria de confirmar-te quines condicions cal complir perquè pugui participar, i qui ha d'autoritzar-ho. Això no és una decisió que et correspongui prendre sola.\n\nDit això, puc ajudar-te a pensar en concret. Pel que descrius, hi ha tres fils:\n\n**1. Informació mèdica i protocol individual**\nParlar amb la família i, si és possible, amb el metge o metgessa d'en Pau per tenir per escrit: com són les seves crisis, quant duren habitualment, quan cal actuar i com, si porta medicació d'emergència (com el diazepam rectal o midazolam nasal) i qui pot administrar-la.\n\n**2. La teva formació**\nHi ha formació bàsica en primers auxilis per a crisis epilèptiques que es pot fer en poques hores. La Lliga Catalana de l'Epilèpsia o la Creu Roja en fan. No és imprescindible ser experta, però saber els passos bàsics —posició lateral de seguretat, cronometrar la crisi, quan trucar al 112— et pot treure molta de la por.\n\n**3. El pla d'actuació a les colònies**\nTenir clar: qui fa què si passa, quin és l'hospital de referència de la zona, com es comunica amb la família.\n\nPer on vols que comencem?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 418,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 461,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, tot això que dius té sentit, però mira, el tema de la formació... ja la tinc, eh. Vaig fer un curs de primers auxilis fa dos anys que incloïa un mòdul específic d'epilèpsia, precisament perquè tenia en Pau a classe des de primer dia. Així que els passos bàsics me'ls sé, la posició lateral, cronometrar, quan trucar al 112, tot això. El que em bloqueja és una altra cosa. És més... no sé com explicar-ho. És el moment en si. Que estiguis allà, que et passi davant dels ulls, i que els altres vint-i-dos alumnes et mirin i no sàpiguen què fer i s'espantin i tu hagis de gestionar-ho tot alhora. Això és el que em fa por. No el protocol en si, sinó el caos humà que pot muntar-se al voltant."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ah, ara ho entenc molt millor. No és el «què fer» — és el «mentre ho fas, tot l'altre».\n\nVint-i-dos alumnes mirant, alguns espantats, potser algun que plora o que es queda parat, i tu intentant estar present per en Pau i alhora contenir tot allò. Això és una càrrega real.\n\nI té sentit que et bloquegi, perquè és una cosa que no es pot assajar del tot. Però sí que es pot preparar una mica.\n\nUna cosa que ajuda molt en situacions així és tenir un o dos alumnes amb un rol clar abans que passi res. No per delegar-los responsabilitat mèdica, senseó per tenir algú que faci una cosa concreta: «Si passa alguna cosa, tu vas a buscar la profe X» o «tu t'asseus aquí i no et mous». Quan algú té una tasca, no s'espaorda de la mateixa manera. I tu tens menys fronts oberts.\n\nL'altra cosa és parlar amb el grup abans de les colònies. No necessàriament esmentant en Pau, però sí normalitzant que a vegades les persones tenim situacions de salut, i que la resposta correcta és mantenir la calma i fer cas a l'adult. Uns minuts de conversa prèvia poden canviar molt com reacciona un grup de setze anys.\n\nVols que t'ajudi a preparar com fer aquesta conversa amb el grup? O primer prefereixes pensar en com coordinar-te amb l'altra professora?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1123,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 396,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, el tema de parlar amb el grup... ja ho havia pensat, però no m'acaba de convèncer fer-ho sense esmentar en Pau. Perquè clar, ells ja el coneixen, ja saben que té epilèpsia, no és cap secret. I si faig una xerrada genèrica de \"a vegades la gent té problemes de salut\" se'm quedaran mirant com dient \"Àlex, de qui estàs parlant?\" Saps? Seria una mica ridícul. A primer de FP ja no són canalla petita. Llavors o ho faig de manera directa o no ho faig, i no sé si és el meu lloc fer-ho sense parlar abans amb en Pau i la família."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó. Ho has vist molt bé — una xerrada genèrica amb aquest grup seria transparent i probablement contraproduent.\n\nI el que dius al final és clau: parlar amb en Pau i la família primer. No és només una qüestió de protocol, és de respecte. En Pau és el protagonista d'aquesta situació, i decidir com es parla d'ell al grup sense comptar amb ell seria fer-li les coses per sobre.\n\nUna conversa amb ell —i amb la família, si ell ho vol així— podria incloure tres coses:\n\nPrimer, preguntar-li com vol que es gestioni amb el grup. Potser ell mateix vol explicar-ho, potser prefereix que ho facis tu, potser no vol que es parli en absolut. És la seva informació.\n\nSegon, si decidiu fer-ho conjuntament o que ho facis tu, acordar exactament què es diu i com.\n\nTercer, aprofitar per repassar amb ell el seu protocol: com sol ser la seva crisi, si porta medicació, com vol que actuïs.\n\nAquesta conversa amb en Pau també et pot ajudar amb allò que et bloquejava: el caos humà. Perquè si el grup ja ho sap i ho ha processat, la probabilitat que s'espantin davant d'una crisi baixa molt.\n\nVols que t'ajudi a preparar com fer aquesta conversa amb en Pau?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1708,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 366,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, això sí que m'ajudaria. Perquè amb en Pau tinc bona relació, eh, però és un tema delicat i no vull que sembli que li estic dient \"ei, ets un problema que he de gestionar\", saps? Vull que surti d'una manera natural, que senti que el tinc en compte a ell, no que estic pensant en els meus maldecaps. I no sé ben bé com obrir aquesta conversa sense que sigui incòmode."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit que vulguis que ho senti així. I el fet que t'ho estiguis preguntant ja diu molt de com l'estàs enfocant.\n\nUna cosa que pot ajudar és obrir des del que és cert: que vols que vingui i que vols fer-ho bé. No des del problema, senseó des de les ganes que hi sigui.\n\nPer exemple, podries començar amb alguna cosa com:\n\n*«Pau, estic organitzant les colònies i vull que vinguis. Per fer-ho bé, necessito parlar amb tu una estona — no per posar traves, senseó perquè vull saber com prefereixes que ho gestionem si en algun moment tens una crisi. Tu ets qui millor ho sap.»*\n\nAixò fa tres coses alhora: li diu que el vols allà, li diu que no és un problema senseó una persona amb criteri, i li dona el control de la conversa.\n\nA partir d'aquí, pots deixar que ell porti el ritme. Potser t'ho explica tot de seguida, potser prefereix que parlis amb la família, potser té preguntes. No cal que ho resolguis tot en cinc minuts.\n\nVols ajustar aquesta obertura, o provar com podria continuar la conversa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2205,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 333,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, mira, això m'agrada. Això sí que m'ho veig dient, és el meu to, no és forçat. El \"tu ets qui millor ho sap\" és clau perquè és veritat i ell ho sabrà notar. Crec que amb això ja tinc prou per arrencar la conversa. I a partir d'aquí ja m'espavilo, perquè com et deia tinc bona relació amb ell i si l'obertura no és rara la resta ja fluirà. Gràcies, de veritat, m'has ajudat a desembussar-me una mica."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit. Bona sort amb en Pau — i amb les colònies.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2705,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies, Tara. Ha estat útil parlar-ho. A vegades necessites posar-ho en paraules per veure-ho més clar. Fins aviat!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Exacte, a vegades és això. Fins aviat, Àlex!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 2784,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

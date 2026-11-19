@@ -1,0 +1,27 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 2,
+ "C4": 2,
+ "C5": 2,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió la demanda pero tardó un turno en entregarla, haciendo preguntas previas que podría haber evitado o integrado en el borrador directamente.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Dame un par de datos rápidos para que el mensaje encaje bien: ¿Eres tú quien administra el grupo, o escribes como docente entre familias y alumnado? Y los insultos, ¿han sido entre alumnos, o también hay familias implicadas?",
+   "esperat": "Lliurar un primer borrador directament amb les hipòtesis més probables i oferir ajust, sense retardar l'ajuda amb preguntes prèvies"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "¡Mucho ánimo con la conversación de mañana, que esa es la parte importante!",
+   "esperat": "Tancar sense afegir valoracions ni indicacions no demanades sobre la conversa de l'endemà"
+  }
+ ]
+}

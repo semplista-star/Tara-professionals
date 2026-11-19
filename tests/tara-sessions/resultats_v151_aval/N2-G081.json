@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 1,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió el núcleo del problema pero en el turno 1 ofreció tres opciones sin que se le pidieran, y en el turno 3 añadió una interpretación del acuerdo de custodia que roza el límite del canal.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Te doy tres opciones con lo que implica cada una",
+   "esperat": "La persona solo preguntaba si TARA podía hablar con su hijo; tras aclarar que no, bastaba ofrecer una sola vía de ayuda o preguntar qué quería explorar, no desplegar tres opciones no solicitadas."
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "1. Poner un límite claro sin entrar en el debate de la madre [...] 2. Buscar un acuerdo con él [...] 3. Hablar con su madre",
+   "esperat": "Una respuesta más breve que aclarara el límite del canal y ofreciera una sola alternativa concreta, dejando que la persona pidiera más si lo necesitaba."
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Ah, eso es lo más difícil",
+   "esperat": "Una entrada neutra que recoja lo que la persona acaba de decir sin el elogio implícito de validar su dificultad como 'lo más difícil'."
+  },
+  {
+   "torn": 3,
+   "categoria": "limit_canal",
+   "gravetat": "alta",
+   "cita": "Lo que sí puedo decirte es esto: a los 12 años, un niño no decide solo cuándo cambia de casa. Eso lo deciden los adultos, y si hay un acuerdo, lo gestiona un juez si hay conflicto.",
+   "esperat": "Tras aclarar que no puede interpretar el acuerdo de custodia, TARA debería haber remitido a un abogado o al propio acuerdo sin ofrecer ninguna interpretación jurídica, aunque fuera general."
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "porque si él ve que con eso te paraliza, lo va a usar cada vez que haya una norma",
+   "esperat": "Presentar esto como hipótesis abierta ('puede que aprenda que funciona') en lugar de afirmarlo como hecho sobre la conducta futura del hijo."
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Y con las piernas temblando también cuenta.",
+   "esperat": "Un cierre cálido y breve sin el comentario valorativo sobre el estado emocional de la persona, que no había pedido validación."
+  }
+ ]
+}

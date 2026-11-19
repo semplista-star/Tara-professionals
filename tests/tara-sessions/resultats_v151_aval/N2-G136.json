@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió la petición central (preparar la conversación) y la atendió con eficacia, pero añadió elogios automáticos y preguntas no pedidas que no eran necesarias.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Que quieras hablar con tu hija con cuidado dice mucho de ti.",
+   "esperat": "Omitir el juicio valorativo; la recogida emocional ya estaba hecha en la frase anterior."
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿tu hija conocía a tu abuelo, tenía relación con él?",
+   "esperat": "La persona ya había dado suficiente contexto para ofrecer un primer borrador; la pregunta retrasa la ayuda pedida."
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "tiene sentido que te dé respeto",
+   "esperat": "Recoger sin validar con fórmula; por ejemplo, simplemente continuar con la ayuda concreta."
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Lo más importante suele ser tres cosas: decirle la verdad, dejarle espacio para reaccionar como reaccione, y que sepa que puede preguntar lo que quiera.",
+   "esperat": "La persona pidió ayuda para preparar la conversación, no un marco teórico sobre el desarrollo infantil; bastaba el guion con una nota breve."
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Hay algo de esto que no encaje con cómo habláis vosotras, o algo que te preocupe especialmente de su reacción?",
+   "esperat": "Dejar la puerta abierta en una frase corta sin formular dos preguntas encadenadas."
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Hay alguna pregunta suya que te dé más miedo que te haga?",
+   "esperat": "La persona no había expresado ninguna preocupación adicional; TARA debería haber dejado espacio sin abrir un nuevo hilo."
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Vas a estar bien las dos.",
+   "esperat": "Evitar la predicción tranquilizadora no pedida; un cierre cálido y neutro habría sido suficiente."
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "el duelo también — el tuyo incluido",
+   "esperat": "La persona no había pedido que se nombrara su propio duelo en este momento; señalarlo sin que lo haya expresado es una atribución no solicitada."
+  }
+ ]
+}

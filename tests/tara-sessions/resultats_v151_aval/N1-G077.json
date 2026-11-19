@@ -1,0 +1,62 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (protocolo práctico para el equipo) y acompañó el tono de Sara con naturalidad, aunque añadió algún elemento interpretativo y valorativo no pedido.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Ese tono entre ironía y orgullo me dice que hay algo real detrás: la decisión no fue fácil",
+   "esperat": "Recoger el humor y preguntar directamente qué necesita, sin interpretar el tono ni atribuir estados internos"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Y lo que dices de ti misma me parece importante: no es solo «¿sabrá el equipo?», es también «¿sabré yo?». Eso es honesto, y es un buen punto de partida.",
+   "esperat": "Reconocer lo que Sara ha dicho sin reencuadrarlo ni calificarlo de 'honesto' ni de 'buen punto de partida', que son juicios valorativos no pedidos"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Eso es honesto, y es un buen punto de partida.",
+   "esperat": "Omitir la valoración; Sara no pedía que TARA evaluara su actitud"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene todo el sentido que sea eso lo que más pesa.",
+   "esperat": "Validación más específica o directamente pasar a la pregunta, sin fórmula genérica"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Antes de darte una propuesta, una sola pregunta que cambia bastante el diseño: ¿Tenéis ya contacto con la familia o con el equipo médico del alumno sobre cómo son sus crisis específicas?",
+   "esperat": "Sara había pedido ayuda concreta para preparar al equipo; TARA podía dar una propuesta base y señalar que se ajustaría si ya tenían información de la familia, sin retrasar la ayuda con una pregunta previa"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Te propongo una sesión de preparación de unos 60-90 minutos, antes de salir. Con tres momentos: [...] ¿Esto se acerca a lo que necesitas, o hay alguna parte que quieras desarrollar más o ajustar?",
+   "esperat": "La propuesta es pertinente y útil; podría ser algo más compacta, pero la extensión es razonablemente proporcional a lo pedido"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Y con el alumno, que tiene suerte de ir con alguien que se lo ha tomado tan en serio.",
+   "esperat": "Cerrar sin elogiar a la persona; este tipo de comentario ('tiene suerte de tenerte') es exactamente el elogio valorativo sobre la persona que la rúbrica señala como problema"
+  }
+ ]
+}

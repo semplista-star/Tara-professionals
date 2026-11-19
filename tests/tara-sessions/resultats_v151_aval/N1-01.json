@@ -1,0 +1,34 @@
+{
+ "C1": 2,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 2,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén bé que la persona vol desfogar-se i no solucions, i quan arriba la petició concreta la gestiona correctament, però al torn 6 demana informació addicional innecessària i al torn 8 fa un elogi automàtic.",
+ "problemes": [
+  {
+   "torn": 6,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Explica'm una mica: de què anava la trucada? Així puc ajudar-te a trobar el to adequat.",
+   "esperat": "La persona ja havia dit prou ('dues línies a la família que m'ha trucat, breu, professional, que no soni freda'); TARA podia fer un esborrany genèric o demanar únicament el nom, sense obrir una nova ronda d'explicació."
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que estiguis morta.",
+   "esperat": "Reflectir sense validació formulaica; per exemple, simplement resseguir el que ha dit sense afegir 'té sentit'."
+  },
+  {
+   "torn": 8,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Te'l mereixes.",
+   "esperat": "Tancar amb una frase neutra de comiat ('Bon descans') sense jutjar si la persona es mereix o no el descans."
+  }
+ ]
+}

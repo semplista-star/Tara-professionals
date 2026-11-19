@@ -1,0 +1,184 @@
+{
+ "id": "N2-G173",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "mixta · unes notes molt dolentes",
+ "tipus": "mixta",
+ "persona": "Rubén, madrastra. Situació: unes notes molt dolentes. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:33:19.478Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, perdona que moleste... es que estoy un poco agobiada con lo de las notas de Rubén y no sé muy bien cómo hablar con él del tema. ¿Me podrías ayudar a preparar qué decirle?"
+  },
+  {
+   "qui": "TARA",
+   "text": "No molestas nada.\n\nCuéntame un poco más: ¿qué ha pasado con las notas de Rubén y qué es lo que más te cuesta de hablar con él sobre eso?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 228,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 55,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues... ha suspendido casi todo, cinco asignaturas. Y lo que más me cuesta es que yo soy su madrastra, no su madre, y no sé si tengo derecho a decirle algo, ¿sabes? Me da miedo que se lo tome mal o que piense que me estoy metiendo donde no me llaman. No sé, igual estoy exagerando..."
+  },
+  {
+   "qui": "TARA",
+   "text": "No estás exagerando. Lo que describes tiene mucho sentido: quieres ayudar y a la vez no quieres que él lo viva como una intromisión. Eso es cuidado, no exageración.\n\nUna pregunta, porque cambia bastante cómo preparar la conversación: ¿convivís juntos en el día a día, o es una relación más de visitas?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 381,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 101,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, vivimos juntos. Bueno, él está con nosotros la mayoría del tiempo. Perdona que no lo haya dicho antes. O sea que sí que tengo bastante relación con él, pero aun así me cuesta... no sé cómo empezar sin que suene a bronca, ¿entiendes?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene todo el sentido. Vivís juntos, le conoces, te importa, y precisamente por eso no quieres que suene a regañina sino a algo real.\n\n¿Sabes más o menos cómo está él con el tema? ¿Lo lleva con angustia, con indiferencia, ya lo ha hablado con su padre...?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 572,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 92,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues la verdad es que está bastante cerrado, no dice mucho. Con su padre tampoco ha hablado mucho que yo sepa. Parece que le quita importancia, pero yo creo que por dentro igual sí le afecta, no sé... Oye, perdona, ¿me podrías ayudar a preparar qué decirle exactamente? O sea, cómo empezar la conversación, qué palabras usar..."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, vamos a eso.\n\nSi quieres abrir sin que suene a bronca, puedes empezar por el vínculo, no por las notas. Algo así:\n\n---\n\n**Para empezar:**\n*«Rubén, ¿tienes un momento? Quiero hablar contigo de algo, pero no para echarte la bronca, de verdad.»*\n\n**Para entrar en el tema:**\n*«He visto las notas y me ha preocupado, porque me importas. No te lo digo como un reproche, te lo digo porque quiero saber cómo estás tú con todo esto.»*\n\n**Si se cierra o no dice mucho:**\n*«No tienes que contarme nada que no quieras. Solo quería que supieras que estoy aquí si necesitas algo.»*\n\n---\n\nLa idea es que él note que no vienes a juzgar sino a estar. Con alguien que tiende a cerrarse, a veces eso abre más que cualquier pregunta directa sobre las notas.\n\n¿Te suena bien este tono, o hay algo que quieras cambiar o que no encaje con cómo sois vosotros?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 778,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 299,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mmm... sí, me gusta el tono, pero... no sé, igual suena un poco formal para como hablamos nosotros. ¿Me lo podrías poner de una manera más natural, más de andar por casa? Perdona si soy muy pesada..."
+  },
+  {
+   "qui": "TARA",
+   "text": "No eres pesada, es justo lo que necesitas ajustar para que funcione.\n\nAlgo más de andar por casa podría ser:\n\n---\n\n**Para empezar:**\n*«Oye, Rubén, ¿te pillo un momento?»*\n\n**Para entrar en el tema:**\n*«Mira, he visto lo de las notas y... no te voy a dar la chapa, pero sí quería decirte que me tiene un poco preocupada. No te lo digo para agobiarte, es que me importa cómo estás.»*\n\n**Si se cierra:**\n*«Bueno, no hace falta que me cuentes nada. Solo quería que lo supieras.»*\n\n---\n\nY luego dejarle espacio. A veces con alguien cerrado lo más potente es eso: decirlo y no esperar respuesta inmediata. Igual tarda un día en volver él solo.\n\n¿Así suena más a ti?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1148,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 246,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, así sí, esto ya me suena más a mí. Muchas gracias, de verdad, me ha ayudado mucho. Perdona por las vueltas que he dado..."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Y no has dado ninguna vuelta de más, has ido afinando hasta que sonara a ti, que es exactamente lo que necesitabas.\n\nSuerte con la conversación. Espero que vaya bien.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1445,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 63,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias, de verdad. A ver si me sale bien... ¡hasta luego!"
+  },
+  {
+   "qui": "TARA",
+   "text": "¡Hasta luego! Que vaya bien.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1533,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 27,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat d'escolta i va lliurar l'ajuda concreta quan es va demanar, però al torn 4 va avançar una proposta de solució just quan la persona havia demanat explícitament que no.",
+ "problemes": [
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Vols que explorem junts com podries respondre en aquells moments?",
+   "esperat": "Continuar escoltant sense proposar res, ja que la persona no havia demanat solucions encara"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molta lògica que et generi incertesa, perquè és un equilibri difícil de trobar.",
+   "esperat": "Reflexió breu o silenci actiu, sense validació formulaica"
+  },
+  {
+   "torn": 6,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "té sentit que et facis aquesta pregunta",
+   "esperat": "Ressò simple del contingut sense fórmula de validació"
+  },
+  {
+   "torn": 8,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "M'alegra que hagi estat d'ajuda.",
+   "esperat": "Tancament neutre i càlid sense avaluar el resultat de la sessió"
+  }
+ ]
+}

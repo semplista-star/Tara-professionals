@@ -1,0 +1,97 @@
+{
+ "id": "N1-04",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "Orientadora que corregeix una interpretació",
+ "persona": "Ana, orientadora de instituto. Cuenta que una alumna llora a menudo en clase y la tutora le ha pedido consejo. Es precisa y no tolera suposiciones.",
+ "guio": [
+  "Explica el caso brevemente y pide ideas para la tutora.",
+  "Si TARA sugiere un motivo (ansiedad, problemas en casa…), corrígela: «no he dicho eso, no sabemos por qué llora».",
+  "Pide entonces tres preguntas abiertas que la tutora pueda hacer."
+ ],
+ "espera": "No atribuir causa; si lo hace, aceptar la corrección sin insistir; entregar preguntas abiertas.",
+ "tipus": "manual",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:10:40.519Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tengo un caso en el instituto y necesito ideas concretas. Una tutora me ha pedido consejo sobre una alumna que llora con frecuencia en clase. No sé mucho más de momento. ¿Qué le dirías tú a la tutora para que pueda empezar a entender qué le pasa a la chica?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Buena pregunta para empezar. Con tan poca información, lo más útil que puede hacer la tutora ahora es observar antes de interpretar.\n\nAlgunas ideas concretas que puedes trasladarle:\n\n**Para observar antes de hablar con la alumna**\n- ¿En qué momentos llora? ¿Al entrar, durante una actividad concreta, cuando se le pregunta algo, al salir?\n- ¿Hay algo que lo precede: una interacción, un cambio de dinámica, un momento de exposición?\n- ¿Cómo reacciona el grupo cuando ocurre?\n\nEsto le dará a la tutora algo concreto con lo que abrir la conversación, en lugar de un \"¿estás bien?\" que suele cerrarse con un \"sí\".\n\n**Para cuando hable con la alumna**\nUn momento tranquilo, fuera del grupo. Una apertura que parta de lo observado, no de una etiqueta:\n> *\"He notado que a veces en clase hay momentos que se te hacen difíciles. No tienes que contarme nada, pero si quieres, estoy aquí.\"*\n\nEsto deja la puerta abierta sin presionar.\n\n**Lo que conviene que la tutora no haga todavía**\n- Sacar conclusiones sobre la causa (problemas en casa, acoso, dificultades académicas… todo es posible, nada es seguro aún).\n- Involucrar al grupo o hacer visible la situación sin el consentimiento de la alumna.\n\n---\n\n¿Tienes algo más de contexto —edad, si hay algo que la tutora ya haya notado— o prefieres trabajar con esto de momento?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 228,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 427,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. Yo no he dicho que tenga problemas en casa, ni que haya acoso, ni dificultades académicas. No sabemos por qué llora. Eso es exactamente lo que me preocupa, que se empiece a suponer cosas antes de tiempo.\n\nDicho esto, lo de observar antes de hablar me parece razonable. Pero necesito algo más concreto para la tutora. ¿Qué preguntas abiertas le puede hacer a la alumna cuando tenga ese momento tranquilo? Dame tres, que sean útiles de verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, me adelanté. Esas causas no las dijiste tú — las puse yo. Gracias por señalarlo.\n\nTres preguntas abiertas para ese momento tranquilo:\n\n**1. \"¿Hay algo de lo que pasa en clase que se te haga especialmente difícil?\"**\nParte de lo observable (la clase) sin asumir nada de fuera. Deja que ella acote.\n\n**2. \"¿Hay algo que necesitarías que fuera diferente para estar más a gusto?\"**\nOrienta hacia necesidades y posibles cambios concretos, sin pedir que explique ni justifique cómo se siente.\n\n**3. \"¿Hay algo que quieras que sepa, o algo en lo que pueda ayudarte?\"**\nLe devuelve el control: ella decide si comparte, qué comparte y cuánto.\n\n---\n\nLas tres evitan el \"¿estás bien?\" y no presuponen causa. Si la alumna no quiere hablar, también eso es información — y la tutora puede dejar la puerta abierta sin forzar.\n\n¿Quieres que trabajemos cómo manejar las posibles respuestas que pueda dar la alumna, o hay otra cosa que necesites?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 803,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 320,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecto, esto sí me sirve. Se lo paso a la tutora. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "De nada. Espero que le sea útil a la tutora — y a la alumna.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1149,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 26,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

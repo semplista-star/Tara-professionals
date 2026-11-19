@@ -1,0 +1,206 @@
+{
+ "id": "N1-G111",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "correccio · un alumne nou que gairebé no parla",
+ "tipus": "correccio",
+ "persona": "Àlex, maestra de educación especial. Situació: un alumne nou que gairebé no parla. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:18:27.113Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Sí, mira, tengo un niño nuevo en clase, llegó hace dos semanas. Tiene ocho años. Y casi no habla. O sea, dice alguna cosa, pero muy poquito. Y yo no sé muy bien cómo manejarlo, la verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Dos semanas con un niño nuevo que casi no habla, y tú sin saber bien cómo moverte. Eso tiene su peso.\n\n¿Qué es lo que más te genera incertidumbre ahora mismo: cómo conectar con él, cómo gestionarlo en el día a día del aula, o algo más concreto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 209,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 89,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Las dos cosas un poco, pero sobre todo lo de conectar. Porque en el día a día me voy apañando, sabes, lo observo, le doy su espacio... pero siento que no llegamos a ningún lado. Como que hay una pared ahí. Y no sé si es que él no quiere, si le da miedo, si es algo más... no tengo ni idea."
+  },
+  {
+   "qui": "TARA",
+   "text": "Esa sensación de pared, de que haces cosas pero no sabes si están llegando, es agotadora. Y encima sin saber qué hay detrás.\n\nUna cosa que dices me parece importante: que lo observas. ¿Qué has visto en esas dos semanas? ¿Hay momentos, situaciones, personas, en los que él parece estar un poco más... presente, o más cómodo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 394,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 109,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, a ver... cuando ponemos música se le ve diferente. No sé cómo explicarlo, como que se relaja un poco. Y con un compañero, el Dani, a veces se le acerca. No le habla, pero se sienta cerca. Eso sí lo he notado."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso es mucho más de lo que parece. La música y el Dani: dos puertas que él mismo te está mostrando.\n\nQue se acerque a Dani sin hablar, que elija estar cerca, eso ya es una forma de conexión para él. Y la música como momento en que baja la guardia un poco.\n\n¿Tienes margen en el aula para usar esas dos cosas intencionalmente, sin que se note forzado?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 581,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 117,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, margen tengo. Pero es que... espera, no quiero que me malinterpretes. No he dicho que tenga la guardia bajada, ¿eh? No sé si es eso. Igual simplemente le gusta la música y ya. No quiero asumir cosas que no sé."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, me he adelantado. Gracias por pararlo.\n\nLo que sí has observado es que con la música se le ve diferente, y que busca estar cerca de Dani. Eso es lo que hay, sin más interpretación.\n\n¿Qué se te ocurre que podrías probar con esas dos cosas?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 779,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 89,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues no sé, por eso te pregunto a ti. O sea, yo puedo poner más música, puedo intentar que el Dani esté cerca en algunas actividades... pero no sé si eso es suficiente o si hay algo más concreto que pueda hacer. ¿Tienes alguna idea práctica?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, te doy algunas ideas concretas. Tú ves cuáles encajan con tu aula y con él.\n\n**Con la música:**\n- Puedes usarla como fondo en momentos de trabajo individual, no solo cuando \"toca\" música. Si él se regula mejor así, es un recurso válido.\n- Si en algún momento hay actividad con música más activa, puedes observar si participa de alguna forma, aunque sea pequeña, sin pedírselo directamente.\n\n**Con Dani:**\n- Puedes organizar alguna tarea en pareja o pequeño grupo donde estén juntos de forma natural, sin señalarlo. Que la proximidad ocurra sin que parezca un plan.\n- Si Dani es un niño que lo acepta bien, a veces basta con que el compañero simplemente siga haciendo lo suyo cerca. Sin presión de hablar.\n\n**En general:**\n- A veces conectar con un niño que habla poco pasa por no exigir respuesta verbal. Comentarios en voz alta que no requieren contestación, ofrecerle opciones con gestos, celebrar lo que hace sin hacer un gran aspaviento.\n\nUna pregunta que puede ayudarte a afinar: ¿sabes algo de dónde viene, si ha habido un cambio grande en su vida reciente? No para diagnosticar nada, sino porque a veces eso orienta si lo que necesita es tiempo, o algo más específico.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 952,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 362,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "A ver, para. Hay mucho ahí y me estás preguntando cosas que no sé. No tengo mucha información de su historial, la familia no ha dicho gran cosa. Pero lo de no exigir respuesta verbal, eso sí me resuena. ¿Cómo se hace eso en la práctica, en el día a día? Porque suena bien pero no sé muy bien cómo llevarlo al aula."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien, nos quedamos con eso.\n\nEn la práctica significa cambiar el tipo de interacción que tienes con él. En lugar de preguntas que esperan respuesta, comentarios que simplemente están ahí:\n\nEn vez de «¿Cómo estás hoy?», puedes decir «Hoy hace frío, ¿eh?» y seguir andando. Sin esperar nada.\n\nEn vez de «¿Entiendes?», puedes dejar una pausa y observar si asiente, si mira, si algo cambia en su cara.\n\nEn vez de pedirle que elija en voz alta, puedes poner dos opciones delante, señalarlas, y dejar que él indique con un gesto o simplemente coja una.\n\nLa idea es que esté contigo sin que cada momento sea una prueba de si habla o no. Que tu presencia no le genere esa presión.\n\n¿Hay algún momento del día en que interactúes más con él, una rutina concreta donde puedas probar esto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1425,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 258,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, por las mañanas cuando llega. Siempre me acerco a saludarlo. Puedo probar ahí. O sea, en vez de preguntarle qué tal, pues decirle algo y ya, sin esperar que me conteste. Eso puedo hacerlo mañana mismo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso es. Sencillo y concreto, y mañana mismo.\n\nY si no pasa nada visible, tampoco significa que no esté llegando. A veces tarda.\n\n¿Hay algo más en lo que quieras pensar hoy, o con esto tienes suficiente para empezar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 80,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, creo que con esto me vale. Tenía la cabeza un poco liada y ahora lo veo más claro. Gracias, en serio."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Suerte mañana con el saludo.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1885,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

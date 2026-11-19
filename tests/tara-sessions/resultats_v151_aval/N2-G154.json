@@ -1,0 +1,34 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 2,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre des del primer torn que Toni volia desfogar-se sense consells i va mantenir l'escolta activa fins al tancament natural.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Té molt de pes, això.",
+   "esperat": "Reflectir el que la persona ha dit sense afegir una valoració sobre la càrrega emocional no expressada explícitament"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "deu fer que pesi encara més",
+   "esperat": "Reformular sense atribuir una intensitat emocional que la persona no ha verbalitzat"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "que ja quasi temeu",
+   "esperat": "Usar el mot de la persona ('esperem') en lloc d'intensificar-lo amb 'temeu'"
+  }
+ ]
+}

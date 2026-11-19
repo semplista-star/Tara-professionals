@@ -1,0 +1,206 @@
+{
+ "id": "N1-G101",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "rebuig · la preparació d'unes colònies amb un alumne amb crisis freqüents",
+ "tipus": "rebuig",
+ "persona": "Mercè, mestra d'infantil. Situació: la preparació d'unes colònies amb un alumne amb crisis freqüents. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:18:22.369Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, necessito ajuda amb una cosa que m'està trencant el cap. Tinc un nen a classe que té crisis molt seguides, ja saps, de les que es tira a terra, crida, es fa mal... i ara hem de fer colònies i no sé com gestionar-ho. Estic una mica fins als nassos perquè ningú em dona suport des de l'escola i m'ho he de menjar tot jo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Estàs carregant amb molt, i a sobre sense suport. Té sentit que estiguis fins als nassos.\n\nDeixa'm entendre millor la situació per poder ajudar-te bé. Quan dius que ningú et dona suport des de l'escola, a qui et refereixes concretament — direcció, orientació, l'equip de cicle? Saber on hi ha el buit m'ajudarà a pensar amb tu com abordar les colònies i també com demanar el que necessites.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 251,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 135,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tots. La directora diu que \"ja ens en sortirem\", l'orientadora m'ha passat un protocol de quatre pàgines que no serveix per a res, i les companyes fan veure que no va amb elles. I les colònies són d'aquí tres setmanes. Tres setmanes! No tinc temps per a reunions ni protocols, necessito saber què faig si al mig de la nit aquest nen té una crisi i estic sola amb vint-i-dos canalla."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tres setmanes i sola amb vint-i-dos. Entenc per què t'ofega.\n\nAnem al concret. Per poder ajudar-te a preparar-te de veritat, necessito saber una cosa: **tens alguna informació sobre què desencadena les crisis d'aquest nen, o sobre com sol sortir-ne?** Sigui del protocol, de la família, del que has observat tu.\n\nPerquè el que funciona a la nit en un espai desconegut pot ser molt diferent del que fas a classe, i vull que el que preparem sigui útil de veritat, no un altre paper que no serveix per a res.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 515,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 167,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, algo sé. La mare m'ha dit que els canvis de rutina li costen molt, i jo ja ho he vist. A classe quan hi ha alguna cosa inesperada s'altera. I per sortir-ne... necessita espai, que no li parlis massa, i de vegades un objecte que porta sempre, una pedreta. Però clar, a les colònies tot serà nou, tot serà canvi. No veig com evitar-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "Això que saps és molt valuós. La pedreta, l'espai, el silenci — és molt més que un protocol de quatre pàgines.\n\nTens raó que no podràs evitar els canvis. Però sí que pots **reduir la novetat** i **tenir un pla clar per quan passi**.\n\nDues línies de treball:\n\n**Abans de les colònies**\n- Parlar amb la mare per confirmar que portarà la pedreta i si hi ha alguna cosa més que funciona fora de casa\n- Si és possible, mostrar-li fotos o vídeo del lloc — el menjador, la seva habitació, el pati. Redueix la sorpresa\n- Pactar amb ell, si té edat per entendre-ho, que quan se senti malament pot fer X (agafar la pedreta, anar a un racó tranquil)\n\n**Durant les colònies, si hi ha crisi**\n- Espai + silenci + pedreta: ja ho saps fer\n- Tenir clar qui s'ocupa del grup mentre tu ets amb ell — necessites un nom, no una bona voluntat\n\nAquesta última part és la que em sembla més urgent. **Vas sola o hi ha altres adults?**",
+   "tags": [],
+   "usage": {
+    "input_tokens": 800,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 311,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hi ha una altra mestra i dos monitors. Però els monitors són joves, no han vist mai una crisi d'aquestes. I la mestra... bé, és de les que fan veure que no va amb elles. No m'hi puc fiar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Quatre adults en total, i en la pràctica et sents sola. Això és el problema real.\n\nEls monitors joves poden ser un recurs millor del que sembla — precisament perquè no tenen prejudicis sobre com ha de ser. Però necessiten saber què fer abans que passi, no en mig del caos.\n\nUna cosa concreta que pots fer aquesta setmana: **una conversa breu amb els monitors**, no una formació, cinc minuts. Alguna cosa com:\n\n*\"Hi ha un nen que de vegades necessita espai i calma. Si veieu que s'altera, la vostra feina és quedar-vos amb la resta del grup i avisar-me a mi. Res més. Jo m'encarrego d'ell.\"*\n\nAixí els treus la por de no saber què fer, i tu tens les mans lliures.\n\nSobre la mestra — no la pots forçar, però pots deixar-ho negre sobre blanc abans de sortir: qui fa què si passa alguna cosa de nit. No com a petició, com a organització pràctica del grup.\n\nHi ha una cosa que encara no sé i que canvia molt el pla: **el nen sap que va a colònies? Com ho ha rebut?**",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1175,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 313,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, ho sap. I de moment bé, fins i tot n'està content. Però ja sé com va això, que ara estigui content no vol dir res, quan arribi el moment i vegi que no és casa seva s'espatllarà tot. Mira, el que m'has dit dels monitors... ja ho he provat, explicar-los les coses abans. L'any passat amb una altra sortida i van entrar en pànic igualment quan va passar. Els joves no aguanten la pressió."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens experiència directa i et diu que explicar-ho abans no és suficient. Té sentit que no t'hi confïis.\n\nLlavors la pregunta real és: **si de nit tens una crisi i els altres adults no responen com esperes, quin és el teu pla mínim?**\n\nNo el pla ideal. El pla de quan tot falla.\n\nPerquè em sembla que el que necessites no és convèncer ningú — és tenir tu una seqüència clara al cap: primer faig X, després Y, si no funciona Z. Que no hagis de pensar en mig del caos.\n\nVols que ho treballem això? Amb el que saps del nen — pedreta, espai, silenci — podem construir una seqüència concreta per a la nit, pas a pas.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1617,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 208,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, això sí que m'interessa. Perquè és veritat, quan estic en mig d'una crisi no penso, funciono en automàtic. I de nit, cansada, amb els altres nens despertant-se... necessito tenir-ho molt clar. Endavant."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bé. Anem a construir-ho.\n\nPartim del que ja saps que funciona amb ell: **espai, silenci, pedreta**. La seqüència ha de ser tan simple que puguis seguir-la cansada i amb soroll al voltant.\n\n---\n\n**Quan comença a alterar-se** *(abans que sigui crisi)*\n1. Apropar-te sense parlar. Presència, no paraules.\n2. Si el tens a mà, la pedreta — o recordar-li on és.\n3. Allunyar-lo dels altres si pots, sense fer-ne un drama davant el grup.\n\n**Si ja és crisi** *(es tira, crida, es fa mal)*\n1. Protegir-lo de fer-se mal greu — el mínim imprescindible, sense subjectar si no cal.\n2. Silenci. No explicar, no negociar, no consolar amb paraules.\n3. Quedar-te prop però sense pressió. Esperar.\n4. Un adult — el que respongui — s'ocupa dels altres nens. No importa qui, qualsevol.\n\n**Quan comença a baixar**\n1. Veu baixa, una sola frase curta si cal.\n2. La pedreta a la mà si no la té.\n3. No demanar explicacions ni que es disculpi. Deixar que es recomposi.\n\n---\n\nDues preguntes pràctiques:\n- **On dormirà ell?** Pots posar-lo en una habitació on sigui fàcil sortir sense despertar tots els altres?\n- **Tens el telèfon de la mare per si necessites consultar alguna cosa en el moment?**",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1905,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 436,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "El telèfon de la mare el tinc, sí. I miraré el tema de l'habitació, és bona idea. Mira, aquesta seqüència... és el que faig, més o menys, però tenir-ho escrit així m'ajuda. Almenys sé que no estic fent les coses malament. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "No les estàs fent malament. Les estàs fent sola, que és molt diferent.\n\nSi vols, abans de les colònies podem preparar també com demanar-li a la direcció un suport concret — no una reunió llarga, una cosa específica i factible. De vegades posar-ho en paraules ajuda a que no et puguin tornar a respondre amb \"ja ens en sortirem\".\n\nPerò si ara ja tens el que necessitaves, també està bé deixar-ho aquí.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2433,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 131,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, amb això ja n'hi ha prou per avui. Tinc la seqüència, tinc clar el de l'habitació... ja és alguna cosa. Potser un altre dia el tema de la direcció, però ara mateix no tinc cap gana de pensar-hi. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecte. Tens coses concretes per fer i saps que no estàs equivocada. Ja és molt.\n\nQuan vulguis, aquí estaré. Bona sort amb les colònies.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 2642,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 67,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

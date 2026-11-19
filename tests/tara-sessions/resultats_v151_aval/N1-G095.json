@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén que Marc vol ser escoltat i, quan demana ajuda concreta, li ofereix un primer pas accionable; però en els torns 2–4 afegeix validacions formulaiques i una atribució no expressada que trenquen la neutralitat CNV.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "Té sentit que estiguis fins als nassos.",
+   "esperat": "Reflectir el contingut sense etiquetar si 'té sentit' o no; p. ex. 'Setmanes aguantant-ho sol, cada dia.'"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Això és molt pesat de sostenir sol.",
+   "esperat": "Reflectir el que Marc ha dit sense afegir una avaluació del pes emocional que ell no ha verbalitzat en aquest torn."
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "No estàs exagerant.",
+   "esperat": "No confirmar ni desmentir la percepció interna de Marc; ell mateix ja es respon; TARA podria reflectir: 'I cada vegada que passa una cosa nova, tornes a veure que és real.'"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "I tens raó que no hauria de ser només teu.",
+   "esperat": "Evitar validar amb 'tens raó'; reflectir sense jutjar: 'I sents que hauria de ser una responsabilitat compartida.'"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "no per queixar-te, senseó per dir exactament el que m'has dit a mi",
+   "esperat": "Marc demana un primer pas; TARA pot donar-lo sense emmarcar com ha de presentar-lo als col·legues ni corregir el to implícit de la seva queixa."
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Un moment breu, fins i tot abans o després d'una reunió que ja tingueu. Sense agenda gran. Només trencar el silenci.",
+   "esperat": "El primer pas ja estava dit; els detalls addicionals allarguen innecessàriament la resposta."
+  }
+ ]
+}

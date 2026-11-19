@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien en cada turno lo que Marta necesitaba: primero escucha, luego validación, luego ayuda concreta para formular un mensaje, y supo ajustarse cuando la primera frase sonó demasiado formal.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Eso duele, y tiene sentido que estés al límite.",
+   "esperat": "Una respuesta más natural que no repita la fórmula 'tiene sentido' ya usada implícitamente en el torn 1"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "tiene sentido que te preguntes para qué hablar",
+   "esperat": "Evitar la fórmula 'tiene sentido' por tercera vez en tres turnos; una reacción más espontánea y menos de manual"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Esto funciona porque nombras lo que observas —los lloros, la comida— sin atacarla, y le dices claramente lo que necesitas de ella",
+   "esperat": "Dar la frase sin explicar la teoría CNV detrás; Marta pidió algo que le llegue, no una justificación pedagógica"
+  },
+  {
+   "torn": 5,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿vas directa, le pones humor, empiezas con algo suave...?",
+   "esperat": "Marta ya había dado suficiente información sobre su estilo; bastaba con invitarla a reformular con sus propias palabras sin ofrecer opciones"
+  },
+  {
+   "torn": 7,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Espero que tu hermana pueda escucharte esta vez.",
+   "esperat": "Un cierre cálido sin proyectar expectativas sobre la hermana ni sobre el resultado de la conversación"
+  }
+ ]
+}

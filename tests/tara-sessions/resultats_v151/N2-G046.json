@@ -1,0 +1,162 @@
+{
+ "id": "N2-G046",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "mixta · germans que es barallen tot el dia",
+ "tipus": "mixta",
+ "persona": "Marta, madrastra. Situació: germans que es barallen tot el dia. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:26:08.932Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bona tarda. Estic bastant esgotada i, francament, al límit de la meva paciència. Els dos germans porten setmanes barallant-se constantment i no sé com gestionar-ho. Necessito que m'ajudis a preparar una conversa seriosa amb ells dos per posar límits clars d'una vegada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona tarda. Setmanes aguantant baralles constants — s'entén que estiguis al límit.\n\nAbans de preparar la conversa, una cosa que m'ajudaria a fer-la més útil per a tu: quines edats tenen els dos germans?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 254,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 71,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tenen catorze i setze anys. Tots dos prou grans per entendre les conseqüències dels seus actes, crec jo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, a aquestes edats entenen perfectament el que els dius.\n\nPer preparar la conversa, digue'm: hi ha alguna cosa concreta que passa sovint i que vols aturar? O és més una acumulació de moltes coses petites?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 362,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 67,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "És una acumulació, però hi ha una cosa que es repeteix molt: es discuteixen pel mòbil i l'ordinador, qui té dret a usar-los i quan. Acaba sempre amb crits i insults, i jo quedo al mig sense saber com intervenir."
+  },
+  {
+   "qui": "TARA",
+   "text": "Quedar al mig dels crits i els insults, sense saber com intervenir — és esgotador.\n\nTens clar el que vols que canviï? Per exemple: que deixin d'insultar-se, que hi hagi un acord sobre els dispositius, o totes dues coses?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 500,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 76,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Totes dues coses, però si he de triar per on començar, primer els insults. Un cop hi hagi respecte, la resta es pot negociar. Necessito que m'ajudis a preparar exactament què dir-los per deixar clar que els insults no es toleraran més."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit començar pels insults. Sense respecte, qualsevol acord sobre els dispositius caurà.\n\nAquí tens una manera de plantejar-ho. Adapta-la com vulguis:\n\n---\n\n**Per obrir la conversa:**\n\"Vull parlar amb vosaltres dos d'una cosa que m'afecta a mi i a la convivència a casa. Necessito que m'escolteu fins al final.\"\n\n**Per nomenar el que passa:**\n\"Quan us baralleu pels dispositius, acaba amb crits i insults. Això no ho puc continuar acceptant.\"\n\n**Per deixar clar el límit:**\n\"A partir d'ara, a casa no s'insulta. Ni entre vosaltres, ni a mi, ni a ningú. Això no és negociable.\"\n\n**Per donar-los responsabilitat:**\n\"Si hi ha un conflicte pels dispositius, podeu venir a mi abans que s'escali, o esperar i parlar-ne quan estigueu tranquils. Els insults no són una opció.\"\n\n**Per tancar amb una porta oberta:**\n\"Quan estigueu disposats, podem parlar junts de com organitzar l'ús dels dispositius. Però primer necessito veure que el respecte és real.\"\n\n---\n\nVols canviar el to d'alguna part, o hi ha alguna cosa que no reflecteix el que vols dir?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 651,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 359,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies, però el to és massa suau per al que necessito. Vull alguna cosa més directa i ferma, sense tanta porta oberta al final. Necessito que quedi clar que hi ha conseqüències reals si no canvia res."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès. Aquí tens una versió més ferma:\n\n---\n\n**Per obrir:**\n\"Necessito parlar amb vosaltres dos ara. Escolteu.\"\n\n**Per nomenar el que passa:**\n\"Porteu setmanes barallant-vos amb crits i insults. Això s'acaba.\"\n\n**Per deixar clar el límit:**\n\"A casa no s'insulta. No és una petició, és una norma. I s'aplica ja.\"\n\n**Per les conseqüències:**\n\"Si hi ha insults, els dispositius queden fora de circulació. Els dos. Sense discussions. Jo decidiré quan i com es recuperen.\"\n\n**Per tancar:**\n\"No us demano que estigueu d'acord. Us demano que ho respecteu.\"\n\n---\n\nAquesta versió posa la decisió clarament a les teves mans, sense negociació prèvia.\n\nVols ajustar alguna cosa, o ja tens el que necessitaves?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1077,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 247,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Això és molt millor. Ja tinc el que necessitava. Moltes gràcies per l'ajuda."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. Espero que la conversa vagi bé. Molta força.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1357,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

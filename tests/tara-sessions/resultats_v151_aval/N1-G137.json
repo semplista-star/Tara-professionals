@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre correctament el que necessitava la persona en cada moment: primer escolta sense preguntes ni solucions, i quan es demana ajuda concreta la lliura de forma directa i aplicable.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "sin poder decir que tú también tienes miedo",
+   "esperat": "Reflectir el que la persona ha dit (estar nerviosa, sola, no poder mostrar-ho) sense substituir el seu mot per 'miedo', que ella no havia usat"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene todo el sentido.",
+   "esperat": "Evitar la fórmula validadora automàtica; bastava amb el reflex del contingut o un silenci actiu"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Me alegra que haya ayudado un poco.",
+   "esperat": "Tancar sense comentar el propi rendiment; per exemple, simplement deixar espai o confirmar la disponibilitat sense valorar l'efecte"
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "¿Te encaja ese tono, o hay algo del equipo que hace que no funcione así?",
+   "esperat": "Un cop lliurada la frase concreta que la persona demanava, no calia afegir una pregunta de seguiment que allarga el torn i obre un nou fil que la persona no havia demanat"
+  }
+ ]
+}

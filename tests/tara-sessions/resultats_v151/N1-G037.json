@@ -1,0 +1,184 @@
+{
+ "id": "N1-G037",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "rebuig · la preparació d'unes colònies amb un alumne amb crisis freqüents",
+ "tipus": "rebuig",
+ "persona": "Rubén, directora. Situació: la preparació d'unes colònies amb un alumne amb crisis freqüents. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:14:13.888Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Tengo un alumno con epilepsia y el mes que viene hay colonias. No sé cómo organizarlo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entiendo, hay bastantes cosas que coordinar cuando un alumno tiene una condición médica y se va de colonias.\n\nPara ayudarte bien, ¿qué parte te genera más incertidumbre ahora mismo: la coordinación con la familia y el equipo médico, la gestión durante las colonias (medicación, protocolos si hay crisis), o cómo organizarlo con el resto del equipo docente?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 170,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 103,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La gestión durante las colonias. Si tiene una crisis de noche, no sé qué hacemos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Es una preocupación muy concreta y legítima. Una crisis nocturna, lejos del centro, con menos personal... tiene sentido que eso sea lo que más pesa.\n\nLo que puedo ayudarte a preparar desde aquí es el marco de actuación y la conversación con la familia. Pero quiero ser clara en algo importante: **el protocolo específico para este alumno tiene que venir de su equipo médico y de la familia**, porque la epilepsia varía mucho de una persona a otra —tipo de crisis, duración habitual, medicación de rescate, cuándo llamar al 112 y cuándo no.\n\nDicho eso, hay cosas que puedes organizar tú ahora:\n\n**Lo más urgente antes de las colonias:**\n- Reunión con la familia para que te expliquen cómo son *sus* crisis habituales y qué hacer paso a paso\n- Pedir por escrito el protocolo de actuación firmado por el médico (algunos centros de salud tienen un modelo)\n- Confirmar si tiene medicación de rescate, quién puede administrarla y cómo\n\n**Para la noche en concreto:**\n- Quién duerme cerca de él y cómo se organiza la supervisión\n- Qué hace el equipo si ocurre: pasos claros, quién llama al 112, quién se queda con él, quién avisa a la familia\n\n¿Tienes ya contacto con la familia sobre esto, o todavía no habéis hablado de las colonias con ellos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 300,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 379,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ya hemos hablado con la familia. El problema es que los monitores no saben qué hacer si pasa de noche."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso ya es mucho más manejable. La familia está informada, el problema es concreto: los monitores necesitan saber qué hacer.\n\nLo que más ayuda en estos casos es que tengan **una hoja de actuación muy simple**, no un protocolo largo que nadie lee a las tres de la mañana. Algo que puedan tener a mano y seguir paso a paso.\n\n¿Quieres que te prepare un borrador de esa hoja? Necesitaría que me dijeras, si lo sabes:\n\n- Cómo son sus crisis habituales (convulsiones, ausencias, otro tipo)\n- Si tiene medicación de rescate y quién puede ponerla\n- Cuánto duran normalmente sus crisis\n\nCon eso puedo hacerte algo útil y ajustado a él. Si no tienes todos los datos todavía, también puedo hacerte una versión genérica que luego completáis con la familia.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 712,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 233,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, una hoja no. Los monitores necesitan practicarlo, no leerlo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón. Leer no es lo mismo que saber qué hacer cuando estás nervioso y es de noche.\n\nPuedo prepararte una sesión de formación breve para los monitores —algo que puedan practicar, no solo escuchar. ¿Cuánto tiempo tendrías para hacerla, y cuántos monitores son aproximadamente?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 969,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 93,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Eso sí puede funcionar. Somos 4 monitores y tenemos una tarde libre antes de ir."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecto. Con una tarde y cuatro personas se puede hacer algo muy práctico.\n\nTe preparo un esquema de sesión. Dame un momento.\n\n---\n\n**Sesión de preparación: actuación ante crisis epiléptica**\n*4 monitores · Una tarde · Aprox. 90 minutos*\n\n---\n\n**Bloque 1 — Qué sabemos y qué nos preocupa (15 min)**\nCada monitor dice en voz alta qué haría si ve una crisis ahora mismo. Sin corregir todavía. El objetivo es ver desde dónde parte cada uno y que afloren los miedos reales.\n\n**Bloque 2 — Qué hace el cuerpo, qué hacemos nosotros (20 min)**\nExplicación breve y visual: cómo es una crisis, qué es normal, qué no. Cuándo llamar al 112 y cuándo no. Si tienes el protocolo médico del alumno, aquí es donde lo presentas.\n\n**Bloque 3 — Práctica por parejas (30 min)**\nSimuláis una crisis. Una persona hace de alumno, otra actúa. Rotáis. El resto observa y después comenta qué ha funcionado. Practicáis especialmente la posición de seguridad y la gestión del tiempo —que parece eterno cuando estás dentro.\n\n**Bloque 4 — Escenario nocturno (20 min)**\nUn solo escenario completo: es de noche, estáis en las habitaciones, ¿quién hace qué? Repartís roles antes de empezar. Después hablais de qué ha sido difícil.\n\n**Cierre (5 min)**\nCada monitor dice una cosa que se lleva clara. Si algo sigue sin estar claro, lo anotáis para preguntar a la familia o al médico.\n\n---\n\nDos cosas que no puedo darte yo: los detalles específicos de las crisis de este alumno y la parte de medicación de rescate, si la hay. Eso tiene que entrar en el bloque 2 desde la familia o el médico, no de mí.\n\n¿Quieres que desarrolle algún bloque, o que te prepare el escenario nocturno con más detalle?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1092,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 563,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "El escenario nocturno, sí. Eso es lo que más miedo da."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido. Es el momento con menos recursos, menos claridad y más presión.\n\nTe escribo el escenario con instrucciones para quien lo conduce —tú, supongo.\n\n---\n\n**Escenario nocturno: \"Las tres de la mañana\"**\n\n---\n\n**Antes de empezar — reparto de roles (2 min)**\n\nAsignas en voz alta:\n- **Monitor A** — duerme en la habitación del alumno\n- **Monitor B** — duerme en la habitación de al lado\n- **Monitor C** — está de guardia esa noche\n- **Monitor D** — observa y después da feedback\n\nEl alumno lo haces tú, o usáis una mochila en el suelo.\n\n---\n\n**Arranque del escenario**\n\nDices: *\"Son las tres de la mañana. Monitor A, oyes un ruido raro en la cama de al lado. Te despiertas.\"*\n\nA partir de ahí, dejas que actúen. No corrijas mientras pasa. Solo observa.\n\n---\n\n**Lo que suele salir mal — en lo que te fijas tú**\n\n- ¿Alguien intenta sujetar al alumno o meterle algo en la boca? (es lo más común y lo más peligroso)\n- ¿Alguien mira el reloj para contar el tiempo? (es clave y casi nadie lo hace)\n- ¿Quién llama al 112 y cuándo? ¿O nadie llama porque esperan a que pase?\n- ¿Alguien avisa a la familia antes de saber cómo está el alumno?\n- ¿El monitor C sabe que tiene que actuar, o espera instrucciones?\n\n---\n\n**Pausa y conversación (10 min)**\n\nPreguntas para abrir el debate:\n- *¿Qué ha sido lo más difícil?*\n- *¿Hubo un momento en que no sabías qué hacer?*\n- *¿Qué cambiarías si lo repetimos?*\n\nRepetís el escenario una vez más con lo que han aprendido.\n\n---\n\n**Cierre del escenario**\n\nCada monitor dice una cosa concreta: *\"Si pasa de noche, yo sé que tengo que...\"*\n\n---\n\nUna advertencia: en el bloque de conversación pueden salir miedos reales, no solo dudas técnicas. Está bien que aparezcan. No hace falta resolverlos todos; a veces basta con nombrarlos.\n\n¿Necesitas algo más para tener la tarde preparada?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1680,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 649,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, con esto ya tengo suficiente. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "De nada. Espero que la tarde salga bien y que las colonias también.\n\nFINAL",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 2347,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 36,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

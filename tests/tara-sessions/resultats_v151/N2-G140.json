@@ -1,0 +1,204 @@
+{
+ "id": "N2-G140",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "jerga · la porta de l'habitació sempre tancada",
+ "tipus": "jerga",
+ "persona": "Rosa, avi. Situació: la porta de l'habitació sempre tancada. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:31:19.126Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, és el meu nét. Sempre tancat a l'habitació. No surt ni a dinar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Deu ser difícil veure'l tan tancat i no saber com arribar-hi.\n\nQuan dius que no surt ni a dinar, fa molt de temps que és així?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 192,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 49,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, fa mesos. I quan li truco a la porta me diu \"ara no\" i ja està. Em sento ignorada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Mesos de \"ara no\" i sentir-te ignorada... és molt per aguantar.\n\nQuants anys té, el teu nét?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 277,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 39,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Setze. Però abans érem molt units, saps? Ara res."
+  },
+  {
+   "qui": "TARA",
+   "text": "Setze anys i abans érem molt units... i ara aquest silenci. Entenc que et dol especialment perquè saps com era la relació.\n\nVols que t'ajudi a pensar com apropar-te a ell, o primer necessitaves poder dir-ho?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 338,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 71,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Les dues coses. Però no em vinguis amb coses de llibre, eh? Que jo el conec, al meu nét."
+  },
+  {
+   "qui": "TARA",
+   "text": "Fet. Tu el coneixes millor que ningú, jo t'ajudo a pensar amb el que tu ja saps d'ell.\n\nDigue'm: quan éreu units, com us trobàveu? Què fèieu junts?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 445,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 63,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Cuinàvem. Li agradava molt fer coca de llardons amb mi. Ara ni això."
+  },
+  {
+   "qui": "TARA",
+   "text": "La coca de llardons. Això és seu, és vostre.\n\nQuè passaria si un dia truques a la porta i li dius simplement: «Tinc ganes de fer coca. M'ajudes?» Sense demanar-li explicacions, sense parlar de res més.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 537,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 73,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, no sé... i si me diu que no? Em faria molt de mal."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar que faria mal. Té sentit que ho tingueu en compte abans de fer-ho.\n\nSi et diu que no, seria un no a la coca, no a tu. Però entenc que en aquest moment costa separar les dues coses.\n\nPots decidir tu quan et veus amb prou forces per intentar-ho. No cal que sigui ara.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 635,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 91,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí però... necessito saber com dir-li. Una frase, així, curta. Que no sembli que li estic renyant."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquesta: «Tinc ganes de fer coca de llardons. M'ajudes?»\n\nRes més. Sense explicacions, sense retrets. Just la invitació.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 765,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 46,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Això és tot? Tan senzill?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí. Quan més senzill, menys pressió per a ell.\n\nEls setze anys sovint tanquen portes quan senten que ve una conversa gran. Una invitació curta deixa espai per dir que sí sense haver de donar explicacions.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 825,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 68,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

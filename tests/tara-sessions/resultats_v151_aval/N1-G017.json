@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre el que necessitava la persona però va fer una pregunta de clarificació al torn 1 que no era estrictament necessària per lliurar una primera ajuda útil, i al torn 2 va afegir una proposta de conversa en privat i una oferta de role-play no demanats.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Per preparar bé el que li vols dir, m'ajudaria saber una cosa: quan dius que et falta al respecte, com és concretament?",
+   "esperat": "Amb la informació ja donada (no fa res, falta al respecte davant la classe, vol dir-li que pari sense perdre els nervis) TARA podia oferir una primera resposta pràctica i ajustar si calia; la pregunta retarda l'ajuda demanada"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "mentre per dins estàs al límit",
+   "esperat": "Recollir la frustració expressada sense afegir un estat intern no declarat ('al límit')"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Després, en privat: [...] de vegades hi ha alguna cosa al darrere que val la pena saber, i el fet de preguntar-li canvia el to de la conversa.",
+   "esperat": "La persona va demanar com dir-li que pari; la proposta de conversa exploratòria en privat i la interpretació sobre 'alguna cosa al darrere' van més enllà del que es va demanar"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Vols que ensagem com podria anar aquesta conversa en privat, o prefereixes ajustar primer les paraules?",
+   "esperat": "Oferir el role-play no havia estat demanat; millor esperar que la persona ho sol·liciti"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Aquí tens una possible manera de respondre-li en el moment [...] Vols que ensagem com podria anar aquesta conversa en privat, o prefereixes ajustar primer les paraules?",
+   "esperat": "Resposta més breu i centrada en la demanda concreta, sense la secció de conversa en privat ni l'oferta de role-play"
+  }
+ ]
+}

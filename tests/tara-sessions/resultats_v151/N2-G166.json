@@ -1,0 +1,162 @@
+{
+ "id": "N2-G166",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "rebuig · les xarxes socials i el que hi publica",
+ "tipus": "rebuig",
+ "persona": "Carmen, padrastre. Situació: les xarxes socials i el que hi publica. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:33:07.796Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, necessito ajuda amb la meva filla. Bueno, la meva fillastra. Té 15 anys i el que penja a les xarxes... no sé, em posa molt nerviós. Fotos, comentaris... coses que no m'agraden gens. I quan li dic alguna cosa s'enfada i diu que no soc el seu pare. No sé com parlar-hi sense que acabi malament."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc que estàs en un lloc difícil: veus coses que et preocupen i quan intentes dir-li alguna cosa, ella tanca la porta amb aquella frase.\n\nAbans d'anar a com parlar-hi, m'ajudaria saber una mica més: quan dius que el que penja et posa nerviós, és més una preocupació per la seva seguretat —qui pot veure-ho, qui li escriu— o és més pel tipus de contingut en si?\n\nNo és el mateix, i canvia molt com enfocar-ho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 274,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 144,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Les dues coses, però sobretot la seguretat. Penja fotos on es veu clarament on viu, on va a l'escola... i té el perfil obert. Qualsevol la pot veure. I jo li ho he dit i ella diu que exagero, que tothom ho fa. I la seva mare tampoc no li diu res, i clar, jo quedo com el dolent de la pel·lícula."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té sentit que et preocupi. No és exagerar: una menor amb el perfil obert i fotos que mostren on viu i on va a l'escola és un risc real.\n\nI a sobre quedes sol en això, sense el suport de la seva mare. Això cansa.\n\nUna cosa que de vegades ajuda en situacions com aquesta: separar la conversa en dues. Una amb la seva mare, primer, per intentar anar a una. I una altra amb la noia, des d'un lloc diferent.\n\nPerquè quan ella diu «no ets el meu pare», sovint no vol dir «no tens raó». Vol dir «no em sento còmoda que siguis tu qui em posi límits». És una cosa de vincle, no de lògica.\n\nQuin dels dos fronts et sembla més urgent o més possible ara mateix?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 527,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 211,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Home, parlar amb la mare... ja ho hem intentat i acaba en discussió. Ella diu que jo m'hi fico massa, que la noia ja és gran. Així que per aquí no hi ha manera."
+  },
+  {
+   "qui": "TARA",
+   "text": "D'acord, t'escolto. Per aquí ara mateix no hi ha camí.\n\nLlavors la pregunta és: com parles amb la noia sense que ella senti que l'ataquen, i sense que tu acabis sent el dolent?\n\nUna cosa que de vegades canvia el to és no partir de «el que fas està malament» senseó de «hi ha una cosa que em preocupa i vull dir-t'ho». No com a norma, senseó com a preocupació real.\n\nPer exemple, podries dir-li alguna cosa com:\n\n*«Mira, no vinc a dir-te el que has de fer. Però hi ha una cosa que em fa por de debò i vull que la sàpigues. Quan el perfil és obert i es veu on vius, qualsevol persona —no només gent que coneixes— pot saber on ets. No m'agrada la idea que algú que no coneixem tingui aquesta informació sobre tu.»*\n\nI parar aquí. Sense llista de normes, sense «i a més...». Només això.\n\nCreus que hi hauria un moment en què ella podria escoltar-ho sense estar ja en guardia?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 793,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 298,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, potser... quan estem sols i no ve d'una discussió prèvia. Però el problema és que jo no soc gaire de parlar així, tan... no sé, tan suau. Em surt més directe i ella ja s'espanta. No és el meu estil, això de posar-me a explicar com em sento."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit. No cal que canviïs qui ets.\n\nDe fet, directe també pot funcionar, si ve de la preocupació i no del retret. La diferència no és ser suau o dur, és d'on surt.\n\nUna versió més directa podria ser:\n\n*«Escolta, el perfil obert amb fotos de casa i l'escola em preocupa. No és una opinió, és un risc real. Vull que ho tanquis.»*\n\nCurt, clar, sense floritures. I si ella diu «no ets el meu pare», pots respondre:\n\n*«Ja ho sé. Però visc aquí i em preocupes. Això no canvia.»*\n\nNo has de guanyar l'argument ni convèncer-la que tens raó. Només dir-li que la preocupació és real i que no desapareix.\n\nHo veus possible, això?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1182,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 236,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, això sí que m'ho veig dient. És més jo. I la resposta aquella de \"ja ho sé, però em preocupes\"... no ho havia pensat mai així. Potser funciona. Ho provaré."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bé. Ja tens alguna cosa concreta per provar.\n\nSi vols, quan ho hagis fet, pots tornar i expliques com ha anat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1481,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 42,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, gràcies. Ho faré. Fins aviat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Fins aviat. Sort!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1544,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 20,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

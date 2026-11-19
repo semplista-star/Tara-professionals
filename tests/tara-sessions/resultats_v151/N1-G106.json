@@ -1,0 +1,118 @@
+{
+ "id": "N1-G106",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "nomes-desfogar · conflictes constants al pati entre dos grups",
+ "tipus": "nomes-desfogar",
+ "persona": "Àlex, tutor de 4t d'ESO. Situació: conflictes constants al pati entre dos grups. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:17:35.165Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, no sé ni per on començar... suposo que avui simplement necessito desfogar-me una mica, si no et fa res. No vull consells ni res, és que... és que estic una mica al límit, saps?"
+  },
+  {
+   "qui": "TARA",
+   "text": "T'escolto. Avui necessites poder dir-ho, sense que ningú et doni solucions.\n\nExplica'm.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 208,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 35,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacte. Gràcies per entendre-ho, de veritat. És que... ai, no sé, potser exagero, però és que cada dia al pati és el mateix. Dos grups que no paren de buscar-se les pessigolles i jo allà al mig sense saber molt bé què fer. Em sento una mica... perdut, suposo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cada dia al pati, els mateixos dos grups, i tu al mig. Té sentit que et sentis perdut.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 342,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 35,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... i el pitjor és que ja no sé si és culpa meva per no haver-ho tallat abans, o és que simplement és molt difícil. Probablement les dues coses, no? Perdona, és que soc molt dur amb mi mateix de vegades. Però és que arribo a casa i encara hi penso, i no puc desconnectar. Estic cansat, bàsicament."
+  },
+  {
+   "qui": "TARA",
+   "text": "Arribes a casa i encara hi ets, al pati. Això cansa molt.\n\nI el que dius de ser dur amb tu mateix... ho has notat tu sol. Això ja diu alguna cosa.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 484,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 53,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... sí, tens raó. No ho havia pensat així. És que a vegades em sembla que els altres tutors ho porten millor que jo, i clar, llavors em comparo i... buf. Però sí, avui simplement necessitava dir-ho en veu alta, crec. Treure-ho una mica de dins. I ja m'ha ajudat, de veritat. Crec que ja estic millor. Ara me'n vaig, que ja és tard. Gràcies, eh?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Me n'alegro que hagi servit per treure-ho una mica. Descansa.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 671,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 36,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

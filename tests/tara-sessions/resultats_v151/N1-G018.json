@@ -1,0 +1,73 @@
+{
+ "id": "N1-G018",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "breu · una alumna que queda exclosa a l'hora de fer grups",
+ "tipus": "breu",
+ "persona": "Xavi, profesor novel. Situació: una alumna que queda exclosa a l'hora de fer grups. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:12:08.582Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, mira, voy muy pillado de tiempo, tengo clase en diez minutos. Tengo una situación con una alumna que siempre se queda fuera cuando hacemos grupos y no sé cómo gestionarlo, ¿me puedes dar algo rápido y concreto que pueda hacer hoy mismo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tres opciones, elige la que encaje:\n\n**1. Tú asignas los grupos** — antes de que empiece la dinámica, ya están hechos. Sin elección, sin exclusión visible.\n\n**2. Grupos por azar** — papelitos, colores, números. La exclusión no es personal, y tú puedes \"ajustar\" discretamente el resultado.\n\n**3. La incluyes tú directamente** — te acercas antes de que se formen y le dices: *\"Hoy quiero que estés en el grupo de...\"* Sin drama, sin explicaciones.\n\nPara hoy, la más rápida: **la 2 o la 3**.\n\nCuando tengas más tiempo, si quieres, miramos qué hay detrás.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 219,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 190,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecto, con la 3 me quedo, es lo más directo. Muchas gracias, me has salvado. ¡Hasta luego!"
+  },
+  {
+   "qui": "TARA",
+   "text": "¡Suerte con la clase! Hasta luego.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 450,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

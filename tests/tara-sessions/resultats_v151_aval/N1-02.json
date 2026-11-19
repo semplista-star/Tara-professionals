@@ -1,0 +1,27 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió desde el primer momento que Jordi necesitaba herramientas concretas y prácticas, se ajustó al rechazo de la frase de manual y condujo el ensayo con precisión.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿tienes idea de dónde viene esa convicción de la madre?",
+   "esperat": "Con la información ya dada (madre convencida de manía, email del trimestre pasado) era suficiente para proponer estructura; la pregunta retrasa la ayuda a alguien que va con prisa"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Te propongo un enfoque en tres movimientos [...] ¿Quieres que ensayemos cómo responder si ella se pone a la defensiva o sube el tono?",
+   "esperat": "La estructura es útil y bien orientada, pero el formato con encabezados en negrita y la extensión total es algo mayor de lo que un tutor con prisa habría necesitado; podría haberse comprimido"
+  }
+ ]
+}

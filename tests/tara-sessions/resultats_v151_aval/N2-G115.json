@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat pràctica (quant i com explicar-ho), però al torn 2 va anticipar opcions no demanades i al torn 4 va fer elogis automàtics no sol·licitats.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Si tens dubtes sobre la privacitat, et recomano que ho consultis directament amb la persona o l'organització que t'ha facilitat l'accés a aquesta eina, abans de compartir res sensible.",
+   "esperat": "Respondre la pregunta sobre privacitat de forma breu i clara, sense afegir recomanació de derivació no demanada"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Aquí tens tres opcions reals, amb el que implica cadascuna",
+   "esperat": "La persona no havia demanat opcions ni un pla d'acció; havia explicat la situació i TARA hauria pogut preguntar primer què necessitava exactament"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "1. Decideixes tu sola i li dones paga [...] 2. Ho parles primer amb els pares [...] 3. Ho fas sense consultar, però els ho dius després",
+   "esperat": "Resposta més breu o una sola pregunta per concretar què necessitava la persona abans de desplegar tres opcions"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Bé que t'hagi servit.",
+   "esperat": "Ometre el comentari valoratiu i passar directament a la resposta"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Si em dius aproximadament quina edat té, et puc ajudar a afinar una mica més.",
+   "esperat": "La persona ja havia dit «ja té una edat que els seus amics tots tenen paga»; demanar l'edat era acceptable, però la pregunta al final del torn era prescindible donat que la informació era suficient per orientar"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Cinc euros a la setmana per començar em sembla molt sensat",
+   "esperat": "No valorar la decisió de la persona; confirmar i tancar sense judici"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Sembla que ho tens clar.",
+   "esperat": "Tancar sense avaluar la persona ni la seva claredat; un simple comiat càlid i breu"
+  }
+ ]
+}

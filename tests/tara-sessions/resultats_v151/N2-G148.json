@@ -1,0 +1,204 @@
+{
+ "id": "N2-G148",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "desfogar-demanda · el menjar i les baralles a taula",
+ "tipus": "desfogar-demanda",
+ "persona": "Rosa, pare separat que té els fills cap de setmana sí cap de setmana no. Situació: el menjar i les baralles a taula. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:31:39.472Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola... bé, no sé si estic al lloc correcte però... avui crec que només necessito que m'escoltin, si no és molt demanar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar que sí. Aquí estic.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 204,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies... és que els caps de setmana que tinc els nens, els àpats es converteixen en una guerra. No sé com ho faig però sempre acaba malament, amb crits i plors i jo sense saber on ficar-me. Em sento molt malament per això."
+  },
+  {
+   "qui": "TARA",
+   "text": "Els àpats que haurien de ser tranquils acaben en crits i plors, i tu te'n vas amb un pes molt gran.\n\nT'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 295,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 43,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactament. I el pitjor és que sé que el temps que passo amb ells és limitat, i llavors em sento encara pitjor perquè el malgasto barallant-me per si mengen o no mengen. Perdona, no sé si m'explico bé..."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'expliques molt bé. Tens poc temps amb ells, i una part d'aquest temps se'n va en conflicte — i això fa que el pes sigui doble.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 417,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 47,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... és just això. El doble. Perquè per una banda hi ha la baralla en si, i per l'altra el pensar \"ostres, ja hem perdut una estona junts per culpa d'això\". I després se'n van i jo me quedo pensant-hi tota la setmana."
+  },
+  {
+   "qui": "TARA",
+   "text": "I te'n vas amb aquella estona al cap tota la setmana, fins que tornen.\n\nQuants anys tenen, els nens?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 544,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tenen vuit i onze anys. Per què ho preguntes? Espero que no sigui una pregunta trampa... perdona, no volia dir això. És que de vegades em poso a la defensiva sense voler."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cap problema, és una pregunta justa. Ho preguntava perquè l'edat canvia molt com funcionen aquestes situacions a taula — però si prefereixes que no entrem en això ara i seguim escoltant, també està bé.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 639,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 61,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, de moment preferiria que no... si no t'importa. Necessitava explicar-ho i que algú ho sentís, ja saps? Que no em donessin una llista de coses a fer. Ja n'he llegit moltes i... no sé, avui no."
+  },
+  {
+   "qui": "TARA",
+   "text": "Avui no. T'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 777,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 13,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. És que a vegades només necessites que algú digui \"sí, és difícil\" sense més. La meva germana sempre em diu el que hauria de fer diferent i acabo sentint-me pitjor. No és la seva culpa, ho fa amb bona intenció, però..."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, és difícil.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 870,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 12,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. Això era el que necessitava sentir. Fa molt.\n\n...Mira, ara que ho he explicat una mica... creus que em podries ajudar amb una cosa concreta? Petita. Només un primer pas, no sé, alguna cosa que pugui provar el proper cap de setmana a l'hora de dinar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar. Digue'm una cosa: quan comença a tensar-se l'ambient a taula, com sol anar? Qui fa el primer moviment, tu o ells?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 974,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 47,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "id": "N1-G022",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "rebuig · un alumne que no fa res a classe i contesta malament",
+ "tipus": "rebuig",
+ "persona": "Rubén, vetlladora. Situació: un alumne que no fa res a classe i contesta malament. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:38:05.676Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, sí... bé, és que tinc una situació a la feina que no sé com gestionar i... no sé si em podràs ajudar però ho intento. Soc vetllador i hi ha un alumne que... buf, és complicat. No fa res a classe i quan li dic alguna cosa em contesta malament. I jo no sé com actuar, la veritat. Perdona si no m'explico bé."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'expliques bé, no et preocupis.\n\nUn alumne que no fa res i quan t'hi adreces et contesta malament. Entenc que és desgastant, sobretot quan no saps per on agafar-ho.\n\nAbans d'ajudar-te a pensar com actuar, m'ajudaria saber una cosa: quan dius que et contesta malament, com és això? Paraules, to, gestos... o una barreja?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 252,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 119,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "És una barreja, crec. A vegades és el to, que és molt tallant, saps? I altres vegades directament em diu coses com \"deixa'm en pau\" o \"no és el teu problema\". I jo... no sé, em quedo sense paraules. No sé si és que ho faig malament jo o és cosa seva. Potser és culpa meva, no ho sé."
+  },
+  {
+   "qui": "TARA",
+   "text": "Que et quedis sense paraules quan passa té sentit: és difícil respondre en el moment a algú que et talla així.\n\nI noto que et preguntes si és culpa teva. Sense saber més, no puc dir-te si estàs fent alguna cosa que no ajuda o no, però sí puc dir-te que fer-te aquesta pregunta ja diu que t'importa fer-ho bé.\n\nUna cosa que em seria útil saber: quan t'hi adreces, com sol ser? Vull dir, en quin moment i amb quines paraules li parles normalment.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 471,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 152,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs... normalment m'hi acosto quan veig que no fa res, que té els materials a part o que mira el sostre. I li dic coses com \"ei, has de fer la feina\" o \"per què no comences?\" Suposo que sona una mica... no sé. Potser massa directe? No ho sé, igual és que no trobo les paraules adequades. Perdona, és que no sé explicar-ho gaire bé."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'expliques molt bé, de debò.\n\nEl que descrius és bastant clar: el veus parat, t'hi adreces directament sobre la feina, i ell tanca. Pot ser que el to directe hi tingui alguna cosa a veure, sí, però també pot ser que hi hagi altres coses que no saps encara, sobre ell, sobre el moment, sobre com viu la teva presència.\n\nUna cosa que de vegades ajuda és canviar el punt d'entrada. En lloc d'anar cap a la feina, anar cap a ell. Per exemple, en lloc de \"has de fer la feina\", alguna cosa com \"ei, com estàs?\" o simplement seure un moment al seu costat sense dir res de la tasca.\n\nNo és garantia de res, però de vegades obre una porta diferent.\n\nSaps alguna cosa d'ell, de com li va en general, o és un alumne que coneixes poc?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 239,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, el conec una mica... sé que ho passa malament a casa, crec. Però clar, jo no soc el seu tutor ni el seu psicòleg, saps? I el que dius de seure al seu costat sense dir res... no sé. Ho he provat alguna vegada i em sembla que es posa encara més tens. Com si la meva presència el molestés directament. Potser és que no soc la persona adequada per fer això, no ho sé."
+  },
+  {
+   "qui": "TARA",
+   "text": "Que la teva presència el posi tens és informació important, no un fracàs teu.\n\nHi ha alumnes que, per coses que no tenen res a veure amb tu, viuen qualsevol figura adulta que s'acosta com una amenaça o una pressió. No és personal, encara que ho sembli.\n\nI tens raó: no ets el seu tutor ni el seu psicòleg. Però sí que ets una persona adulta de referència que el veu cada dia. Això té valor, encara que no es noti.\n\nEl que dius que ho passa malament a casa, ho sap el tutor o l'orientació del centre? Perquè si hi ha alguna cosa de fons, potser el que necessites no és trobar les paraules perfectes tu sol, senseó saber com coordinar-te amb qui ja té més context d'ell.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1104,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 214,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, crec que el tutor ho sap, però... no sé si parlen gaire amb ell tampoc. I el que dius de coordinar-me... és que no vull molestar, saps? Igual el tutor ja té moltes coses i jo soc \"només\" el vetllador. No sé si és el meu lloc demanar una reunió o algo així. Potser m'estic ficant on no em toca."
+  },
+  {
+   "qui": "TARA",
+   "text": "Res de \"només\" el vetllador. Ets una persona que el veu cada dia i que s'ha adonat d'alguna cosa. Això és exactament el que hauria de circular entre els professionals d'un centre.\n\nDemanar una estona al tutor per compartir el que observes no és ficar-te on no et toca. És fer la teva feina.\n\nNo cal que sigui una reunió formal. Pot ser cinc minuts: \"Volia comentar-te com veig en Fulano, per si t'és útil.\" Prou.\n\nT'animaries a fer-ho?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1432,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 153,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf... sí, potser tens raó. Cinc minuts no és tant, oi? Igual m'ho estic complicant massa jo sol. Ho intentaré, sí. Gràcies, de veritat, perquè... no sé, em sentia una mica perdut amb tot això i ara ho veig una mica més clar. Perdona si he estat molt embolicat explicant-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "No has estat embolicat. Has explicat una situació complicada amb molta honestedat.\n\nSort amb els cinc minuts.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1690,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 35,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

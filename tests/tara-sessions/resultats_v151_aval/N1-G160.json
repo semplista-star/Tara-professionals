@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre correctament el que necessitava Ibrahim en cada torn: primer privacitat, després orientació sobre el desacord, i finalment un esborrany concret.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Buena pregunta, y tiene sentido hacerla antes de compartir nada.",
+   "esperat": "Respondre directament la pregunta sobre privacitat sense validar-la amb fórmula"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿el centro tiene ya un informe médico actualizado sobre este alumno, con indicaciones específicas para la actividad? ¿O eso es precisamente lo que falta?",
+   "esperat": "Podria haver esperat que Ibrahim expliqués el desacord del equip abans de preguntar; la pregunta és útil però s'avança al relat"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "El desacuerdo del equipo probablemente no es sobre si el alumno puede ir, sino sobre si el centro tiene lo que necesita para acompañarlo bien. Y ahí tienen razón en no ponerse de acuerdo todavía",
+   "esperat": "No interpretar ni atribuir la causa del desacord de l'equip sense que Ibrahim ho hagi dit; limitar-se a constatar que falta el protocol"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Lo más urgente, antes de cualquier otra decisión, es conseguir ese protocolo médico concreto. Debería incluir al menos: [llista de cinc punts]",
+   "esperat": "La llista és útil però podria ser més breu o oferir-la com a opció; Ibrahim no havia demanat el contingut del protocol, sinó orientació sobre el pas següent"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Si en estos días el equipo necesita pensar juntos qué hacer con el protocolo cuando llegue, o preparar algo más, aquí estaré.",
+   "esperat": "Tancar sense oferir proactivament nous serveis no demanats; un simple comiat és suficient"
+  }
+ ]
+}

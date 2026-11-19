@@ -1,0 +1,55 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat central (preparar la reunió) i es va reajustar quan Óscar va demanar un to més natural, però al torn 1 va fer una pregunta de clarificació que endarrerí l'ajuda i al torn 2 va lliurar un esquema massa llarg i formal per al perfil declarat.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Abans de preparar la conversa, una cosa que m'ajudaria a afinar-la: quina és la teva posició real?",
+   "esperat": "La posició d'Óscar era prou clara al primer missatge ('canviar-lo de grup ara a mig curs em sembla precipitat'); TARA podia inferir-la i lliurar directament un primer esquema o estructura de conversa"
+  },
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molta lògica.",
+   "esperat": "Validació breu i genuïna sense fórmula de tancament automàtic"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Perfecte, això és una posició sòlida i honesta.",
+   "esperat": "Recollir la posició i passar directament a l'ajuda sense qualificar la resposta d'Óscar"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Aquí tens un esquema per a la reunió: [...] 1. Obrir reconeixent el que han viscut [...] 4. Deixar espai per a ells",
+   "esperat": "Un esquema més breu i en to conversacional, coherent amb el perfil d'Óscar descrit al cas ('parla natural'); la llargada i el format de guió van provocar la queixa del torn 3"
+  },
+  {
+   "torn": 3,
+   "categoria": "altres",
+   "gravetat": "baixa",
+   "cita": "senseó perquè realment t'importa [...] senseó per buscar junts [...] senseó perquè primer val la pena",
+   "esperat": "Artefacte de text ('senseó') que hauria de ser 'sinó'; no afecta la comprensió però indica un error de generació no revisat"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "que segur que va bé",
+   "esperat": "Tancament càlid sense predicció sobre el resultat, que TARA no pot garantir"
+  }
+ ]
+}

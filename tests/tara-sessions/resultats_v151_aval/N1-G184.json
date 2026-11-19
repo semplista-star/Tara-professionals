@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat principal (frase natural per parlar amb la Marta), però al torn 1 va fer una pregunta sobre l'origen del sentiment de ridícul que la persona no havia demanat, i al torn 2 va reencadrar cognitivament sense que li ho demanessin.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Quan dius que et sents ridícul, és perquè creus que els altres ho veuen, o és més una cosa interna teva?",
+   "esperat": "Deixar que la persona continués o preguntar simplement per on vol anar, sense aprofundir en l'origen del sentiment"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Però hi ha una cosa que has dit que em sembla important: tu saps per què no avança. No és que no te n'adonis, ni que no ho gestiones. És que hi ha una persona que no respon, i això és diferent de ser un inútil.",
+   "esperat": "La persona no havia demanat una reencadrament cognitiu; TARA podria haver recollit el que sentia i preguntat directament per on volia anar"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit.",
+   "esperat": "Una resposta més natural que no comenci amb una fórmula de validació"
+  },
+  {
+   "torn": 5,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Sí, té raó.",
+   "esperat": "Acceptar la correcció sense la fórmula d'acord automàtic; per exemple, simplement oferir la versió revisada"
+  }
+ ]
+}

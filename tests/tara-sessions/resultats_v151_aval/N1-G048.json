@@ -1,0 +1,27 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre que la persona volia desfogar-se, però al torn 3 va oferir passar a mode resolució de problemes quan la persona no ho havia demanat.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Vols quedar-te aquí una estona, o t'ajudaria pensar juntes si hi ha alguna cosa diferent que podries provar amb ell?",
+   "esperat": "Tancar l'escolta sense obrir una nova via de treball, ja que la persona havia dit que estava millor i no havia demanat consells"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "has donat molt i arribes a un punt on ja no saps per on tirar",
+   "esperat": "Reflectir el que la persona ha expressat sense afegir interpretació sobre el seu estat intern ('arribes a un punt')"
+  }
+ ]
+}

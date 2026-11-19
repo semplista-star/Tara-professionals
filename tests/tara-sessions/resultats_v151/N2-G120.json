@@ -1,0 +1,119 @@
+{
+ "id": "N2-G120",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "que-faig · la porta de l'habitació sempre tancada",
+ "tipus": "que-faig",
+ "persona": "Fàtima, pare separat que té els fills cap de setmana sí cap de setmana no. Situació: la porta de l'habitació sempre tancada. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:29:59.322Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, tinc un problema amb el meu fill gran, té 14 anys. Cada cop que vinc a buscar-lo el cap de setmana, es tanca a l'habitació i no vol sortir. I jo no sé si haig de picar a la porta i obligar-lo a parlar, o deixar-lo estar i esperar que surti ell sol. Fa setmanes que és igual. No sé què fer, digues-m'ho tu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Fa setmanes que passes a buscar-lo i et trobes amb la porta tancada. Entenc que sigui desconcertant i que et pesi.\n\nNo puc dir-te el que has de fer, perquè depèn de coses que només tu coneixes. Però sí que puc oferir-te dues opcions concretes amb el que implica cadascuna:\n\n**Picar a la porta i entrar a parlar**\nLi fas saber que ets allà i que no et rendeixes. El risc és que, si se sent pressionat, es tanqui més. Pot funcionar si el to és calmat i sense exigir que parli de seguida.\n\n**Esperar que surti ell sol**\nLi dones espai i control, que a 14 anys sol importar molt. El risc és que interpreti el silenci com a desinterès. Pot funcionar si li fas saber d'alguna manera que estàs allà sense forçar res.\n\nHi ha una tercera via que combina les dues: **picar, dir una cosa breu i marxar**. Per exemple: *«Soc aquí. Quan vulguis, surto.»* Sense esperar resposta. Deixa la porta oberta sense pressió.\n\nQuina d'aquestes et sembla més propera al que podries fer tu?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 278,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 332,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ja, però és que jo necessito opcions concretes, no que em tornin la pregunta. Per això he vingut aquí. Digue'm tu quina és la millor."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, t'he tornat la pregunta quan m'havies demanat una resposta. Ho entenc.\n\nLa tercera opció és la que et recomanaria: **picar, dir una cosa breu i marxar sense esperar resposta.**\n\nA 14 anys, sentir-se observat o pressionat sol tancar més que obrir. Però el silenci total també pot semblar abandó. Una frase curta i sense exigència fa les dues coses alhora: li dius que ets allà, i li deixes el control.\n\nPodries dir alguna cosa com: *«Ei, soc aquí. Quan vulguis.»* I marxar. Sense quedar-te a la porta, sense preguntar res.\n\nSi ho fas cada vegada que véns, sense forçar, és possible que amb el temps ell comenci a sortir. No de cop, però sí a poc a poc.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 657,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 227,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bé, d'acord, provaré això. Però com ho faig exactament, com començo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Quan arribis, vas directe a la porta de l'habitació, piques un cop o dos, i dius:\n\n*«Ei, soc aquí. Quan vulguis, surto.»*\n\nI te'n vas. Sense quedar-te a escoltar, sense tornar a picar, sense preguntar res més.\n\nDesprés fas el que faries normalment a casa — seu al sofà, prepara't un got d'aigua, qualsevol cosa. Que noti que estàs present però no pendent d'ell.\n\nAixò és tot.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 914,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 141,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sembla massa fàcil. Però bé, ho provaré aquest cap de setmana. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, de vegades les coses senzilles són les que funcionen. Ja veuràs com va.\n\nSort aquest cap de setmana.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1089,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

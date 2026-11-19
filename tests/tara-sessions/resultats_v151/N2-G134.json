@@ -1,0 +1,163 @@
+{
+ "id": "N2-G134",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "demanda-directa · com explicar una separació",
+ "tipus": "demanda-directa",
+ "persona": "Laia, padrastro. Situació: com explicar una separació. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:30:39.251Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Necesito ayuda para decirle a mi hijastra que su madre y yo nos separamos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Es una conversación difícil de preparar. ¿Cuántos años tiene ella?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 191,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "9 años."
+  },
+  {
+   "qui": "TARA",
+   "text": "Gracias. Una pregunta más antes de ayudarte a preparar las palabras: ¿sabe ya algo, o va a ser la primera vez que lo escucha?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 224,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 44,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No sabe nada todavía."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Entonces va a ser una noticia grande para ella.\n\nA los 9 años, lo que más necesitan escuchar los niños en estos momentos es que no es culpa suya, que los dos adultos van a seguir cuidándola, y que puede preguntar lo que quiera.\n\nTe propongo un esquema sencillo para esa conversación:\n\n**Lo que pasó** (en palabras claras, sin detalles que no necesita)\n*\"Tu madre y yo hemos decidido que ya no vamos a vivir juntos.\"*\n\n**Lo que no cambia**\n*\"Los dos te queremos y vamos a seguir estando para ti.\"*\n\n**Lo que no es suyo**\n*\"Esto no tiene nada que ver contigo. No es culpa tuya.\"*\n\n**Dejarle espacio**\n*\"Puedes preguntarnos lo que quieras, cuando quieras.\"*\n\n---\n\nHay algunas cosas que pueden ayudar a decidir cómo hacerlo: ¿vais a decírselo juntos, tú y su madre, o lo harás tú solo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 280,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 280,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Juntos. ¿Me puedes dar un mensaje corto para empezar, algo que decirle al principio?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Algo así:\n\n*\"Cariño, queremos contarte algo importante. Tu madre y yo hemos decidido que vamos a vivir separados. Esto no tiene nada que ver contigo — los dos te queremos mucho y eso no va a cambiar.\"*\n\nCorto, claro, y lo más importante dicho desde el principio.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 592,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 90,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bien, pero ¿puedes hacerlo un poco más cálido?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro:\n\n*\"Cariño, queremos contarte algo. Hemos decidido que tu madre y yo vamos a vivir en casas separadas. Esto no es culpa tuya para nada — los dos te queremos con todo el corazón, y eso nunca va a cambiar.\"*",
+   "tags": [],
+   "usage": {
+    "input_tokens": 704,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 77,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecto, así está mejor. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Mucho ánimo para ese momento — no es fácil, pero el hecho de que lo estéis preparando juntos ya es un buen comienzo para ella.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 796,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 52,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

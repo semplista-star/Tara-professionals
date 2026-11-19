@@ -1,0 +1,69 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va identificar ràpidament que la Carmen volia preparar una conversa i va centrar-s'hi sense desviar-se.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "vols que t'ajudi a pensar com parlar-hi, o primer vols explicar-me una mica més com va la cosa?",
+   "esperat": "La persona ja havia descrit prou la situació; la pregunta bifurcada allarga innecessàriament quan es podria haver ofert directament acompanyament"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Quina edat té?",
+   "esperat": "L'edat no era necessària per preparar la conversa que la Carmen demanava; si calia, es podia integrar de manera menys interrogativa"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "tens tot el sentit d'estar farta",
+   "esperat": "Una validació més natural i menys formulaica, sense el patró 'tens tot el sentit de...' que sona a manual de CNV"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "tens tot el sentit d'estar farta",
+   "esperat": "La Carmen ja havia dit que estava farta; repetir-ho com a validació és redundant i pot sonar a fórmula automàtica"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "sovint ajuda parlar en un moment tranquil —no quan acaba d'arribar tard ni quan estàs al límit",
+   "esperat": "La Carmen va demanar una frase per a la conversa, no consells sobre el moment adequat per tenir-la; aquest afegit no havia estat demanat"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Aquesta frase explica el que passes tu —la preocupació, no només el retard— i li deixa espai per respondre.",
+   "esperat": "La Carmen escriu molt curt; la frase proposada ja era llarga i l'explicació posterior era innecessària; millor deixar que ella valori"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Tens raó, és massa formal",
+   "esperat": "Acceptar la correcció és correcte, però 'Tens raó' pot sonar a fórmula; millor reformular directament sense el judici validador"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Ànim! Espero que vagi bé.",
+   "esperat": "Un tancament més neutre i breu, sense l'exclamació animadora que pot sonar a paternalisme lleuger"
+  }
+ ]
+}

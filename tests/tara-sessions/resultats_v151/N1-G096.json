@@ -1,0 +1,97 @@
+{
+ "id": "N1-G096",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "demanda-directa · una família que l'ha cridat per telèfon",
+ "tipus": "demanda-directa",
+ "persona": "Fàtima, jefe de estudios. Situació: una família que l'ha cridat per telèfon. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:16:55.222Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, sí. Mira, te llamo porque tengo una familia al teléfono ahora mismo, bueno, en espera, y necesito decirles algo sobre el tema de las notas de su hijo. El chico ha suspendido tres asignaturas y los padres están muy alterados, me han dicho que no entienden cómo ha pasado esto si el niño estudia mucho en casa, que ellos lo ven estudiar, que seguro que es culpa de los profesores... ya sabes cómo va esto. Y yo quiero ser empática pero también firme, porque hay que decirles la verdad. ¿Me puedes ayudar a preparar una frase o un mensaje corto para decirles ahora, algo que abra el diálogo sin que se pongan más a la defensiva?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí va algo que puedes decir ahora mismo:\n\n---\n\n*\"Entiendo que esto les ha sorprendido y que están preocupados por él, porque lo ven esforzarse en casa. Eso es importante y lo tenemos en cuenta. Lo que me gustaría es que pudiéramos hablar juntos, con calma, para entender qué está pasando y ver qué podemos hacer entre todos para ayudarle.\"*\n\n---\n\nReconoce su preocupación, no entra en el debate de a quién culpar, y abre la puerta a una conversación real.\n\nSi en ese momento insisten en los profesores, puedes añadir:\n\n*\"Eso es exactamente lo que queremos revisar juntos. Necesitamos su visión y la nuestra para tener el cuadro completo.\"*\n\nVe. Tienes lo que necesitas.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 337,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 218,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay, está bien, está bien, pero me queda un poco larga para decirla así, de golpe, por teléfono, ¿sabes? Que los tengo en espera y no quiero que suene a que estoy leyendo algo. ¿Me la puedes dejar en dos frases, más corta, pero que siga siendo cálida?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro:\n\n*\"Entiendo que están preocupados, y tiene todo el sentido. ¿Podemos buscar un momento para hablar juntos y ver qué está pasando con él?\"*\n\nVe.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 648,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 56,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecta, así sí. Muchas gracias, me has salvado. Voy."
+  },
+  {
+   "qui": "TARA",
+   "text": "¡Ánimo! Ya me cuentas cómo ha ido si quieres.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 27,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

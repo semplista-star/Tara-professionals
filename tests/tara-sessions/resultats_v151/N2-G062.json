@@ -1,0 +1,163 @@
+{
+ "id": "N2-G062",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "desfogar-demanda · un fill que menteix sovint",
+ "tipus": "desfogar-demanda",
+ "persona": "Óscar, tieta que cuida la nena. Situació: un fill que menteix sovint. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:26:58.827Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Avui, si no li fa res, simplement necessito que m'escolti."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estic. Explica'm.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 187,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. Doncs miri, soc l'Óscar, el tiete de la Marta. La meva germana m'ha demanat que em quedi amb la nena uns dies mentre ella arregla uns assumptes. I el cas és que el nen —el germà de la Marta, en Pau, que també és al meu càrrec ara— menteix constantment. Coses petites, coses grans, tot. I no sé com gestionar-ho perquè no soc el seu pare, però tampoc puc fer veure que no passa res."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'escolto, Óscar. Tens dos nens al teu càrrec de cop, i amb en Pau et trobes amb alguna cosa que no saps ben bé com agafar: no ets el seu pare, però tampoc pots mirar cap a un altre costat.\n\nExplica'm, si vols, com és això que vius amb ell.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 348,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 92,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacte, vostè ho ha entès bé. El que em costa és que quan li pregunto alguna cosa senzilla —si ha fet els deures, si ha menjat, el que sigui— em respon amb una mentida sense ni pensar-s'ho. I jo li veig a la cara que sap que jo sé que menteix. Però ell continua. I no sé si és una prova, si és un hàbit, o si és que simplement no em té prou confiança per dir-me la veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, i el que dius de la cara és important: hi ha un moment entre vosaltres dos on tots dos sabeu el que passa, i tot i així ell continua. Això pot ser molt desconcertant.\n\nNo sé per què ho fa en Pau. Pot ser una prova, pot ser un hàbit, pot ser que amb tu tot sigui nou i incert. Probablement ell tampoc ho sap del tot.\n\nContinua, t'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 573,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 119,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, és exactament això, la incertesa. I el que em pesa més és que no vull que acabi la setmana amb una mala relació entre nosaltres. Perquè jo l'estimo, és el meu nebot. Però cada vegada que menteix i jo no dic res, sento que estic fallant. I si dic alguna cosa, no sé si ho faig bé o malament."
+  },
+  {
+   "qui": "TARA",
+   "text": "Estimes en Pau i vols que aquesta setmana no deixi una ferida entre vosaltres. Això es nota en tot el que dius.\n\nQueda't aquí si vols.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 798,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 51,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Gràcies per deixar-me explicar-ho. De fet... ara que ho he dit en veu alta, crec que sí que li voldria demanar una cosa concreta. Quan arribi a casa i torni a passar, com puc respondre en aquell moment, sense que sembli un judici ni un càstig?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar. Quan passi, pots provar alguna cosa així:\n\n«En Pau, jo crec que potser no ha sigut exactament així. No passa res. Si vols explicar-me com ha anat de veritat, t'escolto.»\n\nI deixar-ho aquí. Sense insistir, sense cara de judici. Li dones una porta oberta, no un interrogatori.\n\nSi no la travessa, tampoc cal forçar-ho. Que sàpiga que la porta hi és, ja és molt.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 937,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 132,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Això és just el que necessitava. Una frase concreta, sense dramatisme. Ho provaré. Moltes gràcies, de veritat, m'ha ajudat molt poder-ho explicar i tenir aquest primer pas clar."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit, Óscar. Sort amb en Pau —i amb la Marta també.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1129,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 34,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

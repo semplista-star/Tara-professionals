@@ -1,0 +1,118 @@
+{
+ "id": "N2-G059",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "nomes-desfogar · arribar tard els caps de setmana",
+ "tipus": "nomes-desfogar",
+ "persona": "Dolors, madrastra. Situació: arribar tard els caps de setmana. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:26:31.211Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, hoy no necesito que me ayudes a preparar nada ni a hablar con nadie. Solo necesito desahogarme un momento, ¿vale? Es que vengo de un fin de semana de los míos... 😅"
+  },
+  {
+   "qui": "TARA",
+   "text": "Vale, aquí estoy. Cuéntame.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 228,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es que el Marc otra vez llegó tardísimo el domingo por la noche. Se supone que a las nueve en casa, y apareció a las once y media. Once y media! Con la cara de \"qué pasa, si no es para tanto\" 😂 A ver, yo sé que tiene dieciséis años y que es lo que toca, pero es que me tiene frita."
+  },
+  {
+   "qui": "TARA",
+   "text": "Dos horas y media de retraso con cara de «qué pasa»… con dieciséis años es lo que toca, sí, pero que te tenga frita también es lo que toca. 😄",
+   "tags": [],
+   "usage": {
+    "input_tokens": 339,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 56,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacto! Y lo peor no es ni la hora, es la cara. Esa cara... 😂 Si al menos llegara con un \"perdona Dolors, es que se me fue el tiempo\" pero no, nada. Como si yo fuera el reloj de la estación y él el tren que siempre llega tarde y todos tan contentos. Y yo ahí, en el sofá, fingiendo que veía la tele pero en realidad mirando el móvil cada cinco minutos. Una imagen muy digna, la verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Jajaja, la imagen del reloj de la estación es muy buena. 😄\n\nY sí, hay algo muy distinto entre llegar tarde y llegar tarde con esa cara.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 526,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 48,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Totalmente. Que llegues tarde, bueno, pasa. Pero es que la cara lo dice todo, ¿sabes? Como que el problema soy yo por estar esperando. 😂 En fin... oye, que ya me ha ido bien soltarlo un poco. Me quedo más ligera. Creo que ya está, que me voy. Gracias por escucharme!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te haya ido bien. ¡Buen descanso, Dolors!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 672,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

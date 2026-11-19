@@ -1,0 +1,119 @@
+{
+ "id": "N1-G162",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "humor · una alumna que queda exclosa a l'hora de fer grups",
+ "tipus": "humor",
+ "persona": "Mercè, professora substituta. Situació: una alumna que queda exclosa a l'hora de fer grups. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:21:35.299Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, Tara. Mira, porto tres setmanes fent de substituta i ja he aconseguit que una alumna quedi sola mentre tothom forma grups. Tot un èxit pedagògic, la veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tres setmanes i ja tens una situació que et pesa. Que ho diguis amb ironia no amaga que t'importa.\n\nQuè ha passat, exactament? Vull entendre com ha quedat sola — si ha estat una dinàmica de grup, alguna cosa que tu has proposat, o una cosa que ja venia de before.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 199,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 87,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bé, sí, m'importa. La situació és que jo he proposat fer grups lliurement, sense assignar-los, i tots els alumnes s'han agrupat de manera bastant ràpida. Menys ella. S'ha quedat dreta, mirant, i al final l'he hagut d'afegir jo a un grup. No crec que sigui una cosa puntual, crec que ja venia d'abans que jo arribés."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, la imatge és clara: tots movent-se, ella quieta, mirant. I tu veient-ho.\n\nQue creguis que ve d'abans té sentit — tres setmanes no creen aquest tipus d'aïllament. Però ara ets tu qui ho ha vist de prop.\n\nQuè t'agradaria fer amb això?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 403,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 90,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs aquí és on no sé ben bé com actuar. No vull fer res que la posi en evidència davant dels altres, perquè podria empitjorar les coses. Però tampoc no puc ignorar-ho. M'agradaria saber si hi ha alguna manera concreta de gestionar la formació de grups la propera vegada que no la deixi en aquesta situació."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit el que vols evitar: que la solució la faci més visible com \"la que no té grup\".\n\nAquí tens tres maneres de gestionar la formació de grups que eviten això:\n\n**1. Grups assignats amb criteri discret**\nTu fas els grups abans de la classe, sense explicar per què. Pots dir simplement: \"Avui jo assigno els grups perquè vull barrejar perfils.\" Ningú no queda exposat i tu controles qui va amb qui.\n\n**2. Dinàmica estructurada amb atzar aparent**\nTargetes de colors, números, personatges... La distribució sembla aleatòria però tu l'has dissenyat. Dona cobertura a tothom i treu la càrrega social de \"qui m'escull\".\n\n**3. Grups base estables**\nDefineixes uns grups fixos per a diverses activitats. Elimines la situació de \"triar\" de manera recurrent. Requereix una mica més de planificació inicial, però protegeix de manera continuada.\n\nLes tres eviten que ella —o qualsevol altre alumne en situació similar— torni a quedar-se dreta mirant.\n\nUna cosa que potser val la pena fer en paral·lel: parlar amb la tutora o tutor del grup, si tens accés. No per alarmar, senseó per saber si ja hi ha alguna cosa en marxa o si cal activar algun circuit. Tu ets substituta i potser no tens tota la informació.\n\nAlguna d'aquestes opcions t'encaixa amb el que tens previst fer?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 594,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 405,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, la de les targetes em sembla la més fàcil d'aplicar demà mateix sense haver de reorganitzar res. Me la quedo. I el que dius de la tutora té sentit, intentaré parlar amb ella aquesta setmana. Gràcies, Tara."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bé. Targetes demà, tutora aquesta setmana. Tens un pla concret.\n\nSort.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1076,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

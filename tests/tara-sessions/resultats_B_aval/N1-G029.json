@@ -1,0 +1,55 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió correctamente en cada turno lo que Sara necesitaba: primero información sobre privacidad, luego orientación práctica, luego preparación concreta para la conversación.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que estés alterada después de algo así. Sentirte atacada delante de todo el claustro es duro.",
+   "esperat": "Reconocer sin convertir la validación en fórmula ni reiterar lo que la persona acaba de decir; bastaría con pasar directamente a la pregunta sobre qué necesita"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "hay tres caminos habituales en una situación así, y cada uno tiene su lógica: 1) Esperar unas horas... 2) Hablar hoy con alguien de confianza... 3) Escribir para ti",
+   "esperat": "Sara pidió saber cómo actuar; ofrecer tres opciones genéricas sin anclarlas a su situación es más largo y menos concreto de lo pedido; habría bastado preguntar qué tipo de acción estaba considerando o dar una orientación más ajustada"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿la persona que te ha hecho sentir atacada es alguien con quien tendrás que seguir trabajando de cerca, o es más puntual?",
+   "esperat": "La pregunta es útil para afinar, pero llega al final de una respuesta ya larga; podría haberse hecho antes de desplegar las tres opciones"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Sin conocer los detalles, hay tres caminos habituales en una situación así, y cada uno tiene su lógica: 1) Esperar unas horas antes de hacer nada [...] 2) Hablar hoy con alguien de confianza [...] 3) Escribir para ti, no para enviar.",
+   "esperat": "Respuesta más breve y orientada; Sara pedía orientación concreta, no un menú exhaustivo de opciones con explicación de cada una"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido esperar a estar un poco más asentada antes de hablar. Y tiene sentido prepararlo.",
+   "esperat": "Evitar repetir la misma fórmula de validación ('tiene sentido') que ya apareció en el turno 2; pasar directamente a la pregunta de clarificación"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "va a los hechos sin atacar, dice lo que necesitas sin pedir permiso para sentirlo, y deja la puerta abierta a que esa persona también tenga algo que decir",
+   "esperat": "Ofrecer el borrador sin añadir una interpretación de lo que hace cada parte del texto; Sara no pidió que se le explicara la lógica del borrador"
+  }
+ ]
+}

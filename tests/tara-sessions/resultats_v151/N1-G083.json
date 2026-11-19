@@ -1,0 +1,97 @@
+{
+ "id": "N1-G083",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "demanda-directa · una reunió de claustre molt tensa",
+ "tipus": "demanda-directa",
+ "persona": "Pau, maestra de educación especial. Situació: una reunió de claustre molt tensa. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:16:25.667Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Mira, necesito ayuda rápida. Tengo un claustro en veinte minutos y la cosa está que arde. La directora quiere recortar horas de apoyo a mis alumnos y yo tengo que decir algo sin que acabe en guerra total. ¿Me ayudas a pensar una frase o dos para decir ahí dentro sin que me tiemblen las piernas?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Veinte minutos, las piernas temblando y algo importante que defender. Vamos.\n\nAntes de la frase: ¿qué quieres conseguir hoy en ese claustro? ¿Que quede constancia de tu posición, que se abra un debate, que se posponga la decisión? Eso cambia mucho el tono.\n\nMientras me lo dices, aquí van dos opciones para empezar:\n\n**Si quieres abrir sin confrontar directamente:**\n*\"Antes de cerrar esta decisión, me gustaría que pudiéramos ver juntos qué impacto concreto tendría en estos alumnos. ¿Podemos dedicarle cinco minutos?\"*\n\n**Si quieres dejar clara tu posición sin que suene a ataque:**\n*\"Entiendo que hay presiones reales. Y también necesito decir que, desde lo que veo en el aula, este recorte tiene un coste que creo que vale la pena nombrar.\"*\n\nLas dos admiten un \"no\" sin cerrarte la puerta. ¿Cuál se acerca más a lo que necesitas, o quieres ajustar algo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 239,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 292,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La segunda, la segunda. Pero es un poco larga para mí, que cuando me pongo nerviosa me pierdo a mitad de frase. ¿La puedes dejar más corta y un poco más... yo? Que suene menos a comunicado oficial y más a Pau."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me gusta que quieras que suene a Pau. ¿Cómo hablas tú normalmente cuando algo te importa de verdad?\n\nMientras lo piensas, prueba esto:\n\n*\"Entiendo que hay presiones. Y necesito decir que este recorte tiene un coste real para estos chavales.\"*\n\nDos frases. Pausa entre medias. La primera les da espacio, la segunda dice lo que has venido a decir.\n\n¿Así suenas más tú?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 602,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 126,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, mucho mejor. Aunque cambiaría \"chavales\" por \"mis alumnos\", que en un claustro suena más serio y tampoco quiero que me tomen por loca. Pero sí, así ya me veo diciéndolo. Gracias, en serio, me has salvado la mañana."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecto, queda así:\n\n*\"Entiendo que hay presiones. Y necesito decir que este recorte tiene un coste real para mis alumnos.\"*\n\nSuena a ti y a claustro a la vez. Respira antes de decirlo, que la pausa también habla.\n\nSuerte, Pau. 💙",
+   "tags": [],
+   "usage": {
+    "input_tokens": 811,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 87,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va entendre que Rosa necessitava ser escoltada i després una frase concreta, i va respondre en l'ordre adequat sense imposar res.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Deu ser difícil veure'l tan tancat i no saber com arribar-hi.",
+   "esperat": "Acollir el que Rosa ha dit sense atribuir-li una dificultat ni una incertesa que ella no ha expressat; per exemple: 'Mesos tancat i sense sortir ni a dinar...'"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Entenc que et dol especialment perquè saps com era la relació.",
+   "esperat": "No explicar per què dol; deixar que Rosa ho digui si vol; per exemple: 'Setze anys i abans molt units... i ara aquest silenci.'"
+  },
+  {
+   "torn": 6,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que ho tingueu en compte abans de fer-ho.",
+   "esperat": "Una resposta més natural i menys formulaica; per exemple: 'Sí, i si diu que no fa mal' o simplement continuar sense validar amb fórmula."
+  },
+  {
+   "torn": 6,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Si et diu que no, seria un no a la coca, no a tu. Però entenc que en aquest moment costa separar les dues coses. Pots decidir tu quan et veus amb prou forces per intentar-ho. No cal que sigui ara.",
+   "esperat": "Rosa ha expressat una por; TARA pot acollir-la breument però no calia reinterpretar el 'no' ni afegir el consell de 'quan et vegis amb forces'; ella no ho ha demanat."
+  },
+  {
+   "torn": 8,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Els setze anys sovint tanquen portes quan senten que ve una conversa gran. Una invitació curta deixa espai per dir que sí sense haver de donar explicacions.",
+   "esperat": "Rosa ja havia acceptat la resposta ('Tan senzill?'); confirmar amb una frase i prou, sense afegir una explicació sobre adolescents que ella no ha demanat."
+  }
+ ]
+}

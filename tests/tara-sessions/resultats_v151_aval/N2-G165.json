@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entendió en cada momento lo que Pau necesitaba — primero claridad sobre privacidad, luego frases concretas para hablar con el nieto mayor — y respondió de forma ajustada.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Te alegras por la noticia, y a la vez te encuentras solo con una responsabilidad que nadie te ha explicado cómo llevar.",
+   "esperat": "Reflejar solo lo que Pau ha expresado explícitamente ('no sé cómo explicárselo', 'nadie me ha dicho nada') sin afirmar que se alegra, que él mismo ha matizado con 'debería estarlo, supongo'"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que te ponga en un compromiso.",
+   "esperat": "Omitir la validación formulaica o integrarla de forma más natural antes de pasar a la ayuda concreta"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Y si te pregunta por el cuarto u otras cosas concretas, puedes decirle con honestidad: «Eso lo tienen que decidir tus padres. ¿Se lo has preguntado a ellos?»",
+   "esperat": "Pau preguntó qué decirle sobre el querer y el miedo a no recibir atención; la extensión al cuarto y la redirección a los padres no fue pedida y alarga la respuesta"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "¿Te parece que eso encaja con cómo es él, o necesitas ajustarlo?",
+   "esperat": "La pregunta de cierre es correcta en sí, pero sumada a los dos bloques de frases propuestas hace el turno más largo de lo necesario para lo que Pau pedía"
+  }
+ ]
+}

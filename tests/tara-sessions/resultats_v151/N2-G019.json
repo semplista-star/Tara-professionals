@@ -1,0 +1,162 @@
+{
+ "id": "N2-G019",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "correccio · discussions cada nit per les pantalles",
+ "tipus": "correccio",
+ "persona": "Marta, mare. Situació: discussions cada nit per les pantalles. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:24:51.992Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, estic una mica desesperada perquè a casa cada nit és la mateixa guerra. El meu fill té 13 anys i quan li dic que apagui el mòbil o la consola, s'enfada una barbaritat. Crits, portades, de vegades fins i tot em diu que soc una pesada. I jo ja no sé com gestionar-ho, perquè acabo cridant jo també i després em sento fatal."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cada nit la mateixa batalla, i al final acabes cridant tu també i et sents malament. Té sentit que estiguis desesperada.\n\nQuan dius que no saps com gestionar-ho, què t'ajudaria més ara: entendre millor què passa, o tenir alguna cosa concreta per provar aquesta nit?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 282,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 88,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Algo concret, sí. Necessito eines, perquè entendre ja entenc que és l'edat i tot això, però a l'hora de la veritat no sé què fer quan s'enfada i em crida. Què li dic? Com reacciono? Això és el que necessito."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entesos. Aquí van tres coses concretes per al moment en què s'enfada:\n\n**1. Avisa abans, no quan ja és l'hora**\nEn lloc de \"apaga ara\", prova: *\"En deu minuts apaguem.\"* Li dona temps a acabar el que fa i redueix la sorpresa.\n\n**2. Quan crida, no pugis el to — baixa'l tu**\nÉs contraintuïtiu, però funciona millor que competir. Pots dir amb calma: *\"Quan pugis la veu, espero que acabis. Després parlem.\"* I fas silenci. No cal que guanyis l'argument en aquell moment.\n\n**3. Separa el moment calent de la conversa real**\nQuan tot s'ha calmat —no aquella nit, potser l'endemà— pots dir-li: *\"Ahir va anar malament. Vull que trobem una manera que funcioni per als dos. Quan vols parlar-ne?\"*\n\n---\n\nUna cosa important: que ell s'enfadi no vol dir que tu hagis fet res malament. Posar límits és la teva feina, encara que a ell no li agradi.\n\nHi ha alguna d'aquestes tres que veus més difícil de fer?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 446,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 323,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ostres, la segona. Quan em crida jo ja m'encenc, és que no puc evitar-ho. M'entra una ràbia... no sé, és com si em faltés el respecte davant meu i no puc quedar-me callada. Que consti que no he dit que ell no vulgui parlar ni res d'això, eh, simplement m'encenc i ja està."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, t'he entès — no és que ell no vulgui parlar, és que en aquell moment tu t'encens i ja no pots frenar.\n\nTé molt de sentit. Quan algú et crida, el cos reacciona sol — és difícil no respondre. I a sobre és el teu fill, que et diu que ets una pesada: clar que fa mal i clar que encén la ràbia.\n\nUna cosa petita per provar: **abans de respondre, una respiració i un segon de pausa.** No per quedar-te callada per sempre, senseó per triar tu com respons en lloc de reaccionar automàticament. Només un segon.\n\nI si tot i així surten els crits — passa. Després, quan tot s'hagi calmat, pots dir-li: *\"Ahir vaig cridar jo també. No m'agrada com va anar.\"* Això no és debilitat; li estàs mostrant com es repara una cosa que ha anat malament.\n\nHo veus possible, això del segon de pausa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 874,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 271,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, possible possible... no sé. Ho intentaré, però no et prometo res. El que sí que m'ha agradat és allò de dir-li l'endemà que a mi tampoc no m'ha agradat com va anar. Això no se m'havia acudit mai, sempre pensava que si ho reconeixia perdria autoritat. Potser no és així, no?"
+  },
+  {
+   "qui": "TARA",
+   "text": "No, no és així. De fet, sovint passa al revés: quan un adult reconeix que ell també s'ha equivocat, els fills adolescents escolten més, no menys. Perquè veuen que no és una qüestió de poder, senseó de tractar-se bé.\n\nL'autoritat no es perd dient \"ahir no m'ha agradat com ha anat\". Es perd si després no hi ha límit. Tu pots reconèixer com va anar i seguir sent la persona que decideix a quina hora s'apaga el mòbil.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1246,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 146,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, mira, això sí que m'ha fet clic. Que una cosa no lleva l'altra. Gràcies, de veritat, perquè necessitava sentir-ho. Ara ja tinc coses per provar, a veure com va aquesta nit... desitja'm sort! 😄"
+  },
+  {
+   "qui": "TARA",
+   "text": "Molta sort! 😄 I ja saps on trobar-me si vols explicar com ha anat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1474,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies! Ja t'explicaré, segur. Fins aviat!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Fins aviat! 👋",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1530,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 21,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

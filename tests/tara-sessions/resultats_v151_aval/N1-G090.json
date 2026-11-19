@@ -1,0 +1,55 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 1,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé que Marta necessitava preparar la reunió i li va oferir eines concretes i aplicables, acompanyant el seu estil humorístic sense perdre el fil.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "«los padres llegarán con su propia preocupación, quizás con miedo, quizás con defensas»",
+   "esperat": "No atribuir estats interns als pares sense que Marta els hagi descrit; millor preguntar-li què espera d'ells"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "«Qué traes tú [...] Qué pueden traer ellos [...] Cómo abrir la reunión»",
+   "esperat": "Marta havia demanat per on començar; tres blocs estructurats van més enllà del que necessitava en aquell torn"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "«Tiene sentido que eso te dé respeto»",
+   "esperat": "Recollir el que Marta ha dit sense validació formulaica; per exemple reformular el contingut concret de la seva preocupació"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "«podrías decir algo que reconozca lo que ella ya hace por Pau [...] 'Noto que el Pau tiene mucho apoyo en casa'»",
+   "esperat": "Marta havia preguntat com no posar la mare en mode atac; oferir una frase literal no demanada i amb risc de sonar a elogi buit supera el que es va demanar"
+  },
+  {
+   "torn": 1,
+   "categoria": "limit_canal",
+   "gravetat": "baixa",
+   "cita": "«la decisión de repetir o no le corresponde al equipo docente y a la familia, con los criterios del centro. Eso no te lo puedo resolver yo»",
+   "esperat": "El límit és correcte però s'explica de manera extensa i preventiva quan Marta no havia demanat una decisió sinó ajuda per ordenar-se; millor integrar-ho de forma breu i natural"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "«Me alegra que haya servido»",
+   "esperat": "Tancament càlid però sense centrar-lo en l'avaluació del propi servei de TARA; millor reflectir el que Marta s'emporta"
+  }
+ ]
+}

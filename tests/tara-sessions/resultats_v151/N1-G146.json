@@ -1,0 +1,163 @@
+{
+ "id": "N1-G146",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "correccio · una família que no respon mai als missatges",
+ "tipus": "correccio",
+ "persona": "Elena, tutora de 1º de ESO. Situació: una família que no respon mai als missatges. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:20:37.960Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Soy Elena, tutora de primero de ESO. Tengo una situación con una familia que no responde a ninguno de mis mensajes. Llevo semanas intentando contactar con ellos y no hay manera."
+  },
+  {
+   "qui": "TARA",
+   "text": "Semanas intentando contactar y sin respuesta. Eso cansa, y también puede generar incertidumbre sobre cómo está el alumno o la alumna.\n\n¿Qué te preocupa más ahora mismo: encontrar la manera de llegar a la familia, o hay algo concreto sobre el chico o la chica que hace más urgente ese contacto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 194,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 93,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Lo que me preocupa es llegar a la familia. El alumno está bien en clase, no hay una urgencia grave. Pero hay temas del día a día que necesito tratar con ellos y no puedo. He enviado mensajes por la plataforma del centro, he llamado al teléfono que tenemos registrado... nada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. No es urgencia, pero sí un bloqueo real que te impide hacer tu trabajo.\n\nAntes de pensar en qué más probar, una pregunta: ¿sabes si el centro tiene algún protocolo para cuando una familia no responde —orientación, jefatura, trabajo social—, o estás gestionando esto sola de momento?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 370,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 90,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "De momento lo estoy gestionando sola. No he escalado el tema todavía porque no quería hacer una montaña de algo que quizás tiene una explicación sencilla. Pero ya empieza a ser demasiado tiempo sin respuesta."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido que hayas querido resolverlo tú primero. Y también tiene sentido que ahora, después de semanas, empiece a pesar.\n\nCreo que ya es momento de dar un paso más, no porque sea una crisis, sino porque has agotado los canales que tenías a mano y el centro tiene recursos para esto. Informar a jefatura o a orientación no es hacer una montaña: es hacer lo que corresponde cuando los cauces ordinarios no funcionan.\n\n¿Te ayudaría pensar cómo plantear esto a jefatura, o prefieres explorar si hay algún otro canal directo con la familia que no hayas probado todavía?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 523,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 166,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No he dicho que no sepa cómo plantearlo a jefatura. Lo que necesito es algo más concreto: ¿cómo redacto un mensaje o un correo para dejar constancia escrita de todo lo que he intentado? Quiero tener un registro formal antes de hablar con jefatura."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, me adelanté. Vamos a lo que necesitas.\n\nPara redactar ese registro necesito saber un par de cosas: ¿el centro tiene algún formato establecido para este tipo de comunicaciones internas, o lo redactas libremente? Y ¿quieres que sea un correo a jefatura directamente, o un documento de registro interno que luego adjuntas?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 769,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 100,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No tenemos un formato establecido, así que lo redacto libremente. Y lo que quiero es un documento de registro interno. Algo que recoja las fechas, los intentos de contacto y el resultado de cada uno. Para tenerlo todo ordenado antes de hablar con jefatura."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tienes un borrador. Adáptalo con los datos reales:\n\n---\n\n**REGISTRO DE INTENTOS DE CONTACTO CON FAMILIA**\n\n**Tutora:** Elena [apellidos]\n**Grupo:** 1.º ESO — [grupo]\n**Alumno/a:** [iniciales o código interno]\n**Curso:** 2024-2025\n**Fecha del registro:** [fecha de hoy]\n\n---\n\n**Motivo del contacto**\nNecesidad de tratar asuntos ordinarios de seguimiento tutorial que requieren coordinación con la familia.\n\n---\n\n**Intentos realizados**\n\n| Fecha | Canal | Resultado |\n|-------|-------|-----------|\n| [fecha] | Mensaje plataforma del centro | Sin respuesta |\n| [fecha] | Llamada al teléfono registrado | Sin respuesta / no contesta / buzón |\n| [fecha] | [otro intento si lo hubo] | [resultado] |\n\n---\n\n**Observaciones**\nA fecha de hoy no se ha obtenido respuesta por ninguno de los canales disponibles. El alumno/a presenta una situación ordinaria en el aula, sin incidencias graves. Se elabora este registro como paso previo a informar a jefatura de estudios.\n\n---\n\n**Firma y fecha**\n[Elena, apellidos] — [fecha]\n\n---\n\n¿Quieres ajustar algo: el tono, algún apartado que sobre o falte, o cómo formular el motivo del contacto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 939,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 372,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Esto está bien. Me sirve. Muchas gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Suerte con la conversación con jefatura.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1329,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

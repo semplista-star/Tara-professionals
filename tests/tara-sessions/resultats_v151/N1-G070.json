@@ -1,0 +1,204 @@
+{
+ "id": "N1-G070",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "correccio · una reunió de claustre molt tensa",
+ "tipus": "correccio",
+ "persona": "Marta, auxiliar de educación especial. Situació: una reunió de claustre molt tensa. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:15:58.132Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buenas tardes. Sí, necesito hablar de algo que ha pasado esta mañana en el claustro. Ha sido una reunión bastante difícil y me ha dejado un poco descolocada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Buenas tardes. Una reunión difícil en el claustro, y te ha dejado descolocada. Cuéntame qué ha pasado.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 190,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 42,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ha habido un momento en que la directora ha dicho delante de todos que los auxiliares no estamos cumpliendo bien con nuestras funciones. Sin dar nombres, pero todos sabían que hablaba de mí y de una compañera. Y nadie ha dicho nada. Ni un solo docente ha intervenido."
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué momento tan incómodo. Señalada sin nombre delante de todos, y encima el silencio del resto.\n\n¿Qué es lo que más te ha pesado: lo que dijo la directora, o que nadie interviniera?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 312,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Las dos cosas me han afectado, pero si tengo que elegir... el silencio. Porque con la directora ya tendremos que hablar en otro momento. Pero el silencio de los compañeros me ha hecho sentir muy sola."
+  },
+  {
+   "qui": "TARA",
+   "text": "Esa soledad en un momento así duele especialmente. Estabas ahí, expuesta, y alrededor silencio.\n\n¿Quieres quedarte un momento con eso, o prefieres pensar en qué hacer a partir de aquí?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 440,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 66,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Prefiero pensar en qué hacer. No soy de quedarme dando vueltas a las cosas. Necesito actuar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. ¿Qué tienes en mente: hablar con algún compañero, hablar con la directora, las dos cosas, o algo distinto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 542,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 46,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Creo que primero debería hablar con la directora. Pero no sé cómo plantear esa conversación sin que se ponga a la defensiva. Eso es lo que me preocupa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido empezar por ahí. Para pensar cómo plantearla: ¿qué quieres conseguir con esa conversación? ¿Entender qué hay detrás de lo que dijo, dejar claro tu punto de vista, pedir que en adelante las cosas se digan de otra manera... o varias cosas a la vez?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 641,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 92,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Varias cosas a la vez, sí. Quiero entender a qué se refería exactamente. Y también quiero dejarle claro que esa forma de decirlo, en público y sin concretar, no es correcta. No me parece profesional."
+  },
+  {
+   "qui": "TARA",
+   "text": "Dos objetivos claros: entender qué quiso decir, y decirle que la forma no fue adecuada. Tiene sentido ir en ese orden, primero escuchar y luego plantear lo tuyo, porque si empiezas por el reproche es más fácil que se cierre.\n\n¿Quieres que trabajemos cómo abrir esa conversación, qué decir exactamente al principio?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 800,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 105,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso es justo lo que necesito. Cómo empezar sin que parezca un ataque, pero sin perder tampoco lo que quiero decir."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien. Una apertura que funciona en estos casos es partir de un hecho concreto, decir cómo te afectó, y pedir lo que necesitas, sin acusar ni justificarte.\n\nAlgo así:\n\n---\n\n*\"Directora, quería hablar contigo sobre algo que pasó esta mañana en el claustro. Cuando mencionaste que los auxiliares no estamos cumpliendo bien las funciones, yo me sentí aludida, y me quedé con dudas sobre a qué te referías exactamente. Me gustaría entenderlo, y también contarte cómo lo viví.\"*\n\n---\n\nEsto abre la puerta sin atacar: describes lo que ocurrió, dices cómo te afectó, y pides espacio para los dos lados.\n\n¿Te suena a algo que podrías decir con tus palabras, o hay algo que no encaja?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 951,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 222,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "El inicio me parece bien. Pero hay una parte que no me cuadra. Yo no quiero decir que \"me sentí aludida\", porque no es una sensación, es un hecho. Todos en esa sala sabían de quién hablaba. No quiero que parezca que estoy interpretando algo que no existió."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, y es una distinción importante. Si dices \"me sentí aludida\" estás poniendo en duda algo que fue evidente. Puedes decirlo de forma más directa sin que suene a ataque.\n\nPor ejemplo:\n\n---\n\n*\"Directora, quería hablar contigo sobre algo que pasó esta mañana en el claustro. Cuando mencionaste que los auxiliares no estamos cumpliendo bien las funciones, era claro que te referías a mí y a mi compañera. Me gustaría entender a qué te referías exactamente, y también contarte cómo lo viví.\"*\n\n---\n\nAsí no relativizas lo que pasó, y aun así dejas espacio para escuchar antes de plantear tu parte.\n\n¿Así está mejor?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1256,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 198,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

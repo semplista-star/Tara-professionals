@@ -1,0 +1,118 @@
+{
+ "id": "N1-G087",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "que-faig · conflictes constants al pati entre dos grups",
+ "tipus": "que-faig",
+ "persona": "Àlex, tutor de 4º de ESO. Situació: conflictes constants al pati entre dos grups. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:38:11.341Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tengo un problema con dos grupos de alumnos de mi tutoría que llevan semanas enfrentándose en el patio. Insultos, tensión, algún empujón ya ha habido. He pensado en hablar con ellos por separado, o juntarlos a todos en una mediación, pero no sé cuál de las dos opciones es mejor ni si hay alguna otra que no estoy viendo. No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Llevas semanas sosteniendo esto y ya ha habido empujones. Tiene sentido que quieras saber qué hacer.\n\nNo voy a decidirlo por ti, pero sí puedo ayudarte a ver qué implica cada opción, porque depende de cosas que tú conoces mejor que yo.\n\nAntes de las opciones, una pregunta que cambia bastante el camino: ¿los empujones han sido algo puntual y ya paró, o hay alguien que está recibiendo más que los demás, alguien que parece más vulnerable o más presionado dentro de todo esto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 257,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 151,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hay un chico, Marc, que claramente está recibiendo más. Los del otro grupo lo tienen un poco como objetivo. No ha llegado a nada grave, pero se le nota incómodo y cada vez viene menos al patio."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso cambia bastante el enfoque. Si Marc está evitando el patio, ya está ajustando su comportamiento para esquivar la presión. Eso es una señal importante.\n\nEn esta situación, juntar a los dos grupos en una mediación conjunta ahora mismo tiene un riesgo real: puede exponer a Marc delante de quienes lo están presionando, y eso raramente le da seguridad para hablar con libertad. La mediación conjunta funciona mejor cuando hay un equilibrio mínimo entre las partes, y aquí parece que no lo hay todavía.\n\nLo que sí tiene más sentido en este momento es hablar primero con Marc a solas, no para investigar ni para que dé nombres, sino para que sepa que lo has visto y para entender cómo está él. Después, por separado, con el grupo que lo está presionando.\n\nHay una tercera vía que quizás no has nombrado: dependiendo de cómo evolucione, esto puede necesitar pasar por el equipo directivo o el protocolo de convivencia del centro, no porque hayas fallado, sino porque hay situaciones que requieren más de un adulto implicado.\n\n¿Quieres que trabajemos cómo preparar la conversación con Marc, o prefieres empezar por el otro grupo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 464,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 323,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Prefiero empezar por Marc. Pero no sé muy bien cómo enfocar esa conversación para que no se sienta interrogado ni en evidencia. ¿Cómo empiezo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien. Lo más importante al principio es que Marc sienta que no tiene que demostrar nada ni dar explicaciones.\n\nUna forma de abrir puede ser algo así: \"Marc, te he pedido venir porque me he dado cuenta de que últimamente estás menos en el patio. No tienes que contarme nada que no quieras. Solo quería que supieras que lo he visto.\"\n\nEso hace dos cosas: le dice que no está en problemas, y le muestra que hay un adulto que ha prestado atención sin que él tuviera que pedirlo.\n\nDesde ahí, si él abre algo, escuchas. Si se queda callado o dice que todo está bien, puedes añadir: \"No pasa nada. Si en algún momento quieres hablar, aquí estoy.\" Y dejarlo ahí por ahora. A veces la primera conversación solo planta la semilla.\n\nLo que conviene evitar es preguntarle directamente quién, qué pasó exactamente, o si quiere que intervengas, porque eso le pone la responsabilidad a él de gestionar lo que pase después, y eso puede ser demasiado peso.\n\n¿Quieres ensayar cómo seguiría la conversación si él sí abre algo, o prefieres que veamos qué hacer si se cierra?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 840,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 329,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Creo que con esto ya tengo bastante para empezar. Muchas gracias, de verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Suerte con Marc. Ya has dado el paso más difícil, que es verlo.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1198,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 34,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

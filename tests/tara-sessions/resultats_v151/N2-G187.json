@@ -1,0 +1,140 @@
+{
+ "id": "N2-G187",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "que-faig · discussions cada nit per les pantalles",
+ "tipus": "que-faig",
+ "persona": "Dolors, padre separado con custodia de fines de semana alternos. Situació: discussions cada nit per les pantalles. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:34:17.956Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Bueno, no sé ni por dónde empezar... es que tengo un problema con mi hijo, que tiene 12 años, y los fines de semana que está conmigo siempre acabamos peleando por el móvil y la tablet. Que si hasta qué hora, que si en la cama sí o no... y yo no sé si ponerle un límite fijo o ser más flexible porque total solo lo veo dos fines de semana al mes y no quiero que se vaya enfadado. Perdona que te cuente todo esto así de golpe. Pero es que no sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "No te disculpes, está bien contarlo así.\n\nLo que describes tiene mucho sentido: quieres disfrutar el tiempo con él y también cuidarle, y esas dos cosas a veces tiran en direcciones distintas.\n\nMe pides que te diga qué hacer, así que te doy opciones concretas con lo que implica cada una:\n\n**1. Límite fijo y claro**\nDecides tú una norma sencilla —por ejemplo, pantallas hasta las X, no en la cama— y la mantienes aunque proteste. Implica que habrá tensión al principio, pero él sabe a qué atenerse y tú no tienes que negociarlo cada vez. El fin de semana puede acabar con roce, pero también con la sensación de que has cuidado algo importante.\n\n**2. Acuerdo pactado con él**\nLe propones sentaros los dos a decidir juntos una norma para ese fin de semana. Implica más conversación y puede que ceda más de lo que querrías, pero él siente que tiene voz y eso a veces reduce la resistencia.\n\n**3. Flexibilidad con un mínimo no negociable**\nDejas margen en lo secundario (cuánto rato, qué usa) pero mantienes un límite en lo que más te importa (por ejemplo, nada de pantallas en la cama). Implica que tienes que tener claro tú primero qué es ese mínimo.\n\n---\n\n¿Alguna de estas encaja con lo que buscas, o hay algo que cambia la situación?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 324,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 396,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, es que las tres tienen cosas que me gustan y cosas que no... pero bueno, creo que lo del acuerdo pactado con él me suena bien. Porque así no soy yo el malo de la película, ¿no? Pero no sé cómo empezar esa conversación sin que se ponga a la defensiva desde el principio. ¿Cómo lo hago?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido que te llame esa opción. Y la pregunta que haces es la clave: cómo empezar sin que se cierre antes de que digas nada.\n\nUna cosa que suele ayudar es no empezar por el problema. Si arrancas con \"tenemos que hablar del móvil\", él ya sabe que viene una norma y se pone en guardia. En cambio, si empiezas por lo que quieres para el fin de semana juntos, el tono es distinto.\n\nAlgo así:\n\n*\"Oye, quiero que este finde lo pasemos bien los dos. Y me he dado cuenta de que siempre acabamos peleando por las pantallas y eso me fastidia, porque no es lo que quiero. ¿Podemos pensar juntos cómo lo hacemos para que no pase?\"*\n\nEso hace tres cosas: le dices lo que quieres (pasarlo bien juntos), nombras el problema sin acusarle, y le invitas a ser parte de la solución.\n\nLuego, cuando él proponga algo, escúchalo aunque te parezca demasiado. Puedes decir \"eso me parece mucho, yo pensaba en X, ¿qué te parece?\" sin cerrarte ni ceder del todo.\n\nY una cosa más: si llegáis a un acuerdo, aunque sea pequeño, cumplirlo tú también cuenta mucho. Que vea que no es solo una norma que te inventas tú.\n\n¿Quieres que practiquemos cómo responder si él se pone a la defensiva de todas formas?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 823,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 401,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay, eso de practicarlo... no sé, me da un poco de cosa, como si fuera raro. Pero bueno, igual sí que me vendría bien, porque seguro que me quedo en blanco cuando me diga que en casa de su madre puede estar hasta cuando quiera. Que eso me lo va a decir, seguro."
+  },
+  {
+   "qui": "TARA",
+   "text": "Es normal que se sienta raro, como ensayar algo que debería salir solo. Pero preparar una respuesta no es actuar, es no quedarte en blanco justo cuando más lo necesitas.\n\nY tienes razón, eso lo va a decir. Casi seguro.\n\nCuando lo diga, la trampa es entrar a comparar con su madre, porque ahí ya perdiste: se convierte en un debate sobre quién tiene razón y él se pone a defenderla a ella. No te lleva a ningún sitio.\n\nEn cambio, puedes salirte de esa comparación sin ignorar lo que ha dicho:\n\n*\"Puede ser, no sé cómo lo hacéis allí. Aquí en casa conmigo es así como lo vamos a hacer.\"*\n\nCorto, sin pelea, sin criticar a nadie. Le estás diciendo: no voy a discutir eso, pero tampoco me muevo.\n\nSi insiste —\"pues es una injusticia\"— puedes añadir:\n\n*\"Entiendo que te parece injusto. Y aun así, esto es lo que hemos acordado.\"*\n\nLa clave es no justificarte demasiado. Cuanto más explicas, más flancos le das para seguir discutiendo.\n\n¿Quieres probar a decirlo en voz alta, aunque sea aquí, para ver cómo te suena?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1310,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 348,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bueno... vale, lo intento. Algo así como: \"puede ser, no sé cómo lo hacéis allí, pero aquí en casa conmigo es así.\" ¿Está bien así? Es que me siento un poco tonto diciéndolo, la verdad. Pero sí que me suena más tranquilo que como lo digo yo normalmente, que me pongo a explicar y a justificar y al final acabo cediendo o enfadándome."
+  },
+  {
+   "qui": "TARA",
+   "text": "Está muy bien así. Y lo que acabas de notar —que te suena más tranquilo— es exactamente lo que buscas.\n\nLo de sentirte un poco tonto diciéndolo es normal cuando algo es nuevo. Pero fíjate en lo que has descrito de cómo lo haces ahora: explicas, te justificas, acabas cediendo o enfadándote. Eso también tiene un coste, y lo estás pagando cada fin de semana.\n\nEsta frase que has probado es más corta, más tranquila, y no le da material para seguir discutiendo. Eso es mucho.\n\nUna sola cosa: cuando lo digas de verdad, no hace falta que suene perfecto. Si te sale un poco raro o dudas a mitad, no pasa nada. Lo que él va a notar es que no te has enganchado en la pelea, que no has cedido y que no le has atacado. Eso es lo que queda.\n\n¿Hay algo más de esa conversación que te preocupe, o con esto tienes suficiente para el próximo finde?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1776,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 274,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, creo que con esto ya tengo bastante. La verdad es que me ha ayudado mucho, aunque al principio me daba corte. Gracias de verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido. Y que lo hayas probado aunque diera corte, eso no es fácil.\n\nSuerte el próximo finde.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 2096,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 53,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

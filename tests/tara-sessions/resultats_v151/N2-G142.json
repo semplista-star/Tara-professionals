@@ -1,0 +1,185 @@
+{
+ "id": "N2-G142",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "desfogar-demanda · un adolescent que ja no explica res",
+ "tipus": "desfogar-demanda",
+ "persona": "Fàtima, hermana mayor adulta que hace de referente. Situació: un adolescent que ja no explica res. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:31:04.470Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hoy solo necesito que me escuchen."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estoy. Cuéntame lo que quieras.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 176,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 20,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es mi hermano pequeño. Antes me contaba todo y ahora no me dice nada. Llega a casa, se encierra en su cuarto y ya está. No sé qué está pasando con él."
+  },
+  {
+   "qui": "TARA",
+   "text": "Notas que algo ha cambiado, y eso duele cuando antes había tanta cercanía.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 250,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 27,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto. Y lo peor es que no sé si está bien o si le pasa algo gordo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Esa incertidumbre es muy difícil de sostener. No saber si está bien o si necesita ayuda, y no poder hacer nada.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 308,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Y encima no quiero presionarle y que se aleje más."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene mucho sentido ese cuidado. Quieres estar cerca sin empujarle a alejarse más.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 372,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacto. Por eso no sé cómo actuar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Es un equilibrio muy delicado. ¿Quieres que exploremos juntos alguna manera de hacerle saber que estás ahí, sin que se sienta presionado?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 421,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 48,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso me ayudaría. Algo pequeño, una frase o algo así para decirle sin que parezca un interrogatorio."
+  },
+  {
+   "qui": "TARA",
+   "text": "Podrías decirle algo como: \"No tienes que contarme nada. Solo quiero que sepas que estoy aquí si algún día quieres hablar.\"\n\nBreve, sin preguntas, sin exigir nada. Solo dejarle la puerta abierta.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 508,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 73,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Eso está bien. Me quedo con eso. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Suerte con él.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 601,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 17,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

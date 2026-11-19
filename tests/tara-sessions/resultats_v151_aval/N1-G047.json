@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén correctament en cada torn el que necessita en Pau: primer comprova el tipus de malestar, després ofereix opcions, i finalment lliura ajuda pràctica i concreta per preparar la conversa amb la Marta.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "és més una sensació de no poder fer la feina que vols fer, o és que ja no saps ben bé per a què serveix el que fas?",
+   "esperat": "En Pau ja havia dit clarament que els nanos el motiven i que el problema és el temps; la pregunta obre un dubte que ell no havia plantejat i que ell mateix ha de desmentir al torn 2"
+  },
+  {
+   "torn": 6,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Sí, té molt de sentit.",
+   "esperat": "Recollir el contingut directament sense validació formulaica"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Perfecte. I el que has dit ara és important",
+   "esperat": "Recollir l'observació d'en Pau i continuar sense avaluar-la ni subratllar-ne el valor"
+  },
+  {
+   "torn": 8,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Quan la tinguis, rellegeix-la un cop i oblida-te'n. La conversa real serà millor que qualsevol guió.",
+   "esperat": "El tancament amb consell no demanat allarga la resposta; en Pau havia demanat un esborrany per rellegir, no orientació sobre com usar-lo"
+  }
+ ]
+}

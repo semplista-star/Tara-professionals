@@ -1,0 +1,119 @@
+{
+ "id": "N1-G026",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "demanda-directa · la pressió de direcció per les notes",
+ "tipus": "demanda-directa",
+ "persona": "Carmen, orientadora. Situació: la pressió de direcció per les notes. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:13:06.207Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, sí, mira, te cuento porque tengo un lío bastante gordo en el instituto. Soy orientadora y la directora lleva semanas presionándome para que \"hable con los tutores\" sobre las notas, que si hay demasiados suspensos, que si la imagen del centro, que si las familias se quejan... Y yo entiendo su posición, eh, no digo que no, pero claro, mi rol no es ese, yo no puedo ir a decirles a los tutores que suban notas o que sean más \"generosos\", eso no tiene ningún sentido pedagógico ni ético. El caso es que tengo una reunión con ella mañana y necesito tener claro qué decirle. ¿Me puedes ayudar a preparar un mensaje, algo concreto que pueda decirle, que sea firme pero que no rompa la relación?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido que quieras llegar con algo claro a esa reunión. Lo que describes es una tensión real: presión institucional por un lado, límites éticos y de rol por el otro, y una relación de trabajo que quieres cuidar.\n\nAntes de darte un borrador, una sola cosa que me ayudaría a ajustarlo: ¿la directora te ha pedido explícitamente que influyas en las calificaciones, o más bien que \"hagas algo\" con los tutores sin concretar el qué? Porque el tono cambia bastante según eso.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 357,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 147,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bueno, explícitamente no me ha dicho \"diles que suban notas\", no es tan burda, ja. Pero sí me ha dicho cosas como \"habla con ellos, oriéntalos, ya sabes...\" con ese tono de que ya sé lo que quiere decir. Y una vez me soltó que \"el centro no puede permitirse estos resultados\" delante de dos tutores, que fue muy incómodo. O sea, no hay nada por escrito ni nada concreto, pero el mensaje está bastante claro. ¿Me puedes hacer ese borrador?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Nada por escrito, pero el mensaje está ahí. Eso complica la conversación, porque ella puede siempre decir \"yo no he pedido eso\", así que tu posición tiene que ser clara sin sonar acusatoria.\n\nAquí tienes un borrador:\n\n---\n\n**\"Quería hablar contigo sobre las conversaciones que hemos tenido estas semanas en torno a los resultados. Entiendo que hay presión real, de familias, de imagen del centro, y que eso te preocupa. Yo también quiero que el centro funcione bien.**\n\n**Lo que sí necesito que quede claro entre nosotras es cuál es mi rol en esto. Puedo acompañar a los tutores en cómo comunicar los resultados a las familias, en cómo detectar dificultades de aprendizaje, en estrategias de mejora. Eso sí está dentro de mi función y lo hago con gusto.**\n\n**Lo que no puedo hacer es orientarles sobre las calificaciones en sí. No porque no quiera ayudar, sino porque eso comprometería mi función y, a la larga, también la credibilidad del centro.**\n\n**¿Podemos hablar de qué necesitas concretamente y ver qué parte puedo asumir yo?\"**\n\n---\n\nAlgunas notas:\n\n- La pregunta final le devuelve la pelota sin confrontación: la obliga a concretar, y eso te protege.\n- \"No porque no quiera ayudar\" neutraliza la posible lectura de que te estás escaqueando.\n- Si ella insiste en el \"ya sabes lo que quiero decir\", puedes responder: *\"Prefiero que lo digamos en claro para poder ayudarte bien.\"*\n\n¿Lo ves útil así, o quieres ajustar el tono, hacerlo más corto, o ensayar cómo puede responder ella?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 650,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, me gusta mucho el fondo, de verdad. Pero es que es muy largo para decirlo así, en una reunión, ¿sabes? Me va a quedar muy de discurso preparado y ella lo va a notar. ¿Me lo puedes dejar en dos o tres frases, algo más natural?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro:\n\n---\n\n*\"Entiendo la presión que hay con los resultados, y quiero ayudar. Lo que puedo hacer es acompañar a los tutores en comunicación con familias o en estrategias de mejora. En las calificaciones en sí no puedo entrar, porque eso comprometería mi función. ¿Qué necesitas concretamente de mí?\"*\n\n---\n\nCuatro frases, pero fluyen. Y esa última pregunta sigue ahí, que es la que te protege.\n\n¿La ensayamos, o así está bien?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1214,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 145,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Así está perfecto, muchas gracias. Con esto ya me quedo más tranquila para mañana."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Suerte mañana — tienes el argumento claro y la relación cuidada. Ya está.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1388,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

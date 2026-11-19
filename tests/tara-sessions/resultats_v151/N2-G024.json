@@ -1,0 +1,73 @@
+{
+ "id": "N2-G024",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "breu · un fill que menteix sovint",
+ "tipus": "breu",
+ "persona": "Carmen, mare sola amb tres fills. Situació: un fill que menteix sovint. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:24:33.787Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Mira, tinc molt poc temps perquè ara mateix tinc el petit que plora i he de fer el sopar i... en fi, ja saps com va això. Necessito una cosa ràpida, concreta, que pugui fer servir ja. El meu fill gran, en Pau, té dotze anys i últimament menteix per tot, per coses petites, per coses grans, per coses que ni cal mentir! I no sé com parlar-hi sense que s'enfadi i es tanqui en banda. Què li dic?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès. Aquí tens una frase per començar:\n\n**\"En Pau, he notat que de vegades les coses no quadren, i m'agradaria entendre millor el que passa. No estic aquí per renyar-te, estic aquí per escoltar-te.\"**\n\nBreu, sense acusació directa, i li deixa la porta oberta.\n\nQuan tinguis un moment de més calma, si vols, podem preparar el que ve després — si ell es tanca, si s'enfada, o si vols entendre per què pot estar passant.\n\nAra ves amb el petit! 🙂",
+   "tags": [],
+   "usage": {
+    "input_tokens": 300,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 160,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, perfecte això! Que senzill i que bé sona, no? Gràcies de veritat, m'has salvat la nit. Ja tornaré quan tingui un moment! Adéu!"
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit! Bona sort amb el sopar i amb en Pau. Fins aviat! 😊",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 518,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 47,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

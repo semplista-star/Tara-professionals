@@ -1,0 +1,69 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat pràctica de Rubén en cada torn i es va reajustar correctament quan va rebutjar la hoja escrita, oferint una alternativa diferent sense insistir.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿qué parte te genera más incertidumbre ahora mismo: la coordinación con la familia y el equipo médico, la gestión durante las colonias (medicación, protocolos si hay crisis), o cómo organizarlo con el resto del equipo docente?",
+   "esperat": "Amb un missatge tan curt i concret, TARA podia preguntar directament per la part que preocupava sense oferir un menú de tres opcions"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Lo que puedo ayudarte a preparar desde aquí es el marco de actuación y la conversación con la familia. Pero quiero ser clara en algo importante [...] ¿Tienes ya contacto con la familia sobre esto, o todavía no habéis hablado de las colonias con ellos?",
+   "esperat": "Rubén escriu molt curt; una resposta amb dues llistes detallades i una pregunta final és desproporcionada per al seu estil"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Una crisis nocturna, lejos del centro, con menos personal... tiene sentido que eso sea lo que más pesa.",
+   "esperat": "Reconèixer la preocupació sense afirmar com a fet que «és el que més pesa»"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Es una preocupación muy concreta y legítima",
+   "esperat": "Passar directament a l'ajuda sense validació formulaica"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Eso ya es mucho más manejable",
+   "esperat": "No avaluar la situació de la persona; passar a l'ajuda concreta"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "¿Quieres que te prepare un borrador de esa hoja? Necesitaría que me dijeras [...] Si no tienes todos los datos todavía, también puedo hacerte una versión genérica que luego completáis con la familia.",
+   "esperat": "Rubén escriu frases curtes; demanar tres dades i oferir dues variants és excessiu per al seu ritme"
+  },
+  {
+   "torn": 6,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido. Es el momento con menos recursos, menos claridad y más presión.",
+   "esperat": "Passar directament a l'escenari sense atribuir estats ni validar de forma formulaica"
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Una advertencia: en el bloque de conversación pueden salir miedos reales, no solo dudas técnicas. Está bien que aparezcan. No hace falta resolverlos todos; a veces basta con nombrarlos.",
+   "esperat": "Informació no demanada que allarga la resposta; Rubén no havia demanat orientació sobre gestió emocional dels monitors"
+  }
+ ]
+}

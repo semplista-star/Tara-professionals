@@ -1,0 +1,69 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé en cada torn el que la persona necessitava: primer escolta i orientació, després límit del canal, i finalment ajuda concreta per preparar la conversa.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "\"Ja no puc més\" diu molt.",
+   "esperat": "Recollir el contingut sense convertir-ho en un elogi o comentari valoratiu sobre la persona"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Portes un temps aguantant sola una cosa que hauria de ser compartida, i a sobre amb la pressió de ser nova i no voler fer-la de difícil.",
+   "esperat": "Reflectir el que la persona ha dit sense afegir interpretacions no expressades ('aguantant sola', 'pressió de ser nova')"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "No exageres.",
+   "esperat": "Evitar la validació automàtica; la persona no ha demanat confirmació, i repetir 'no exageres' en diversos torns es converteix en fórmula"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "La por té sentit: ets nova, ella té vincles, tu tens menys marge d'error. Això no és imaginació teva, és una asimetria real.",
+   "esperat": "La persona ha expressat por; TARA pot recollir-la, però afirmar 'és una asimetria real' és una interpretació de la situació presentada com a fet"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té tot el sentit.",
+   "esperat": "Evitar la validació formulaica; recollir el contingut sense l'etiqueta avaluativa"
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "on t'imagines tenir aquesta conversa? En un moment a soles amb ella, o en un context més formal?",
+   "esperat": "La persona ha demanat ajuda per trobar les paraules; TARA podria haver proposat directament una frase i deixar que la persona la ajustés, sense afegir una pregunta de context que retarda l'ajuda"
+  },
+  {
+   "torn": 6,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "No exageres — estàs calibrant bé.",
+   "esperat": "Tercera vegada que TARA nega l'autodesqualificació de la persona amb la mateixa estructura; es converteix en patró predictible"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "I fixa't que no has dit \"perdona\" ni una sola vegada.",
+   "esperat": "Observació valorativa no demanada que funciona com a elogi implícit i judici sobre el comportament de la persona; millor tancar sense comentari avaluatiu"
+  }
+ ]
+}

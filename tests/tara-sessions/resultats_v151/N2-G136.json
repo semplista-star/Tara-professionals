@@ -1,0 +1,140 @@
+{
+ "id": "N2-G136",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "mixta · la mort recent de l'avi",
+ "tipus": "mixta",
+ "persona": "Li Wei, tutora legal. Situació: la mort recent de l'avi. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "En un sol missatge expressa una emoció forta i demana alguna cosa concreta.",
+  "Si la resposta no et convenç, demana una versió diferent.",
+  "Tanca."
+ ],
+ "espera": "Recollir l'emoció en una frase i lliurar el que demana en el mateix torn.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:30:45.519Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara. Mira, mi abuelo murió hace tres días y aunque era muy mayor y ya tocaba, pues... no sé, se me hace raro. El caso es que tengo que hablar con mi hija de 9 años y explicarle qué ha pasado, y no tengo ni idea de por dónde empezar. ¿Me puedes ayudar a preparar esa conversación?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Lo siento. Aunque \"ya tocaba\", la pérdida es real y se nota.\n\nQue quieras hablar con tu hija con cuidado dice mucho de ti.\n\nPara ayudarte a preparar esa conversación, hay una cosa que me ayudaría saber: ¿tu hija conocía a tu abuelo, tenía relación con él?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 267,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 92,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, se veían bastante. El abuelo la llamaba \"mi cosita\" y ella le hacía dibujos. O sea que sí, había vínculo. No es que fueran inseparables, pero lo conocía y lo quería. Por eso me da más respeto la conversación, porque no puedo hacer como que no va con ella."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, con ese vínculo no puedes pasarlo por alto. Y tiene sentido que te dé respeto.\n\nA los 9 años los niños entienden bastante bien qué es la muerte, pero necesitan que alguien de confianza se lo diga con claridad y sin rodeos. Lo más importante suele ser tres cosas: **decirle la verdad**, **dejarle espacio para reaccionar como reaccione**, y **que sepa que puede preguntar lo que quiera**.\n\nTe propongo una forma de empezar, y la ajustamos a tu manera de hablar:\n\n---\n\n*\"Tengo que contarte algo triste. El bisabuelo [nombre] murió hace unos días. Era muy mayor y su cuerpo ya no podía seguir. Lo vamos a echar mucho de menos.\"*\n\n---\n\nBreve, claro, sin eufemismos como \"se fue\" o \"se durmió\" que a veces confunden. Y después, silencio: dejarle a ella el espacio para reaccionar.\n\n¿Hay algo de esto que no encaje con cómo habláis vosotras, o algo que te preocupe especialmente de su reacción?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 447,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 298,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hm, el texto está bien pero suena un poco a... no sé, a manual. Mi hija y yo somos más de hablar en plan normal, con más naturalidad. ¿Me lo puedes poner más como si fuera una conversación de verdad, más a nuestra manera?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene todo el sentido. Algo así, más de andar por casa:\n\n---\n\n*\"Oye, tengo que contarte algo. El bisabuelo [nombre] murió. Sé que es una noticia triste... ¿estás bien?\"*\n\nY a partir de ahí, dejas que ella lleve. Si pregunta, respondes. Si se queda callada, te quedas tú también un momento con ella. Si llora, la abrazas y ya.\n\n---\n\nLa clave no es el guion, es que notes que puedes improvisar desde ahí. Tú la conoces, sabes cuándo necesita más palabras y cuándo menos.\n\n¿Hay alguna pregunta suya que te dé más miedo que te haga?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 817,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 189,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, la verdad es que con esto ya me quedo más tranquila. Así sí me veo capaz. Gracias Tara, en serio."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Vas a estar bien las dos.\n\nÁnimo con la conversación, y con el duelo también — el tuyo incluido.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1048,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. Y sí, el mío también jaja, que a veces se me olvida. Cuídate."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cuídate tú. Y date permiso para echarlo de menos.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1119,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

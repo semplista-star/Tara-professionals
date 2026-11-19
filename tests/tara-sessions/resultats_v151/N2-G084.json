@@ -1,0 +1,96 @@
+{
+ "id": "N2-G084",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "que-faig · les xarxes socials i el que hi publica",
+ "tipus": "que-faig",
+ "persona": "Ibrahim, madre sola con tres hijos. Situació: les xarxes socials i el que hi publica. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:27:49.840Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, llevo días dándole vueltas a esto y no sé. Mi hija mayor tiene 13 años y últimamente publica cosas en Instagram que... no sé, me ponen nerviosa. Fotos con sus amigas, comentarios, cosas así. Y yo no sé si decirle algo o no decirle nada porque si le digo algo se va a enfadar y me va a decir que soy una controladora y que todas sus amigas pueden hacer lo que quieren. Pero si no le digo nada me quedo yo aquí preocupada. No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Llevas días con esto dando vueltas, y ninguna de las dos opciones te convence. Eso es agotador.\n\nTe doy tres caminos posibles, con lo que implica cada uno:\n\n**Hablar con ella directamente**\nLe dices que has visto cosas que te preocupan y quieres entenderlas mejor. El riesgo es que se ponga a la defensiva, sí. Pero también es la única manera de que sepa que estás ahí, no como vigilante, sino como alguien que quiere entender su mundo. Requiere elegir bien el momento y cómo empezar.\n\n**Esperar y observar un poco más**\nSi lo que has visto no te parece urgente, puedes tomarte unos días para tener más claro qué es exactamente lo que te preocupa antes de hablar. Eso puede ayudarte a ir con algo concreto en lugar de una sensación general. El riesgo es que la preocupación siga ahí sin resolverse.\n\n**Abrir una conversación más general sobre redes**\nSin señalar nada concreto de lo que has visto, puedes hablar con ella de cómo usa Instagram, qué le gusta, qué le parece normal... Eso a veces baja las defensas y te da información sin que sienta que la estás vigilando.\n\n¿Alguno de estos encaja con lo que estás pensando, o hay algo que no he recogido bien?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 320,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 363,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bueno... lo de hablar directamente me da miedo pero lo de la conversación general suena menos a bronca. Eso. Eso quiero hacer. Pero ¿cómo empiezo? Porque si lo hago mal se me cierra en banda y ya no hay manera."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido ese miedo. El cómo se empieza marca mucho.\n\nAquí tienes una forma de abrir que suele dejar espacio:\n\n**\"Oye, ¿me enseñas cómo funciona Instagram? Yo lo veo pero no entiendo bien cómo lo usáis vosotras.\"**\n\nPartes desde tu curiosidad, no desde tu preocupación. Ella pasa a ser la que sabe, no la que está en el punto de mira. Y desde ahí, si la conversación fluye, puedes ir preguntando cosas como qué le gusta publicar, quién la sigue, si alguna vez le ha llegado algo raro...\n\nUn par de cosas que suelen ayudar con adolescentes: elegir un momento en que esté de buen humor y no haya prisa, y no empezar justo después de haber visto algo que te ha preocupado, porque entonces se nota.\n\n¿Quieres que preparemos juntas cómo seguir si ella se abre, o cómo responder si se pone a la defensiva?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 756,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 274,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, creo que con esto ya tengo bastante para empezar. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Suerte con la conversación.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1054,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

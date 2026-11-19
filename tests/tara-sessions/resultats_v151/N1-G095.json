@@ -1,0 +1,163 @@
+{
+ "id": "N1-G095",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "desfogar-demanda · conflictes constants al pati entre dos grups",
+ "tipus": "desfogar-demanda",
+ "persona": "Marc, tutor de 4t d'ESO. Situació: conflictes constants al pati entre dos grups. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:17:00.665Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Avui simplement necessito que m'escoltin. Res més."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 159,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 8,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. És que porto setmanes amb el mateix problema al pati i ja estic fins als nassos. Hi ha dos grups de 4t que no es poden ni veure. Cada dia hi ha alguna cosa: insults, empentes, mirades... i jo sempre soc el que ha d'intervenir. Sempre. Com si fos el meu problema exclusivament."
+  },
+  {
+   "qui": "TARA",
+   "text": "Setmanes aguantant això sol, cada dia. Té sentit que estiguis fins als nassos.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 261,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacte. I el pitjor és que els altres tutors fan veure que no hi és, el problema. O potser és que realment no se n'adonen, no ho sé. Però jo sí que ho veig, cada dia, i ja no sé quant de temps més podré aguantar aquest ritme."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ho veus tu, ho portes tu, i no saps fins quan podràs seguir així. Això és molt pesat de sostenir sol.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 373,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 37,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Molt. I a vegades penso que potser estic exagerant, però després passa una altra cosa al pati i torno a pensar que no, que és real. Que és un problema de debò i que algú hauria de fer alguna cosa més a part de mi."
+  },
+  {
+   "qui": "TARA",
+   "text": "No estàs exagerant. Ho veus cada dia — les empentes, els insults, les mirades. Això és real.\n\nI tens raó que no hauria de ser només teu.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 482,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 49,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies per dir-ho. Necessitava sentir-ho. Mira, ja que estic aquí... em podries ajudar amb una cosa concreta? Petita. No sé, un primer pas per no sentir-me tan sol en això. Alguna cosa que pugui fer demà."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar. Què et sembla si demà poses el problema sobre la taula amb els altres tutors implicats — no per queixar-te, senseó per dir exactament el que m'has dit a mi: \"Estic veient això cada dia al pati. Necessito que ho mirem junts\"?\n\nUn moment breu, fins i tot abans o després d'una reunió que ja tingueu. Sense agenda gran. Només trencar el silenci.\n\nTé sentit per a tu, o prefereixes un altre tipus de primer pas?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 609,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 134,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, té sentit. És senzill i no em demana massa energia. Crec que ho puc fer. Gràcies, de veritat. M'ha anat bé parlar una estona."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi anat bé. Sort demà.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 799,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 21,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

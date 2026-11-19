@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat d'ajuda pràctica i va gestionar bé el límit del canal, però va incórrer en fórmules repetides, atribucions no expressades i un elogi automàtic al tancament.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que estiguis al límit.",
+   "esperat": "Reflectir el contingut concret sense validació formulaica"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Entenc que et quedis de pedra.",
+   "esperat": "Ometre la validació o integrar-la de manera menys mecànica"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Entenc que estàs tan cansada que ara mateix no tens cap més energia per decidir.",
+   "esperat": "No atribuir estats interns no expressats explícitament per la persona en aquell torn"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té tot el sentit.",
+   "esperat": "Suprimir la validació formulaica i passar directament a l'ajuda"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Però puc fer-ho ràpid. Dues opcions concretes: Opció A... Opció B... Les dues són vàlides. La A et dona més control... La B et dona descans... Quina et ressona més, o hi ha alguna cosa del context que canviaria la resposta?",
+   "esperat": "Presentar les opcions sense la valoració comparativa final ni la pregunta addicional, que allarga innecessàriament la resposta"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Quan estàs exhausta, que algú et digui 'fes això' és el que necessites.",
+   "esperat": "No reformular ni atribuir la necessitat interna de la persona; passar directament a la recomanació"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Però hi ha una cosa que canviaria això: tens relació amb el tutor d'en Pau? Et recolzaria, o és un altre front?",
+   "esperat": "Un cop donada la recomanació concreta que la persona demanava, no afegir una pregunta nova que obre un fil addicional"
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Avui has aguantat molt.",
+   "esperat": "Tancar sense jutjar ni valorar la conducta o la resistència de la persona"
+  }
+ ]
+}

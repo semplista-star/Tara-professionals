@@ -1,0 +1,96 @@
+{
+ "id": "N2-G052",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "que-faig · un adolescent que ja no explica res",
+ "tipus": "que-faig",
+ "persona": "Àlex, tutora legal. Situació: un adolescent que ja no explica res. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:26:09.953Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mi hijo de 15 años ya no me cuenta nada. Antes hablábamos mucho. Ahora llega, se encierra y punto. No sé si forzar una conversación o dejarlo estar. No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ese cambio duele, sobre todo cuando recuerdas cómo era antes.\n\nTienes dos caminos principales, y ninguno es el único correcto:\n\n**Acercarte tú** — buscar un momento sin presión (un viaje en coche, preparar algo juntos) y decirle algo sencillo, sin exigir respuesta: *\"Te noto diferente últimamente. No tienes que contarme nada, pero estoy aquí.\"* El riesgo es que lo viva como intrusión si no está listo. El beneficio es que sepa que la puerta está abierta.\n\n**Darle espacio por ahora** — seguir presente en lo cotidiano, sin forzar conversación, y esperar a que él dé el paso. El riesgo es que interprete el silencio como desinterés. El beneficio es que no se sienta presionado en un momento en que probablemente necesita autonomía.\n\nLo que sí puedes hacer en cualquier caso: mantener pequeños momentos de contacto sin agenda — una pregunta sobre algo que le gusta, cenar juntos aunque no haya conversación. Eso sostiene el vínculo sin exigirle que se abra.\n\n¿Hay algo concreto que te haga pensar que está pasando algo más, o es más el cambio en sí lo que te preocupa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 228,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 335,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Me quedo con la primera. ¿Cómo empiezo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Busca un momento en que estéis los dos sin pantallas y sin prisa — el coche suele funcionar bien porque no hay que mirarse.\n\nPuedes empezar con algo así:\n\n*\"Oye, no tienes que contarme nada. Solo quería que supieras que te noto diferente y que estoy aquí si algún día quieres hablar.\"*\n\nY luego... silencio. Sin pregunta encadenada, sin rellenar el hueco. Si no responde, no pasa nada. Ya lo ha escuchado.\n\nSi quieres, practicamos cómo sonaría con tus palabras.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 584,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 160,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Vale, lo intento esta semana. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Suerte. Ya sabes dónde estoy si quieres contarme cómo fue.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 760,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 37,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

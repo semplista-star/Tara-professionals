@@ -1,0 +1,206 @@
+{
+ "id": "N2-G158",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "jerga · com explicar una separació",
+ "tipus": "jerga",
+ "persona": "Àlex, pare separat que té els fills cap de setmana sí cap de setmana no. Situació: com explicar una separació. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:32:51.444Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara. Mira, tinc una mica d'embolic al cap i no sé ben bé per on tirar. El tema és que em vaig separar fa uns mesos i ara toca explicar-ho als nens. I no sé com fer-ho sense que sembli el final d'una pel·lícula de catàstrofes, ja saps?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, t'entenc. Vols que els nens ho sentin com una cosa que es pot sostenir, no com un ensorrament.\n\nQuants anys tenen, més o menys?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 254,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 50,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tenen set i nou. Prou grans per entendre que alguna cosa passa, però prou petits per fer-te la pregunta que et deixa sense paraules, com ara \"i ara on viuràs tu, papa?\" I clar, jo vull explicar-ho sense que sembli un drama, però tampoc vull fer el pallasso i que pensin que no va en serio, entens?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, entenc molt bé aquest equilibri que busques: que ho sentin real, però no aterrador.\n\nA set i nou anys, el que més els ancora sol ser saber les coses concretes: on viuran, quan veuran cada progenitor, qui els portarà a l'escola. Més que les raons de la separació, necessiten saber que la seva vida quotidiana té forma.\n\nLa pregunta \"i ara on viuràs tu?\" és dura, però és bona senyal: vol dir que pensen en termes pràctics, no en drames. I si tens resposta, per parcial que sigui, ja els dona terra sota els peus.\n\nTens ja algunes d'aquestes coses clares per poder-los-les explicar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 402,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 191,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, les coses pràctiques les tenim bastant lligades. Caps de setmana alterns, jo tinc un pis a cinc minuts de casa seva... vull dir, de casa la seva mare. Que ja veus, encara no sé com dir-ho, \"casa seva\" o \"casa la mama\"... en fi. El cas és que la part logística la tenim. El que no tinc és les paraules. Com els explico per què? Perquè si em diuen \"per què us separeu?\" no sé què contestar sense posar-me a parlar malament de la seva mare o sense dir una cosa tan vaga que no s'ho creguin."
+  },
+  {
+   "qui": "TARA",
+   "text": "Això que dius és molt honest. I el fet que no vulguis parlar malament d'ella ja diu molt de com vols fer-ho.\n\nPer a nens d'aquesta edat, la resposta al \"per què\" no ha de ser la veritat sencera dels adults — ha de ser una veritat que puguin sostenir. Alguna cosa com:\n\n*\"De vegades dues persones s'estimen però no saben viure juntes sense que els dos estiguin tristos. I hem decidit que és millor viure separats per poder estar millor cadascú, i poder estar millor amb vosaltres.\"*\n\nNo culpa ningú, no és vaga, i posa el focus en el benestar — el d'ells inclòs.\n\nEl que sí és important és deixar-los dir el que sentin, fins i tot si és ràbia o tristesa. Que no hagin de consolar-te a tu.\n\nCom ho veus? S'assembla a alguna cosa que podries dir amb les teves paraules?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 762,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 253,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, el fons m'agrada. Però escoltar, Tara... \"de vegades dues persones s'estimen però no saben viure juntes\"... això sona molt a llibre de psicologia, no? Jo no parlo així. Si els dic això als meus fills em miraran com si m'hagués posseit algú. Necessito alguna cosa que suoni a mi, no a terapeuta de televisió."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens tota la raó, i gràcies per dir-ho. Quina és la teva manera de parlar amb ells normalment? Més directa, més amb humor, més...?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1123,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 50,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Home, molt directa i amb una mica de broma quan toca. Amb el gran sobretot, que ja pilla les ironies. Amb la petita una mica menys, però també. O sigui, no som una família de \"t'estimo molt i els teus sentiments són vàlids\"... som més de \"ep, que passa?\" i ja. Ens entenem sense tanta floritura, vaja."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecte, ara sí que t'entenc millor.\n\nDoncs potser alguna cosa com:\n\n*\"Mira, la mama i jo hem decidit que estarem millor vivint separats. No és culpa vostra de res, i els dos us estimem igual. Jo tinc un pis aquí a cinc minuts, o sigui que no me'n vaig enlloc.\"*\n\nI si et pregunten el per què, pots ser honest sense entrar en detalls:\n\n*\"Perquè entre nosaltres les coses no funcionaven, i és millor així per a tothom. Inclòs per a vosaltres.\"*\n\nCurt, directe, sense drama. I aquell \"no me'n vaig enlloc\" amb el pis a cinc minuts — això és or. És exactament el que necessiten sentir.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1279,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 209,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, això ja s'assembla més! El \"no me'n vaig enlloc\" m'agrada molt, sí. Fins i tot podria afegir algo tipus \"encara us tocarà aguantar-me\" que amb ells funcionaria, segur que riurien. Però mira, el que necessito de veritat és una frase per quan em preguntin per la mama. Perquè sé que m'ho preguntaran. \"I la mama per què no ve?\" o \"la mama està trista?\" I ahí és on em quedo en blanc i on tinc por de cagar-la."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, aquella frase és teva i funciona.\n\nPer les preguntes sobre la mama, la clau és que no has de respondre per ella — i no has de fer-ho. Pots ser honest amb el que no saps:\n\n*\"La mama té els seus sentiments, i si voleu saber com està ella, li podeu preguntar a ella. Jo us puc dir com estic jo.\"*\n\nAixò els dona permís de parlar amb ella sense que tu hagis de parlar per ella ni posar-te en un lloc que no et toca.\n\nI si et pregunten \"la mama està trista?\", pots dir simplement:\n\n*\"No ho sé del cert. Però la mama us estima molt, això sí que ho sé.\"*\n\nCurt, honest, i no tanca la porta a res.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1637,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 203,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, això m'agrada. \"No ho sé del cert\" és molt honest i no em compromet a res que no sé. I el de \"si voleu saber com està ella, pregunteu-li a ella\" és perfecte perquè és veritat i no em posa a mi a fer de portaveu seu, que ja tinc prou feina amb el meu rol. Crec que amb això ja tinc prou material per tirar endavant. Gràcies, Tara, en serio. Ara ja no em sembla tan de pel·lícula de catàstrofes."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra. Tenies les coses més clares del que pensaves — les paraules eren l'únic que faltava.\n\nMolta sort amb la conversa. Els teus fills tenen un pare que s'ho ha pensat bé.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1988,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 62,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies! Ara a veure si el dia que toca no em quedo en blanc i surto per peteneres. Però bé, pitjor ho he fet altres vegades i hem sobreviscut. Fins aviat!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Fins aviat! I si surts per peteneres una mica, tampoc passa res — els fills no necessiten un pare perfecte, necessiten un pare present. Que ja ho ets.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 2110,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 58,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

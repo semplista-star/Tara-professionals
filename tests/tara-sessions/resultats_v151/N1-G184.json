@@ -1,0 +1,184 @@
+{
+ "id": "N1-G184",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "jerga · una companya que no col·labora en el projecte comú",
+ "tipus": "jerga",
+ "persona": "Aina, coordinador de convivència. Situació: una companya que no col·labora en el projecte comú. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:23:23.056Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ui, sí, necessito desfogar-me una mica perquè tinc una situació a la feina que em té una mica fins als nassos, la veritat.\n\nÉs la Marta, una companya del claustre. Estem tirant endavant un projecte de convivència entre tots, i ella... ostres, és que no hi ha manera. Li demanes que faci la seva part i et dóna llargues, et diu que sí però després no fa res, i quan li tornes a preguntar fa veure que no sap de què li parles. Em toreja, vaja. Em sento completament ignorat i una mica ridícul, perquè soc jo el coordinador i hauria de tenir-ho tot controlat però amb ella no hi ha manera de tirar endavant."
+  },
+  {
+   "qui": "TARA",
+   "text": "Vaja, sí que se sent. Que algú et digui que sí i després no faci res, i quan li tornes a preguntar faci veure que no sap de què li parles... és molt desgastant. I més quan ets tu qui ha de respondre de tot.\n\nQueda't un moment amb això si vols. Quan dius que et sents ridícul, és perquè creus que els altres ho veuen, o és més una cosa interna teva?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 337,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 122,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mmm... és una bona pregunta. Crec que és més cosa meva, en el fons. No crec que els altres estiguin pendents de si la Marta fa o no fa. Però jo sé que el projecte no avança com hauria d'avançar, i sé per què, i em sento... no sé, com si fos un inútil que no sap gestionar el seu propi equip, entens? Com si no tingués prou autoritat o prou gràcia per fer que la gent s'impliqui. I això em molesta molt perquè jo hi poso moltes ganes en aquest projecte, i ella passa olímpicament."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit. Tu hi poses moltes ganes, i veus que el projecte no avança per una cosa que no depèn de tu. I llavors la frustració es gira cap a dins: \"potser soc jo el problema\".\n\nPerò hi ha una cosa que has dit que em sembla important: tu saps per què no avança. No és que no te n'adonis, ni que no ho gestiones. És que hi ha una persona que no respon, i això és diferent de ser un inútil.\n\nVols quedar-te una estona més amb el que sents, o t'ajudaria més pensar com abordar-ho amb la Marta?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 628,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 166,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No no, ja m'has ajudat a veure-ho una mica millor, gràcies. Ara el que necessito és saber com abordar-ho amb ella. Perquè clar, li he de dir alguna cosa, no puc seguir així. Però no vull sonar ni agressiu ni tampoc com un pringat que li suplica. Vols dir que em pots ajudar a trobar una frase o alguna cosa per dir-li? Alguna cosa que soni natural, eh, no de manual de recursos humans."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar que sí. I entenc el que vols: ni agressiu ni suplicant, i que soni a tu.\n\nAbans de proposar-te alguna cosa, una pregunta: tens un moment concret en ment per parlar amb ella, o és més una conversa que hauries de buscar tu?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 932,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 78,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hauria de buscar-la jo, sí. Potser demà a l'hora del pati, que és quan tenim una estona. Però vaja, el moment ja me'l busco jo, el que no sé és què collons li dic quan la tingui davant."
+  },
+  {
+   "qui": "TARA",
+   "text": "Doncs anem a això.\n\nUna opció que sona natural i no és ni agressiva ni suplicant:\n\n---\n\n*\"Marta, necessito parlar amb tu una estona sobre el projecte. Hi ha parts que depenen de tu i que no estan avançant, i jo no puc tirar endavant sense elles. Vull entendre si hi ha alguna cosa que t'ho posa difícil, o si hem de replantejar com ho organitzem.\"*\n\n---\n\nComença des del fet concret, no des de la queixa. Li dóna espai per explicar-se sense que sigui un atac. I deixa clar que necessites que les coses avancin, sense suplicar-ho.\n\nSi vols, pots ajustar el to o les paraules perquè soni més a tu.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1081,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 208,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, no està malament això. Però potser una mica massa formal, no? Jo no parlo així normalment i si li solto això de cop igual pensa que li estic llegint un paper. Pots fer-la una mica més... de tu a tu? Més com si fos una conversa normal entre companys?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, té raó. Prova això:\n\n---\n\n*\"Marta, necessito dir-te una cosa. El projecte s'està encallant en les parts que et toquen a tu, i jo no sé com tirar endavant sense elles. Vull entendre si hi ha alguna cosa que t'ho posa difícil, perquè així no podem seguir.\"*\n\n---\n\nMés directe, menys protocol. Diu el que passa, no t'enfonses, i li obres la porta a explicar-se sense que sembli un judici.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1371,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 144,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, sí, això ja m'agrada més. \"Així no podem seguir\" sona a mi, vaja. Molt bé, això m'ho apunto. Gràcies, de veritat, m'has ajudat bastant. Ara ja tinc una mica més clar com encarar-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra. Molta sort demà amb la Marta.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1597,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 20,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies! Ja t'explicaré com ha anat, jaja. Fins aviat!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Fins aviat! Espero que vagi bé. 😊",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1646,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

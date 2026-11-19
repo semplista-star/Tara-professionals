@@ -1,0 +1,204 @@
+{
+ "id": "N1-G057",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "rebuig · un alumne que es riu dels companys amb necessitats educatives",
+ "tipus": "rebuig",
+ "persona": "Laia, orientadora. Situació: un alumne que es riu dels companys amb necessitats educatives. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:15:40.492Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Tinc un problema amb un alumne que es burla dels companys amb NEE i no sé com abordar-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc que és una situació que et preocupa. Abans d'orientar-te, m'ajudaria saber una cosa: quan dius que es burla, què has observat concretament? (Paraules, gestos, davant de qui, en quins moments...)\n\nAixò em permetrà ajudar-te a pensar una resposta més ajustada.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 176,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 94,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Fa comentaris en veu baixa quan el company amb TEA fa alguna cosa diferent. Els altres se'n riuen. Passa sobretot a classe, quan el professor no mira."
+  },
+  {
+   "qui": "TARA",
+   "text": "Gràcies per concretar. Ja tens bastant per treballar-ho.\n\nAlguns elements que veig en el que describes:\n- **Conducta observable**: comentaris en veu baixa + riures del grup, quan l'adult no mira.\n- **Patró**: no és un incident aïllat, té un moment i un context.\n- **Dinàmica de grup**: hi ha un públic que reforça la conducta.\n\nAixò últim és important: si només abordes l'alumne que fa els comentaris, el grup queda fora, i el riure és part del problema.\n\n---\n\nQuè t'agradaria fer primer? Puc ajudar-te amb coses com:\n\n1. **Parlar amb l'alumne** — preparar una conversa individual\n2. **Treballar amb el grup** — una activitat o moment de tutoria\n3. **Coordinar amb el tutor o l'equip** — si no ets tu qui porta el grup directament\n4. **Redactar un registre** de la situació amb llenguatge observacional\n\nO si tens alguna altra idea de per on vols tirar, digue'm-ho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 318,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 291,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Vull parlar amb l'alumne primer. Però no sé com enfocar la conversa sense que es tanqui."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit començar per aquí. Perquè no es tanqui, la clau sol ser no arrencar des de l'acusació, senseó des del que has observat, sense jutjar la intenció.\n\nUn esquema possible per a la conversa:\n\n**1. Obrir sense acusar**\nDescriu el que has vist, no el que creus que vol dir.\n> *\"He notat que quan el [company] fa alguna cosa, de vegades fas un comentari en veu baixa i els altres es riuen.\"*\n\n**2. Deixar-li espai per respondre**\nUna pregunta oberta, sense trampa:\n> *\"Què passa per tu en aquells moments?\"*\n\nPotser no ho sap. Potser té una resposta defensiva. Les dues coses són informació útil.\n\n**3. Nomenar l'impacte sense dramatitzar**\n> *\"El que passa és que el [company] queda en una posició difícil davant del grup, encara que tu no ho vegis.\"*\n\n**4. Tancar amb una petició concreta, no una amenaça**\n> *\"El que et demano és que quan tinguis ganes de fer un comentari, el guardis. Pots fer-ho?\"*\n\n---\n\nUna cosa a tenir en compte: l'edat i l'etapa de l'alumne canvien molt el to. De quina etapa estem parlant?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 643,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 358,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Segon d'ESO. Però aquest esquema... és molt formal. Si li parlo així es tancarà segur."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó. A segon d'això, un esquema massa estructurat sona a judici i es nota de lluny.\n\nMillor pensar-ho com una conversa, no com un protocol. Algunes idees per fer-la més natural:\n\n**Comença per un terreny neutral**\nAbans d'entrar al tema, un parell d'intercanvis sobre qualsevol cosa. Que no senti que l'has cridat per \"el problema\".\n\n**Entra pel que has vist, no pel que ha fet**\n> *\"L'altre dia vaig veure una cosa a classe i m'ha quedat al cap.\"*\n\nSense dir el seu nom al principi. Que ell mateix s'hi reconegui.\n\n**Usa el silenci**\nSi calla, no omplis tu. Espera. Sovint el silenci fa més que la pregunta.\n\n**Evita \"per què\"**\n\"Per què ho fas?\" tanca. Millor: *\"Què creus que passa quan fas això?\"* o fins i tot *\"Com creus que ho viu ell?\"*\n\n**Si es posa defensiu, no escalis**\n> *\"No t'estic acusant de res. Només vull entendre.\"*\n\n---\n\nVols que assagem la conversa? Tu fas d'alumne i jo de tu, o al revés, com prefereixis. De vegades ajuda a trobar el to real.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1035,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 354,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ja ho he provat, fer rol. No m'ajuda gaire, em resulta forçat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès, no cal forçar-ho.\n\nLlavors, una altra manera d'arribar-hi: en lloc d'assajar la conversa sencera, pensa en el moment concret que més et preocupa. Quin és?\n\nPer exemple: l'entrada, quan ell es posa defensiu, quan no sap què dir... Hi ha algun punt de la conversa on et quedes encallat?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1416,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 105,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, quan es posa defensiu. No sé com continuar sense que sembli que l'estic atacant."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí és on sol trencar-se tot, sí.\n\nQuan es posa defensiu, l'instint és justificar-se o insistir — i les dues coses l'enfronten més. El que sol funcionar és fer el contrari: reduir la pressió.\n\nAlgunes respostes concretes per a aquell moment:\n\n**Si diu \"jo no he fet res\" o \"sempre em culpeu a mi\":**\n> *\"No estic dient que siguis mala persona. Estic dient el que he vist.\"*\n\n**Si es calla i tanca:**\n> *\"No cal que em responguis ara. Però m'agradaria que hi pensessis.\"*\n\n**Si s'enfada:**\n> *\"Veig que t'ha molestat que t'ho digui. Puc entendre-ho.\"*\n> *(Pausa.)* *\"I igualment necessito dir-t'ho.\"*\n\nLa idea és: reconèixer el que sent sense abandonar el que vols dir. No és cedir, és no escalar.\n\n---\n\nHi ha alguna d'aquestes situacions que et sembli més probable amb aquest alumne concret?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1553,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 292,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La del silenci. Segur que es tancarà i no dirà res."
+  },
+  {
+   "qui": "TARA",
+   "text": "Llavors el silenci és el teu terreny, no un obstacle.\n\nSi es tanca i no diu res, no has fracassat. Significa que alguna cosa ha aterrat i necessita temps. No cal que la conversa acabi amb una confessió ni amb un canvi visible.\n\nPer a aquell moment concret:\n\n**Deixa el silenci estar una estona.** Més del que et sembli còmode. No omplis tu.\n\n**Si continua callat, pots tancar així:**\n> *\"No cal que em diguis res ara. Però m'agradaria que quan surtis d'aquí hi pensessis una mica.\"*\n\n**I afegir una porta oberta:**\n> *\"Si en algun moment vols parlar-ne, saps on soc.\"*\n\nAixò fa dues coses: treu la pressió del moment i li dóna agència. Que senti que pot triar tornar, no que l'has acorralat.\n\n---\n\nUna última cosa pràctica: on faràs la conversa? El lloc importa molt amb aquesta edat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1867,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 270,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Al meu despatx. Sempre ho faig allà."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té sentit, és el teu espai habitual. Només una cosa a considerar: el despatx a vegades reforça la sensació de \"m'han cridat per un problema\". Si tens l'opció, un espai una mica més neutral —un racó del passadís, una aula buida— pot baixar la guàrdia.\n\nPerò si el despatx és el que tens, funciona. El que pots fer és cuidar la disposició: no cara a cara a banda i banda d'una taula, si pots evitar-ho. Una mica en angle ja canvia el to.\n\n---\n\nCrec que tens prou per fer la conversa. Vols que et faci un resum breu dels punts clau per tenir-lo a mà, o ja en tens prou amb el que hem treballat?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2155,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 205,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

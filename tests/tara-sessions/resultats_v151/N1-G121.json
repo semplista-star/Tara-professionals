@@ -1,0 +1,163 @@
+{
+ "id": "N1-G121",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "rebuig · conflictes constants al pati entre dos grups",
+ "tipus": "rebuig",
+ "persona": "Xavi, coordinador de convivencia. Situació: conflictes constants al pati entre dos grups. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:19:11.415Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara, mira, te soy sincero: tengo un lío en el patio que me está comiendo la cabeza. Dos grupos que no se pueden ni ver, cada recreo es como el oeste. Y yo ahí en medio haciendo de sheriff sin estrella jaja. ¿Tienes alguna idea de por dónde empezar?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Jaja, sheriff sin estrella… se nota que llevas un rato aguantando el peso de eso solo.\n\nAntes de lanzarme a ideas, una pregunta que cambiaría bastante por dónde empezar: ¿los conflictos entre los dos grupos son sobre todo tensión acumulada y roces cotidianos, o ya ha habido incidentes concretos —palabras, empujones, exclusiones claras?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 224,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 108,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Las dos cosas, la verdad. Hay una tensión de fondo que ya viene de antes, pero también ha habido algún empujón y bastantes palabras feas. No es solo que se miren mal, es que ya ha escalado un par de veces. Por eso me preocupa, porque si no lo corto ahora esto va a peor seguro."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido que te preocupe. Tensión de fondo más escaladas ya ocurridas es una combinación que no se resuelve sola.\n\nCon ese cuadro, yo lo pensaría en dos capas que necesitan moverse a la vez:\n\n**Lo inmediato: bajar la temperatura**\nAntes de cualquier trabajo de convivencia, el patio necesita más estructura. No más vigilancia punitiva, sino presencia activa y redistribución del espacio: que los grupos no compitan por los mismos recursos o zonas en los mismos momentos. A veces basta con reorganizar quién usa qué parte cuándo, o introducir actividades opcionales que mezclen sin forzar.\n\n**Lo que viene después: trabajar la relación**\nCuando la tensión baje un poco, ahí sí tiene sentido hacer algo más intencional —actividades que creen contacto positivo entre los dos grupos, con un objetivo compartido que no sea \"llevarse bien\" (eso no funciona como meta directa).\n\nAntes de concretar cualquiera de las dos: ¿tienes idea de dónde viene esa tensión de fondo? ¿Es algo que arrastra de cursos anteriores, hay algún detonante conocido, o no está del todo claro?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 421,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 312,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, más o menos sé de dónde viene. Hay un tema de hace unos meses que no se gestionó bien y quedó enquistado. Pero mira, lo de reorganizar el espacio ya lo intenté el trimestre pasado y fue un desastre, los chavales se quejaron mogollón y los profes de guardia tampoco lo llevaron bien. No es que no me guste la idea, es que ya la probé y no funcionó."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ah, eso es importante saberlo. No tiene sentido volver por donde ya se fue y salió mal.\n\n¿Qué fue lo que más falló, si lo recuerdas? ¿Los chavales se resistieron porque lo vivieron como un castigo colectivo, los profes de guardia no tenían claro qué hacer con el cambio, o fue otra cosa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 848,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 95,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Fue un poco de todo, pero sobre todo los profes de guardia. No les expliqué bien qué tenían que hacer y al final cada uno improvisaba a su manera. Un día funcionaba, al día siguiente nadie se acordaba. Sin coordinación no hay nada que aguante, eso lo aprendí a las malas jaja."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso es un aprendizaje valioso, aunque haya costado. Y lo has identificado con mucha claridad: no falló la idea, falló el soporte para sostenerla.\n\nEso cambia bastante el foco. Si volvierais a intentar algo parecido —o cualquier otra medida, da igual cuál— la coordinación con los profes de guardia no puede ser un añadido, tiene que ser el punto de partida.\n\n¿Cómo tienes ahora esa relación con ellos? ¿Hay apertura para implicarlos desde el principio en diseñar algo juntos, o es un equipo al que cuesta llegar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1025,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 167,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hombre, hay de todo jaja. Algunos están muy implicados y con ellos es fácil. Otros van a lo suyo y si pueden escaquearse, se escaquean. Pero bueno, los que tiran del carro son suficientes para montar algo si lo hacemos bien. El problema es que no sé muy bien cómo arrancar sin que parezca otra reunión más que no sirve para nada, ¿sabes?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, lo entiendo perfectamente. La reunión que convocas con buenas intenciones y de la que todo el mundo sale pensando \"¿para qué hemos venido?\"\n\nLo que describes —un núcleo que tira y otros que se escaquean— es en realidad un punto de partida razonable. No necesitas convencer a todos desde el principio.\n\nUna forma de arrancar que evita el formato reunión-para-nada: en lugar de convocar para \"hablar del problema del patio\", propones a los dos o tres más implicados una conversación corta e informal —un café, diez minutos— con una pregunta concreta: *\"Quiero intentar algo diferente en el patio, ¿qué veis vosotros que está fallando y qué cambiaríais?\"*\n\nDos cosas pasan con eso: ellos llegan con algo propio, no solo a escucharte a ti, y lo que salga de ahí tiene más posibilidades de que lo sostengan porque viene en parte de ellos.\n\nDespués, si hay un plan concreto y sencillo, se lo presentas al resto no como propuesta sino como algo que ya tiene forma y solo necesita que sepan qué hacer. Eso es más fácil de sostener que una idea abstracta.\n\n¿Te encaja ese tipo de arranque, o hay algo del contexto del centro que lo complicaría?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1304,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 344,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Oye, eso sí me suena más a lo mío. Lo del café informal con los que tiran, sin montar un drama de reunión, eso lo puedo hacer. Y lo de presentarle al resto algo ya medio cocinado también tiene sentido, porque si les pides opinión sobre la nada se pierden. Creo que por ahí puedo arrancar. Gracias, en serio, me has ayudado a ordenar un poco el caos jaja."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido para ordenarlo un poco. Y el mérito es tuyo: ya sabías lo que había fallado antes, solo faltaba encontrar por dónde entrar.\n\nSuerte con el café. Si luego quieres pensar cómo presentarle el plan al resto, o qué hacer con el tema enquistado de fondo, aquí estoy.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 94,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

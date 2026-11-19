@@ -1,0 +1,206 @@
+{
+ "id": "N1-G134",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "rebuig · la preparació d'unes colònies amb un alumne amb crisis freqüents",
+ "tipus": "rebuig",
+ "persona": "Núria, cap d'estudis. Situació: la preparació d'unes colònies amb un alumne amb crisis freqüents. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:39:20.630Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Mira, tinc un problema una mica gros entre mans. Estem organitzant les colònies de final de curs i hi ha un alumne, en Marc, que té crisis epilèptiques bastant freqüents. Els mestres estan una mica neguits i jo també, sincerament. No sé molt bé com gestionar-ho perquè tot surti bé i no acabem amb un ensurt majúscul a mig bosc."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc el neguit. Organitzar colònies amb un alumne que té crisis freqüents és una responsabilitat real, i té sentit que vulguis fer-ho bé.\n\nAbans d'ajudar-te a preparar-ho, necessito saber una cosa que canviaria molt el que et pugui oferir: teniu ja un protocol mèdic actualitzat per a en Marc, signat per la família i el metge, amb les indicacions concretes de com actuar en cas de crisi?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 256,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 128,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, això ho tenim. La família és molt implicada i el metge ens va passar un protocol fa poc. Tenim clar quan cal actuar i quan no. El que em preocupa més és la part humana, saps? Que els mestres no es bloquegin si passa alguna cosa, que en Marc no se senti diferent de la resta... Això és el que em fa perdre la son."
+  },
+  {
+   "qui": "TARA",
+   "text": "Això que dius és el nucli de tot. El protocol mèdic dona seguretat tècnica, però el que fa que les colònies surtin bé és exactament el que tu nomenes: que els mestres puguin actuar sense bloquejar-se, i que en Marc visqui l'experiència com un més.\n\nPuc ajudar-te en les dues coses. Per on vols començar?\n\n1) Com preparar els mestres perquè se sentin segurs i no es bloquegin si hi ha una crisi.\n\n2) Com cuidar que en Marc no se senti diferent ni vigilat durant les colònies.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 489,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 158,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pels mestres, va. Perquè si ells estan tranquils, tot flueix millor. I en Marc ja és un nen que s'espavila força, però els mestres... alguns estan molt verds amb això i noto que quan parlem del tema s'encongeixen, pobrets."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, s'encongeixen perquè no saben què fer amb el cos quan arribi el moment. I quan el cos no sap, el cap es bloqueja. La preparació que els pot ajudar de veritat no és només informació, és pràctica.\n\nEt proposo una reunió de preparació amb els mestres, breu i concreta, abans de les colònies. Aquí tens un esquema que pots adaptar:\n\nObjectiu: que cada mestre surti sabent exactament què fa ell si hi ha una crisi, sense haver de pensar-ho en el moment.\n\nEstructura, en uns 45-60 minuts:\n\n1) Comença normalitzant el neguit. Pots dir alguna cosa com: \"Tenim un protocol clar i la família confia en nosaltres. Avui no venim a aprendre medicina, venim a saber com ens coordinem.\" Això baixa la tensió des del principi.\n\n2) Explica la crisi en termes observables, no mèdics. Què veuran, quant dura normalment, quan passa sola i quan cal actuar. Aquí pots usar el que ja diu el protocol del metge, però en paraules seves.\n\n3) Assigna rols concrets. Qui es queda amb en Marc, qui s'ocupa de la resta del grup, qui avisa si cal. Que no ho hagin de decidir en el moment.\n\n4) Fes un assaig en veu alta. No cal simular res, n'hi ha prou que cadascú digui en veu alta \"jo faig X\". Verbalitzar-ho consolida.\n\n5) Deixa espai per preguntes reals, les que potser no s'atreveixen a fer davant tothom.\n\nVols que t'ajudi a preparar com conduir algun d'aquests moments, o a redactar alguna cosa per repartir-los?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 723,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, mira, la reunió ja la tenim feta. Vam fer una cosa semblant el mes passat amb l'orientadora. El problema és que tot i així alguns segueixen bloquejats. Com si la teoria la tinguessin però a l'hora de la veritat..."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar. La teoria entra pel cap, però quan el cos s'encongeix, la teoria no sempre arriba a temps.\n\nEl que descrius és molt habitual: saben què han de fer, però no han tingut l'experiència de fer-ho. Hi ha una diferència entre \"sé que he de posar-lo de costat\" i haver-ho fet amb les mans alguna vegada.\n\nAbans de proposar-te res, una pregunta: els que segueixen bloquejats, creus que és més por de fer alguna cosa malament, o és que la situació en si els desborda emocionalment?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1267,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 151,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, bona pregunta. Crec que és més el segon. Hi ha una mestra sobretot, la Montse, que és molt empàtica i quan veu patir un nen es queda paralitzada. No és que no sàpiga el protocol, és que s'ho pren molt a pit i se li fa un nus."
+  },
+  {
+   "qui": "TARA",
+   "text": "La Montse no té un problema de coneixement, té un cor molt gran que de vegades li juga una mala passada en moments d'alta intensitat. Això és diferent i té una solució diferent.\n\nEl que li pot ajudar no és repassar el protocol, és tenir clar el seu rol concret durant una crisi, un rol que no exigeixi que ella gestioni l'emoció i l'acció alhora.\n\nPer exemple: si en una crisi el seu rol és ocupar-se de la resta del grup, allunyar-los amb calma i continuar l'activitat, ella té una tasca clara que la manté activa i útil sense haver de mirar directament el que li fa nus. Qui es queda amb en Marc seria algú amb un perfil diferent.\n\nAixò no és apartar-la, és posar-la on pot donar el millor de si mateixa.\n\nT'ho planteges com una conversa individual amb ella abans de les colònies, o prefereixes que el repartiment de rols quedi establert per a tot l'equip sense sintetitzar-ho?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1504,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 277,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mmm, no sé. Fer una conversa individual amb ella em sembla que la pot fer sentir com si la posés en evidència, saps? Com si li estigués dient \"ei, que tu no pots\". No m'agrada gaire aquesta idea."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó. Si ho viu com un senyal que no és de fiar, pot fer més mal que bé.\n\nUna altra manera de fer-ho és que el repartiment de rols surti de l'equip, no d'una decisió teva sobre ella. Pots plantejar-ho a la propera trobada com una pregunta oberta: \"Qui se sent més còmode fent cada cosa?\" i deixar que cadascú triï. Sovint la gent sap on encaixa millor, i la Montse potser ella mateixa s'assigna el rol que li va bé sense que ningú li hagi de dir res.\n\nSi no ho fa, sempre pots guiar suaument sense assenyalar: \"Montse, tu que tens tanta facilitat amb el grup, et veig molt bé portant els altres nens en aquell moment.\"\n\nVols que t'ajudi a preparar com plantejar aquest repartiment de rols amb l'equip?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1848,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 240,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, això sí que m'agrada més! Que surti d'ells mateixos, sense que sembli que jo estic fent una criba. I la frase aquella per a la Montse és perfecta, perquè li ressaltes el que fa bé en comptes de marcar el que li costa. Això sí que ho veig factible."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bé. I si surt d'ells, el compromís també és seu, que és el que fa que funcioni de veritat quan arriba el moment.\n\nVols que et prepari com conduir aquesta estona de repartiment de rols, o ja tens prou per tirar-ho endavant?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2180,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 76,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Crec que ja tinc prou per tirar endavant, sí. M'has donat la clau que em faltava. Moltes gràcies, de debò, m'has tret un pes de sobre!"
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit. Que les colònies vagin bé, per a tothom, i especialment per a en Marc.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 2315,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 50,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

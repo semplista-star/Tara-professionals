@@ -1,0 +1,83 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén que Dolors vol eines per parlar amb la seva filla, però triga massa a oferir-les i fa preguntes exploratòries que la persona no ha demanat.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Qué agotador debe ser que algo tan cotidiano como comer se convierta en un campo de batalla",
+   "esperat": "Acollir el que diu sense atribuir-li l'emoció; per exemple: 'Vaja, les hores de menjar convertides en batalla. Explica'm més.'"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que acabes sintiéndote ignorado.",
+   "esperat": "Recollir el que ha dit sense validar amb fórmula; per exemple simplement reflectir i continuar."
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Cuántos años tiene ella?",
+   "esperat": "L'edat no era necessària en aquest punt; si cal, es pot preguntar quan sigui rellevant per a l'ajuda concreta."
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "es como si cuestionara tu lugar",
+   "esperat": "No interpretar ni atribuir significat a l'acció de la filla; deixar que Dolors posi les seves pròpies paraules."
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Qué sientes tú en ese momento, cuando te dice eso?",
+   "esperat": "Dolors ja havia dit que s'enfonsava i s'enfadava; la pregunta és redundant i allarga l'exploració quan ja podria anar cap a l'ajuda."
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Lo reconoces con mucha claridad.",
+   "esperat": "Ometre el judici valoratiu; simplement recollir el que ha dit i continuar."
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Qué querrías que pasara en esos momentos, si pudieras elegir?",
+   "esperat": "Dolors ja havia dit que no sabia com fer-ho; TARA podria haver ofert ajuda concreta en lloc de continuar explorant."
+  },
+  {
+   "torn": 5,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "alta",
+   "cita": "¿qué es lo que más te duele de eso? ¿Que no valora tu esfuerzo, que sientes que la pierdes, otra cosa?",
+   "esperat": "Dolors havia dit que volia saber com dir-li les coses; TARA havia d'oferir l'ajuda en lloc de fer una nova pregunta exploratòria amb opcions suggerides."
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "alta",
+   "cita": "\"Cuando hago caras o me dices que en casa de mamá es mejor, me duele, porque me importa mucho que estemos bien tú y yo. No necesito que te guste todo lo que cocino, pero sí me gustaría que pudiéramos comer sin que acabemos mal.\"",
+   "esperat": "Una frase més curta i natural, no de manual de CNV; la persona mateixa ho confirma al torn següent."
+  },
+  {
+   "torn": 6,
+   "categoria": "jerga_cnv",
+   "gravetat": "mitjana",
+   "cita": "No es una acusación, no le pides que cambie de golpe, y le dices lo que sientes tú. Le dejas espacio para escucharte.",
+   "esperat": "No cal explicar la tècnica darrere de la frase; lliurar-la i preguntar si encaixa, sense el comentari meta-comunicatiu."
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "id": "N2-G058",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "nomes-desfogar · germans que es barallen tot el dia",
+ "tipus": "nomes-desfogar",
+ "persona": "Jordi, madre. Situació: germans que es barallen tot el dia. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:26:25.313Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, hoy no necesito consejos ni nada de eso. Solo necesito desahogarme un poco, si no te importa. Es que mis hijos no paran de pelearse y estoy agotada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te escucho. Agotada de que no paren, de estar ahí en medio todo el tiempo.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 222,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exactamente. Es que es todo el día. Desde que se levantan hasta que se acuestan. Por cualquier cosa. Por el mando de la tele, por quién se sienta dónde, por absolutamente nada. Y yo ya no sé ni cómo reaccionar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Todo el día, por cualquier cosa, sin descanso. Tiene sentido que ya no sepas ni cómo reaccionar. Es mucho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 322,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, es muchísimo. Y lo peor es que cuando intento intervenir, se vuelven los dos contra mí. Como si yo fuera el problema. Me siento muy sola en todo esto, la verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso duele especialmente — intentar ayudar y acabar siendo el blanco de los dos. Sola en medio de algo que no para.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 416,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso es exactamente. Bueno, mira, ya me siento algo mejor solo con haberlo dicho en voz alta. Creo que ya está, que no necesito más por hoy. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido decirlo. Cuando quieras, aquí estaré. Cuídate.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 512,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 42,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

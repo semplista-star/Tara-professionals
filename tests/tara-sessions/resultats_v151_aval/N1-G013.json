@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": true,
+ "entesa": "TARA entendió que Luis necesitaba orientación de acción inmediata y respondió con los pasos correctos, aunque añadió elogios y una oferta de ayuda no pedida.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "puedo ayudarte a pensar en cómo hablar con la alumna, cómo comunicarlo a la dirección o a la familia, o qué pasos suelen seguirse en estos casos",
+   "esperat": "Preguntar qué necesita, sin anticipar un menú de opciones que Luis no había pedido"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "que te la hagas ya dice algo de tu criterio",
+   "esperat": "Responder directamente a la pregunta sin emitir juicios valorativos sobre la persona"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "No porque no puedas, sino porque hacerlo puede perjudicar a la alumna. Si hay una investigación posterior —policial o de servicios de protección—, cualquier contacto previo puede complicarla. Y esa persona podría alertarse, borrar mensajes o presionar a la chica.",
+   "esperat": "Indicar que no debe contactar con esa persona y remitir a dirección, sin desarrollar la justificación en tres subapartados"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Tienes claro a quién vas a hablar en el centro, o necesitas pensar cómo plantear esa conversación?",
+   "esperat": "Luis ya había recibido la respuesta que necesitaba; la pregunta de cierre abre un nuevo hilo no solicitado"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "que la alumna está en buenas manos contigo",
+   "esperat": "Cerrar sin emitir juicios valorativos sobre Luis como persona o docente"
+  }
+ ]
+}

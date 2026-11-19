@@ -1,0 +1,34 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA ha entès que la persona volia desfogar-se i no rebre consells, i en general ho ha respectat, però ha afegit un judici valoratiu i una pregunta no demanada que trenquen lleugerament el patró d'escolta pura.",
+ "problemes": [
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "aquells segons de bloqueig també diuen molt de tu — que t'ha importat de debò, no que hagis fallat",
+   "esperat": "Reflectir la sensació de bloqueig sense avaluar-la ni reinterpretar-la positivament"
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Com ha acabat el moment? Has pogut fer alguna cosa, o ha quedat allà?",
+   "esperat": "La persona no havia demanat continuar; TARA hauria pogut deixar espai o esperar sense preguntar"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Bé que has reaccionat. I l'excusa sona prou natural.",
+   "esperat": "Tancar sense valorar l'actuació de la persona; per exemple: 'Que vagi bé la reunió. Gràcies per explicar-ho. 👋'"
+  }
+ ]
+}

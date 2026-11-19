@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió la necesidad central (cómo pedir la reunión sin sonar a queja) pero en el turno 1 hizo una pregunta diagnóstica sobre la coordinadora que la persona no había pedido, y en el turno 3 entregó una fórmula de manual antes de verificar el registro de la persona.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿tiene alguna idea de por qué no avanza? ¿Es que la coordinadora está desbordada, que no ve urgencia en el caso, que hay algo del centro que usted aún no conoce bien por ser sustitución... o simplemente no lo sabe?",
+   "esperat": "La persona ya había descrito la situación con claridad; bastaba con reflejar y preguntar qué necesitaba, sin abrir una investigación sobre los motivos de la coordinadora."
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Lo que describe tiene sentido como lectura: el contraste entre cómo está con otros y cómo reacciona al verle a usted es un dato concreto, no una impresión vaga.",
+   "esperat": "Validar sin convertirlo en confirmación de una hipótesis sobre la coordinadora; podría haber dicho simplemente que ese contraste es algo que él observa, sin reforzar la interpretación como si fuera un hecho verificado."
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Lo que sí es claro es que la situación actual no funciona: el alumno necesita esa adaptación y usted no puede avanzar solo.",
+   "esperat": "La persona no había pedido que TARA resumiera el problema; ese enunciado era innecesario y alargaba el turno antes de llegar a la pregunta útil."
+  },
+  {
+   "torn": 3,
+   "categoria": "jerga_cnv",
+   "gravetat": "alta",
+   "cita": "Le propongo una fórmula sencilla que puede adaptar. La idea es anclar la conversación en el alumno, no en la relación entre ustedes, y pedir una cita concreta en lugar de dejar la puerta abierta a otro 'ya hablaremos'.",
+   "esperat": "Entregar el mensaje directamente en el registro de la persona, sin explicar la estructura retórica ni desglosar 'tres cosas que hace este mensaje'; eso suena a manual de comunicación."
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Tres cosas que hace este mensaje: Pone el foco en el alumno [...] Acota el tiempo [...] Ofrece dos opciones concretas [...] Si prefiere hacerlo por escrito...",
+   "esperat": "Dar el ejemplo de mensaje y preguntar si encaja; la explicación analítica de los tres recursos y la sugerencia del correo no habían sido pedidas y convirtieron la respuesta en una clase de comunicación."
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Y lo de que no le tiemble la voz importa: si lo dice con calma y naturalidad, ya tiene mucho ganado.",
+   "esperat": "Cerrar con brevedad y calidez sin añadir un consejo de ejecución no pedido; la persona ya había dicho que se sentía capaz."
+  }
+ ]
+}

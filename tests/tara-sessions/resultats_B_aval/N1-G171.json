@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: al torn 1 respon la pregunta de privacitat sense prometre res; al torn 2 clarifica el tipus d'evasives; al torn 3 detecta que la persona vol orientació concreta i la lliura; al torn 4 tanca sense retenir.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que estiguis frustrada.",
+   "esperat": "Reconèixer la situació sense validar amb fórmula; per exemple ometre la frase o integrar-la de manera més específica a la situació descrita"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Portes el pes d'un projecte que hauria de ser compartit, i a sobre has d'estar pendent d'una coordinació que no funciona.",
+   "esperat": "Reflectir el que la persona ha dit sense afegir interpretació sobre 'portar el pes' ni sobre si la coordinació 'no funciona', que és una conclusió no expressada explícitament"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Si torna a quedar en res, tens la informació per decidir si cal implicar algú més, com la cap d'estudis o la coordinació del projecte.",
+   "esperat": "La persona va demanar com enfocar la conversa amb la companya, no orientació sobre escalada institucional; aquest punt 5 supera l'abast de la petició"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Algunes orientacions per enfocar-la: 1) Comença pels fets [...] 2) Digues l'impacte real [...] 3) Fes una petició concreta [...] 4) Deixa espai per escoltar-la [...] 5) Si torna a quedar en res [...]",
+   "esperat": "Cinc punts és proporcionat però el punt 4 (pregunta oberta a la companya) i el punt 5 (escalada) no eren demanats; tres punts centrats en la petició concreta haurien estat suficients i més ajustats"
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "id": "N1-G133",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "desfogar-demanda · una família que l'ha cridat per telèfon",
+ "tipus": "desfogar-demanda",
+ "persona": "Elena, maestra de música. Situació: una família que l'ha cridat per telèfon. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:19:38.058Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Gracias por atender. Hoy solo necesito que me escuchen, si no le importa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estoy. Cuéntame.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 167,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Verá, tengo un alumno de doce años que lleva tres meses en mis clases de piano. Es un niño con mucho potencial, pero últimamente viene a las clases muy apagado, sin energía. La semana pasada me dijo que sus padres quieren que lo deje. Que el piano \"no sirve para nada\". Y yo noto que él no quiere dejarlo. Me ha afectado bastante, la verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te ha afectado ver eso: un niño que quiere seguir, y que siente que no puede.\n\nCuéntame más, si quieres.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 294,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 42,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactamente. Es que él se ilumina cuando toca. Se le nota. Y la última clase me miró y me dijo \"¿usted cree que soy bueno, verdad?\". Me partió el corazón. Porque sí, lo es. Pero yo no sé qué puedo hacer si la familia ha tomado esa decisión."
+  },
+  {
+   "qui": "TARA",
+   "text": "Esa pregunta de él se queda dentro. Buscaba que alguien le confirmara algo que quizás en casa no está escuchando.\n\nY tú estás ahí, viéndolo, sin poder hacer mucho más allá de ese momento con él.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 427,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 67,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso es justo. Me siento un poco impotente, la verdad. Porque dentro del aula puedo darle todo, pero fuera no tengo control sobre nada. Y me pregunto si debería hacer algo más, hablar con los padres, escribirles... no sé. Pero hoy no quería consejos todavía, solo quería contarlo. Gracias por escuchar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Gracias por contarlo. Esa impotencia que describes tiene mucho sentido: das todo lo que puedes dentro del aula, y el límite está justo ahí en la puerta.\n\nCuando quieras pensar en qué hacer, aquí estaré.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 596,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 68,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. De hecho... creo que ya estoy lista para dar un pequeño paso. ¿Me podría ayudar a pensar cómo empezar una conversación con los padres? Solo el primer paso, tampoco necesito un guion completo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Para ese primer paso, lo más importante suele ser que los padres sientan que los llamas para escucharles a ellos, no para convencerles de nada.\n\nAlgo así como: *\"Quería hablar con ustedes un momento porque me importa cómo está su hijo, y me gustaría entender mejor cómo lo ven en casa.\"*\n\nAsí abres sin presión, y ellos pueden hablar primero.\n\n¿Te encaja ese tono, o lo ajustamos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 129,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, me encaja. Es respetuoso y no pone a nadie a la defensiva. Me quedo con eso. Muchas gracias por escucharme hoy, de verdad. Ha sido de ayuda. Hasta pronto."
+  },
+  {
+   "qui": "TARA",
+   "text": "Hasta pronto. Suerte con esa conversación.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 922,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 27,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

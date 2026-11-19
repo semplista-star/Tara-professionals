@@ -1,0 +1,204 @@
+{
+ "id": "N1-G072",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "correccio · un alumne que diu que vol canviar de grup",
+ "tipus": "correccio",
+ "persona": "Pau, coordinador de convivencia. Situació: un alumne que diu que vol canviar de grup. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:15:57.336Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Tengo un alumno que quiere cambiar de grupo y no sé muy bien cómo gestionarlo."
+  },
+  {
+   "qui": "TARA",
+   "text": "¿Qué sabes de por qué quiere cambiar? ¿Te lo ha dicho él, o te ha llegado por otra vía?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 168,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Me lo ha dicho él directamente. Dice que no está a gusto, pero no me ha dado muchos detalles."
+  },
+  {
+   "qui": "TARA",
+   "text": "Que haya venido a decírtelo directamente ya dice algo de él.\n\n¿Tienes alguna hipótesis de lo que puede haber detrás — algo que hayas observado en el grupo, alguna dinámica, algo que te haya llamado la atención?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 240,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 70,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bueno, sé que hay un par de conflictos en el grupo. Pero no sé si es eso o algo más personal."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido que no lo sepas todavía — con \"no estoy a gusto\" hay mucho margen.\n\n¿Qué te ayudaría más ahora: pensar cómo hablar con él para entender mejor qué hay detrás, o explorar cómo gestionar la decisión del cambio en sí?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 345,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 84,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Primero entender qué hay detrás. Si cambio de grupo sin saber el motivo real, igual no soluciono nada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Exacto. Y además, si el motivo es algo que ocurre en el grupo, el cambio podría no ser la solución, o incluso repetirse.\n\nPara esa conversación con él, puede ayudar partir de lo que ya te dijo —\"no estoy a gusto\"— sin presionarle a dar más de lo que quiera dar. Algunas preguntas que suelen abrir sin forzar:\n\n- **\"¿Hay algo concreto que te haga sentir así, o es más una sensación general?\"** — distingue si hay un hecho o es algo más difuso.\n- **\"¿Hay momentos en los que estás mejor, o es todo el rato?\"** — ayuda a localizar si es con ciertas personas, situaciones o momentos.\n- **\"¿Qué necesitarías para estar más a gusto?\"** — a veces ellos mismos no lo han pensado, y la pregunta les ayuda.\n\nNo hace falta hacerlas todas. A veces con la primera ya se abre.\n\n¿Quieres ensayar cómo arrancarías esa conversación, o con esto tienes suficiente para empezar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 465,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 290,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, no he dicho que el alumno se sienta mal. Solo que no está a gusto. No sé si es lo mismo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, y es una distinción importante. \"No estar a gusto\" puede ser muchas cosas: que no conecta con el grupo, que preferiría estar con amigos de otro grupo, que hay algo que le incomoda... no necesariamente que esté sufriendo.\n\n¿Cambia algo en cómo quieres enfocar la conversación con él?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 791,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 93,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, igual no hay que dramatizar. Solo escucharle y ver qué necesita exactamente."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, eso suena bien. Una conversación abierta, sin dar por hecho que hay un problema grave, pero con espacio para que él pueda decir lo que sea.\n\n¿Quieres pensar cómo arrancarla, o ya tienes claro cómo hacerlo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 912,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 75,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Más o menos claro. Lo que no sé es qué hago si al final pide el cambio de grupo. ¿Cómo lo gestiono?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Buena pregunta. Aquí hay varias capas.\n\nPrimero, ¿el cambio de grupo es una decisión que depende de ti, o intervienen otras personas —jefatura, familias, el propio alumno—?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1029,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 61,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Depende de jefatura principalmente. Yo puedo recomendar, pero no decidir."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entonces tu papel es más de intermediario: escucharle, valorar, y trasladar con criterio a jefatura.\n\nEso te da también algo de margen: no tienes que resolver tú solo si el cambio es bueno o no. Lo que sí puedes hacer es llegar a esa conversación con jefatura con más información — qué hay detrás, qué ha observado él, qué has observado tú.\n\n¿Hay algo que te preocupe especialmente de ese momento — el de trasladarlo a jefatura, o el de responderle a él mientras se decide?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1115,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 147,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

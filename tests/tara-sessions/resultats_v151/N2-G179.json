@@ -1,0 +1,140 @@
+{
+ "id": "N2-G179",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "desfogar-demanda · les xarxes socials i el que hi publica",
+ "tipus": "desfogar-demanda",
+ "persona": "Pau, madre sola con tres hijos. Situació: les xarxes socials i el que hi publica. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:33:33.547Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, hoy solo quiero que me escuchen un poco. Sin consejos ni nada, solo... que me escuchen. ¿Puedes?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Aquí estoy, escuchándote.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 207,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues mira, es que llevo unos días un poco rallada con lo de las redes sociales. Tengo el Instagram y el Facebook, y a veces publico cosas de los niños, fotos, momentos graciosos... y mi madre me ha dicho que no debería, que es peligroso, que quién sabe quién lo ve. Y yo entiendo lo que dice, pero también es que es mi manera de estar conectada con la gente, ¿sabes? Soy madre sola, no tengo mucho tiempo para quedar con nadie, y las redes son como mi ventana al mundo. Pero ahora me ha entrado la duda y no sé si lo estoy haciendo bien o mal. Y encima mi hijo mayor, que tiene doce años, me ha dicho que le da vergüenza que lo publique. Así que ya tengo a mi madre y a mi hijo en contra. Solo me falta que se queje el perro, pero es que no tenemos perro. 😅"
+  },
+  {
+   "qui": "TARA",
+   "text": "😄 El perro os ha salvado a los dos por ahora.\n\nLlevas unos días cargando con eso sola — la duda, tu madre, tu hijo... y encima es algo que para ti tiene un valor real: sentirte conectada cuando el tiempo no da para mucho más.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 469,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 75,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacto, eso es. No es que publique por publicar, es que... es mi manera de no sentirme tan sola, ¿entiendes? Ver que alguien le da like a una foto de los peques, que una amiga comenta algo... parece una tontería pero a mí me llena un poco. Y ahora me siento culpable por eso, y no sé si la culpa es mía o de mi madre o de mi hijo o de Mark Zuckerberg, que seguro que algo tiene que ver. 😅"
+  },
+  {
+   "qui": "TARA",
+   "text": "Zuckerberg siempre tiene algo que ver, claro. 😄\n\nY no suena a tontería para nada. Esa conexión que describes — el like, el comentario de una amiga — es real, aunque sea pequeña. Y tiene sentido que duela que ahora eso mismo te genere culpa, cuando era algo que te daba.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 679,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 89,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactamente. Lo has pillado bien. Gracias por escuchar sin ponerte en plan \"pues mira, lo que deberías hacer es...\" porque ya tengo suficiente con mi madre para eso. 😄\n\nOye, y ya que estás... ¿me podrías ayudar con una cosita concreta? Solo algo pequeño, eh. Me gustaría saber cómo decirle a mi hijo, en dos palabras, que entiendo que le dé vergüenza pero que también necesito mi espacio. Sin que se convierta en un drama familiar de serie de televisión."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que hayas podido decirlo.\n\nPara tu hijo, algo así podría funcionar:\n\n*\"Entiendo que no te guste que publique fotos tuyas. Voy a tenerlo en cuenta. Y también necesito que sepas que las redes son mi manera de estar en contacto con la gente que quiero. Podemos hablar de qué te parece bien y qué no.\"*\n\nCorto, sin drama, y le deja a él también un poco de espacio para decir lo que le molesta en concreto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 918,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 134,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uy, eso está bien. Es tranquilo, no es defensivo... me gusta. Lo de \"podemos hablar de qué te parece bien y qué no\" es bueno porque así él también se siente escuchado y no es solo yo la que cedo. Que bastante cedo ya en el día a día. 😄\n\nBueno, pues muchas gracias. En serio. Me ha ido bien poder soltar esto y encima me llevo algo útil. ¡Hasta la próxima!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te haya servido. ¡Mucho ánimo con la conversación, que seguro que sale bien!\n\nHasta la próxima. 😊",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1181,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 55,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

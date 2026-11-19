@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre el que necessitava la persona en general, però al torn 1 va anteposar una pregunta sobre les edats quan la persona ja havia demanat ajuda per preparar la conversa, i al torn 3 va oferir una extensió no demanada (afegir conseqüències).",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Abans de preparar la conversa, una cosa que m'ajudaria a fer-la més útil per a tu: quines edats tenen els nens?",
+   "esperat": "Amb la informació ja donada (cap de setmana, baralles constants, necessitat de preparar una conversa), TARA podia lliurar un primer esbós de conversa i demanar l'edat només si resultava imprescindible per ajustar-lo."
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "en lloc d'explicar-los per què han de tractar-se amb respecte —que sovint sona a sermó i tanca la conversa—, pots partir del que tu observes i del que necessites tu com a pare",
+   "esperat": "La persona havia demanat ajuda per preparar la conversa, no una reorientació del seu enfocament; TARA podia oferir l'exemple directament sense corregir el plantejament inicial."
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "em poso trist",
+   "esperat": "L'emoció proposada (tristesa) no havia estat expressada per Ibrahim, que havia dit que estava frustrat; la hipòtesi hauria de ser oberta o usar l'emoció que ell mateix havia nomenat."
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té tot el sentit.",
+   "esperat": "Ometre la validació formulaica o integrar-la de manera més natural sense usar l'expressió fixa."
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Si vols, també pots afegir una conseqüència concreta per si les baralles continuen — això reforça que va de debò. Vols que ho treballem?",
+   "esperat": "La persona havia demanat una versió més ferma del missatge; un cop lliurada, TARA hauria de tancar o deixar la iniciativa a la persona sense proposar un nou fil de treball no sol·licitat."
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "espero que el proper cap de setmana sigui millor per a tots tres",
+   "esperat": "Un tancament neutre i càlid sense projectar expectatives sobre el resultat; per exemple: «Molt d'ànim amb la conversa.»"
+  }
+ ]
+}

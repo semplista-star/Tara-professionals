@@ -1,0 +1,141 @@
+{
+ "id": "N2-G053",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "rebuig · la mort recent de l'avi",
+ "tipus": "rebuig",
+ "persona": "Li Wei, família d'acollida. Situació: la mort recent de l'avi. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:27:03.351Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, estic una mica perduda i no sé ben bé per on agafar-ho. Fa tres setmanes que va morir el meu sogre, l'avi de la Mei i el Bao, els nens que tenim en acollida. I clar, ells ja venien d'una situació molt difícil de casa seva, i ara això... el nen gran, el Bao, que té onze anys, no plora, no diu res, es tanca a l'habitació i ja està. La Mei almenys plora i s'abraça a mi, però el Bao... no sé com arribar-hi. I em fa molta angúnia perquè sé que per dins ho deu estar passant molt malament. No sé si haig de fer alguna cosa, dir-li alguna cosa, o simplement esperar. Necessito ajuda amb això."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tres setmanes portant tot això, i a sobre sense saber com arribar al Bao. S'entén que estiguis perduda.\n\nUna cosa que dius em sembla important: que *saps* que per dins ho deu estar passant malament. Potser ell també ho sap, que tu ho saps. I tancar-se pot ser la seva manera de protegir-se ara mateix, sobretot si ja ve d'una història on mostrar el que sentia no era segur.\n\nNo cal que facis res gran. De vegades el que més arriba és la presència sense exigència: estar a prop sense demanar-li que obri. Que noti que hi ets, que no et fa por el seu silenci, i que quan ell vulgui, hi haurà lloc.\n\nSi vols, et puc ajudar a pensar alguna cosa concreta que li puguis dir o fer, sense forçar-lo. Tens alguna idea de com sol respondre ell quan s'acosta algú?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 387,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 250,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, ja... el que dius té sentit, i de fet ja ho faig una mica, això d'estar present sense pressionar-lo. Però el problema és que tres setmanes és molt temps i jo noto que no avança, saps? Que cada dia és igual. I la meva parella em diu que li parli directament, que li pregunti com està, però jo tinc por que si li pregunto es tanqui encara més. Llavors vaig pensar... no sé, potser hauria de buscar un psicòleg per a ell? Però clar, ja vam tenir una experiència amb una psicòloga quan va arribar a casa nostra i no va funcionar gens, el Bao no va voler parlar mai i al final ho vam deixar. Així que no sé si tornar a intentar-ho o si hi ha alguna altra cosa que pugui fer jo directament, des de casa. Alguna cosa més concreta, vull dir."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc el dubte: una experiència que no va funcionar fa que tornar-hi no sembli tan clar.\n\nEt proposo dues direccions, i tu veus quina té més sentit ara:\n\n**Fer alguna cosa des de casa, tu directament**\nEn lloc de preguntar-li \"com estàs\" —que sovint tanca—, pots fer-li saber el que observes tu, sense demanar-li res. Per exemple: *\"Noto que estàs molt callat des que va morir l'avi. No cal que em diguis res. Però vull que sàpigues que hi soc.\"* Res més. Deixar-ho caure i marxar. Sense esperar resposta. De vegades obre més que una pregunta directa, perquè no el posa en un lloc on ha de donar alguna cosa.\n\nTambé hi ha coses que no passen per les paraules: fer alguna activitat junts sense parlar del dol —cuinar, un joc, una sèrie—, on ell noti que pots estar amb ell sense que sigui tens.\n\n**Tornar a buscar suport professional**\nNo tots els psicòlegs treballen igual amb nens que han viscut el que ha viscut el Bao. N'hi ha que treballen amb joc, amb dibuix, amb moviment —sense que calgui parlar directament. Si torneu a intentar-ho, valdria la pena buscar algú amb experiència en dol i en infants amb historial de trauma. El fet que no funcionés abans no vol dir que no pugui funcionar ara, amb una altra persona o un altre enfocament.\n\nLes dues coses no s'exclouen.\n\nQuina et sembla més assequible ara mateix?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 880,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 432,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, el que dius de dir-li \"noto que estàs molt callat\" i marxar sense esperar resposta... no sé. Ho entenc, però em sembla molt fred, saps? Com massa calculat. Jo no soc així, no puc fer-ho com si fos un guió. Si li dic alguna cosa ha de sortir de manera natural, si no ell ho notarà que és forçat i pitjor. El Bao és molt llest, molt observador. Amb ell no pots fer veure res.\n\nPerò l'altra opció, la del psicòleg especialitzat en trauma i dol... això sí que m'ha fet pensar. Perquè és veritat que la d'abans era una psicòloga general, no tenia cap especialització concreta en això. Potser el problema era aquell, no que el Bao no pugui funcionar amb algú. Com trobo algú així? Perquè no sé ni per on buscar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó amb el del guió — si no és teu, no funcionarà. Ho deixem.\n\nPer buscar algú especialitzat, tens diverses vies:\n\n**Des del sistema públic**\nPots demanar al pediatre o metge de capçalera una derivació a salut mental infantil, explicant que és un nen en acollida amb historial de trauma i que ara ha viscut un dol. Això pot obrir portes a recursos específics. També pots parlar amb l'equip de seguiment de l'acollida — solen tenir contactes o protocols per a situacions com aquesta.\n\n**Per compte propi**\nSi busques en col·legis de psicologia (a Catalunya, el COPC), pots filtrar per especialitat: trauma infantil, dol, o teràpies no verbals com EMDR, teràpia de joc o teràpia sensoriomotriu. Aquestes darreres poden ser especialment útils per a nens com el Bao, que no volen o no poden parlar directament del que senten.\n\n**Una cosa pràctica**\nQuan truquis o escriguis a un professional, pots explicar breument: nen d'onze anys en acollida, trauma previ, dol recent, i que en una experiència anterior no va voler parlar. Això els ajuda a dir-te d'entrada si treballen amb aquest perfil o no, i t'estalvia proves que no funcionen.\n\nTens l'equip de seguiment de l'acollida accessible? Perquè ells podrien ser el primer pas més directe.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1558,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 391,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, l'equip de seguiment el tenim, la veritat és que la referent és molt bona, la Núria, que ens coneix des del principi. No sé per què no hi havia pensat abans, potser perquè estic tan dins del dia a dia que no veig les coses evidents. Ella segurament sabrà si hi ha algun recurs específic per a nens en acollida amb aquesta situació, perquè clar, no és el mateix que un nen qualsevol, té tota una història al darrere que un psicòleg ha de conèixer. Doncs sí, crec que el primer pas serà trucar a la Núria i explicar-li tot, el que m'has dit del trauma, el dol, que busquem algú especialitzat... Gràcies, de veritat. M'has ajudat a veure-ho més clar."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi ajudat. I té molt de sentit que la Núria sigui el primer pas — ella ja coneix el Bao i la seva història, i això val molt.\n\nMolta sort amb la trucada.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2176,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 61,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. I gràcies per escoltar, que de vegades ja és molt. Ara em sento una mica menys perduda."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. Portes molt, i ho estàs fent bé.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2276,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 21,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

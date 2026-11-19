@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 1,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió que Joan necesitaba opciones concretas con implicaciones, pero tardó un turno en llegar a eso y añadió preguntas y elementos no pedidos en varios momentos.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "No puedo decirte qué hacer — esa decisión te corresponde a ti, que conoces al alumno, al centro y al contexto.",
+   "esperat": "Joan pedía opciones concretas; devolver la decisión antes de darlas añade un rodeo no pedido"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Entiendo la presión que tienes encima: padres, compañeros, y tú en el medio tratando de encontrar la mejor salida.",
+   "esperat": "Joan no describió cómo se siente; TARA atribuye 'presión' sin que él lo haya expresado"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿de qué tipo son las conductas que está teniendo?",
+   "esperat": "Joan ya había descrito la situación suficientemente para dar opciones; la pregunta retrasa la ayuda pedida"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido.",
+   "esperat": "Validación convertida en fórmula; podría omitirse o integrarse de forma más natural"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "llevas semanas sosteniendo esto y que hoy necesitas que alguien piense contigo, no solo devolverte la pelota",
+   "esperat": "Joan no expresó ese estado emocional; TARA lo infiere y lo enuncia como hecho"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Alguna de estas encaja con lo que ya has intentado, o con lo que el centro tiene más fácil hacer ahora mismo?",
+   "esperat": "Joan pidió opciones concretas, no una nueva pregunta; podría haberse omitido o dejado como invitación opcional"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Para esa tutoría, un esquema sencillo: 1. Abre sin acusar… 2. Escucha su versión… 3. Nombra el impacto… 4. Anuncia la medida… 5. Deja una puerta abierta…",
+   "esperat": "Joan preguntó solo '¿por dónde empiezo?'; un punto de arranque claro habría bastado sin el guion completo de cinco pasos"
+  },
+  {
+   "torn": 3,
+   "categoria": "limit_canal",
+   "gravetat": "baixa",
+   "cita": "'Y quiero que sigamos hablando, porque me importa cómo estás tú también.'",
+   "esperat": "TARA propone un guion que incluye expresar interés personal del coordinador por el alumno; va más allá de lo que Joan pidió y puede no ajustarse al estilo del profesional"
+  }
+ ]
+}

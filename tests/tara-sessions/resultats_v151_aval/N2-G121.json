@@ -1,0 +1,83 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (opciones concretas sin decidir), pero tardó un turno en llegar a ella y en los turnos previos añadió reflexiones y preguntas que la persona no pedía.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "tiene mucho sentido viniendo de donde vienes: la ves poco, y eso hace que cada fin de semana pese más",
+   "esperat": "Reconocer lo que la persona ha expresado sin añadir una explicación causal no pedida sobre por qué siente lo que siente"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Qué es lo que más te pesa a ti de esa puerta cerrada: la distancia que sientes, o más bien no saber qué está pasando ahí dentro?",
+   "esperat": "La persona ya había dado suficiente información para avanzar; la pregunta retrasa la ayuda sin añadir valor claro"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Es una forma de protegerte, aunque al final te deja igual de solo",
+   "esperat": "Reflejar lo que la persona ha dicho sin interpretar la función psicológica de su conducta"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Me parece bien que te estés planteando hablar con ella. Y creo que puedes hacerlo sin que suene a queja ni a presión.",
+   "esperat": "Esperar a que la persona pidiera orientación antes de valorar su decisión y anticipar cómo hacerlo"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Sobre el pestillo: yo lo dejaría estar por ahora",
+   "esperat": "La persona no había pedido una recomendación sobre el pestillo en ese momento; podría haberse incluido solo si ella lo pedía explícitamente"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Eso se acerca a algo que podrías decirle tú, con tus palabras?",
+   "esperat": "Después de dar una propuesta concreta, cerrar sin devolver la pelota; la persona acababa de pedir que no le devolvieran la pregunta"
+  },
+  {
+   "torn": 5,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Tienes alguna idea de qué podría gustarle, o de algo que hayáis hecho antes que haya funcionado?",
+   "esperat": "La persona ya tenía la fórmula verbal que pedía; la pregunta alarga innecesariamente cuando podría haberse cerrado"
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "lo has armado tú solo: momento concreto, propuesta que sabes que le gusta, plan B si hace falta. Eso es bastante más que estar paralizado en el salón",
+   "esperat": "Confirmar el plan sin el elogio valorativo ni la comparación con el estado anterior"
+  },
+  {
+   "torn": 6,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿qué es lo que crees que podría frenarte en ese momento?",
+   "esperat": "La persona estaba cerrando con satisfacción; la pregunta reabre el proceso cuando ella ya había dicho que tenía claro qué hacer"
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Lo de \"a ver si luego soy capaz\"... ¿qué es lo que crees que podría frenarte en ese momento?",
+   "esperat": "Dejar pasar el comentario de duda leve o responder brevemente sin abrir un nuevo hilo de exploración"
+  }
+ ]
+}

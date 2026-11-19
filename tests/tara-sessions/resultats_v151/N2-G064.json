@@ -1,0 +1,119 @@
+{
+ "id": "N2-G064",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "que-faig · l'hora d'anar a dormir",
+ "tipus": "que-faig",
+ "persona": "Elena, tía que cuida a la niña. Situació: l'hora d'anar a dormir. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:26:53.668Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, estoy un poco agotada así que voy al grano. Mi sobrina lleva tres noches sin querer dormir sola, se levanta y viene a mi cama, y yo no sé si dejarla o mandarla de vuelta a su cuarto. Mi hermana me dijo una cosa, mi cuñado otra, y yo estoy en medio sin saber qué es lo correcto. No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tres noches seguidas, mensajes contradictorios de tu hermana y tu cuñado, y tú cargando con la decisión. Tiene sentido que estés agotada.\n\nNo hay una respuesta única correcta aquí, pero sí puedo darte opciones concretas para que elijas la que más encaje contigo:\n\n**Dejarla venir a tu cama**\nLe da seguridad ahora mismo. Si es algo puntual —un susto, un cambio, algo que le preocupa—, suele resolverse solo en pocos días. El riesgo es que se instale como hábito si se prolonga.\n\n**Acompañarla de vuelta a su cuarto**\nLe ayuda a sostener su propio espacio. Funciona mejor si vas con ella, te quedas un rato y vuelves cuando esté tranquila, no si la mandas sola. Requiere más energía tuya esas noches.\n\n**Una solución intermedia**\nLe pones un colchón o saco en el suelo de tu cuarto, o te quedas un rato con ella en el suyo hasta que se duerma. Cubre su necesidad de cercanía sin cambiar del todo la dinámica.\n\nLo de tu hermana y tu cuñado es un lío aparte: tú estás de cuidadora, no de árbitro de su criterio. Puedes decirles que has tomado una decisión provisional para estos días y que cuando ella vuelva lo hablan.\n\n¿Sabes cuánto tiempo más estará contigo tu sobrina?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 278,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 386,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. Yo no te he pedido que me digas lo que tengo que hacer con mi hermana y mi cuñado, eso ya lo gestiono yo. Y tampoco me has dicho qué hacer, me has dado tres opciones y yo quiero que me digas cuál es la buena. Para eso estás, ¿no?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, me he pasado con lo de tu hermana y tu cuñado. Lo retiro.\n\nY entiendo que quieres una respuesta directa. Pero aquí no puedo dártela, y no es por escaquearme: es que la respuesta correcta depende de cosas que solo tú sabes. Cuántos años tiene tu sobrina, qué le está pasando, cuánto tiempo llevas tú con ella, cómo estás de energía por las noches.\n\nLo que sí puedo decirte es esto: si tuvieras que elegir ahora mismo con lo que tienes, ¿cuál de las tres opciones te parece más llevadera para ti esta noche?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 175,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uf. La del colchón en el suelo me parece lo menos complicado la verdad. Pero no sé cómo planteárselo a ella sin que se ponga a llorar o monte un drama. ¿Cómo empiezo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Algo así:\n\n*\"Oye, he pensado que estas noches puedes traer tu almohada y quedarte cerca de mí, en el suelo de mi cuarto. Así estamos las dos tranquilas.\"*\n\nSin negociación, sin explicaciones largas. Lo dices como algo normal, no como un castigo ni como un premio. Si llora un poco, puedes aguantar ese momento sin cambiar de idea.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 993,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 106,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Vale, eso puedo hacerlo. Es sencillo. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "De nada. Buenas noches a las dos.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1121,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "id": "N1-G117",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "correccio · molta burocràcia i sensació de no arribar",
+ "tipus": "correccio",
+ "persona": "Jordi, profesor de FP. Situació: molta burocràcia i sensació de no arribar. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:19:26.937Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara. Mira, la verdad es que estoy un poco saturado. Soy profesor de FP, doy ciclos de informática, y este trimestre está siendo una locura. Tenemos que entregar las programaciones actualizadas, luego está el tema de las actas, los informes de seguimiento de los alumnos en prácticas, las reuniones de departamento que se acumulan... y encima ahora nos han pedido que rellenemos no sé qué formulario nuevo para justificar las horas de tutoría. Todo esto mientras intentas dar clase, que se supone que es lo que toca, ¿no? Y los chavales también tienen sus cosas, sus problemas, y tú quieres estar ahí para ellos pero llegas a casa y estás frito. No sé, es como que nunca terminas. Siempre hay algo pendiente. Siempre."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso de «siempre hay algo pendiente, siempre» — se nota que no es solo una queja puntual. Es una sensación que se ha instalado.\n\nY encima con la conciencia de que quieres estar presente para los chavales, pero el depósito está bajo.\n\n¿Qué es lo que más pesa ahora mismo — la carga administrativa, o esa distancia que sientes respecto a lo que te importa de la docencia?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 358,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 115,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, no he dicho que me sienta distante de la docencia. O sea, cuando estoy en clase estoy en clase, ¿sabes? Eso todavía me gusta. El problema es todo lo que hay alrededor. Es que llegas al aula y ya vienes con la cabeza en otro sitio porque sabes que tienes tres cosas pendientes que entregar. Pero no es que haya perdido el gusto por enseñar, ¿eh? Que no quiero que se malinterprete. Lo que pesa es la burocracia, claramente. Es que es una barbaridad la cantidad de papeles que hay que gestionar. Y muchas veces son cosas que se solapan, que estás poniendo la misma información en tres sitios distintos con tres formatos distintos. Eso es lo que me come."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, me adelanté. Gracias por corregirme.\n\nLo que describes es concreto: la misma información, tres veces, tres formatos. Eso no es solo carga — es también una sensación de estar haciendo algo que no sirve para nada, ¿no? Tiempo que se va sin que aporte nada al aula.\n\n¿Hay algo en todo esto donde sí pueda ayudarte hoy — organizar algo, preparar algo, pensar en voz alta sobre cómo gestionarlo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 680,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 134,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto, es eso. Tiempo que se evapora. Mira, ahora mismo tengo encima el tema de los informes de seguimiento de los alumnos en FCT, que son las prácticas en empresa. Tengo 18 alumnos repartidos en no sé cuántas empresas distintas, y tengo que hacer un informe de cada uno. Y el formato que nos da el centro es un Word con un montón de campos que hay que rellenar a mano, uno por uno. No hay manera de copiar nada, no hay plantilla inteligente, nada. ¿Me podrías ayudar a pensar cómo hacer esto de forma más rápida? O sea, no sé, si hay alguna manera de organizarlo para no volverme loco."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, esto tiene solución. Vamos a ello.\n\nLo que describes es un problema clásico de datos repetitivos con formato fijo. Hay algunas formas de atacarlo:\n\n**Opción 1: Tabla maestra primero**\nAntes de tocar el Word, creas una tabla (Excel o incluso un Google Sheet) con una fila por alumno y una columna por cada campo del informe. Rellenas todo ahí de un tirón, en modo \"base de datos\". Luego vuelcas al Word. El cambio de contexto constante (alumno → Word → alumno → Word) es lo que más cansa; esto lo elimina.\n\n**Opción 2: Combinación de correspondencia**\nSi el Word tiene siempre los mismos campos, se puede configurar una combinación de correspondencia con Excel como origen. Rellenas la tabla una vez y Word genera los 18 documentos automáticamente. Requiere una hora de configuración inicial, pero si esto se repite cada trimestre, se amortiza rápido.\n\n**Opción 3: Un modelo \"comodín\"**\nSi la combinación de correspondencia te parece mucho lío ahora, otra opción más rápida: rellenas un informe completo con un alumno \"tipo\", guardas ese como plantilla y lo duplicas 18 veces. Cambias solo lo que varía. Menos elegante, pero funciona.\n\nUna pregunta práctica: ¿los campos del informe son muy distintos entre alumnos, o hay bastante que se repite (empresa, tutor, periodo...)?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1009,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 388,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hombre, hay de todo. O sea, hay campos que son iguales para todos, como el periodo de prácticas, que es el mismo para todos, y luego hay cosas del centro, el ciclo, todo eso. Pero luego hay campos más específicos de cada alumno, como la empresa, el tutor de empresa, las tareas que ha estado haciendo... y eso ya varía bastante. Aunque bueno, tampoco es que cada alumno haga algo completamente diferente, porque al final son todos de informática y las empresas los ponen a hacer cosas parecidas. Hay como tres o cuatro perfiles distintos de tareas, no más. Mira, la opción esa de la combinación de correspondencia me suena, creo que lo hice hace años con Word y Excel pero no me acuerdo de cómo se hacía. ¿Me puedes explicar cómo se configura eso? Paso a paso, si puede ser, que si no me pierdo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, paso a paso.\n\n---\n\n**Lo que necesitas antes de empezar**\n\nUn archivo Excel con una fila por alumno y una columna por cada campo variable. Algo así:\n\n| Nombre | Empresa | Tutor_empresa | Tareas | ... |\n|---|---|---|---|---|\n| Ana García | Empresa X | Juan López | Desarrollo web | ... |\n\nLos campos fijos (periodo, ciclo, centro) no hace falta que estén en Excel — los escribes una vez directamente en el Word.\n\n---\n\n**En Word, paso a paso**\n\n1. Abre el documento Word del informe\n2. Ve a la pestaña **Correspondencia** → **Iniciar combinación de correspondencia** → **Cartas**\n3. Clic en **Seleccionar destinatarios** → **Usar una lista existente** → seleccionas tu Excel\n4. Ahora borra el contenido de cada campo variable en el Word y en su lugar insertas un campo: **Insertar campo combinado** → eliges el nombre de la columna correspondiente\n5. Cuando estén todos los campos colocados, clic en **Vista previa de resultados** — verás el informe con los datos del primer alumno\n6. Si todo se ve bien: **Finalizar y combinar** → **Editar documentos individuales** → Todos\n\nEso te genera un único Word con los 18 informes seguidos, cada uno en su página. Luego los imprimes o los separas.\n\n---\n\n**El truco con los perfiles de tareas**\n\nComo dices que hay tres o cuatro perfiles, en la columna \"Tareas\" del Excel puedes escribir directamente el texto que quieres que aparezca en el informe — el párrafo entero, no solo una palabra. Así no tienes que redactar 18 veces, sino 3 o 4.\n\n---\n\n¿Tienes ya el Word del centro o todavía no lo has visto bien? Porque si quieres, puedo ayudarte a pensar cómo estructurar las columnas del Excel según lo que suele pedir ese tipo de informe.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1635,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 523,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, el Word lo tengo, lo mandaron la semana pasada. Tiene como... espera que me acuerdo... nombre del alumno, DNI, empresa, dirección de la empresa, nombre del tutor de empresa, teléfono de contacto, periodo de prácticas, horas totales, descripción de tareas realizadas, valoración del tutor, observaciones, y luego una parte de evaluación con varios criterios con una escala del uno al cinco. Eso último es lo que más pereza me da porque son como ocho criterios distintos y hay que poner una nota a cada uno. Oye, y una cosa que no entiendo bien del paso cuatro, eso de \"insertar campo combinado\", ¿eso aparece como una opción en el menú o tengo que hacer algo especial para que salga?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Buena pregunta. Aparece en el menú, pero solo después de haber hecho el paso 3 — es decir, una vez que Word ya tiene el Excel vinculado. Si lo buscas antes, no está o aparece en gris.\n\nCuando el Excel ya está conectado, lo ves así: pestaña **Correspondencia** → botón **Insertar campo combinado** (está en la barra, hacia el centro). Al hacer clic se despliega una lista con los nombres de tus columnas. Seleccionas el que corresponde y lo inserta donde tengas el cursor.\n\n---\n\nAhora, con los campos que me has dicho, te propongo cómo organizar el Excel:\n\n**Columnas variables (una por alumno):**\nNombre | DNI | Empresa | Dirección_empresa | Tutor_empresa | Teléfono | Descripción_tareas | Valoración_tutor | Observaciones | C1 | C2 | C3 | C4 | C5 | C6 | C7 | C8\n\nLos criterios de evaluación como columnas separadas (C1 a C8, o con el nombre real de cada criterio). Así pones la nota de cada uno en su celda y Word los coloca solos.\n\n**Lo que escribes directamente en el Word, sin campo:**\nPeriodo de prácticas, horas totales, ciclo, centro — igual para todos.\n\n---\n\nCon los perfiles de tareas: crea un documento aparte con los 3 o 4 textos de descripción que uses más. Cuando rellenes el Excel, copias y pegas el que corresponde a cada alumno. Rápido.\n\n¿Los criterios de evaluación tienen nombre o son genéricos en el Word?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2359,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 432,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tienen nombre, sí. A ver, ahora mismo no tengo el documento delante pero me acuerdo de algunos... había uno de puntualidad y asistencia, otro de actitud y comportamiento, otro de capacidad para resolver problemas, trabajo en equipo... algo así. Son los típicos. Oye, pues mira, esto que me has explicado tiene muy buena pinta. O sea, lo veo factible. Creo que este finde me pongo con el Excel, monto la tabla con todos los alumnos, y luego intento hacer la combinación. Si me atasco te digo, ¿no? Que seguro que en algún paso me lío. Pero bueno, ya tengo por dónde empezar, que era lo que necesitaba. Muchas gracias, en serio, porque estaba un poco bloqueado con esto."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya sido útil. Ya tienes el plan: primero la tabla, luego la combinación. Si en algún paso te atascas, vuelves y lo miramos.\n\nÁnimo con el finde.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 3001,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 58,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias, sí. A ver si hay suerte y no me surge ningún imprevisto del centro que me fastidie el plan. Que con lo que hay... pero bueno, intentarlo. Hasta otra, Tara."
+  },
+  {
+   "qui": "TARA",
+   "text": "Hasta otra. Espero que el finde te dé el rato que necesitas.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 3116,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 34,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

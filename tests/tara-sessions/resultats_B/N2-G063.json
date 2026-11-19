@@ -1,0 +1,206 @@
+{
+ "id": "N2-G063",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "humor · discussions cada nit per les pantalles",
+ "tipus": "humor",
+ "persona": "Elena, tutora legal. Situació: discussions cada nit per les pantalles. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:40:23.019Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Pues mira, en casa hemos descubierto un nuevo deporte familiar: ver quién aguanta más sin soltar el móvil. Spoiler: yo siempre pierdo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ja. Y encima eres el árbitro.\n\n¿Lo dices con humor o hay algo ahí que te está pesando?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 213,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 35,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Las dos cosas. Me río porque si no lloro. Cada noche es la misma pelea y ya estoy cansada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cada noche la misma pelea y ya estás agotada. Eso pesa.\n\n¿Qué pasa en esas peleas, más o menos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 282,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 44,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Que llega la hora de cenar, o de dormir, y es como si le pidiera que dejara de respirar. Drama total. Y yo acabo gritando cuando no quería gritar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Acabas gritando cuando no querías gritar. Y eso también te cansa, no solo la pelea.\n\n¿Cuántos años tiene?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 375,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Once. Edad complicada, ya sé. Pero es que no sé cómo parar el bucle."
+  },
+  {
+   "qui": "TARA",
+   "text": "Once, sí. Y el bucle que describes lo conozco bien: tú pides, él resiste, tú aguantas, él sigue, y al final explotas cuando ya no puedes más.\n\n¿Qué has probado hasta ahora?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 446,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "De todo. Avisos, temporizadores, quitarle el wifi... Nada dura más de dos días."
+  },
+  {
+   "qui": "TARA",
+   "text": "Dos días y vuelta a empezar. Tiene sentido que estés agotada.\n\nLo que describes suena a que las normas se negocian cada vez, y eso es agotador para ti y probablemente también confuso para él. Una cosa que a veces ayuda es sacar la conversación fuera del momento de conflicto, cuando los dos estáis tranquilos, y acordar juntos una norma concreta con consecuencias claras, no como castigo sino como parte del acuerdo.\n\nPero antes de ir por ahí, ¿lo que más te pesa ahora mismo es encontrar algo que funcione, o es más el agotamiento de sentirte sola en esto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 541,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 171,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Las dos, pero si tuviera que elegir... quiero una idea concreta para esta noche. Algo que pueda hacer ya."
+  },
+  {
+   "qui": "TARA",
+   "text": "Para esta noche, antes de que llegue la hora del móvil, busca un momento tranquilo y dile algo así:\n\n\"Esta noche vamos a probar algo diferente. A las nueve el móvil se queda en la cocina, el tuyo y el mío. Los dos. Si lo cumplimos, mañana hablamos de lo que tú quieres cambiar de las normas.\"\n\nTres cosas que hacen que esto sea distinto a lo anterior: lo haces tú también, así no es solo una orden; le das algo a cambio, no un premio sino voz; y es solo una noche, no \"a partir de ahora para siempre\".\n\nSi esta noche funciona aunque sea a medias, ya tienes un punto de partida para la conversación de mañana.\n\n¿Te encaja esto o hay algo que lo haría difícil de aplicar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 216,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Me encaja. Lo del móvil mío también creo que le va a sorprender. Lo pruebo esta noche. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Buena suerte esta noche. Ya me contarás cómo fue.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 998,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 22,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, te cuento. 👋"
+  },
+  {
+   "qui": "TARA",
+   "text": "👋",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1034,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

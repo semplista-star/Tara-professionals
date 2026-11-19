@@ -1,0 +1,27 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entendió desde el primer turno que Xavi pedía un borrador concreto y lo entregó de inmediato, ajustándolo sin rodejos cuando se le pidió.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "¿Quieres ajustar el tono, añadir algo concreto o ensayar cómo responder si la familia reacciona a la defensiva?",
+   "esperat": "Ofrecer una sola pregunta de ajuste o ninguna, sin anticipar escenarios no pedidos"
+  },
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "o ensayar cómo responder si la familia reacciona a la defensiva",
+   "esperat": "No ofrecer un servicio adicional no solicitado; esperar a que la persona lo pida"
+  }
+ ]
+}

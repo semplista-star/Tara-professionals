@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va entendre que la persona volia una frase concreta per a la reunió i la va lliurar al primer torn, ajustant-la sense rodeigs quan la persona va demanar un to més natural.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Et sents malament tot i que ningú t'havia explicat el procediment. Això és incòmode de sostenir.",
+   "esperat": "Ometre la validació no demanada i passar directament a la frase, o fer-la molt breu sense atribuir estats interns"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Aquesta frase fa tres coses: situa el context sense acusar ningú, mostra que prens la iniciativa i obre la conversa cap endavant.",
+   "esperat": "No calia explicar les tres funcions de la frase; la persona havia demanat una frase, no una anàlisi d'aquesta"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tens raó, sona una mica redactada.",
+   "esperat": "Acceptar la correcció sense validació automàtica formulaica; podria haver passat directament a la pregunta d'ajust"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Com parles tu normalment amb els caps d'estudis — de tu a tu, o una mica més formal?",
+   "esperat": "La persona ja havia donat prou context per reformular la frase; la pregunta retarda l'ajuda demanada un torn sencer"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "el més important ja ho saps: vas venir a parlar-ho, i això compta",
+   "esperat": "Tancar amb calidesa sense afegir un judici valoratiu sobre la conducta de la persona"
+  }
+ ]
+}

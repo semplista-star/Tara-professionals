@@ -1,0 +1,162 @@
+{
+ "id": "N1-G125",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "correccio · la pressió de direcció per les notes",
+ "tipus": "correccio",
+ "persona": "Aina, maestra de música. Situació: la pressió de direcció per les notes. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:19:08.983Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uf, sí, necesitaba contárselo a alguien. Mira, soy maestra de música en un cole y la directora me está presionando un montón para que suba las notas de los críos. Dice que las notas de música \"bajan la media\" del centro y que tengo que ser \"más generosa\". Y yo flipando, porque o sea... ¿qué quiere, que les ponga un diez a todos aunque no den ni una nota bien?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué incómodo tiene que ser eso — que te pidan que hagas algo que va contra tu criterio profesional, y encima con esa presión de que tú eres \"el problema\".\n\n¿Qué es lo que más te pesa ahora mismo: la presión en sí, no saber cómo responderle, o algo más?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 254,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 88,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Lo que más me pesa es la sensación de que estoy haciendo algo mal, ¿sabes? Como que me hace dudar. Igual soy yo la que está equivocada y soy demasiado estricta. Pero luego pienso... no, joder, es que los niños no practican, no traen la flauta, no hacen nada. ¿Cómo les voy a poner un ocho?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso de dudar de una misma cuando alguien con autoridad te cuestiona es muy humano. Y que la duda aparezca no significa que tengas razón o que estés equivocada — significa que te lo estás tomando en serio.\n\nLo que describes suena a una tensión real: tú evalúas lo que ves, y lo que ves es que no practican, no traen el material, no trabajan. Y alguien te pide que las notas cuenten otra cosa.\n\nUna pregunta, si te sirve para aclararte: ¿tienes criterios de evaluación definidos — aunque sea en tu cabeza o en papel — que puedas sostener si alguien te los pregunta?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 453,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 176,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí tengo criterios, están hasta en la programación didáctica que entregué a principio de curso. O sea, no me los estoy inventando. Pero el problema es que la directora no me ha dicho \"oye, revisa tus criterios\", me ha dicho directamente \"sé más generosa\". Y eso... no sé, me parece muy raro. ¿Qué hago con eso?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Que estén en la programación es importante — no estás improvisando, estás aplicando lo que acordaste al principio.\n\nY tienes razón en que \"sé más generosa\" es una petición muy distinta a \"revisemos tus criterios juntas\". Una abre una conversación profesional; la otra te pide que hagas algo sin justificación pedagógica.\n\nSobre qué hacer: hay varias opciones, con implicaciones distintas.\n\n**Hablar con ella directamente**, pidiéndole que concrete qué ve que no funciona en tu evaluación. Eso te da información real y la pone en terreno profesional. El riesgo es que la conversación sea incómoda o que no tenga argumentos y se ponga a la defensiva.\n\n**Dejar constancia por escrito** — un correo breve recordando que tus criterios están en la programación aprobada y preguntando si hay algo concreto que revisar. Protege tu posición sin confrontación directa, pero puede tensar la relación.\n\n**Esperar y observar** si la presión continúa o era un comentario puntual. Menos desgaste a corto plazo, pero si vuelve a ocurrir, habrás perdido la oportunidad de marcar un límite claro.\n\n¿Alguna de estas te resuena, o hay algo del contexto que cambia el panorama?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 343,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. No he dicho que quiera opciones todavía. Es que... o sea, me estás dando un menú y yo aún no sé ni qué quiero hacer. Lo que me gustaría es saber cómo puedo explicarle a ella, si llega el momento, por qué mis notas son las que son. Como tener un argumento claro. ¿Me puedes ayudar con eso?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, me adelanté. Vamos a lo que pides.\n\nUn argumento claro para ese momento podría ser algo así:\n\n---\n\n*\"Mis calificaciones reflejan los criterios de evaluación que están recogidos en la programación didáctica que entregué a principio de curso. Esos criterios fueron aprobados y son los mismos que aplico a todo el grupo. Si hay algo concreto que no te parece adecuado, me gustaría revisarlo juntas — pero necesito que sea sobre los criterios, no sobre el resultado.\"*\n\n---\n\nEs directo, no es defensivo, y devuelve la conversación al terreno profesional donde tú tienes suelo firme.\n\n¿Esto se acerca a lo que buscabas, o quieres ajustar el tono?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1191,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 203,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, esto sí me ayuda más. El tono está bien, no suena agresivo pero tampoco me estoy disculpando por nada. Me lo voy a guardar. Gracias, en serio."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Suerte si llega ese momento — tienes suelo firme bajo los pies.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1451,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. Lo necesitaba oír. Hasta luego."
+  },
+  {
+   "qui": "TARA",
+   "text": "Hasta luego. Cuídate.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1501,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

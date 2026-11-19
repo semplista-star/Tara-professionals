@@ -1,0 +1,163 @@
+{
+ "id": "N1-G126",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "jerga · molta burocràcia i sensació de no arribar",
+ "tipus": "jerga",
+ "persona": "Óscar, tutor de 4t d'ESO. Situació: molta burocràcia i sensació de no arribar. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:19:10.666Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, estic fins als nassos. Tinc un alumne, en Pau, que no fa res, i cada vegada que intento parlar amb els pares... res. La mare em diu que sí, que ja ho parlarà amb ell, i després passa una setmana i l'alumne igual. I a sobre jo he d'omplir informes, fer el seguiment, justificar per escrit cada cosa que faig... i la sensació és que estic sol en tot això. Que ningú em fa cas. Que em toreja, vaja."
+  },
+  {
+   "qui": "TARA",
+   "text": "Estàs fent tot el que et toca —les converses, els informes, el seguiment— i la sensació és que caus al buit. Que ningú recull l'altra punta del fil. Això cansa molt.\n\nQuan dius que et sents sol en tot això: és sobretot amb la família, o també dins del centre?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 278,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 88,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Amb la família, clarament. Però dins del centre tampoc no és que tingui molt suport, eh. L'orientadora està desbordada, el cap d'estudis em diu que \"ja ho parlem\" i després no ho parlem mai. Així que sí, una mica per tot arreu. Però el que més em mata és la mare aquesta, que em somriu i em diu que sí a tot i després... res. Com si jo fos invisible. Em sento ignorat, vaja. Com si el que jo digués no comptés."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sentir-se ignorat per tots els costats alhora és molt pesat. I el que describes amb la mare té una cosa especialment desgastant: no és un «no», és un «sí» que no passa mai a res. Això fa difícil fins i tot saber com reaccionar.\n\nPuc ajudar-te de maneres diferents. Pots dir-me cap on vols anar:\n\n- **Preparar una conversa diferent amb la mare** — una que sigui més difícil d'esquivar.\n- **Pensar com demanar suport dins del centre** — al cap d'estudis o a l'orientadora, d'una manera que sigui més difícil d'ajornar.\n- **Mirar el cas d'en Pau** en si — si hi ha alguna cosa que no s'ha provat encara.\n\nO si ara staves necessitant sobretot dir-ho, també és vàlid.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 500,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 234,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. Ara m'has posat una llista com si fos un formulari. Ja en tinc prou de formularis, eh. Parla'm normal, si us plau."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, perdona. Em vaig posar en mode llista i no tocava.\n\nDeies que et sents invisible, que el que dius no compta. Amb la mare, amb el centre... és molt. Amb qui t'agradaria començar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 786,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 67,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Amb la mare. Perquè és la que més m'emprenya ara mateix. Necessito dir-li alguna cosa que no pugui esquivar tan fàcilment. Que no pugui fer el \"sí sí\" i desaparèixer. Alguna frase, alguna cosa concreta que li pugui dir la propera vegada que parli amb ella."
+  },
+  {
+   "qui": "TARA",
+   "text": "D'acord. Abans de donar-te una frase, necessito entendre una cosa: quan parles amb ella, com sol acabar la conversa? Ella diu «sí, ja ho faré» i tanca, o hi ha un moment on podries quedar en alguna cosa concreta?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 947,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 74,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sempre acaba igual. Ella diu \"sí, té raó, ja li diré\", i jo... no sé, suposo que em quedo sense saber com forçar que quedi en alguna cosa real. Perquè si li dic \"i quan ho faràs?\" sembla que l'estigui atacant. I no vull que es tanqui. Però clar, si no dic res, passa el que passa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ja ho veus tu mateix: si no preguntes, no passa res; si preguntes, tens por que es tanqui. És un nus difícil.\n\nLa clau no és forçar-la, és concretar abans que la conversa s'acabi. No com un atac, senseó com un acord. Alguna cosa així:\n\n*«Escolti, per poder fer un bon seguiment, m'ajudaria molt quedar en una cosa concreta. Podríem dir que d'aquí a quinze dies em diu com ha anat? O si prefereix, quedem ara en una data per parlar-ne.»*\n\nNo li preguntes «quan ho faràs?» —que sona a examen. Li proposes un pas petit i li deixes triar la forma. Si diu que sí i no ho fa, almenys tens un acord per escrit que no s'ha complert. I això ja és diferent de res.\n\nEt serveix això, o vols ajustar el to?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1127,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 247,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, això sona millor. Més humà. No tan de manual. M'ho apunto. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. Espero que la propera conversa amb ella sigui diferent.\n\nSi vols, ja saps on soc.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1410,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 34,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

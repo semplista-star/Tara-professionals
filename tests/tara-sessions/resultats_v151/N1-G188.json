@@ -1,0 +1,118 @@
+{
+ "id": "N1-G188",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "demanda-directa · insults en el grup de WhatsApp de la classe",
+ "tipus": "demanda-directa",
+ "persona": "Dolors, educador social del centro. Situació: insults en el grup de WhatsApp de la classe. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:22:57.093Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Mira, necesito ayuda rápida. Tengo un grupo de WhatsApp de clase donde ha habido insultos entre chavales y tengo que mandar un mensaje al grupo para cortar el rollo sin que suene a sermón de abuela. ¿Me ayudas a redactarlo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Dame un par de datos rápidos para que el mensaje encaje bien:\n\n¿Eres tú quien administra el grupo, o escribes como docente entre familias y alumnado?\n\nY los insultos, ¿han sido entre alumnos, o también hay familias implicadas?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 213,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 76,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Soy educadora social, administro el grupo. Y los insultos han sido entre alumnos, las familias no están metidas en el fregado, de momento!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecto. Aquí va un borrador:\n\n---\n\n🔴 **Pausa.**\n\nEste grupo existe para ayudarnos, no para hacernos daño. Lo que ha pasado hoy no va por ahí.\n\nMañana lo hablamos en persona. Hasta entonces, el grupo queda en modo lectura.\n\n---\n\nDirecto, sin sermón, y deja claro que hay una persona adulta al mando que va a retomar el tema en persona —que es donde realmente se puede trabajar.\n\n¿Lo ves útil o quieres ajustar el tono, la longitud o alguna parte?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 331,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 155,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay, me gusta! Pero quizás un pelín más cercano, que no suene tan a comunicado oficial, sabes? Como más de tú a tú. Sin perder la firmeza eh!"
+  },
+  {
+   "qui": "TARA",
+   "text": "A ver qué te parece esto:\n\n---\n\nEh, parad un momento. 🛑\n\nLo que está pasando en el grupo no mola. Nos hacemos daño y no es lo que queremos para este espacio.\n\nMañana lo hablamos, que hay cosas que se hablan mejor en persona. Hasta entonces, pongo el grupo en modo lectura.\n\n✌️\n\n---\n\n¿Más cerca?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 538,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 106,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, este me gusta mucho más! El \"no mola\" es perfecto, muy natural. Me lo quedo. Gràcies, TARA, me has salvado la tarde!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. ¡Mucho ánimo con la conversación de mañana, que esa es la parte importante!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 694,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 47,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

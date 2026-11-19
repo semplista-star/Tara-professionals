@@ -1,0 +1,96 @@
+{
+ "id": "N1-G135",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "demanda-directa · una família que l'ha cridat per telèfon",
+ "tipus": "demanda-directa",
+ "persona": "Fàtima, professora substituta. Situació: una família que l'ha cridat per telèfon. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:19:37.721Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Mira, t'explico ràpidament perquè estic una mica estressada. Soc professora substituta i m'acaba de trucar una família, els pares d'un nen de quart de primària, i és que... bé, el cas és que el nen va tenir un conflicte ahir a l'hora del pati amb un altre nen, i els pares estan una mica alterats, saps? I jo no soc la seva tutora habitual, soc la substituta, i no tenia tota la informació del que havia passat exactament, i la conversa ha acabat una mica... bé, no malament del tot, però tampoc bé. I ara m'han dit que volen parlar amb mi demà al matí abans de les classes. I jo el que necessito és tenir preparada alguna frase o un missatge curt per començar la conversa demà, alguna cosa que els faci sentir que els escolto però que també deixi clar que estic al cas i que ho estic gestionant, perquè no vull que pensin que com que soc substituta no me'n preocupo, que sí que me'n preocupo molt! Pots"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc que estàs estressada i que vols arribar demà amb alguna cosa preparada. Aquí tens un possible inici:\n\n---\n\n**\"Gràcies per venir. Vull que sàpiguen que el que va passar ahir m'importa i que he volgut informar-me bé abans de parlar amb vostès. M'agradaria escoltar primer com ho ha viscut el seu fill, i després els explico el que jo he pogut saber.\"**\n\n---\n\nAixò obre la conversa sense que hagis de tenir totes les respostes, mostra que t'has preparat, i els dona espai per parlar primer — cosa que sol baixar la tensió.\n\nVols que t'ajudi a preparar també com respondre si es posen molt a la defensiva, o amb això ja tens prou per ara?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 442,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 211,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, sí, m'agrada molt això! Però mira, és una mica llarga per a mi, perquè quan estic nerviosa m'embolic i no me la recordaré bé. Pots fer-la una mica més curta? Que tingui el mateix esperit però que sigui més fàcil de dir de memòria, saps el que vull dir?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar! Aquí va:\n\n---\n\n**\"Gràcies per venir. He volgut informar-me abans de parlar amb vostès. M'agradaria escoltar primer com ho ha viscut el seu fill.\"**\n\n---\n\nTres frases, tres idees: agraïment, que t'has preparat, i que els dones la paraula a ells primer.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 98,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, això sí que me la puc aprendre! Molt millor. Moltes gràcies, de veritat, m'has tret un pes de sobre. Ara ja puc anar a dormir una mica més tranquil·la, jaja. Gràcies!"
+  },
+  {
+   "qui": "TARA",
+   "text": "De res! Bona sort demà — i bona nit. 😊",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 925,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

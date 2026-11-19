@@ -1,0 +1,141 @@
+{
+ "id": "N1-G178",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "nomes-desfogar · una família que l'ha cridat per telèfon",
+ "tipus": "nomes-desfogar",
+ "persona": "Ibrahim, directora. Situació: una família que l'ha cridat per telèfon. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:22:31.919Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uf, mira, hoy necesito desahogarme un poco, ¿vale? No quiero consejos ni nada, solo... soltar un poco la presión. Ha sido un día de locos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te escucho. Suelta lo que necesites.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 189,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es que los padres de un alumno me han llamado esta mañana y... joder, no sé, me han puesto a caldo sin dejarme hablar. Que si el profe de su hijo es un desastre, que si yo no hago nada, que si van a ir a inspección... y yo ahí, tragándome todo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué duro. Aguantar todo eso sin poder decir nada, tragándotelo.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 291,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacto. Y lo peor es que yo entiendo que están preocupados por su hijo, ¿eh? Lo entiendo. Pero es que no me dejaban meter baza. Nada. Cada vez que intentaba hablar, zas, otro reproche encima. Llevo veinte años en esto y hay días que... buf, que te preguntas para qué."
+  },
+  {
+   "qui": "TARA",
+   "text": "Veinte años dando y hoy sin poder decir ni una palabra. Eso cansa de una manera especial.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 412,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto, eso es. Cansa diferente. No es el cansancio de trabajar mucho, es otro tipo de cansancio, más... no sé, más por dentro. Como de sentirte invisible, ¿sabes? Que todo lo que has hecho no vale nada en ese momento."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí. Como si en ese momento todo lo que eres y lo que has construido no existiera.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 524,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 27,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Justo eso. Bueno, mira... ya me ha ido bien soltar esto un poco. Me encuentro mejor, la verdad. Venga, que tengo que seguir con el día. Gracias, ¿eh?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te haya servido. Que el resto del día sea más tranquilo.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 611,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

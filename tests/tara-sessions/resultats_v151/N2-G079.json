@@ -1,0 +1,73 @@
+{
+ "id": "N2-G079",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "breu · el menjar i les baralles a taula",
+ "tipus": "breu",
+ "persona": "Marc, madre. Situació: el menjar i les baralles a taula. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:27:18.030Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tengo muy poco tiempo ahora mismo. Solo necesito una cosa concreta y rápida: ¿cómo puedo evitar que las comidas en familia acaben siempre en discusión?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tres cosas que suelen ayudar:\n\n1. **Temas neutros al empezar** — algo del día, una peli, un plan. Evita los temas que ya sabes que encienden.\n\n2. **Cortar antes de que escale** — una frase simple como \"esto lo hablamos después, ahora comemos\" dicha con calma, sin sermón.\n\n3. **No resolver todo en la mesa** — la comida no es el mejor momento para conflictos pendientes. Si algo importante necesita conversación, busca otro rato.\n\n¿Hay alguno que quieras que te ayude a preparar mejor?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 219,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 158,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecto, justo lo que necesitaba. Muchas gracias, me voy corriendo. ¡Hasta pronto!"
+  },
+  {
+   "qui": "TARA",
+   "text": "¡Hasta pronto! Suerte en la mesa. 😊",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 412,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

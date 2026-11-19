@@ -1,0 +1,141 @@
+{
+ "id": "N1-G071",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "que-faig · molta burocràcia i sensació de no arribar",
+ "tipus": "que-faig",
+ "persona": "Elena, coordinador de convivencia. Situació: molta burocràcia i sensació de no arribar. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:15:58.991Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tengo un problema con un alumno que lleva semanas faltando a clase sin justificar. Ya he hablado con la familia dos veces y nada. Ahora me dicen desde dirección que lo notifique a servicios sociales, pero yo no sé si es el momento, si me estoy precipitando. Y encima tengo veinte expedientes más encima de la mesa. No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Veinte expedientes encima de la mesa y esta duda encima de todo. Tiene sentido que estés saturada.\n\nSobre la decisión: no te la puedo tomar yo, y tampoco sería lo correcto. Pero sí puedo ayudarte a pensar qué implica cada camino.\n\n**Si notificas ahora a servicios sociales:**\n- Cumples con lo que te indica dirección, que ya ha valorado la situación.\n- Activas un circuito que puede investigar lo que tú no puedes ver desde el centro.\n- Si hay algo grave pasando, el tiempo cuenta.\n- El riesgo de notificar \"pronto\" es mucho menor que el de notificar tarde.\n\n**Si esperas o buscas más información antes:**\n- Puedes intentar un contacto más directo con la familia —visita domiciliaria si el centro lo contempla, o a través de otro profesional que ya tenga vínculo.\n- Pero si ya has hablado dos veces y no ha cambiado nada, ¿qué información nueva esperas obtener?\n\nUna cosa que me parece importante: dirección ya te ha dado una indicación. Eso no te quita criterio, pero sí te da respaldo. La notificación a servicios sociales no es una acusación; es pedir que alguien con más herramientas que tú pueda mirar más de cerca.\n\n¿Qué es lo que más te frena? ¿La duda sobre si hay riesgo real, o algo más sobre cómo está siendo la relación con esa familia?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 251,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 391,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. Yo te he pedido opciones, no que me des un sermón. Dime qué hago: ¿notifico o no notifico? Así de simple."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, me fui largo.\n\nLa decisión es tuya y del centro, no mía. Eso no es esquivar: es que yo no tengo autoridad ni información suficiente para tomarla, y tú sí.\n\nLo que sí puedo hacer: ayudarte a preparar la notificación si decides hacerla, o a pensar qué falta antes de dar ese paso. ¿Por dónde quieres ir?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 694,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 113,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Vale, vale. Pues notificar. Pero es que no sé ni por dónde empezar, que llevo aquí tres años y nunca he hecho una notificación a servicios sociales. ¿Cómo lo hago?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Vamos por partes.\n\n**Lo básico que necesitas:**\n\n1. **El formulario.** Cada comunidad autónoma tiene el suyo. Dirección debería tenerlo o saber dónde está; si no, búscalo en la web de servicios sociales de tu ayuntamiento o comunidad.\n\n2. **Lo que suele pedir el formulario:**\n - Datos del menor (nombre, edad, centro, curso)\n - Hechos observados: faltas sin justificar, fechas, contactos ya realizados con la familia y resultado\n - Lo que te preocupa, en concreto y sin interpretar —lo que has visto, no lo que crees que pasa\n\n3. **Por dónde empezar hoy:**\n - Habla con dirección y pregunta si el centro tiene protocolo propio o modelo de hoja de notificación. Es probable que sí.\n - Si el centro tiene orientador/a, puede acompañarte en el proceso.\n\n4. **Una cosa importante:** la notificación no tiene que demostrar nada. Solo tiene que describir lo que has observado y por qué te preocupa. No eres tú quien investiga ni quien decide si hay riesgo; eso lo valoran ellos.\n\n¿Quieres que te ayude a redactar lo que dirías en el apartado de hechos observados? Con lo que me has contado, puedo hacer un borrador.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 871,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 358,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso sí me vendría bien. Un borrador de los hechos. Pero corto, ¿eh? Que no tengo tiempo para novelas."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Con lo que me has contado, algo así:\n\n---\n\n*El alumno lleva varias semanas con ausencias reiteradas sin justificar. El centro ha contactado con la familia en dos ocasiones sin obtener respuesta que explique la situación ni cambios en la asistencia. Ante la persistencia de las ausencias y la falta de respuesta familiar, se traslada la situación para valoración.*\n\n---\n\nEs un punto de partida. Tendrás que añadir fechas concretas, número de faltas y cómo fueron esos contactos con la familia. ¿Lo tienes a mano?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1274,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 154,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso lo tengo en el expediente. Esto ya me sirve, la verdad. Gracias. Que no esperaba que fuera tan... manejable."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que sirva. A veces lo que paraliza es no saber por dónde empezar, no la tarea en sí.\n\nSuerte con el expediente.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1474,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 46,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "id": "N1-G066",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "nomes-desfogar · una alumna que queda exclosa a l'hora de fer grups",
+ "tipus": "nomes-desfogar",
+ "persona": "Fàtima, cap d'estudis. Situació: una alumna que queda exclosa a l'hora de fer grups. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:38:00.295Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Mira, necessito desfogar-me una mica, res més. No vull consells ni solucions, eh? Només treure-ho fora.\n\nTinc una alumna que s'ha quedat fora de tots els grups a l'hora de fer el treball i... buf. M'ha tocat el cor, la pobra."
+  },
+  {
+   "qui": "TARA",
+   "text": "Buf. Quedar-se fora de tots els grups... entenc que t'hagi tocat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 230,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, és que és d'aquelles coses que et queden al cap, saps? La nena fent veure que no li importava, però amb aquella careta... ai. Que jo ja tinc anys en això i encara em fa mal. Hauria de tenir la pell més gruixuda a aquestes altures! 😅"
+  },
+  {
+   "qui": "TARA",
+   "text": "Que et faci mal després d'anys en això no és cap defecte. Potser és justament el que et fa bona docent.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 342,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 37,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ja, ja... o el que em fa arribar a casa amb la motxilla plena! 😂 Però sí, tens raó. És que la veus allà plantada i penses \"nena, jo t'agafaria al meu grup ara mateix\". Però clar, la cap d'estudis no pot anar fent grups pels passadissos, que queda malament 😄 És que em sap molt de greu per ella, de veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, aquella imatge de la nena plantada... es queda.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 496,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 22,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Molt. És que te la imagines i... puf. Però bé, ja m'he desfogar una mica i em trobo millor! Que era el que necessitava. Gràcies, de veritat. Me'n vaig que tinc una pila de papers esperant-me 😄"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bé, doncs a per els papers! Gràcies per compartir-ho. Fins aviat.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 596,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "id": "N2-G080",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "demanda-directa · les xarxes socials i el que hi publica",
+ "tipus": "demanda-directa",
+ "persona": "Joan, madre. Situació: les xarxes socials i el que hi publica. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:40:16.377Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, mira, te cuento. Es que tengo un problema con mi hija, que tiene 14 años, y es que lleva semanas publicando cosas en Instagram que me preocupan bastante. Fotos muy provocativas, comentarios de gente que no conozco de nada... y yo no sé cómo decirle algo sin que se cierre en banda y me deje de hablar, porque ya sabes cómo son a esa edad. La última vez que intenté hablar con ella de algo parecido acabamos las dos fatal. Así que necesito que me ayudes a escribir algo, como un mensaje cortito que le pueda mandar por el móvil, que no suene a bronca sino que ella vea que me preocupo por ella, ¿sabes? Algo que abra la puerta a hablar, no que la cierre."
+  },
+  {
+   "qui": "TARA",
+   "text": "Lo que describes tiene sentido: quieres que ella sienta que estás de su lado, no que viene una bronca.\n\nAquí tienes un mensaje que puede abrir esa puerta:\n\n\"Oye, he visto algunas cosas en tu Instagram y me ha dado que pensar. No te escribo para regañarte, sino porque me importas y quiero entenderte. ¿Podemos hablar cuando te venga bien?\"\n\nEs breve, no acusa, y le deja a ella elegir el momento. Eso último suele ayudar bastante a que no se ponga a la defensiva.\n\nSi quieres, puedo ajustarlo a cómo habláis vosotras normalmente, o prepararte también para lo que venga después de que ella responda.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 373,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 190,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay, me gusta, me gusta bastante. Pero es que mira, yo con mi hija hablo muy de tú a tú, muy cercana, y ese \"oye\" está bien pero el resto lo veo un poco serio todavía, como muy de madre formal, ¿sabes? ¿Lo puedes hacer un pelín más cálido, más de colega, más como si le hablara una amiga pero que se nota que es su madre?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, algo así:\n\n\"Oye, he estado mirando tu Insta y me ha quedado dando vueltas. No te escribo para montarla, ¿eh? Es que me importas un montón y quiero entenderte. ¿Hablamos cuando tú quieras?\"",
+   "tags": [],
+   "usage": {
+    "input_tokens": 678,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 78,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uy, sí, este me gusta mucho más, la verdad. Esto ya lo veo más yo, más como le hablaría. El \"montarla\" y el \"un montón\" ya suenan más naturales. Me lo guardo, muchas gracias, de verdad, que me has quitado un peso de encima porque llevaba días dándole vueltas a cómo decírselo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Suerte con la conversación, espero que vaya bien.\n\nY si luego quieres preparar lo que viene después de que ella responda, aquí estoy.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 859,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 51,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias, sí, igual vuelvo por aquí si la cosa se complica. ¡Hasta luego!"
+  },
+  {
+   "qui": "TARA",
+   "text": "¡Hasta luego! Que vaya bien.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 942,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 27,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

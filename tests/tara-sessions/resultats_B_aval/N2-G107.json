@@ -1,0 +1,76 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la demanda final (frase concreta) però va trigar dos torns a ajustar-se al registre de la persona i va fer preguntes no demanades pel camí.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que et sentis com parlant sol.",
+   "esperat": "Recollir el que diu sense validar amb fórmula; p. ex. repetir o reformular sense 'té sentit'"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Quants anys té, la nena?",
+   "esperat": "L'edat no era necessària per acollir la situació en aquest moment; podia esperar o no preguntar-la"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Com és la teva relació amb ella fora dels matins?",
+   "esperat": "La persona no havia demanat explorar la relació general; TARA podia centrar-se en el bucle matinal que descrivia"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "El 'tu no ets el meu pare' deu fer mal, sobretot quan ja portes una estona intentant-ho.",
+   "esperat": "No atribuir dolor no expressat; la persona no havia dit que li fes mal, només que el deixava cremat"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "tu hi ets, hi participas, t'importa. Això es nota.",
+   "esperat": "Evitar el judici valoratiu sobre la persona; recollir els fets sense avaluar-los positivament"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "quan ella et diu això, tu com reacciones normalment?",
+   "esperat": "La persona ja estava demanant una frase concreta; la pregunta allarga l'exploració sense que ella ho hagi demanat"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Marxar quan estàs cremat és una decisió intel·ligent, no una derrota.",
+   "esperat": "No avaluar la conducta de la persona; recollir i passar a l'ajuda concreta demanada"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "alta",
+   "cita": "Et proposo dues opcions, i tu tries la que et sembli més teva [...] La repetició sovint fa que els nens deixin d'escoltar [...] Cap de les dues és màgica, però trenquen el bucle",
+   "esperat": "Resposta més curta i en el registre de la persona; sense explicacions pedagògiques no demanades"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "La repetició sovint fa que els nens deixin d'escoltar.",
+   "esperat": "Evitar l'explicació psicoeducativa; la persona havia demanat una frase, no una teoria sobre la repetició"
+  }
+ ]
+}

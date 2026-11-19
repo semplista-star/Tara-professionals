@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA escoltà primer, esperà que la persona demanés ajuda i lliurà una frase concreta quan se li va demanar, tancant sense allargar.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "y no poder hacer nada",
+   "esperat": "La persona no havia dit que no podia fer res; millor no afegir-ho"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene mucho sentido ese cuidado",
+   "esperat": "Validació que comença a sonar a fórmula (torn 3 ja havia validat de manera similar); podria simplement reflectir el contingut sense avaluar-lo"
+  },
+  {
+   "torn": 5,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Quieres que exploremos juntos alguna manera de hacerle saber que estás ahí, sin que se sienta presionado?",
+   "esperat": "La persona ja havia dit 'no sé cómo actuar', senyal prou clara d'obertura a orientació; la pregunta és correcta però lleugerament redundant"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Me alegra que te sirva",
+   "esperat": "Tancament neutre sense avaluació de la utilitat; per exemple, simplement 'Aquí estaré si lo necesitas'"
+  }
+ ]
+}

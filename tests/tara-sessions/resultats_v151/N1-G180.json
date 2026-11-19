@@ -1,0 +1,118 @@
+{
+ "id": "N1-G180",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "que-faig · un alumne que es riu dels companys amb necessitats educatives",
+ "tipus": "que-faig",
+ "persona": "Ana, mestra d'educació especial. Situació: un alumne que es riu dels companys amb necessitats educatives. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:22:37.679Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Tinc un alumne que es riu dels nens amb NEE a classe. No sé si parlar-hi jo directament o portar-ho a l'equip docent primer. No sé què fer, digues-m'ho tu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc que vols una resposta clara. Et dono dues opcions amb el que implica cadascuna:\n\n**Parlar-hi tu primer, directament**\nTens el context immediat i la relació amb ell. Una conversa individual, sense acusacions, pot obrir alguna cosa: saber per què ho fa, com ho viu. Funciona millor si tens temps i espai per fer-ho amb calma. El risc: si hi ha un patró més ampli o altres docents ho han observat, actues sense tota la informació.\n\n**Portar-ho primer a l'equip docent**\nPermet saber si és una conducta puntual o repetida, si altres ho han vist, i actuar de manera coordinada. Funciona millor quan la situació pot afectar la dinàmica de grup o quan convé que hi hagi un criteri compartit. El risc: pot alentir la resposta si la situació necessita atenció aviat.\n\n---\n\nUna cosa que pot ajudar a decidir: **és la primera vegada que ho observes, o ja ha passat altres cops?**",
+   "tags": [],
+   "usage": {
+    "input_tokens": 203,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 274,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ja ha passat tres vegades. Quina opció em recomanaries tu?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Amb tres vegades, ja és un patró. Això canvia una mica el pes de les opcions.\n\nEl que et puc dir és que les dues coses no s'exclouen: primer equip, després conversa amb ell. Coordinar-se abans evita que cadascú actuï per separat i que ell rebi missatges contradictoris. I una conversa individual ben preparada, amb el suport de l'equip al darrere, sol tenir més recorregut.\n\nPerò la decisió és teva: coneixes el centre, l'equip i l'alumne. Si creus que esperar uns dies per coordinar-se pot empitjorar la situació per als nens amb NEE, tens arguments per actuar abans.\n\nVols que t'ajudi a preparar alguna de les dues coses — el que portaries a l'equip, o la conversa amb l'alumne?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 500,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 224,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "D'acord, primer l'equip. Com començo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bé. Per portar-ho a l'equip de manera útil, ajuda tenir clar tres coses abans:\n\n**Què has observat** — els fets concrets, sense interpretacions: quan va passar, què va dir o fer exactament, com van reaccionar els altres.\n\n**Què vols de l'equip** — informació (han vist alguna cosa?), criteri compartit, un protocol d'actuació, o tot plegat.\n\n**Quan i com ho planteges** — en una reunió ja prevista, demanant un espai específic, o informalment primer amb algú de referència com la tutora o l'orientació.\n\n---\n\nSi vols, pots explicar-me breument les tres situacions que has vist — sense noms — i t'ajudo a redactar el que portaries a l'equip de manera clara i desidentificada.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 217,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies, ja tinc prou per tirar endavant. M'has ajudat molt."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra. Sort amb l'equip — i amb l'alumne quan arribi el moment.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 988,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 37,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

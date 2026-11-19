@@ -1,0 +1,118 @@
+{
+ "id": "N1-G043",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "demanda-directa · dues famílies enfrontades per un conflicte entre els fills",
+ "tipus": "demanda-directa",
+ "persona": "Pau, maestro de primaria. Situació: dues famílies enfrontades per un conflicte entre els fills. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:13:44.017Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Necesito un mensaje para enviar a dos familias que están muy enfrentadas. Algo que las invite a reunirse sin que parezca que tomo partido."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Antes de redactarlo, una pregunta que cambiará el tono: ¿la reunión sería con las dos familias a la vez, o por separado con cada una?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 179,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 51,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Juntas. Quiero que se vean y hablen."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tienes un borrador:\n\n---\n\n**Asunto: Reunión para hablar sobre la convivencia de nuestros hijos/as**\n\nEstimada familia:\n\nMe pongo en contacto con ustedes porque hay una situación que afecta a sus hijos/as y que me gustaría abordar juntos. Creo que una conversación directa, con acompañamiento, puede ayudar a encontrar un camino mejor para todos.\n\nLes propongo reunirnos el próximo **[día y hora]** en el centro. La reunión tendrá un formato tranquilo: cada familia podrá expresar su punto de vista y escuchar el de la otra. Mi papel será facilitar ese diálogo, no juzgar ni decidir quién tiene razón.\n\nSi necesitan cambiar la fecha o tienen alguna duda antes de venir, pueden escribirme o llamarme.\n\nGracias por su disposición.\n\nUn saludo,\n**[Nombre y cargo]**\n\n---\n\nAlgunas decisiones que puedes ajustar:\n\n- **«Convivencia de nuestros hijos/as»** es neutro, pero si el conflicto tiene un nombre más concreto que ambas familias ya conocen, nombrarlo puede reducir la incertidumbre.\n- La frase *«no juzgar ni decidir quién tiene razón»* ayuda a que ninguna sienta que vas contra ella, pero si una de las dos tiene una queja legítima más clara, puede sentir que la equiparas. Valora si encaja con tu situación.\n- Si hay mucha tensión, a veces conviene llamar antes de enviar el escrito, para que no sea la primera noticia.\n\n¿Quieres ajustar algo del tono o el contenido?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 248,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 435,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Está bien pero es demasiado largo. ¿Puedes dejarlo en 4-5 líneas?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro:\n\n---\n\n**Asunto: Reunión sobre la convivencia de nuestros hijos/as**\n\nEstimada familia:\n\nMe gustaría que nos reuniéramos el **[día y hora]** para hablar de una situación que afecta a sus hijos/as. Estaremos las dos familias y yo, para escucharnos y buscar juntos un camino mejor. Mi papel será facilitar la conversación, no tomar partido.\n\nGracias por su disposición. Quedo a su disposición para cualquier duda.\n\n**[Nombre y cargo]**\n\n---\n\n¿Así está bien?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 714,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 156,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecto, gracias. Me quedo con este."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Suerte con la reunión.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 886,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

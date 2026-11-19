@@ -1,0 +1,140 @@
+{
+ "id": "N1-G149",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "correccio · una reunió de claustre molt tensa",
+ "tipus": "correccio",
+ "persona": "Aina, directora. Situació: una reunió de claustre molt tensa. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:20:56.606Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uf, sí, necesito contarte algo porque tengo la cabeza a punto de explotar. Ha sido un claustro horrible, de verdad, horrible. Llevamos semanas con una tensión tremenda en el centro por el tema de los horarios, que este año hemos tenido que reorganizarlo todo por la reducción de horas de algunos especialistas, y claro, hay profes que han perdido horas de sus asignaturas favoritas, otros que tienen más guardias de lo que querían, y todo eso ha ido acumulándose. Y hoy en el claustro ha estallado todo. Ha habido un momento en que tres personas hablaban a la vez, una profe ha dicho en voz alta que la dirección no escucha a nadie, otro ha dado un golpe en la mesa, y yo estaba ahí intentando moderar pero sentía que todo se me iba de las manos. Ha sido muy intenso. Y encima después del claustro dos profes se han quedado hablando en un rincón y cuando me he acercado se han callado, y eso me ha dolido mucho, la verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Vaya claustro. Tres personas hablando a la vez, un golpe en la mesa, y tú intentando sostener todo eso desde dentro. Es mucho.\n\nY luego ese momento al final, acercarte y que se callen — entiendo que eso haya dolido. Después de lo que acabas de vivir, encima eso.\n\n¿Qué necesitas ahora mismo: soltar un poco más, o ya tienes ganas de pensar qué hacer con todo esto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 409,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 122,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto, es que el momento ese al final ha sido como... el remate, ¿sabes? Después de haberlo dado todo intentando que la reunión no se convirtiera en un desastre total.\n\nMira, yo creo que necesito las dos cosas. Porque todavía tengo el cuerpo tenso, noto que no he bajado del todo. Pero también soy muy de acción, me cuesta quedarme solo en el \"ay qué mal lo he pasado\" sin pensar qué hago mañana. Así que si puedes ayudarme con algo concreto, mejor.\n\nPorque el problema real es que mañana tengo que hablar con esa profe que ha dicho en voz alta que la dirección no escucha. Se llama Marta. Y no sé muy bien cómo enfocar esa conversación. No quiero que sea un bronca, pero tampoco quiero que parezca que le estoy dando la razón en todo, porque hay cosas que ella no sabe, hay decisiones que hemos tomado con criterios que no podemos explicar públicamente en un claustro. Y claro, eso es muy frustrante para mí también. Entonces,"
+  },
+  {
+   "qui": "TARA",
+   "text": "Te escucho. Cuerpo tenso todavía, y ya pensando en mañana — tiene mucho sentido viniendo de ti.\n\nAntes de la conversación con Marta, una cosa que me ayudaría saber: cuando ella dijo que la dirección no escucha, ¿qué crees que necesitaba que ocurriera en ese claustro para sentirse escuchada? No si tenía razón o no — sino qué estaba buscando ella en ese momento.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 832,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 122,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, espera, no he dicho que Marta necesitara nada en concreto. No lo sé. No me metas en la cabeza de Marta porque no tengo ni idea de qué le pasa por dentro, y si empiezo a asumir cosas me puedo equivocar mucho. Eso es exactamente lo que no quiero hacer antes de hablar con ella.\n\nLo que sí sé es lo que ha pasado objetivamente: ha dicho esa frase en voz alta, delante de todos, en un momento muy caliente. Pero si me preguntas qué necesitaba ella... no lo sé. Y quizás eso es parte del problema, que yo no lo sé y tengo que averiguarlo mañana.\n\nLo que sí me puedes ayudar es con otra cosa más concreta. ¿Cómo empiezo yo esa conversación? ¿Qué le digo cuando la vea mañana por la mañana? Porque si espero a que ella venga a mí igual no viene, y si yo voy y empiezo mal se puede poner a la defensiva enseguida. Necesito como... las primeras palabras. Cómo abro esa puerta sin"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, me he adelantado. Bien parado.\n\nPara abrir esa conversación sin que se ponga a la defensiva, algo que suele funcionar es partir de lo que ocurrió — sin interpretarlo — y mostrar que quieres escuchar, no defender ni explicar todavía.\n\nPor ejemplo:\n\n*\"Marta, ¿tienes un momento? Ayer fue un claustro muy intenso, y lo que dijiste me quedó dando vueltas. Me gustaría escucharte, si te parece bien.\"*\n\nEso hace tres cosas: no la acusas, no te disculpas por nada que aún no sabes si necesita disculpa, y le das el control de si quiere hablar o no.\n\n¿Eso se acerca a lo que buscas, o necesitas ajustar el tono?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1257,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 214,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, esto me gusta más. Es sencillo, no es defensivo, y le doy espacio a ella. Me lo apunto.\n\nAunque ahora que lo leo me pregunto si el \"me quedó dando vueltas\" no suena demasiado... no sé, demasiado blando para mí. Porque yo soy directora, y hay una parte de mí que también quiere que quede claro que no es una conversación de \"ay perdona que te haya molestado\", sino de \"tenemos que hablar tú y yo porque lo de ayer no puede quedar así\". ¿Entiendes la diferencia?\n\nO sea, quiero escucharla, sí, pero también quiero que sepa que yo tengo algo que decir. Que no voy solo a recibir. Porque si no, luego cuando yo tenga que explicarle cosas que ella no sabe, el cambio de registro va a ser muy brusco. Prefiero que desde el principio quede claro que es una conversación de dos.\n\n¿Cómo lo ajustamos?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entiendo la diferencia, sí. No es suavidad — es equilibrio desde el principio.\n\nPrueba esto:\n\n*\"Marta, ¿tienes un momento? Lo que dijiste ayer en el claustro me importa, y quiero que hablemos. Quiero escucharte, y también tengo cosas que contarte.\"*\n\nMismo punto de partida — sin acusación, sin disculpa — pero queda claro que vienes a una conversación, no a una audiencia.\n\n¿Así está mejor?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 134,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Sí, esto ya me suena más a mí. \"Quiero escucharte y también tengo cosas que contarte.\" Eso es. Las dos partes en la misma frase, sin que una tape a la otra.\n\nMira, me quedo con esto. De verdad, me ha ayudado tener las palabras concretas porque a veces uno sabe lo que quiere transmitir pero no sabe cómo empezar, y el principio es lo más difícil. Si el principio va bien, luego ya me manejo.\n\nAhora solo espero que Marta esté receptiva mañana y que no llegue ya con la guardia puesta desde casa. Pero eso no lo puedo controlar, claro.\n\nBueno, creo que ya tengo lo que necesitaba. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te haya servido. Suerte mañana con Marta.\n\nY sí — lo que pase después de esa primera frase ya no está en tu mano. Pero el principio lo tienes.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 2084,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 67,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

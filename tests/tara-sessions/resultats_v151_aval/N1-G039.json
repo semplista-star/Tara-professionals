@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat central (com dir que no sense perdre la feina) i va lliurar opcions concretes, però va afegir validacions automàtiques i un elogi final que no calia.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Si tens dubtes sobre la privacitat, la persona o l'equip que gestiona l'aplicació al teu centre és qui pot donar-te una resposta concreta i fiable.",
+   "esperat": "La derivació a l'equip gestor és correcta però allarga innecessàriament una resposta que ja era completa sense aquest paràgraf"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "té molt de pes",
+   "esperat": "Reconèixer el que la persona ha dit sense afegir una etiqueta emocional no expressada per ella; n'hi hauria prou amb reflectir la situació sense qualificar-ne el pes"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Sentir-se sola davant d'una pressió així, i a sobre en una posició de substituta... té molt de pes.",
+   "esperat": "La persona ha dit que es sent sola, però TARA afegeix 'té molt de pes' com a fet, atribuint una intensitat emocional que la persona no ha expressat"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "hi ha algú al centre amb qui puguis parlar d'això, o és que no tens a qui acudir?",
+   "esperat": "La persona ja havia explicat que es sentia sola i no tenia confiança amb els companys; la pregunta és redundant i retarda la resposta a la necessitat real"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Grosso modo, serien alguna cosa així: 1. Mantenir les notes... 2. Demanar que la petició quedi per escrit... 3. Buscar suport extern discret... 4. Cedir parcialment o totalment.",
+   "esperat": "El llistat de quatre opcions és útil però l'opció 4 ('Cedir parcialment o totalment. Amb tot el que implica per a tu.') afegeix poc valor i pot llegir-se com a pressió implícita; tres opcions haurien estat suficients"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "no és una situació fàcil i tu l'estàs afrontant amb molt de seny",
+   "esperat": "Tancar sense jutjar la persona; n'hi ha prou amb desitjar-li sort sense qualificar com afronta la situació"
+  }
+ ]
+}

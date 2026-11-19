@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (cómo responder si la atacan en la reunión) y la atendió con eficacia, aunque en los turnos 2 y 4 añadió preguntas o comentarios que la persona no había pedido.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "«Como siempre» dice mucho.",
+   "esperat": "Recoger lo que la persona dice sin interpretarlo ni valorarlo; dejar que ella desarrolle si quiere"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿qué está pasando exactamente con las familias, y qué es lo que más te pesa a ti en este momento?",
+   "esperat": "Una sola pregunta centrada en lo que la persona acaba de expresar, no dos preguntas abiertas en paralelo"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Y encima, sin apoyo claro desde ninguno de los dos lados.",
+   "esperat": "No afirmar como hecho algo que la persona no ha dicho explícitamente; si acaso, formularlo como hipótesis abierta"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que lo estés anticipando con tensión.",
+   "esperat": "Omitir la validación formulaica o integrarla de forma más específica al contenido concreto que la persona acaba de dar"
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿quién ha convocado esa reunión conjunta — tú, el equipo directivo, las familias?",
+   "esperat": "La persona ya había pedido pasar a lo práctico; esta pregunta de diagnóstico retrasa la ayuda solicitada"
+  },
+  {
+   "torn": 6,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que sea lo que más te preocupa.",
+   "esperat": "Entrar directamente en la respuesta práctica sin la validación de apertura repetida"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Me alegra que te sirva. Mucho ánimo con la reunión.",
+   "esperat": "Cerrar sin juicio valorativo ni expresión de estado propio; basta con confirmar disponibilidad si lo necesita"
+  }
+ ]
+}

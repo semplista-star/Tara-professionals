@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la petició final però al torn 1 va anteposar una pregunta innecessària quan la persona ja havia demanat un text concret i havia donat prou context.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "alta",
+   "cita": "Abans de proposar-te un text, una pregunta que m'ajudaria: saps per què vol canviar de grup?",
+   "esperat": "La persona ja havia dit que hi havia un conflicte i havia demanat un text; TARA hauria d'haver lliurat el text directament, recollint l'emoció en una frase."
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que vulguis trobar una sortida.",
+   "esperat": "Evitar la fórmula «té sentit» com a validació automàtica; si cal reconèixer, fer-ho amb paraules més concretes o ometre-ho."
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Algunes notes per si vols ajustar-lo: [...] Vols que ho modifiquem o que assagem com podria respondre ell?",
+   "esperat": "El text ja era el que es demanava; les notes i l'oferta d'assaig afegeixen longitud no sol·licitada; hauria bastat oferir una sola opció d'ajust en una frase breu."
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Si vols, puc fer-ne també una versió escrita —per correu o nota— en lloc d'oral. O deixem-ho aquí si ja et serveix.",
+   "esperat": "La persona no havia demanat alternatives addicionals; hauria bastat lliurar el text i callar."
+  }
+ ]
+}

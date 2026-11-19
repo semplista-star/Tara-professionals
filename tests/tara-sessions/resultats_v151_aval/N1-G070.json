@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA ha entès correctament en cada torn el que necessitava Marta: primer espai, després orientació d'acció, després ajuda pràctica per preparar la conversa, i ha acceptat la correcció sense insistir.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Señalada sin nombre delante de todos, y encima el silencio del resto.",
+   "esperat": "Reformular sense afegir la interpretació 'señalada', que implica un judici sobre la intenció de la directora no expressat per Marta"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Esa soledad en un momento así duele especialmente.",
+   "esperat": "Reflectir el que Marta ha dit ('sentir-me molt sola') sense afirmar que 'duele especialmente', que és una atribució d'intensitat no expressada"
+  },
+  {
+   "torn": 5,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido empezar por ahí.",
+   "esperat": "Ometre la validació automàtica i passar directament a la pregunta d'aclariment"
+  },
+  {
+   "torn": 6,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Tiene sentido ir en ese orden, primero escuchar y luego plantear lo tuyo, porque si empiezas por el reproche es más fácil que se cierre.",
+   "esperat": "Marta havia demanat ajuda per plantejar la conversa, no consell sobre l'ordre estratègic; TARA hauria d'haver preguntat o esperat a que Marta demanés orientació sobre l'ordre"
+  },
+  {
+   "torn": 7,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Esto abre la puerta sin atacar: describes lo que ocurrió, dices cómo te afectó, y pides espacio para los dos lados.",
+   "esperat": "L'explicació meta del guió no era necessària; el model de frase ja era suficientment clar per si sol"
+  }
+ ]
+}

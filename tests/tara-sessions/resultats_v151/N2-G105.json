@@ -1,0 +1,204 @@
+{
+ "id": "N2-G105",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "jerga · la mort recent de l'avi",
+ "tipus": "jerga",
+ "persona": "Fàtima, tieta que cuida la nena. Situació: la mort recent de l'avi. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:29:31.862Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, porto uns dies molt carregats. El meu pare va morir fa dues setmanes i estic intentant tirar endavant amb la meva neboda, que és petita i no entén gaire bé el que ha passat. Però el que em té més preocupada ara mateix és la meva germana."
+  },
+  {
+   "qui": "TARA",
+   "text": "Dues setmanes amb tot això al damunt — la pèrdua del teu pare, la teva neboda, i ara la preocupació per la teva germana. És molt.\n\nQuan dius que la teva germana et té preocupada, per on vols que comencem?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 246,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 75,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs és que... no sé com explicar-ho. Sento que m'ignora. Li escric, li truco, i res. O em dóna respostes molt curtes, molt fredes. I jo estic aquí cuidant la seva filla, fent-me càrrec de tot, i ella sembla que no hi és. No sé si està molt malament per la mort del pare o si és una altra cosa, però em sento molt sola en tot això."
+  },
+  {
+   "qui": "TARA",
+   "text": "Et sents molt sola carregant amb tot, mentre la teva germana sembla absent. Això dol, sobretot ara.\n\nQuan dius que no saps si està molt malament o si és una altra cosa — hi ha alguna cosa concreta que t'hagi fet pensar que potser és alguna cosa més que el dol?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 439,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 84,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, és que abans de morir el pare ja hi havia una mica de tensió entre nosaltres. No era res greu, però hi havia coses no dites. I ara tinc la sensació que ella m'evita a mi específicament, no és que estigui absent amb tothom. Amb la meva cosina, per exemple, sí que parla. Això és el que em fa pensar que no és només el dol."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té sentit que ho llegeixis així. Que parli amb la teva cosina però no amb tu fa que la distància se senti diferent — més dirigida.\n\nAmb tot el que portes a sobre, i les coses no dites d'abans, com t'agradaria que anés, amb ella? Què necessitaries ara?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 632,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 85,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Necessito que reconegui el que estic fent. Que vegi que estic aquí amb la seva filla cada dia, que m'estic fent càrrec de tot, i que no estic rebent res a canvi. No li demano grans coses. Només que em digui alguna cosa. Que no em toreja així, en silenci."
+  },
+  {
+   "qui": "TARA",
+   "text": "Necessites que et vegi. Que reconegui el que estàs fent cada dia amb la seva filla. Això és molt clar.\n\nVols que t'ajudi a preparar alguna cosa per dir-li — un missatge, una trucada — o ara mateix necessitaves poder dir-ho en veu alta?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 807,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 81,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, no, vull preparar alguna cosa per dir-li. Perquè si no ho preparo, quan la tingui al davant em quedaré en blanc o em posaré a plorar i no diré res del que vull dir. Necessito una frase, alguna cosa concreta per començar la conversa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès. Aquí tens una frase per començar, que diu el que necessites sense atacar-la:\n\n---\n\n*\"Germana, necessito dir-te una cosa. Estic aquí cada dia amb la teva filla i em sento molt sola en tot això. Necessito que em diguis alguna cosa — que sàpigues que hi soc.\"*\n\n---\n\nÉs directa, parla del que tu sents i necessites, i li deixa espai per respondre. Com la veus? La canviaries en alguna cosa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 969,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 137,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mmm... és una mica llarga, no? I sona molt... preparada. Com si ho hagués llegit en un llibre. Jo no parlo així normalment. Necessito alguna cosa més meva, més natural."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó. Prova amb això:\n\n---\n\n*\"Germana, necessito que sàpigues que estic aquí amb la teva filla cada dia i em sento molt sola. Necessito sentir que tu també hi ets.\"*\n\n---\n\nO fins i tot més curt:\n\n---\n\n*\"Estic cuidant la teva filla cada dia i em sento molt sola. Necessito sentir que hi ets.\"*\n\n---\n\nCom parles tu normalment amb ella? Potser si em dius una paraula o una manera de dir les coses, ho ajustem més al teu estil.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1163,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 155,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, la segona és millor. Però jo li diria \"nena\" al principi, que és com la tracto sempre. I potser en lloc de \"necessito sentir que hi ets\" li diria algo com... \"necessito que no m'ignoris\". Que és el que realment sento."
+  },
+  {
+   "qui": "TARA",
+   "text": "Doncs ja la tens, gairebé:\n\n---\n\n*\"Nena, estic cuidant la teva filla cada dia i em sento molt sola. Necessito que no m'ignoris.\"*\n\n---\n\nÉs teva, és directa, i diu exactament el que vols dir. Com la sents?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1395,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 82,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Aquesta sí. Aquesta la sento meva. Gràcies, de veritat. Ja tenia ganes de tenir alguna cosa concreta per agafar-me."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me n'alegro. Ja tens per on agafar-te.\n\nMolta força per a la conversa — i per tot el que estàs sostenint aquests dies.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1527,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 45,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

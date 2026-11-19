@@ -1,0 +1,204 @@
+{
+ "id": "N1-G114",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "correccio · dues famílies enfrontades per un conflicte entre els fills",
+ "tipus": "correccio",
+ "persona": "Li Wei, maestra de música. Situació: dues famílies enfrontades per un conflicte entre els fills. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:18:14.289Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Tengo un problema con dos familias de mis alumnos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cuéntame qué está pasando.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 157,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Dos niños de mi clase de música se pelearon. Ahora los padres están enfrentados y yo estoy en medio."
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué incómodo estar en medio de eso, con los niños ya en tu clase y los padres encima.\n\n¿Qué es lo que más te pesa ahora: cómo manejar a las familias, cómo seguir con los dos niños en clase, o las dos cosas a la vez?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 205,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 80,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Las dos cosas. Pero sobre todo los padres. Los niños ya están bien."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien que los niños estén bien. Eso es lo más importante.\n\n¿Qué está pasando exactamente con los padres? ¿Se han dirigido a ti, se están comunicando entre ellos, o las dos cosas?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 308,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 61,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Me escriben a mí por separado. Cada uno quiere que le dé la razón."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, y tú no estás ahí para arbitrar entre familias, sino para dar clase de música.\n\n¿Qué te han pedido concretamente, o más bien te están presionando para que tomes partido?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 395,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 57,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Presionando. Los dos quieren que yo diga que el otro niño fue el culpable."
+  },
+  {
+   "qui": "TARA",
+   "text": "Y tú estás en una posición imposible: si dices algo, quedas mal con uno; si no dices nada, quedas mal con los dos.\n\n¿Tienes claro tú lo que pasó entre los niños, o también hay partes que no viste?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 479,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 69,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No lo vi todo. Fue fuera de mi clase."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso es importante. Si no lo viste, no puedes dar un testimonio que no tienes, y no deberías tener que hacerlo.\n\nEso también te da un punto de apoyo claro para responder a ambas familias: no es que no quieras posicionarte, es que genuinamente no tienes la información que te piden.\n\n¿Te ayudaría preparar una respuesta para los dos, que sea honesta con ese límite y que no suene a esquivar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 564,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 123,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso es lo que necesito. ¿Cómo lo digo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tienes un borrador que puedes adaptar. Como no viste lo que pasó, la respuesta puede ser la misma para los dos:\n\n---\n\n*\"Entiendo que esto ha sido difícil para tu familia. Quiero ser honesto/a contigo: lo que ocurrió entre los niños fue fuera de mi clase y no lo presencié, así que no estoy en posición de decir qué pasó ni quién tuvo más responsabilidad. No sería justo para ninguna de las dos familias que yo hiciera esa valoración sin haberlo visto.*\n\n*Lo que sí puedo decirte es que en clase los dos niños están bien y están conviviendo sin problemas. Si necesitáis resolver lo que pasó entre las familias, el camino más adecuado es hablar con la tutora/el tutor o con el equipo directivo, que tienen más información y pueden acompañaros mejor.\"*\n\n---\n\nAlgunas cosas que hace este texto:\n- No toma partido ni se disculpa por no hacerlo.\n- Explica el límite con honestidad, no como excusa.\n- Redirige a quien sí puede ayudar.\n- Da una nota positiva real: los niños están bien.\n\n¿Te encaja el tono, o hay algo que quieras cambiar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 713,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 328,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera. No he dicho que quiera redirigirles a nadie. Solo quiero que me dejen en paz."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, me adelanté. Perdona.\n\nEntonces el objetivo es más simple: que entiendan que no vas a darles lo que piden, y que paren de presionarte.\n\n¿Quieres un mensaje más corto y directo, solo con eso?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1074,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 72,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

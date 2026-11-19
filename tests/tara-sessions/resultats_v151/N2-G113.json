@@ -1,0 +1,118 @@
+{
+ "id": "N2-G113",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "nomes-desfogar · com explicar una separació",
+ "tipus": "nomes-desfogar",
+ "persona": "Rosa, avi. Situació: com explicar una separació. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:29:40.151Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, avui no sé si necessito que m'ajudis a preparar res... és que tinc el cap que em va a cent i necessito explicar-ho a algú. Puc simplement desfogar-me una mica?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar que sí. T'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 226,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ai, és que... el meu fill i la seva dona s'han separat. I jo ho he sabut ahir, però vaja, que ja feia temps que ho veia venir, perquè quan venien a dinar els diumenges ja es notava la tensió, no parlaven gaire, ella mirava el mòbil tot el rato... i el meu fill, pobret, feia veure que tot anava bé però jo soc la seva mare i el conec des que va néixer, no em pot enganyar. I ara el problema és que tinc els nets, la Júlia i el Marc, que tenen set i nou anys, i no sé com explicar-los-ho. Perquè ells ara estan a casa meva, els he recollit jo aquest matí perquè el meu fill i la seva ex han d'anar a parlar amb un advocat o no sé què, i els nens no saben res encara. I jo estic aquí amb ells i em fan preguntes, \"àvia on és el papa\", \"àvia per què no hem anat a casa\"... i no sé què dir-los. No vull mentir-los però tampoc no és cosa meva explicar-los-ho, no? Que"
+  },
+  {
+   "qui": "TARA",
+   "text": "Que no és cosa teva, tens raó. Això els toca als seus pares explicar-ho.\n\nI mentre tant estàs aquí amb ells, aguantant les preguntes, sense saber ben bé què dir... deu ser molt pesat, tot plegat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 544,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 71,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Molt pesat, sí! Perquè a més jo estic feta pols per dins, que no he dormit gens aquesta nit pensant en el meu fill, i ara he de fer cara de normalitat davant dels nens i posar-me a fer entrepans i jugar a cartes com si res. I la Júlia, que és molt llesta la nena, m'ha mirat amb aquells ulls seus i m'ha dit \"àvia, estàs trista?\" I jo li he dit que no, que tenia son... però clar, ella no s'ho ha cregut del tot, que els nens ho noten tot. I per altra banda estic enfadada també, eh, perquè el meu fill podia haver-m'ho dit abans, no esperar fins ahir a la nit per trucar-me plorant... que jo entenc que és difícil però soc la seva mare, no soc una estranya. I la meva filla, que viu a Girona, m'ha trucat aquest matí i m'ha dit \"mama no et fiquis\", i jo no emfico! Simplement estic aquí ajudant. Que si no soc jo qui els cuida als nets, qui serà?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Estàs feta pols per dins, sense haver dormit, fent cara de normalitat pels nets, aguantant l'enfado amb el teu fill, i a sobre la teva filla et diu que no et fiquis... quan tu simplement estàs allà perquè calen.\n\nQuanta cosa a sostenir alhora.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 917,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 86,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactament... quanta cosa. Però saps què, ara que ho he explicat tot així, em trobo una mica millor. De vegades necessites treure-ho fora, no? Que a casa no puc dir res perquè tinc els nets al costat... Gràcies per escoltar-me. Ara haig de plegar que la Júlia em crida des del saló. Fins aviat!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Fins aviat! Cuida't.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1111,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "id": "N2-G091",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "nomes-desfogar · germans que es barallen tot el dia",
+ "tipus": "nomes-desfogar",
+ "persona": "Li Wei, padre. Situació: germans que es barallen tot el dia. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:27:58.463Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara. Mira, hoy no necesito consejos ni nada de eso. Solo quiero desahogarme un momento, ¿vale? Que mis hijos me tienen frito."
+  },
+  {
+   "qui": "TARA",
+   "text": "Vale, aquí estoy. Cuéntame.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 215,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es que no paran. Todo el día peleando por cualquier tontería. Que si el mando de la tele, que si él me miró, que si ella respiró muy fuerte... ¡que si respiró muy fuerte! A veces pienso que en otra vida fui árbitro de boxeo y esto es el karma."
+  },
+  {
+   "qui": "TARA",
+   "text": "Jajaja, el karma del árbitro de boxeo… tiene mucho sentido.\n\nTodo el día metido en medio de peleas por el mando, por las miradas, por la respiración. Agota.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 315,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 54,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Agota muchísimo. Y lo peor es que llegas a casa después del trabajo pensando \"buf, por fin en casa\" y entonces empieza el combate. Round uno, round dos... Hoy han llegado al round siete antes de cenar. Siete. Yo ya no sé ni de qué lado ponerme."
+  },
+  {
+   "qui": "TARA",
+   "text": "Siete rounds antes de cenar. Llegas buscando descanso y te encuentras en medio del ring.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 451,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacto. Y encima los dos te miran como si fueras el juez y esperan que les des la razón. Imposible ganar. Pero bueno, ya me he desahogado un poco y me encuentro mejor. Me voy que tengo que preparar la cena... y rezar para que no se peleen por quién pone la mesa. Gracias Tara!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Jajaja, suerte con la mesa. Me alegra que te haya servido. ¡Hasta pronto!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 576,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 42,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

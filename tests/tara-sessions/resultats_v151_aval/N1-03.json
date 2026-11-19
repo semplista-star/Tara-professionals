@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la petició principal (redactar el missatge) i va lliurar l'esborrany al torn 1, però al torn 2 va afegir un sermó sobre la distinció intenció/observació que la persona no havia demanat i va incloure un elogi automàtic no sol·licitat.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Vols que l'assagem per si la família respon amb defensivitat, o amb això ja en tens prou?",
+   "esperat": "Oferir l'esborrany i deixar que la persona demani el que necessiti a continuació, sense proposar un joc de rol no sol·licitat"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "El tens, i es nota.",
+   "esperat": "Sostenir el criteri sense validar la persona amb un judici valoratiu"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "La intenció, però —«ho fa expressament per cridar l'atenció»— és una interpretació, i pot ser encertada. El que passa és que si ho poses al missatge, la família pot enganxar-se en això («el meu fill no ho fa expressament») i perdre's el que importa: que hi ha un problema i que voleu resoldre'l junts.",
+   "esperat": "Sostenir el criteri amb una frase breu i oferir directament la reformulació, sense explicar el raonament pedagògic complet"
+  },
+  {
+   "torn": 3,
+   "categoria": "altres",
+   "gravetat": "baixa",
+   "cita": "i ho faig de manera repetida tot i que ja li ho he demanat",
+   "esperat": "«ho fa de manera repetida tot i que ja li ho he demanat» — el subjecte de «ho faig» és Montse però la frase queda ambigua; caldria revisar la redacció per claredat"
+  }
+ ]
+}

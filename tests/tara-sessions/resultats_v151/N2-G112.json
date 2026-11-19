@@ -1,0 +1,162 @@
+{
+ "id": "N2-G112",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "humor · les xarxes socials i el que hi publica",
+ "tipus": "humor",
+ "persona": "Rosa, abuela que cuida a los nietos. Situació: les xarxes socials i el que hi publica. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:29:45.080Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara, mira, te cuento. Resulta que me he convertido en influencer sin quererlo. Mis nietos me han enseñado a usar el Instagram y ahora no sé muy bien qué estoy haciendo ahí dentro, je je."
+  },
+  {
+   "qui": "TARA",
+   "text": "Je je, qué imagen más bonita: los nietos enseñando a la abuela o el abuelo y de repente… influencer.\n\n¿Qué es lo que te tiene un poco perdido/a ahí dentro? ¿La parte técnica, o más bien no saber qué hacer con lo que la gente te dice o te escribe?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 229,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 88,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay, la parte técnica ya la voy pillando, que tampoco soy tan antigua. Lo que me tiene un poco mosca es otra cosa. Es que mis nietos publican cosas ahí... fotos, vídeos, lo que sea, y yo no sé si está bien o está mal. No sé si debería decirles algo o callarme y no ser la abuela pesada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entiendo ese dilema: no quieres ser la abuela pesada, pero algo te dice que quizás hay cosas que merecen una conversación.\n\n¿Qué es lo que ves que te pone mosca? ¿Algo concreto que hayan publicado, o es más una sensación general de que están muy expuestos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 412,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 87,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues las dos cosas, la verdad. En general me parece que publican demasiado, que todo el mundo sabe dónde están, qué hacen, con quién... Pero lo que me ha dado el empujón para hablar contigo es que la semana pasada la pequeña, que tiene doce años, puso una foto bastante... bueno, bastante enseñando. Y yo me quedé con la cosa. No dije nada porque no supe cómo, y tampoco quiero que se enfade conmigo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te quedaste con la cosa y no dijiste nada, no porque no te importara, sino porque no encontraste cómo hacerlo sin que se estropeara algo entre vosotras.\n\nEso que describes —una niña de doce años con una foto muy enseñando visible para cualquiera— es algo que merece una conversación, y no solo contigo. Sus padres o la persona adulta que la cuida deberían saberlo, si no lo saben ya. Tú puedes ser un apoyo importante, y también ellos tienen que estar en esto.\n\n¿Sabes si sus padres están al tanto de lo que publica?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 632,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 158,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues no sé si lo saben, la verdad. Sus padres trabajan mucho y tampoco creo que estén muy encima del móvil de la niña. Oye, y ahí está el problema, que yo soy la que está más con ella. Mira que no me esperaba esto cuando me ofrecí a cuidar a los nietos, je je. Pensaba que lo más complicado iba a ser el puzle de mil piezas. Pero bueno, lo que necesito es que me digas cómo le digo yo a ella algo, sin que me mire como si fuera un dinosaurio y sin que se cierre en banda. ¿Tienes alguna idea?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Je je, del puzle de mil piezas a esto. La vida.\n\nSí, te puedo ayudar a preparar esa conversación. Antes de darte una frase, una cosa: lo que viste me parece que también vale la pena contárselo a sus padres, aunque sea brevemente. No para montar un drama, sino porque ellos son los responsables de protegerla y es bueno que estén al tanto. Eso no quita que tú también puedas hablar con ella, las dos cosas pueden ir juntas.\n\nPara hablar con tu nieta, lo que suele funcionar a esa edad es partir de la relación, no del sermón. Algo así:\n\n*\"Oye, vi la foto que pusiste el otro día. No te digo nada malo, pero me quedé pensando. ¿Puedo preguntarte una cosa? ¿Sabes quién puede verla?\"*\n\nCorto, sin drama, con una pregunta que la invita a pensar ella. Si se abre, escuchas. Si se pone a la defensiva, no pasa nada: ya has plantado la semilla y puede volver.\n\n¿Te ves diciéndole algo así, o hay algo que te frena?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 963,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 304,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso me gusta. Es suave, no parece un interrogatorio. Creo que sí puedo decirle algo así. Y tienes razón con lo de los padres, les diré algo esta semana, sin armar follón. Muchas gracias Tara, me has ayudado. Ya tengo por dónde empezar, que era lo que necesitaba."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que tengas por dónde empezar. Suerte con las dos conversaciones, y qué bien que tu nieta te tenga cerca con esa mirada.\n\nFINAL",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1365,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 47,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias a ti. Bueno, a ver si la niña no me mira como si fuera un fósil, je je. Hasta otra, Tara."
+  },
+  {
+   "qui": "TARA",
+   "text": "Je je, seguro que no. Hasta otra.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1455,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

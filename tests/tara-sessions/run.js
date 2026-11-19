@@ -14,17 +14,24 @@ const fixSrc = html.match(/function fixCatalan\(text\) \{[\s\S]*?\n\}/)[0];
 const fixCatalan = (t, lang) => new Function('lang', fixSrc + '\nreturn fixCatalan;')(lang)(t);
 const variant = args.variant ? fs.readFileSync(args.variant, 'utf8') : null; // substitueix el bloc fix sencer
 const fixed = (nivel) => variant ? variant.replace('{{MODUL}}', nivel === 'N1' ? B.N1 : B.N2) : [B.M, nivel === 'N1' ? B.N1 : B.N2, B.P].join('\n\n');
-const ctx = (nivel, lang) => `<contexto_sesion nivel="${nivel}" rol="${nivel === 'N1' ? 'profesional' : 'adulto_familia'}" modalidad="individual" idioma="${lang}" estado_seguridad="ordinario" senal="ninguna" cierre_sesion="no" capacidades="ninguna" entorno="pruebas" />`;
+const ctx = (nivel, lang) => `<contexto_sesion nivel="${nivel}" rol="${nivel === 'N1' ? 'profesional' : 'adulto_familia'}" modalidad="individual" idioma="${lang}" estado_seguridad="ordinario" estado_senal="no_aplica" cierre_sesion="abierta" capacidades="ninguna" entorno="pruebas" />`;
 
-async function call(body, tries = 4) {
+const { execFile } = require('child_process');
+// curl en paral·lel (el proxy de Node serialitza les connexions)
+function post(body) {
+  return new Promise((res, rej) => {
+    const c = execFile('curl', ['-sS', '-m', '180', '-X', 'POST', PROXY, '-H', 'Content-Type: application/json', '--data-binary', '@-'], { maxBuffer: 1 << 24 }, (e, out) => e ? rej(e) : res(out));
+    c.stdin.end(JSON.stringify(body));
+  });
+}
+async function call(body, tries = 5) {
   for (let i = 0; i < tries; i++) {
     try {
-      const r = await fetch(PROXY, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
-      const j = await r.json();
+      const j = JSON.parse(await post(body));
       const t = j.content?.[0]?.text;
       if (t) return { text: t, usage: j.usage };
       throw new Error(JSON.stringify(j).slice(0, 200));
-    } catch (e) { if (i === tries - 1) throw e; await new Promise(s => setTimeout(s, 2000 * (i + 1))); }
+    } catch (e) { if (i === tries - 1) throw e; await new Promise(s => setTimeout(s, 2500 * (i + 1))); }
   }
 }
 const GREET = {
@@ -64,12 +71,12 @@ async function session(s, maxT) {
   return { ...s, model: MODEL, variant: args.variant || null, data: new Date().toISOString(), flags, log };
 }
 (async () => {
-  const all = JSON.parse(fs.readFileSync(path.join(__dirname, 'escenaris.json'), 'utf8'));
+  const all = JSON.parse(fs.readFileSync(path.join(__dirname, args.file || 'escenaris.json'), 'utf8'));
   const ids = args.ids ? args.ids.split(',') : null;
   const out = path.join(__dirname, args.out || 'resultats');
   fs.mkdirSync(out, { recursive: true });
-  const todo = all.filter(s => !ids || ids.includes(s.id));
-  const conc = 3; let i = 0;
+  const todo = all.filter(s => (!ids || ids.includes(s.id)) && !(args.skip && fs.existsSync(path.join(out, s.id + '.json'))));
+  const conc = +(args.conc || 3); let i = 0;
   await Promise.all(Array.from({ length: conc }, async () => {
     while (i < todo.length) {
       const s = todo[i++];

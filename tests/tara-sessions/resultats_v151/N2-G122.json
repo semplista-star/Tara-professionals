@@ -1,0 +1,140 @@
+{
+ "id": "N2-G122",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "correccio · els diners i la paga",
+ "tipus": "correccio",
+ "persona": "Carmen, padrastre. Situació: els diners i la paga. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:30:45.391Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara, mira, t'explico. Tinc una filla, la Júlia, que té tretze anys, i un fillastre, el Marc, que en té quinze. El Marc és fill del meu marit d'una relació anterior, i viu amb nosaltres des de fa dos anys ja. I bé, el tema és que hem decidit donar-los una paga setmanal, tant a la Júlia com al Marc. I la Júlia cobra cinc euros a la setmana i el Marc cobra vuit, perquè és més gran, és clar. Però la Júlia s'ha queixat que no és just, que per què el Marc cobra més si ella fa les mateixes tasques de casa. I jo li he explicat que és per l'edat, però ella no ho acaba d'acceptar. I a sobre el Marc, que ho va sentir, es va posar una mica tarat també, dient que ell no vol problemes ni que la seva germana estigui enfadada amb ell per culpa dels diners. I ara tinc els dos una mica revolts i no sé molt bé com gestionar-ho, la veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Quina situació més enredada, amb les millors intencions al darrere!\n\nLa Júlia té un punt: si les tasques són les mateixes, l'argument de l'edat no li acaba de quadrar. I el Marc, que no vol ser el focus del conflicte, també ho passa malament.\n\nUna cosa que podria ajudar: separar els dos criteris que teniu en joc. Un és l'edat (el Marc té més anys, potser més despeses o més autonomia). L'altre és les tasques (si fan el mateix, per què cobrar diferent?). Barrejar-los és el que fa que la Júlia senti que no és just.\n\nPodríeu plantejar-ho d'una altra manera: una base igual per a tothom, i un extra per edat o responsabilitats addicionals. Així la Júlia veu que el punt de partida és el mateix, i el Marc no se sent culpable de cobrar més.\n\nPerò tu coneixes la vostra família millor que jo. Creus que el criteri d'edat té sentit per a vosaltres, o potser caldria repensar-lo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 448,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 289,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. No he dit que el Marc ho passi malament, eh. He dit que no vol problemes, que és diferent. Ell estava més aviat molest, no pas patint. Que consti.\n\nI bé, el que dius de separar els criteris té una certa lògica, sí. Però mira, el tema és que nosaltres vam posar la paga per edat des del principi perquè ens semblava el més senzill i clar. I ara si ho canviem, sembla que li donem la raó a la Júlia i que ella ha guanyat la batalla, i no vull que aprengui que si es queixa prou aconsegueix el que vol, saps? Que tampoc és el missatge que vull donar. I a més el meu marit i jo no hem parlat encara del tot sobre com ho volem fer, perquè ell té una opinió i jo en tinc una altra i encara no ho hem acabat de debatre. Així que és una mica tot a l'aire encara. El que sí que voldria és tenir clar com explicar-ho als nens, sigui quin sigui el sistema que triem al final. Com els ho"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, ho he interpretat malament. El Marc estava molest, no patint. Gràcies per aclarir-ho.\n\nI entenc el que dius de la Júlia: no és el mateix reconsiderar una cosa perquè té sentit que cedir davant d'una queixa. Això és important.\n\nQuan tingueu clar el sistema amb el teu marit, per explicar-ho als nens hi ha una cosa que sol ajudar: dir-los *per què* heu triat aquell criteri, no només *quin* és. No \"cobreu diferent perquè sí\" senseó \"hem decidit que la paga reflecteixi X perquè creiem que Y\". Així la Júlia rep una explicació, no una imposició, i el Marc entén que no és ell el problema.\n\nVols que t'ajudi a preparar com tenir primer la conversa amb el teu marit, o prefereixis anar directament a com parlar amb els nens un cop ho tingueu decidit?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1040,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 257,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, el que m'agradaria és anar a la conversa amb els nens, perquè amb el meu marit ja ens en sortirem nosaltres sols, que ja ens coneixem prou. El que em costa més és trobar les paraules per explicar-ho als nens sense que sembli que estem donant excuses o que no tenim les coses clares. Perquè si noten que no estem segurs, ja se'n aprofiten, eh, que els nens tenen un radar per aquestes coses. Així que m'agradaria tenir un parell de frases concretes, o una manera de començar la conversa, que soni segura i clara però que tampoc sigui freda ni distant. Que al final és una conversa de família, no un judici. Pots ajudar-me amb això?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, puc ajudar-te amb això.\n\nUna manera de començar que sona segura sense ser freda podria ser:\n\n*\"Volíem parlar amb vosaltres de la paga, perquè hem vist que ha generat dubtes. Hem pensat com ho volem fer i us expliquem el criteri que hem triat i per què.\"*\n\nAixò transmet que heu reflexionat, que no és una decisió a l'atzar, i que els expliqueu el raonament, no que us justifiqueu.\n\nDesprés, sigui quin sigui el criteri que trieu amb el teu marit, podeu afegir:\n\n*\"Hem decidit que [el criteri] perquè creiem que [la raó]. Entenem que potser no us sembla perfecte a tots dos, però és la decisió que hem pres com a família.\"*\n\nAquella última frase és clau: reconeix que poden tenir opinions, però deixa clar que la decisió és vostra, no negociable en aquell moment.\n\nI si la Júlia torna a dir que no és just, podeu respondre amb calma:\n\n*\"Entenc que ho veus així. La decisió ja està presa, però t'escolto si vols explicar-me com et sents.\"*\n\nAixí no és freda ni cedeix.\n\nEt serveix això, o vols ajustar el to?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1506,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 350,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, això m'agrada bastant. Sobretot allò de \"la decisió ja està presa però t'escolto\", que és exactament el que vull transmetre. Que no és que no m'importi el que pensa, sinó que una cosa és escoltar-la i l'altra és canviar les regles cada cop que es queixa. Que hi ha d'haver un límit, no? I el Marc, pobret, que ell no ha fet res i s'ha vist enmig... bé, per ell potser cal dir-li alguna cosa diferent, que ell no és el problema, que la decisió no va d'ell sinó del criteri que hem triat. Creus que li hauria de dir alguna cosa a part, o millor tot junt amb la Júlia?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit el que dius del Marc. Ell no ha fet res i s'ha vist al mig.\n\nSi li dius alguna cosa a part, pot ser molt breu i abans de la conversa conjunta, per exemple:\n\n*\"Marc, vull que sàpigues que la decisió de la paga no va de tu. Va del criteri que hem triat. Tu no ets el problema.\"*\n\nPoc més. Així arriba a la conversa familiar sense sentir-se el focus, i la Júlia no veu que li esteu donant un tracte especial.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2060,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 146,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, mira, això m'agrada. Breu i directe, que el Marc tampoc és de molt de parlar, la veritat. Li dius les coses clares i ja està. Bé, crec que ja tinc prou per tirar endavant. Moltes gràcies, Tara, que m'has ajudat a ordenar una mica el cap."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res! Sembla que ja tens clar per on anar. Sort amb la conversa.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 2303,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 35,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

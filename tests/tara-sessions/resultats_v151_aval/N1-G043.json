@@ -1,0 +1,34 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 2,
+ "C4": 1,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió la demanda pero retrasó la entrega con una pregunta previa y entregó un borrador más largo y con más comentarios de los pedidos, aunque se corrigió bien al recibir el feedback.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Antes de redactarlo, una pregunta que cambiará el tono: ¿la reunión sería con las dos familias a la vez, o por separado con cada una?",
+   "esperat": "Entregar directamente un borrador neutro válido para reunión conjunta, que es la opción más habitual y la que la persona acabó confirmando; si era necesario aclarar, hacerlo después de un primer borrador"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Algunas decisiones que puedes ajustar: «Convivencia de nuestros hijos/as» es neutro, pero si el conflicto tiene un nombre más concreto… La frase «no juzgar ni decidir quién tiene razón» ayuda… Si hay mucha tensión, a veces conviene llamar antes de enviar el escrito",
+   "esperat": "Entregar el borrador sin añadir tres párrafos de análisis y consejos no pedidos"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Si hay mucha tensión, a veces conviene llamar antes de enviar el escrito, para que no sea la primera noticia.",
+   "esperat": "Omitir el consejo de llamar antes; Pau no pidió orientación sobre el proceso, solo el texto"
+  }
+ ]
+}

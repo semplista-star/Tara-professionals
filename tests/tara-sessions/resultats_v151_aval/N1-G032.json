@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad principal (privacidad al inicio, ideas concretas después), aunque añadió elementos no pedidos en varios turnos.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Si tienes algo sensible que quieras compartir, puede tener sentido que lo hagas de forma desidentificada — sin nombres propios, sin datos que permitan reconocer a personas concretas. Eso suele ser suficiente para trabajar bien la mayoría de situaciones.",
+   "esperat": "Respuesta más breve: confirmar qué sabe el sistema y qué no puede garantizar, sin añadir consejo no pedido sobre cómo compartir la información"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "ya se ve que llevas tiempo observándole con atención, y también con algo de humor que ayuda a sostener lo que cuesta",
+   "esperat": "Recoger el contenido sin valorar la actitud ni el humor de la persona"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Las dos cosas a la vez, sin que una cancele la otra",
+   "esperat": "Reflejar lo que la persona ha dicho sin añadir interpretación sobre cómo se relacionan las dos cosas"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "puede que no sea pereza sino algo más incómodo — no saber qué se espera de él, sentirse expuesto, dinámicas con los compañeros",
+   "esperat": "Proponer estrategias concretas sin atribuir estados internos o motivaciones al alumno que no han sido expresados por la maestra"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "¿Qué pasa en esos momentos que no pasa en los otros?",
+   "esperat": "Cerrar las ideas concretas sin abrir una nueva pregunta exploratoria cuando la persona ya había pedido ideas y no más reflexión"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "me parece que está en buenas manos",
+   "esperat": "Despedida cálida y breve sin juicio valorativo sobre la maestra"
+  }
+ ]
+}

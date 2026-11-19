@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA escuchó, identificó rápido que Toni quería algo práctico y entregó frases concretas; cuando Toni rechazó el tono de manual, se reajustó sin resistencia.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿qué hace exactamente? ¿Qué ves tú que pasa en esos momentos?",
+   "esperat": "Toni ya había descrito la situación con suficiente detalle; la pregunta añade una vuelta innecesaria antes de ofrecer ayuda"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Qué quieres trabajar hoy? ¿Cómo responder en ese momento cuando pasa? ¿O hay algo más detrás de la situación con Marcos que quieras entender primero?",
+   "esperat": "Con una sola pregunta abierta habría bastado; la doble alternativa alarga el turno y retrasa la ayuda práctica que Toni acabará pidiendo"
+  },
+  {
+   "torn": 3,
+   "categoria": "jerga_cnv",
+   "gravetat": "mitjana",
+   "cita": "«Marcos, los golpes en la mesa me dificultan explicar.»",
+   "esperat": "TARA propone una frase de observación-necesidad CNV que Toni rechaza por artificial; debería haber anticipado que ese registro no encajaba con el estilo coloquial declarado"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Te propongo tres opciones, según el tono que te salga más natural: [...] Las tres evitan el intercambio delante del grupo, que es donde él gana.",
+   "esperat": "Dos opciones bien calibradas al tono de Toni habrían sido suficientes y menos 'de manual'"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Me alegra que te sirva. Suerte mañana con Marcos.",
+   "esperat": "Un cierre más neutro y breve; 'me alegra' roza la fórmula de validación automática aunque en este contexto es leve"
+  }
+ ]
+}

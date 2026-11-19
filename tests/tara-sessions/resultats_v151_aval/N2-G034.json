@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 0,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la demanda però va retardar-la amb una pregunta prèvia i va afegir atribucions i elogis no demanats en lloc de lliurar la peça directament.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Abans, una sola cosa que m'ajudaria a fer-ho millor: quina edat té el teu fill, aproximadament?",
+   "esperat": "Lliurar directament un missatge curt i adaptat, sense demanar dades prèvies; l'edat es podia demanar com a alternativa si la primera proposta no convencia"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "veu que la decisió és real i que no pot canviar-la. El que sol ajudar és reconèixer-li això obertament, sense intentar convèncer-lo que estarà bé de seguida",
+   "esperat": "Lliurar el missatge sense afirmar com a fet el que sent o pensa el fill ni donar consells de criança no demanats"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Si vols, també et puc preparar una versió més curta, o una per si ell respon amb silenci o enfado",
+   "esperat": "Oferir com a màxim una alternativa breu, sense anticipar escenaris no demanats"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Onze anys és una edat on ja entén molt, i precisament per això li pot pesar més",
+   "esperat": "Passar directament al missatge sense explicació pedagògica sobre el desenvolupament evolutiu"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "No ets gens exigent, tens molt bona intuïció sobre com és ell",
+   "esperat": "Lliurar la versió curta sense valorar les capacitats parentals d'Aina"
+  },
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "No molestes gens",
+   "esperat": "Acceptable com a benvinguda breu, però combinat amb la pregunta innecessària reforça el patró de retard en la lliurança"
+  }
+ ]
+}

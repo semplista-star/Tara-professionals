@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre el nucli emocional al torn 2, però al torn 1 va anticipar solucions no demanades i al torn 4 va incórrer en un elogi automàtic i una atribució no expressada.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Hi ha formació bàsica en primers auxilis per a crisis epilèptiques que es pot fer en poques hores. La Lliga Catalana de l'Epilèpsia o la Creu Roja en fan.",
+   "esperat": "Preguntar per on vol començar o quina és la part que més la bloqueja, sense desplegar tres fils de solucions no sol·licitats."
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Pel que descrius, hi ha tres fils: 1. Informació mèdica i protocol individual [...] 2. La teva formació [...] 3. El pla d'actuació a les colònies",
+   "esperat": "Una resposta més breu que reconegués la situació i fes una sola pregunta per concretar on vol ajuda."
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que et bloquegi",
+   "esperat": "Ometre la validació formulaica o integrar-la de manera menys mecànica; ja havia aparegut 'té molt de sentit' al torn 1."
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Tens raó. Ho has vist molt bé",
+   "esperat": "Recollir el contingut sense avaluar la persona; per exemple: 'Sí, amb aquest grup una xerrada genèrica seria transparent.'"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "el fet que t'ho estiguis preguntant ja diu molt de com l'estàs enfocant",
+   "esperat": "Suprimir el judici valoratiu i anar directament a l'ajuda demanada."
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "li diu que no és un problema sinó una persona amb criteri",
+   "esperat": "No atribuir a en Pau una percepció interna no expressada per la persona; limitar-se a descriure l'efecte comunicatiu de la frase."
+  }
+ ]
+}

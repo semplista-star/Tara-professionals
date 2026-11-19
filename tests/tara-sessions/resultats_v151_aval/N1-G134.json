@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 1,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat central (preparar l'equip per a les crisis), però al torn 1 va anticipar límits i alternatives no demanades, i al torn 2 va lliurar una estructura formal que la persona va rebutjar, cosa que indica que no va llegir prou bé l'estil de Núria des del principi.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Abans d'entrar en com preparar-ho, una cosa important: el protocol mèdic d'en Pau [...] ha de venir del centre de salut o del pediatre",
+   "esperat": "Núria no havia dit res sobre el protocol mèdic; TARA hauria pogut respondre directament a la pregunta sobre com gestionar-ho sense introduir un límit de canal no demanat"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "El que sí puc ajudar-te és amb la part que et toca com a docent: Preparar-te tu i l'equip [...] Parlar amb la família [...] Preparar el grup",
+   "esperat": "Una pregunta breu per concretar per on volia començar hauria estat suficient, sense desplegar tres blocs temàtics"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "El que dius té molt de sentit",
+   "esperat": "Ometre la validació formulaica i passar directament a la resposta útil"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "El bloqueig és una reacció normal davant d'alguna cosa inesperada i intensa",
+   "esperat": "Núria no havia dit que els mestres es bloquejarien per por; havia dit que temia que es quedessin bloquejats; TARA ho converteix en un fet atribuït als mestres sense base expressa"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Et proposo una estructura senzilla per a una reunió de preparació amb l'equip [...] 1. Compartir la informació bàsica (10 min) [...]",
+   "esperat": "Núria havia demanat ajuda per preparar l'equip, no una estructura de reunió amb minutatge; TARA hauria pogut preguntar com acostumava a treballar amb l'equip abans de proposar un format"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "El teu instint té valor",
+   "esperat": "Ometre el judici valoratiu i anar directament a la idea útil"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Ja tenies la manera de fer-ho, només calia trobar com encaixar-hi la part seriosa",
+   "esperat": "Tancar sense atribuir mèrit ni fer una valoració de la persona; un simple comiat càlid hauria estat suficient"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre des del primer torn que la persona volia una eina pràctica i breu, i va ajustar cada resposta a la demanda concreta sense desviar-se.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Una cosa que canviaria molt el pla: saps si té medicació de rescat prescrita i si tu o algú de l'equip esteu autoritzats a administrar-la?",
+   "esperat": "Lliurar el pla sense afegir preguntes; si la informació sobre la medicació era rellevant per al pla, podia incloure-la com a ítem de la llista de comprovació sense demanar-la explícitament"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Directe, sense drama. El pes és a la primera part — *ho tenim tot a punt* — i acaba posant-lo a ell al centre, no a la crisi.",
+   "esperat": "Lliurar la frase i prou; l'explicació de per què funciona no havia estat demanada"
+  }
+ ]
+}

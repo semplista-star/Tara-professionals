@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va seguir el fil emocional amb encert i va lliurar l'ajuda concreta quan es va demanar, però va intercalar atribucions i fórmules que no afegien valor.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Aquesta sensació de 'podia haver-ho fet millor' després d'una situació tan intensa és molt habitual. I no sempre vol dir que sigui veritat.",
+   "esperat": "Preguntar directament per la situació sense avaluar si la sensació és o no fundada"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Aquesta sensació de 'podia haver-ho fet millor' després d'una situació tan intensa és molt habitual.",
+   "esperat": "Recollir el que diu sense etiquetar-ho com a 'habitual' ni normalitzar-ho de manera automàtica"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "Té sentit que ho visquis així.",
+   "esperat": "Ometre la validació formulaica i anar directament a la pregunta"
+  },
+  {
+   "torn": 7,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Entenc la preocupació.",
+   "esperat": "Recollir el que ha dit sense afirmar que s'entén un estat intern no descrit per ella"
+  },
+  {
+   "torn": 7,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Puc ajudar-te a dissenyar com arrancar el dia, com gestionar el grup si hi ha tensió, o com parlar amb els fills implicats, el que et sigui més útil ara.",
+   "esperat": "Preguntar directament per on vol començar sense llistar tres opcions no demanades"
+  },
+  {
+   "torn": 8,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "La idea de fons és: presència teva, estructura clara, cap espai per a l'escalada en els primers minuts. Que el dia comenci amb tu marcant el to, no amb ells.",
+   "esperat": "Lliurar la proposta concreta sense el paràgraf de resum que repeteix el que ja s'ha dit"
+  },
+  {
+   "torn": 8,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit per a la teva classe?",
+   "esperat": "Preguntar si li és útil o si vol ajustar alguna cosa, sense usar la fórmula 'té sentit' recurrent"
+  }
+ ]
+}

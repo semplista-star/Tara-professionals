@@ -1,0 +1,141 @@
+{
+ "id": "N2-G031",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "humor · les xarxes socials i el que hi publica",
+ "tipus": "humor",
+ "persona": "Mercè, abuela que cuida a los nietos. Situació: les xarxes socials i el que hi publica. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:25:12.489Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues mira, por donde quieras, porque yo ya no sé ni por dónde empezar. Resulta que ahora soy famosa. Famosísima. Mi nieta ha puesto una foto mía en el Instagram ese y tengo más \"likes\" que la alcaldesa del pueblo. ¡A buenas horas!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Jajaja, ¡famosa a lo grande! ¿Y cómo te ha sentado eso, que tu nieta te haya puesto en el Instagram sin avisarte?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 246,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 48,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues fatal, ¿cómo me va a sentar? No me ha preguntado nada, nada de nada. Y encima salgo con el delantal puesto y la cara de recién levantada. Que yo entiendo que ella no lo hace con mala intención, pero es que... no sé, me da una cosa rara que todo el mundo me esté mirando sin que yo lo sepa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene todo el sentido que te dé esa cosa rara. Es tu imagen, y no te preguntaron.\n\n¿Querrías hablar con ella para pedirle que la quite, o más bien necesitas que entienda que otra vez te pregunte antes?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 396,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 67,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Las dos cosas, ¿no? Pero sobre todo lo segundo. Que la foto ya está, qué le vamos a hacer. Pero es que no es solo esta vez, ¿eh? Ya van unas cuantas. Y yo no digo nada porque no quiero que se enfade conmigo, que luego soy yo la mala de la película. Pero por dentro estoy harta, la verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, las dos cosas. Y encima cargando tú sola con el hartazgo por no querer ser \"la mala\".\n\n¿Te ayudaría que preparáramos juntas cómo decírselo, de manera que puedas ser clara sin que parezca un reproche?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 566,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 76,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso es lo que necesito. Porque si lo digo como me sale ahora mismo, con este cabreo, seguro que acaba mal. Necesito decírselo de forma que me entienda, que no se ponga a llorar ni me diga que soy una antigua. ¿Cómo se lo digo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien, pues vamos a ello.\n\nAlgo así podrías decirle:\n\n*\"Mira, quiero contarte algo que me importa. Cuando subes fotos mías sin preguntarme, me siento incómoda, porque siento que no controlo lo que la gente ve de mí. No te lo digo porque lo hayas hecho con mala intención, que sé que no. Te lo digo porque necesito que me preguntes antes. ¿Puedes hacer eso?\"*\n\nCorta, directa, sin ataque. Le dices cómo te sientes, por qué, y lo que le pides.\n\n¿Te suena a algo que podrías decir tú, o le cambiarías algo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 185,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hombre, más o menos sí. Pero yo no hablo tan... tan redondo, ¿sabes? Tan perfecto. Que si le suelto eso tal cual me va a mirar rara. Algo más natural, más como yo. Pero la idea sí, la idea me vale. Que le diga cómo me siento y que le pida que me pregunte antes. Eso sí puedo hacerlo. Gracias, de verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso es lo importante, la idea. Las palabras ya las pones tú, que las tuyas son las que le van a llegar.\n\nSuerte con la conversación.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1031,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 45,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

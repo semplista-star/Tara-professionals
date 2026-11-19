@@ -1,0 +1,184 @@
+{
+ "id": "N2-G188",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "desfogar-demanda · rebequeries a l'hora de sortir de casa",
+ "tipus": "desfogar-demanda",
+ "persona": "Sara, tía que cuida a la niña. Situació: rebequeries a l'hora de sortir de casa. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:33:51.822Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, hoy solo quiero que me escuches, ¿vale? No necesito consejos ni nada, solo... contarlo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Vale. Aquí estoy, escuchándote.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 202,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es que esta mañana ha sido un desastre. La niña no había manera de sacarla de casa. Que si no quería ponerse los zapatos, que si el abrigo no, que si quería quedarse a ver los dibujos... y yo ya con el abrigo puesto, las llaves en la mano, mirando el reloj. Me he puesto de los nervios, la verdad. Y al final le he gritado y me he sentido fatal todo el día. Una mierda de mañana."
+  },
+  {
+   "qui": "TARA",
+   "text": "Una mierda de mañana, sí. Y encima cargando con eso todo el día.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 345,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacto. Porque el grito ya está, ya pasó, pero luego vas dando vueltas todo el día pensando \"ostras, podría haberlo llevado mejor\". Y la niña al final se le pasa enseguida, ¿sabes? Pero yo me quedo ahí rumiando. Es agotador."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso de que a ella se le pasa y tú te quedas dándole vueltas todo el día... eso sí que agota.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 456,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, justo. Ella a los cinco minutos ya estaba tan contenta y yo todavía en el coche pensando en si la había traumatizado o qué. Que sé que es una exageración pero es lo que hay. La cabeza no para."
+  },
+  {
+   "qui": "TARA",
+   "text": "La cabeza no para, aunque sepas que es una exageración. Eso también es agotador a su manera.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 561,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... buf. Bueno, ya me ha ido bien contarlo. Oye, ya que estás, ¿me puedes ayudar con una cosa pequeña? Algo para mañana por la mañana, que no sea muy complicado. Como un primer paso, ¿sabes? Para que no se repita lo mismo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. ¿Qué parte de mañana te preocupa más: el momento de los zapatos y el abrigo, o el rato antes, cuando ya vas con el reloj encima?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 678,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 52,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Lo del reloj, creo. Que cuando ya voy justa de tiempo todo se me hace una montaña. Así que algo para ese momento, para no llegar tan al límite."
+  },
+  {
+   "qui": "TARA",
+   "text": "Una idea sencilla: salir con diez minutos de margen extra, pero usarlos antes de ponerse el abrigo, no después. Así si hay batalla con los zapatos, tienes ese colchón y no llegas al límite.\n\n¿Eso encaja con cómo son vuestras mañanas?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 777,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 81,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, tiene sentido. Lo intentaré mañana. Gracias, en serio, me ha ido bien hablar. Hasta otro día."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Hasta otro día.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 898,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 22,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

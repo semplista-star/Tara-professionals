@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la demanda però va demorar un torn la lliurança demanant informació que la persona ja estava disposada a donar de seguida.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Per redactar-lo bé, necessito saber una cosa: quina és la raó principal que vols explicar?",
+   "esperat": "Demanar la raó és raonable, però la persona havia donat prou context per fer un primer esborrany o, com a mínim, podria haver ofert un esborrany provisional i demanat confirmació; el torn extra retarda la lliurança sense guany clar"
+  },
+  {
+   "torn": 2,
+   "categoria": "altres",
+   "gravetat": "baixa",
+   "cita": "1r d'això",
+   "esperat": "'1r d'ESO' (error tipogràfic/OCR repetit dues vegades en el mateix esborrany que es lliura com a producte acabat)"
+  },
+  {
+   "torn": 3,
+   "categoria": "altres",
+   "gravetat": "baixa",
+   "cita": "1r d'això",
+   "esperat": "'1r d'ESO' (el mateix error es repeteix en la versió revisada sense corregir)"
+  },
+  {
+   "torn": 3,
+   "categoria": "altres",
+   "gravetat": "baixa",
+   "cita": "Millor així?",
+   "esperat": "La pregunta de confirmació és acceptable, però en el torn anterior ja s'havia fet la mateixa invitació ('Vols canviar el to…'); repetir-la és lleugerament redundant"
+  }
+ ]
+}

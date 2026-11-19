@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió la petición práctica pero proyectó carga emocional no expresada en los turnos 1 y 2, y se corrigió bien cuando la persona lo señaló.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "dice mucho de la confianza que tiene en ti",
+   "esperat": "Omitir el elogio y pasar directamente a la pregunta de clarificación sobre el tipo de molestias"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿puedes contarme un poco más sobre qué tipo de molestias describes?",
+   "esperat": "La pregunta es pertinente aquí; el problema es que va precedida del elogio automático que la enturbia"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Unas semanas viéndole afectado es tiempo suficiente para que a ti también te pese.",
+   "esperat": "No atribuir carga emocional a la tutora; ella no ha expresado que le pese, solo ha descrito la situación"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "puede doler mucho, especialmente cuando se repite",
+   "esperat": "Reconocer lo observado sin añadir interpretación emocional no solicitada sobre el hijo"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Hay algo de esto que te genere dudas, o alguna parte de la conversación que te cueste imaginar cómo llevarla?",
+   "esperat": "Una pregunta de cierre neutra como «¿Necesitas algo más?» sin proyectar dificultad emocional para llevar la conversación"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Mucho ánimo.",
+   "esperat": "Cierre sencillo y neutro sin añadir expresión de aliento no solicitada, coherente con el tono formal de la persona"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre el nucli emocional i la demanda final, però al torn 3 va anticipar una llista no demanada i va afegir un elogi automàtic, cosa que va requerir correcció per part de la persona.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit.",
+   "esperat": "Validació sense fórmula fixa; per exemple reformular el que ha dit sense etiquetar-ho com a 'sentit'"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "M'agrada que ho diguis tu mateixa — és un punt de partida honest.",
+   "esperat": "Passar directament a les idees pràctiques sense valorar la persona ni el que ha dit"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Algunes idees pràctiques per al 6/8 amb un grup així, a última hora: [...] Quina d'aquestes et sona més a tu, o hi ha alguna que veuries difícil amb aquest grup concret?",
+   "esperat": "La persona havia demanat 'alguna idea pràctica' (singular o oberta); TARA lliura quatre ítems estructurats amb subtítols en negreta i una pregunta de tancament, molt per sobre del que s'havia demanat"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Fer-los moure abans d'explicar res [...] Que ells siguin la font [...] Una tasca mínima i concreta [...] El factor sorpresa",
+   "esperat": "Una o dues idees màxim, sense format de llista amb encapçalaments en negreta"
+  },
+  {
+   "torn": 6,
+   "categoria": "altres",
+   "gravetat": "baixa",
+   "cita": "Ja m'explicaràs com ha anat dilluns, si vols.",
+   "esperat": "Evitar suggerir que la persona torni a explicar el resultat, ja que simula continuïtat o apego; millor un tancament net sense insinuar seguiment"
+  }
+ ]
+}

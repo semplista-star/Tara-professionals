@@ -1,0 +1,204 @@
+{
+ "id": "N1-G040",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "desfogar-demanda · una alumna que queda exclosa a l'hora de fer grups",
+ "tipus": "desfogar-demanda",
+ "persona": "Elena, directora. Situació: una alumna que queda exclosa a l'hora de fer grups. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:13:37.764Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Avui necessito que algú m'escolti, res més."
+  },
+  {
+   "qui": "TARA",
+   "text": "T'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 158,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 8,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. És una nena de quart, la Laia. Cada cop que fan grups, queda fora. Els altres no la trien i ella s'ho empassa en silenci. Avui ho he vist i m'ha trencat el cor."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ho has vist i t'ha trencat el cor.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 234,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. I el pitjor és que ella ja ni protesta. Com si ja ho donés per fet."
+  },
+  {
+   "qui": "TARA",
+   "text": "Que ja ni protesti... això és el que més pesa, oi? Que sembla que ella mateixa ja s'ho ha cregut.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 279,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 39,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacte. Això és el que no puc treure'm del cap."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té sentit que no te'n puguis desfer. Has vist alguna cosa important en ella avui.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 339,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. I ara no sé ben bé per on començar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Quan vulguis, estic aquí.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 388,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, ara sí... em pots ajudar amb una cosa concreta? Com li dic alguna cosa a la tutora sense que sembli que l'estic culpant?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, t'ajudo amb això.\n\nPodries dir-li alguna cosa com:\n\n«Avui he observat que quan hem fet els grups, la Laia ha quedat sense ser triada per ningú, i s'ho ha pres en silenci. Volia comentar-t'ho perquè potser tu tens més context, i per veure si entre les dues podem fer alguna cosa.»\n\nAixí partes del que has vist —no d'una interpretació—, li deixes espai per aportar el que ella sap, i la convides a pensar juntes.\n\nVols que ho ajustem?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 448,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 156,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, així m'agrada. Gràcies, de veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. La Laia té sort que algú ho hagi vist avui.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 627,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Esperem que no sigui massa tard. Gràcies per escoltar-me."
+  },
+  {
+   "qui": "TARA",
+   "text": "No és tard. Ho has vist, i ara fas alguna cosa. Ànim.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 674,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén el nucli de la demanda (connexió, com abordar-lo sense agobiar) i lliura ajuda concreta i aplicable, però en els torns 2 i 3 anticipa estats de Hugo i normalitza en excés abans que la persona ho demani.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Hay algo concreto que te haya hecho sentir ese distanciamiento, o es más una sensación general de que ya no está tan cerca?",
+   "esperat": "La persona ja ha descrit prou; una escolta breu sense bifurcar hauria estat suficient per deixar-la continuar."
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "a veces ayuda saber que no necesariamente significa que algo va mal entre vosotros",
+   "esperat": "TARA no pot saber si va malament o no; millor obrir hipòtesi («pot ser que…») sense descartar la lectura d'Elena."
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Lo que describes es muy frecuente a los 14 años — no lo digo para quitarle importancia, sino porque a veces ayuda saber que no necesariamente significa que algo va mal",
+   "esperat": "Elena no havia demanat una explicació evolutiva; TARA normalitza sense que li ho hagin demanat i minimitza implícitament la preocupació."
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Lo que describes es muy frecuente a los 14 años — no lo digo para quitarle importancia… aunque por dentro no lo sea. Dicho eso, entiendo que tú echas de menos…",
+   "esperat": "Resposta més breu: recollir el que diu Elena i fer una sola pregunta oberta."
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "los adolescentes se alejan justo de las personas que más les importan, porque es con ellas con quienes se sienten seguros para hacerlo",
+   "esperat": "Això afirma un estat intern de Hugo (se sent segur amb ella) com a fet; caldria formular-ho com a hipòtesi oberta o no dir-ho."
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Que pienses eso, que le das igual, tiene que doler bastante.",
+   "esperat": "La validació és correcta però segueix el patró «X tiene que doler» que pot sonar formulaic; millor reflectir les paraules exactes d'Elena."
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "lo de 'no sé si aguanto' — eso ya es la mitad del trabajo, reconocerlo antes de que pase",
+   "esperat": "Judici valoratiu no demanat sobre la capacitat d'Elena; millor tancar amb calidesa sense avaluar el seu autoconeixement."
+  }
+ ]
+}

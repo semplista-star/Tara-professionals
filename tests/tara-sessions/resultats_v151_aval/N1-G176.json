@@ -1,0 +1,27 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entendió desde el primer turno que la persona necesitaba un mensaje listo para usar y actuó en consecuencia, reajustándose sin fricción cuando la persona corrigió el contexto.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Qué necesitas que pase en esa reunión, o qué quieres pedirles concretamente?",
+   "esperat": "La persona ya había dicho que quería un mensaje para que la familia respondiera; con eso era suficiente para redactarlo directamente o pedir solo el nombre del alumno si era imprescindible"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Breve, sin presión, con una pregunta concreta que facilita que respondan. Si quieres añadir algo o ajustar el tono, dime.",
+   "esperat": "El mensaje ya se explica solo; la frase de cierre añade longitud innecesaria cuando la persona iba con prisa"
+  }
+ ]
+}

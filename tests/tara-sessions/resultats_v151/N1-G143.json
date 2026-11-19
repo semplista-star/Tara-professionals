@@ -1,0 +1,162 @@
+{
+ "id": "N1-G143",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "que-faig · un grup disruptiu a última hora",
+ "tipus": "que-faig",
+ "persona": "Laia, tutora de 1r d'ESO. Situació: un grup disruptiu a última hora. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:20:38.690Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Mira, tinc un grup de 1r d'ESO que a última hora és... com dir-ho... una monada de criatures. Una monada molt sorollosa i molt moguda, vaja. El cas és que demà torno a tenir-los i estic pensant si canvio la dinàmica de la classe o si segueixo igual i aguanto el tipus. Però no sé si canviar vol dir rendir-me o vol dir ser intel·ligent. I tampoc sé exactament *com* canviar res. En fi, no sé què fer, digues-m'ho tu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ja et sento — última hora, 1r d'això, energia per les parets. I la pregunta de fons és bona: canviar és cedir o és triar?\n\nCap de les dues, diria. Canviar la dinàmica no és rendir-se si parteixes de tu: *jo decideixo fer-ho diferent*, no *ells m'han obligat*.\n\nPerò per ajudar-te a pensar *com*, necessito saber una cosa: quan dius que és sorollosa i moguda, a última hora, **el problema principal és que no pots fer la classe que tenies prevista, o és que l'ambient es descontrola d'una manera que et desgasta o et preocupa?**\n\nPerquè si és el primer, podem pensar en estructura. Si és el segon, potser cal alguna cosa diferent.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 291,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 213,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ostres, bona pregunta. Les dues coses, però si he de triar... és més el segon. L'ambient. Arribo a casa i estic feta pols, saps? No és que no pugui fer el tema, és que surto de l'aula amb la sensació que he estat supervivint en lloc d'ensenyant. I això no m'agrada gens."
+  },
+  {
+   "qui": "TARA",
+   "text": "«Supervivint en lloc d'ensenyant.» Això ho descriu molt bé.\n\nQuan l'ambient et drena així, sovint no és que passi *una* cosa gran — és l'acumulació de petites coses que et mantenen en alerta constant. I això cansa d'una manera diferent que la feina en si.\n\nAbans de pensar en estratègies, una cosa que m'ajudaria a ser més útil: **quan l'ambient se't va de les mans, com sol passar? Hi ha un moment concret, un patró, o és des del minut u que ja notes que serà així?**",
+   "tags": [],
+   "usage": {
+    "input_tokens": 600,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 155,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Des del minut u, clarament. Entren per la porta i ja sé com anirà. Hi ha tres o quatre que porten l'energia a tope i la resta s'encomana. És com si entressin amb el mode \"ja hem acabat\" activat, i clar, última hora, els entenc... però jo també estic cansada i no tinc forces per lluitar contra la marea! Jajaja. No sé què fer, digues-m'ho tu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Jajaja, sí — tu també arribes a última hora, no ets una màquina.\n\nEscoltar-te, el que descrius és bastant clar: hi ha un moment crític que és l'entrada. Si els tres o quatre que porten l'energia marquen el to des del principi, la resta segueix. Canviar l'ambient vol dir, probablement, canviar *aquell* moment.\n\nEt proposo tres opcions concretes. Cap és la solució màgica, però cadascuna va en una direcció diferent:\n\n**1. Ritual d'entrada**\nAlguna cosa breu i consistent que faci de transició: una pregunta a la pissarra, dos minuts d'escriptura lliure, una endevinalles... El que sigui, però que els doni una tasca des del segon que seuen. L'objectiu és que no hi hagi buit on s'instal·li el caos.\n\n**2. Recolocar els tres o quatre**\nNo com a càstig, senseó estratègicament. Separar-los o, al contrari, donar-los un rol actiu a l'inici perquè l'energia vagi cap a alguna cosa.\n\n**3. Fer explícit el que passa**\nParlar-los-en directament, sense dramatisme: *\"Sé que és última hora i esteu cansats. Jo també. Necessito que fem un pacte.\"* De vegades nomenar-ho desactiva.\n\nQuina et ressona més, o cap de les tres?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 873,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 384,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La primera, clarament. Perquè les altres dues em fan una mica de mandra, t'ho dic amb tota la sinceritat del món jajaja. Però un ritual d'entrada... això sí que ho veig. Com ho començo demà sense que sembli estrany de cop?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona tria — i la sinceritat s'agraeix.\n\nLa clau per a demà és que no sembli un anunci gran. Com més natural ho introdueixis, millor. Alguna cosa així:\n\nQuan entrin, ja tens alguna cosa escrita a la pissarra. Sense explicacions llargues, simplement: **\"Abans de començar, feu això.\"** I prou.\n\nLa pregunta és: **què els posaries?** Ha de ser alguna cosa que puguin fer sols, sense que tu hagis d'explicar res, i que no requereixi gaire energia mental — perquè a última hora no en tenen. Algunes idees:\n\n- Una imatge i \"escriu tres paraules que et vinguin al cap\"\n- \"Quin ha estat el millor moment d'avui?\" (dos minuts, paper o quadern)\n- Una pregunta curiosa sobre el tema que treballeu\n\nTu coneixes el grup. Hi ha alguna cosa que els enganxi, que els faci gràcia, que els desperti una mica?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1332,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 261,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ui, els enganxa qualsevol cosa que tingui a veure amb ells mateixos, com tots els de 1r jajaja. Potser la pregunta del millor moment del dia... o fins i tot alguna cosa tipus \"si fossis un meme, quin series avui?\" No sé, algo així de tonto que els faci riure i els baixi del mode \"vull marxar a casa\". Crec que ja tinc per on tirar, gràcies! Demà ho provo i ja veurem com va."
+  },
+  {
+   "qui": "TARA",
+   "text": "«Si fossis un meme, quin series avui?» — això és perfecte. Els fa riure, parlen d'ells mateixos, i tu guanyes dos minuts per respirar.\n\nDemà ho proves i ja veurem. Sort!",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 65,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies! I si surto de l'aula feta pols igualment, ja tornaré a plorar aquí jajaja. Fins aviat!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Jajaja, aquí estaré. Fins aviat!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1837,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

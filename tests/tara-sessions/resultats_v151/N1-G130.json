@@ -1,0 +1,118 @@
+{
+ "id": "N1-G130",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "rebuig · una companya que no col·labora en el projecte comú",
+ "tipus": "rebuig",
+ "persona": "Fàtima, mestra d'infantil. Situació: una companya que no col·labora en el projecte comú. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:19:38.197Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Sí, mira, necessito consell perquè tinc una situació a la feina que no sé com gestionar i ja no puc més. És amb una companya, la Montse, que és mestra d'infantil com jo, i estem fent un projecte conjunt a l'escola, un projecte de racons que hem de tirar endavant les dues juntes. Però és que ella no fa res! O sigui, quedem per preparar materials, per exemple la setmana passada havíem quedat el dimecres a les quatre per fer les fitxes dels racons de matemàtiques, i va arribar mitja hora tard i sense haver fet res del que havia dit que faria. I no és la primera vegada, eh? Ja fa com tres setmanes que passa el mateix. Jo acabo fent-ho tot i ella apareix, diu que sí a tot, i després res. I a sobre davant de la directora fa com si el projecte anés molt bé i com si ella hi estigués molt implicada, que és el que més m'emprenya. No sé si parlar amb ella directament, si dir-ho a la directora... no sé, estic una mica perduda."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tres setmanes carregant amb tot i veient que davant la directora ella apareix com a part activa del projecte. Entenc que estiguis fins a dalt.\n\nTens dues opcions principals, i cap és la \"correcta\" en abstracte — depèn de com vols gestionar la relació i el projecte.\n\n**Parlar primer amb ella directament**\nImplica una conversa concreta: no sobre \"com és ella\", senseó sobre el que ha passat i el que necessites que canviï. Té el risc que es posi a la defensiva, però si funciona, preserva la relació i el projecte. Si no funciona, tens més base per fer el pas següent.\n\n**Anar directament a la directora**\nImplica escalar sense haver-li donat l'oportunitat de respondre. Pot resoldre el problema de repartiment, però sol generar tensió i, si la directora ho gestiona malament, pot complicar-te la convivència a l'escola.\n\n**Una tercera via**: parlar amb ella i, si no canvia res en un termini curt, llavors anar a la directora amb fets concrets.\n\nAbans de decidir, una pregunta que canviaria la meva ajuda: **has parlat mai amb la Montse sobre això, encara que sigui de passada?** O fins ara ho has anat absorbint sense dir-li res?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 439,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 349,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí que li he dit alguna cosa, però no d'una manera directa directa, saps? O sigui, li he dit coses com \"ostres, Montse, que hem de tenir això per dijous\" o \"recorda que havíem quedat que tu feies les fitxes de lectura\", però sempre molt suau, sense muntar cap escena. I ella sempre diu que sí, que sí, que ja ho farà, i després res. Llavors la proposta de parlar amb ella directament ja la descarto una mica perquè és que ja ho he fet, a la meva manera, i no serveix de res. Potser no tan directament com dius tu, però és que jo no soc d'aquelles persones que munten una reunió formal amb una companya per dir-li les coses, em sembla molt tens i molt incòmode, i a sobre hem de continuar treballant juntes tot el curs. No vull que es converteixi en una guerra."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit que no vulguis que es converteixi en una guerra, sobretot sabent que heu de continuar juntes tot el curs.\n\nEl que descrius fins ara —recordatoris suaus, que ella diu que sí i no fa res— és diferent d'una conversa on li dius clarament com t'està afectant la situació i què necessites que canviï. No perquè hagis de \"muntar una escena\", senseó perquè fins ara li has recordat tasques, però potser ella no sap que tu estàs carregant amb tot ni que això t'està pesant tant.\n\nAixò no vol dir una reunió formal ni un cara a cara tens. Podria ser cinc minuts abans o després d'una de les vostres quedades habituals, amb alguna cosa com:\n\n*\"Montse, necessito dir-te una cosa. Últimament estic acabant fent la majoria de les coses jo sola, i m'està costant molt. Necessito que el repartiment sigui real, no només acordat. Com ho podem fer?\"*\n\nBreu, sense acusacions, i amb una pregunta que li deixa espai per respondre.\n\nSi això encara et sembla massa, l'altra opció és anar a la directora — però llavors val la pena anar-hi amb fets concrets i pensant bé què li demanes: que intervingui? que redistribueixi tasques? que en sigui testimoni?\n\nQuè et sembla més manejable ara mateix?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1030,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 376,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, el que dius té sentit, i la frase que m'has posat com a exemple... no està malament. És que quan ho dius així, tan concret, sembla més fàcil. Potser sí que hi ha diferència entre el que jo he fet fins ara i una conversa més clara però sense que sigui un drama. Crec que podria provar-ho d'aquesta manera, abans de ficar a la directora pel mig. Sí, crec que m'ho quedo això. Gràcies!"
+  },
+  {
+   "qui": "TARA",
+   "text": "De res! Sort amb la conversa. Ja veuràs com en tenir les paraules clares, és menys difícil del que sembla.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1540,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 39,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, espero que sí! Que de vegades el pitjor és no saber com començar, i ara almenys tinc una idea de per on tirar. Gràcies de veritat, m'has ajudat molt!"
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra! Ara ja tens el primer pas. Endavant.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1640,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

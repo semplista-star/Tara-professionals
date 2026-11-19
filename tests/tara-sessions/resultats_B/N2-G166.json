@@ -1,0 +1,204 @@
+{
+ "id": "N2-G166",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "rebuig · les xarxes socials i el que hi publica",
+ "tipus": "rebuig",
+ "persona": "Carmen, padrastre. Situació: les xarxes socials i el que hi publica. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:41:31.604Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, necessito ajuda amb la meva filla. Bueno, la meva fillastra. Té 15 anys i el que penja a les xarxes... no sé ni per on començar. Fotos, comentaris... coses que no m'agraden gens. I quan li dic alguna cosa s'enfada i diu que no és el seu pare. Estic fart."
+  },
+  {
+   "qui": "TARA",
+   "text": "Estàs fart, i té sentit: veus coses que et preocupen i quan intentes dir-li alguna cosa, ella et tanca la porta amb aquella frase.\n\nQuan diu \"no ets el meu pare\", et quedes sense lloc des d'on parlar-li.\n\nQuè és el que t'ha preocupat més del que has vist a les xarxes? Que tingui clar per on va la teva preocupació pot ajudar a trobar com dir-li-ho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 261,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 132,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Fotos seves amb molt poca roba. I comentaris de nois que no conec de res. Coses que... no sé, em fan mala espina. I la seva mare li diu que no passa res, que és normal. Però a mi no em sembla normal. Em sento sol en això."
+  },
+  {
+   "qui": "TARA",
+   "text": "Et sents sol davant d'una cosa que et preocupa de debò, i a sobre sense el suport de la seva mare. Això pesa molt.\n\nEl que describes — fotos amb poca roba i comentaris de desconeguts que et fan mala espina — és una preocupació legítima de persona adulta que la cuida. No cal que siguis el seu pare per tenir-la.\n\nPuc preguntar-te una cosa? Quan dius que els comentaris et fan mala espina, hi ha alguna cosa concreta que has vist que et preocupi per la seva seguretat, o és més una sensació general de que la situació se li pot anar de les mans?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 469,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 171,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "És més una sensació, sí. No he vist res concret, cap amenaça ni res d'això. Però... no sé, em sembla que no és conscient del que pot atreure. Té 15 anys. No sap com és la gent."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, és una preocupació real: que ella no vegi el que tu veus des de fora, amb més anys i més experiència de com funciona el món.\n\nEl problema és que si li ho dius des d'aquí — \"no saps com és la gent\" — probablement ho rebrà com una crítica, i tornarà a tancar la porta.\n\nHi ha una altra manera d'entrar-hi. En lloc de parlar del que fa, parlar del que tu vols per a ella. Alguna cosa com: \"Em preocupa la teva seguretat. No perquè no et fiï de tu, senseó perquè hi ha gent que no conec i que no sé qui és.\"\n\nAixò no és ser el seu pare. És ser una persona adulta que la cuida i que li diu la veritat.\n\nVols que treballem junts com podria ser aquesta conversa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 708,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 223,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ja ho he provat, això de parlar des de la preocupació. Li vaig dir que m'importava i que volia que estigués bé. I em va dir que l'estic controlant. Que soc un paranoic. No va servir de res."
+  },
+  {
+   "qui": "TARA",
+   "text": "Va ser dur. Li vas dir una cosa sincera i et va tornar \"paranoic\" i \"controlador\". És difícil no tancar-se després d'això.\n\nUna pregunta: la seva mare sap com et sents tu en tot això? No sobre la filla, senseó sobre estar sol davant d'aquesta preocupació.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1002,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 83,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La seva mare... és part del problema. Li sembla que exagero. Diu que les xarxes \"són així ara\" i que no puc viure en el passat. Així que no, no tinc suport per cap banda."
+  },
+  {
+   "qui": "TARA",
+   "text": "Estàs sol amb una preocupació que ningú al teu voltant valida. Ni la noia, ni la seva mare. Això és molt cansat.\n\nPuc dir-te el que veig: tens una preocupació real sobre la seguretat d'una noia de 15 anys. No és paranoia. I al mateix temps, ni ella ni la seva mare estan disposades a escoltar-te ara mateix.\n\nAixò vol dir que potser la conversa directa amb la filla no és el camí ara. No perquè tinguis raó o no, senseó perquè la porta està tancada.\n\nHi ha alguna cosa que sí pots fer: parlar amb la seva mare no per convèncer-la, senseó per dir-li com et sents tu. \"Em sento sol en això i necessito que parlem com a adults, no sobre si tinc raó, senseó sobre com ens coordinem.\" Sense la filla al mig.\n\nCreus que hi hauria espai per a una conversa així amb ella?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1146,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 257,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No ho sé. Quan li parlo d'això sempre acaba en discussió. Ella es posa del costat de la filla automàticament i jo quedo com el dolent. Estic cansat de ser el dolent."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cansat de ser el dolent, i cansat de lluitar sol. T'escolto.\n\nQuan dius que sempre acaba en discussió, em pregunto si hi ha un moment millor o pitjor per intentar-ho, o si és el tema en si que ho fa explotar sempre.\n\nPerò deixa'm fer-te una pregunta diferent: tu, en tot això, què necessites? No per a la filla, sineó per a tu.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1462,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 111,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No ho sé... suposo que necessito que algú em prengui seriosament. Que no sigui sempre jo el que exagera. Però no sé com aconseguir això sense que sembli que estic atacant la seva mare o la noia."
+  },
+  {
+   "qui": "TARA",
+   "text": "Necessites ser pres seriosament. Que la teva preocupació compti, sense haver de lluitar per això.\n\nAixò és diferent de tenir raó. No estàs demanant que tothom estigui d'acord amb tu, estàs demanant que t'escoltin.\n\nAmb la seva mare, potser la clau és exactament això: no entrar pel tema de la filla, senseó per com et sents tu en la relació amb ella. \"Quan parlem d'això, acabo sentint-me el dolent. No vull que sigui així. Necessito que puguem parlar sense que cap dels dos perdi.\"\n\nNo és un atac. És dir el que et passa.\n\nVols que practiquem com podria sonar aquesta conversa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1638,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 194,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Practicar... no sé. No soc molt d'aquestes coses. Em sembla una mica forçat, això de \"practicar\" una conversa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té tot el sentit. No cal practicar si no t'hi trobes.\n\nPodem fer-ho d'una altra manera: si vols, em dius com comences tu normalment aquesta conversa amb ella, i mirem junts si hi ha alguna cosa petita que podria canviar. Sense assajar res, només pensar-ho.\n\nO si prefereixes, et dono dues o tres frases concretes que podries tenir al cap per quan arribi el moment, i tu fas el que vulguis amb elles.\n\nQuè t'és més útil?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1876,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 140,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

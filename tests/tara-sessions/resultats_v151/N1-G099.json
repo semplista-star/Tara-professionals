@@ -1,0 +1,140 @@
+{
+ "id": "N1-G099",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "jerga · un alumne que no fa res a classe i contesta malament",
+ "tipus": "jerga",
+ "persona": "Xavi, orientadora. Situació: un alumne que no fa res a classe i contesta malament. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:17:12.623Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Tinc un alumne que em toreja. No fa res a classe i quan li dic alguna cosa em contesta malament."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sona esgotador, especialment quan passa de manera repetida.\n\nQuan dius que et contesta malament, m'ajudaria saber una mica més: és indiferència, respostes tallants, o hi ha alguna cosa que et sembla desafiament directe?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 175,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 73,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Les dues coses. De vegades passa de mi completament, i d'altres em contesta amb mala llet. Em sento ignorada i una mica ridiculitzada davant dels altres."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sentir-se ignorada i ridiculitzada davant del grup és molt incòmode, i entenc que vulguis trobar la manera de canviar-ho.\n\nAbans de pensar en com actuar, una pregunta: tens alguna idea de quan va començar això, o sempre ha estat així amb aquest alumne?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 296,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 79,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Fa com un mes, més o menys. Abans era distant però no tan maleducat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Això és útil. Que hi hagi un canvi fa un mes deixa oberta la pregunta de si hi ha alguna cosa passant per ell que no veus des de fora.\n\nQuè t'agradaria aconseguir ara: entendre millor què li passa, trobar com gestionar-ho a l'aula, preparar una conversa amb ell, o una combinació de tot?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 401,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 99,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Vull parlar amb ell però no sé com començar. Necessito una frase per trencar el gel sense que sembli un interrogatori."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí tens una opció per començar:\n\n---\n\n**\"Últimament et noto diferent a classe. No et demano que m'expliquis res, però volia que sàpigues que estic aquí si alguna cosa no va bé.\"**\n\n---\n\nDeixa la porta oberta sense pressionar, i no posa el focus en el comportament senseó en ell. Si vol parlar, parlarà; si no, has plantat una llavor.\n\nVols que preparem també com continuar si ell respon, o si no respon?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 538,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 140,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte, això m'anava bé. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. Sort amb la conversa.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 700,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 22,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "id": "N1-G128",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "jerga · insults en el grup de WhatsApp de la classe",
+ "tipus": "jerga",
+ "persona": "Ibrahim, directora. Situació: insults en el grup de WhatsApp de la classe. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:18:57.040Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, es que estoy hasta las narices. Tengo un grupo de WhatsApp de la clase y hay un chaval que lleva días insultando a otros, y yo lo veo todo, soy el director, y parece que nadie me hace ni caso. Como si no existiera. Me siento completamente ignorado."
+  },
+  {
+   "qui": "TARA",
+   "text": "Días viendo eso pasar y sintiéndote invisible en tu propio grupo. Eso agota.\n\nCuéntame un poco más: cuando dices que nadie te hace caso, ¿te refieres a que has intervenido y no ha tenido efecto, o a que todavía no has dicho nada y no sabes cómo entrar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 215,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 93,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "He dicho algo, claro. Puse un mensaje diciendo que eso no estaba bien y el chaval siguió como si nada. Y los demás también, nadie me apoyó, nadie dijo nada. Es que me toreja, ¿sabes? Como que me toma el pelo directamente."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro que duele. Pusiste un límite y siguió como si no existieras — eso no es solo que no funcione, es que se siente como una falta de respeto directa.\n\nAntes de pensar qué hacer ahora, una cosa: un grupo de WhatsApp de clase con el director dentro es un canal un poco peculiar. ¿Es un grupo oficial del centro, o es algo que surgió de forma más informal entre familias o alumnado?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 386,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 114,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Oye, no me vengas ahora con si el grupo es oficial o no oficial, eso no es lo que te estoy preguntando. El problema es que este chico me falta al respeto y yo no sé qué decirle. ¿Me puedes ayudar con eso o no?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón, me fui por las ramas. Vamos a lo que necesitas.\n\nPara ayudarte a preparar qué decirle, necesito saber una cosa: ¿los insultos son hacia otros alumnos, hacia ti, o hacia ambos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 575,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 68,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hacia otros alumnos. Pero yo intervengo y me ignora, que es lo que me saca de quicio. Necesito una frase, algo contundente para decirle que esto tiene consecuencias, que no se puede quedar así."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Algo que deje claro que hay consecuencias reales, no solo palabras.\n\nUna opción:\n\n---\n\n*\"[Nombre], esto que estás haciendo tiene consecuencias en el centro. Mañana hablamos en persona.\"*\n\n---\n\nCorto, sin debate posible en el chat, y traslada la conversación a donde tú tienes autoridad real. En el grupo ya has dicho lo que tenías que decir; el siguiente movimiento es tuyo fuera de ahí.\n\n¿Te sirve esto, o quieres algo con un tono diferente?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 705,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 147,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, algo así me vale. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "De nada. Suerte mañana con la conversación.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 868,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

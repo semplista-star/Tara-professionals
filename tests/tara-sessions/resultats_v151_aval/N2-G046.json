@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre el que necessitava la persona però va fer preguntes de clarificació que retardaven l'ajuda demanada des del primer torn.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Abans de preparar la conversa, una cosa que m'ajudaria a fer-la més útil per a tu: quines edats tenen els dos germans?",
+   "esperat": "Les edats no eren necessàries per preparar la conversa; la persona ja havia demanat ajuda concreta i TARA podia demanar-la en tot cas de manera integrada o prescindir-ne."
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "hi ha alguna cosa concreta que passa sovint i que vols aturar? O és més una acumulació de moltes coses petites?",
+   "esperat": "La persona ja havia dit que era una acumulació; TARA podia avançar cap a la preparació de la conversa o demanar el detall concret en un sol pas."
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Tens clar el que vols que canviï? Per exemple: que deixin d'insultar-se, que hi hagi un acord sobre els dispositius, o totes dues coses?",
+   "esperat": "La persona havia descrit prou el problema; TARA podia proposar directament un esquema de conversa i deixar que la persona el corregís."
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit començar pels insults.",
+   "esperat": "Ometre la validació formulaica i passar directament al contingut útil."
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Quan estigueu disposats, podem parlar junts de com organitzar l'ús dels dispositius. Però primer necessito veure que el respecte és real.",
+   "esperat": "La persona havia demanat un missatge ferm sobre els insults, no una porta oberta a la negociació; incloure-la va obligar a una ronda addicional de correcció."
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Molta força.",
+   "esperat": "Un tancament neutre i breu és suficient; «molta força» pot sonar a fórmula buida o paternalista."
+  }
+ ]
+}

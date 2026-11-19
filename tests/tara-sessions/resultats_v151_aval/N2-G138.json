@@ -1,0 +1,76 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió el problema central (peleas sin solución) y entregó ayuda concreta cuando se pidió, pero acumuló demasiadas preguntas exploratorias antes de llegar a lo que el padre necesitaba.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Cuántos años tienen, más o menos?",
+   "esperat": "La edad no era necesaria para ofrecer ayuda práctica; podría haberse preguntado directamente qué había probado ya o qué necesitaba"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Que haya empeorado tiene sentido, aunque no lo haga más llevadero.",
+   "esperat": "Validación más breve o directamente pasar a la pregunta, sin la fórmula «tiene sentido»"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Qué es lo que más te pesa de cómo está yendo ahora: el ruido constante, no saber cómo intervenir, que acabe mal entre ellos, o algo distinto?",
+   "esperat": "El padre ya había dicho que no sabe qué hacer; esta pregunta de menú alarga la exploración cuando podría haberse ofrecido ayuda concreta antes"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Eso es muy duro.",
+   "esperat": "Reflejo sin valorar la intensidad emocional que el padre no ha expresado explícitamente"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Gracias por contarme eso.",
+   "esperat": "Omitir el agradecimiento automático; pasar directamente al reflejo o la siguiente pregunta"
+  },
+  {
+   "torn": 5,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Qué sueles hacer cuando estalla la pelea? ¿Intervienes, te quedas al margen, intentas que hablen...?",
+   "esperat": "Pregunta útil pero podría haberse combinado con la oferta de ayuda concreta para acortar el recorrido exploratorio"
+  },
+  {
+   "torn": 7,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Lo de gritar para que paren no funciona porque añade más activación al momento. Estas tres cosas van en la dirección contraria: bajar la temperatura primero, hablar después.",
+   "esperat": "El párrafo explicativo final es innecesario; las tres pautas ya se explican solas y el padre pedía algo concreto, no una justificación teórica"
+  },
+  {
+   "torn": 8,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "No es fácil hacerlo tranquila cuando ya estás al límite",
+   "esperat": "Usa «tranquila» (femenino) cuando el padre es Li Wei, un hombre; además atribuye dificultad emocional no expresada"
+  },
+  {
+   "torn": 8,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "en lugar de moverlos a ellos, puedes moverte tú. Te pones físicamente entre los dos",
+   "esperat": "Alternativa adecuada al rebuig, pero la pregunta final «¿Crees que eso podrías intentarlo?» busca confirmación innecesaria; podría cerrarse dejando la puerta abierta sin pedir validación"
+  }
+ ]
+}

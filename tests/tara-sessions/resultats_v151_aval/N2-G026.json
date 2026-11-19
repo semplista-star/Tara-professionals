@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén que la persona vol preparar una frase concreta i hi arriba, però al torn 1 anticipa solució abans d'hora i al torn 2 fa una pregunta que la persona ja havia resposta parcialment.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que estiguis enfadada, i també preocupada.",
+   "esperat": "Recollir l'emoció sense convertir-la en fórmula validadora; a més, 'preocupada' és una atribució no expressada explícitament per la persona en aquest moment"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "i també preocupada",
+   "esperat": "No afegir un estat intern (preocupació) que la persona no ha nomenat; si es vol obrir, formular-ho com a hipòtesi: 'i potser també preocupada?'"
+  },
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Abans de pensar en les paraules, una cosa que pot marcar la diferència: el moment i el lloc. No a la porta de l'habitació, no quan acaba de sortir, no davant d'altres.",
+   "esperat": "La persona demanava preparar com parlar, no consells sobre quan i on fer-ho; lliurar directament la frase i deixar el consell de context per si el demana"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Si vol continuar, bé. Si no respon, has plantat una llavor.",
+   "esperat": "Comentari innecessari que allarga la resposta i sona a lliçó; tallar després de la frase proposada i la pregunta d'ajust"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "Perfecte, té molt de sentit.",
+   "esperat": "Doble fórmula validadora en un sol torn ('Perfecte' + 'té molt de sentit'); n'hi ha prou amb acceptar la correcció i continuar sense elogis automàtics"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Digue'm una cosa: com parles normalment amb ell quan les coses van bé? Més aviat directa, amb humor, seriosa...?",
+   "esperat": "La persona ja havia dit 'li dic les coses pel seu nom, sense voltes' i havia demanat 'alguna cosa més directa'; TARA podia proposar directament una frase directa sense demanar més informació"
+  }
+ ]
+}

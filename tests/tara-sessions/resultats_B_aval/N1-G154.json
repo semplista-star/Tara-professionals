@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va seguir l'humor amb naturalitat, va identificar ràpidament que la necessitat era pràctica (com documentar i argumentar l'avenç) i va lliurar eines concretes quan la persona les va demanar.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "tu estàs sol sostenint-ho davant de qui demana els números",
+   "esperat": "Reformular sense afirmar l'estat intern: p. ex. «i sembla que ho estàs portant sol»"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "de quin tipus d'avenç parles? Competencial, emocional, de participació... o una barreja?",
+   "esperat": "La persona ja havia dit prou per avançar; la pregunta endarrereix l'ajuda sense afegir-hi valor decisiu"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Dues idees senzilles que no afegeixen gaire càrrega: 1) Una graella trimestral per tutor… 2) Una carpeta compartida… El clau és que ho decidiu junts… Amb això, quan arribes a la reunió de dalt, no parles d'impressions: parles de dades qualitatives recollides de manera sistemàtica. Canvia molt com sona.",
+   "esperat": "Lliurar les dues idees sense el paràgraf final de resum valoratiu («Canvia molt com sona»), que és innecessari i lleugerament paternalista"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "El clau és que ho decidiu junts quins indicadors compten, perquè si ho imposes tu sol tampoc funcionarà.",
+   "esperat": "Ometre el consell de gestió d'equip no demanat; la persona va preguntar com recollir dades, no com implicar el claustre"
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "avui has vingut amb tot",
+   "esperat": "Tancar sense valorar la persona; n'hi ha prou amb desitjar-li sort i recordar el que s'emporta"
+  }
+ ]
+}

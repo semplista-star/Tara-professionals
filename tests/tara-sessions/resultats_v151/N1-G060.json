@@ -1,0 +1,74 @@
+{
+ "id": "N1-G060",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "breu · un alumne nou que gairebé no parla",
+ "tipus": "breu",
+ "persona": "Marc, educador social del centre. Situació: un alumne nou que gairebé no parla. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:14:39.855Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara, mira, tinc cinc minuts justos perquè ara entro a una reunió. Tinc un alumne nou, en Khalid, que gairebé no obre la boca, ni amb mi ni amb ningú, i no sé si és timidesa, si és que no entén bé el català, si ha passat alguna cosa... el cas és que demà tinc una estona amb ell i no sé com trencar el gel. Necessito alguna idea ràpida, alguna cosa concreta que pugui fer per connectar amb ell sense que se senti pressionat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cinc minuts, anem al gra.\n\nDemà, en lloc de preguntar-li coses sobre ell, **fes-li fer alguna cosa amb les mans o els ulls**: triar entre dues opcions, ordenar targetes, dibuixar un lloc que li agradi. Parlar és el que li costa; fer, sovint no.\n\nUna idea concreta: porta tres o quatre imatges molt diferents (un mercat, una muntanya, una cuina, un camp de futbol) i demana-li que en triï una que li sembli interessant. Llavors tu expliques per què t'ha cridat l'atenció a tu la que has triat. Primer parles tu. Ell observa com funciona, sense pressió de respondre.\n\nSi vol afegir alguna cosa, bé. Si no, ja has creat un moment compartit.\n\nDemà, quan tinguis més temps, podem pensar plegats si hi ha alguna cosa més a explorar.\n\nBona reunió.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 292,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 248,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ostres, això és exactament el que necessitava. Gràcies, Tara, ho provaré demà. Ara corro!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Endavant! Ja m'explicaràs com ha anat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 579,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 21,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

@@ -1,0 +1,204 @@
+{
+ "id": "N1-G024",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "desfogar-demanda · la preparació d'unes colònies amb un alumne amb crisis freqüents",
+ "tipus": "desfogar-demanda",
+ "persona": "Luis, profesora de bachillerato. Situació: la preparació d'unes colònies amb un alumne amb crisis freqüents. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:12:26.856Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hoy solo necesito que me escuches."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estoy. Cuéntame lo que quieras.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 150,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 20,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tengo un alumno con epilepsia. Crisis frecuentes. Y la semana que viene hay colonias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué peso llevas con eso. Cuéntame más si quieres.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 199,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es que no sé si estoy preparado. Y si le pasa algo allí... lejos del centro, sin enfermería..."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ese \"¿y si le pasa algo?\" pesa mucho cuando la responsabilidad es tuya y estás lejos de los apoyos habituales.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 256,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 41,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacto. Y los demás profes no dicen nada pero yo sé que también están nerviosos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cargas con el peso de todos, aunque nadie lo diga en voz alta.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 326,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí. Y encima no quiero que el chico se quede sin ir. Tiene derecho a estar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso que dices lo dice todo de ti. Quieres que pueda ir, y al mismo tiempo sientes que la responsabilidad recae sobre ti sin los apoyos que necesitarías.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 379,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 50,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso es. Gracias por entenderlo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Gracias a ti por contarlo. ¿Quieres quedarte aquí un momento más, o hay algo concreto en lo que pueda ayudarte para la semana que viene?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 448,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 48,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, una cosa concreta. ¿Cómo le explico a los otros profes qué hacer si le da una crisis?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Puedo ayudarte con eso. ¿Sabes ya qué protocolo tiene el alumno —qué medicación lleva, si hay pauta de actuación del médico o de la familia?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 532,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 51,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, tengo el protocolo de la familia."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecto, ese protocolo es la base. Con él en mano, puedo ayudarte a preparar una explicación clara y breve para el equipo, que recoja los pasos esenciales: qué hacer, qué no hacer, y cuándo llamar al 112.\n\n¿Quieres que te redacte un esquema que puedas adaptar a lo que pone el protocolo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 599,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 99,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

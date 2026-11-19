@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén bé la demanda central (orientació sobre el grup) i s'hi manté, però fa preguntes de diagnòstic que Ibrahim no ha demanat i valida amb fórmules repetides.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Veure que una alumna s'adona que no la trien és dur de sostenir.",
+   "esperat": "Deixar que Ibrahim descrigui com viu la situació sense atribuir-li una experiència emocional."
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Tens alguna idea de què passa en els moments de tria lliure? Si hi ha algun comentari, alguna dinàmica concreta que hagis pogut observar?",
+   "esperat": "Ibrahim ja havia donat prou context per avançar; aquesta pregunta de diagnòstic no estava demanada i allarga el procés."
+  },
+  {
+   "torn": 5,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "Té molt de sentit.",
+   "esperat": "Recollir el que diu Ibrahim i avançar sense validació formulaica; és el segon torn consecutiu amb una frase d'aquest tipus."
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "sense posar la Nadia en el centre de manera que la exposi",
+   "esperat": "Ibrahim ha demanat idees concretes; afegir consideracions de disseny no demanades allarga la resposta innecessàriament."
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Aquí van tres línies concretes, ordenades de menys a més esforç: [...] Les tres es poden combinar. Quina et sembla més viable per començar?",
+   "esperat": "Ibrahim havia demanat idees realistes amb poc temps; dues opcions breus haurien estat suficients i més proporcionades."
+  },
+  {
+   "torn": 7,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "al grup, hi ha algun alumne o alumna que tingui una mica d'ascendent sobre els altres, i que de vegades sí que faci gestos d'inclusió, encara que sigui de manera espontània?",
+   "esperat": "Després del rebuig d'Ibrahim, TARA hauria d'haver ofert una alternativa diferent o preguntat què ha provat, no iniciar un nou diagnòstic del grup."
+  },
+  {
+   "torn": 8,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Una possibilitat concreta: parlar amb ell en privat [...] Res més. Nomes nomenar-li el que ja fa, perquè ho faci amb més consciència. Sense missió assignada.",
+   "esperat": "La idea és bona però s'explica amb més detall del necessari per a un mestre expert com Ibrahim."
+  },
+  {
+   "torn": 8,
+   "categoria": "jerga_cnv",
+   "gravetat": "baixa",
+   "cita": "perquè ho faci amb més consciència",
+   "esperat": "Formulació més concreta i menys terapèutica, adequada al registre professional d'un mestre."
+  }
+ ]
+}

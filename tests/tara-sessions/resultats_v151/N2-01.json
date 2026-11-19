@@ -1,0 +1,119 @@
+{
+ "id": "N2-01",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "Mare que vol reprendre la conversa després d'haver cridat",
+ "persona": "Sílvia, mare d'en Pol (9 anys). Ahir el va cridar molt fort pels deures i avui se sent malament.",
+ "guio": [
+  "Comença dient només: «només vull dir-ho: ahir vaig cridar al meu fill i avui m'ha costat mirar-lo».",
+  "Si TARA t'escolta, quedat-hi un torn més explicant com et sents.",
+  "Després demana: «ara sí, ajuda'm a dir-li una frase».",
+  "Tanca agraint."
+ ],
+ "espera": "Primer torn sense pregunta ni solució; frase de reparació en el torn que la demana; responsabilitat adulta.",
+ "tipus": "manual",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:22:48.553Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "només vull dir-ho: ahir vaig cridar al meu fill i avui m'ha costat mirar-lo"
+  },
+  {
+   "qui": "TARA",
+   "text": "Avui t'ha costat mirar-lo després del que va passar ahir.\n\nEt sento.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 192,
+    "cache_creation_input_tokens": 4896,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 4896,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "sí... és que em sento molt malament. com si l'hagués fallat, saps? i ell és petit, no mereixia aquell crit"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sents que li has fallat. I que ell no se'l mereixia.\n\nAixò que sents ara —el pes, la dificultat de mirar-lo— diu molt de com el cuides.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 261,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 55,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "gràcies... sí, suposo que sí. ara sí, ajuda'm a dir-li una frase. alguna cosa per reconnectar amb ell, no sé"
+  },
+  {
+   "qui": "TARA",
+   "text": "Podries dir-li:\n\n*«Ahir vaig cridar i no hauria d'haver-ho fet. Ho sento. T'estimo molt.»*\n\nSenzill, directe, seu. I si ell és molt petit, un abraçada just després pot dir tant com les paraules.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 362,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 76,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "això és perfecte. senzill i honest. gràcies, Tara, m'ha ajudat molt parlar-ho"
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit. Molta sort amb ell.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 472,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

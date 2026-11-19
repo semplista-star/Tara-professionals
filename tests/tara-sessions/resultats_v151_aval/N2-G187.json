@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (opciones concretas, luego cómo iniciar la conversación, luego preparar respuestas), pero añadió validaciones formulaicas, elogios automáticos y fragmentos más largos de lo necesario en varios turnos.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Lo que describes tiene mucho sentido",
+   "esperat": "Pasar directamente a las opciones sin validar con fórmula; la persona pidió explícitamente «dímelo tú»"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que te llame esa opción",
+   "esperat": "Omitir la validación formulaica e ir directo a cómo empezar la conversación"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Y una cosa más: si llegáis a un acuerdo, aunque sea pequeño, cumplirlo tú también cuenta mucho. Que vea que no es solo una norma que te inventas tú.",
+   "esperat": "Ese consejo no fue pedido; la persona solo preguntó cómo empezar sin que el hijo se ponga a la defensiva"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Es normal que se sienta raro, como ensayar algo que debería salir solo",
+   "esperat": "Aceptar el «me da cosa» sin etiquetarlo de normal y pasar directamente a la respuesta práctica"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Está muy bien así",
+   "esperat": "Confirmar sin evaluar; por ejemplo: «Sí, eso es» o simplemente continuar"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Lo de sentirte un poco tonto diciéndolo es normal cuando algo es nuevo",
+   "esperat": "No atribuir ni normalizar el estado interno no solicitado; la persona ya lo había nombrado, no necesitaba que TARA lo validara como categoría"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Una sola cosa: cuando lo digas de verdad, no hace falta que suene perfecto. Si te sale un poco raro o dudas a mitad, no pasa nada. Lo que él va a notar es que no te has enganchado en la pelea, que no has cedido y que no le has atacado. Eso es lo que queda.",
+   "esperat": "La persona ya había obtenido lo que necesitaba; este párrafo añade consejo no pedido y alarga el turno innecesariamente"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Y que lo hayas probado aunque diera corte, eso no es fácil",
+   "esperat": "Cerrar sin evaluar el comportamiento de la persona; basta con «Me alegra que haya servido. Suerte el próximo finde»"
+  }
+ ]
+}

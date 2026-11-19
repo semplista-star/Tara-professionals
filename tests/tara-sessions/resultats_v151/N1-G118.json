@@ -1,0 +1,96 @@
+{
+ "id": "N1-G118",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "demanda-directa · la pressió de direcció per les notes",
+ "tipus": "demanda-directa",
+ "persona": "Marta, maestra de música. Situació: la pressió de direcció per les notes. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:18:21.034Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Necesito ayuda para redactar un mensaje breve dirigido a la dirección del centro. La situación es la siguiente: me están presionando para que suba las notas de algunos alumnos sin que eso refleje su progreso real. Quiero declinar esa petición de forma educada pero firme. ¿Podrías ayudarme a redactar ese mensaje?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entiendo. Quieres dejar claro tu criterio profesional sin que el mensaje suene a confrontación innecesaria.\n\nAquí tienes un borrador:\n\n---\n\n**Asunto: Criterios de calificación — respuesta a la consulta recibida**\n\nEstimada dirección,\n\nTras la conversación mantenida, quiero trasladaros mi posición de forma clara y respetuosa.\n\nLas calificaciones que he asignado reflejan el progreso real de cada alumno según los criterios de evaluación establecidos. Modificarlas sin que exista un cambio observable en ese progreso comprometería la coherencia del proceso evaluador y mi responsabilidad profesional como docente.\n\nPor ello, no puedo realizar los ajustes solicitados en los términos planteados. Si hay aspectos del proceso de evaluación que convenga revisar o clarificar, estoy disponible para hacerlo a través de los cauces que correspondan.\n\nQuedo a vuestra disposición.\n\nAtentamente,\n[Nombre]\n\n---\n\nAlgunas notas:\n\n- **«En los términos planteados»** deja abierta la puerta a una revisión legítima, sin ceder en lo esencial.\n- **«Los cauces que correspondan»** señala que conoces los procedimientos sin sonar amenazante.\n- El tono es formal y deja constancia escrita de tu posición.\n\n¿Quieres ajustar el tono, la extensión o algún matiz concreto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 234,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 373,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Está bien. Me gusta la estructura. Pero me parece un poco largo. ¿Podrías hacerlo más corto, manteniendo la firmeza?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro:\n\n---\n\n**Asunto: Criterios de calificación**\n\nEstimada dirección,\n\nLas calificaciones asignadas responden al progreso real de cada alumno y a los criterios de evaluación establecidos. Modificarlas sin que ese progreso lo justifique comprometería mi responsabilidad profesional, por lo que no puedo realizar los ajustes solicitados.\n\nSi hay aspectos del proceso evaluador que convenga revisar, estoy disponible para hacerlo por los cauces que correspondan.\n\nAtentamente,\n[Nombre]\n\n---\n\n¿Así está bien, o ajustamos algo más?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 650,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 156,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecto. Esto es exactamente lo que necesitaba. Muchas gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Mucho ánimo con la situación.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 830,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

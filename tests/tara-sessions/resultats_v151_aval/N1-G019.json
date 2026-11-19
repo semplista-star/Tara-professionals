@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (preparar la conversación con el director), pero en el torn 2 anticipó un análisis de opciones no pedido antes de escuchar suficiente, y en varios turnos añadió validaciones formulaicas y elogios automáticos.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Sobre qué harías tú: es tu decisión y depende de cosas que solo tú conoces. Pero puedo ofrecerte cómo se ve cada opción desde fuera: Si mantienes las notas... Si subes las notas... Si buscas un término medio...",
+   "esperat": "Óscar preguntó qué haría TARA en su lugar; la respuesta adecuada era devolver la pregunta o reconocer que es su decisión sin desplegar un análisis de tres opciones no solicitado"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "No vas a quedar como un idiota — tienes los argumentos, solo necesitas ordenarlos.",
+   "esperat": "Evitar el juicio valorativo tranquilizador; aceptar lo que Óscar dice y pasar directamente a la pregunta"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "No es ridículo, es muy reconocible. Cuando sentimos que nos cuestionan el criterio, el impulso es explicarlo todo para que quede claro que no nos hemos equivocado.",
+   "esperat": "No corregir («no es ridículo») ni atribuir el impulso interno como hecho universal; podría simplemente reconocer lo que Óscar describió y pasar a lo práctico"
+  },
+  {
+   "torn": 5,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "La clave suele ser ir a lo concreto y corto primero",
+   "esperat": "Presentar la estrategia sin el marco evaluativo «la clave suele ser», que suena a lección"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Tienes los argumentos, tienes el registro, y tienes un punto de partida claro. Eso es mucho más de lo que tenías hace un rato.",
+   "esperat": "Cerrar sin hacer balance valorativo de lo conseguido; un cierre breve y cálido sin enumerar los logros de Óscar"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Si mantienes las notas... Si subes las notas... Si buscas un término medio...",
+   "esperat": "Respuesta más corta; Óscar pedía desahogo y una opinión puntual, no un análisis estructurado de tres vías"
+  }
+ ]
+}

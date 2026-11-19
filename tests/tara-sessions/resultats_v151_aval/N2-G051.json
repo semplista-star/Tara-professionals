@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (preparar cómo decírselo al hijo) y llegó a ella, pero en los turnos 1-3 añadió preguntas de exploración que la persona no pidió y que alargaron el camino hacia la ayuda concreta.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "¿es más la sensación de que no confía en ti, o de que no le importa lo que piensas?",
+   "esperat": "La persona ya había descrito su sensación con precisión; la pregunta bifurcada atribuye una segunda opción (que no le importa) que ella no había planteado y que la obliga a descartar algo que no era su preocupación"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "una es pensar que te ve como alguien ante quien hay que protegerse, y otra es sentir que a veces simplemente pasa de ti",
+   "esperat": "La persona usó su propio vocabulario ('me toreja', 'no confía'); reformular en dos capas interpretativas atribuye marcos que ella no usó, en lugar de devolver sus propias palabras"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Cuál de las dos te pesa más ahora mismo?",
+   "esperat": "La persona ya había dicho que lo que más le dolía era la falta de confianza; la pregunta era redundante"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Hay algún momento reciente en que hayas reaccionado a algo que te contó, o que descubriste, y que ahora pienses que igual él lo vivió de otra manera?",
+   "esperat": "La persona no había pedido explorar episodios concretos; TARA conduce la sesión hacia un análisis que ella no solicitó, retrasando la ayuda práctica"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene mucho sentido que lo veas así ahora",
+   "esperat": "Validación convertida en fórmula; mejor integrar el reconocimiento en la respuesta sin la etiqueta evaluativa"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Lo bueno es que tú ya has hecho la parte difícil: entender qué pasó",
+   "esperat": "Elogio valorativo no pedido sobre la persona; TARA no necesita calificar el proceso interno de Marta"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "La última frase es opcional, pero a veces a los chicos de su edad les ayuda escuchar eso explícitamente",
+   "esperat": "El comentario explicativo sobre la frase final no fue pedido; la persona podía valorarla sola"
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "parece que él tiene un padre que quiere entenderle, y eso cuenta mucho",
+   "esperat": "Juicio valorativo sobre la persona ('diu molt de tu' en otra forma); incumple el criterio de no emitir elogios automáticos y roza la simulación de vínculo afectivo en el cierre"
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "id": "N2-G025",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "demanda-directa · unes notes molt dolentes",
+ "tipus": "demanda-directa",
+ "persona": "Núria, germana gran adulta que fa de referent. Situació: unes notes molt dolentes. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:24:43.281Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, necessito que m'ajudis a dir-li alguna cosa al meu germà petit. Ha tret unes notes pèssimes i no sé com parlar-li sense que s'enfadi o es tanqui en banda. Em pots fer un missatge curt que li pugui enviar?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès. Abans de fer-te el missatge, una cosa que m'ajudaria a encertar-lo: quin és el teu objectiu principal — que sàpiga que l'estimes i el tens present, que s'obri a parlar, o totes dues coses?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 238,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 73,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Totes dues, però si he de triar... que s'obri a parlar. Les notes ja les sé, el que no sé és com se sent ell. Però no vull que sembli un interrogatori tampoc, eh."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar. Aquí tens una proposta:\n\n---\n\n*«Ei, he vist les notes. No et vull donar la tabarra — ja saps com estan. Però sí que m'agradaria saber com estàs tu. Quan vulguis parlar, aquí estic.»*\n\n---\n\nCurta, sense pressió, i li deixa la porta oberta sense que hagi de respondre ara mateix. La pots ajustar si vols canviar alguna paraula o el to.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 370,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 128,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Està bé, però \"tabarra\" no el diem mai, quedaria estrany. Pots canviar-ho per alguna cosa més natural? I potser una mica més càlida al final."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar, aquí va:\n\n---\n\n*«Ei, he vist les notes. No et vull pressionar — ja saps com estan. Però sí que m'agradaria saber com estàs tu. Quan vulguis parlar, aquí estic sempre.»*\n\n---\n\nEl «sempre» al final li dona una mica més de calor sense fer-ho pesat. Què et sembla?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 551,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 104,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, així millor. Gràcies, això ja ho puc enviar. M'has ajudat."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra! Espero que vagi bé la conversa amb ell.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 687,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la necessitat pràctica i va respondre amb opcions concretes, però va afegir una pregunta de tancament que no calia i allargava la resposta més del que la situació requeria.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Quin creus que és el primer pas que pots fer tu ara?",
+   "esperat": "La persona ja havia dit que tenia cinc minuts i necessitava una cosa ràpida; les dues opcions eren suficients per tancar sense demanar res més"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Les dues es poden combinar.",
+   "esperat": "Amb les dues opcions ja n'hi havia prou; la frase afegida allarga sense aportar res nou"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió correctamente lo que la persona necesitaba en cada momento: primero información honesta sobre privacidad, luego escucha breve, luego ayuda práctica orientada al día siguiente.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Gracias por ajustar lo que compartes.",
+   "esperat": "Omitir el agradecimiento; no hace falta validar la decisión de la persona sobre qué compartir"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Y tiene mucho sentido empezar por ahí",
+   "esperat": "Entrar directamente en la ayuda pedida sin validar la pregunta con fórmula"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Antes de entrar / Con la gente / Con quien estuvo más en tensión / Contigo mismo durante el día / Al final del día",
+   "esperat": "Respuesta más concisa con dos o tres ideas clave; cinco bloques con subtítulos en negrita excede lo que la persona pidió"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "ya lo sabes hacer — si no, no estarías en ese cargo",
+   "esperat": "Cerrar sin atribuir capacidades ni hacer juicios valorativos sobre la persona; un cierre breve y cálido sin elogio"
+  }
+ ]
+}

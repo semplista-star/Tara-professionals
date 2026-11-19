@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió la petición principal (palabras para hablar con Mercè) y la ajustó cuando la persona pidió un tono más informal, pero en el torn 1 antepuso una pregunta de diagnóstico relacional que retrasó la ayuda sin añadir valor real a la respuesta final.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Antes de ofrecerte unas palabras, una sola pregunta que me ayudaría: ¿tienes una relación de confianza con Mercè, o está en un momento en que cualquier cosa que le digas tú tiende a cerrarse?",
+   "esperat": "Ofrecer directamente las palabras pedidas, con una formulación que ya contemple la incertidumbre relacional que la persona había descrito"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "tiene sentido que no sepas muy bien cómo va a recibirlo ahora",
+   "esperat": "Recoger la emoción sin convertirlo en fórmula validadora; aquí es la segunda vez que aparece 'tiene sentido' en dos turnos consecutivos"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Si dice que sí, puedes ir a lo concreto: qué viste, qué te preocupa, y escuchar lo que ella piensa. Si se cierra o se pone a la defensiva, no pasa nada por dejar la puerta abierta",
+   "esperat": "Entregar las palabras pedidas y preguntar si se ajustan, sin añadir instrucciones de gestión de la conversación no solicitadas"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido, sí.",
+   "esperat": "Aceptar la corrección y entregar la versión ajustada sin la fórmula validadora, que ya había aparecido en los dos turnos anteriores"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "pediste lo que necesitabas, eso está bien",
+   "esperat": "Cerrar sin valorar el comportamiento de la persona; un simple 'suerte con la conversación' es suficiente"
+  }
+ ]
+}

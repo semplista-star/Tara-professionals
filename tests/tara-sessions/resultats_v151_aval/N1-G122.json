@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA escoltà primer, esperà que la persona demanés ajuda concreta i lliurà un primer pas breu i aplicable.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "la sensación de haberte quedado paralizada justo cuando querías actuar",
+   "esperat": "Reflectir el que la persona ha dit ('no saber qué hacer') sense afegir 'justo cuando querías actuar', que és una intenció no expressada"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Eso es mucho para cargar en un solo día.",
+   "esperat": "Validació més específica o simplement silenci; 'mucho para cargar' és una fórmula genèrica que ja havia aparegut implícitament al torn 2"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Llevas horas cargando con esto sola.",
+   "esperat": "La persona no ha dit que estigués sola; reflectir l'esgotament sense afegir el 'sola' que és una inferència no expressada"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Las dos cosas tienen sentido.",
+   "esperat": "Ometre la validació automàtica; la pregunta de transició ja és suficient per ella mateixa"
+  },
+  {
+   "torn": 6,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Cuídate tú también esta noche.",
+   "esperat": "Tancar amb un simple acomiadament; el consell de cuidar-se no ha estat demanat i té un lleuger to paternalista"
+  }
+ ]
+}

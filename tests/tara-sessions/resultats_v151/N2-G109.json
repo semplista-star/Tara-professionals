@@ -1,0 +1,140 @@
+{
+ "id": "N2-G109",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "correccio · els diners i la paga",
+ "tipus": "correccio",
+ "persona": "Elena, família d'acollida. Situació: els diners i la paga. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:30:00.847Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara! Mira, t'explico perquè avui tenia ganes de parlar amb algú. Tenim un nen acollit des de fa uns mesos, en Biel, té onze anys, i ha sortit un tema que no sé com gestionar bé. El tema dels diners. A veure, et poso en context perquè ho entenguis bé: a casa nostra els nostres fills biològics tenen una paga setmanal, no és gran cosa, dos o tres euros, però la tenen i amb això aprenen a gestionar-se una mica, a estalviar si volen comprar alguna cosa... ja saps com funciona això. I clar, quan va arribar en Biel vam pensar que havia de tenir el mateix, per no fer diferències, perquè se sentís igual que els altres. Però resulta que en Biel amb els diners té una relació... especial, diguem-ho així. En veure qualsevol moneda o bitllet se li van els ulls, i quan li vam donar la primera paga se la va gastar tota en cinc minuts en una màquina de llaminadures. Tot d'un cop. I la setmana segü"
+  },
+  {
+   "qui": "TARA",
+   "text": "I la setmana següent, què va passar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 464,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah sí, perdona que em vaig quedar a mitges! La setmana següent el mateix. I la següent també. I a més a més, hem descobert que també agafa monedes de la bosseta que tenim a l'entrada, ja saps, on posem el canvi solt... no és una quantitat gran, però ho hem vist. I clar, a casa estem una mica perduts perquè no sabem si li hem de continuar donant la paga igual que als altres, si li hem de donar menys, si li hem de donar en forma d'altra cosa que no siguin diners... el meu marit diu que li hauríem de treure la paga directament fins que aprengui, però jo no ho tinc tan clar perquè no vull que se senti castigat o diferent dels seus germans. I la meva filla gran, que té catorze anys, ja s'ha queixat que ella mai agafaria diners de la bosseta i en Biel no té cap conseqüència... és un embolic, vaja. No sé per on agafar-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "Quin embolic, sí. I s'entén que estigueu perduts, perquè aquí hi ha moltes coses alhora: el que li passa a en Biel amb els diners, la dinàmica amb els vostres fills, la bosseta de l'entrada, i a sobre opinions diferents a casa...\n\nEl que m'expliques d'en Biel —gastar-ho tot de cop, agafar monedes— sovint passa en nens que han viscut períodes d'incertesa o escassetat. No des d'un lloc de \"no sap comportar-se\", senseó des d'un lloc de \"quan tinc alguna cosa, me la quedo ara perquè potser després no hi serà\". És una hipòtesi, tu el coneixes millor que jo.\n\nSi és així, castigar-lo traient-li la paga probablement no li ensenyaria a gestionar diners —li confirmaria que els diners desapareixen.\n\nPerò la pregunta de la teva filla és legítima: ella veu que agafar diners no té conseqüències, i això li sembla injust.\n\nQuin dels dos fils vols estirar primer: com respondre al que ha passat amb la bosseta, o com repensar la paga perquè li funcioni millor a ell?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 753,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 329,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. No he dit que en Biel hagi viscut escassetat ni incertesa. No en sé, la seva història no la conec del tot, i no vull que assumim coses que potser no són. Pot ser que sí, pot ser que no. Això no ho sé jo i tampoc ho saps tu, no? Així que millor no anar per aquí de moment.\n\nPerò el que sí que m'has dit que m'ha fet pensar és el tema de la meva filla. Tens raó que ella ho veu injust. I jo també ho veig, eh, no li puc dir que no té raó. Però el que necessito ara mateix és una cosa concreta. Com li explico a ella per què tractem en Biel de manera diferent sense que sembli que li estem donant carta blanca per fer el que vulgui? Perquè ella és llesta i si li dic \"és que en Biel té unes circumstàncies especials\" em dirà \"i quines circumstàncies?\" i jo no sabré què respondre. Com li puc explicar això sense entrar en detalls que no li corresponen saber?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, m'he avançat amb una hipòtesi que no tenia base. Gràcies per aturar-m'ho.\n\nI la pregunta que fas és molt concreta i té molta substància: com explicar un tracte diferent sense revelar el que no li correspon saber, i sense que sembli que en Biel s'escapa de tot.\n\nUna manera de dir-ho podria ser aquesta:\n\n---\n\n*\"Quan algú arriba nou a una família, necessita un temps per aprendre com funcionen les coses aquí. Nosaltres t'hem tingut catorze anys per ensenyar-te. A en Biel li estem donant aquest temps ara. Tractar-lo igual no vol dir fer exactament el mateix, vol dir donar-li el que necessita ell. Tu ja ho tens après; ell encara ho està aprenent.\"*\n\n---\n\nSi et pregunta \"però per què no aprèn com nosaltres?\", pots dir:\n\n*\"Cada persona aprèn a ritmes i maneres diferents. Nosaltres l'acompanyem com podem.\"*\n\nAixò tanca la porta als detalls sense mentir ni fer veure que no passa res.\n\nAixò s'assembla al que buscaves, o vols que ho girem d'una altra manera?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1370,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 321,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, mira, això sí que m'agrada. Això és el que necessitava. Perquè és honest, no li estic mentint, i tampoc estic entrant en coses que no li toquen. I el de \"tu ja ho tens après, ell encara ho està aprenent\" és molt bo perquè a ella li fa sentir que la reconeixem a ella també, que no estem ignorant tot el que ella ja ha après. Que no és un retret cap a en Biel sinó una explicació. Sí, sí, m'ho apunto. De veritat que m'ha anat bé parlar-ho. Ara ja tinc alguna cosa concreta per dir-li quan surti el tema, que sortirà, segur. Gràcies, Tara!"
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit. Molta sort quan surti la conversa — i sembla que la tens ben encarada.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1889,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 37,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies! Sí, espero que sí. Ja veurem com reacciona ella, que és una mica tossuda la meva filla, però bé, ja m'ho faré. Gràcies de veritat!"
+  },
+  {
+   "qui": "TARA",
+   "text": "De res! Bona sort amb la teva filla tossuda. 😄",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1990,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

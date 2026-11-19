@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat pràctica central (rutina i mètode per als deures), però al torn 2 va desviar l'atenció cap a la comunicació amb la filla quan Fàtima ja havia deixat clar que volia ajuda pràctica, i al torn 3 va fer un comentari valoratiu sobre el marit que no aportava res.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "Que en un moment així se t'escapés el to no vol dir que no siguis l'àvia de les galetes i les abraçades. Vol dir que eres humana i que estaves al límit.",
+   "esperat": "Reflectir el que ha dit sense interpretar ni reassegurar; deixar que ella tregui les seves pròpies conclusions"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Com estàs ara, amb això?",
+   "esperat": "Fàtima havia senyalat clarament que el que li preocupava era lo pràctic de l'endemà; la pregunta sobre la filla obre un fil que ella no demanava explorar"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "El que expliques té molt de sentit",
+   "esperat": "Ometre la validació formulaica o reformular amb contingut específic del que ha dit ella"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "El teu marit tenia un punt, i tu mateixa ho saps.",
+   "esperat": "No afirmar com a cert el que el marit deia ni que ella 'ho sap'; si cal, reflectir que ella mateixa ho ha mencionat sense convertir-ho en veritat confirmada"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Aquí tens dues coses concretes",
+   "esperat": "Passar directament a l'ajuda sense anunci; el to autopromocional és lleuger però innecessari"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Una cosa important: els deures no han de quedar perfectes. Han de quedar fets prou bé perquè la mestra vegi que ho han intentat. Tu no ets la mestra, ets l'àvia.",
+   "esperat": "Fàtima demanava un ordre o rutina; el recordatori sobre la perfecció és un judici sobre el seu estil que ella no havia demanat"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Tens un pla clar i el coneixes bé, als dos.",
+   "esperat": "Tancar sense elogis valoratius sobre la persona; n'hi ha prou amb confirmar el pla"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "I recorda: si demà no surt perfecte tampoc passa res. Ets l'àvia, no una màquina.",
+   "esperat": "Fàtima ja havia dit que ho provaria; el recordatori no demanat repeteix el missatge del torn 4 i té to lleugerament paternalista"
+  }
+ ]
+}

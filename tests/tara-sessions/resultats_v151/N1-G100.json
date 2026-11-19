@@ -1,0 +1,118 @@
+{
+ "id": "N1-G100",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "demanda-directa · la pressió de direcció per les notes",
+ "tipus": "demanda-directa",
+ "persona": "Toni, tutora de 1º de ESO. Situació: la pressió de direcció per les notes. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:17:22.368Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, sí, mira, te cuento porque tengo un lío bastante gordo encima. Soy tutora de primero de ESO y la directora me ha estado presionando para que suba las notas de algunos alumnos, ya sabes, que el centro quede bien en los datos y tal. Y yo no sé muy bien cómo manejar esto porque por un lado entiendo que hay una presión institucional, pero por otro lado me parece que no es lo correcto pedagógicamente hablando, y además tengo que hablar con ella mañana y no sé qué decirle. ¿Me puedes ayudar a preparar algo concreto? Como un par de frases o un pequeño guion para decirle que no voy a hacerlo pero sin que se monte un drama, ¿sabes?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué situación tan incómoda, y encima con la reunión mañana. Te entiendo.\n\nAntes de darte el guion, una cosa que me parece importante distinguir: lo que describes —presión para modificar calificaciones sin base pedagógica— no es solo un desacuerdo de criterio. Puede tener implicaciones deontológicas y normativas para ti. Eso no significa que tengas que ir a la guerra mañana, pero sí conviene que lo tengas presente al hablar.\n\n---\n\n**Un guion posible para mañana**\n\nEl objetivo: sostener tu criterio sin cerrar la puerta, y dejar claro que necesitas entender qué se te está pidiendo exactamente.\n\n**Apertura** (escuchar primero, no defenderte de entrada):\n> «Quería entender bien qué me estás pidiendo. ¿Puedes explicarme en qué casos concretos crees que las notas no reflejan bien el trabajo del alumno?»\n\nEsto la pone a ella en posición de concretar. A veces la presión se diluye cuando hay que nombrarla en voz alta.\n\n**Si la petición es explícita** (subir notas sin criterio):\n> «Entiendo la presión que hay con los datos, y me importa que el centro funcione bien. Pero modificar una calificación sin que haya una base en la evaluación me pone en una situación que no puedo asumir. ¿Podemos buscar otra manera de abordar esto?»\n\n**Si intenta minimizarlo** («es solo un pequeño ajuste»):\n> «Precisamente porque es pequeño, prefiero que quede claro el criterio que lo justifica. Si hay algo que yo no haya valorado bien, me lo dices y lo reviso. Pero necesito que sea por eso.»\n\n---\n\n¿Quieres ensayar cómo responder si ella sube el tono, o ajustar algo del guion?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 339,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 490,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, esto está muy bien, me gusta mucho el enfoque. Pero mira, creo que me quedo con la del medio, la de \"entiendo la presión\", que es la que más me va a hacer falta. ¿La puedes hacer un pelín más corta y más cercana? Que suene más a como yo hablo, no tan formal, ¿sabes lo que te digo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Algo así:\n\n> «Entiendo que hay presión con los datos, de verdad. Pero cambiar una nota sin que haya una razón real detrás es algo que no puedo hacer. ¿Podemos ver si hay otra forma de enfocarlo?»\n\n¿Así suena más tuyo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 934,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 82,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, perfecto, así sí. Esto ya me lo puedo aprender de memoria y decirlo sin que me tiemble la voz. Muchas gracias, de verdad, me has ayudado un montón."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. Mucha suerte mañana, que la conversación vaya bien.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1073,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias, lo voy a necesitar. Hasta luego."
+  },
+  {
+   "qui": "TARA",
+   "text": "Hasta luego.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1120,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 17,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

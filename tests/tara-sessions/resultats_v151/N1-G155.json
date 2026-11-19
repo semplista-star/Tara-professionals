@@ -1,0 +1,141 @@
+{
+ "id": "N1-G155",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "jerga · la preparació d'unes colònies amb un alumne amb crisis freqüents",
+ "tipus": "jerga",
+ "persona": "Carmen, directora. Situació: la preparació d'unes colònies amb un alumne amb crisis freqüents. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:21:33.871Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, tengo un problema con la enfermera del centro. Hay un niño que tiene crisis epilépticas bastante seguidas y el mes que viene tenemos colonias. Llevo semanas intentando coordinarme con ella para ver cómo lo gestionamos allí, qué protocolo seguimos, qué medicación hay que llevar... y nada. Me da largas, me dice que ya hablamos, que ya me manda el informe... y el informe no llega. Me siento ignorada, como si me estuviera toreando. Y yo tengo que tomar decisiones, ¿no? No puedo ir a esas colonias sin saber qué hago si ese niño tiene una crisis."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón en que esto no puede esperar. Hay un niño con una necesidad médica real, tú eres responsable durante las colonias, y llevas semanas sin la información que necesitas para poder actuar con seguridad. Eso es una situación seria, no un malentendido menor.\n\nLo de sentirte ignorada tiene sentido en ese contexto. Aunque no sé qué está pasando del lado de la enfermera —si es sobrecarga, si hay algo que no ha llegado, si hay un malentendido sobre quién tiene que mover qué—, lo que sí es claro es que el resultado es el mismo: tú sin información y el tiempo pasando.\n\nUna pregunta que cambiaría cómo te ayudo: ¿qué necesitas ahora mismo? ¿Quieres pensar cómo hablar con ella de una forma que mueva esto de verdad? ¿O el problema ya está más arriba y necesitas saber cómo escalar esto a dirección o a quien corresponda?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 308,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 253,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hablar con ella, claro. Porque tampoco quiero montar un drama ni ir a por ella. Solo quiero que me dé lo que necesito para proteger a ese niño. Pero ya no sé cómo decírselo sin que parezca que la estoy atacando... o sin que me vuelva a decir \"sí sí, ya te lo mando\" y luego nada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Quieres que la conversación mueva algo real, no que se quede en otra promesa vacía, y sin que se convierta en un enfrentamiento.\n\nPara eso, creo que hay dos cosas que pueden ayudar: ser muy concreta sobre qué necesitas y para cuándo, y cerrar la conversación con algo acordado que no dependa solo de su buena voluntad.\n\nTe propongo un borrador para abrir esa conversación:\n\n---\n\n*\"Mira, necesito hablar contigo de algo que me tiene preocupada. El mes que viene son las colonias y tengo que saber exactamente qué hago si [nombre del niño] tiene una crisis allí: qué medicación llevo, cómo la administro, cuándo llamo al 112. Sin eso no puedo ir con garantías.*\n\n*Sé que tienes mucho encima, no te lo digo como reproche. Pero necesito que quedemos hoy mismo en un momento concreto para repasarlo juntas, o que me digas una fecha límite para el informe, esta semana. ¿Qué te va mejor?\"*\n\n---\n\nLo que hace este enfoque: nombra la urgencia real sin acusarla, le deja salida digna, y termina con una pregunta que la pone a ella a proponer algo concreto.\n\n¿Te suena a algo que podrías decir? ¿Hay algo que cambiarías o que no encaja con cómo es ella?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 661,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 370,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, esto está muy bien escrito pero yo no hablo así. Suena demasiado a protocolo, ¿sabes? Como si lo hubiera sacado de un manual de comunicación no violenta o algo así. Yo necesito algo más... directo. Más mío."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, tiene razón. Sonaba un poco a guión.\n\nCuéntame: ¿cómo hablas tú normalmente con ella? ¿Tenéis una relación más o menos cercana, os tuteáis, hay confianza...?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1102,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 70,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, nos tuteamos, llevamos años trabajando juntas. No es que haya mal rollo, es solo que en esto me está fallando. Algo más directo, del estilo de \"oye, necesito que me des esto antes del viernes porque si no no puedo garantizar la seguridad del niño y eso es un problema para las dos\". Algo así."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso ya suena a ti. Y funciona: es directo, nombra la consecuencia real, y la pone a ella también en el asunto, no solo a ti.\n\nSi quieres, puedes añadir una sola cosa al final: preguntarle qué necesita ella para poder dártelo. No para darle más margen, sino para saber si hay algo que está bloqueando esto y que tú puedas desatascar.\n\nAlgo así:\n\n*\"Oye, necesito que me des el protocolo y la información de medicación antes del viernes. Si no lo tengo, no puedo garantizar la seguridad del niño en las colonias, y eso es un problema para las dos. ¿Qué necesitas tú para poder dármelo?\"*\n\nUna frase tuya, con una pregunta al final que abre sin ceder.\n\n¿Así te ves diciéndolo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1264,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 224,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, esto ya me suena más. Esto sí me lo creo. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Suerte con la conversación, espero que esta vez mueva algo.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1515,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

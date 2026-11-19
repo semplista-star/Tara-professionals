@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió la petición final (borrador) pero en el turno 1 no escuchó que la persona pedía opciones concretas con implicaciones y produjo un sermón con pregunta innecesaria al final; en el turno 2 se reajustó correctamente.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "alta",
+   "cita": "Una cosa que me parece importante: dirección ya te ha dado una indicación. Eso no te quita criterio, pero sí te da respaldo. La notificación a servicios sociales no es una acusación; es pedir que alguien con más herramientas que tú pueda mirar más de cerca.",
+   "esperat": "Presentar las dos opciones con implicaciones y parar; sin añadir valoración ni argumento a favor de una"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Qué es lo que más te frena? ¿La duda sobre si hay riesgo real, o algo más sobre cómo está siendo la relación con esa familia?",
+   "esperat": "No preguntar: la persona había pedido opciones, no exploración emocional"
+  },
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Pero si ya has hablado dos veces y no ha cambiado nada, ¿qué información nueva esperas obtener?",
+   "esperat": "Presentar la opción de esperar de forma neutral, sin cuestionar su validez con una pregunta retórica"
+  },
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que estés saturada.",
+   "esperat": "Omitir o integrar el reconocimiento de forma más específica y no formulaica"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "A veces lo que paraliza es no saber por dónde empezar, no la tarea en sí.",
+   "esperat": "Cerrar sin atribuir una causa interna no expresada por la persona"
+  }
+ ]
+}

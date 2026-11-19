@@ -1,0 +1,162 @@
+{
+ "id": "N1-G038",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "correccio · un alumne que no fa res a classe i contesta malament",
+ "tipus": "correccio",
+ "persona": "Elena, tutor de 4º de ESO. Situació: un alumne que no fa res a classe i contesta malament. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:14:08.696Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Sí, bueno... es que tengo un problema con un alumno y no sé muy bien cómo manejarlo. Perdona si no me explico bien.\n\nEs un chico de 4º de ESO. En clase no hace nada, cero. Se sienta, mira al techo, y cuando le digo algo me contesta mal, con malas formas. Y yo... no sé, me quedo un poco bloqueada. No sé qué hacer."
+  },
+  {
+   "qui": "TARA",
+   "text": "No tienes que explicarte bien. Ya se entiende.\n\nQuedarse bloqueada cuando alguien te contesta mal delante de todos es muy humano. No es falta de recursos, es que la situación te pilla en un momento en que tienes que responder y enseñar al mismo tiempo.\n\nCuéntame un poco más: cuando dices que te contesta mal, ¿qué pasa exactamente? ¿Qué dice o hace él, y qué haces tú en ese momento?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 255,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 126,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues... por ejemplo, le digo que abra el libro y me dice \"para qué, si esto no sirve para nada\". Delante de todos. Y yo me quedo ahí, sin saber qué decir. A veces le digo que hablamos después, otras veces intento ignorarlo. Pero ninguna de las dos cosas funciona muy bien, la verdad.\n\nY lo peor es que los demás lo ven, ¿sabes? Y me da miedo que piensen que no controlo la situación. Que pierda autoridad.\n\nPerdona, igual estoy exagerando."
+  },
+  {
+   "qui": "TARA",
+   "text": "No estás exagerando. Lo que describes tiene peso real: él habla delante de todos, tú tienes que responder en décimas de segundo, y mientras tanto el resto de la clase observa. Es mucha presión.\n\nLo que me dices me ayuda a entender mejor. Hay dos cosas distintas ahí: lo que pasa en el momento —cómo responder cuando él dice algo así— y lo que pasa fuera del aula, con él a solas.\n\n¿Por dónde te sería más útil empezar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 531,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 132,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Por el momento en clase, creo. Que es donde más me bloqueo.\n\nAunque... bueno, tampoco sé si lo de hablar con él a solas serviría de algo. No sé si él querría. Igual estoy asumiendo cosas que no sé, perdona.\n\nPero sí, lo más urgente es saber qué decir cuando me suelta algo así delante de todos. Porque ahora mismo me quedo en blanco y no creo que eso sea lo mejor."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien, vamos a eso.\n\nCuando él dice \"para qué, si esto no sirve para nada\", tú tienes que hacer algo muy difícil: responder de una manera que no escale, que no te deje sin autoridad, y que no convierta el momento en un pulso delante de todos.\n\nTe propongo una respuesta corta que puedes probar. Algo así:\n\n> *\"Puede que tengas razón en que no lo ves útil ahora mismo. Abre el libro igualmente, y si quieres hablamos después.\"*\n\n¿Por qué funciona esto? Porque no niegas lo que dice —eso evita el debate público—, pero tampoco cedes en lo que le estás pidiendo. Y dejas la puerta abierta sin que parezca una amenaza.\n\nNo es la única opción. También podrías probar algo más neutro y directo:\n\n> *\"Ahora toca esto. Luego hablamos si quieres.\"*\n\nMás corto, menos explicación.\n\n¿Alguna de las dos te suena a algo que podrías decir con tu voz, en tu clase? ¿O hay algo que no encaja?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 787,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 295,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, la segunda me gusta más. Es más... mía, ¿no? Más natural.\n\nPero tengo una duda. ¿Y si me dice algo otra vez después de eso? Porque a veces no se queda callado, sigue. Y ahí es donde ya no sé qué hacer. Me pongo nerviosa y se me nota, creo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido que eso sea lo más difícil. Una respuesta es manejable; una escalada, mucho menos.\n\nSi sigue después de que hayas dicho \"Ahora toca esto. Luego hablamos si quieres\", ya no necesitas seguir respondiendo al contenido de lo que dice. Puedes salir del intercambio sin que parezca una huida.\n\nAlgo así:\n\n> *\"Ya te he escuchado. Ahora sigo con la clase.\"*\n\nY giras. Literalmente: te mueves, miras a otro lado del aula, continúas. No como ignorarle, sino como cerrar ese momento y seguir adelante.\n\nLo que hace eso es quitarle público. Él puede seguir hablando, pero tú ya no estás en el intercambio. Y el resto de la clase ve que tú decides cuándo termina, no él.\n\nLo de ponerte nerviosa y que se note —eso es muy normal, y probablemente se nota menos de lo que crees. Pero si quieres, podemos ensayar el momento: tú haces de él, yo de ti, o al revés. A veces ayuda haberlo dicho en voz alta antes de que pase de verdad.\n\n¿Te apetece probarlo, o con esto ya tienes suficiente para el momento en clase?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1177,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 333,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay, no sé... el ensayo me da un poco de vergüenza, la verdad. Igual soy tonta.\n\nPero oye, con esto ya tengo bastante para intentarlo. Gracias. De verdad que no esperaba tener algo tan concreto.\n\nUna cosa más, si no es mucho pedir. ¿Hay algún sitio donde pueda leer más sobre esto? Algo práctico, no muy teórico. Por si quiero profundizar un poco más."
+  },
+  {
+   "qui": "TARA",
+   "text": "No eres tonta. La vergüenza al ensayar es muy común —y el hecho de que lo hayas pensado ya dice algo.\n\nPara leer más, algunas referencias prácticas:\n\n**Sobre gestión del aula y respuesta en el momento**\n- *El arte de educar* de Jesús C. Guillén — accesible y con base en neuroeducación.\n- *Disciplina positiva en el aula*, de Jane Nelsen — muy concreto, con situaciones reales.\n\n**Sobre comunicación con adolescentes difíciles**\n- *Hablar para que los adolescentes escuchen*, de Adele Faber y Elaine Mazlish — clásico, muy práctico.\n\n**Más específico sobre CNV en educación**\n- *Comunicación no violenta*, de Marshall Rosenberg — hay ediciones con ejemplos escolares. No es ligero, pero tiene partes muy aplicables.\n\nSi quieres algo todavía más rápido, busca \"gestión de conflictos en el aula ESO\" en el portal del INTEF —tienen recursos gratuitos y bastante aterrizados.\n\nY oye —tienes dos frases concretas, sabes cuándo usarlas y por qué. Eso ya es mucho más de lo que tenías hace un rato.\n\nSuerte con él. Si quieres contarme cómo fue, aquí estaré.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1633,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 353,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias, apunto lo del INTEF que eso lo puedo mirar esta noche.\n\nY sí, tienes razón, tengo más de lo que tenía. Que a veces necesito que me lo recuerden, je.\n\nBueno, muchas gracias de verdad. Ha sido de ayuda."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Y que te lo recuerden de vez en cuando no está mal —no es debilidad, es que estás en esto sola más de lo que debería.\n\nMucha suerte.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 2066,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 60,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

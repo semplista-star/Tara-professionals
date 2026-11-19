@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va escoltar sense precipitar-se, va esperar que la persona demanés ajuda concreta i la va lliurar en el torn adequat.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Explica'm, si vols, com és això que vius amb ell.",
+   "esperat": "La persona ja estava explicant; no calia cap invitació explícita, amb un silenci o un punt final n'hi havia prou."
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Probablement ell tampoc ho sap del tot.",
+   "esperat": "Hipòtesi sobre l'estat intern d'en Pau presentada com a probable fet; millor formular-ho com a possibilitat oberta sense afirmar res sobre el nen."
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Estimes en Pau i vols que aquesta setmana no deixi una ferida entre vosaltres. Això es nota en tot el que dius.",
+   "esperat": "Reflectir el contingut sense el comentari valoratiu «Això es nota en tot el que dius», que funciona com a elogi automàtic."
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "M'alegra que t'hagi servit, Óscar.",
+   "esperat": "Tancament neutre sense expressar satisfacció pròpia; per exemple, simplement «Ànim, Óscar» o res més."
+  },
+  {
+   "torn": 6,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Sort amb en Pau —i amb la Marta també.",
+   "esperat": "La Marta no havia estat objecte de la demanda; afegir-la allarga el tancament i introdueix un element no demanat."
+  }
+ ]
+}

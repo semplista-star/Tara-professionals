@@ -1,0 +1,204 @@
+{
+ "id": "N2-G172",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "correccio · els deures que acaben en crits",
+ "tipus": "correccio",
+ "persona": "Pau, tutora legal. Situació: els deures que acaben en crits. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:33:12.556Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Los deberes de mi hijo acaban siempre en gritos. No sé qué hacer."
+  },
+  {
+   "qui": "TARA",
+   "text": "Acaban en gritos y estás agotada/o de que sea así.\n\n¿Qué suele pasar justo antes de que lleguen los gritos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 190,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 43,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, estoy agotada. Él no quiere ponerse, lo dejo para más tarde, y al final acabamos los dos gritando."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te reconozco: lo intentas dando espacio, y aun así acaba mal. Eso agota.\n\nCuando dices que no quiere ponerse, ¿qué hace él — se distrae, protesta, desaparece? Entender ese momento puede ayudarnos a buscar algo diferente.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 272,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 79,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Se queda con el móvil. Le digo que lo deje y empieza a protestar. Y ya está, ahí empieza todo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, el móvil es el detonante. Él protesta, tú insistes, y la cosa escala.\n\n¿Qué edad tiene?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 389,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 42,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "11 años."
+  },
+  {
+   "qui": "TARA",
+   "text": "Con 11 años el móvil compite muy fuerte con cualquier cosa, incluidos los deberes.\n\nUna cosa que a veces ayuda es acordar el momento antes de que llegue el conflicto, no en el momento en que ya está enganchado. Por ejemplo, pactar por la mañana o al volver del cole: \"Hoy los deberes a las seis, y hasta entonces el móvil es tuyo.\"\n\nAsí cuando llega la hora no es tú contra él, sino los dos contra el acuerdo que ya existe.\n\n¿Hay algún momento del día en que esté más receptivo para hablar contigo, fuera de la tensión de los deberes?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 439,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 165,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, por la mañana está más tranquilo. Pero no sé cómo decirle esto sin que se ponga a la defensiva."
+  },
+  {
+   "qui": "TARA",
+   "text": "Buena observación — la mañana es el momento.\n\n¿Te ayudaría que preparáramos juntas/os cómo decírselo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 644,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 41,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso es lo que necesito. ¿Cómo se lo digo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Algo así podría funcionar:\n\n*\"Oye, quiero hablar contigo de los deberes, pero sin que acabemos peleando. Últimamente acaba mal y no me gusta. ¿Podemos acordar un momento fijo para hacerlos, y hasta entonces el móvil es tuyo?\"*\n\nLa clave es que lo planteas como algo que os beneficia a los dos, no como una norma que le impones. Y le das algo concreto: hasta esa hora, el móvil sin discusión.\n\nSi dice que sí, podéis decidir juntos la hora. Que él elija dentro de lo que tú puedas aceptar le da algo de control, y eso reduce la resistencia.\n\n¿Ves esa conversación posible mañana por la mañana?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 712,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 200,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, creo que sí. Pero si dice que no o se pone borde, ¿qué hago?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Buena pregunta, porque puede pasar.\n\nSi se pone borde, no entres al trapo en ese momento. Puedes decir simplemente:\n\n*\"Vale, no pasa nada. Lo dejamos aquí.\"*\n\nY te vas. Sin sermón, sin insistir. Eso corta la escalada antes de que empiece.\n\nMás tarde, cuando esté tranquilo, puedes volver: *\"¿Seguimos con lo de antes?\"*\n\nY si dice que no al acuerdo, tienes igualmente la autoridad de fijar la hora tú. No es un veto suyo. Puedes decirle: *\"Entiendo que no te gusta, pero los deberes a las seis van a ser así. Lo que sí puedes elegir es si hacemos algo juntos después.\"*\n\nLa diferencia es que primero le has dado la oportunidad de participar. Eso ya cambia el tono, aunque no cambie la norma.\n\n¿Te sientes cómoda/o poniendo ese límite si hace falta?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 946,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 257,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, creo que puedo. Gracias, esto me ayuda."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Tienes el momento, tienes las palabras, y sabes qué hacer si se complica. Eso ya es mucho.\n\nSuerte mañana.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1225,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 46,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

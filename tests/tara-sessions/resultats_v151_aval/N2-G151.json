@@ -1,0 +1,90 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió el fondo (preparar la conversación) pero no respondió a la petición explícita de la persona: ella pedía que le dijeran qué hacer, no que le explicaran opciones, y TARA tardó un turno en asumir esa función directiva.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Hay una cosa que me ayudaría saber para afinar esto: ¿cuánto tiempo falta aproximadamente para la mudanza?",
+   "esperat": "La persona ya había pedido una respuesta directa; la pregunta añade un paso que ella no pidió y retrasa la ayuda concreta"
+  },
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "No puedo decidir por ti, pero sí puedo ayudarte a ver qué implica cada opción",
+   "esperat": "La persona pidió explícitamente que le dijeran qué hacer; presentar opciones sin recomendación incumple la petición y obliga a un turno de corrección"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Lo entiendo, y tiene sentido querer que alguien te lo diga.",
+   "esperat": "Reconocimiento más breve y sin fórmula validadora antes de redirigir"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Pero esta decisión te pertenece a ti, porque tú conoces a tu hijo",
+   "esperat": "Tras la corrección explícita de la persona, TARA debería haber dado una recomendación directa en lugar de volver a devolver la decisión"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Sabes más o menos cómo suele reaccionar él cuando recibe noticias que no le gustan?",
+   "esperat": "La persona ya tenía suficiente para actuar; la pregunta abre un nuevo hilo de exploración que ella no solicitó"
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Cuántos años tiene él?",
+   "esperat": "Dato útil pero no imprescindible en este punto; la persona no lo ofreció y no lo pidió"
+  },
+  {
+   "torn": 5,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Hay algo concreto que crees que le va a costar más — los amigos, el colegio, otra cosa?",
+   "esperat": "TARA ya tenía suficiente contexto para cerrar con consejos concretos sin abrir otro hilo"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "puede tener opiniones fuertes sobre la mudanza, aunque no las diga en voz alta",
+   "esperat": "Hipótesis presentada como probable sin base en lo que la persona ha dicho; mejor formularla como posibilidad abierta"
+  },
+  {
+   "torn": 6,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Es normal que duela.",
+   "esperat": "Evitar fórmulas validadoras automáticas; si se incluye, integrarla de forma más específica al contexto"
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Sin añadir enseguida «pero ya harás nuevos amigos» — eso, aunque sea verdad, en ese momento no ayuda. Primero que sienta que le entiendes.",
+   "esperat": "Instrucción útil pero podría ser más breve; la persona escribe muy corto y la respuesta acumula varios consejos seguidos"
+  },
+  {
+   "torn": 8,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Confía en que le conoces bien.",
+   "esperat": "Cierre cálido pero sin juicio valorativo sobre la persona; bastaría con desearle suerte sin añadir la afirmación sobre sus capacidades"
+  }
+ ]
+}

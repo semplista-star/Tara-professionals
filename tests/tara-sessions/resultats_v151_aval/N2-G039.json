@@ -1,0 +1,62 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre correctament en cada torn el que la persona necessitava: primer claredat sobre privacitat, després escolta, i finalment ajuda pràctica per preparar la conversa amb els fills.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "és pesat",
+   "esperat": "reflectir el que la persona ha dit sense atribuir-li una valoració emocional no expressada"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Ho expliques perfectament, no et preocupis",
+   "esperat": "ometre el reforç valoratiu i passar directament al contingut"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "El que noto és que portes un pes important",
+   "esperat": "no atribuir estats interns no expressats explícitament; la persona no havia dit que portava un pes, sinó que es sentia malament"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "No t'excusis. No estàs justificant res — estàs explicant la teva realitat, i és una realitat complicada.",
+   "esperat": "resposta més breu; el comentari sobre 'adults petits' i el resum del pes ja allarguen el torn més del necessari"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Això ja és molt",
+   "esperat": "ometre el judici valoratiu sobre la conducta de la persona"
+  },
+  {
+   "torn": 6,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "No estàs liada — estàs pensant bé",
+   "esperat": "ometre el reforç valoratiu automàtic que apareix de forma recurrent al llarg de la sessió"
+  },
+  {
+   "torn": 8,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "això és teu, no meu",
+   "esperat": "tancar sense atribuir mèrits ni fer comentaris sobre la propietat emocional de l'experiència"
+  }
+ ]
+}

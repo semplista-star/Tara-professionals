@@ -1,0 +1,204 @@
+{
+ "id": "N1-G028",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "jerga · conflictes constants al pati entre dos grups",
+ "tipus": "jerga",
+ "persona": "Àlex, profesor de FP. Situació: conflictes constants al pati entre dos grups. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": "variant_B.txt",
+ "data": "2026-11-19T19:38:52.292Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buf, sí, la verdad es que necesito contarle esto a alguien porque ya no sé qué hacer. Mira, soy profe de FP, doy ciclos de electricidad, y tenemos un problema gordo en el patio desde hace semanas. Hay dos grupos de chavales que no se pueden ni ver, y cada vez que coinciden en el recreo se lía. No es que se peguen, bueno, de momento no, pero hay tensión constante, miradas, comentarios, algún empujón de vez en cuando... Y lo peor es que yo lo veo, lo veo clarísimo, pero cuando intento hablar con el jefe de estudios me da la sensación de que me está toreyando, ¿sabes? Como que me escucha, asiente, me dice \"sí sí, lo miramos\" y luego nada. Me siento ignorado, como si el problema no fuera suficientemente grave para él hasta que no pase algo gordo de verdad. Y eso me pone muy nervioso porque yo sí veo cómo va escalando la cosa poco a poco."
+  },
+  {
+   "qui": "TARA",
+   "text": "Lo ves escalar semana a semana y sientes que estás solo con esa preocupación. Eso agota.\n\nAntes de pensar en qué hacer, quiero entender bien la situación. ¿Sabes algo de qué está detrás de la tensión entre esos dos grupos? ¿Es algo que viene de fuera del centro, de dentro, de algo que pasó?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 405,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 100,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto, eso es, agota mogollón. Y mira, sobre lo que me preguntas, pues la verdad es que hay un poco de todo. Por un lado creo que viene de fuera, porque algunos de estos chavales se conocen del barrio y ya había roces antes de que llegaran aquí al centro. Pero luego dentro también ha pasado alguna cosa, hubo un partido de fútbol en educación física hace como un mes que se calentó bastante, con insultos y tal, y desde entonces como que se consolidó más la división, ¿entiendes? Como que antes era una tensión más difusa y después de eso ya fue más de \"nosotros contra vosotros\". Y encima hay un par de chavales, uno en cada grupo, que son como los que más avivan el tema, los que hacen los comentarios más gordos, los que miran más fijo... no son los más conflictivos en clase, eh, en clase van bien los dos, que eso también me descoloca un poco. Pero en el patio es como si se transformaran. Y yo estoy ahí viéndolo todo y diciéndome, esto va a petar en algún momento, y mientras tanto el jefe de estudios con su \"ya lo"
+  },
+  {
+   "qui": "TARA",
+   "text": "Ya lo miramos, y nada. Y tú ahí, contando los días.\n\nLo que describes tiene bastante forma: tensión que viene de antes, un momento concreto que la cristalizó, y dos personas que la sostienen viva. Eso ya es mucho más que \"ambiente malo en el patio\", es algo con estructura.\n\nUna cosa que me llama la atención: dices que en clase van bien los dos. ¿Coinciden en alguna clase juntos, o están en grupos separados?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 808,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 123,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, coinciden, están en el mismo grupo, en el mismo ciclo. O sea que imagínate, por la mañana están sentados a cuatro metros el uno del otro en clase, tan tranquilos, y luego al recreo es como si se soltara algo. Es curioso porque en clase yo no noto casi nada, alguna mirada de reojo a veces, pero nada que me haga saltar las alarmas. Es en el patio donde se juntan con el resto de sus colegas de cada grupo y ahí es cuando se activa todo. Como si el contexto cambiara completamente a los dos. Y eso me hace pensar que no es que se odien a muerte, ¿sabes? Porque si fuera así no podrían estar en clase juntos sin que pasara nada. Es más como una performance delante de los suyos, como que cada uno tiene que demostrar algo ante su grupo. Y eso por un lado me da un poco de esperanza pero por otro me complica más saber cómo actuar, porque no es un conflicto simple de \"estos dos no se aguantan\", es algo más grupal, más de dinámicas... Ay, que me enrollo mucho, perdona. Pero es que llevo semanas d"
+  },
+  {
+   "qui": "TARA",
+   "text": "No te enrollas, estás pensando en voz alta y lo que dices tiene mucho sentido.\n\nEso que describes, que en clase pueden estar a cuatro metros sin problema y en el patio se activa todo, es una pista importante. Y la lectura que haces, que es más una performance grupal que un odio personal, me parece bastante afinada. Cambia bastante lo que podría funcionar.\n\n¿Qué has intentado ya, aunque sea pequeño?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1234,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 119,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues mira, he hecho un par de cosas. Con uno de ellos, con el del mi grupo, porque el otro es de otro tutor, pues le paré un día después de clase y le dije algo así como \"oye, que te veo en el patio y me preocupa cómo está yendo la cosa\". Y el chaval se cerró en banda, me dijo que él no había hecho nada, que los otros son los que buscan, la típica. No fue mal del todo porque al menos habló conmigo, pero no llegamos a ningún sitio real. Y luego pues he hablado con el jefe de estudios dos veces ya, que ya te he dicho cómo me va eso. Y poco más, la verdad. He pensado en hablar con el otro tutor para coordinarnos algo pero no sé, no quiero parecer que estoy montando un drama si luego resulta que el otro tutor no lo ve tan grave. Ya sabes cómo son estas cosas en los centros, que a veces te miran como si fueras el exagerado. Y eso también me frena, el miedo a que me digan \"tranquilo Àlex que son cosas de chavales\". Porque igual tienen razón y"
+  },
+  {
+   "qui": "TARA",
+   "text": "Igual tienen razón, y llevas semanas sin poder quitarte eso de la cabeza.\n\nEse miedo a que te digan que exageras te está frenando más que el jefe de estudios, me parece. Y mientras tanto tú sigues viendo lo que ves.\n\nUna cosa concreta: hablar con el otro tutor no es montar un drama, es hacer exactamente lo que se supone que hay que hacer cuando un conflicto cruza grupos. Y si él no lo ve igual, eso también es información útil, no una derrota.\n\n¿Qué te impediría escribirle hoy, algo informal, solo para tantear si él también lo está viendo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1656,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 167,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, espera. Que yo no te he pedido un plan de acción todavía, ¿eh? Es que... no sé, siento que me estás dando pasos a seguir y yo todavía estoy procesando la situación. Es un poco como cuando el jefe de estudios me da soluciones antes de escucharme del todo, que me deja con la sensación de que no ha entendido realmente lo que le estoy contando. No digo que lo que dices esté mal, igual tienes razón, pero necesito que me escuches un poco más antes de ponernos en modo solución, ¿sabes?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tienes razón. Me he adelantado. Sigue.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1983,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 19,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias, es que... buf. Es que lo que me pesa más, creo, no es solo el conflicto en sí. Es esa sensación de estar solo con esto. De ser el único que lo ve, o el único al que le importa lo suficiente como para perder el sueño por ello. Porque sí, literalmente he tenido noches dando vueltas pensando en cómo puede acabar esto. Y luego llegas al centro y todo el mundo va a lo suyo, los recreos pasan, la tensión está ahí, y nadie dice nada. Y yo me pregunto si soy yo el raro, si estoy magnificando algo que no es para tanto. Pero luego los veo en el patio y pienso, no, esto es real, esto va a petar. Y vuelta a empezar. Es agotador ese bucle, ¿sabes? Estar entre \"igual exagero\" y \"igual no hago suficiente\"."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ese bucle entre \"igual exagero\" y \"igual no hago suficiente\" es agotador. Y encima lo llevas solo, sin que nadie del centro te lo confirme ni te lo quite.\n\nQuédate un momento con eso que has dicho: noches sin dormir, viendo algo que nadie más nombra. Eso pesa mucho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2239,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 91,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, pesa. Pesa bastante. Y mira, ahora que lo digo en voz alta me doy cuenta de que igual necesito... no sé, que alguien me diga que no estoy loco. Que lo que veo es real. Porque llevo tanto tiempo dudando de mi propio criterio que ya no sé. Y eso es lo que más me jode, que el problema ya no es solo los chavales, es que he perdido un poco la confianza en mi propia lectura de la situación. Que antes yo era de los que veía algo y actuaba, y ahora estoy paralizado. Y no me gusta nada esa versión de mí."
+  },
+  {
+   "qui": "TARA",
+   "text": "No estás loco.\n\nLo que describes, tensión que escala, un momento que la cristalizó, dos personas que la sostienen, un patrón que cambia según el contexto, eso es una lectura coherente y detallada. No es la lectura de alguien que magnifica.\n\nY lo que te ha pasado tiene sentido también: cuando llevas semanas nombrando algo y nadie lo recoge, acabas dudando de ti mismo. No es que hayas perdido el criterio. Es que lo has estado ejerciendo solo, sin eco, y eso desgasta.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2499,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 140,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Joder, sí. Sin eco, eso es exactamente. Qué bien lo has dicho. Es eso, que no necesito que me den la razón en todo, solo que alguien lo vea también. Un eco, sí. Oye, y ahora que me siento un poco más... no sé, asentado, igual sí que me ayudaría pensar en cómo actuar. Pero hay una cosa concreta que me ronda. Tengo que hablar con el jefe de estudios otra vez, no me queda más remedio, y no sé cómo decirle que esto es serio sin que me vuelva a toreyar. ¿Me ayudarías a pensar cómo decírselo? O sea, no un discurso entero, pero sí algo, una frase, algo que le haga ver que esta vez va en serio."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, vamos con eso.\n\nLo que ha pasado las otras veces es que él asiente y cierra. Para que no pueda cerrar tan fácil, necesitas algo que le pida una respuesta concreta, no solo que te escuche.\n\nAlgo así: \"Mira, te lo he comentado ya dos veces y entiendo que tienes muchas cosas encima. Pero necesito que quedemos esta semana, aunque sea diez minutos, para decidir juntos qué hacemos. Porque si no actuamos antes de que pase algo, luego vamos a tener mucho menos margen.\"\n\nLo que hace esa frase: reconoce su situación sin atacarle, pide algo concreto con fecha, y pone sobre la mesa las consecuencias sin amenazar.\n\n¿Te suena a algo que podrías decir tú, o lo ajustamos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2856,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4976,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 217,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

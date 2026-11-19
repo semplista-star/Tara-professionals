@@ -1,0 +1,55 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió correctamente en cada turno lo que Óscar necesitaba: primero información sobre privacidad, luego escucha, luego ayuda concreta para preparar una conversación con su pareja.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Eso cansa mucho.",
+   "esperat": "Reflejar lo que la persona ha expresado sin añadir un estado emocional no mencionado; p. ej. 'Ese lugar intermedio que describes es uno de los más difíciles.'"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "No es que estés haciendo algo mal; es que la posición en sí es complicada.",
+   "esperat": "Óscar no había pedido una valoración de si lo hace bien o mal; bastaba con reconocer la dificultad de la posición sin añadir ese juicio tranquilizador."
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene todo el sentido que salga así",
+   "esperat": "Evitar la fórmula validadora automática 'tiene todo el sentido'; conectar directamente con lo que la persona acaba de decir."
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Una cosa que suele ayudar es separar el momento de la conversación. No para no decirlo, sino para decirlo cuando haya más posibilidades de que llegue. Algo tan sencillo como, ese mismo día o al día siguiente, decirle: «Quiero hablar contigo de algo que me importa. ¿Cuándo tienes un rato?» — sin entrar todavía en el tema. Eso ya cambia el tono. Y luego, cuando os sentéis, partir de cómo te quedas tú, no de lo que él hace. Por ejemplo, en lugar de «no me apoyas» — que él probablemente vivirá como un ataque — algo como: «Cuando la comida se complica y no sé cuál es mi lugar, me quedo con una sensación de estar sola. Necesito saber que estamos en esto juntos.»",
+   "esperat": "La ayuda pedida era preparar la conversación; el turno podría haberse limitado a uno de los dos elementos (momento o formulación) y preguntar si quería el otro, en lugar de entregar ambos de golpe con explicaciones añadidas."
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "que él probablemente vivirá como un ataque",
+   "esperat": "Atribuir una reacción interna a una tercera persona (la pareja) que no está presente; bastaba con decir 'una formulación que parta de ti tiene más posibilidades de ser escuchada' sin predecir su vivencia."
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "lo que has dicho al final me parece muy honesto",
+   "esperat": "Evitar el juicio valorativo sobre la persona; si se quiere reflejar el cierre, basta con devolver el contenido sin calificarlo ('reconocer que en caliente te sale al revés ya es información útil')."
+  }
+ ]
+}

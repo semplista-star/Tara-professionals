@@ -1,0 +1,34 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la demanda però va retardar la lliura del borrador un torn amb una pregunta prèvia que, tot i tenir certa lògica, no era imprescindible per redactar un primer missatge útil.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Abans de redactar, una cosa que canviaria el to del missatge: el grup de WhatsApp és de famílies, d'alumnes, o mixt?",
+   "esperat": "Lliurar directament un borrador adaptat al context ja descrit (professora substituta, insults, grup de classe) i oferir ajust si cal"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "És directe, no assenyala ningú, obre un espai presencial i deixa una porta oberta.",
+   "esperat": "Lliurar el text sense glossar-ne les virtuts; la persona pot valorar-lo sola"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "El canvi principal és que parla de l'efecte de les paraules sense jutjar ningú, i el \"amb calma\" dona una mica de to humà sense perdre el fil.",
+   "esperat": "Lliurar la versió revisada sense explicar els canvis tret que la persona ho demani"
+  }
+ ]
+}

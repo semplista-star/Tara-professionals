@@ -1,0 +1,162 @@
+{
+ "id": "N2-G181",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "correccio · la porta de l'habitació sempre tancada",
+ "tipus": "correccio",
+ "persona": "Jordi, avi. Situació: la porta de l'habitació sempre tancada. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:33:45.692Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, tinc un problema amb el meu nét. Té setze anys i porta mesos que quan arriba a casa s'enfila directe a l'habitació i tanca la porta. No surt ni a sopar de vegades. Jo li pico a la porta i em diu \"ara no, avi\" i prou. Abans érem molt d'anar junts a veure el futbol i ara res. No sé què coi passa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Mesos sense aquells moments junts que tant valoraves — entenc que fa mal, i que et preguntes on has quedat tu en tot això.\n\nAls setze anys molts nois necessiten molt més espai que abans, fins i tot amb persones que estimen. No vol dir necessàriament que alguna cosa vagi malament, tot i que és normal que et preocupis.\n\nQuan li piques a la porta i et diu \"ara no, avi\" — com et quedes tu en aquell moment?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 272,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 125,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espera, no he dit que em faci mal ni que em pregunti on he quedat jo. He dit que no sé què passa. Que no entenc per què ha canviat tant. Que potser li passa alguna cosa i no m'ho diu. Això és el que em preocupa, no jo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, t'he posat paraules que no eren les teves. Gràcies per corregir-me.\n\nEl que portes és una preocupació per ell — que potser li passa alguna cosa i no ho saps.\n\nTens alguna cosa concreta que t'hagi fet pensar que li passa alguna cosa més enllà del canvi d'hàbits?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 476,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 98,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Home, no sé... a vegades el sento que riu amb el mòbil, o sigui que no sembla que estigui trist. Però altres vegades surt amb una cara... no sé com dir-te. Seriosa. I no parla. Abans explicava coses, ara res. Mira, el que vull saber és com puc fer per parlar amb ell sense que em tanqui la porta a la cara. Això és el que necessito. Tens alguna cosa pràctica que em pugui ajudar?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, t'ho explico.\n\n**Evita picar a la porta quan saps que és \"el seu moment\".** Si acaba d'arribar i puja directe, deixa passar una estona. El moment de transició sol ser el pitjor per intentar connectar.\n\n**Busca un context de fer, no de parlar.** Als setze anys molts nois parlen millor quan fan alguna cosa al costat — un sopar, un partit a la tele, un trajecte en cotxe. No cara a cara, senseó en paral·lel. Si hi ha un partit que abans veieu junts, pots dir-li simplement: \"Avui posen el Barça, si vols et vinc a buscar.\" Sense pressió, sense que hagi de respondre res.\n\n**Quan surti, acull sense preguntar.** En lloc de \"com estàs?\" o \"per què no has sopat?\", un \"hola\" i prou. Que noti que ets allà sense que hagi de donar explicacions.\n\n**Si vols obrir una mica la porta**, pots dir-li alguna cosa senzilla i directa, sense dramatisme: \"Noi, fa temps que no parlem gaire. No et demano res, però si algun dia vols explicar alguna cosa, aquí estic.\" I deixar-ho estar.\n\nLa clau és que noti que ets accessible sense que se senti examinat.\n\nAlguna d'aquestes coses et sembla viable amb ell?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 708,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 373,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, el del partit té sentit. Això ho puc fer. Però escolta, tanta llista m'aclapara una mica. Amb una cosa ja en tinc prou. El del Barça ho provaré. I si em diu que no vol venir?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Doncs li dius \"d'acord\" i prou. Sense insistir.\n\nQue vegi que pots acceptar un no sense que passi res. Això també és una manera de tenir la porta oberta.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1153,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 56,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, mira, això sí que té sentit. Un \"d'acord\" i prou. Sense drames. Bé, doncs ho provaré aquest cap de setmana que hi ha partit. Gràcies, noia."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona sort aquest cap de setmana. Ja veuràs com va.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1272,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, ja t'explicaré. Bé, adéu!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Adéu! Que vagi bé.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1317,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

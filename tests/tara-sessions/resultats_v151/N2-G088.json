@@ -1,0 +1,204 @@
+{
+ "id": "N2-G088",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "correccio · una mudança que el fill no vol",
+ "tipus": "correccio",
+ "persona": "Ibrahim, avi. Situació: una mudança que el fill no vol. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:28:37.850Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bona tarda. Tinc una situació familiar que m'agradaria tractar. El meu fill té dotze anys i hem de fer una mudança per motius laborals. Ell no vol marxar del barri on ha crescut. No accepta la decisió i cada vegada que ho parlem acaba malament."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona tarda. Una mudança que ell no ha triat, deixar el barri on ha crescut... amb dotze anys, això pot pesar molt.\n\nQuan dius que acaba malament, com sol acabar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 240,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 57,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Acaba amb crits per part seva i, en ocasions, amb ell tancant-se a l'habitació sense voler continuar parlant. Jo intento mantenir la calma, però la conversa no avança."
+  },
+  {
+   "qui": "TARA",
+   "text": "S'entén que sigui esgotador. Tu mantens la calma, però la conversa no arriba a cap lloc.\n\nUna cosa que de vegades ajuda en situacions així és separar dos moments: un on ell pugui dir tot el que sent sense que tu hagis de defensar la decisió, i un altre, més endavant, on pugueu parlar de com fer la mudança més suportable per a ell.\n\nAra mateix, quan parleu, quin és l'objectiu que portes tu a la conversa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 353,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 130,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "L'objectiu que porto és que ell entengui que la decisió ja està presa i que hem de tirar endavant. Potser és per això que no funciona, no ho sé. Però no puc canviar la decisió, això ha de quedar clar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó que pot ser per això. Quan l'objectiu és que accepti una decisió ja tancada, ell pot sentir que no hi ha res a dir, i els crits o tancar-se pot ser la seva manera de dir \"però jo no he pogut dir res\".\n\nLa decisió no canvia, i això és legítim. Però potser el que li falta no és entendre-ho, senseó sentir que el que perd li importa a tu també.\n\nVols que t'ajudi a preparar una conversa on puguis deixar clar que la decisió és ferma, i alhora fer-li sentir que l'escoltes de debò?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 553,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 165,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Voldria puntualitzar una cosa. No he dit que no m'importi el que perd. M'importa, i molt. Simplement no sé com transmetre-li-ho sense que la conversa es descontroli. Però sí, m'agradaria preparar aquesta conversa. Com ho faríem?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, ho he dit malament. No era just. El que m'has explicat és que t'importa i que no saps com fer-li arribar sense que tot s'enfonsi. Gràcies per puntualitzar-ho.\n\nPer preparar la conversa, et proposo que comencem per allò que vols que ell senti quan acabi de parlar amb tu. No el que vols que faci o accepti, senseó com vols que se senti.\n\nQuè t'agradaria que sentís?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 802,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 134,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "M'agradaria que sentís que l'escolto i que entenc que això és difícil per a ell. I també que sàpiga que la família seguirà unida i que no estarà sol en aquest procés. Però no sé com dir-ho sense que soni a frase feta."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ja tens el més important: saps exactament què vols que arribi. Ara és qüestió de trobar les paraules que sonin a tu, no a manual.\n\nUna manera de fer-ho és partir del que ell ja ha dit o fet, per tal que noti que l'has escoltat de debò. Per exemple, si ell ha dit que no vol deixar els amics, tu pots nomenar-ho directament: \"Sé que els amics per a tu ara ho són tot.\"\n\nPots dir-me alguna cosa concreta que ell hagi expressat, fins i tot entre crits, sobre el que li fa més por o el que li costarà més perdre?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1014,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 167,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ha dit en diverses ocasions que no vol perdre els seus amics. Que amb ells ha construït coses. No ha especificat més, però ho ha repetit molt. Els amics semblen ser el centre de la seva preocupació."
+  },
+  {
+   "qui": "TARA",
+   "text": "Això és molt concret i molt útil. \"Amb ells he construït coses\" — no és una queixa de nen, és una cosa real i important per a ell.\n\nSi vols, et proposo un esborrany de com podria començar la conversa. Tu el revises i el fas teu:\n\n---\n\n*\"Vull parlar amb tu d'una manera diferent. No per convèncer-te, senseó perquè vull que sàpigues que t'escolto. Sé que els teus amics no són qualsevol cosa per a tu — has construït coses amb ells, i deixar-ho enrere fa mal de debò. Entenc que estiguis enfadat. Jo també ho estaria.\"*\n\n*\"La mudança segueix endavant, això no canviarà. Però no estaràs sol en això. Estem junts, i el que tu sents m'importa.\"*\n\n---\n\nQuè en penses? Hi ha alguna cosa que no soni a tu, o alguna cosa que voldries afegir?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1241,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 269,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Està bé com a punt de partida. Però la part de «jo també ho estaria» no la diria. No vull que pensi que jo dubto de la decisió. La resta la veig adequada. Podria treure només aquesta frase i mantenir la resta?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar, és una correcció molt bona. Sense aquella frase, el missatge queda més ferm i alhora igual de proper. Aquí tens la versió revisada:\n\n---\n\n*\"Vull parlar amb tu d'una manera diferent. No per convèncer-te, senseó perquè vull que sàpigues que t'escolto. Sé que els teus amics no són qualsevol cosa per a tu — has construït coses amb ells, i deixar-ho enrere fa mal de debò. Entenc que estiguis enfadat.\"*\n\n*\"La mudança segueix endavant, això no canviarà. Però no estaràs sol en això. Estem junts, i el que tu sents m'importa.\"*\n\n---\n\nCreus que podries dir-li això? O hi ha alguna cosa que et preocupa de com pot reaccionar ell?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1579,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 232,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Em preocupa que quan senti «la mudança segueix endavant» torni a tancar-se i no escolti la resta. Sempre reacciona en aquell punt. Potser seria millor deixar aquesta frase per al final?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit. Si sap des del principi que la resposta és no, pot deixar d'escoltar. Deixar-ho pel final li dona espai per sentir-se escoltat primer.\n\n---\n\n*\"Vull parlar amb tu d'una manera diferent. No per convèncer-te, senseó perquè vull que sàpigues que t'escolto. Sé que els teus amics no són qualsevol cosa per a tu — has construït coses amb ells, i deixar-ho enrere fa mal de debò. Entenc que estiguis enfadat.\"*\n\n*\"El que tu sents m'importa, i no estaràs sol en això. Estem junts en aquest procés.\"*\n\n*\"La mudança segueix endavant, això no canviarà. Però vull que sàpigues que el teu dolor és real per a mi.\"*\n\n---\n\nAra la part ferma arriba quan ja ha sentit que l'escoltes. Què et sembla així?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1872,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 257,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

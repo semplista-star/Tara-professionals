@@ -1,0 +1,27 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 2,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA entendió desde el primer turno que la persona solo quería desahogarse y se mantuvo en escucha sin ofrecer consejos ni derivar.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Qué agotamiento",
+   "esperat": "Reflejar lo que la persona expresó sin añadir un estado emocional no nombrado por ella; por ejemplo, repetir o parafrasear sus propias palabras"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Eso duele mucho",
+   "esperat": "La persona no había dicho que le dolía en ese momento; mejor devolver sus palabras: 'sentirte un estorbo en tu propia casa, después de todo lo que has dado'"
+  }
+ ]
+}

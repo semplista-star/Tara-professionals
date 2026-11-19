@@ -1,0 +1,34 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entengué correctament que Luis volia ser escoltat primer i, quan demanà ajuda concreta, la lliurà de forma precisa i sense afegits",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "me alegra que lo hayas contado",
+   "esperat": "continuar reflectint el contingut emocional sense avaluar l'acció de Luis"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "eso duele, aunque no sepas exactamente qué significa todavía",
+   "esperat": "reflectir el que Luis ha expressat sense afirmar que li fa mal, o formular-ho com a hipòtesi oberta"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Me alegra. Suerte esta tarde.",
+   "esperat": "resposta adequada en brevetat; no és un problema real, però 'me alegra' repeteix el patró d'avaluació del torn 3"
+  }
+ ]
+}

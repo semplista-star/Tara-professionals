@@ -1,0 +1,206 @@
+{
+ "id": "N1-G089",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "humor · un alumne que no fa res a classe i contesta malament",
+ "tipus": "humor",
+ "persona": "Laia, mestra d'infantil. Situació: un alumne que no fa res a classe i contesta malament. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:17:20.740Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, estic aquí perquè tinc un alumne de P5 que em té al límit i he pensat que millor parlar amb una IA que no pas cridar enmig del pati. 😅"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona decisió. 😄\n\nExplica'm: què passa amb aquest alumne?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 200,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs que no fa res. Res de res. Li poses una activitat i et mira com si li estiguessis demanant que construís la Sagrada Família. I si li dius alguna cosa, et contesta amb una mala llet que per a un nen de cinc anys és bastant impressionant, francament."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cinc anys amb mala llet de categoria. Entenc que esgota.\n\nQuan dius que no fa res — és a totes les activitats, o hi ha alguna cosa que sí que l'enganxa, encara que sigui una mica?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 308,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 65,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bona pregunta. A vegades amb els blocs de construcció s'hi posa, però dura cinc minuts i ja s'ha cansat o ha discutit amb algú. Amb tot el que és més dirigit, paper, llapis, escoltar... res. Desconnecta totalment o munta el número."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cinc minuts amb els blocs ja és alguna cosa — i que acabi en discussió també diu coses.\n\nAbans de seguir: com estàs tu amb tot això? Perquè \"tenir-te al límit\" és una cosa real, i m'interessa saber si necessites desfogar una mica més o si prefereixes que ens posem a pensar junts en com abordar-ho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 454,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 104,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bueno... sí, estic cansada. Tinc vint-i-dos nens més a la classe i de vegades sento que aquest nen m'absorbeix tota l'energia i els altres ho paguen. I em sap greu, perquè no és culpa seva, però és que no sé què més fer. Ja ho he provat de moltes maneres i res. Així que sí, necessito idees concretes, perquè desfogar ja ho faig a casa amb la meva parella, pobret. 😅"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès. Idees concretes, que és el que toca ara.\n\nUna cosa que m'ajudaria a afinar-les: tens alguna idea de com és aquest nen fora de l'escola? Família, context, si hi ha alguna cosa que l'equip ja sàpiga — o és un misteri bastant gran encara?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 695,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 86,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Algo sé. La família és complicada, hi ha hagut canvis a casa fa uns mesos, crec que els pares s'han separat. La mare ve a buscar-lo i es veu que està molt desbordada. Hem parlat una vegada però va ser una mica tensa, no va ser fàcil. Amb l'equip ho hem comentat per sobre però tampoc hem fet res concret encara."
+  },
+  {
+   "qui": "TARA",
+   "text": "Això ajuda molt a entendre el quadre.\n\nUn nen de cinc anys amb canvis grans a casa, una mare desbordada, i a l'aula una energia que no sap on posar — la mala llet i el \"no faig res\" sovint són la manera que tenen a aquesta edat de dir que estan molt plens per dins.\n\nAixò no treu que sigui esgotador per a tu. Les dues coses són certes.\n\nEt proposo que pensem en tres fronts, si et sembla bé:\n\n**A l'aula**, com reduir la fricció del dia a dia sense que et costi tota l'energia.\n\n**Amb ell**, si hi ha alguna manera de crear un petit vincle que li doni una mica d'ancoratge.\n\n**Amb l'equip i la família**, perquè això ja supera el que una mestra sola pot sostenir.\n\nPer on vols començar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 887,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 232,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, l'equip i la família ja sé que ho hauré de moure, però ara mateix el que més m'ofega és el dia a dia a l'aula. Dona'm alguna idea concreta per a demà, que sigui realista, perquè no tinc temps ni energia per a grans projectes."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecte. Coses petites per demà.\n\n**Una: dona-li un rol, no una tasca.**\nEn comptes de \"fes això\", prova \"necessito que tu m'ajudis amb això\". Repartir materials, ser l'encarregat de posar els blocs al lloc, el que sigui. A P5 el sentiment de ser útil enganxa més que la consigna.\n\n**Dues: avança-li el que vindrà.**\nAbans de canviar d'activitat, digue-li a ell primer, en veu baixa: \"D'aquí a dos minuts recollim.\" Els canvis sobtats són molt difícils per a nens que ja van carregats. Dos segons teus, menys explosió.\n\n**Tres: no negociis quan ja ha esclatat.**\nSi munta el número, menys paraules millor. Veu tranquil·la, frase curta, i si cal, espai físic — que es pugui moure una mica sense que sigui un premi ni un càstig.\n\nCap de les tres requereix preparació especial. Les pots provar demà tal com arribes.\n\nAlguna d'aquestes et sembla viable, o hi ha alguna cosa de la teva aula que faria que no funcionés?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1200,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 323,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La del rol m'agrada. Això ho puc fer. La d'avisar-lo abans dels canvis també té sentit, ara que ho dius, perquè és veritat que els moments de transició són un desastre amb ell. Això ho provaré. Gràcies, de veritat, que necessitava això."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que et serveixi. Demà ja em diràs. 🙂\n\nI quan estiguis llesta per moure el tema de l'equip o la família, aquí estaré.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1607,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 54,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí. Quan m'hi posi amb l'equip tornaré. Gràcies, Tara. Ara me'n vaig que tinc les tutories a punt de començar. 😅"
+  },
+  {
+   "qui": "TARA",
+   "text": "Endavant, que les tutories t'esperen. Sort!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1719,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

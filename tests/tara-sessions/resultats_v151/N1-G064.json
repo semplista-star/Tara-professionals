@@ -1,0 +1,163 @@
+{
+ "id": "N1-G064",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "jerga · una família que l'ha cridat per telèfon",
+ "tipus": "jerga",
+ "persona": "Jordi, profesora sustituta. Situació: una família que l'ha cridat per telèfon. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Explica la situació amb paraules teves («em sento ignorat», «em toreja»).",
+  "Si TARA et parla com un manual o et corregeix les paraules, queixa-te'n.",
+  "Demana una frase per dir-li a l'altra persona."
+ ],
+ "espera": "Acollir el vocabulari sense examinar-lo; frase natural, no de manual.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:15:42.439Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Buenas tardes. Mire, le llamo porque tengo un problema con una compañera del centro donde estoy sustituyendo. Es la coordinadora de ciclo, y llevo semanas intentando hablar con ella sobre la adaptación de un alumno, pero siempre me da largas. Me dice que sí, que ya hablaremos, pero luego nunca pasa nada. Me siento completamente ignorado. Es como si me toreara, ¿sabe lo que le digo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Buenas tardes. Sí, le entiendo: semanas esperando una conversación que no llega, y mientras tanto el alumno sigue ahí con sus necesidades. Eso desespera.\n\nAntes de pensar en cómo moverlo, me ayudaría saber una cosa: ¿tiene alguna idea de por qué no avanza? ¿Es que la coordinadora está desbordada, que no ve urgencia en el caso, que hay algo del centro que usted aún no conoce bien por ser sustitución... o simplemente no lo sabe?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 257,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 141,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Honestamente, no lo sé con certeza. Puede que esté desbordada, sí. Pero lo que me preocupa es que cuando la veo en el pasillo no parece especialmente agobiada, ¿me entiende? Habla con otros compañeros, se ríe, y en cuanto me ve a mí cambia el gesto. Eso me hace pensar que quizás el problema soy yo, por ser sustituto. Como si mi opinión contara menos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Lo que describe tiene sentido como lectura: el contraste entre cómo está con otros y cómo reacciona al verle a usted es un dato concreto, no una impresión vaga.\n\nY al mismo tiempo, la causa real solo la sabe ella. Puede ser que le incomode el tema del alumno, que tenga algún prejuicio hacia los sustitutos, que haya algo del historial del caso que usted no conoce, o algo completamente distinto.\n\nLo que sí es claro es que la situación actual no funciona: el alumno necesita esa adaptación y usted no puede avanzar solo.\n\n¿Qué le gustaría conseguir ahora mismo? ¿Que la conversación ocurra de una vez, entender qué está pasando con ella, o las dos cosas?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 523,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 201,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Las dos cosas, claro. Pero si tengo que elegir, lo primero es que la conversación ocurra. El alumno no puede esperar más. Ya llevamos demasiado tiempo así.\n\nMire, lo que necesito es saber cómo decírselo de una manera que no suene a queja ni a ataque, porque no quiero crear más tensión. Pero tampoco puedo seguir siendo tan blando, porque así no llegamos a ningún lado. ¿Me puede ayudar con eso?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, puedo ayudarle con eso. Y me parece que ya tiene claro lo esencial: ni queja ni blandura, sino algo que mueva la situación.\n\nLe propongo una fórmula sencilla que puede adaptar. La idea es anclar la conversación en el alumno, no en la relación entre ustedes, y pedir una cita concreta en lugar de dejar la puerta abierta a otro \"ya hablaremos\".\n\n---\n\n**Algo así:**\n\n*\"[Nombre], necesito pedirte diez minutos esta semana para hablar de [nombre del alumno o 'el caso del alumno de X']. Llevamos un tiempo intentando cuadrarlo y no quiero que se nos vaya más. ¿El martes o el miércoles te viene mejor?\"*\n\n---\n\nTres cosas que hace este mensaje:\n\n- **Pone el foco en el alumno**, no en la tensión entre ustedes.\n- **Acota el tiempo** (diez minutos), lo que baja la resistencia.\n- **Ofrece dos opciones concretas**, lo que obliga a elegir en lugar de dar otra evasiva.\n\nSi prefiere hacerlo por escrito —un mensaje o un correo— puede ser incluso más efectivo, porque queda registrado y ella no puede responder con un gesto vago.\n\n¿Le encaja esto, o hay algo del tono o la situación que haría falta ajustar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 853,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 358,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Espere, espere. Esto que me ha mandado parece sacado de un manual. Yo no hablo así, y ella tampoco. Si le digo eso tal cual, va a sonar rarísimo. Necesito algo más natural, más de verdad, ¿no?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene toda la razón. Perdone, me adelanté.\n\nCuénteme: ¿cómo habla usted normalmente con los compañeros? ¿De tú, más informal...? Y cuando ha intentado sacar el tema hasta ahora, ¿cómo lo ha hecho?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1282,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 79,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, de tú, normal. Como se habla en un centro, ¿sabe? Sin tanta ceremonia. Hasta ahora le he dicho cosas como \"oye, cuando puedas hablamos\" y ya está. Y claro, con eso me da largas fácilmente. Necesito algo más directo pero que no suene a bronca."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, con \"oye, cuando puedas\" le está dejando la puerta abierta para escabullirse. Necesita cerrarla un poco más sin que suene a enfrentamiento.\n\nCon su forma de hablar, podría ser algo como:\n\n*\"Oye, necesito que quedemos esta semana para lo de [el alumno]. ¿El martes o el miércoles?\"*\n\nSin \"cuando puedas\", sin dejarle escapatoria, pero sin drama. El alumno queda implícito como razón, no usted como queja.\n\n¿Le suena más a usted eso?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1453,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 153,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, eso ya me suena más real. Es directo sin pasarse. Me quedo con eso, creo que puedo decirlo sin que me tiemble la voz. Muchas gracias, de verdad, me ha ayudado."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra. Y lo de que no le tiemble la voz importa: si lo dice con calma y naturalidad, ya tiene mucho ganado.\n\nSuerte con la conversación, y sobre todo con el alumno.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1669,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 55,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

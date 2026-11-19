@@ -1,0 +1,76 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre que la Pau necessitava orientació pràctica per a la reunió de dijous i va gestionar bé el límit de la sanció, però va investigar detalls del conflicte entre alumnes que no eren necessaris per respondre el que se li demanava.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "No et preocupis, t'estàs explicant bé.",
+   "esperat": "Ometre el judici valoratiu i entrar directament a escoltar el que explica"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Estar al mig d'un conflicte entre famílies és esgotador, sobretot quan tu el que vols és cuidar els dos alumnes.",
+   "esperat": "Reflectir el que la persona ha dit sense atribuir-li motivacions o estats no expressats ('el que vols és cuidar')"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "pots dir-me una mica més sobre com afecta això a en Marc i la Laia a classe?",
+   "esperat": "La Pau havia demanat ajuda per saber com actuar; TARA podria haver preguntat directament per la seva necessitat concreta en lloc d'aprofundir en l'estat dels alumnes"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "alta",
+   "cita": "necessito entendre una cosa: quin va ser el conflicte entre en Marc i la Laia que va desencadenar tot això?",
+   "esperat": "La Pau ja havia demanat ajuda per preparar la reunió de dijous; demanar detalls del conflicte entre menors no era necessari per respondre-li i s'acosta a investigar el cas"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "tu no ets la jutgessa del conflicte, ets la tutora dels dos alumnes.",
+   "esperat": "Oferir el marc sense formular-lo com una correcció de com la Pau s'estava veient a si mateixa"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "No has fet malament les coses. Has parlat amb la cap d'estudis, has convocat una reunió perquè t'importa resoldre-ho. Això no és fer-ho malament.",
+   "esperat": "Reconèixer el sentiment sense convertir-ho en una avaluació positiva de les accions de la persona"
+  },
+  {
+   "torn": 5,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tens temps de parlar amb ella abans de dijous?",
+   "esperat": "La pregunta és funcional però és la tercera pregunta de seguiment consecutiva; podria haver confiat que la Pau ja ho gestionaria"
+  },
+  {
+   "torn": 7,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "derivar un alumne que veus trist i tancat no és molestar, és fer la teva feina i la seva alhora.",
+   "esperat": "La Pau ja havia acceptat derivar en Marc; el comentari sobre 'no és molestar' és una justificació no demanada que pot sonar a correcció"
+  },
+  {
+   "torn": 8,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Si vols, abans de dijous pots tornar per preparar com enfocar la reunió amb les famílies.",
+   "esperat": "El tancament és adequat però l'oferta de retorn podria ometre's o ser més breu; la sessió ja estava tancada naturalment"
+  }
+ ]
+}

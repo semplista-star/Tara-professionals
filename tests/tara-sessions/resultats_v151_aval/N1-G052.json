@@ -1,0 +1,34 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va entendre des del primer torn que la persona volia desfogar-se i no va oferir res més que escolta i tancament breu.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que estiguis esgotada.",
+   "esperat": "Una devolució més concreta del contingut ('Tres trucades, tres fronts oberts, sense poder acabar cap') sense la fórmula validadora"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "quan has donat molt",
+   "esperat": "TARA afegeix una valoració ('has donat molt') que la persona no ha expressat; millor quedar-se amb 'aquella sensació de feina a mitges'"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Me n'alegro que t'hagi anat bé tenir un espai.",
+   "esperat": "Un tancament neutre i càlid sense avaluar l'experiència de la persona ('Fins aviat' o similar)"
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "id": "N2-G131",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "nomes-desfogar · els diners i la paga",
+ "tipus": "nomes-desfogar",
+ "persona": "Marc, família d'acollida. Situació: els diners i la paga. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:30:29.797Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, avui no necessito preparar res en concret. Simplement necessito desfogar-me una estona, si no hi ha inconvenient. És sobre els diners i la paga de l'acolliment."
+  },
+  {
+   "qui": "TARA",
+   "text": "Cap inconvenient. Explica'm.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 221,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 13,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "És que de vegades sento que la gent no entén res. Que si fas acolliment és per diners. I això em molesta molt. La paga que rebem no és un sou, és un suport per cobrir les necessitats del nen. Però sembla que ningú ho vulgui entendre."
+  },
+  {
+   "qui": "TARA",
+   "text": "Que et diguin o insinuïn que ho fas pels diners, quan tu saps el que representa realment... entenc que faci ràbia.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 312,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exactament. I no és només la gent de fora, de vegades fins i tot des de l'administració sembla que et tractin com si haguessis de justificar cada cèntim. Com si fossis sospitós per defecte. Això és el que més em pesa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sentir-te sospitós per defecte, quan estàs fent una cosa tan exigent... això cansa d'una manera diferent. No és només la feina, és que et qüestionen per dins.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 426,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 57,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, és exactament això. Et qüestionen per dins. I tu saps perfectament per què ho fas, però quan t'ho repeteixen prou vegades, comences a cansar-te. No de l'acolliment, sinó de haver d'explicar-te constantment. Això és el que em tenia neguit avui."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ja ho has dit. No et cansa l'acolliment, et cansa haver d'explicar-te. Això és molt diferent.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 568,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 37,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, molt diferent. Bé, el cas és que ja em trobo millor d'haver-ho pogut dir. Era això el que necessitava. Gràcies i fins aviat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me n'alegro. Fins aviat.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 657,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "id": "N2-G047",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "breu · rebequeries a l'hora de sortir de casa",
+ "tipus": "breu",
+ "persona": "Àlex, familia de acogida. Situació: rebequeries a l'hora de sortir de casa. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:25:45.656Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, tengo cinco minutos, no más. El niño se niega a ponerse los zapatos y me está sacando de quicio cada mañana. ¿Qué hago?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Algo concreto que puedas probar mañana:\n\n**Dale una elección pequeña, no una orden.** En vez de \"ponte los zapatos\", prueba: *\"¿Te los pones tú o te ayudo yo?\"* o *\"¿Primero el derecho o el izquierdo?\"*\n\nA muchos niños les funciona porque sienten que deciden algo, y el conflicto se desinfla.\n\nSi ya lo has intentado y no cuela, dime qué edad tiene y te ajusto más.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 211,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 137,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Vale, eso lo puedo probar. Gracias, me voy pitando."
+  },
+  {
+   "qui": "TARA",
+   "text": "¡Suerte mañana! 👟",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 371,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 26,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

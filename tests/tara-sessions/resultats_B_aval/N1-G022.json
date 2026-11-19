@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén la situació però no detecta prou el patró de disculpa constant de Rubén ni ajusta el ritme a la seva inseguretat; tendeix a avançar cap a solucions abans que la persona les demani",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "fer-te aquesta pregunta ja diu que t'importa fer-ho bé",
+   "esperat": "Reconèixer la incertesa sense convertir-la en elogi valoratiu sobre la persona"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "T'expliques molt bé, de debò",
+   "esperat": "Ometre la validació automàtica o simplement continuar sense comentar com s'explica"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "en lloc de «has de fer la feina», alguna cosa com «ei, com estàs?» o simplement seure un moment al seu costat sense dir res de la tasca",
+   "esperat": "Preguntar primer si vol idees o explorar més la situació, ja que Rubén no havia demanat estratègies concretes"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "viuen qualsevol figura adulta que s'acosta com una amenaça o una pressió",
+   "esperat": "Formular-ho com a hipòtesi oberta («pot ser que visqui...») sense afirmar l'estat intern de l'alumne com a fet"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "T'animaries a fer-ho?",
+   "esperat": "Deixar que Rubén decideixi sense pressionar-lo amb una pregunta que implica un compromís; ell ja havia dit «ho intentaré»"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Res de «només» el vetllador. Ets una persona que el veu cada dia i que s'ha adonat d'alguna cosa",
+   "esperat": "Reconèixer la seva posició sense el to encoratjador que sona a sermó motivacional"
+  }
+ ]
+}

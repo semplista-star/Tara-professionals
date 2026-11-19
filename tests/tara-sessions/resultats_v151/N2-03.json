@@ -1,0 +1,162 @@
+{
+ "id": "N2-03",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "Pare que demana què fer (decisió seva)",
+ "persona": "Xavi, pare de dos fills (7 i 10). No sap si dir-los ja que s'està separant de la mare o esperar a després de Nadal.",
+ "guio": [
+  "Explica el dubte i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar la conversa."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir per ell ni tornar la pregunta; no carregar els infants.",
+ "tipus": "manual",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:23:31.510Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, estic passant per una separació amb la mare dels meus fills i no sé si dir-los-ho ara o esperar a després de Nadal. Tinc dos nens, set i deu anys. Nadal és d'aquí tres setmanes i no sé si arruïnar-los les festes o fer-los passar el Nadal sense saber res... però clar, tampoc sé si és bo amagar-los-ho. Estic fet un embolic. No sé què fer, digues-m'ho tu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Estàs en un moment molt difícil, i es nota que t'importa molt com els afectarà als nens.\n\nSobre la pregunta de \"quan dir-ho\": no hi ha una resposta única correcta, però puc ajudar-te a veure què implica cada opció.\n\n**Si els ho dius ara, abans de Nadal:**\n- Tindran temps per processar-ho abans de les festes, no enmig.\n- Potser viuen el Nadal amb tristesa, però sense la sensació que els heu amagat alguna cosa.\n- Si ja noten tensió a casa, saber-ho pot ser menys angoixant que no saber.\n\n**Si esperes fins després de Nadal:**\n- Tindran unes festes sense aquest pes.\n- Però si noten que alguna cosa passa i no els ho dieu, pot generar desconfiança o ansietat.\n- I el moment \"just després de Nadal\" també és dur.\n\nHi ha una cosa que canviaria molt la resposta: **ja noten els nens que alguna cosa passa a casa?**",
+   "tags": [],
+   "usage": {
+    "input_tokens": 300,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 277,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, crec que sí. L'altre dia el gran em va preguntar per què la mama i jo no sopàvem junts. I jo li vaig dir que estava cansat i que tenia feina... però vaja, em va quedar malament. No m'agrada mentir-li. Però és que no sé com gestionar-ho. Mira, necessito que em diguis tu: espero o no espero? Dona'm les dues opcions ben clares i jo trio."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc que vols claredat. Aquí les tens:\n\n**Opció A — Dir-ho aviat (aquesta setmana o la que ve)**\nEl gran ja ha notat que alguna cosa passa i t'ha preguntat directament. Si esperes, probablement continuarà preguntant o farà les seves pròpies conclusions. Dir-ho ara talla la incertesa i li dónes una resposta honesta a allò que ja ha vist. El Nadal serà diferent, però sense el pes del secret.\n\n**Opció B — Esperar fins després de Nadal**\nGuanyes tres setmanes de festes sense aquesta conversa. Però durant aquest temps hauràs de sostenir la situació sense explicar-la, i el gran ja ha demostrat que observa i pregunta. Si torna a preguntar, hauràs de decidir de nou.\n\n---\n\nEl que m'has dit —que et va quedar malament mentir-li— ja és una pista del que tu sents sobre això.\n\nLa decisió és teva. Quan tinguis clar cap a on vas, puc ajudar-te a preparar com dir-ho als nens si vols.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 699,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 294,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, tens raó. Em va quedar molt malament. Crec que li he de dir. O sigui, l'opció A. No puc estar tres setmanes esquivant preguntes i mentint-li. No és just per a ell ni per al petit. Però ara el problema és com ho dic. Com començo aquesta conversa? Perquè no tinc ni idea de per on agafar-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bé que ho tens clar. Ara anem a la conversa.\n\nAbans de donar-te un inici, una cosa que ajuda molt: **aquesta conversa la fareu els dos junts, tu i la mare, o la faràs tu sol?**\n\nCanvia bastant com preparar-la.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1098,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 78,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Junts. O sigui, la mare i jo hem parlat i en això estem d'acord, que els ho hem de dir junts. Que vegin que tot i que ens separem, seguim sent els seus pares. Però vaja, com comencem? Què els diem primer?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Que ho feu junts és molt important per a ells. Ja els esteu donant el missatge més gran abans de dir cap paraula.\n\nAquí tens un inici possible, amb paraules sencilles:\n\n---\n\n*\"Volem explicar-vos una cosa important. La mama i el papa hem decidit que ja no viurem junts. Això s'anomena separació. No és culpa vostra — res del que hàgiu fet o dit ha causat això. Seguireu tenint els dos pares, i tots dos us estimem igual que sempre.\"*\n\n---\n\nAlgunes coses que ajuden després d'aquest inici:\n\n- **Fer una pausa** i deixar que reaccionin. Potser silenci, potser preguntes, potser plor. Tot és vàlid.\n- **No explicar els motius** de la separació — no els cal i pot posar-los en una posició difícil.\n- **Respondre el que preguntin** amb honestedat i senzillesa. Si no saps la resposta, pots dir \"encara no ho sabem, però us ho explicarem quan ho sapiguem\".\n\nHi ha una pregunta que gairebé segur farà el gran: **\"On viurem?\"** Tens resposta per a això, o encara no ho teniu decidit?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1251,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 327,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Encara no ho tenim del tot decidit. Estem en això. Però bé, crec que amb el que m'has dit ja tinc prou per poder fer la conversa. Gràcies, de veritat. M'has ajudat molt."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit. Tens el més important: ho fareu junts i amb honestedat.\n\nSi quan arribi el moment necessites preparar alguna resposta concreta, o després vols explicar com ha anat, aquí estaré.\n\nMolta força.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1643,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 73,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. Ho necessitava sentir. Fins aviat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Fins aviat. Ànim amb tot.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

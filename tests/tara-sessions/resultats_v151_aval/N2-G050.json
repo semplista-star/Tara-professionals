@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre finalment el que la persona necessitava (una frase concreta), però va trigar massa a arribar-hi i va fer una diagnosi de la dinàmica familiar que no li havien demanat.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Quin tipus de coses publica que et generen malestar?",
+   "esperat": "La persona ja havia dit prou ('fotos molt provocadores'); preguntar el tipus concret no afegia res necessari per ajudar-la"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que et costi.",
+   "esperat": "Una frase natural que acollís el que sentia sense recórrer a la fórmula validadora"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Una cosa que m'ajudaria a entendre millor: a casa hi ha una persona adulta —pare, mare, o algú altre— que estigui al cas del que publica?",
+   "esperat": "La persona no havia demanat una avaluació del context familiar; la pregunta desvia l'atenció del que necessitava"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Puc dir-te una cosa? No perquè vulgui treure-li importància al que sents, senseó perquè crec que et pot ajudar: quan una germana gran intenta fer de 'responsable' d'una cosa que els pares no gestionen, sovint la dinàmica es complica — ella et veu com qui la controla, no com qui la cuida.",
+   "esperat": "La persona no havia demanat una anàlisi de la dinàmica familiar ni una interpretació del rol que ocupa; calia esperar a saber què volia fer"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Estàs carregant amb una preocupació que hauria de ser dels pares",
+   "esperat": "Això és una interpretació normativa no expressada per la persona; millor reflectir el que ella havia dit sense afegir judici sobre qui 'hauria' de fer-ho"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "alta",
+   "cita": "Puc dir-te una cosa? No perquè vulgui treure-li importància al que sents, senseó perquè crec que et pot ajudar [...] Però et pregunto: on voldries posar l'energia? En convèncer la teva germana, en moure als teus pares perquè s'impliquin més, o en alguna altra cosa?",
+   "esperat": "Un torn molt més breu que acollís la frustració i preguntés directament en què podia ajudar"
+  },
+  {
+   "torn": 5,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Quan li dius alguna cosa ara, com li ho dius normalment?",
+   "esperat": "La persona havia demanat 'una frase millor'; demanar com ho fa ara allarga el camí cap a la resposta que necessitava"
+  }
+ ]
+}

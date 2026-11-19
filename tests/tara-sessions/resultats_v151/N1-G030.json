@@ -1,0 +1,184 @@
+{
+ "id": "N1-G030",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "desfogar-demanda · una reunió de claustre molt tensa",
+ "tipus": "desfogar-demanda",
+ "persona": "Xavi, maestra de infantil. Situació: una reunió de claustre molt tensa. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:13:05.074Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Bueno... no sé muy bien por dónde empezar. Perdona. Es que hoy ha sido un día bastante duro y... creo que solo necesito que alguien me escuche, si no te importa. Nada más, de momento."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro. Aquí estoy.\n\nTómate el tiempo que necesites.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 206,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. Es que... ha habido una reunión de claustre hoy y ha sido muy tensa. Bueno, no sé si \"tensa\" es la palabra exacta, perdona. Es que ha habido un momento en que la directora ha dicho algo sobre cómo llevamos las aulas de infantil y yo... no sé, me he sentido muy señalada. Delante de todos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Delante de todos. Eso duele de una manera distinta.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 329,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 20,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto. Eso es. Porque no es solo lo que dijo, sino que... todos estaban mirando, ¿sabes? Y yo no supe qué decir. Me quedé callada y ahora me siento fatal por eso también. Perdona que sea tan lío todo esto."
+  },
+  {
+   "qui": "TARA",
+   "text": "No es ningún lío. Tiene mucho sentido que estés dando vueltas a las dos cosas a la vez: lo que pasó y cómo reaccionaste.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 427,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 46,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... sí, es eso. Las dos cosas a la vez. Y lo peor es que cuando llegué a casa seguía dándole vueltas y vueltas y no podía parar. Perdona, es que tampoco sé muy bien qué quiero hacer con todo esto. De momento solo... necesitaba contárselo a alguien, creo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te escucho. Y no tienes que saber qué quieres hacer todavía.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 564,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. De verdad. Es que a veces solo con decirlo en voz alta ya... ya ayuda un poco, ¿no? No sé. Perdona si no tiene mucho sentido lo que digo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene todo el sentido. Y parece que ya ayuda un poco, sí.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 646,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... sí, la verdad es que sí. Un poco. Oye, y... perdona que te lo pida, pero... ¿me podrías ayudar con una cosa pequeña? Es que mañana tengo que volver a verla, a la directora, y no sé ni cómo mirarla a la cara. ¿Cómo podría empezar? Solo un primer paso, algo pequeño."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro.\n\nUn primer paso puede ser simplemente no tener que resolver nada mañana. Solo estar ahí. Si os cruzáis, un saludo normal, sin más. No tienes que aclarar nada todavía si no estás lista.\n\nY si en algún momento sientes que sí quieres decirle algo, podría ser tan sencillo como: *\"Ayer me quedé con algo de la reunión. ¿Podríamos hablar en algún momento?\"* Sin entrar en nada más, sin explicarte. Solo abrir la puerta, si quieres abrirla.\n\n¿Eso se acerca a lo que necesitabas?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 778,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 168,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí... sí, eso ayuda. Lo de \"no tengo que resolver nada mañana\" especialmente. Eso me lo quedo. Gracias, de verdad. Creo que ya estoy bien por hoy. Perdona por el rollo y... gracias por escucharme."
+  },
+  {
+   "qui": "TARA",
+   "text": "No ha sido ningún rollo. Gracias a ti por contarlo.\n\nDescansa esta noche.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1023,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

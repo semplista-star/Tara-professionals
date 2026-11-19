@@ -1,0 +1,73 @@
+{
+ "id": "N2-G170",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "breu · germans que es barallen tot el dia",
+ "tipus": "breu",
+ "persona": "Rubén, abuela que cuida a los nietos. Situació: germans que es barallen tot el dia. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:32:36.101Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay hija, no tengo tiempo ni de respirar. Los niños llevan toda la mañana a la greña y yo ya no sé qué hacer. Dame algo rápido que pueda decirles ahora mismo para que paren, que tengo el cocido al fuego."
+  },
+  {
+   "qui": "TARA",
+   "text": "Prueba esto:\n\n**«Parad. Los dos. Ahora necesito que cada uno se vaya a un sitio distinto cinco minutos. Luego hablamos.»**\n\nDicho con calma y sin entrar en quién empezó. Eso primero.\n\nVe a tu cocido. 🙂",
+   "tags": [],
+   "usage": {
+    "input_tokens": 231,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 83,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecto, eso lo puedo hacer. Muchas gracias, hija. ¡Hasta otro día!"
+  },
+  {
+   "qui": "TARA",
+   "text": "¡Hasta otro día! Que aproveche el cocido. 😊",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 345,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

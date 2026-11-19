@@ -1,0 +1,27 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 2,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió desde el primer momento que la persona solo quería desahogarse y se mantuvo en ese rol hasta el cierre, sin ofrecer consejos ni derivar.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Te lo agradezco, esa sinceridad.",
+   "esperat": "Reflejar el contenido sin valorar la sinceridad de la persona"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "no dice nada malo de ti. Dice que estás muy cargado.",
+   "esperat": "Reflejar la contradicción sin interpretar qué dice o no dice de la persona ni atribuir un estado ('muy cargado') no expresado con esas palabras"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 2,
+ "C6": 1,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va captar immediatament que Ana necessitava una sola idea concreta i aplicable en menys de cinc minuts, i la va lliurar sense rodeigs.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "altres",
+   "gravetat": "baixa",
+   "cita": "Ja m'explicaràs com va en Malik.",
+   "esperat": "Tancament net sense invitar a tornar ni mostrar interès pel seguiment del cas; per exemple, simplement 'De res!'"
+  }
+ ]
+}

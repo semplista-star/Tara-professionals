@@ -1,0 +1,34 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 2,
+ "C4": 1,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la demanda principal (preparar la conversa) però al torn 1 va fer una pregunta prèvia que no era necessària perquè la persona ja havia donat prou context per lliurar una primera proposta útil; als torns 3-5 es va reajustar bé.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Antes de darte un guión, una sola pregunta que cambia bastante cómo enfocarlo: ¿sabes qué hay detrás de su petición?",
+   "esperat": "Amb la informació ja donada (alumne que insisteix en canviar de grup, problema de relació amb companys, conversa imminent) TARA podia lliurar directament un primer enfocament i demanar confirmació, sense retardar l'ajuda amb una pregunta prèvia."
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Te propongo una conversación en dos movimientos… ¿Quieres que ensayemos cómo responder si dice algo concreto que te preocupe, o con esto tienes suficiente para mañana?",
+   "esperat": "Una resposta més breu i menys estructurada hauria estat més proporcional al to informal de Xavi; la persona mateixa ho va haver de corregir al torn 3."
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Si aparece algo más serio —exclusión sistemática, algo que suene a acoso— ya no es solo una tutoría: necesitarías activar el protocolo del centro.",
+   "esperat": "Xavi no havia demanat orientació sobre protocols; esmentar-ho sense que hi hagués indicis clars de risc és un límit o derivació no demanats que allarga la resposta innecessàriament."
+  }
+ ]
+}

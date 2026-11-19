@@ -1,0 +1,119 @@
+{
+ "id": "N1-G112",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "que-faig · un grup disruptiu a última hora",
+ "tipus": "que-faig",
+ "persona": "Li Wei, educador social del centre. Situació: un grup disruptiu a última hora. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:17:57.464Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Tinc un grup de nanos molt moguts a última hora i no sé si separar-los o deixar-los junts i aguantar. No sé què fer, digues-m'ho tu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc que estàs entre dues opcions i vols una resposta clara. Et dono les dues amb el que implica cadascuna, perquè decideixis tu:\n\n**Separar-los**\nRedueix la fricció immediata i et dona més control de l'ambient. El risc és que no resols el que hi ha al darrere, i de vegades el grup es reorganitza igualment.\n\n**Deixar-los junts i intervenir d'una altra manera**\nCanviar la dinàmica sense moure'ls: estructura diferent (treball en parelles, tasca molt concreta, menys temps lliure), canviar el teu lloc a l'aula, o parlar amb ells directament sobre el que observes.\n\nAbans de decidir, una cosa que canviaria la resposta: quan dius \"moguts\", és energia que es dispersa o hi ha conflicte entre ells?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 195,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 224,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Energia dispersa, no conflicte. Estan cansats i és divendres. Però m'és igual, dona'm opcions i ja triaré jo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bé. Aquí van opcions concretes per a última hora de divendres amb energia dispersa:\n\n**Canviar el format, no el lloc**\nTasca molt curta i amb final clar: \"Teniu 10 minuts per fer X, i quan acabeu podeu fer Y\". El límit de temps i la recompensa petita ajuden.\n\n**Activitat amb moviment controlat**\nAlguna cosa que els permeti moure's dins d'un ordre: debat dempeus, ordenar targetes pel terra, sortir un moment al passadís per tornar. Gasten energia i tornen més centrats.\n\n**Rutina de tancament**\nSi és l'última hora, una activitat de tancament de setmana (tres coses que han après, una pregunta que els queda, un minut de silenci) dona estructura i sentit al moment.\n\n**Separació puntual sense drama**\nSi hi ha dos o tres que s'activen mútuament, canviar-los de lloc aquell dia concret, sense fer-ne un tema, sovint és suficient.\n\nQuina s'assembla més al que tens?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 462,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 283,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La de canviar el format. Com començo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Amb una instrucció molt concreta i un temps visible:\n\n«Teniu 15 minuts per acabar [tasca específica]. Quan acabeu, podeu [cosa que els agradi: parlar, dibuixar, mirar el mòbil si ho tens permès].»\n\nPosa un temporitzador a la pantalla si pots. Que vegin el temps que queda redueix la negociació.\n\nComença tu dret, en silenci un segon, i dona la instrucció una sola vegada. Si algú no arrenca, t'hi acostes individualment sense adreçar-te al grup.\n\nJa tens el que necessites?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 760,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 165,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, gràcies. Ho provaré."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bona sort. Ja m'explicaràs com ha anat si vols.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 942,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

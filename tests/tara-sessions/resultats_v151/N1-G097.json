@@ -1,0 +1,206 @@
+{
+ "id": "N1-G097",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "desfogar-demanda · un alumne que diu que vol canviar de grup",
+ "tipus": "desfogar-demanda",
+ "persona": "Aina, coordinador de convivència. Situació: un alumne que diu que vol canviar de grup. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:17:11.815Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Avui simplement necessito que m'escoltin, si et sembla bé."
+  },
+  {
+   "qui": "TARA",
+   "text": "Endavant. T'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 166,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 13,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. Soc coordinadora de convivència i avui m'ha vingut un alumne a dir-me que vol canviar de grup. Diu que no s'hi troba bé, que se sent sol i que alguns companys l'ignoren. M'ha costat molt escoltar-lo sense posar-me a buscar solucions de seguida."
+  },
+  {
+   "qui": "TARA",
+   "text": "Escoltar sense córrer a solucionar... no és fàcil, i tu ho has fet.\n\nQue t'hagi costat conté alguna cosa important: el que ell t'ha portat pesava.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 271,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 55,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactament. Pesava molt. I jo notava que ell necessitava que jo estigués allà, present, sense jutjar ni proposar res. Crec que ho he aconseguit, però ara jo necessito el mateix: que algú simplement m'escolti a mi."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estic. T'escolto.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 400,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies. És que de vegades aquest rol de coordinadora és molt exigent. Sempre has de tenir la resposta, el protocol, el pas següent. I avui, amb aquest alumne, m'he adonat que potser el que més necessitava no era cap protocol. Necessitava sentir-se vist. I jo he intentat fer-ho, però després m'he quedat sola al despatx pensant: i ara, com l'ajudo de veritat?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Et quedes sola amb la pregunta, després d'haver-li donat el que necessitava.\n\nAixò també és part del rol, i no sempre hi ha ningú que te'l sostingui a tu.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 533,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 53,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, és just això. Ningú et prepara per a aquesta part. Et formen per als protocols, per a les mediacions, per als passos a seguir. Però no per a quedar-te sola amb el pes d'haver escoltat algú que pateix."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó. Aquesta part no surt als manuals.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 655,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No. I avui ho he sentit molt. Però bé, ara que ho he pogut dir en veu alta em sento una mica millor. De fet, m'agradaria demanar-te una cosa concreta, si pots ajudar-me."
+  },
+  {
+   "qui": "TARA",
+   "text": "Clar, digues.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 10,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Com li podria dir, en una frase, que el seu cas m'importa i que hi treballaré, sense fer-li promeses que potser no podré complir?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Podries dir-li alguna cosa com:\n\n*«El que m'has explicat m'importa, i hi pensaré amb cura per veure quines opcions tenim.»*\n\nDeixa clar que l'has escoltat i que actuaràs, sense comprometre un resultat concret.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 794,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 77,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Perfecte. Aquesta frase és just el que buscava: honesta i propera alhora. Moltes gràcies, m'ha ajudat molt poder parlar avui. Fins aviat."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit. Fins aviat.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 925,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

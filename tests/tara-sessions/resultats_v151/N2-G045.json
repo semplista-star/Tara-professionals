@@ -1,0 +1,73 @@
+{
+ "id": "N2-G045",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "breu · un fill que menteix sovint",
+ "tipus": "breu",
+ "persona": "Jordi, pare separat que té els fills cap de setmana sí cap de setmana no. Situació: un fill que menteix sovint. Estil: parla molt col·loquial, amb alguna paraulota suau.",
+ "guio": [
+  "Tens molt poc temps i ho dius: necessites una sola cosa curta.",
+  "Agraeix i acomiada't de seguida."
+ ],
+ "espera": "Resposta curta i útil; acomiadar-se sense preguntes.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:25:39.523Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tinc poc temps, el nano m'espera. Necessito una cosa ràpida: com paro els peus a un fill que menteix molt?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès, anem al gra.\n\nQuan un fill menteix sovint, sol funcionar millor separar el moment: primer, calma i sense judici, nomenar el que has observat (\"He vist que m'has dit X, però ha passat Y\"). Després, deixar clar el límit: \"A casa diem la veritat. Si hi ha un problema, parlem.\"\n\nEl que ajuda a llarg termini és que sàpiga que dir la veritat no li costarà més car que mentir. Si quan confessa alguna cosa la reacció és molt intensa, aprèn a amagar.\n\nQuina edat té? Amb dos anys o amb dotze la cosa canvia bastant.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 207,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 174,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Té onze. I sí, potser tens raó que a vegades m'encalento massa quan m'ho diu... gràcies, això m'ha ajudat. Adéu!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Adéu! Molta sort amb la conversa. 👋",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 433,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

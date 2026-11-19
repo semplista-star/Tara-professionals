@@ -1,0 +1,140 @@
+{
+ "id": "N2-G183",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "humor · els deures que acaben en crits",
+ "tipus": "humor",
+ "persona": "Laia, familia de acogida. Situació: els deures que acaben en crits. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:33:45.904Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara! Mira, vengo a pedir ayuda porque resulta que soy mejor haciendo los deberes de mi hija de acogida que controlando mis nervios mientras los hacemos. Premio al adulto más maduro de la sala, claramente."
+  },
+  {
+   "qui": "TARA",
+   "text": "Jaja, al menos tienes el premio de matemáticas asegurado.\n\nMe alegra que lo cuentes con humor, y también noto que hay algo que te pesa ahí. ¿Qué es lo que más se te va de las manos en esos momentos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 227,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 69,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto, el problema es que cuando ella se bloquea y empieza a decir que no puede, que no sabe, que todo es muy difícil... algo en mí hace clic y paso de profe paciente a volcán en erupción en cero coma. Y luego me siento fatal porque sé que ella ya viene con mochila, ¿sabes? No es una niña cualquiera. Me preocupa que mis reacciones le hagan más daño del que creo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Lo que describes tiene mucho peso: el clic, el volcán, y luego ese \"me siento fatal\" sabiendo lo que ella ya carga. Que te importe tanto el efecto que tienes en ella dice mucho de ti.\n\nUna cosa que me llama la atención: describes muy bien lo que pasa después del clic, pero ¿qué crees que lo dispara? ¿Qué es lo que más te cuesta de ese momento en que ella dice \"no puedo, no sé\"?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 421,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 124,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Creo que es que me recuerda a cuando yo era pequeña y me decían que no podía. Y entonces en lugar de ayudarla a ella, estoy peleando con algo mío que no toca. Pero claro, esto me lo doy cuenta después, cuando ya he gritado y ella está llorando y yo me quiero meter debajo de la cama. En el momento no lo veo. ¿Hay alguna cosa concreta que pueda hacer justo ahí, antes del volcán, para cortarlo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Ya lo has visto tú sola, y eso es lo más difícil. Que en el momento no lo veas tiene todo el sentido: cuando algo nos toca por dentro, el cuerpo reacciona antes de que el pensamiento llegue.\n\nPara ese momento justo antes del volcán, aquí tienes tres cosas concretas, pequeñas, que pueden ayudar:\n\n**1. Una señal física de pausa.**\nAntes de que salga nada, un gesto tuyo: apoyar las manos en la mesa, levantarte a buscar agua, soltar el lápiz. Algo que interrumpa el impulso físicamente, aunque sea dos segundos.\n\n**2. Una frase interna corta.**\nNo para ella, para ti. Algo como \"esto es mío, no es ella\". No tiene que ser bonita ni larga. Solo lo suficiente para crear un milímetro de distancia entre el clic y la reacción.\n\n**3. Permiso para salir un momento.**\nPuedes decirle: \"Voy un momento al baño, ahora vuelvo.\" Sin drama. Esos treinta segundos fuera pueden cambiar lo que pasa cuando vuelves.\n\nNinguna de las tres evita el clic, pero pueden darte ese hueco entre el clic y el volcán.\n\n¿Alguna de estas te parece que podría encajar con cómo eres tú?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 673,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 349,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La del baño me parece la más honesta, porque las otras dos me veo intentándolas y fallando y sintiéndome peor todavía. En cambio salir un momento... eso sí puedo hacerlo. Y además no la dejo sola con el drama, solo me aparto yo un momento. Oye, pues me quedo con esa. Gracias, Tara, en serio. Me has ayudado más de lo que esperaba."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que hayas encontrado algo que siente tuyo. Y tiene mucho sentido: una cosa que puedes hacer siempre es mejor que tres que pueden fallar.\n\nSuerte con los deberes. Y con el volcán.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1137,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 58,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Jaja, sí. El volcán y yo tenemos trabajo por delante. Gracias de verdad, hasta otra!"
+  },
+  {
+   "qui": "TARA",
+   "text": "¡Hasta otra! Cuídate.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1227,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

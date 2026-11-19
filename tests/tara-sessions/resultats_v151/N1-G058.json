@@ -1,0 +1,204 @@
+{
+ "id": "N1-G058",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "rebuig · una alumna que queda exclosa a l'hora de fer grups",
+ "tipus": "rebuig",
+ "persona": "Ibrahim, mestra d'educació especial. Situació: una alumna que queda exclosa a l'hora de fer grups. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:15:18.592Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Soc l'Ibrahim, mestre d'educació especial. Tinc una situació a l'aula que no sé com gestionar bé i m'agradaria orientació."
+  },
+  {
+   "qui": "TARA",
+   "text": "Hola, Ibrahim. Endavant, explica'm la situació.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 191,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 21,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs és una alumna, la Nadia, que cada vegada que fem grups queda exclosa. Els altres no la trien i ella s'adona perfectament del que passa. M'està preocupant molt."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc la preocupació. Veure que una alumna s'adona que no la trien és dur de sostenir.\n\nPer ajudar-te millor: quan dius que queda exclosa, passa en tots els agrupaments o en alguns contextos més que en d'altres?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 269,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 73,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Passa sobretot quan els deixo triar lliurement. En agrupaments assignats funciona millor, però no sempre puc fer-ho jo tot."
+  },
+  {
+   "qui": "TARA",
+   "text": "Això ja és una pista important: quan tu assignes els grups, funciona. Quan la tria és lliure, la Nadia queda fora.\n\nTens alguna idea de què passa en els moments de tria lliure? Si hi ha algun comentari, alguna dinàmica concreta que hagis pogut observar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 382,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 84,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, he observat que els altres no la inclouen de manera activa. No hi ha hostilitat oberta, però tampoc ningú fa el gest de dir-li \"vine amb nosaltres\". Ella espera i al final queda sola."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ho veus clar: no és hostilitat, és absència de gest. I per a la Nadia, el resultat és el mateix: esperar i quedar sola.\n\nAmb això que m'expliques, on voldries centrar-te ara? Puc ajudar-te a pensar com intervenir amb el grup, com parlar amb la Nadia, o com estructurar els agrupaments d'una manera que redueixi aquests moments. Què et sembla més urgent?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 530,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 120,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "El que em sembla més urgent és el grup. Si aconsegueixo que el grup canviï una mica, la Nadia no haurà de dependre sempre de mi per quedar inclosa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit. Treballar amb el grup és apostar per un canvi que duri més enllà de la teva intervenció directa.\n\nVols que et proposi algunes idees concretes per treballar amb el grup? Puc pensar en activitats, dinàmiques o maneres de crear condicions perquè els alumnes aprenguin a fer aquell gest d'incloure, sense posar la Nadia en el centre de manera que la exposi.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 700,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 121,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, endavant. Però que sigui realista, perquè tinc poc temps i el grup és complex."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entès. Poc temps, grup complex: res d'activitats llargues ni ideals.\n\nAquí van tres línies concretes, ordenades de menys a més esforç:\n\n**1. Canviar l'estructura de la tria, no el grup**\nEn lloc d'eliminar la tria lliure del tot, posa una norma senzilla: *\"Cada grup ha de tenir algú que no hagi triat activament.\"* No menciones la Nadia. Fas que la responsabilitat d'incloure sigui de tots, no d'ella.\n\n**2. Moments breus de pràctica del gest**\nDedica 5 minuts puntuals —no cal que sigui una activitat gran— a situacions on practicin dir \"vine amb nosaltres\" o \"t'apuntes?\". Amb personatges ficticis o situacions del pati, no de l'aula. L'objectiu és que el gest existeixi al repertori del grup.\n\n**3. Reforçar quan passa**\nQuan vegis que algú fa el gest d'incloure —amb qui sigui—, nomena-ho en veu alta: *\"Això que has fet, convidar, és important.\"* Sense drama. Vas construint una norma de grup sense fer cap activitat extra.\n\nLes tres es poden combinar. Quina et sembla més viable per començar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 853,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 347,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La tercera m'interessa, però ja la faig. Quan veig el gest, ho remarco. I no ha canviat gaire res."
+  },
+  {
+   "qui": "TARA",
+   "text": "Gràcies per dir-ho, és útil saber-ho. Si ja ho fas i no mou gaire res, potser el gest no és prou freqüent perquè el reforç tingui massa on agafar-se.\n\nAixò em fa pensar en una pregunta: al grup, hi ha algun alumne o alumna que tingui una mica d'ascendent sobre els altres, i que de vegades sí que faci gestos d'inclusió, encara que sigui de manera espontània?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1239,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 128,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, hi ha un noi, el Marc, que té bastant ascendent. De vegades inclou, però no de manera consistent."
+  },
+  {
+   "qui": "TARA",
+   "text": "El Marc pot ser una peça clau, llavors.\n\nUna possibilitat concreta: parlar amb ell en privat, no per demanar-li que \"cuidi\" la Nadia —això el posaria en un rol que pot pesar-li i exposar ella—, senseó per dir-li alguna cosa com: *\"He vist que quan tu convides algú, els altres ho segueixen. Vull que sàpigues que això té impacte.\"*\n\nRes més. Nomes nomenar-li el que ja fa, perquè ho faci amb més consciència. Sense missió assignada.\n\nCreus que el Marc és el tipus de noi amb qui es pot tenir aquesta conversa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1402,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 175,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

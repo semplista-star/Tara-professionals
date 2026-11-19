@@ -1,0 +1,83 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat pràctica de Pau, però va anticipar-se amb tres opcions no demanades i va fer preguntes innecessàries en alguns torns",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "quan dius que gairebé no ha obert la boca, és en tots els espais —pati, passadissos, tutoria— o sobretot a les aules?",
+   "esperat": "Pau demanava idees directament; la pregunta de context pot ser útil però no era imprescindible per oferir una primera orientació"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "a l'aula alguna cosa els bloca. Pot ser moltes coses: la dinàmica de grup, la pressió d'exposar-se davant de tothom, que encara no sap com funciona aquest centre",
+   "esperat": "presentar-ho com a hipòtesis obertes sense llista d'interpretacions sobre un tercer no present"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "et proposo tres línies que pots combinar",
+   "esperat": "Pau demanava «alguna idea», no un pla de tres punts; una o dues opcions haurien estat suficients i menys prescriptives"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Amb això al cap, et proposo tres línies que pots combinar: 1. Una conversa individual sense agenda visible [...] 2. Parlar amb el nano del pati [...] 3. Donar als professors un marc comú",
+   "esperat": "resposta més breu i menys estructurada, proporcional a la pregunta informal de Pau"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "el teu instint amb el nano del pati és bo",
+   "esperat": "ometre el judici valoratiu i anar directament a la resposta pràctica"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Vols que practiquem com podria sonar alguna d'aquestes primeres frases?",
+   "esperat": "Pau no havia demanat role-play; oferir-ho sense que ho demanés és anticipar-se innecessàriament"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Entès —i el recel és sa",
+   "esperat": "validació més natural i menys formulaica, sense qualificar el recel de Pau"
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "com parles normalment amb els alumnes pels passadissos?",
+   "esperat": "Pau ja havia acceptat les frases proposades; la pregunta allarga el torn sense necessitat"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Sembla que ja saps com fer-ho. Potser el que necessitaves era permís per no canviar el registre",
+   "esperat": "no atribuir estats interns ni fer de mirall interpretatiu; tancar amb una frase breu i deixar que Pau conclogui ell mateix"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Potser el que necessitaves era permís per no canviar el registre",
+   "esperat": "no inferir què «necessitava» Pau; és una atribució d'estat intern no expressat"
+  }
+ ]
+}

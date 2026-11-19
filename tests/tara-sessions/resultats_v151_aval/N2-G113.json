@@ -1,0 +1,34 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va entendre des del primer torn que la persona volia desfogar-se i es va limitar a escoltar i reflectir sense oferir consells ni derivar.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "deu ser molt pesat, tot plegat",
+   "esperat": "Reflectir el que la persona ha dit sense atribuir-li una experiència interna no expressada; p. ex. 'i tu aquí aguantant les preguntes'"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "tens raó",
+   "esperat": "Evitar validacions automàtiques; simplement continuar el reflex sense avaluar si la persona té o no raó"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Estàs feta pols per dins, sense haver dormit, fent cara de normalitat pels nets, aguantant l'enfado amb el teu fill, i a sobre la teva filla et diu que no et fiquis... quan tu simplement estàs allà perquè calen.",
+   "esperat": "Un reflex més breu que no enumeri tots els elements; la persona ja els ha dit i no necessita que li siguin retornats en llista"
+  }
+ ]
+}

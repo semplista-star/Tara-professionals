@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad final, pero en el turno 2 ofreció dos opciones cuando Raúl ya había pedido implícitamente una norma clara, lo que generó un rodeo innecesario antes de llegar a lo que pedía.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Hay dos maneras de plantearlo, y cada una tiene su lógica: [...] ¿Cuál de las dos te parece más realista con Lucía?",
+   "esperat": "Raúl ya había dicho 'quiero que haya una hora fija sin discusión'; TARA podría haber dado directamente la frase firme o, como mucho, una sola opción concreta sin abrir un menú de alternativas que obligó a Raúl a redirigir"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "La diferencia es que la segunda puede reducir la resistencia, pero requiere que el límite siga siendo tuyo aunque ella proteste.",
+   "esperat": "Explicación más breve; el análisis comparativo de las dos opciones alarga la respuesta más allá de lo que la situación requería"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "para que ella sienta que la escuchas aunque el límite sea tuyo",
+   "esperat": "No atribuir cómo se sentirá Lucía; basta con describir el efecto probable en términos de comportamiento observable"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Lo más difícil no es la frase, es no ceder la primera noche aunque proteste. Si aguantas ahí, las siguientes son más fáciles.",
+   "esperat": "Raúl solo pidió la frase; el consejo sobre consistencia no fue solicitado y roza el tono paternalista"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 1,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [
+  3
+ ],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre el límit del canal però va oferir opcions de sanció concretes i va recomanar actuacions que corresponen a la institució, superant l'abast de N1 abans de redirigir-se correctament quan la persona va demanar preparació de la conversa.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Opcions habituals en centres per a aquest perfil: Amonestació escrita per a tots dos, amb entrevista individual per separat per entendre el context / Mesura reparadora (que es disculpin, que expliquin com ho volen resoldre) combinada amb l'amonestació / Comunicació a les famílies, gairebé sempre recomanable en baralla física, sigui quina sigui la mesura",
+   "esperat": "No llistar opcions de sanció concretes; explicar que la tria de mesures correspon al centre i al reglament, i preguntar si vol ajuda per preparar la conversa o valorar criteris de gravetat"
+  },
+  {
+   "torn": 3,
+   "categoria": "limit_canal",
+   "gravetat": "alta",
+   "cita": "Opcions habituals en centres per a aquest perfil: Amonestació escrita per a tots dos [...] Mesura reparadora [...] Comunicació a les famílies, gairebé sempre recomanable en baralla física",
+   "esperat": "TARA no hauria de recomanar mesures disciplinàries concretes ni dir quines 'solen' aplicar-se; això és decidir per la institució (incompliment bloquejant 3)"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Tens el reglament a mà per confirmar si l'empenta i la baralla física estan tipificades com a falta lleu o greu al teu centre?",
+   "esperat": "Pregunta no demanada i innecessària en aquest punt; Pere no havia demanat orientació sobre tipificació"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Gràcies. Amb això ja puc ajudar-te a orientar-te. [...] Tens el reglament a mà per confirmar si l'empenta i la baralla física estan tipificades com a falta lleu o greu al teu centre?",
+   "esperat": "Resposta més breu, centrada a aclarir el límit i preguntar com vol ser ajudat, sense desplegar llistes de mesures"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Després, si decideixes fer-los coincidir: Només si els dos estan prou calmats. No per negociar qui té raó, senseó per tancar: 'Cadascun m'ha explicat la seva versió. Ara vull que cadascun digui una cosa que faria diferent.'",
+   "esperat": "La indicació de fer coincidir els dos alumnes s'acosta a recomanar una dinàmica de mediació/reparació que no havia estat demanada; millor deixar-ho com a opció oberta sense guió"
+  }
+ ]
+}

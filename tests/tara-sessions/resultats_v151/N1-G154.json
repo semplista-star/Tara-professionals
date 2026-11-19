@@ -1,0 +1,140 @@
+{
+ "id": "N1-G154",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "humor · la pressió de direcció per les notes",
+ "tipus": "humor",
+ "persona": "Óscar, directora. Situació: la pressió de direcció per les notes. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:21:10.742Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola Tara! Mira, soc director d'escola i avui m'han dit que les notes del meu centre \"preocupen\" la inspecció. Vaja, que bàsicament m'han cridat l'atenció com si fos un dels meus alumnes de sisè. La ironia és perfecta, no?"
+  },
+  {
+   "qui": "TARA",
+   "text": "La ironia és ben real, sí. Tu que passes el dia gestionant situacions difícils amb alumnes i famílies, i avui t'has trobat a l'altre costat de la taula.\n\nCom t'ha quedat el cos després d'aquesta conversa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 227,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 69,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Doncs... una mica encongit, t'ho dic sincerament. I això que jo soc dels que fan broma de tot. Però clar, quan et posen en qüestió la feina que fas, i la feina del teu equip, ja no fa tanta gràcia. Els mestres s'estan deixant la pell i jo no sé com explicar-los ara que \"no és suficient\"."
+  },
+  {
+   "qui": "TARA",
+   "text": "Encongit, i amb la sensació que has de traslladar un missatge que no et quadra amb el que veus cada dia.\n\nPerquè una cosa és que la inspecció tingui les seves dades, i una altra és el que tu saps del que fa el teu equip. I ara estàs enmig dels dos.\n\nQuè et pesa més en aquest moment: com et vas quedar tu després de la conversa, o com gestionar el que ve ara amb els mestres?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 401,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 121,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "El que ve ara amb els mestres, sense dubte. Jo ja m'ho empassaré, que per això cobro, no? Però ells... ells no es mereixen arribar a una reunió i sentir que el que fan no val. Perquè val, i molt. I no sé com dir-los \"hem de millorar\" sense que soni a \"esteu suspenent\". Que ja veig la cara que posaran."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ja tens clar el que vols protegir: que no surtin d'aquella reunió sentint-se suspesos quan s'estan deixant la pell.\n\nVols que t'ajudi a preparar com obrir aquesta conversa amb ells?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 65,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacte, això és el que necessito. Com començo sense que sembli que els estic llegint un comunicat de la inspecció disfressat de reunió d'equip. Alguna idea concreta per arrencar?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí. Una manera d'arrencar que no soni a comunicat és començar pel que tu has vist, no pel que ha dit la inspecció.\n\nAlguna cosa així:\n\n---\n\n*\"Vull començar dient una cosa que crec de veritat: el que esteu fent aquí es nota. Ho veig cada dia. I precisament perquè ho veig, vull que parlem d'una cosa que m'ha arribat de fora i que vull compartir amb vosaltres de cara, no per la porta del darrere.\"*\n\n---\n\nAixò fa tres coses: els diu que els veus, els avisa que ve alguna cosa incòmoda, i els col·loca com a equip que ho afronta amb tu, no com a destinataris d'un veredicte.\n\nA partir d'aquí, com presentes les dades de la inspecció depèn molt de com vols enfocar la reunió: com una sessió d'anàlisi conjunta, o com una on tu ja portes alguna proposta. Quin dels dos encaixa més amb el teu estil i amb com funciona el teu equip?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 756,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 286,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, la primera opció, clar. Si jo arribo amb les solucions ja fetes, em miraran com si fos la inspecció en persona. Millor que ho pensem junts. Mira, amb aquest inici ja tinc prou per tirar endavant. Moltes gràcies, Tara, de debò. M'has ajudat a veure-ho més clar."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra. Tens la idea clara i saps com és el teu equip, que és el més important.\n\nMolta sort amb la reunió.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1144,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 50,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

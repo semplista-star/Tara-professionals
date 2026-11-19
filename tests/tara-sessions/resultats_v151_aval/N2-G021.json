@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA escoltà sense precipitar-se, esperà la demanda concreta i la lliurà en el torn exacte que es va demanar.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Y tiene sentido que pese.",
+   "esperat": "Ometre la validació formulaica i deixar que el reflex emocional anterior fes la feina"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Qué difícil quedarte con esa preocupación dentro, sin dormir, y encima sentir que te descartan por la edad.",
+   "esperat": "Reflectir el que la persona ha dit explícitament sense afegir la interpretació «te descartan por la edad» (ella va dir «me dicen que soy mayor y que no entiendo», no que la descartessin)"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "¿Quieres quedarte un momento con eso, o te ayudaría pensar en cómo decírselo a sus padres de una manera que puedan escucharte?",
+   "esperat": "La persona havia dit que de moment només volia explicar-ho; oferir l'alternativa de pensar en solucions anticipa una demanda que no s'havia fet encara"
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Me alegra que haya servido. Cuídate mucho.",
+   "esperat": "Un tancament d'una sola paraula o frase molt breu és suficient; «Cuídate mucho» afegeix un to lleugerament paternalista no demanat"
+  }
+ ]
+}

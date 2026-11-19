@@ -1,0 +1,141 @@
+{
+ "id": "N1-G021",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "que-faig · un alumne que es riu dels companys amb necessitats educatives",
+ "tipus": "que-faig",
+ "persona": "Ibrahim, professor de FP. Situació: un alumne que es riu dels companys amb necessitats educatives. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:12:49.228Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, tinc una situació a classe que no sé com gestionar. Tinc un alumne que es burla dels companys amb necessitats educatives, fa comentaris inapropiats, se'n riu... i jo he de decidir com actuar. Podria parlar amb ell en privat, podria fer-ho davant de tota la classe, podria implicar la família, podria derivar-ho a orientació... hi ha moltes opcions i no sé quina és la correcta. No sé què fer, digues-m'ho tu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc que vols una resposta clara, i t'ajudaré a pensar-ho. Però la decisió és teva, perquè tu coneixes aquest alumne, el grup i el context del centre.\n\nEt presento les opcions principals amb el que implica cadascuna:\n\n---\n\n**Parlar amb ell en privat**\nPermet explorar sense que es posi a la defensiva davant el grup. És un bon primer pas gairebé sempre: li dona l'oportunitat de respondre sense públic. El risc és que, si no hi ha conseqüències visibles, el grup pot percebre que no passa res.\n\n**Intervenir davant la classe**\nÚtil si la conducta és reiterada i el grup ja l'ha normalitzat, o si vols treballar la convivència col·lectivament. Requereix preparació per no exposar ni l'alumne que es burla ni les persones afectades. No és el primer pas recomanable si no has parlat amb ell abans.\n\n**Implicar la família**\nNecessari si la conducta és greu o persistent, o si el centre ho requereix per protocol. Millor fer-ho després d'haver parlat amb l'alumne, per poder explicar a la família el que ha passat i com ha respost.\n\n**Derivar a orientació**\nIndicat si hi ha indicis que la conducta respon a alguna cosa més profunda, si afecta greument l'alumne o alumnes amb NEE, o si necessites suport per valorar-ho. No és excloent amb les altres opcions.\n\n---\n\nUna pregunta que et pot ajudar a decidir per on començar: **aquesta conducta és puntual o és un patró que es repeteix?**\n\nAixò canvia bastant quin primer pas té més sentit.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 282,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 449,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, t'agraeixo l'explicació, però jo ja sabia que existien aquestes opcions. El que necessito és que em diguis quina triar. Tu ets l'assistent, no?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, soc l'assistent — i precisament per això no puc triar per tu.\n\nNo és una esquiva. És que la decisió correcta depèn de coses que tu saps i jo no: com és aquest alumne, si la conducta és nova o arrelada, com està el grup, quin suport tens al centre, com estan els alumnes afectats. Sense això, qualsevol elecció que et donés seria a cegues.\n\nEl que sí puc fer és ajudar-te a arribar a la teva decisió de manera ràpida. Digue'm una cosa: **la conducta és puntual o es repeteix?** Amb això ja et puc dir quin camí té més sentit en el teu cas concret.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 785,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 191,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bé, d'acord. Es repeteix. No és la primera vegada, ni la segona. Ja fa unes setmanes que passa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Amb això ja tenim més on agafar-nos.\n\nSi es repeteix des de fa setmanes, la conversa privada amb ell segueix sent el primer pas — però ja no és suficient sola. Necessita anar acompanyada d'alguna cosa més.\n\nEl que tindria sentit en aquest cas:\n\n1. **Primer, parla amb ell en privat.** No per sancionar, senseó per entendre què hi ha darrere i deixar clar que la conducta ha de parar. Que sàpiga que l'has vist.\n\n2. **Paral·lelament, informa orientació.** No com a derivació urgent, senseó per tenir-los al corrent. Si la situació s'agreuja, ja estaran en context.\n\n3. **Contacta la família relativament aviat.** Una conducta reiterada durant setmanes ja justifica que la família ho sàpiga. Millor que ho sentin de tu, amb calma, que no pas quan ja sigui un conflicte major.\n\nLa intervenció davant el grup pot venir després, si veus que cal treballar la convivència col·lectivament — però no com a primer moviment.\n\n---\n\nVols que t'ajudi a preparar la conversa amb l'alumne? Sovint és la part que fa més respecte.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1014,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 330,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, em sembla una seqüència raonable. Comencem per la conversa amb l'alumne. Com ho faig?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bé. Anem a la conversa.\n\nL'objectiu d'aquesta primera conversa no és que reconegui que ha fet malament ni que es disculpi — és que sàpiga que l'has vist, que entenguis una mica què hi ha darrere, i que quedi clar que la conducta ha de canviar.\n\n**Estructura possible:**\n\n**1. Obre sense acusar**\nComença des del que has observat, no des del judici.\n*\"He vist que en alguns moments fas comentaris sobre [nom o \"alguns companys\"] que els fan sentir malament. Volia parlar-ne amb tu.\"*\n\n**2. Escolta abans de concloure**\nFes-li una pregunta oberta i deixa que parli.\n*\"Com veus tu la situació?\"*\nPot ser que minimitzi, que es justifiqui, o que digui alguna cosa que et sorprengui. Tot és informació.\n\n**3. Posa el límit amb claredat**\nSense dramatisme, però sense ambigüitat.\n*\"Entenc el que em dius. I alhora, això ha de parar. No és negociable.\"*\n\n**4. Tanca amb una petició concreta**\nQue sàpiga exactament què esperes d'ell.\n*\"El que et demano és que, a partir d'ara, si tens alguna cosa a dir d'un company, ho facis amb mi, no davant del grup.\"*\n\n---\n\nVols assajar com podria anar aquesta conversa? Puc fer el paper de l'alumne si t'és útil.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1384,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 408,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies, això ja és molt concret i útil. Crec que ja tinc prou per tirar endavant. Ho provaré d'aquesta manera."
+  },
+  {
+   "qui": "TARA",
+   "text": "Molt bé. Ja tens l'estructura i el primer pas clar. Sort amb la conversa.\n\nSi després vols explicar com ha anat, o preparar el següent moviment, aquí estaré.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1836,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 54,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

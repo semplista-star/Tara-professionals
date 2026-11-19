@@ -1,0 +1,206 @@
+{
+ "id": "N2-G157",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "que-faig · un fill que diu que a l'escola el molesten",
+ "tipus": "que-faig",
+ "persona": "Jordi, hermana mayor adulta que hace de referente. Situació: un fill que diu que a l'escola el molesten. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:33:02.574Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, menos mal que estás aquí porque llevo días dándole vueltas a esto y no sé cómo manejarlo. Mira, te explico: mi sobrino Pau tiene nueve años y la semana pasada me llamó mi hermana, que es su madre, llorando porque Pau le había dicho que en el cole hay un grupo de niños que le hacen la vida imposible. Que le esconden la mochila, que se ríen de él cuando habla en clase, que a la hora del patio nadie quiere jugar con él... vamos, que el crío lo está pasando fatal. Y mi hermana está muy desbordada, ya sabes, trabaja a jornada completa, tiene otro hijo pequeño, y me ha pedido a mí que me encargue de hablar con el cole. Y yo quiero ayudar, claro que sí, pero no sé cómo enfocar esa conversación con los profes. Porque por un lado pienso que tengo que ir fuerte, que tienen que saber que esto es serio. Pero por otro lado me da miedo que si voy muy a la defensiva lo empeore todo y los profes se pongan en modo defensivo también y al final"
+  },
+  {
+   "qui": "TARA",
+   "text": "Llevas días con esto dando vueltas, y se nota que quieres hacerlo bien — tanto por Pau como por tu hermana.\n\nAntes de pensar en cómo enfocar la conversación con el cole, necesito entender una cosa que cambia bastante cómo preparártela: ¿tienes algún tipo de autorización formal de tu hermana para representarla, o vas más como familiar de confianza que ella misma te ha pedido que vayas?\n\nNo te lo pregunto para complicarlo, sino porque el cole puede preguntártelo, y conviene que vayas preparada para eso también.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 463,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 151,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ay, buena pregunta, no había pensado en eso. A ver, autorización formal formal... no, no tengo nada firmado ni nada oficial. Mi hermana me lo pidió por teléfono, y luego me mandó un audio por WhatsApp diciéndome que confiaba en mí y que fuera yo porque ella no podía. Pero nada escrito, nada oficial. ¿Eso es un problema? Porque si tengo que ir con algún papel firmado me lo dice y lo arreglo, pero claro, no sé si eso es necesario o si con el audio es suficiente o si simplemente puedo ir como \"soy la tía y vengo con el permiso de la madre\". No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "No te puedo decir qué exigirá ese cole en concreto, porque cada centro tiene su protocolo y eso lo decide el equipo directivo. Pero sí puedo ayudarte a pensar las opciones.\n\n**Lo más habitual es que pidan que venga la madre o el padre.** Algunos centros son flexibles si explicas la situación; otros no. Así que tienes básicamente tres caminos:\n\n1. **Ir tú primero y ver qué pasa.** Llegas, te presentas como tía, explicas que la madre te ha pedido que vayas en su nombre, y ves si te atienden. Si te ponen pegas, ya sabes qué necesitas. El riesgo es perder un viaje o que la conversación importante quede aplazada.\n\n2. **Pedirle a tu hermana una autorización escrita antes de ir.** Un papel simple firmado por ella, con su nombre, el de Pau y el tuyo, diciendo que te autoriza a hablar en su nombre. No tiene que ser nada oficial. Eso suele ser suficiente en la mayoría de colegios. Es el camino más seguro.\n\n3. **Ir los dos juntos: tú y tu hermana.** Aunque sea complicado para ella, una sola reunión bien preparada puede valer más que varias a medias. Tú podrías llevar el peso de la conversación y ella estar presente.\n\n¿Cuál de estas opciones encaja mejor con vuestra situación?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 805,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 370,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, creo que la segunda opción tiene más sentido. Lo del papel escrito. Porque mi hermana, aunque está desbordada, puede tomarse diez minutos para escribir algo y firmarlo, ¿no? Y así yo voy al cole con algo en la mano y no me pueden decir que no tengo autorización. Además así evito el riesgo de ir y que me manden de vuelta a casa sin haber hablado con nadie, que eso sería una pérdida de tiempo enorme y encima me frustraría muchísimo. Y lo de ir juntas... no sé, mi hermana está tan al límite emocionalmente que me da miedo que en la reunión se le vaya la olla y se ponga a llorar o a gritar y eso no ayude a Pau. Así que sí, creo que lo del papel. Pero ahora dime, ¿cómo empiezo? ¿Qué le digo a mi hermana para pedirle ese papel y cómo lo redactamos?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene mucho sentido lo que has decidido.\n\nPara pedírselo a tu hermana, algo sencillo como: *\"Oye, para que el cole me atienda sin problemas, ¿me puedes mandar un mensaje escrito o un papel firmado diciendo que te represento? Con eso voy segura.\"* No hace falta más explicación — ella ya sabe por qué vas.\n\nY el papel puede ser así de simple:\n\n---\n\nYo, [nombre completo de tu hermana], madre de [nombre completo de Pau], autorizo a mi hermana [tu nombre completo] a reunirse con el equipo del colegio [nombre del centro] en mi nombre para tratar asuntos relacionados con mi hijo.\n\n[Lugar y fecha]\n[Firma]\n\n---\n\nCon eso es suficiente en la mayoría de casos.\n\n¿Quieres que ahora preparemos juntas cómo enfocar la conversación con los profes?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1433,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 235,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, eso me viene genial. Porque eso era lo otro que me preocupaba, ¿sabes? Lo del papel ya lo veo más claro, se lo pido a mi hermana esta tarde y listo. Pero la conversación con los profes es lo que más me da vueltas en la cabeza. Porque no quiero ir como una fiera, pero tampoco quiero que me tomen el pelo o que me digan \"sí sí, lo miramos\" y luego no pase nada. Así que sí, cuéntame, ¿cómo lo enfoco?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien. Lo que describes — no ir como una fiera pero tampoco quedarte con un \"ya lo miraremos\" — es exactamente el equilibrio que funciona mejor en estas reuniones.\n\nHay una idea que lo sostiene todo: **vas a colaborar, no a acusar.** Eso no significa que minimices lo que le pasa a Pau; significa que llegas como alguien que quiere resolver el problema junto con ellos, no contra ellos. Los profes responden mucho mejor así, y Pau sale ganando.\n\nEn la práctica, eso se traduce en tres movimientos:\n\n**1. Empezar describiendo lo que Pau ha contado, sin veredictos.**\nNo \"hay un grupo que le hace bullying\" (eso pone al cole a la defensiva), sino: *\"Pau nos ha contado que le esconden la mochila, que se ríen de él cuando habla en clase y que en el patio nadie quiere jugar con él. Está pasándolo muy mal.\"* Hechos concretos, y cómo está él.\n\n**2. Preguntar qué han observado ellos.**\n*\"¿Vosotros habéis notado algo?\"* Esto es importante: les das la oportunidad de ser parte de la solución, y además puedes descubrir información que no tenéis.\n\n**3. Cerrar con un acuerdo concreto y una fecha.**\nNo te vayas sin un \"¿qué vamos a hacer y cuándo nos volvemos a hablar?\". Eso es lo que evita el \"sí sí, lo miramos\".\n\n¿Quieres que ensayemos cómo arrancar esa primera parte, con tus propias palabras?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1820,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 424,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, quiero ensayarlo. Porque una cosa es entenderlo y otra es decirlo de verdad, ¿sabes? Que cuando estoy nerviosa me lío, me voy por las ramas, empiezo a explicar demasiadas cosas y al final pierdo el hilo. Así que sí, ayúdame a encontrar mis palabras para ese primer momento, cuando entro y me siento delante del profe o la tutora y tengo que empezar a hablar. ¿Cómo arranco?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Cuéntame una cosa: cuando imaginas ese momento, ¿qué es lo primero que quieres que el profe o la tutora entienda antes de que digas nada más?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2383,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 50,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Que Pau lo está pasando mal de verdad. Que no es una exageración ni una tontería de niños. Que este crío se va al cole con miedo y eso no puede seguir así."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso es. Ya tienes tu arranque.\n\nPrueba con algo así:\n\n*\"Vengo porque Pau lo está pasando mal de verdad. No es una exageración — se va al cole con miedo. Y necesito que lo tomemos en serio juntos.\"*\n\nDirecto, sin rodeos, sin acusar a nadie. Y deja un momento de silencio después. Que aterrice.\n\n¿Cómo te suena dicho así?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2487,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 118,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Me suena bien, sí. Es lo que quiero decir, pero más ordenado de lo que me saldría a mí sola. Aunque creo que lo diría un poco más a mi manera, ¿sabes? Algo como \"mira, vengo porque mi sobrino Pau lo está pasando muy mal y necesito que esto no se quede en nada\". Algo así. Más natural para mí. Y luego ya entro con lo de la mochila, las risas, el patio... ¿eso está bien?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso está perfecto. Es tuyo, y se nota.\n\nY sí, después de eso entras con los hechos concretos — la mochila, las risas, el patio — y terminas con cómo está él: *\"Y Pau se va al cole con miedo.\"* Eso lo dice todo.\n\n¿Quieres seguir con el siguiente momento, cuando les preguntas qué han observado ellos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 109,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sabes qué, creo que ya tengo bastante para empezar. En serio. Tengo el arranque con mis palabras, sé que tengo que ir con hechos concretos, sé que tengo que preguntarles qué han visto ellos y sé que no me puedo ir sin un acuerdo y una fecha. Eso ya es mucho más de lo que tenía esta mañana. Ahora mismo lo que necesito es hablar con mi hermana para lo del papel y luego llamar al cole para pedir la reunión. Gracias, de verdad, me has ayudado a ordenar la cabeza."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te haya servido. Pau tiene suerte de tenerte.\n\nMucha suerte con la reunión.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 3005,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 43,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

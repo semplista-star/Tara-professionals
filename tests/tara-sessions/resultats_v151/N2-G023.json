@@ -1,0 +1,96 @@
+{
+ "id": "N2-G023",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "demanda-directa · els diners i la paga",
+ "tipus": "demanda-directa",
+ "persona": "Jordi, padre separado con custodia de fines de semana alternos. Situació: els diners i la paga. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Demana directament una ajuda concreta (un missatge, una frase o un pla curt) per a la situació.",
+  "Si TARA respon, demana un petit ajust (més curt, més càlid o més ferm).",
+  "Tanca."
+ ],
+ "espera": "Lliurar la peça demanada al primer torn i ajustar-la sense rodeigs.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:24:34.894Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, buenas. Mira, es que... no sé si me puedes ayudar con esto exactamente, pero lo intento. Es sobre la paga de mi hijo. Tiene 10 años y cuando está conmigo los fines de semana siempre me pide dinero para cosas, y yo no sé muy bien cómo decirle que hay un límite sin que se sienta mal ni que piense que no me importa. ¿Me podrías ayudar a encontrar una frase o algo corto que pueda decirle?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, esto encaja bien con lo que puedo ayudarte.\n\nAquí tienes una frase que puedes adaptar a tu manera de hablar:\n\n**\"Tengo [cantidad] para el fin de semana y los dos decidimos en qué lo gastamos. Cuando se acaba, se acaba, y eso no cambia lo mucho que me importas.\"**\n\nLa segunda parte es importante porque separa el dinero del cariño, que es justo lo que te preocupa.\n\nSi quieres, dime qué tono va más contigo —más directo, más suave, más corto— y lo ajustamos.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 298,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 156,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, sí, me gusta la idea... pero quizás es un poco larga para mí, no sé. A veces me lío cuando hablo con él y me pierdo a mitad. ¿La podrías hacer más corta? Perdona si soy muy exigente."
+  },
+  {
+   "qui": "TARA",
+   "text": "No eres nada exigente, es una petición muy razonable.\n\nMás corta:\n\n**\"Tenemos [cantidad] para el finde. Cuando se acaba, se acaba, y eso no tiene nada que ver con lo que te quiero.\"**\n\nO todavía más simple, si te lías:\n\n**\"Hoy tenemos [cantidad]. Eso es lo que hay, y te quiero igual.\"**",
+   "tags": [],
+   "usage": {
+    "input_tokens": 529,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 107,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Uy, la segunda me gusta mucho más. Es que así sí me sale natural. Muchas gracias de verdad, no esperaba que fuera tan fácil. Creo que ya lo tengo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te sirva. ¡Suerte el fin de semana!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 690,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

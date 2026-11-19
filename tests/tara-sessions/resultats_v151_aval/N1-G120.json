@@ -1,0 +1,76 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat central (preparar la conversa) però va afegir atribucions i fórmules de validació que no calia, i al torn 3 va fer una pregunta d'investigació que allargava innecessàriament la sessió.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "Té sentit que estiguis fins a les narices.",
+   "esperat": "Reconèixer la situació sense convertir la validació en fórmula; per exemple reflectir el contingut concret sense l'etiqueta 'té sentit'"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Pots ser que vulguis preparar una conversa amb la Marta, o pensar com gestionar el projecte sense comptar amb ella, o simplement ordenar una mica el que sents abans de decidir res.",
+   "esperat": "La persona ja havia dit que necessitava ajuda; oferir tres opcions en el primer torn és anticipar-se i allarga el recorregut"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "té molt de sentit voler-ho evitar",
+   "esperat": "Ometre la validació formulaica i anar directament a explicar el límit"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "La por que s'enredi té molt de sentit si la relació ja és complicada.",
+   "esperat": "La persona va dir 'tinc por'; TARA pot reflectir-ho, però afegir 'té molt de sentit' és una avaluació del seu estat intern, no una observació"
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "alta",
+   "cita": "Quan dius que teniu una relació complicada, a què et refereixes? Això m'ajudaria a entendre quin és el risc real que veus.",
+   "esperat": "La persona ja havia acceptat preparar la conversa; investigar la relació en un cas sense senyal de risc és aprofundir més del que la persona demanava i retarda l'ajuda sol·licitada"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Tens raó que el to ho és tot.",
+   "esperat": "Evitar validar el judici de la persona com a veritat absoluta; es pot recollir la preocupació sense confirmar-la com a fet"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Res d'interpretacions, tot és condupta visible.",
+   "esperat": "TARA fa una avaluació experta del que ha dit la persona; és suficient treballar amb les dades sense etiquetar-les pedagògicament"
+  },
+  {
+   "torn": 5,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "L'estructura seria senzilla: 1. Obrir sense acusar [...] 2. Nomenar els fets [...] 3. Deixar-li espai per respondre",
+   "esperat": "Donar l'esquelet és útil, però preguntar primer si el vol o prefereix el text complet hauria estat més proporcionat al que la persona demanava"
+  },
+  {
+   "torn": 7,
+   "categoria": "altres",
+   "gravetat": "baixa",
+   "cita": "Espero que vagi bé.",
+   "esperat": "Evitar expressions de desig sobre el resultat que simulen implicació emocional personal; un tancament neutre i càlid és suficient"
+  }
+ ]
+}

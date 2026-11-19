@@ -1,0 +1,184 @@
+{
+ "id": "N1-G016",
+ "canal": "N1",
+ "idioma": "ca",
+ "titol": "rebuig · un alumne que es riu dels companys amb necessitats educatives",
+ "tipus": "rebuig",
+ "persona": "Sara, professor de FP. Situació: un alumne que es riu dels companys amb necessitats educatives. Estil: està insegur i es disculpa sovint.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:13:01.941Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estàs aquí per preparar alguna cosa, per processar alguna situació — o simplement perquè avui necessitaves un espai. Explica'm.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, sí... bé, és que tinc un problema a classe i no sé molt bé com gestionar-ho, la veritat. Potser és una tonteria, no sé... Tinc un alumne que es riu dels companys que tenen necessitats educatives i no sé com aturar-ho sense muntar un drama. Perdona si no m'explico bé."
+  },
+  {
+   "qui": "TARA",
+   "text": "No és cap tonteria, i t'expliques perfectament.\n\nVols aturar-ho sense que es converteixi en un gran incident — i alhora que tingui algun efecte real. Té sentit.\n\nPer ajudar-te millor: quan dius que es riu, com és això concretament? Comentaris en veu alta, gestos, riures amb altres companys...?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 236,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 99,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacte... és més aviat comentaris en veu baix i riures amb un altre noi que seu al costat. No és res molt exagerat però es nota, i els altres alumnes també ho veuen. I el pitjor és que l'alumne afectat també s'adona, estic segura. Però clar, no l'he sentit dir res directament, i no sé si em passo si actuo... potser exagero, no sé."
+  },
+  {
+   "qui": "TARA",
+   "text": "No exageres. El que describes — comentaris en veu baixa, riures, davant dels altres — és una dinàmica que fa mal precisament perquè és subtil i repetida. I si l'alumne afectat s'adona, ja té efecte, encara que no hagis sentit res directament.\n\nQue no ho hagis sentit tu no vol dir que no passi. Vol dir que actues amb el que tens, que és suficient per fer alguna cosa.\n\nUna pregunta: prefereixes abordar-ho primer amb el grup en general, o parlar directament amb aquest alumne en privat?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 454,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 149,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ui, no sé... crec que en privat, no? No vull que se senti atacat davant de tothom perquè llavors es pot posar a la defensiva i empitjorar les coses. Però és que quan he intentat parlar amb alumnes així en altres ocasions... no m'ha anat gaire bé. Sempre acabo sent jo la dolenta. Perdona, és que no tinc molta confiança amb aquest tipus de converses."
+  },
+  {
+   "qui": "TARA",
+   "text": "No t'has de disculpar. El que dius té molt de sentit — i que t'hagi anat malament abans no vol dir que siguis dolenta en això, vol dir que és una conversa difícil.\n\nTens bona intuïció: en privat és millor. Menys pressió per a ell, menys risc que es tanqui.\n\nEl que sovint fa que aquestes converses es torçin és que comencen semblant un judici — i l'alumne es posa a defensar-se. Si en comptes d'això comences des del que has observat, sense acusar, és més fàcil que s'obri una mica.\n\nVols que t'ajudi a preparar com podria anar aquesta conversa? Podem treballar un fil possible — què dir primer, com respondre si es posa a la defensiva — perquè te la sentis una mica més teva abans de tenir-la.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 721,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 232,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, m'agradaria... però és que no soc gaire de guions, saps? Si porto alguna cosa molt preparada em surt forçat i l'alumne ho nota. Ho he provat alguna vegada i quedo fatal, la veritat. No sé si té sentit el que dic."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit. Un guió et traeix perquè estàs pendent de recordar-lo en comptes d'escoltar-lo a ell.\n\nEl que podem fer és diferent: en lloc d'un guió, treballar dos o tres idees clau que tinguis clares — com un fil intern, no una seqüència de frases. Així pots improvisar amb les teves paraules i seguir tenint un rumb.\n\nLes idees podrien ser aquestes:\n\n**1. Comença des del que has vist, no des del que creus que fa.**\nAlguna cosa com: *\"He notat alguna cosa a classe i volia parlar-ne amb tu.\"* Sense acusació, sense judici encara.\n\n**2. Dóna-li espai per respondre abans de concloure res.**\nSi es posa a la defensiva — *\"jo no he fet res\"* — no cal contrargumentar. Pots dir: *\"No t'estic dient que siguis mala persona. Només vull entendre què passa.\"*\n\n**3. Acaba amb alguna cosa concreta i possible.**\nNo un sermó sobre el respecte, senseó una cosa petita: *\"El que et demano és que hi pensis.\"* O *\"Que estiguis atent a com li pot arribar.\"*\n\nCom et sona això? Hi ha alguna part que et sembla que no funcionaria amb aquest alumne concret?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1031,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 355,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ah, això ja m'agrada més... no és un guió però tinc una mica de nord. La primera part em sembla bé, crec que puc fer-ho. La tercera també. Però la del mig... no sé, aquest noi quan se sent qüestionat es tanca molt i no diu res, i llavors el silenci em posa nerviosa a mi i acabo parlant massa jo i... buf. No sé com gestionar això."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, el silenci és incòmode — i quan parlem de més per omplir-lo, sovint és quan perdem el fil.\n\nUna cosa que pot ajudar: tractar el silenci com una resposta, no com un problema. Si ell es tanca i no diu res, no cal forçar. Pots dir alguna cosa breu com: *\"No cal que em responguis ara mateix.\"* I deixar-ho estar uns segons.\n\nSovint el silenci vol dir que està processant, no que no escolta. I si tu aguantes sense omplir-lo, de vegades és ell qui acaba dient alguna cosa.\n\nI si no diu res en tota la conversa — tampoc passa res. No necessites que reconegui res en veu alta perquè la conversa hagi servit. Que hagi sentit el que li has dit ja és alguna cosa.\n\nCreus que podries aguantar uns segons de silenci si saps que no has de resoldre-ho en aquell moment?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1503,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 250,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hmm... sí, crec que sí si ho veig així. Si em dic a mi mateixa que el silenci no és un fracàs... potser sí que puc aguantar-lo. Això m'ajuda, la veritat. Gràcies. Crec que ja tinc prou per intentar-ho, no vull complicar-ho més. Ho provaré i ja veuré com va."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecte. Tens el nord, tens les tres idees, i saps que el silenci no és un fracàs. Amb això n'hi ha prou per començar.\n\nSort amb la conversa.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1860,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 52,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gràcies, de veritat. Perdona que hagi estat tan insegura... però m'ha ajudat molt. Fins aviat!"
+  },
+  {
+   "qui": "TARA",
+   "text": "No tens res a disculpar — has sabut molt bé el que necessitaves i el que no. Fins aviat!",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1951,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 42,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

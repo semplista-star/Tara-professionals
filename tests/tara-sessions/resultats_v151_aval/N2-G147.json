@@ -1,0 +1,76 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 1,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén el nucli de la demanda (ajuda pràctica per a les pantalles) però s'anticipa a donar solucions abans que la persona les demani explícitament, i en el tancament afegeix un elogi motivacional no demanat.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Una cosa que de vegades ajuda a aquesta edat és acordar l'hora d'apagar *abans* que arribi el moment, quan tothom està tranquil.",
+   "esperat": "La persona encara no havia demanat consell pràctic; TARA hauria pogut continuar explorant la situació o preguntar si volia idees."
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "no és que no puguin, és que no volen",
+   "esperat": "Afirmar la intenció dels néts com a fet; hauria pogut formular-ho com a hipòtesi: «potser no és que no puguin...»."
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Això que dius és molt important.",
+   "esperat": "Recollir el contingut sense avaluar-lo; per exemple: «Ser àvia és diferent de ser mare, i el vincle que vols preservar compta.»"
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "com et sents tu amb ells l'endemà? I ells, com estan amb tu?",
+   "esperat": "La persona ja havia descrit prou el cicle; la doble pregunta allarga l'exploració quan la persona semblava a punt de demanar ajuda concreta."
+  },
+  {
+   "torn": 5,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tens raó, i t'escolto.",
+   "esperat": "Recollir la correcció de la persona sense la fórmula validadora; per exemple: «Clar, no és una qüestió d'estima.»"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "potser el que necessites no és que t'estimin més, senseó que et prenguin més seriosament",
+   "esperat": "Formular-ho com a pregunta o hipòtesi oberta en lloc d'afirmar el que la persona necessita."
+  },
+  {
+   "torn": 7,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "I una cosa important: cedir una vegada no ho espatlla tot. Si aquesta nit no surt perfecte, demà ho tornes a intentar. No és un examen, és un hàbit que es construeix a poc a poc.",
+   "esperat": "La persona havia rebut la resposta que necessitava; aquest paràgraf afegeix consol no demanat que allarga el torn."
+  },
+  {
+   "torn": 7,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Tens algú a casa que et pugui donar suport en això, o ets tu sola amb ells els vespres?",
+   "esperat": "La persona havia dit que ja tenia prou per provar; la pregunta obre un fil nou quan la sessió estava a punt de tancar-se naturalment."
+  },
+  {
+   "torn": 8,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Ànim aquesta nit — i recorda: una frase, ferma, i sense entrar al debat. Tu pots.",
+   "esperat": "Tancar sense l'impuls motivacional («Tu pots»), que sona a fórmula i pot resultar paternalista; n'hi hauria prou amb recordar el punt clau i acomiadar-se."
+  }
+ ]
+}

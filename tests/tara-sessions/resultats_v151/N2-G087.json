@@ -1,0 +1,119 @@
+{
+ "id": "N2-G087",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "que-faig · un fill que menteix sovint",
+ "tipus": "que-faig",
+ "persona": "Sara, madre. Situació: un fill que menteix sovint. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:28:01.118Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Mira, mi hijo últimamente miente mucho y no sé si castigarle o ignorarlo. No sé qué hacer, dímelo tú."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entiendo que no saber cómo responder ante las mentiras puede ser agotador.\n\nTe doy tres opciones concretas, con lo que implica cada una:\n\n**1. Poner una consecuencia clara y consistente**\nCada vez que detectas una mentira, hay una consecuencia predecible (por ejemplo, perder un privilegio). Requiere que puedas aplicarla con calma y regularidad. Puede funcionar bien si la relación en general es buena y él entiende la conexión entre la mentira y la consecuencia.\n\n**2. Ignorar la mentira y centrarte en lo que hay detrás**\nLas mentiras suelen aparecer cuando el niño teme la reacción del adulto. Si reduces el miedo al castigo, a veces la mentira disminuye sola. Implica aguantar el malestar de no \"corregir\" en el momento y apostar por la confianza a medio plazo.\n\n**3. Nombrar lo que ves sin acusar, y dejar la puerta abierta**\nAlgo como: *\"Tengo la sensación de que no me estás contando todo. No pasa nada, puedes decirme la verdad.\"* No castiga ni ignora, pero sí pone el foco en la honestidad. Funciona mejor si él sabe que la verdad no le va a costar demasiado caro.\n\n---\n\nPara ayudarte a elegir, me vendría bien saber una cosa: ¿cuántos años tiene tu hijo, más o menos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 207,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 382,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tiene 9. Creo que la tercera opción me gusta más."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tiene sentido para esa edad. A los 9 años ya entienden bien el mensaje y suelen responder bien cuando sienten que no van a ser atacados.\n\nSi quieres, te ayudo a preparar una frase concreta para la próxima vez que pase, adaptada a cómo habláis vosotros. ¿Te sería útil?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 611,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 92,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, ¿cómo empiezo?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Puedes empezar en un momento tranquilo, no justo cuando acabas de descubrir la mentira. Algo así:\n\n*\"Oye, me he dado cuenta de que a veces me cuentas las cosas de una manera que no es del todo lo que pasó. No te voy a regañar ahora, solo quiero que sepas que puedes contarme la verdad, aunque sea algo que crees que no me va a gustar. Prefiero eso.\"*\n\nY si en el momento lo pillas en una mentira, puedes decir simplemente:\n\n*\"Espera. Cuéntamelo otra vez, pero esta vez dime lo que pasó de verdad. No te va a pasar nada.\"*\n\nLa clave es cumplir eso último: que cuando diga la verdad, tu reacción sea más tranquila que si hubiera mentido. Eso es lo que él va a aprender a lo largo del tiempo.\n\n¿Te ves diciéndolo así, o hay algo que no encaja con cómo sois vosotros?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 720,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 261,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, me veo. Gracias, lo voy a intentar."
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien. Suerte con la conversación.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1003,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "FI"
+  }
+ ]
+}

@@ -1,0 +1,206 @@
+{
+ "id": "N2-G135",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "rebuig · un fill que diu que a l'escola el molesten",
+ "tipus": "rebuig",
+ "persona": "Núria, familia de acogida. Situació: un fill que diu que a l'escola el molesten. Estil: fa servir l'humor per desdramatitzar.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:31:08.805Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola! Mira, necesito un poco de ayuda con algo que me tiene un poco preocupada, aunque tampoco quiero dramatizar demasiado. Mi hijo de acogida, el Pau, me ha dicho que en el cole le están molestando algunos niños. Y claro, yo no sé muy bien cómo manejarlo sin que se me vaya de las manos la cosa, ¿sabes?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Entiendo esa preocupación — querer ayudarle sin que la cosa escale más de lo necesario tiene mucho sentido.\n\nPara poder ayudarte mejor: cuando dices que le están molestando, ¿qué es lo que Pau te ha contado que está pasando?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 266,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 73,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Pues dice que hay un grupo de niños que le llaman \"el nuevo\" todo el rato y se ríen de él. Nada de golpes ni nada físico, gracias a dios, pero claro, el crío lleva poco tiempo con nosotros y ya tiene bastante con adaptarse a casa como para encima tener que lidiar con esto en el cole. Pobret. Aunque él lo cuenta con una sonrisa, que es lo que me preocupa más, que igual lo está quitando importancia."
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué difícil, con todo lo que ya está gestionando Pau solo con la adaptación a casa.\n\nEso que dices de la sonrisa me parece importante — que lo cuente así puede significar muchas cosas: que lo lleva mejor de lo que parece, que no quiere preocuparte, o que todavía no sabe muy bien cómo nombrarlo. Solo él sabe.\n\n¿Qué necesitas tú ahora mismo — entender mejor cómo está él, o preparar cómo actuar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 466,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 133,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Las dos cosas, pero si tengo que elegir... preparar cómo actuar. Porque si me pongo a analizarlo demasiado me bloqueo, y yo soy más de hacer cosas. Aunque claro, tampoco quiero ir a la escuela como una madre osa a montar el pollo, que eso tampoco ayuda a nadie, je je."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ja, la madre osa la entiendo perfectamente — y que la quieras dejar en casa ya dice mucho de ti.\n\nEntonces, dos frentes posibles: hablar con Pau, y hablar con el cole. ¿Por cuál quieres empezar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 692,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 69,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Por Pau, creo. Porque si voy al cole sin saber bien cómo está él, igual meto la pata. ¿Qué me propones?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Buena intuición. Aquí van tres opciones, para que elijas la que más va contigo:\n\n**1. Pregunta abierta y sin presión**\nEn un momento tranquilo, decirle algo como: *\"Oye Pau, lo de 'el nuevo' que me contaste… ¿cómo lo llevas tú?\"* Y dejar que él lleve el ritmo. Si quiere hablar, habla; si no, ya sabe que puede.\n\n**2. Nombrar lo que has notado**\nSi crees que la sonrisa puede ser una coraza, puedes decirle: *\"A veces cuando contamos algo con una sonrisa es porque no queremos que los demás se preocupen. No pasa nada si a ti te molesta más de lo que parece.\"* Sin forzar, solo abriendo la puerta.\n\n**3. Ir a lo concreto**\nPreguntarle directamente qué quiere que hagas tú: *\"¿Quieres que haga algo, o de momento solo querías contármelo?\"* A veces los críos solo necesitan que alguien lo sepa.\n\nLas tres se pueden combinar, y ninguna obliga a una conversación larga.\n\n¿Alguna te encaja, o quieres ajustar algo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 805,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 324,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "La primera ya la he probado y se cerró en banda, el chico. Así que descartada. La de nombrar la sonrisa... no sé, me parece un poco de psicóloga, y yo soy más de andar por casa, ¿sabes? Pero la tercera me gusta. Eso de preguntarle qué quiere que haga yo, eso sí lo veo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecto, esa es tuya.\n\nY tiene mucho sentido para él también — le das el control en algo, en un momento en que seguramente siente que pocas cosas dependen de él.\n\nSi quieres, puedo ayudarte a afinar cómo decírselo, o ya tienes suficiente con la idea.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1232,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 84,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Con la idea ya tengo bastante, que si me lo escribes muy de manual luego me sale raro y se nota que lo he ensayado, je je. Oye, y si me dice que quiere que haga algo, ¿qué hago yo entonces? ¿Voy al cole o qué?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Buena pregunta. Depende de lo que él te pida, pero por si acaso:\n\n**Si te dice que sí, que hagas algo:** ir al cole tiene sentido, pero como quien va a informar y a pedir colaboración, no a exigir. Algo del estilo de contarle a su tutor o tutora lo que está pasando y preguntar qué están viendo ellos. Así el cole se convierte en aliado, no en campo de batalla.\n\n**Si te dice que no hagas nada:** respétalo, y quizás acuerda con él una señal — algo como *\"si en algún momento cambia de idea, me lo dices\"*. Que sepa que la puerta sigue abierta.\n\n**Si no sabe:** también es válido. Puedes decirle que no hay prisa, que lo piense.\n\n¿Ves viable lo del cole si llega el caso, o hay algo que te frena?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1394,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 234,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, el cole lo veo viable si Pau me da el ok. De hecho tengo buena relación con la tutora, así que tampoco sería tan raro. Creo que con esto ya tengo bastante para tirar, la verdad. Muchas gracias, que a veces solo necesitas que alguien te ayude a ordenar el lío que tienes en la cabeza, je je."
+  },
+  {
+   "qui": "TARA",
+   "text": "Exacto, eso es. Y tú ya tenías las respuestas bastante claras — solo necesitabas ordenarlas.\n\nSuerte con Pau. Me parece que lo va a notar bien.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 54,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Eso espero! Bueno, me pongo en marcha. Gracias de verdad, hasta otra!"
+  },
+  {
+   "qui": "TARA",
+   "text": "¡Hasta otra! Mucho ánimo a las dos. 😊",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1813,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

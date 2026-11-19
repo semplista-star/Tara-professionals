@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad principal (preparar la conversación con Adrián) y gestionó correctamente el límite del canal, pero acumuló fórmulas de validación y alguna atribución no expresada que enturbian la naturalidad CNV.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "tiene sentido",
+   "esperat": "Reflejar el contenido sin validar con fórmula; p.ej. 'Te están pidiendo que vayas contra tu criterio profesional.'"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Qué es lo que más te pesa ahora mismo, la presión en sí o que no sabes cómo responder a ella?",
+   "esperat": "La persona ya había dicho que no sabía qué hacer; la pregunta de elección forzada añade poco y puede resultar directiva."
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "eso ya no es flexibilidad, es pedirte que falsifiques una evaluación. Eso tiene un nombre y unas consecuencias que recaerían sobre ti",
+   "esperat": "Óscar no había pedido una valoración jurídica ni una advertencia sobre consecuencias; bastaba con reflejar la contradicción que él mismo describía."
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "¿es que estás tan agotada con todo lo de la dirección que no tienes energía para encima gestionar eso?",
+   "esperat": "Óscar no había expresado falta de energía en esos términos; mejor preguntar abiertamente qué le frena, sin proponer la hipótesis."
+  },
+  {
+   "torn": 4,
+   "categoria": "altres",
+   "gravetat": "baixa",
+   "cita": "agotada",
+   "esperat": "Óscar se había presentado como 'agotado' (masculino); usar el femenino es un desliz que puede romper la confianza."
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Antes de pensar en las palabras, una cosa que ayuda es tener claro qué quieres conseguir con esa conversación. Porque 'que no se líe parda' es un deseo comprensible, pero no es un objetivo.",
+   "esperat": "La corrección implícita del objetivo de Óscar no fue pedida; podría haber preguntado directamente qué quería que Adrián entendiera."
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Eso es muy claro y es un buen punto de partida.",
+   "esperat": "Pasar directamente al esquema sin el elogio evaluativo."
+  },
+  {
+   "torn": 7,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Normal.",
+   "esperat": "Evitar la validación de fórmula; podría simplemente entrar en el rol sin comentario previo o con una frase más específica."
+  }
+ ]
+}

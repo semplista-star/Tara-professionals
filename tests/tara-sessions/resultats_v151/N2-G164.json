@@ -1,0 +1,96 @@
+{
+ "id": "N2-G164",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "que-faig · un fill que diu que a l'escola el molesten",
+ "tipus": "que-faig",
+ "persona": "Sara, mare sola amb tres fills. Situació: un fill que diu que a l'escola el molesten. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:32:25.776Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. El meu fill petit diu que uns nens de classe el molesten. No sé si parlar amb la mestra o anar directament al director. No sé què fer, digues-m'ho tu."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc que estàs preocupat/da i vols actuar. Aquí tens dues opcions concretes:\n\n**Parlar primer amb la mestra**\nÉs el pas més habitual i sol ser el més efectiu. Ella coneix el grup, pot observar el que passa i actuar directament a l'aula. El risc és que, si ja ho sap i no ha fet res, potser necessitaràs anar més amunt.\n\n**Anar directament al director/a**\nTé més pes formal i pot ser útil si la situació és greu o repetida. El risc és que pot generar tensió amb la mestra i saltar-se un pas que sovint funciona bé.\n\nEn la majoria de casos, **començar per la mestra** és el camí més natural — tret que la situació sigui molt greu o que ja hi hagis parlat sense resultat.\n\nHi ha alguna cosa que et faci pensar que cal anar directament al director/a?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 216,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 246,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, no ha passat res molt greu de moment. Parlaré amb la mestra. Però com ho faig?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bé. Aquí tens una manera de començar:\n\n---\n\n*«Volia comentar-li una cosa que m'ha dit el meu fill. Diu que alguns nens el molesten, i m'agradaria saber si vostè ha notat alguna cosa i com ho podem mirar junts.»*\n\n---\n\nAixí li expliques el que saps, li deixes espai per aportar la seva visió, i li fas saber que vols col·laborar, no acusar ningú.\n\nVols preparar alguna cosa més de la conversa?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 494,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 143,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "No, amb això n'hi ha prou. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "De res. Espero que la conversa amb la mestra vagi bé.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 657,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

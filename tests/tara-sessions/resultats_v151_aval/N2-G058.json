@@ -1,0 +1,27 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre des del primer torn que la persona volia desfogar-se i no va oferir consells ni derivacions, acompanyant fins al tancament natural.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que ya no sepas ni cómo reaccionar.",
+   "esperat": "Reflectir el contingut sense validació formulaica; per exemple: 'I sense saber ja com reaccionar.'"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Eso duele especialmente",
+   "esperat": "La persona no ha dit que li dolgui; millor reflectir el que ha expressat: 'Acabar siendo el blanco de los dos, encima.'"
+  }
+ ]
+}

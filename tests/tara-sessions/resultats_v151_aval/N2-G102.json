@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va identificar correctament que la persona volia orientació concreta per respondre als comentaris de la filla, i va centrar-s'hi sense desviar-se.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "El que descrius —la distància, aquests comentaris— pot ser la seva manera de dir-te alguna cosa que no sap posar d'una altra forma.",
+   "esperat": "No atribuir una intenció comunicativa a la filla; limitar-se a recollir el que el pare ha descrit i preguntar què necessita"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té molt de sentit.",
+   "esperat": "Ometre la validació formulaica o integrar-la de manera més natural sense convertir-la en obertura automàtica"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Sembla que tens por que quan arribi el bebè no et fem tant cas.",
+   "esperat": "Proposar la frase com a exemple sense usar 'por' com a estat intern donat per fet; p. ex. 'Sembla que et preocupa que quan arribi el bebè les coses canviïn'"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Aquí tens una orientació concreta per a quan passi: [...] Ella no necessita una resposta perfecta; necessita saber que l'has sentit.",
+   "esperat": "La resposta és útil però podria ser més breu; el paràgraf final sobre 'no cal respondre-ho tot en el moment' duplica parcialment el que ja s'havia dit als passos anteriors"
+  }
+ ]
+}

@@ -1,0 +1,204 @@
+{
+ "id": "N2-G138",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "rebuig · germans que es barallen tot el dia",
+ "tipus": "rebuig",
+ "persona": "Li Wei, padre. Situació: germans que es barallen tot el dia. Estil: escriu missatges molt curts.",
+ "guio": [
+  "Demana ajuda amb la situació.",
+  "Rebutja la primera proposta de TARA amb una raó concreta (ja ho has provat, no és el teu estil, no és realista).",
+  "Si TARA ofereix una alternativa raonable, accepta-la; si no, digues que ho deixes."
+ ],
+ "espera": "Acceptar el rebuig sense insistir i oferir una alternativa diferent o preguntar què ha provat.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:31:09.952Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mis hijos no paran de pelearse. Todo el día. Ya no sé qué hacer."
+  },
+  {
+   "qui": "TARA",
+   "text": "Todo el día, sin parar. Eso agota.\n\n¿Qué suele pasar justo antes de que empiece la pelea?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 188,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Cualquier cosa. Uno mira al otro y ya está. No hace falta nada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Con esa chispa tan pequeña, entiendo que sientas que no hay por dónde cogerlo.\n\n¿Cuántos años tienen, más o menos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 251,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 44,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "9 y 12. Siempre han sido así pero ahora peor."
+  },
+  {
+   "qui": "TARA",
+   "text": "Nueve y doce... una edad en la que cada uno va por su lado y a la vez comparten todo el espacio. Que haya empeorado tiene sentido, aunque no lo haga más llevadero.\n\n¿Qué es lo que más te pesa de cómo está yendo ahora: el ruido constante, no saber cómo intervenir, que acabe mal entre ellos, o algo distinto?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 318,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 104,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Que acaba siempre mal. Gritos, llantos, y yo en medio sin saber qué hacer."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tú en medio, con los gritos y los llantos, sin saber qué hacer. Eso es muy duro.\n\nCuando dices que acaba mal, ¿se queda ahí —en gritos y llantos— o a veces hay algo más, como que se hagan daño físicamente?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 453,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 79,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gritos sobre todo. Algún empujón pero nada grave."
+  },
+  {
+   "qui": "TARA",
+   "text": "Gracias por contarme eso. Gritos, algún empujón, y tú intentando sostenerlo todo.\n\n¿Qué sueles hacer cuando estallas la pelea? ¿Intervienes, te quedas al margen, intentas que hablen...?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 552,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 70,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Intervengo. Les grito que paren. Pero no sirve de nada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Claro, cuando ya estás al límite, gritar es lo que sale. Y luego no sirve y te quedas peor.\n\n¿Te gustaría tener algo concreto para probar la próxima vez que empiece, o prefieres primero entender un poco más qué está pasando entre ellos?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 646,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 80,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Algo concreto. Necesito que pare."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entendido. Aquí van tres cosas concretas que puedes probar:\n\n**1. Interrumpe antes de que escale**\nEn cuanto notes la chispa, intervén enseguida, sin esperar a que suban los gritos. Una voz firme y tranquila: *\"Para. Los dos.\"* Sin explicaciones todavía.\n\n**2. Sepáralos físicamente un momento**\nNo para castigar, sino para cortar el circuito. Cada uno a un sitio distinto, aunque sea dos minutos. El cuerpo necesita bajar la activación antes de que pueda entrar cualquier palabra.\n\n**3. Habla con cada uno por separado, después**\nCuando estén calmados, no juntos. A cada uno: *\"¿Qué pasó? ¿Cómo te quedaste?\"* Sin buscar quién tiene razón. Solo escuchar.\n\nLo de gritar para que paren no funciona porque añade más activación al momento. Estas tres cosas van en la dirección contraria: bajar la temperatura primero, hablar después.\n\n¿Alguna de estas te parece posible probar, o hay algo que ves difícil?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 298,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Lo de separarlos ya lo he probado. Se niegan a moverse."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ah, claro. Con 9 y 12 años ya no los mueves si no quieren moverse.\n\nEn ese caso, en lugar de moverlos a ellos, puedes moverte tú. Te pones físicamente entre los dos, sin gritar, y dices con calma pero con firmeza: *\"Aquí paro yo.\"* Tu presencia corta el contacto entre ellos sin que nadie tenga que obedecer ni ceder.\n\nNo es fácil hacerlo tranquila cuando ya estás al límite, pero cambia la dinámica: en lugar de pedirles que paren, eres tú quien para.\n\n¿Crees que eso podrías intentarlo?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1060,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 172,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

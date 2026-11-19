@@ -1,0 +1,76 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat pràctica i va acceptar la correcció, però va fer atribucions i va allargar respostes més del que la situació demanava.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que estiguis cansat/da d'això.",
+   "esperat": "Reflectir el que ha dit sense validar amb fórmula; passar directament a la pregunta."
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "És un cercle que s'alimenta sol.",
+   "esperat": "Descriure el que la persona ha dit sense afegir interpretació pròpia sobre la dinàmica."
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Quan dius que acaba malament la conversa, com sol començar? Quin moment és el que fa que tot s'escalfi?",
+   "esperat": "La persona ja havia descrit prou el patró; TARA podia oferir ajuda pràctica o preguntar una sola cosa concreta."
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "El \"ja, ja\" sense mirar-te — com si no existissis.",
+   "esperat": "No afegir la interpretació «com si no existissis», que és un estat intern no expressat per la persona."
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que en aquell moment la paciència se't acabi.",
+   "esperat": "Ometre la validació formulaica i passar directament a l'oferta d'ajuda."
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "No perquè ell sigui mal fill, senseó perquè a 14 anys els límits sense conseqüències no funcionen gaire.",
+   "esperat": "Evitar l'explicació pedagògica sobre adolescents no demanada; centrar-se en la pregunta pràctica sobre el wifi."
+  },
+  {
+   "torn": 7,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "S'enfadarà, sí. Però la pregunta és: s'enfadar és un problema o és part del procés?",
+   "esperat": "La persona havia dit que ja sabia que s'enfadaria; TARA no havia de qüestionar-ho ni reformular-ho com a repte retòric."
+  },
+  {
+   "torn": 7,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "la qüestió és si estàs disposat/da a sostenir el seu enfado un temps",
+   "esperat": "No atribuir manca de disposició que la persona no havia expressat; presentar les opcions sense implicar dubte sobre la seva capacitat."
+  },
+  {
+   "torn": 7,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Hi ha dues opcions concretes: Una: Seguir intentant... Dues: Posar una conseqüència real...",
+   "esperat": "Amb una pregunta directa n'hi hauria prou; el llistat de dues opcions amb pros i contres no havia estat demanat."
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió la petición de opciones concretas y las dio bien, pero en el turno 1 añadió consejo no pedido sobre la hermana y el cuñado, y en el turno 2 devolvió la pregunta en lugar de orientar directamente, lo que la persona tuvo que corregir.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Lo de tu hermana y tu cuñado es un lío aparte: tú estás de cuidadora, no de árbitro de su criterio. Puedes decirles que has tomado una decisión provisional para estos días y que cuando ella vuelva lo hablan.",
+   "esperat": "Omitir ese párrafo; la persona no pidió orientación sobre cómo gestionar a su hermana y su cuñado"
+  },
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que estés agotada.",
+   "esperat": "Reconocimiento más específico o ninguno, en lugar de la fórmula «tiene sentido»"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Sabes cuánto tiempo más estará contigo tu sobrina?",
+   "esperat": "No preguntar; la persona pidió una decisión para esta noche, no un análisis de duración"
+  },
+  {
+   "torn": 2,
+   "categoria": "ajuda_tardana",
+   "gravetat": "mitjana",
+   "cita": "Lo que sí puedo decirte es esto: si tuvieras que elegir ahora mismo con lo que tienes, ¿cuál de las tres opciones te parece más llevadera para ti esta noche?",
+   "esperat": "Orientar directamente hacia la opción más viable en lugar de devolver la elección a la persona, que ya había pedido explícitamente que TARA decidiera"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "es que la respuesta correcta depende de cosas que solo tú sabes. Cuántos años tiene tu sobrina, qué le está pasando, cuánto tiempo llevas tú con ella, cómo estás de energía por las noches.",
+   "esperat": "Justificación más breve o directamente orientar sin enumerar condicionantes"
+  }
+ ]
+}

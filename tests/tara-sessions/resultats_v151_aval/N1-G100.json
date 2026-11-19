@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió la demanda pero en el primer turno añadió un aviso deontológico y un guion de tres partes cuando la persona pedía solo un par de frases; en el segundo turno se ajustó bien y desde ahí el acompañamiento fue correcto.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Antes de darte el guion, una cosa que me parece importante distinguir: lo que describes —presión para modificar calificaciones sin base pedagógica— no es solo un desacuerdo de criterio. Puede tener implicaciones deontológicas y normativas para ti.",
+   "esperat": "Entregar directamente el guion pedido sin añadir un aviso no solicitado sobre implicaciones deontológicas"
+  },
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Un guion posible para mañana [...] Apertura [...] Si la petición es explícita [...] Si intenta minimizarlo",
+   "esperat": "Un par de frases o un guion breve, como pedía la persona, no tres bloques con encabezados y variantes"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Qué situación tan incómoda, y encima con la reunión mañana. Te entiendo.",
+   "esperat": "Reconocer lo que la persona ha expresado sin afirmar que la situación es incómoda como hecho ni añadir 'te entiendo' como fórmula"
+  },
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Te entiendo.",
+   "esperat": "Omitir la validación formulaica o integrarla de forma más específica y natural"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén bé el que necessita la Mercè en cada moment i s'hi adapta, des del límit inicial fins a la preparació pràctica de la conversa.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que vulguis que algú et digui directament què fer.",
+   "esperat": "Reconèixer el que ha dit sense validar-ho amb fórmula; per exemple reformular els fets sense afegir «té sentit»."
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Quan estàs sobrepassada, que algú t'ho resolgui sembla el millor del món.",
+   "esperat": "La Mercè no ha dit que estigui «sobrepassada»; millor reflectir el que sí ha dit («voldries que fos més fàcil») sense atribuir un estat intern no expressat."
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Quan dius que és molt intens, com és exactament? Que s'enfada, que et talla, que et mira d'una manera que et desestabilitza... alguna cosa concreta que recordis?",
+   "esperat": "La pregunta és útil però llista exemples que guien la resposta; millor preguntar obertament sense suggerir opcions."
+  },
+  {
+   "torn": 6,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Tens dos objectius clars: que entengui l'impacte del que va fer, i entendre tu què li passa. Això és una conversa ben plantejada. El risc que veus [...] Com et sona això com a punt de partida?",
+   "esperat": "Donar la frase d'ancoratge i preguntar com li sona, sense el paràgraf explicatiu sobre per què «comencem per el que vas fer no estava bé» tanca; la Mercè no havia demanat teoria sobre defensivitat."
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Tens dos objectius clars [...] Això és una conversa ben plantejada.",
+   "esperat": "Ometre el judici valoratiu i anar directament a l'ajuda pràctica."
+  },
+  {
+   "torn": 8,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "No cal demanar perdó, és la primera vegada que ho proves.",
+   "esperat": "La Mercè no ha demanat que li diguin si cal o no demanar perdó; millor acceptar el seu comentari i passar directament a iniciar el rol."
+  }
+ ]
+}

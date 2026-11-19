@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va escoltar bé la primera fase i va respondre a la demanda concreta, però va validar amb fórmules repetides i va afirmar estats interns no expressats, i l'ajuda concreta va quedar incompleta.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Té sentit que estiguis aclaparada.",
+   "esperat": "Reflectir el contingut sense validar amb fórmula; per exemple, reformular el contrast entre les ganes de l'Arnau i el pes que porta ella."
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "No exageres.",
+   "esperat": "No confirmar ni desmentir la percepció interna de la persona; podria haver reflectit el dubte sense resoldre'l: 'Tens el dubte de si exageres, i alhora saps que les crisis són serioses.'"
+  },
+  {
+   "torn": 5,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "Per on comencem millor: tens ja alguna informació del que funciona amb l'Arnau —el que li ajuda, el que empitjora les coses— o parteixes de zero?",
+   "esperat": "La persona havia demanat 'un primer pas, breu'; TARA podia oferir directament un esquema mínim de protocol sense preguntar primer, o fer una pregunta molt més curta si era imprescindible."
+  },
+  {
+   "torn": 6,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Exacte, té molt de sentit partir del que ja saps que funciona.",
+   "esperat": "Passar directament a l'ajuda concreta sense validar amb fórmula prèvia."
+  },
+  {
+   "torn": 6,
+   "categoria": "ajuda_tardana",
+   "gravetat": "alta",
+   "cita": "Si em passes les notes que tens, t'ajudo a organitzar-les en un format útil per endur-te a les colònies.",
+   "esperat": "La persona havia demanat 'alguna cosa breu, un primer pas'; TARA hauria d'haver lliurat un esquema mínim de protocol (p. ex. 3 passos) en aquell torn, no condicionar l'ajuda a rebre més informació."
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Molta sort amb les colònies — i amb l'Arnau.",
+   "esperat": "Tancament neutre i breu, sense afegir desitjos que poden sonar a fórmula de comiat automàtica."
+  }
+ ]
+}

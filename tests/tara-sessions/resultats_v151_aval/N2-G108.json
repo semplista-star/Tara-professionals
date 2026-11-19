@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va llegir bé cada moment —escoltar primer, no donar consells quan no es demanaven, lliurar la frase concreta quan es va demanar, i tancar sense allargar.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Preocuparte por él es exactamente lo que hace alguien que le importa.",
+   "esperat": "Reconèixer la preocupació sense convertir-la en judici valoratiu sobre la persona; per exemple: 'Cuéntame lo que quieras.'"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "No te disculpes, tiene sentido que sea un lío.",
+   "esperat": "Evitar la fórmula 'tiene sentido' com a validació automàtica; reflectir el contingut concret sense etiqueta."
+  },
+  {
+   "torn": 3,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿Qué es lo que más te pesa ahora mismo: lo que está pasando con él, o la duda de si tienes derecho a hacer algo?",
+   "esperat": "La persona havia demanat ser escoltada, no orientació; en aquest torn no calia cap pregunta."
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Eso es mucho peso para cargarlo sola.",
+   "esperat": "No atribuir una experiència interna ('mucho peso') que la persona no ha expressat; reflectir el que sí ha dit: 'Lo ves cada día y algo no te cuadra.'"
+  }
+ ]
+}

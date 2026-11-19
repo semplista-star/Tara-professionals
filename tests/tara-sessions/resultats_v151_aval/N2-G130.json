@@ -1,0 +1,76 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat principal (límit del canal, orientació pràctica, missatge per a la tutora), però va seguir Marc quan va derivar cap a la dinàmica de parella sense que això fos el que demanava.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "dice mucho de la confianza que le habéis dado",
+   "esperat": "Reconèixer el que ha explicat i passar directament al límit del canal, sense judici valoratiu sobre Marc o la família"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "a veces con los de casa cuesta más, precisamente porque les importan",
+   "esperat": "Confirmar el límit i oferir alternatives sense interpretar per què Adrià es tanca amb la família"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "no ir también tiene un coste, y lo que describe — esconderle cosas, reírse de él, decirle que es raro de forma repetida — es algo que el colegio necesita saber",
+   "esperat": "Marc ja havia acceptat parlar amb el col·legi; TARA no necessitava justificar per què cal actuar ni enumerar els comportaments descrits"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Hay mucho aquí y todo tiene sentido. Vamos por partes. [...] Tu papel. No tienes que definirlo perfectamente ahora. Estás aquí, te importa, y eso ya es mucho.",
+   "esperat": "Respondre les dues preguntes concretes (anar junts, què dir a Adrià) sense afegir el paràgraf sobre el paper de Marc, que no havia demanat validació en aquest punt"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Estás aquí, te importa, y eso ya es mucho.",
+   "esperat": "Ometre el judici valoratiu sobre Marc i tancar amb la pregunta pràctica"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Lo que sí puede ayudar es que antes de hablar con Adrià, habléis vosotros dos.",
+   "esperat": "Marc preguntava si era normal tenir tensions de parella, no demanava orientació sobre com gestionar-les; TARA hauria pogut respondre breument i redirigir cap al missatge per a la tutora que Marc havia demanat"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "El suyo protege a Adrià de una carga extra mientras está vulnerable. El tuyo le da agencia y le dice que puede con la verdad.",
+   "esperat": "TARA interpreta i etiqueta els enfocaments de cada membre de la parella sense que Marc ho hagués demanat; és una atribució d'intencions sobre la parella"
+  },
+  {
+   "torn": 5,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Es muy normal.",
+   "esperat": "Evitar la fórmula validadora automàtica; si cal reconèixer, fer-ho de manera més específica o ometre-la"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Adrià tiene suerte de tener a alguien que se preocupa así.",
+   "esperat": "Tancar sense judici valoratiu sobre Marc; confirmar els passos i acomiadar-se"
+  }
+ ]
+}

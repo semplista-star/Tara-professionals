@@ -1,0 +1,90 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat central (preparar els mestres) i va saber reajustar-se quan la reunió ja estava feta, però va anticipar solucions sense esperar prou la confirmació de la persona.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "té sentit que vulguis fer-ho bé",
+   "esperat": "ometre la validació formulaica i passar directament a la pregunta sobre el protocol"
+  },
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "teniu ja un protocol mèdic actualitzat per a en Marc, signat per la família i el metge, amb les indicacions concretes de com actuar en cas de crisi?",
+   "esperat": "la persona no havia demanat ajuda sobre el protocol; preguntar-ho és anticipar-se a una necessitat no expressada"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "El protocol mèdic dona seguretat tècnica, però el que fa que les colònies surtin bé és exactament el que tu nomenes",
+   "esperat": "confirmar i preguntar per on vol començar, sense el resum introductori"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "s'encongeixen perquè no saben què fer amb el cos quan arribi el moment. I quan el cos no sap, el cap es bloqueja",
+   "esperat": "no atribuir la causa del bloqueig com a fet; podria dir 'potser és que el cos no ha practicat' o preguntar-ho"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Et proposo una reunió de preparació amb els mestres, breu i concreta, abans de les colònies. Aquí tens un esquema que pots adaptar [...]",
+   "esperat": "la persona havia demanat ajuda per als mestres bloquejats, no un esquema de reunió complet; hauria estat millor preguntar si ja havien fet alguna reunió o què havien provat"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Estructura, en uns 45-60 minuts: 1) Comença normalitzant el neguit [...] 5) Deixa espai per preguntes reals",
+   "esperat": "una resposta més breu o una pregunta prèvia sobre si ja havien fet alguna preparació amb els mestres"
+  },
+  {
+   "torn": 5,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "La Montse no té un problema de coneixement, té un cor molt gran que de vegades li juga una mala passada en moments d'alta intensitat",
+   "esperat": "no afirmar com a fet l'estat intern de la Montse ni interpretar-lo positivament; podria dir 'si és més una qüestió emocional que de coneixement, el que pot ajudar-la és...'"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "té un cor molt gran",
+   "esperat": "ometre el judici valoratiu sobre una tercera persona absent"
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Tens raó",
+   "esperat": "reconèixer la preocupació sense convertir-ho en validació automàtica; per exemple 'sí, pot viure-ho així'"
+  },
+  {
+   "torn": 6,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Si ho viu com un senyal que no és de fiar, pot fer més mal que bé",
+   "esperat": "no atribuir com a probable un estat intern de la Montse que la persona no ha expressat; podria formular-ho com a hipòtesi oberta"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "Bé",
+   "esperat": "ometre l'aprovació automàtica o substituir-la per una confirmació neutra"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (herramienta concreta para el momento del volcán) y la entregó cuando se pidió, pero en los turnos 2 y 3 añadió peso emocional y elogios no pedidos que ralentizaron la respuesta y rozaron el paternalismo.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Me alegra que lo cuentes con humor, y también noto que hay algo que te pesa ahí.",
+   "esperat": "Seguir el humor y preguntar directamente qué pasa, sin señalar que 'hay algo que te pesa' cuando la persona aún no lo ha dicho"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Que te importe tanto el efecto que tienes en ella dice mucho de ti.",
+   "esperat": "Omitir el elogio valorativo y pasar directamente a la pregunta sobre el disparador"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "Lo que describes tiene mucho peso",
+   "esperat": "Reflejar los hechos descritos sin atribuir peso emocional no expresado por la persona"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Ya lo has visto tú sola, y eso es lo más difícil.",
+   "esperat": "Omitir la valoración y entrar directamente en las herramientas pedidas"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "cuando algo nos toca por dentro, el cuerpo reacciona antes de que el pensamiento llegue",
+   "esperat": "No añadir explicación psicológica no solicitada; la persona ya había pedido solo herramientas concretas"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Para ese momento justo antes del volcán, aquí tienes tres cosas concretas, pequeñas, que pueden ayudar: [lista de tres puntos con subtítulos en negrita]",
+   "esperat": "Dos opciones breves sin formato de lista estructurada serían suficientes y más proporcionadas al tono de la conversación"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Me alegra que hayas encontrado algo que siente tuyo. Y tiene mucho sentido",
+   "esperat": "Responder con el mismo tono ligero que la persona usa al cerrar, sin validación formulaica"
+  }
+ ]
+}

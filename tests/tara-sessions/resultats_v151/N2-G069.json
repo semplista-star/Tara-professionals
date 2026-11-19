@@ -1,0 +1,162 @@
+{
+ "id": "N2-G069",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "humor · arribar tard els caps de setmana",
+ "tipus": "humor",
+ "persona": "Mercè, tieta que cuida la nena. Situació: arribar tard els caps de setmana. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Fes servir l'humor per explicar la situació (una ironia o una broma sobre tu mateix).",
+  "Si TARA segueix el to amb naturalitat, explica el que de debò et preocupa.",
+  "Demana una idea concreta i tanca."
+ ],
+ "espera": "Seguir l'humor amb naturalitat sense deixar ningú en evidència; passar al seriós quan toca.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:27:13.068Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, Tara. Mira, et diré que porto uns dies donant-li voltes a una cosa. La meva neboda arriba tard els caps de setmana i jo, que soc la tieta responsable i formal, em trobo fent de detectiu a les dotze de la nit mirant el mòbil. Molt dignificant, la veritat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Dotze de la nit amb el mòbil a la mà esperant notícies... no és exactament el pla de cap de setmana que t'havies imaginat.\n\nQuants anys té, la teva neboda?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 254,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 60,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Setze. I no és que sigui una mala noia, eh, que consti. Però els acords que fem entre setmana sembla que s'evaporen quan arriba el divendres al vespre."
+  },
+  {
+   "qui": "TARA",
+   "text": "Setze anys i acords que s'evaporen el divendres... sí, és un clàssic de l'edat.\n\nQuan dius que s'evaporen, com és? Arriba tard sense avisar, o avisa però sempre hi ha una excusa nova?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 370,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 71,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Avisa, sí. Però sempre és quan ja és tard. Un missatge a les onze i mitja dient \"tardo un poc més\". I jo ja porto una hora preocupada sense saber res. El problema no és l'hora en si, és la incertesa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ho has dit molt clar: no és l'hora, és la incertesa. Estar una hora sense saber res és molt diferent que rebre un missatge a les deu dient \"arribaré a les dotze\".\n\nTens ganes de parlar-ho amb ella, o ja ho has intentat i no ha funcionat?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 510,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 80,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Ho hem parlat, sí. I ella ho entén en el moment, sembla. Però al cap de dues setmanes tornem al mateix punt. I jo no vull ser la tieta pesada que li fa un sermó cada vegada, però tampoc puc seguir així."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entre el sermó i seguir igual hi ha d'haver alguna cosa. I sembla que el que has provat fins ara funciona en el moment però no s'enganxa.\n\nQuan ho parleu, acabeu acordant alguna cosa concreta —una hora, un missatge a una hora determinada— o queda més en \"ho intentaré\"?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 658,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 85,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Queda més en \"ho intentaré\", reconec. Potser és això, que no ho concretem prou. Tens alguna idea de com fer-ho d'una manera que no sembli un contracte laboral però que funcioni de debò?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí. La clau sol ser que l'acord sigui seu també, no només teu.\n\nEn lloc de dir-li \"necessito que m'avisis abans de les deu\", pots preguntar-li: *\"Quan creus tu que és un bon moment per enviar-me un missatge si veus que tardaràs?\"* Si ella proposa l'hora, és molt més probable que la recordi.\n\nI una cosa concreta que ajuda: acordar no l'hora d'arribada, senseó **un missatge de situació** a una hora pactada —digues les deu— encara que no sàpiga quan tornarà. Només un \"estic bé, tardo una mica més\". Això et treu la incertesa sense que ella senti que la controles.\n\nCom ho veus?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 806,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 200,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Això té molt de sentit. Un missatge de situació és molt més assolible que una hora d'arribada exacta. I si és ella qui proposa l'hora, millor. Ho provaré aquest cap de setmana. Gràcies, Tara, ha estat útil."
+  },
+  {
+   "qui": "TARA",
+   "text": "M'alegra que t'hagi servit. Bona sort aquest cap de setmana — espero que el mòbil et doni una mica de descans.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 1080,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 54,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

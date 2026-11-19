@@ -1,0 +1,41 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (ayuda para formular una frase directa) pero en el torn 2 hizo una pregunta de clarificación que la persona no había pedido, y en el torn 3 ofreció una frase con jerga CNV que la persona rechazó de inmediato, lo que muestra un desajuste puntual antes de reencauzarse bien.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Antes de pensar en cómo decírselo, una cosa que me ayudaría a acompañarte mejor: ¿qué quieres conseguir con esa conversación?",
+   "esperat": "La persona ya había dicho que quería pensar qué hacer; TARA podía ofrecer directamente un marco o preguntar cómo habla ella, sin pedir que clarificara su objetivo"
+  },
+  {
+   "torn": 3,
+   "categoria": "jerga_cnv",
+   "gravetat": "alta",
+   "cita": "sentí que no se recogió como mía",
+   "esperat": "Una frase en el registro natural de la persona, sin fórmulas de CNV que ella misma identificó como 'de manual' y que obligaron a un turno extra de corrección"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Es concreta, habla de un hecho específico, usa el 'sentí' para que no sea un ataque directo, y termina con una petición clara hacia adelante, no con una acusación sobre el pasado.",
+   "esperat": "Ofrecer la frase y preguntar si encaja, sin explicar la mecánica CNV que hay detrás"
+  },
+  {
+   "torn": 1,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que estés al límite.",
+   "esperat": "Una validación más integrada en el reflejo del contenido, no como frase suelta de cierre"
+  }
+ ]
+}

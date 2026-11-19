@@ -1,0 +1,118 @@
+{
+ "id": "N2-G127",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "nomes-desfogar · el menjar i les baralles a taula",
+ "tipus": "nomes-desfogar",
+ "persona": "Carmen, abuelo. Situació: el menjar i les baralles a taula. Estil: està irritat i una mica a la defensiva.",
+ "guio": [
+  "Només vols desfogar-te i ho dius des del principi.",
+  "Continua explicant com et sents un parell de torns.",
+  "Digues que ja estàs millor i que plegues."
+ ],
+ "espera": "Escoltar sense consells; tancar breu, sense derivar ni allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:30:13.239Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, hoy no necesito que me prepares nada ni que me ayudes con nada. Solo necesito desahogarme un poco, ¿vale? Que ha sido un día de los malos."
+  },
+  {
+   "qui": "TARA",
+   "text": "Vale. Aquí estoy, escuchando. Cuéntame.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 215,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 21,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Es que la hora de comer ha sido un desastre. Los niños gritando, mi hija diciéndome que no meta las narices, y yo solo intentaba ayudar. ¡Si es que no se puede ni abrir la boca!"
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué agotamiento, intentar ayudar y que te digan que no metas las narices. Con todo el ruido encima.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 299,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 36,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacto. Y encima me quedo con todo eso dentro, que no puedo ni decir nada. Me siento como un estorbo en mi propia familia, ¿sabes? Que yo he criado a mis hijos y ahora resulta que no sé nada."
+  },
+  {
+   "qui": "TARA",
+   "text": "Eso duele mucho — haber dado tanto y sentirte un estorbo en tu propia casa.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 406,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, duele. Pero bueno... ya me he desahogado un poco y me encuentro mejor. Creo que lo dejo aquí por hoy. Gracias."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que te haya servido. Descansa. FINAL",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 482,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

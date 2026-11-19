@@ -1,0 +1,62 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén la demanda general però s'avança a oferir preguntes concretes abans que Pau les demani, i usa algunes fórmules de validació i un elogi automàtic.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Que haya venido a decírtelo directamente ya dice algo de él.",
+   "esperat": "Recollir el que Pau ha dit i preguntar per la seva hipòtesi, sense valorar el comportament de l'alumne"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Tiene sentido que no lo sepas todavía",
+   "esperat": "Passar directament a la pregunta de bifurcació sense validació formulaica"
+  },
+  {
+   "torn": 4,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Para esa conversación con él, puede ayudar partir de lo que ya te dijo —\"no estoy a gusto\"— sin presionarle a dar más de lo que quiera dar. Algunas preguntas que suelen abrir sin forzar: [llista de tres preguntes]",
+   "esperat": "Pau havia dit que volia entendre primer; TARA podia preguntar com volia enfocar la conversa abans de lliurar preguntes concretes"
+  },
+  {
+   "torn": 4,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "\"¿Qué necesitarías para estar más a gusto?\" — a veces ellos mismos no lo han pensado, y la pregunta les ayuda.",
+   "esperat": "No atribuir a l'alumne que no ha reflexionat sobre les seves necessitats; presentar la pregunta sense suposar l'estat intern del menor"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "Para esa conversación con él, puede ayudar partir de lo que ya te dijo... No hace falta hacerlas todas. A veces con la primera ya se abre.",
+   "esperat": "Resposta més breu; oferir les preguntes només si Pau les demana explícitament o confirmar primer que les vol"
+  },
+  {
+   "torn": 6,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Sí, eso suena bien.",
+   "esperat": "Recollir la idea de Pau sense validació automàtica i passar directament a la pregunta"
+  },
+  {
+   "torn": 8,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Hay algo que te preocupe especialmente de ese momento — el de trasladarlo a jefatura, o el de responderle a él mientras se decide?",
+   "esperat": "Pau no havia expressat cap preocupació sobre aquests moments; TARA podia tancar o deixar espai sense obrir un nou fil no demanat"
+  }
+ ]
+}

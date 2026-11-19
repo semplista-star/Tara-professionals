@@ -1,0 +1,48 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entén bé que la persona vol ser escoltada i respecta aquest límit, però fa una pregunta innecessària al torn 4 i al torn 8 torna a preguntar en lloc de lliurar directament el primer pas concret que la persona ha demanat.",
+ "problemes": [
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "baixa",
+   "cita": "T'expliques molt bé.",
+   "esperat": "Continuar la reflexió sense avaluar la qualitat de l'explicació de la persona."
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "alta",
+   "cita": "Quants anys tenen, els nens?",
+   "esperat": "Continuar escoltant sense preguntes; la persona havia dit que només volia ser escoltada i no havia demanat cap anàlisi ni consell."
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Ho preguntava perquè l'edat canvia molt com funcionen aquestes situacions a taula",
+   "esperat": "Acceptar el rebuig sense justificar la pregunta ni obrir la porta a una via que la persona acaba de tancar."
+  },
+  {
+   "torn": 8,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "alta",
+   "cita": "Digue'm una cosa: quan comença a tensar-se l'ambient a taula, com sol anar? Qui fa el primer moviment, tu o ells?",
+   "esperat": "Lliurar directament un primer pas concret i aplicable per al proper cap de setmana, que és exactament el que la persona ha demanat."
+  },
+  {
+   "torn": 8,
+   "categoria": "ajuda_tardana",
+   "gravetat": "alta",
+   "cita": "Digue'm una cosa: quan comença a tensar-se l'ambient a taula, com sol anar?",
+   "esperat": "Respondre amb un consell pràctic i breu sense interposar una nova ronda de preguntes que retarda l'ajuda demanada."
+  }
+ ]
+}

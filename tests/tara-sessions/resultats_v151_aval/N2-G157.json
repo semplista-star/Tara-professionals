@@ -1,0 +1,55 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA entendió bien la necesidad central (preparar la conversación con el colegio) pero en el turno 1 desvió la atención hacia un aspecto logístico (autorización) antes de que la persona lo pidiera, y en el turno 8 añadió un elogio no solicitado.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "¿tienes algún tipo de autorización formal de tu hermana para representarla, o vas más como familiar de confianza que ella misma te ha pedido que vayas?",
+   "esperat": "La persona preguntaba cómo enfocar la conversación con los profes; TARA podría haber empezado por ahí o, como mucho, mencionar la autorización de pasada sin convertirla en la pregunta central del turno"
+  },
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "el cole puede preguntártelo, y conviene que vayas preparada para eso también",
+   "esperat": "La persona no había pedido que se anticiparan obstáculos logísticos; TARA introduce una preocupación nueva sin que la persona la haya expresado"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Tiene mucho sentido lo que has decidido.",
+   "esperat": "Confirmar la opción elegida sin valorar la decisión de la persona; por ejemplo, pasar directamente a la ayuda pedida"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "es exactamente el equilibrio que funciona mejor en estas reuniones",
+   "esperat": "Evitar validaciones que suenan a fórmula; ir directamente a los tres movimientos prácticos"
+  },
+  {
+   "torn": 7,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Eso está perfecto. Es tuyo, y se nota.",
+   "esperat": "Confirmar que la reformulación funciona sin emitir un juicio valorativo sobre la persona o su forma de expresarse"
+  },
+  {
+   "torn": 8,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Pau tiene suerte de tenerte.",
+   "esperat": "Cerrar con calidez sin atribuir cualidades ni hacer juicios sobre la persona; por ejemplo, 'Mucha suerte con la reunión' es suficiente"
+  }
+ ]
+}

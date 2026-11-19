@@ -1,0 +1,48 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va identificar que la persona volia opcions concretes, va esperar a tenir prou context i va acompanyar el procés fins que la persona va trobar la seva pròpia solució.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Cap de les dues, diria. Canviar la dinàmica no és rendir-se si parteixes de tu: jo decideixo fer-ho diferent, no ells m'han obligat.",
+   "esperat": "Deixar la reflexió filosòfica per si la persona la demanava; en aquest torn la persona demanava orientació pràctica, no una reencadrament no sol·licitat."
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "sovint no és que passi una cosa gran — és l'acumulació de petites coses que et mantenen en alerta constant. I això cansa d'una manera diferent que la feina en si.",
+   "esperat": "Recollir el que la persona ha dit sense afegir una interpretació causal no expressada per ella."
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "quan l'ambient se't va de les mans, com sol passar? Hi ha un moment concret, un patró, o és des del minut u que ja notes que serà així?",
+   "esperat": "Amb la informació ja donada (última hora, grup disruptiu, desgast) es podien oferir opcions; la pregunta allarga el procés sense guany clar."
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "Cap és la solució màgica",
+   "esperat": "Ometre la cautela no demanada; la persona no havia expressat cap expectativa màgica."
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "La pregunta és: què els posaries? Ha de ser alguna cosa que puguin fer sols, sense que tu hagis d'explicar res, i que no requereixi gaire energia mental — perquè a última hora no en tenen. Algunes idees: [llista]",
+   "esperat": "Un cop la persona ha triat el ritual d'entrada, donar una o dues idees breus i deixar que ella proposi; la llista i la justificació allarguen el torn sense necessitat."
+  }
+ ]
+}

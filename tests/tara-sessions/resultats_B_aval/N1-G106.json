@@ -1,0 +1,41 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "Sí: TARA va entendre des del primer torn que Àlex només volia ser escoltat i no va oferir solucions ni derivacions en cap moment.",
+ "problemes": [
+  {
+   "torn": 2,
+   "categoria": "correccio_no_acceptada",
+   "gravetat": "baixa",
+   "cita": "No exageres.",
+   "esperat": "Recollir el que ha dit sense validar ni corregir la seva autoavaluació; per exemple: 'Cada dia alguna cosa, i arribar a casa esgotat...'"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "això pesa molt",
+   "esperat": "Reflectir el que la persona ha dit sense afirmar com a fet el pes que sent; podria ser 'sembla que pesa molt' o simplement repetir les seves paraules"
+  },
+  {
+   "torn": 3,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "No et disculpis.",
+   "esperat": "Evitar la fórmula directiva; és el segon torn consecutiu on TARA corregeix la disculpa d'Àlex en lloc de simplement acollir-la"
+  },
+  {
+   "torn": 3,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "Quedar-se amb el dubte de si hauries pogut fer alguna cosa abans... és una de les coses que més desgasten, perquè no té resposta fàcil.",
+   "esperat": "Un reflex més breu i neutre de les paraules d'Àlex, sense interpretar ni generalitzar sobre 'les coses que més desgasten'"
+  }
+ ]
+}

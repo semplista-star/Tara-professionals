@@ -1,0 +1,34 @@
+{
+ "C1": 2,
+ "C2": 2,
+ "C3": 2,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre bé la necessitat de Marta en gairebé tots els torns, excepte al torn 1 on va anticipar una pregunta sobre la dinàmica de Dani que no havia estat demanada, i al torn 2 on va oferir una obertura de conversa quan Marta no l'havia demanat encara.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "¿Qué suele pasar cuando lo sacas el tema — se cierra, se pone a la defensiva, lo minimiza?",
+   "esperat": "Esperar que Marta concretés què necessitava, o preguntar directament per on volia ajuda"
+  },
+  {
+   "torn": 2,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "Algo así como plantear una sola cosa y esperar su respuesta de verdad... Por ejemplo, podrías decirle algo como: \"Dani, el sábado llegaste una hora tarde. Necesito que me digas qué pasó.\"",
+   "esperat": "Marta no havia demanat com arrancar la conversa sinó com gestionar el 'ya, ya'; oferir l'obertura en aquest torn es va avançar a la seva necessitat real"
+  },
+  {
+   "torn": 2,
+   "categoria": "massa_llarg",
+   "gravetat": "baixa",
+   "cita": "A veces con esa respuesta —el \"ya, ya\" y el encogerse— lo que funciona es ir más corto y más concreto, sin dar margen a que baje la persiana.",
+   "esperat": "Resposta més breu centrada en el problema que Marta havia descrit, sense afegir exemple d'obertura no demanat"
+  }
+ ]
+}

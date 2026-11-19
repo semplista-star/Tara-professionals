@@ -1,0 +1,69 @@
+{
+ "C1": 1,
+ "C2": 1,
+ "C3": 1,
+ "C4": 2,
+ "C5": 1,
+ "C6": 2,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre la situació general però al torn 3 va anticipar una solució relacional no demanada, i va caldre que la persona la corregís per tornar a la demanda real (eines per actuar en calent al pati).",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Tens el cap explotat, i s'entén",
+   "esperat": "Reflectir el que la persona ha dit sense confirmar com a fet un estat intern no expressat literalment com a sentiment"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "baixa",
+   "cita": "El que expliques té molta coherència",
+   "esperat": "Evitar validacions formulaiques; si cal validar, fer-ho amb contingut concret o no fer-ho"
+  },
+  {
+   "torn": 2,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "mitjana",
+   "cita": "saps si l'equip docent o la direcció ja té una lectura compartida d'això, o cadascú ho està gestionant per la seva banda quan li toca?",
+   "esperat": "La persona no havia demanat ajuda per coordinar l'equip; la pregunta obre un fil que no era la demanda i porta TARA a una solució no demanada al torn 3"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "alta",
+   "cita": "Una opció seria parlar primer amb un dels tutors, de manera informal... Una altra opció seria anar directament a la directora",
+   "esperat": "La persona no havia demanat com parlar amb els tutors ni com gestionar la coordinació; calia preguntar o esperar que ho demanés"
+  },
+  {
+   "torn": 3,
+   "categoria": "atribucio",
+   "gravetat": "baixa",
+   "cita": "Estàs veient alguna cosa que els altres potser no estan prioritzant, i no saps si tens lloc per dir-ho. Això és incòmode.",
+   "esperat": "La persona no havia dit que se sentís incòmoda; millor reflectir el que ha dit sense afegir etiquetes emocionals no expressades"
+  },
+  {
+   "torn": 4,
+   "categoria": "pregunta_innecesaria",
+   "gravetat": "baixa",
+   "cita": "Alguna d'aquestes coses ja la fas, o hi ha alguna situació concreta on no saps com moure't?",
+   "esperat": "Després de lliurar les eines demanades, un tancament breu era suficient; la pregunta allarga innecessàriament el torn"
+  },
+  {
+   "torn": 5,
+   "categoria": "elogi_automatic",
+   "gravetat": "mitjana",
+   "cita": "Tens raó amb la Júlia — veure-ho i no carregar-li-ho a ella és exactament el criteri correcte.",
+   "esperat": "Evitar jutjar o avaluar la decisió de la persona ('exactament el criteri correcte'); és un elogi valoratiu no demanat"
+  },
+  {
+   "torn": 5,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "baixa",
+   "cita": "Ja saps on soc si vols preparar aquella conversa amb la Marta o en Jordi",
+   "esperat": "La persona havia tancat la sessió satisfeta amb les eines per al pati; recordar la conversa amb els tutors reobre un fil que la persona havia descartat"
+  }
+ ]
+}

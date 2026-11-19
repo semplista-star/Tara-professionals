@@ -1,0 +1,204 @@
+{
+ "id": "N2-G156",
+ "canal": "N2",
+ "idioma": "ca",
+ "titol": "correccio · germans que es barallen tot el dia",
+ "tipus": "correccio",
+ "persona": "Rosa, pare separat que té els fills cap de setmana sí cap de setmana no. Situació: germans que es barallen tot el dia. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Explica la situació.",
+  "Si TARA suggereix un sentiment, motiu o necessitat d'algú, corregeix-la clarament («no he dit això»).",
+  "Demana alguna cosa pràctica."
+ ],
+ "espera": "Acceptar la correcció sense insistir ni convertir-la en certesa; tornar al que s'ha observat; ajuda pràctica.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:32:28.626Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": false
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soc la Tara. Estic aquí per donar suport a la família i ajudar-te a preparar el que necessites — una conversa, una situació que t'ha preocupat, o el que portes avui. Per on vols que comencem?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Miri, tinc una situació que em preocupa força. Els meus fills es barallen constantment quan estan amb mi els caps de setmana. No para, des del matí fins a la nit. Ja no sé com gestionar-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entenc que és esgotador. Caps de setmana sencers amb baralles constants pesen molt.\n\nQuants fills tens i quines edats tenen, aproximadament? Això m'ajudaria a entendre millor la situació.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 228,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Tinc dos fills. El gran té onze anys i la petita en té vuit. Les baralles són per qualsevol cosa: el comandament de la televisió, qui s'asseu on, qui tria el joc... Tot és un motiu de conflicte."
+  },
+  {
+   "qui": "TARA",
+   "text": "Sí, onze i vuit anys és una combinació on això passa molt — cadascú ja té prou criteri propi per defensar el que vol, i prou energia per no cedir.\n\nQuan esclata una baralla, com sol anar? Qui intervé primer, tu o s'escalfen sols fins que has d'entrar?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 360,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 85,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Normalment s'escalfen sols primer. Jo intento no intervenir de seguida, per veure si ho resolen ells. Però quasi sempre acaba amb crits i he d'entrar jo. I llavors els dos em vénen amb la seva versió i és molt difícil saber qui té raó."
+  },
+  {
+   "qui": "TARA",
+   "text": "Té molt de sentit el que fas — donar-los espai primer és una bona idea. I quan has d'entrar, et trobes enmig de dues versions i la pressió de decidir qui té raó.\n\nPotser no cal trobar qui té raó. El que solen necessitar a aquesta edat és que algú posi ordre, no que faci de jutge.\n\nT'agradaria explorar alguna manera concreta de respondre quan has d'entrar, sense haver de decidir qui tenia raó?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 522,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 128,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exactament això és el que necessito. Alguna cosa pràctica que pugui aplicar en aquell moment. Perquè quan entro ja estic cansada i no sé què dir per aturar-ho sense que cap dels dos se senti injustament tractat."
+  },
+  {
+   "qui": "TARA",
+   "text": "Entesos. Aquí tens uns passos concrets per a aquell moment:\n\n**Quan entres:**\nDigues una cosa curta i ferma, sense prendre partit: *\"Paro. Ara no parla ningú.\"* No expliquis res, no demanis versions encara. Només atura el motor.\n\n**Quan s'ha calmat una mica:**\nParla amb cadascun per separat, si pots, o en ordre. *\"Tu primer, sense interrompre. Després tu.\"* No busques qui té raó — escoltes com se sent cadascun.\n\n**La frase clau:**\nEn lloc de *\"qui ha començat\"*, prova *\"Què necessiteu ara per poder seguir la tarda bé?\"* Això els desplaça de la batalla a buscar una sortida.\n\n**Si el conflicte és per un objecte** (comandament, joc...):\nPots decidir tu directament: *\"Ara ho deixem aquí cinc minuts i després trieu per torns.\"* No negociis quan estan encesos — la norma la poses tu.\n\n---\n\nUna cosa important: no has de ser justa en el sentit de donar-los el mateix. Has de ser clara. Ells necessiten que algú prengui les regnes, no que els donis la raó.\n\nVols que practiquem com dir alguna d'aquestes frases amb les teves paraules?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 352,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Escolti, jo no he dit que em preocupi que se sentin injustament tractats per mi. He dit que no sé com aturar la baralla en aquell moment. Són coses diferents.\n\nPerò sí, m'agradaria practicar com dir alguna cosa en aquell moment concret. Especialment la primera part, quan entro i he d'aturar-ho."
+  },
+  {
+   "qui": "TARA",
+   "text": "Tens raó, m'he avançat. Gràcies per corregir-me.\n\nAnem a la primera entrada. Com sol ser el moment just quan hi entres — hi ha crits, es diuen coses, s'empenten...? Descriu-m'ho una mica perquè la frase s'ajusti al que et trobes de veritat.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1173,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 94,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Normalment hi ha crits i es diuen coses de l'estil \"ets un idiota\" o \"sempre fas el mateix\". No s'empenten gaire, però el to és molt alt i els dos parlen alhora. És molt sorollós i caòtic."
+  },
+  {
+   "qui": "TARA",
+   "text": "Perfecte, ja ho veig. Dos parlant alhora, crits, insults... en aquell moment el que necessites és una sola cosa que talli el soroll.\n\nProva aquesta:\n\n*\"Pareu. Ara mateix.\"*\n\nCurt, ferm, sense explicació. El to compta més que les paraules — tranquil però sense dubte. No cal cridar més que ells; de vegades baixar el to sorprèn més que pujar-lo.\n\nSi no paren de seguida, pots repetir una sola vegada i afegir:\n\n*\"Fins que pareu, no passa res més.\"*\n\nSense amenaces, sense negociació. Només la pausa.\n\nVols provar com ho diries tu, amb les teves paraules?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1335,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 195,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "D'acord. Jo diria algo com... \"Pareu els dos. Ara.\" I si continuen, \"Fins que no esteu en silenci, no fem res més.\" Sona bé així?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Sona molt bé. És clar, és teu, i no pren partit per ningú.\n\nLa segona frase és especialment bona perquè no és una amenaça — és simplement la conseqüència natural. Ells decideixen quan es reprèn la tarda.\n\nHo tens.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1582,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 75,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Bé, doncs. Això ja m'ajuda. Ho provaré aquest cap de setmana. Gràcies."
+  },
+  {
+   "qui": "TARA",
+   "text": "Molt bé. Espero que et vagi bé aquest cap de setmana.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1692,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "id": "N2-G021",
+ "canal": "N2",
+ "idioma": "es",
+ "titol": "desfogar-demanda · les xarxes socials i el que hi publica",
+ "tipus": "desfogar-demanda",
+ "persona": "Aina, abuela que cuida a los nietos. Situació: les xarxes socials i el que hi publica. Estil: parla de manera formal i ordenada.",
+ "guio": [
+  "Comença dient que avui només vol que l'escoltin. Explica la situació si TARA escolta; si TARA dona consells o fa moltes preguntes, digues que de moment no en vols.",
+  "Uns torns després, demana una ajuda concreta i breu relacionada (dues línies, una frase o un primer pas).",
+  "Agraeix i tanca."
+ ],
+ "espera": "Escoltar primer sense preguntes ni solucions; lliurar l'ajuda concreta en el torn que es demana; tancar sense allargar.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:24:35.511Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estoy aquí para apoyar a la familia y ayudarte a preparar lo que necesites — una conversación, una situación que te ha preocupado, o lo que traes hoy. ¿Por dónde quieres que empecemos?",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola. Hoy solo necesito que me escuchen, si no le importa."
+  },
+  {
+   "qui": "TARA",
+   "text": "Aquí estoy. Cuéntame.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 186,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. Es sobre mi nieta mayor. Tiene catorce años y publica cosas en las redes sociales que me preocupan. Fotos suyas, comentarios de desconocidos... y sus padres no parecen darse cuenta de la gravedad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Te preocupa lo que ves, y además sientes que estás sola en esa preocupación. Cuéntame más si quieres.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 269,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Exacto. Me siento sola en esto. Yo lo veo y me quedo sin dormir. La niña publica fotos muy personales y hay personas que le escriben cosas que no me parecen apropiadas. Y cuando lo comento en casa, me dicen que soy mayor y que no entiendo cómo funciona esto hoy en día."
+  },
+  {
+   "qui": "TARA",
+   "text": "Qué difícil quedarte con esa preocupación dentro, sin dormir, y encima sentir que te descartan por la edad.\n\nLo que describes —fotos personales, comentarios de desconocidos que no te parecen apropiados— es algo que te está pesando de verdad. Y tiene sentido que pese.\n\n¿Quieres quedarte un momento con eso, o te ayudaría pensar en cómo decírselo a sus padres de una manera que puedan escucharte?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 397,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 130,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "De momento solo quería contarlo. No estoy lista todavía para pensar en qué hacer. Gracias por escucharme."
+  },
+  {
+   "qui": "TARA",
+   "text": "Gracias a ti por contármelo. Aquí estaré cuando estés lista.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 562,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Lo agradezco mucho. Aunque... ahora que lo pienso, sí me gustaría una pequeña ayuda. Solo una cosa concreta, sin más. ¿Cómo podría empezar a hablar con los padres sin que sientan que los estoy criticando?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Podrías empezar desde tu preocupación, no desde lo que ellos hacen o dejan de hacer. Algo así:\n\n*«Quiero contaros algo que me quita el sueño, y necesito que me escuchéis un momento.»*\n\nAsí abres desde ti, sin señalar a nadie. Y les das la oportunidad de entrar contigo, no a defenderse.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 660,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 101,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Eso es justo lo que necesitaba. Una frase sencilla, desde mí. Muchas gracias, de verdad. Me ha ayudado mucho poder hablar hoy."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido. Cuídate mucho.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 810,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 19,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Igualmente. Hasta otro día."
+  },
+  {
+   "qui": "TARA",
+   "text": "Hasta otro día.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 841,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4896,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 17,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}

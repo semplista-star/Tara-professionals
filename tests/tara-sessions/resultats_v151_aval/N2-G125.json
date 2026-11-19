@@ -1,0 +1,97 @@
+{
+ "C1": 1,
+ "C2": 2,
+ "C3": 0,
+ "C4": 2,
+ "C5": 1,
+ "C6": 1,
+ "bloquejants": [],
+ "senyal_esperada": false,
+ "entesa": "TARA va entendre que la mare necessitava orientació pràctica i va lliurar-la bé, però va acumular elogis automàtics, atribucions i fórmules que comprometen la qualitat CNV al llarg de tota la sessió.",
+ "problemes": [
+  {
+   "torn": 1,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "això ja diu molt de tu com a mare",
+   "esperat": "Ometre el judici valoratiu; reflectir el que la persona ha expressat sense avaluar-la"
+  },
+  {
+   "torn": 1,
+   "categoria": "atribucio",
+   "gravetat": "mitjana",
+   "cita": "tu notes alguna cosa que va més enllà de la porta",
+   "esperat": "Formular com a hipòtesi oberta: «sembla que hi ha alguna cosa més que et preocupa?»"
+  },
+  {
+   "torn": 2,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "No ets un desastre de mare. El fet que t'importi tant i que busquis la manera d'apropar-t'hi sense fer-li mal — això és justament el contrari.",
+   "esperat": "No avaluar ni contraevaluar la persona; si cal respondre al comentari, reflectir el sentiment sense jutjar"
+  },
+  {
+   "torn": 2,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "té sentit que la teva intuïció s'hagi activat",
+   "esperat": "Evitar la fórmula validadora genèrica; si es vol reconèixer, fer-ho amb contingut específic o no fer-ho"
+  },
+  {
+   "torn": 2,
+   "categoria": "atribucio",
+   "gravetat": "alta",
+   "cita": "Trista, pla, irritable... o és difícil de llegir?",
+   "esperat": "Preguntar de manera oberta sense suggerir estats interns: «Com el veus quan esteu junts?»"
+  },
+  {
+   "torn": 3,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "te la mereixeixes",
+   "esperat": "Ometre el judici; passar directament a la resposta"
+  },
+  {
+   "torn": 3,
+   "categoria": "solucio_no_demanada",
+   "gravetat": "mitjana",
+   "cita": "sense que en Marc ho sàpiga necessàriament de moment",
+   "esperat": "La mare no havia demanat consell sobre com gestionar la informació amb el fill; ometre aquest detall no sol·licitat"
+  },
+  {
+   "torn": 4,
+   "categoria": "formula_repetida",
+   "gravetat": "mitjana",
+   "cita": "Té molt de sentit que vulguis estar segura abans.",
+   "esperat": "Evitar la fórmula validadora; reconèixer la preocupació concreta sense etiqueta genèrica"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "m'has explicat molt, i molt bé",
+   "esperat": "Ometre l'avaluació positiva de la persona; centrar-se en el límit del canal"
+  },
+  {
+   "torn": 4,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Et converteix en una mare que ha estat atenta. Això és exactament el que se suposa que has de fer.",
+   "esperat": "No avaluar el comportament de la mare ni dir-li el que «se suposa» que ha de fer; explicar el valor de la consulta sense jutjar"
+  },
+  {
+   "torn": 4,
+   "categoria": "massa_llarg",
+   "gravetat": "mitjana",
+   "cita": "T'entenc. No vols anar al metge i que et facin sentir que has exagerat — i a sobre amb el teu marit que ja et diu que t'agobies. Té molt de sentit que vulguis estar segura abans. Però he de ser honesta amb tu...",
+   "esperat": "Resposta més breu: reconèixer el límit del canal i oferir l'alternativa pràctica sense el preàmbul extens"
+  },
+  {
+   "torn": 6,
+   "categoria": "elogi_automatic",
+   "gravetat": "alta",
+   "cita": "Has fet bé de confiar en el que senties.",
+   "esperat": "Tancar sense avaluar la decisió de la persona; un comiat breu i càlid és suficient"
+  }
+ ]
+}

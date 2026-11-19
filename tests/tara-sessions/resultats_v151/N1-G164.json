@@ -1,0 +1,162 @@
+{
+ "id": "N1-G164",
+ "canal": "N1",
+ "idioma": "es",
+ "titol": "que-faig · un alumne que no fa res a classe i contesta malament",
+ "tipus": "que-faig",
+ "persona": "Sara, coordinador de convivencia. Situació: un alumne que no fa res a classe i contesta malament. Estil: s'enrotlla i explica molts detalls.",
+ "guio": [
+  "Explica un dubte sobre una decisió que et toca prendre a tu i acaba amb «no sé què fer, digues-m'ho tu».",
+  "Si TARA et torna la pregunta, insisteix que vols opcions.",
+  "Tria una opció i demana com començar."
+ ],
+ "espera": "Opcions concretes amb implicacions, sense decidir ni tornar la pregunta.",
+ "model": "claude-sonnet-4-6",
+ "variant": null,
+ "data": "2026-11-19T19:22:36.547Z",
+ "flags": {
+  "senyal": 0,
+  "sessioCompleta": true
+ },
+ "log": [
+  {
+   "qui": "TARA",
+   "text": "Hola. Soy Tara. Estás aquí para preparar algo, para procesar alguna situación — o simplemente porque hoy necesitabas un espacio. Cuéntame.",
+   "salutacio": true
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Hola, mira, te cuento porque llevo toda la mañana dándole vueltas a esto y no sé cómo salir. Tengo un alumno, se llama Adrián, está en tercero de la ESO, y la situación es que desde hace semanas no hace absolutamente nada en clase. O sea, nada de nada. Se sienta, saca el móvil, o simplemente se queda mirando al techo, y cuando los profes le dicen algo, contesta fatal, con malos modos, a veces incluso con palabras que no vienen al caso. Los tutores ya me lo han derivado a mí porque claro, es mi competencia como coordinadora de convivencia, y yo he hablado con él un par de veces pero la cosa no mejora. He hablado también con la familia, con la madre concretamente, que es con quien vive, y la madre me dice que en casa tampoco está bien, que hay una situación complicada desde que el padre se fue, hace como ocho meses, y que ella no sabe qué hacer con él. Y claro, yo entiendo el contexto, lo entiendo perfectamente, pero también tengo que hacer algo porque los profes están hasta arriba y el chico está"
+  },
+  {
+   "qui": "TARA",
+   "text": "Perdiendo el curso, y tú estás en medio de todo.\n\nLlevas la mañana dándole vueltas porque no es un caso sencillo: ves el contexto, entiendes por qué Adrián está como está, y al mismo tiempo tienes que responder a los profes, a la madre, y al propio chico, que no está respondiendo a lo que has intentado hasta ahora.\n\n¿Qué es lo que más te pesa en este momento: cómo llegar a él, cómo sostener a los profes, o cómo coordinar con la madre?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 438,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 146,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, exacto, estoy en medio de todo. Y lo que más me pesa... mira, es que tengo que tomar una decisión sobre si aplicarle un expediente disciplinario o no. Porque los profes me están presionando, me dicen que necesitan que haya consecuencias, que si no el resto de la clase también empieza a desconectar viendo que Adrián hace lo que quiere sin que pase nada. Y yo lo entiendo, tienen razón en eso. Pero por otro lado pienso que este chico está pasando por algo muy gordo, lo del padre no es una tontería, ocho meses son ocho meses y la madre me dijo que Adrián prácticamente no ha hablado del tema, que se lo ha guardado todo, y yo creo que un expediente ahora mismo puede ser la gota que colme el vaso, ¿sabes? Que lo acabe de hundir. Pero si no hago nada, los profes pierden la confianza en mí, la situación en el aula se deteriora más, y Adrián tampoco recibe ningún mensaje claro. O sea, estoy entre la espada y la pared. No sé qué hacer, dímelo"
+  },
+  {
+   "qui": "TARA",
+   "text": "Estás entre dos riesgos reales, y los dos te importan. Eso es lo que hace que esto pese tanto.\n\nNo puedo decirte qué decidir, porque eso te corresponde a ti y al equipo. Pero sí puedo ayudarte a ver qué implica cada camino.\n\n---\n\n**Si abres expediente ahora**\nEnvías un mensaje claro al grupo y a los profes de que hay consecuencias. El riesgo es que Adrián lo viva como un golpe más en un momento en que ya está muy frágil, y que se cierre todavía más. Un expediente sin acompañamiento paralelo puede empujar hacia fuera a quien ya está al límite.\n\n**Si no haces nada visible**\nLos profes pierden referencia, la clase nota el vacío, y Adrián tampoco recibe ninguna señal de que alguien está tomando en serio lo que pasa. El riesgo es que el silencio institucional se lea como abandono, tanto por él como por el resto.\n\n**Una tercera vía que a veces abre espacio**\nSeparar la respuesta al grupo de la respuesta a Adrián. Con los profes y la clase: una intervención visible que nombre que la situación se está atendiendo, sin que sea necesariamente un expediente. Con Adrián: una conversación distinta, no disciplinaria, en la que alguien le diga directamente que se ve que algo gordo está pasando, y que el centro no va a mirar para otro lado.\n\n---\n\nHay algo que no sé y que cambiaría mucho el análisis: en las conversaciones que has tenido con él, ¿cómo ha respondido Adrián cuando no estaba en modo defensivo? ¿Ha habido algún momento de contacto real?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 887,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Mira, sí, ha habido algún momento. Una vez, la segunda vez que hablé con él, le pregunté cómo estaba él, no como alumno sino él como persona, y se quedó callado un momento, y luego me dijo \"regular\". Solo eso, \"regular\", pero para mí fue mucho porque normalmente se pone en modo escudo total. O sea que algo hay ahí. Pero oye, yo lo que necesito ahora mismo es que me digas opciones concretas, porque llevo dando vueltas sola y necesito que alguien me diga \"mira, puedes hacer esto, o esto otro, o esto otro\". Que me lo pongas encima de la mesa. Que yo luego decido, pero necesito verlo."
+  },
+  {
+   "qui": "TARA",
+   "text": "Ese \"regular\" es importante. Hay contacto posible.\n\nAquí tienes opciones concretas:\n\n---\n\n**Opción 1: Expediente + acompañamiento simultáneo**\nAbres el expediente por las conductas concretas, pero lo vinculas desde el principio a un plan de apoyo. Le dices a Adrián, en privado y antes de que llegue el papel, que el centro está tomando medidas porque le importa lo que pasa, no para castigarle. Requiere coordinación muy ajustada con orientación y con la madre. El riesgo: si el acompañamiento no es real y sostenido, el expediente queda solo.\n\n**Opción 2: Medida alternativa visible, sin expediente todavía**\nPropones al equipo docente una respuesta formal pero no disciplinaria: un plan de seguimiento individualizado, con compromisos concretos por escrito, firmado por Adrián, la madre y el centro. Los profes ven que hay una respuesta institucional. Adrián recibe un mensaje claro sin que sea una sanción. Guardas el expediente como paso siguiente si no hay cambio en un plazo acordado.\n\n**Opción 3: Conversación con Adrián primero, antes de decidir**\nUna conversación distinta a las anteriores. No para pedirle que cambie, sino para decirle lo que ves: que algo gordo está pasando, que el \"regular\" lo escuchaste, y que quieres saber qué necesitaría él para estar un poco mejor en el instituto. Lo que diga —o no diga— te da información real antes de tomar la decisión. Implica pedir unos días más a los profes, lo que tiene un coste político que tú valoras mejor que yo.\n\n**Opción 4: Reunión de coordinación antes de actuar**\nAntes de cualquier medida, convocas a los profes implicados, orientación y dirección para poner en común lo que cada uno sabe y decidir juntos. Distribuye la presión que ahora llevas tú sola. El riesgo: puede percibirse como dilación si no tiene un orden del día claro y un plazo de resolución.\n\n---\n\n¿Alguna de estas te resuena, o hay algo que no encaja con lo que conoces del centro o de Adrián?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 1519,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 579,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Sí, la dos me resuena. Lo del plan de seguimiento individualizado, con compromisos por escrito y todo eso. Porque creo que los profes verían que hay una respuesta, y Adrián no se hundiría con un expediente encima. Me parece que puede funcionar. Pero ahora dime, ¿cómo empiezo? O sea, ¿por dónde arranco esto?"
+  },
+  {
+   "qui": "TARA",
+   "text": "Bien. Por aquí te lo desgloso en pasos concretos.\n\n---\n\n**Primero: habla con dirección hoy o mañana**\nAntes de mover nada, necesitas que dirección esté alineada. No para pedir permiso, sino para que la medida tenga respaldo institucional y los profes lo perciban así. Un mensaje breve: \"Voy a proponer un plan de seguimiento individualizado para Adrián como respuesta formal. ¿Lo vemos un momento?\"\n\n**Segundo: convoca a los profes implicados, con un orden del día claro**\nNo una reunión abierta, sino concreta: \"Vamos a acordar qué compromisos pedimos al alumno y qué seguimiento hacemos nosotros.\" Que salgan con algo decidido, no solo con más conversación. Esto les da la respuesta visible que necesitan.\n\n**Tercero: habla con la madre antes de hablar con Adrián**\nQue no le llegue por sorpresa. Explícale que el centro va a proponer un plan, que no es un expediente, y que necesitáis que ella esté dentro. Su implicación —aunque sea mínima— cambia mucho el peso que tiene el documento para Adrián.\n\n**Cuarto: la conversación con Adrián**\nLa última, no la primera. Cuando ya tienes el respaldo de dirección, el acuerdo con los profes y a la madre informada. Así entras con algo concreto que ofrecerle, no solo con buenas intenciones. Y puedes retomar ese \"regular\": \"La otra vez me dijiste que estabas regular. Quiero contarte qué vamos a hacer.\"\n\n**El documento en sí**\nQue sea sencillo: dos o tres compromisos observables de su parte, dos o tres de la vuestra, un plazo de revisión —cuatro o seis semanas—, y firmas. Que él lo firme también, no como trámite sino como acto: \"esto lo acordamos juntos.\"\n\n---\n\n¿Quieres que te ayude a preparar alguno de estos pasos en concreto, la conversación con Adrián, el documento, o lo que decirle a los profes?",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2204,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 547,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Oye, pues mira, me ha venido muy bien esto. En serio. Porque llegué aquí con todo mezclado en la cabeza y ahora tengo un orden, que es lo que necesitaba. Lo de hablar primero con dirección me parece clave, tienes razón, porque si no los profes van a pensar que me lo estoy inventando yo sola. Y lo de la madre antes que Adrián también, porque si a él le llega de rebote se va a cerrar en banda seguro. Así que creo que ya sé por dónde empezar. Muchas gracias, de verdad."
+  },
+  {
+   "qui": "TARA",
+   "text": "Me alegra que haya servido. Llegaste con todo mezclado y te vas con un orden claro y tuyo, que es lo que importa.\n\nMucho ánimo con dirección hoy. Y con Adrián cuando llegue el momento.",
+   "tags": [],
+   "usage": {
+    "input_tokens": 2906,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 63,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  },
+  {
+   "qui": "PERSONA",
+   "text": "Gracias. Venga, voy a por ello."
+  },
+  {
+   "qui": "TARA",
+   "text": "Venga. Suerte.",
+   "tags": [
+    "SESSIO_COMPLETA"
+   ],
+   "usage": {
+    "input_tokens": 2987,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4782,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 21,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+   }
+  }
+ ]
+}
